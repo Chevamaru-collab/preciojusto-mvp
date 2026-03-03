@@ -213,11 +213,7 @@ function renderKPIs(data) {
 }
 
 // ---- INSIGHT HERO ----
-function renderInsightHero(data) {
-    const el = document.getElementById('insight-card');
-    if (!el) return;
-
-    // Use last 3 days to capture both Metro and Wong data (same logic as compare grid)
+function buildBestInsight(data) {
     const sortedDates = [...new Set(data.map(d => d.fecha))].sort((a, b) => parseDate(b) - parseDate(a));
     const recentDates = new Set(sortedDates.slice(0, 3));
     const recent = data.filter(d => recentDates.has(d.fecha));
@@ -227,28 +223,22 @@ function renderInsightHero(data) {
     recent.forEach(d => {
         const k = prodKey(d);
         if (!byProd[k]) byProd[k] = {};
-        if (!byProd[k][d.super] || d.pxum < byProd[k][d.super].pxum) {
-            byProd[k][d.super] = d;
-        }
+        if (!byProd[k][d.super] || d.pxum < byProd[k][d.super].pxum) byProd[k][d.super] = d;
     });
 
     const compared = Object.entries(byProd).filter(([, supers]) => supers['Metro'] && supers['Wong']);
+    if (!compared.length) return null;
 
-    if (!compared.length) {
-        el.innerHTML = '<p style="color:var(--text3);text-align:center;padding:24px">Sin datos comparables disponibles</p>';
-        return;
-    }
-
-    // Find the product pair with the biggest pxum difference
     const [, bestSupers] = compared.reduce((maxPair, curr) => {
         const [, cs] = curr;
         const [, ms] = maxPair;
         return Math.abs(cs['Metro'].pxum - cs['Wong'].pxum) > Math.abs(ms['Metro'].pxum - ms['Wong'].pxum)
             ? curr : maxPair;
     });
+    return { metro: bestSupers['Metro'], wong: bestSupers['Wong'] };
+}
 
-    const metro = bestSupers['Metro'];
-    const wong = bestSupers['Wong'];
+function insightCardHTML(metro, wong) {
     const metroWins = metro.pxum <= wong.pxum;
     const winner = metroWins ? metro : wong;
     const loser = metroWins ? wong : metro;
@@ -256,10 +246,9 @@ function renderInsightHero(data) {
     const savings = loser.pxum - winner.pxum;
     const um = winner.um || 'Lt';
     const icon = winner.categoria === 'Arroz' ? '🌾' : '🛢️';
-
-    el.innerHTML = `
+    return `
       <div class="insight-left">
-        <div class="insight-label">🏆 Mayor diferencia de precio hoy</div>
+        <div class="insight-label">🏆 Mayor diferencia · ${winner.categoria}</div>
         <div class="insight-product">${icon} ${winner.tipo}${winner.clase ? ' ' + winner.clase : ''} · ${winner.presentacion} ${um}</div>
         <div class="insight-price">${fmtSoles(winner.pxum)}<span class="insight-um">/ ${um}</span></div>
         <div class="insight-super-badge insight-${winnerName.toLowerCase()}">${winnerName} más barato</div>
@@ -274,8 +263,36 @@ function renderInsightHero(data) {
           <span class="insight-price-sm ${!metroWins ? 'winner' : 'loser'}">${fmtSoles(wong.pxum)}<small>/${um}</small></span>
         </div>
         <div class="insight-savings">↓ Ahorras ${fmtSoles(savings)} / ${um}</div>
-      </div>
-    `;
+      </div>`;
+}
+
+function renderInsightHero(data) {
+    const el = document.getElementById('insight-card');
+    if (!el) return;
+
+    if (filters.categoria === 'Todos') {
+        const aceiteInsight = buildBestInsight(data.filter(d => d.categoria === 'Aceite'));
+        const arrozInsight  = buildBestInsight(data.filter(d => d.categoria === 'Arroz'));
+
+        if (!aceiteInsight && !arrozInsight) {
+            el.className = 'insight-card';
+            el.innerHTML = '<p style="color:var(--text3);text-align:center;padding:24px">Sin datos comparables disponibles</p>';
+            return;
+        }
+        el.className = 'insight-card insight-card--dual';
+        el.innerHTML = [
+            aceiteInsight ? `<div class="insight-panel">${insightCardHTML(aceiteInsight.metro, aceiteInsight.wong)}</div>` : '',
+            arrozInsight  ? `<div class="insight-panel">${insightCardHTML(arrozInsight.metro,  arrozInsight.wong)}</div>`  : ''
+        ].join('');
+    } else {
+        const insight = buildBestInsight(data);
+        el.className = 'insight-card';
+        if (!insight) {
+            el.innerHTML = '<p style="color:var(--text3);text-align:center;padding:24px">Sin datos comparables disponibles</p>';
+            return;
+        }
+        el.innerHTML = insightCardHTML(insight.metro, insight.wong);
+    }
 }
 
 // ---- COMPARE GRID ----

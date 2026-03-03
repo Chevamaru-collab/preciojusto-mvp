@@ -253,9 +253,23 @@ body {
   margin-top: 12px; font-size: 13px; font-weight: 700; color: var(--green);
   text-align: center; padding: 8px; background: rgba(16,185,129,0.1); border-radius: 8px;
 }
+/* Dual mode: categoria = Todos → 2 cards side by side */
+.insight-card--dual {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start;
+}
+.insight-panel {
+  display: flex; gap: 20px; align-items: flex-start;
+}
+.insight-panel .insight-right { min-width: 160px; }
+.insight-panel .insight-price { font-size: 34px; }
+@media (max-width: 1100px) {
+  .insight-panel { flex-direction: column; gap: 12px; }
+  .insight-panel .insight-right { width: 100%; min-width: unset; }
+}
 @media (max-width: 768px) {
   .insight-hero { padding: 24px 0 12px; }
   .insight-card { flex-direction: column; gap: 20px; padding: 20px; }
+  .insight-card--dual { grid-template-columns: 1fr; gap: 16px; }
   .insight-price { font-size: 36px; }
   .insight-right { width: 100%; min-width: unset; }
 }
