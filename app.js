@@ -30,31 +30,30 @@ function getFiltered(data) {
         return true;
     });
 }
-function updateTipoChips() {
+function updateTipoOptions() {
     const cat = filters.categoria;
-    const tipoEl = document.getElementById('filter-tipo');
+    const el = document.getElementById('filter-tipo');
     const label = document.getElementById('filter-tipo-label');
-    let chips = [];
+    let opts = [];
     if (cat === 'Todos' || cat === 'Aceite') {
-        chips = [
-            { v: 'Todos', l: 'Todos' }, { v: 'Vegetal', l: 'Vegetal' }, { v: 'De Oliva', l: 'Oliva' },
-            { v: 'De Girasol', l: 'Girasol' }, { v: 'De Cártamo', l: 'Cártamo' }
+        opts = [
+            { v: 'Todos', l: 'Todos los tipos' }, { v: 'Vegetal', l: 'Vegetal' },
+            { v: 'De Oliva', l: 'Oliva' }, { v: 'De Girasol', l: 'Girasol' }, { v: 'De Cártamo', l: 'Cártamo' }
         ];
         if (label) label.textContent = 'Tipo de Aceite';
     } else {
-        chips = [
-            { v: 'Todos', l: 'Todos' }, { v: 'Extra', l: 'Extra' }, { v: 'Extra Añejo', l: 'Extra Añejo' },
+        opts = [
+            { v: 'Todos', l: 'Todos los tipos' }, { v: 'Extra', l: 'Extra' },
+            { v: 'Extra Añejo', l: 'Extra Añejo' }, { v: 'Añejo Extra', l: 'Añejo Extra' },
             { v: 'Superior', l: 'Superior' }, { v: 'Integral', l: 'Integral' }, { v: 'Gran Reserva', l: 'Gran Reserva' }
         ];
         if (label) label.textContent = 'Tipo de Arroz';
     }
-    if (tipoEl) {
-        tipoEl.innerHTML = chips.map(c =>
-            `<button class="chip${filters.tipo === c.v ? ' active' : ''}" data-value="${c.v}" onclick="setFilter('tipo','${c.v}',this)">${c.l}</button>`
-        ).join('');
-    }
+    if (el) el.innerHTML = opts.map(o =>
+        `<option value="${o.v}"${filters.tipo === o.v ? ' selected' : ''}>${o.l}</option>`
+    ).join('');
 }
-function updateMarcaChips() {
+function updateMarcaOptions() {
     const base = rawData.filter(d => {
         if (filters.categoria !== 'Todos' && d.categoria !== filters.categoria) return false;
         if (filters.super !== 'Todos' && d.super !== filters.super) return false;
@@ -65,12 +64,11 @@ function updateMarcaChips() {
     const el = document.getElementById('filter-marca');
     if (!el) return;
     el.innerHTML = [
-        `<button class="chip${filters.marca === 'Todos' ? ' active' : ''}" data-value="Todos" onclick="setFilter('marca','Todos',this)">Todas</button>`,
-        ...marcas.map(m =>
-            `<button class="chip${filters.marca === m ? ' active' : ''}" data-value="${m}" onclick="setFilter('marca',${JSON.stringify(m)},this)">${m}</button>`)
+        `<option value="Todos"${filters.marca === 'Todos' ? ' selected' : ''}>Todas las marcas</option>`,
+        ...marcas.map(m => `<option value="${m}"${filters.marca === m ? ' selected' : ''}>${m}</option>`)
     ].join('');
 }
-function updatePresentacionChips() {
+function updatePresentacionOptions() {
     const base = rawData.filter(d => {
         if (filters.categoria !== 'Todos' && d.categoria !== filters.categoria) return false;
         if (filters.super !== 'Todos' && d.super !== filters.super) return false;
@@ -82,10 +80,10 @@ function updatePresentacionChips() {
     const el = document.getElementById('filter-pres');
     if (!el) return;
     el.innerHTML = [
-        `<button class="chip${filters.presentacion === 'Todos' ? ' active' : ''}" data-value="Todos" onclick="setFilter('presentacion','Todos',this)">Todas</button>`,
+        `<option value="Todos"${filters.presentacion === 'Todos' ? ' selected' : ''}>Todas las presentaciones</option>`,
         ...pres.map(p => {
             const [val, um] = p.split('|');
-            return `<button class="chip${filters.presentacion === val ? ' active' : ''}" data-value="${val}" onclick="setFilter('presentacion',${JSON.stringify(val)},this)">${val} ${um}</button>`;
+            return `<option value="${val}"${filters.presentacion === val ? ' selected' : ''}>${val} ${um}</option>`;
         })
     ].join('');
 }
@@ -100,16 +98,27 @@ window.setFilter = function (dim, value, el) {
     filters[dim] = value;
     if (dim === 'categoria') {
         filters.tipo = 'Todos'; filters.marca = 'Todos'; filters.presentacion = 'Todos';
-        updateTipoChips(); updateMarcaChips(); updatePresentacionChips();
+        updateTipoOptions(); updateMarcaOptions(); updatePresentacionOptions();
     } else if (dim === 'tipo') {
         filters.marca = 'Todos'; filters.presentacion = 'Todos';
-        updateMarcaChips(); updatePresentacionChips();
+        updateMarcaOptions(); updatePresentacionOptions();
     } else if (dim === 'marca') {
         filters.presentacion = 'Todos';
-        updatePresentacionChips();
+        updatePresentacionOptions();
     }
-    el.closest('.filter-chips').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-    el.classList.add('active');
+    // Active class only for chip buttons (Categoría y Supermercado)
+    if (el && el.tagName === 'BUTTON') {
+        el.closest('.filter-chips').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        el.classList.add('active');
+    }
+    renderAll();
+};
+window.clearFilters = function () {
+    filters = { super: 'Todos', tipo: 'Todos', categoria: 'Todos', marca: 'Todos', presentacion: 'Todos' };
+    document.querySelectorAll('#filter-cat .chip, #filter-super .chip').forEach(c => {
+        c.classList.toggle('active', c.dataset.value === 'Todos');
+    });
+    updateTipoOptions(); updateMarcaOptions(); updatePresentacionOptions();
     renderAll();
 };
 
@@ -577,8 +586,9 @@ window.closeMobileNav = function () {
 
 // ---- INIT ----
 document.addEventListener('DOMContentLoaded', () => {
-    updateMarcaChips();
-    updatePresentacionChips();
+    updateTipoOptions();
+    updateMarcaOptions();
+    updatePresentacionOptions();
     renderAll();
     setupNav();
     setupHamburger();

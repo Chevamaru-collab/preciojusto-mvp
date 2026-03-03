@@ -86,26 +86,26 @@
           </div>
         </div>
         <div class="filter-group">
-          <label class="filter-label" id="filter-tipo-label">Tipo</label>
-          <div class="filter-chips" id="filter-tipo">
-            <button class="chip active" data-value="Todos" onclick="setFilter('tipo','Todos',this)">Todos</button>
-            <button class="chip" data-value="Vegetal" onclick="setFilter('tipo','Vegetal',this)">Vegetal</button>
-            <button class="chip" data-value="De Oliva" onclick="setFilter('tipo','De Oliva',this)">Oliva</button>
-            <button class="chip" data-value="De Girasol" onclick="setFilter('tipo','De Girasol',this)">Girasol</button>
-            <button class="chip" data-value="De Cártamo" onclick="setFilter('tipo','De Cártamo',this)">Cártamo</button>
-          </div>
+          <label class="filter-label" id="filter-tipo-label">Tipo de Aceite</label>
+          <select class="filter-select" id="filter-tipo" onchange="setFilter('tipo', this.value, this)">
+            <option value="Todos">Todos los tipos</option>
+          </select>
         </div>
         <div class="filter-group">
           <label class="filter-label" id="filter-marca-label">Marca</label>
-          <div class="filter-chips" id="filter-marca">
-            <button class="chip active" data-value="Todos" onclick="setFilter('marca','Todos',this)">Todas</button>
-          </div>
+          <select class="filter-select" id="filter-marca" onchange="setFilter('marca', this.value, this)">
+            <option value="Todos">Todas las marcas</option>
+          </select>
         </div>
         <div class="filter-group">
           <label class="filter-label">Presentación</label>
-          <div class="filter-chips" id="filter-pres">
-            <button class="chip active" data-value="Todos" onclick="setFilter('presentacion','Todos',this)">Todas</button>
-          </div>
+          <select class="filter-select" id="filter-pres" onchange="setFilter('presentacion', this.value, this)">
+            <option value="Todos">Todas las presentaciones</option>
+          </select>
+        </div>
+        <div class="filter-group filter-group--clear">
+          <label class="filter-label">&nbsp;</label>
+          <button class="btn-clear-filters" onclick="clearFilters()">✕ Limpiar filtros</button>
         </div>
       </div>
     </div>

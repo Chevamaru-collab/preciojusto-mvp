@@ -1,0 +1,52 @@
+# PrecioJusto: UX Improvement & Data Automation Plan
+
+The goal is to prepare the "PrecioJusto" MVP for a beta test with a small group. We will focus on two main areas: improving the user experience of the filters and automating the daily update of the product database.
+
+## Proposed Changes
+
+### 🎨 UX Overhaul: Filters & Selectors
+The current "chip" system becomes cluttered when many brands or presentations are available.
+
+#### [MODIFY] [index.html](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/index.html)
+- Replace horizontal "chips" for **Marca**, **Tipo**, and **Presentación** with styled `<select>` dropdowns for better space management.
+- Keep **Categoría** and **Supermercado** as chips for quick toggle.
+- Add a "Clear Filters" button.
+
+#### [MODIFY] [style.css](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/style.css)
+- Add premium styles for the new select elements.
+- Improve the responsive layout of the filter bar (sticky positioning).
+- Enhance card visuals for a more "premium" feel (glassmorphism/subtle shadows).
+
+#### [MODIFY] [app.js](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/app.js)
+- Update filter event listeners to work with both chips and dropdowns.
+- Refactor [updateMarcaChips](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/app.js#57-73), [updateTipoChips](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/app.js#33-57), etc., to populate `<select>` options instead.
+
+---
+
+### 🤖 Data Automation: Browse.AI to MVP
+We need a way to easily update [data.js](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/data.js) daily using the CSV exports from Browse.AI.
+
+#### [NEW] [updateData.js](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/updateData.js)
+A Node.js utility script that:
+1. Scans the root directory for CSV files from Browse.AI.
+2. Parses the CSV content, cleaning up currency symbols ([S/.](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/app.js#17-20)) and converting percentages to numbers.
+3. Groups and dedupes data to avoid redundancies.
+4. Generates a fresh [data.js](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/data.js) file with the updated `rawData` array.
+
+#### [MODIFY] [package.json](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/package.json)
+- Add a script entry: `"update-data": "node updateData.js"`.
+
+## Verification Plan
+
+### Automated Verification
+- Run `node updateData.js` and verify that [data.js](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/data.js) is generated without syntax errors.
+- Check that the total number of records in [data.js](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/data.js) matches the sum of valid records in the CSVs.
+
+### Manual Verification
+1. Open [index.html](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/index.html) in a browser.
+2. Verify that selecting a Category (e.g., Arroz) updates the available Brands and Types in the dropdowns.
+3. Apply multiple filters (Supermarket = Metro, Brand = Primor) and verify the Table and Charts update correctly.
+4. Test the mobile view to ensuring the new dropdowns are usable on small screens.
+
+> [!IMPORTANT]
+> To update the data daily, the user will only need to place the new CSVs in the project folder and run `npm run update-data`.

@@ -412,6 +412,46 @@ body {
   .hamburger { display: flex; }
 }
 
+/* ---- FILTER SELECT ---- */
+.filter-select {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 36px 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  min-width: 180px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235a6480' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.filter-select:hover { border-color: var(--border2); }
+.filter-select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(79,142,247,0.15); }
+.filter-select option { background: var(--bg3); color: var(--text); }
+
+.btn-clear-filters {
+  padding: 8px 18px; border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent; color: var(--text3);
+  font-family: inherit; font-size: 13px; font-weight: 500;
+  cursor: pointer; transition: all 0.2s; white-space: nowrap;
+}
+.btn-clear-filters:hover { border-color: var(--red); color: var(--red); background: rgba(239,68,68,0.08); }
+
+/* ---- CARD VISUAL UPGRADE ---- */
+.kpi-card, .chart-card, .compare-card, .deal-card {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+.kpi-card:hover, .compare-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.45); }
+.deal-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.45); }
+
 /* ---- DEALS AGRUPADAS POR SUPER ---- */
 .deals-super-section { margin-bottom: 32px; }
 .deals-super-section:last-child { margin-bottom: 0; }
