@@ -3,7 +3,7 @@
 // ============================================================
 
 // ---- STATE ----
-let filters = { super: 'Todos', tipo: 'Todos', categoria: 'Todos' };
+let filters = { super: 'Todos', tipo: 'Todos', categoria: 'Todos', marca: 'Todos', presentacion: 'Todos' };
 let tableData = [];
 let sortMode = 'fecha';
 let searchQuery = '';
