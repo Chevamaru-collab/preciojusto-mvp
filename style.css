@@ -1,5 +1,5 @@
 /* ===========================
-   CANASTA PERÚ — OBSERVATORY
+   PRECIO JUSTO — OBSERVATORIO DE PRECIOS
    =========================== */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -377,4 +377,37 @@ body {
 }
 @media (max-width: 480px) {
   .kpi-grid { grid-template-columns: 1fr; }
+}
+
+/* ---- HAMBURGER & MOBILE NAV ---- */
+.hamburger {
+  display: none; flex-direction: column; gap: 5px;
+  background: none; border: none; cursor: pointer; padding: 6px;
+}
+.hamburger span {
+  display: block; width: 22px; height: 2px;
+  background: var(--text); border-radius: 2px;
+  transition: transform 0.25s, opacity 0.25s;
+}
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+.mobile-nav {
+  display: none; position: fixed; top: 64px; left: 0; right: 0;
+  background: var(--bg2); border-bottom: 1px solid var(--border);
+  z-index: 99; flex-direction: column; padding: 12px 0;
+}
+.mobile-nav.open { display: flex; }
+.mobile-nav-link {
+  padding: 14px 24px; font-size: 15px; font-weight: 500;
+  color: var(--text2); text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.2s, color 0.2s;
+}
+.mobile-nav-link:last-child { border-bottom: none; }
+.mobile-nav-link:hover { background: var(--bg3); color: var(--text); }
+
+@media (max-width: 768px) {
+  .hamburger { display: flex; }
 }

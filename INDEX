@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Observatorio de Precios · Canasta Básica Peruana</title>
+  <title>Observatorio de Precios · Precio Justo</title>
   <meta name="description"
-    content="Monitoreo de precios en tiempo real de los supermercados más importantes de Lima. Compara precios de aceite, arroz, azúcar y más." />
+    content="Monitorea y compara precios de aceites y arroz en Wong y Metro. Datos reales del mercado limeño." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
@@ -23,7 +23,7 @@
       <div class="logo">
         <span class="logo-icon">📊</span>
         <div>
-          <div class="logo-title">Canasta Perú</div>
+          <div class="logo-title">Precio Justo</div>
           <div class="logo-sub">Observatorio de Precios</div>
         </div>
       </div>
@@ -33,6 +33,9 @@
         <a href="#comparar" class="nav-link" id="nav-comparar">Comparar</a>
         <a href="#tabla" class="nav-link" id="nav-tabla">Datos</a>
       </nav>
+      <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
       <div class="header-badge">
         <span class="badge-dot"></span>
         Actualizado hoy
@@ -40,11 +43,18 @@
     </div>
   </header>
 
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    <a href="#resumen"    class="mobile-nav-link" onclick="closeMobileNav()">Resumen</a>
+    <a href="#tendencias" class="mobile-nav-link" onclick="closeMobileNav()">Tendencias</a>
+    <a href="#comparar"   class="mobile-nav-link" onclick="closeMobileNav()">Comparar</a>
+    <a href="#tabla"      class="mobile-nav-link" onclick="closeMobileNav()">Datos</a>
+  </div>
+
   <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-tag">🇵🇪 Lima, Perú · Feb–Mar 2026</div>
-      <h1 class="hero-title">Observatorio de Precios<br /><span class="gradient-text">Canasta Básica</span></h1>
+      <h1 class="hero-title">Observatorio de Precios<br /><span class="gradient-text">Precio Justo</span></h1>
       <p class="hero-desc">Monitoreo diario de aceites, arroz, azúcar y más en Wong y Metro. Datos reales, actualizados
         automáticamente.</p>
       <div class="hero-stats" id="hero-stats">
@@ -125,7 +135,10 @@
         </div>
         <div class="chart-card">
           <div class="chart-card-header">
-            <h3 class="chart-title">Descuentos Promedio (%)</h3>
+            <div>
+              <h3 class="chart-title" id="discount-chart-title">Descuentos Promedio (%)</h3>
+              <p style="font-size:11px;color:var(--text3);margin-top:4px" id="discount-chart-sub"></p>
+            </div>
           </div>
           <div class="chart-wrap chart-wrap--sm">
             <canvas id="discountChart"></canvas>
@@ -140,7 +153,7 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">¿Dónde comprar más barato?</h2>
-        <p class="section-desc">Precio online más reciente x litro, productos comparables entre supermercados</p>
+        <p class="section-desc">Precio online más reciente por unidad comparable (Lt o Kg), entre supermercados</p>
       </div>
       <div class="compare-grid" id="compare-grid">
         <!-- JS filled -->
@@ -206,7 +219,7 @@
     <div class="container">
       <div class="footer-inner">
         <div>
-          <div class="footer-logo">📊 Canasta Perú</div>
+          <div class="footer-logo">📊 Precio Justo</div>
           <div class="footer-desc">Datos extraídos con Browse.AI · Metro y Wong · Lima</div>
         </div>
         <div class="footer-sources">

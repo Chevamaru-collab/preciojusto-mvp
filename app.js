@@ -1,5 +1,5 @@
 // ============================================================
-// CANASTA PERÚ - OBSERVATORIO DE PRECIOS · app.js
+// PRECIO JUSTO - OBSERVATORIO DE PRECIOS · app.js
 // ============================================================
 
 // ---- STATE ----
@@ -157,8 +157,9 @@ function renderTrendChart(data) {
         // Specific tipo selected (e.g. Oliva, Girasol) — use all items of that tipo
         chartData = data.filter(d => d.tipo === tipoActivo);
     } else {
-        // Default for Aceite Todos: Vegetal 900ml single bottles
-        chartData = data.filter(d => d.tipo === 'Vegetal' && d.pack === 1 && d.presentacion === 0.9);
+        // categoria=Todos: Arroz usa S/Kg y Aceite usa S/Lt — no son comparables en la misma escala.
+        // Mostramos solo Aceite Vegetal como referencia del mercado.
+        chartData = data.filter(d => d.categoria === 'Aceite' && d.tipo === 'Vegetal');
     }
 
     const allDates = [...new Set(chartData.map(d => d.fecha))].sort((a, b) => parseDate(a) - parseDate(b));
@@ -185,6 +186,17 @@ function renderTrendChart(data) {
   `;
     const title = document.querySelector('.chart-card--wide .chart-title');
     if (title) title.textContent = isArroz ? 'Precio x Kg — Metro vs Wong' : 'Precio x Litro — Metro vs Wong';
+
+    const desc = document.querySelector('#tendencias .section-desc');
+    if (desc) {
+        if (isArroz) desc.textContent = 'Evolución del precio por kg (S/ x Kg) en el tiempo';
+        else if (filters.categoria === 'Todos') desc.textContent = 'Aceite Vegetal · S/ x Litro (selecciona "Aceite" o "Arroz" para ver todos los tipos)';
+        else desc.textContent = `${tipoActivo === 'Todos' ? 'Todos los tipos' : tipoActivo} · Evolución del precio por litro (S/ x Lt)`;
+    }
+
+    if (!allDates.length) {
+        if (trendChartInst) trendChartInst.destroy(); trendChartInst = null; return;
+    }
 
     const ctx = document.getElementById('trendChart').getContext('2d');
     if (trendChartInst) trendChartInst.destroy();
@@ -219,15 +231,27 @@ function renderTrendChart(data) {
 // ---- TYPE CHART (donut) ----
 let typeChartInst = null;
 function renderTypeChart(data) {
-    const latest = getLatest(data);
+    // Dedup por item (no por fecha) para que tipos con scrapes esporádicos no desaparezcan
+    const seenItems = new Set();
     const counts = {};
-    latest.forEach(d => {
-        const t = d.tipo || 'Otro';
-        counts[t] = (counts[t] || 0) + 1;
-    });
+    [...data]
+        .sort((a, b) => parseDate(b.fecha) - parseDate(a.fecha))
+        .forEach(d => {
+            if (seenItems.has(d.item)) return;
+            seenItems.add(d.item);
+            const t = d.tipo || 'Otro';
+            counts[t] = (counts[t] || 0) + 1;
+        });
     const labels = Object.keys(counts);
     const values = Object.values(counts);
     const colors = ['#4f8ef7', '#10b981', '#f59e0b', '#ef4444', '#a855f7', '#06b6d4'];
+
+    const chartTitleEl = document.querySelector('#typeChart')?.closest('.chart-card')?.querySelector('.chart-title');
+    if (chartTitleEl) {
+        chartTitleEl.textContent = filters.categoria === 'Arroz' ? 'Distribución por Tipo de Arroz'
+            : filters.categoria === 'Aceite' ? 'Distribución por Tipo de Aceite'
+            : 'Distribución por Tipo';
+    }
 
     const ctx = document.getElementById('typeChart').getContext('2d');
     if (typeChartInst) typeChartInst.destroy();
@@ -263,12 +287,22 @@ function renderTypeChart(data) {
 let discChartInst = null;
 function renderDiscountChart(data) {
     const withDisc = data.filter(d => d.descuento !== null && d.descuento < 0);
+    const subtitleEl = document.getElementById('discount-chart-sub');
     const bySuper = {};
     withDisc.forEach(d => {
         if (!bySuper[d.super]) bySuper[d.super] = [];
         bySuper[d.super].push(Math.abs(d.descuento));
     });
     const supers = Object.keys(bySuper);
+
+    if (!supers.length) {
+        if (discChartInst) discChartInst.destroy(); discChartInst = null;
+        if (subtitleEl) subtitleEl.textContent = 'No hay productos en oferta para el filtro seleccionado.';
+        return;
+    }
+
+    if (subtitleEl) subtitleEl.textContent = `Promedio entre los ${withDisc.length} productos en oferta (precio online vs. regular)`;
+
     const avgs = supers.map(s => (bySuper[s].reduce((a, b) => a + b, 0) / bySuper[s].length).toFixed(1));
     const colors = supers.map(s => s === 'Metro' ? '#e84040' : '#f5a623');
 
@@ -292,7 +326,10 @@ function renderDiscountChart(data) {
                 tooltip: {
                     backgroundColor: '#1a2235', borderColor: '#2d3b55', borderWidth: 1,
                     bodyColor: '#f0f4ff',
-                    callbacks: { label: ctx => ` Descuento prom: ${ctx.parsed.y}%` }
+                    callbacks: { label: c => {
+                        const n = bySuper[c.label]?.length || 0;
+                        return ` ${c.parsed.y}% prom. sobre ${n} producto${n !== 1 ? 's' : ''} en oferta`;
+                    }}
                 }
             },
             scales: {
@@ -314,7 +351,7 @@ function renderCompare(data) {
     const recent = data.filter(d => recentDates.has(d.fecha));
 
     // Group by tipo+clase+presentacion for comparison
-    const prodKey = d => `${d.tipo}|${d.clase || 'N/A'}|${d.presentacion}Lt`;
+    const prodKey = d => `${d.tipo}|${d.clase || 'N/A'}|${d.presentacion}${d.um || 'u'}`;
     const byProd = {};
     recent.forEach(d => {
         const k = prodKey(d);
@@ -337,16 +374,20 @@ function renderCompare(data) {
         const metro = supers['Metro'];
         const wong = supers['Wong'];
         const metroWins = metro.pxum <= wong.pxum;
+        const isArrozItem = metro.categoria === 'Arroz';
+        const icon = isArrozItem ? '🌾' : '🛢️';
+        const sizeLabel = `${metro.presentacion} ${metro.um || (isArrozItem ? 'kg' : 'L')}`;
+        const unit = metro.um || (isArrozItem ? 'kg' : 'Lt');
         return `
       <div class="compare-card">
-        <div class="compare-product">🛢️ ${metro.tipo} ${metro.clase ? '· ' + metro.clase : ''} · ${metro.presentacion}L</div>
+        <div class="compare-product">${icon} ${metro.tipo} ${metro.clase ? '· ' + metro.clase : ''} · ${sizeLabel}</div>
         <div class="compare-row">
           <div class="compare-super">
             <div class="super-dot metro"></div> Metro
             ${metroWins ? '<span class="winner-badge">+ barato</span>' : ''}
           </div>
           <div class="compare-prices">
-            <div class="compare-pxum ${metroWins ? 'winner' : 'loser'}">${fmtSoles(metro.pxum)}<span style="font-size:11px;font-weight:400;color:var(--text3)">/Lt</span></div>
+            <div class="compare-pxum ${metroWins ? 'winner' : 'loser'}">${fmtSoles(metro.pxum)}<span style="font-size:11px;font-weight:400;color:var(--text3)">/${unit}</span></div>
             <div class="compare-label">${fmtSoles(metro.precioOnline)} online</div>
           </div>
         </div>
@@ -356,7 +397,7 @@ function renderCompare(data) {
             ${!metroWins ? '<span class="winner-badge">+ barato</span>' : ''}
           </div>
           <div class="compare-prices">
-            <div class="compare-pxum ${!metroWins ? 'winner' : 'loser'}">${fmtSoles(wong.pxum)}<span style="font-size:11px;font-weight:400;color:var(--text3)">/Lt</span></div>
+            <div class="compare-pxum ${!metroWins ? 'winner' : 'loser'}">${fmtSoles(wong.pxum)}<span style="font-size:11px;font-weight:400;color:var(--text3)">/${unit}</span></div>
             <div class="compare-label">${fmtSoles(wong.precioOnline)} online</div>
           </div>
         </div>
@@ -442,8 +483,29 @@ function setupNav() {
     });
 }
 
+// ---- HAMBURGER MENU ----
+function setupHamburger() {
+    const btn = document.getElementById('hamburger-btn');
+    const nav = document.getElementById('mobile-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', () => {
+        const isOpen = nav.classList.toggle('open');
+        btn.classList.toggle('open', isOpen);
+        btn.setAttribute('aria-expanded', isOpen);
+        nav.setAttribute('aria-hidden', !isOpen);
+    });
+    window.addEventListener('scroll', closeMobileNav);
+}
+window.closeMobileNav = function () {
+    const btn = document.getElementById('hamburger-btn');
+    const nav = document.getElementById('mobile-nav');
+    if (nav) nav.classList.remove('open');
+    if (btn) { btn.classList.remove('open'); btn.setAttribute('aria-expanded', false); }
+};
+
 // ---- INIT ----
 document.addEventListener('DOMContentLoaded', () => {
     renderAll();
     setupNav();
+    setupHamburger();
 });
