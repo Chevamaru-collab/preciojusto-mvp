@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Observatorio de Precios · Canasta Básica Peruana</title>
+  <meta name="description"
+    content="Monitoreo de precios en tiempo real de los supermercados más importantes de Lima. Compara precios de aceite, arroz, azúcar y más." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">📊</span>
+        <div>
+          <div class="logo-title">Canasta Perú</div>
+          <div class="logo-sub">Observatorio de Precios</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#resumen" class="nav-link active" id="nav-resumen">Resumen</a>
+        <a href="#tendencias" class="nav-link" id="nav-tendencias">Tendencias</a>
+        <a href="#comparar" class="nav-link" id="nav-comparar">Comparar</a>
+        <a href="#tabla" class="nav-link" id="nav-tabla">Datos</a>
+      </nav>
+      <div class="header-badge">
+        <span class="badge-dot"></span>
+        Actualizado hoy
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-tag">🇵🇪 Lima, Perú · Feb–Mar 2026</div>
+      <h1 class="hero-title">Observatorio de Precios<br /><span class="gradient-text">Canasta Básica</span></h1>
+      <p class="hero-desc">Monitoreo diario de aceites, arroz, azúcar y más en Wong y Metro. Datos reales, actualizados
+        automáticamente.</p>
+      <div class="hero-stats" id="hero-stats">
+        <!-- JS filled -->
+      </div>
+    </div>
+    <div class="hero-scroll-hint">↓</div>
+  </section>
+
+  <!-- FILTROS -->
+  <section class="filters-bar" id="resumen">
+    <div class="container">
+      <div class="filters-row">
+        <div class="filter-group">
+          <label class="filter-label">Categoría</label>
+          <div class="filter-chips" id="filter-cat">
+            <button class="chip active" data-value="Todos" onclick="setFilter('categoria','Todos',this)">🛒
+              Todos</button>
+            <button class="chip" data-value="Aceite" onclick="setFilter('categoria','Aceite',this)">🫙 Aceite</button>
+            <button class="chip" data-value="Arroz" onclick="setFilter('categoria','Arroz',this)">🌾 Arroz</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Supermercado</label>
+          <div class="filter-chips" id="filter-super">
+            <button class="chip active" data-value="Todos" onclick="setFilter('super','Todos',this)">Todos</button>
+            <button class="chip" data-value="Metro" onclick="setFilter('super','Metro',this)">Metro</button>
+            <button class="chip" data-value="Wong" onclick="setFilter('super','Wong',this)">Wong</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" id="filter-tipo-label">Tipo</label>
+          <div class="filter-chips" id="filter-tipo">
+            <button class="chip active" data-value="Todos" onclick="setFilter('tipo','Todos',this)">Todos</button>
+            <button class="chip" data-value="Vegetal" onclick="setFilter('tipo','Vegetal',this)">Vegetal</button>
+            <button class="chip" data-value="De Oliva" onclick="setFilter('tipo','De Oliva',this)">Oliva</button>
+            <button class="chip" data-value="De Girasol" onclick="setFilter('tipo','De Girasol',this)">Girasol</button>
+            <button class="chip" data-value="De Cártamo" onclick="setFilter('tipo','De Cártamo',this)">Cártamo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KPI CARDS -->
+  <section class="section">
+    <div class="container">
+      <div class="kpi-grid" id="kpi-grid">
+        <!-- JS filled -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CHARTS ROW -->
+  <section class="section" id="tendencias">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tendencias de Precio</h2>
+        <p class="section-desc">Evolución del precio por litro (S/ x Lt) en el tiempo</p>
+      </div>
+      <div class="charts-grid">
+        <div class="chart-card chart-card--wide">
+          <div class="chart-card-header">
+            <h3 class="chart-title">Precio x Litro — Metro vs Wong</h3>
+            <div class="chart-legend" id="trend-legend"></div>
+          </div>
+          <div class="chart-wrap">
+            <canvas id="trendChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h3 class="chart-title">Distribución por Tipo</h3>
+          </div>
+          <div class="chart-wrap chart-wrap--sm">
+            <canvas id="typeChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h3 class="chart-title">Descuentos Promedio (%)</h3>
+          </div>
+          <div class="chart-wrap chart-wrap--sm">
+            <canvas id="discountChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARACION PRECIO x LITRO -->
+  <section class="section" id="comparar">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">¿Dónde comprar más barato?</h2>
+        <p class="section-desc">Precio online más reciente x litro, productos comparables entre supermercados</p>
+      </div>
+      <div class="compare-grid" id="compare-grid">
+        <!-- JS filled -->
+      </div>
+    </div>
+  </section>
+
+  <!-- BEST DEALS -->
+  <section class="section deals-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">💸 Mejores Ofertas Hoy</h2>
+        <p class="section-desc">Productos con mayor descuento respecto al precio regular</p>
+      </div>
+      <div class="deals-grid" id="deals-grid">
+        <!-- JS filled -->
+      </div>
+    </div>
+  </section>
+
+  <!-- TABLA DE DATOS -->
+  <section class="section" id="tabla">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Datos Completos</h2>
+        <div class="table-controls">
+          <input type="text" id="search-input" class="search-input" placeholder="🔍 Buscar producto..."
+            oninput="filterTable()" />
+          <select id="sort-select" class="sort-select" onchange="sortTable()">
+            <option value="fecha">Más Recientes</option>
+            <option value="precio-asc">Precio ↑</option>
+            <option value="precio-desc">Precio ↓</option>
+            <option value="pxum-asc">S/xLt ↑</option>
+            <option value="pxum-desc">S/xLt ↓</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table" id="data-table">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Super</th>
+              <th>Producto</th>
+              <th>Tipo</th>
+              <th>Precio Online</th>
+              <th>Precio Regular</th>
+              <th>Descuento</th>
+              <th>Vol. Total</th>
+              <th>S/ x Litro</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <!-- JS filled -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-logo">📊 Canasta Perú</div>
+          <div class="footer-desc">Datos extraídos con Browse.AI · Metro y Wong · Lima</div>
+        </div>
+        <div class="footer-sources">
+          <span class="footer-source">🛒 Metro</span>
+          <span class="footer-source">🛒 Wong</span>
+          <span class="footer-source">📅 Feb–Mar 2026</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
