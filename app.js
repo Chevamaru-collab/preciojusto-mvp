@@ -111,6 +111,7 @@ window.setFilter = function (dim, value, el) {
         el.closest('.filter-chips').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
         el.classList.add('active');
     }
+    updateFilterBadge();
     renderAll();
 };
 window.clearFilters = function () {
@@ -119,6 +120,7 @@ window.clearFilters = function () {
         c.classList.toggle('active', c.dataset.value === 'Todos');
     });
     updateTipoOptions(); updateMarcaOptions(); updatePresentacionOptions();
+    updateFilterBadge();
     renderAll();
 };
 
@@ -579,6 +581,23 @@ function setupNav() {
             l.classList.toggle('active', l.getAttribute('href') === '#' + cur);
         });
     });
+}
+
+// ---- MOBILE FILTERS TOGGLE ----
+window.toggleFilters = function () {
+    const panel = document.getElementById('filters-advanced');
+    const btn = document.getElementById('filters-toggle-btn');
+    if (!panel) return;
+    const isOpen = panel.classList.toggle('open');
+    if (btn) btn.classList.toggle('panel-open', isOpen);
+};
+
+function updateFilterBadge() {
+    const active = ['tipo', 'marca', 'presentacion'].filter(k => filters[k] !== 'Todos').length;
+    const badge = document.getElementById('filter-count-badge');
+    const btn = document.getElementById('filters-toggle-btn');
+    if (badge) { badge.textContent = active; badge.style.display = active ? 'inline-block' : 'none'; }
+    if (btn) btn.classList.toggle('has-active', active > 0);
 }
 
 // ---- HAMBURGER MENU ----

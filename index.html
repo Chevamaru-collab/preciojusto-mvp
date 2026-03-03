@@ -68,45 +68,56 @@
   <section class="filters-bar" id="resumen">
     <div class="container">
       <div class="filters-row">
-        <div class="filter-group">
-          <label class="filter-label">Categoría</label>
-          <div class="filter-chips" id="filter-cat">
-            <button class="chip active" data-value="Todos" onclick="setFilter('categoria','Todos',this)">🛒
-              Todos</button>
-            <button class="chip" data-value="Aceite" onclick="setFilter('categoria','Aceite',this)">🫙 Aceite</button>
-            <button class="chip" data-value="Arroz" onclick="setFilter('categoria','Arroz',this)">🌾 Arroz</button>
+
+        <!-- PRIMARIO: siempre visible (Categoría + Super + toggle mobile) -->
+        <div class="filters-primary">
+          <div class="filter-group">
+            <label class="filter-label">Categoría</label>
+            <div class="filter-chips" id="filter-cat">
+              <button class="chip active" data-value="Todos" onclick="setFilter('categoria','Todos',this)">🛒 Todos</button>
+              <button class="chip" data-value="Aceite" onclick="setFilter('categoria','Aceite',this)">🫙 Aceite</button>
+              <button class="chip" data-value="Arroz" onclick="setFilter('categoria','Arroz',this)">🌾 Arroz</button>
+            </div>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label">Supermercado</label>
+            <div class="filter-chips" id="filter-super">
+              <button class="chip active" data-value="Todos" onclick="setFilter('super','Todos',this)">Todos</button>
+              <button class="chip" data-value="Metro" onclick="setFilter('super','Metro',this)">Metro</button>
+              <button class="chip" data-value="Wong" onclick="setFilter('super','Wong',this)">Wong</button>
+            </div>
+          </div>
+          <button class="filters-toggle-btn" id="filters-toggle-btn" onclick="toggleFilters()">
+            ⚙ Filtros <span class="filter-count-badge" id="filter-count-badge" style="display:none">0</span>
+          </button>
+        </div>
+
+        <!-- AVANZADO: siempre visible en desktop, colapsable en mobile -->
+        <div class="filters-advanced" id="filters-advanced">
+          <div class="filter-group">
+            <label class="filter-label" id="filter-tipo-label">Tipo de Aceite</label>
+            <select class="filter-select" id="filter-tipo" onchange="setFilter('tipo', this.value, this)">
+              <option value="Todos">Todos los tipos</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label" id="filter-marca-label">Marca</label>
+            <select class="filter-select" id="filter-marca" onchange="setFilter('marca', this.value, this)">
+              <option value="Todos">Todas las marcas</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label">Presentación</label>
+            <select class="filter-select" id="filter-pres" onchange="setFilter('presentacion', this.value, this)">
+              <option value="Todos">Todas las presentaciones</option>
+            </select>
+          </div>
+          <div class="filter-group filter-group--clear">
+            <label class="filter-label">&nbsp;</label>
+            <button class="btn-clear-filters" onclick="clearFilters()">✕ Limpiar filtros</button>
           </div>
         </div>
-        <div class="filter-group">
-          <label class="filter-label">Supermercado</label>
-          <div class="filter-chips" id="filter-super">
-            <button class="chip active" data-value="Todos" onclick="setFilter('super','Todos',this)">Todos</button>
-            <button class="chip" data-value="Metro" onclick="setFilter('super','Metro',this)">Metro</button>
-            <button class="chip" data-value="Wong" onclick="setFilter('super','Wong',this)">Wong</button>
-          </div>
-        </div>
-        <div class="filter-group">
-          <label class="filter-label" id="filter-tipo-label">Tipo de Aceite</label>
-          <select class="filter-select" id="filter-tipo" onchange="setFilter('tipo', this.value, this)">
-            <option value="Todos">Todos los tipos</option>
-          </select>
-        </div>
-        <div class="filter-group">
-          <label class="filter-label" id="filter-marca-label">Marca</label>
-          <select class="filter-select" id="filter-marca" onchange="setFilter('marca', this.value, this)">
-            <option value="Todos">Todas las marcas</option>
-          </select>
-        </div>
-        <div class="filter-group">
-          <label class="filter-label">Presentación</label>
-          <select class="filter-select" id="filter-pres" onchange="setFilter('presentacion', this.value, this)">
-            <option value="Todos">Todas las presentaciones</option>
-          </select>
-        </div>
-        <div class="filter-group filter-group--clear">
-          <label class="filter-label">&nbsp;</label>
-          <button class="btn-clear-filters" onclick="clearFilters()">✕ Limpiar filtros</button>
-        </div>
+
       </div>
     </div>
   </section>
