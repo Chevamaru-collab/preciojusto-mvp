@@ -25,6 +25,8 @@ function getFiltered(data) {
         if (filters.categoria !== 'Todos' && d.categoria !== filters.categoria) return false;
         if (filters.super !== 'Todos' && d.super !== filters.super) return false;
         if (filters.tipo !== 'Todos' && d.tipo !== filters.tipo) return false;
+        if (filters.marca !== 'Todos' && d.marca !== filters.marca) return false;
+        if (filters.presentacion !== 'Todos' && String(d.presentacion) !== filters.presentacion) return false;
         return true;
     });
 }
@@ -52,6 +54,41 @@ function updateTipoChips() {
         ).join('');
     }
 }
+function updateMarcaChips() {
+    const base = rawData.filter(d => {
+        if (filters.categoria !== 'Todos' && d.categoria !== filters.categoria) return false;
+        if (filters.super !== 'Todos' && d.super !== filters.super) return false;
+        if (filters.tipo !== 'Todos' && d.tipo !== filters.tipo) return false;
+        return true;
+    });
+    const marcas = [...new Set(base.map(d => d.marca).filter(Boolean))].sort();
+    const el = document.getElementById('filter-marca');
+    if (!el) return;
+    el.innerHTML = [
+        `<button class="chip${filters.marca === 'Todos' ? ' active' : ''}" data-value="Todos" onclick="setFilter('marca','Todos',this)">Todas</button>`,
+        ...marcas.map(m =>
+            `<button class="chip${filters.marca === m ? ' active' : ''}" data-value="${m}" onclick="setFilter('marca',${JSON.stringify(m)},this)">${m}</button>`)
+    ].join('');
+}
+function updatePresentacionChips() {
+    const base = rawData.filter(d => {
+        if (filters.categoria !== 'Todos' && d.categoria !== filters.categoria) return false;
+        if (filters.super !== 'Todos' && d.super !== filters.super) return false;
+        if (filters.tipo !== 'Todos' && d.tipo !== filters.tipo) return false;
+        if (filters.marca !== 'Todos' && d.marca !== filters.marca) return false;
+        return true;
+    });
+    const pres = [...new Set(base.map(d => `${d.presentacion}|${d.um}`))].sort((a, b) => parseFloat(a) - parseFloat(b));
+    const el = document.getElementById('filter-pres');
+    if (!el) return;
+    el.innerHTML = [
+        `<button class="chip${filters.presentacion === 'Todos' ? ' active' : ''}" data-value="Todos" onclick="setFilter('presentacion','Todos',this)">Todas</button>`,
+        ...pres.map(p => {
+            const [val, um] = p.split('|');
+            return `<button class="chip${filters.presentacion === val ? ' active' : ''}" data-value="${val}" onclick="setFilter('presentacion',${JSON.stringify(val)},this)">${val} ${um}</button>`;
+        })
+    ].join('');
+}
 function getLatest(data) {
     const sorted = [...data].sort((a, b) => parseDate(b.fecha) - parseDate(a.fecha));
     const maxDate = sorted[0]?.fecha;
@@ -61,8 +98,16 @@ function getLatest(data) {
 // ---- FILTER TOGGLE ----
 window.setFilter = function (dim, value, el) {
     filters[dim] = value;
-    // reset tipo when category changes
-    if (dim === 'categoria') { filters.tipo = 'Todos'; updateTipoChips(); }
+    if (dim === 'categoria') {
+        filters.tipo = 'Todos'; filters.marca = 'Todos'; filters.presentacion = 'Todos';
+        updateTipoChips(); updateMarcaChips(); updatePresentacionChips();
+    } else if (dim === 'tipo') {
+        filters.marca = 'Todos'; filters.presentacion = 'Todos';
+        updateMarcaChips(); updatePresentacionChips();
+    } else if (dim === 'marca') {
+        filters.presentacion = 'Todos';
+        updatePresentacionChips();
+    }
     el.closest('.filter-chips').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
     el.classList.add('active');
     renderAll();
@@ -408,25 +453,52 @@ function renderCompare(data) {
 
 // ---- DEALS ----
 function renderDeals(data) {
-    const withDisc = data.filter(d => d.descuento !== null && d.descuento <= -10);
-    const sorted = [...withDisc].sort((a, b) => a.descuento - b.descuento).slice(0, 8);
+    const latest = getLatest(data);
+    const withDisc = [...latest]
+        .filter(d => d.descuento !== null && d.descuento <= -10)
+        .sort((a, b) => a.descuento - b.descuento);
+
     const container = document.getElementById('deals-grid');
-    if (!sorted.length) {
+    if (!withDisc.length) {
         container.innerHTML = '<p style="color:var(--text3)">No se encontraron ofertas con los filtros seleccionados.</p>';
         return;
     }
-    container.innerHTML = sorted.map(d => `
-    <div class="deal-card">
-      <div class="deal-badge">${Math.abs(d.descuento).toFixed(0)}% OFF</div>
-      <div class="deal-super ${superClass(d.super)}">${d.super}</div>
-      <div class="deal-name">${d.item}</div>
-      <div class="deal-prices">
-        <div class="deal-online">${fmtSoles(d.precioOnline)}</div>
-        ${d.precioRegular > 0 ? `<div class="deal-regular">${fmtSoles(d.precioRegular)}</div>` : ''}
-      </div>
-      <div class="deal-pxum">${fmtSoles(d.pxum)} / ${d.um} · ${d.fecha}</div>
-    </div>
-  `).join('');
+
+    const latestDate = latest[0]?.fecha || '';
+    const dealsSub = document.getElementById('deals-date');
+    if (dealsSub) dealsSub.textContent = latestDate ? `Datos al ${latestDate}` : '';
+
+    const showGroups = filters.super === 'Todos';
+
+    function dealCard(d) {
+        return `
+        <div class="deal-card">
+          <div class="deal-badge">${Math.abs(d.descuento).toFixed(0)}% OFF</div>
+          ${!showGroups ? `<div class="deal-super ${superClass(d.super)}">${d.super}</div>` : ''}
+          <div class="deal-name">${d.item}</div>
+          <div class="deal-prices">
+            <div class="deal-online">${fmtSoles(d.precioOnline)}</div>
+            ${d.precioRegular > 0 ? `<div class="deal-regular">${fmtSoles(d.precioRegular)}</div>` : ''}
+          </div>
+          <div class="deal-pxum">${fmtSoles(d.pxum)} / ${d.um}</div>
+        </div>`;
+    }
+
+    if (showGroups) {
+        let html = '';
+        ['Metro', 'Wong'].forEach(s => {
+            const deals = withDisc.filter(d => d.super === s);
+            if (!deals.length) return;
+            html += `
+            <div class="deals-super-section">
+              <div class="deals-super-header ${s.toLowerCase()}">${s}</div>
+              <div class="deals-sub-grid">${deals.map(dealCard).join('')}</div>
+            </div>`;
+        });
+        container.innerHTML = html;
+    } else {
+        container.innerHTML = withDisc.map(dealCard).join('');
+    }
 }
 
 // ---- TABLE ----
@@ -505,6 +577,8 @@ window.closeMobileNav = function () {
 
 // ---- INIT ----
 document.addEventListener('DOMContentLoaded', () => {
+    updateMarcaChips();
+    updatePresentacionChips();
     renderAll();
     setupNav();
     setupHamburger();

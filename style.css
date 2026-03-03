@@ -411,3 +411,20 @@ body {
 @media (max-width: 768px) {
   .hamburger { display: flex; }
 }
+
+/* ---- DEALS AGRUPADAS POR SUPER ---- */
+.deals-super-section { margin-bottom: 32px; }
+.deals-super-section:last-child { margin-bottom: 0; }
+.deals-super-header {
+  font-size: 13px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; padding: 6px 14px; border-radius: 8px;
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-bottom: 16px;
+}
+.deals-super-header.metro { background: rgba(232,64,64,0.15); color: var(--metro); }
+.deals-super-header.wong  { background: rgba(245,166,35,0.15); color: var(--wong); }
+.deals-sub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}

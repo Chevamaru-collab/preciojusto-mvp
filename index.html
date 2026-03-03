@@ -95,6 +95,18 @@
             <button class="chip" data-value="De Cártamo" onclick="setFilter('tipo','De Cártamo',this)">Cártamo</button>
           </div>
         </div>
+        <div class="filter-group">
+          <label class="filter-label" id="filter-marca-label">Marca</label>
+          <div class="filter-chips" id="filter-marca">
+            <button class="chip active" data-value="Todos" onclick="setFilter('marca','Todos',this)">Todas</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Presentación</label>
+          <div class="filter-chips" id="filter-pres">
+            <button class="chip active" data-value="Todos" onclick="setFilter('presentacion','Todos',this)">Todas</button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -166,7 +178,7 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">💸 Mejores Ofertas Hoy</h2>
-        <p class="section-desc">Productos con mayor descuento respecto al precio regular</p>
+        <p class="section-desc" id="deals-date">Productos con mayor descuento respecto al precio regular</p>
       </div>
       <div class="deals-grid" id="deals-grid">
         <!-- JS filled -->
