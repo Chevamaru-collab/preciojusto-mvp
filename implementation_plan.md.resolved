@@ -1,6 +1,12 @@
-# PrecioJusto: UX Improvement & Data Automation Plan
+# Proyecto PrecioJusto: Plan de Mecharas V1.0 (UX & Automatización)
 
 The goal is to prepare the "PrecioJusto" MVP for a beta test with a small group. We will focus on two main areas: improving the user experience of the filters and automating the daily update of the product database.
+
+## User Review Required
+> [!IMPORTANT]
+> **KPI Cards Improvements:**
+> - **Precio x Kg/Lt:** When filtered by a specific supermarket, it shows that supermarket's price. When in "Todos", it should explicitly mention which supermarket has the best price shown.
+> - **Mayor Descuento:** This KPI MUST reflect ONLY the data from "Hoy" (the most recent date in the dataset) to ensure users see daily deals.
 
 ## Proposed Changes
 
@@ -19,7 +25,8 @@ The current "chip" system becomes cluttered when many brands or presentations ar
 
 #### [MODIFY] [app.js](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/app.js)
 - Update filter event listeners to work with both chips and dropdowns.
-- Refactor [updateMarcaChips](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/app.js#57-73), [updateTipoChips](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/app.js#33-57), etc., to populate `<select>` options instead.
+- Refactor `updateMarcaChips`, `updateTipoChips`, etc., to populate `<select>` options instead.
+- **KPI Logic update**: Modify [renderKPIs](file:///c:/Users/Chevamaru/OneDrive/Documentos/Chevamaru/PROYECTOS/PrecioJusto/MVP/app.js#154-198) to calculate "Mayor Descuento" using only the latest data and to include the supermarket name in the "Más Barato" card labels when "Todos" is selected.
 
 ---
 

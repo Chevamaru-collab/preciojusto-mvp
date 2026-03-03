@@ -153,18 +153,35 @@ function renderHeroStats(data) {
 
 // ---- KPI CARDS ----
 function renderKPIs(data) {
-    const sorted = [...data].sort((a, b) => parseDate(b.fecha) - parseDate(a.fecha));
-    const latest = getLatest(sorted);
+    const latest = getLatest(data);
     const isArroz = filters.categoria === 'Arroz';
     const um = isArroz ? 'kg' : 'Lt';
 
-    const cheapestLatest = latest.length ? latest.reduce((m, d) => d.pxum < m.pxum ? d : m, latest[0]) : null;
+    // Precio más barato — usa fecha más reciente
+    const cheapestLatest = latest.filter(d => d.pxum).length
+        ? latest.filter(d => d.pxum).reduce((m, d) => d.pxum < m.pxum ? d : m, latest.filter(d => d.pxum)[0])
+        : null;
     const minPxum = cheapestLatest ? cheapestLatest.pxum : 0;
-    const maxDisc = data.filter(d => d.descuento).reduce((m, d) => d.descuento < m.descuento ? d : m, { descuento: 0, item: 'N/A' });
-    const avgPxum = latest.length ? (latest.reduce((s, d) => s + d.pxum, 0) / latest.length).toFixed(2) : 0;
+    const cheapestSuperLabel = (filters.super === 'Todos' && cheapestLatest)
+        ? ` · ${cheapestLatest.super}` : '';
+
+    // Mayor descuento — SOLO fecha más reciente
+    const withDiscLatest = latest.filter(d => d.descuento !== null && d.descuento < 0);
+    const maxDisc = withDiscLatest.length
+        ? withDiscLatest.reduce((m, d) => d.descuento < m.descuento ? d : m, withDiscLatest[0])
+        : { descuento: 0, item: 'Sin ofertas hoy' };
+
+    const avgPxum = latest.length ? (latest.reduce((s, d) => s + (d.pxum || 0), 0) / latest.length).toFixed(2) : 0;
     const totalObs = data.length;
+
+    // Rango de fechas dinámico
+    const allFechas = [...new Set(data.map(d => d.fecha))].sort((a, b) => parseDate(a) - parseDate(b));
+    const rangoFechas = allFechas.length > 1
+        ? `${allFechas[0]} – ${allFechas[allFechas.length - 1]}`
+        : (allFechas[0] || '');
+
     const icon = isArroz ? '🌾' : '🛢️';
-    const catLabel = isArroz ? 'Arroz' : 'Aceite Vegetal';
+    const catLabel = isArroz ? 'Arroz' : 'Aceite';
 
     const container = document.getElementById('kpi-grid');
     container.innerHTML = `
@@ -172,14 +189,14 @@ function renderKPIs(data) {
       <div class="kpi-icon">${icon}</div>
       <div class="kpi-label">${catLabel} más barato / ${um}</div>
       <div class="kpi-value">${fmtSoles(minPxum)} <span>/ ${um}</span></div>
-      <div class="kpi-sub">Precio online más reciente</div>
+      <div class="kpi-sub">Precio online más reciente${cheapestSuperLabel}</div>
       <div class="kpi-badge down">🏆 Mejor precio</div>
     </div>
     <div class="kpi-card green">
       <div class="kpi-icon">💰</div>
-      <div class="kpi-label">Mayor Descuento</div>
+      <div class="kpi-label">Mayor Descuento Hoy</div>
       <div class="kpi-value">${Math.abs(maxDisc.descuento || 0).toFixed(1)} <span>%</span></div>
-      <div class="kpi-sub" style="max-width:200px;line-height:1.4">${(maxDisc.item || '').substring(0, 40)}...</div>
+      <div class="kpi-sub" style="max-width:200px;line-height:1.4">${(maxDisc.item || '').substring(0, 45)}</div>
     </div>
     <div class="kpi-card yellow">
       <div class="kpi-icon">📊</div>
@@ -191,7 +208,7 @@ function renderKPIs(data) {
       <div class="kpi-icon">📋</div>
       <div class="kpi-label">Observaciones Registradas</div>
       <div class="kpi-value">${totalObs} <span>registros</span></div>
-      <div class="kpi-sub">Feb 16 – Mar 2, 2026</div>
+      <div class="kpi-sub">${rangoFechas}</div>
     </div>
   `;
 }
