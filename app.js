@@ -129,9 +129,7 @@ function renderAll() {
     const filtered = getFiltered(rawData);
     renderHeroStats(filtered);
     renderKPIs(filtered);
-    renderTrendChart(filtered);
-    renderTypeChart(filtered);
-    renderDiscountChart(filtered);
+    renderInsightHero(filtered);
     renderCompare(filtered);
     renderDeals(filtered);
     renderTable(filtered);
@@ -139,7 +137,6 @@ function renderAll() {
 
 // ---- HERO STATS ----
 function renderHeroStats(data) {
-    const latestDate = [...data].sort((a, b) => parseDate(b.fecha) - parseDate(a.fecha))[0]?.fecha || '--';
     const dates = [...new Set(data.map(d => d.fecha))];
     const prods = [...new Set(data.map(d => d.item))];
     const withDisc = data.filter(d => d.descuento !== null && d.descuento < 0);
@@ -215,205 +212,70 @@ function renderKPIs(data) {
   `;
 }
 
-// ---- TREND CHART ----
-let trendChartInst = null;
-function renderTrendChart(data) {
-    const isArroz = filters.categoria === 'Arroz';
-    const um = isArroz ? 'kg' : 'Lt';
-    const tipoActivo = filters.tipo;
+// ---- INSIGHT HERO ----
+function renderInsightHero(data) {
+    const el = document.getElementById('insight-card');
+    if (!el) return;
 
-    let chartData;
-    if (isArroz) {
-        // For arroz: use all 5kg bags of the selected tipo (or all if Todos)
-        chartData = data.filter(d => d.categoria === 'Arroz' && d.presentacion === 5);
-    } else if (tipoActivo !== 'Todos') {
-        // Specific tipo selected (e.g. Oliva, Girasol) — use all items of that tipo
-        chartData = data.filter(d => d.tipo === tipoActivo);
-    } else {
-        // categoria=Todos: Arroz usa S/Kg y Aceite usa S/Lt — no son comparables en la misma escala.
-        // Mostramos solo Aceite Vegetal como referencia del mercado.
-        chartData = data.filter(d => d.categoria === 'Aceite' && d.tipo === 'Vegetal');
-    }
+    // Use last 3 days to capture both Metro and Wong data (same logic as compare grid)
+    const sortedDates = [...new Set(data.map(d => d.fecha))].sort((a, b) => parseDate(b) - parseDate(a));
+    const recentDates = new Set(sortedDates.slice(0, 3));
+    const recent = data.filter(d => recentDates.has(d.fecha));
 
-    const allDates = [...new Set(chartData.map(d => d.fecha))].sort((a, b) => parseDate(a) - parseDate(b));
-
-    function getDailyMin(superName, dates, data) {
-        return dates.map(date => {
-            const items = data.filter(d => d.super === superName && d.fecha === date);
-            if (!items.length) return null;
-            return Math.min(...items.map(d => d.pxum));
-        });
-    }
-
-    const metroVals = getDailyMin('Metro', allDates, chartData);
-    const wongVals = getDailyMin('Wong', allDates, chartData);
-
-    const labels = allDates.map(d => {
-        const p = d.split('/');
-        return `${p[0]}/${p[1]}`;
-    });
-
-    document.getElementById('trend-legend').innerHTML = `
-    <div class="legend-item"><div class="legend-dot" style="background:#e84040"></div>Metro</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#f5a623"></div>Wong</div>
-  `;
-    const title = document.querySelector('.chart-card--wide .chart-title');
-    if (title) title.textContent = isArroz ? 'Precio x Kg — Metro vs Wong' : 'Precio x Litro — Metro vs Wong';
-
-    const desc = document.querySelector('#tendencias .section-desc');
-    if (desc) {
-        if (isArroz) desc.textContent = 'Evolución del precio por kg (S/ x Kg) en el tiempo';
-        else if (filters.categoria === 'Todos') desc.textContent = 'Aceite Vegetal · S/ x Litro (selecciona "Aceite" o "Arroz" para ver todos los tipos)';
-        else desc.textContent = `${tipoActivo === 'Todos' ? 'Todos los tipos' : tipoActivo} · Evolución del precio por litro (S/ x Lt)`;
-    }
-
-    if (!allDates.length) {
-        if (trendChartInst) trendChartInst.destroy(); trendChartInst = null; return;
-    }
-
-    const ctx = document.getElementById('trendChart').getContext('2d');
-    if (trendChartInst) trendChartInst.destroy();
-    trendChartInst = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels,
-            datasets: [
-                { label: 'Metro', data: metroVals, borderColor: '#e84040', backgroundColor: 'rgba(232,64,64,0.08)', tension: 0.4, fill: true, pointBackgroundColor: '#e84040', pointRadius: 4, pointHoverRadius: 6, spanGaps: true },
-                { label: 'Wong', data: wongVals, borderColor: '#f5a623', backgroundColor: 'rgba(245,166,35,0.08)', tension: 0.4, fill: true, pointBackgroundColor: '#f5a623', pointRadius: 4, pointHoverRadius: 6, spanGaps: true }
-            ]
-        },
-        options: {
-            responsive: true, maintainAspectRatio: false,
-            interaction: { mode: 'index', intersect: false },
-            plugins: {
-                legend: { display: false },
-                tooltip: {
-                    backgroundColor: '#1a2235', borderColor: '#2d3b55', borderWidth: 1,
-                    titleColor: '#8892a4', bodyColor: '#f0f4ff',
-                    callbacks: { label: ctx => ` ${ctx.dataset.label}: S/ ${ctx.parsed.y?.toFixed(2)} / ${um}` }
-                }
-            },
-            scales: {
-                x: { ticks: { color: '#5a6480', font: { size: 11 }, maxRotation: 45 }, grid: { color: 'rgba(255,255,255,0.04)' } },
-                y: { ticks: { color: '#5a6480', font: { size: 11 }, callback: v => 'S/' + v.toFixed(2) }, grid: { color: 'rgba(255,255,255,0.04)' } }
-            }
+    const prodKey = d => `${d.tipo}|${d.clase || 'N/A'}|${d.presentacion}${d.um || 'u'}`;
+    const byProd = {};
+    recent.forEach(d => {
+        const k = prodKey(d);
+        if (!byProd[k]) byProd[k] = {};
+        if (!byProd[k][d.super] || d.pxum < byProd[k][d.super].pxum) {
+            byProd[k][d.super] = d;
         }
     });
-}
 
-// ---- TYPE CHART (donut) ----
-let typeChartInst = null;
-function renderTypeChart(data) {
-    // Dedup por item (no por fecha) para que tipos con scrapes esporádicos no desaparezcan
-    const seenItems = new Set();
-    const counts = {};
-    [...data]
-        .sort((a, b) => parseDate(b.fecha) - parseDate(a.fecha))
-        .forEach(d => {
-            if (seenItems.has(d.item)) return;
-            seenItems.add(d.item);
-            const t = d.tipo || 'Otro';
-            counts[t] = (counts[t] || 0) + 1;
-        });
-    const labels = Object.keys(counts);
-    const values = Object.values(counts);
-    const colors = ['#4f8ef7', '#10b981', '#f59e0b', '#ef4444', '#a855f7', '#06b6d4'];
+    const compared = Object.entries(byProd).filter(([, supers]) => supers['Metro'] && supers['Wong']);
 
-    const chartTitleEl = document.querySelector('#typeChart')?.closest('.chart-card')?.querySelector('.chart-title');
-    if (chartTitleEl) {
-        chartTitleEl.textContent = filters.categoria === 'Arroz' ? 'Distribución por Tipo de Arroz'
-            : filters.categoria === 'Aceite' ? 'Distribución por Tipo de Aceite'
-            : 'Distribución por Tipo';
-    }
-
-    const ctx = document.getElementById('typeChart').getContext('2d');
-    if (typeChartInst) typeChartInst.destroy();
-    typeChartInst = new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-            labels,
-            datasets: [{
-                data: values,
-                backgroundColor: colors.slice(0, labels.length),
-                borderColor: '#111827', borderWidth: 3,
-                hoverOffset: 8,
-            }]
-        },
-        options: {
-            responsive: true, maintainAspectRatio: false,
-            cutout: '65%',
-            plugins: {
-                legend: {
-                    position: 'bottom',
-                    labels: { color: '#8892a4', font: { size: 11 }, padding: 12, boxWidth: 10, boxHeight: 10 }
-                },
-                tooltip: {
-                    backgroundColor: '#1a2235', borderColor: '#2d3b55', borderWidth: 1,
-                    bodyColor: '#f0f4ff',
-                }
-            }
-        }
-    });
-}
-
-// ---- DISCOUNT CHART (bar) ----
-let discChartInst = null;
-function renderDiscountChart(data) {
-    const withDisc = data.filter(d => d.descuento !== null && d.descuento < 0);
-    const subtitleEl = document.getElementById('discount-chart-sub');
-    const bySuper = {};
-    withDisc.forEach(d => {
-        if (!bySuper[d.super]) bySuper[d.super] = [];
-        bySuper[d.super].push(Math.abs(d.descuento));
-    });
-    const supers = Object.keys(bySuper);
-
-    if (!supers.length) {
-        if (discChartInst) discChartInst.destroy(); discChartInst = null;
-        if (subtitleEl) subtitleEl.textContent = 'No hay productos en oferta para el filtro seleccionado.';
+    if (!compared.length) {
+        el.innerHTML = '<p style="color:var(--text3);text-align:center;padding:24px">Sin datos comparables disponibles</p>';
         return;
     }
 
-    if (subtitleEl) subtitleEl.textContent = `Promedio entre los ${withDisc.length} productos en oferta (precio online vs. regular)`;
-
-    const avgs = supers.map(s => (bySuper[s].reduce((a, b) => a + b, 0) / bySuper[s].length).toFixed(1));
-    const colors = supers.map(s => s === 'Metro' ? '#e84040' : '#f5a623');
-
-    const ctx = document.getElementById('discountChart').getContext('2d');
-    if (discChartInst) discChartInst.destroy();
-    discChartInst = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: supers,
-            datasets: [{
-                label: 'Descuento Promedio %',
-                data: avgs,
-                backgroundColor: colors,
-                borderRadius: 8, borderSkipped: false,
-            }]
-        },
-        options: {
-            responsive: true, maintainAspectRatio: false,
-            plugins: {
-                legend: { display: false },
-                tooltip: {
-                    backgroundColor: '#1a2235', borderColor: '#2d3b55', borderWidth: 1,
-                    bodyColor: '#f0f4ff',
-                    callbacks: { label: c => {
-                        const n = bySuper[c.label]?.length || 0;
-                        return ` ${c.parsed.y}% prom. sobre ${n} producto${n !== 1 ? 's' : ''} en oferta`;
-                    }}
-                }
-            },
-            scales: {
-                x: { ticks: { color: '#8892a4' }, grid: { display: false } },
-                y: {
-                    ticks: { color: '#5a6480', callback: v => v + '%' },
-                    grid: { color: 'rgba(255,255,255,0.04)' }
-                }
-            }
-        }
+    // Find the product pair with the biggest pxum difference
+    const [, bestSupers] = compared.reduce((maxPair, curr) => {
+        const [, cs] = curr;
+        const [, ms] = maxPair;
+        return Math.abs(cs['Metro'].pxum - cs['Wong'].pxum) > Math.abs(ms['Metro'].pxum - ms['Wong'].pxum)
+            ? curr : maxPair;
     });
+
+    const metro = bestSupers['Metro'];
+    const wong = bestSupers['Wong'];
+    const metroWins = metro.pxum <= wong.pxum;
+    const winner = metroWins ? metro : wong;
+    const loser = metroWins ? wong : metro;
+    const winnerName = metroWins ? 'Metro' : 'Wong';
+    const savings = loser.pxum - winner.pxum;
+    const um = winner.um || 'Lt';
+    const icon = winner.categoria === 'Arroz' ? '🌾' : '🛢️';
+
+    el.innerHTML = `
+      <div class="insight-left">
+        <div class="insight-label">🏆 Mayor diferencia de precio hoy</div>
+        <div class="insight-product">${icon} ${winner.tipo}${winner.clase ? ' ' + winner.clase : ''} · ${winner.presentacion} ${um}</div>
+        <div class="insight-price">${fmtSoles(winner.pxum)}<span class="insight-um">/ ${um}</span></div>
+        <div class="insight-super-badge insight-${winnerName.toLowerCase()}">${winnerName} más barato</div>
+      </div>
+      <div class="insight-right">
+        <div class="insight-compare-row ${metroWins ? 'insight-winner-row' : ''}">
+          <span class="insight-super-name"><span class="super-dot metro"></span>Metro</span>
+          <span class="insight-price-sm ${metroWins ? 'winner' : 'loser'}">${fmtSoles(metro.pxum)}<small>/${um}</small></span>
+        </div>
+        <div class="insight-compare-row ${!metroWins ? 'insight-winner-row' : ''}">
+          <span class="insight-super-name"><span class="super-dot wong"></span>Wong</span>
+          <span class="insight-price-sm ${!metroWins ? 'winner' : 'loser'}">${fmtSoles(wong.pxum)}<small>/${um}</small></span>
+        </div>
+        <div class="insight-savings">↓ Ahorras ${fmtSoles(savings)} / ${um}</div>
+      </div>
+    `;
 }
 
 // ---- COMPARE GRID ----
@@ -435,7 +297,7 @@ function renderCompare(data) {
     });
 
     // Only show products with data from both supermarkets
-    const compared = Object.entries(byProd).filter(([k, supers]) => supers['Metro'] && supers['Wong']);
+    const compared = Object.entries(byProd).filter(([, supers]) => supers['Metro'] && supers['Wong']);
     const container = document.getElementById('compare-grid');
 
     if (!compared.length) {
@@ -443,7 +305,7 @@ function renderCompare(data) {
         return;
     }
 
-    container.innerHTML = compared.slice(0, 9).map(([k, supers]) => {
+    container.innerHTML = compared.slice(0, 9).map(([, supers]) => {
         const metro = supers['Metro'];
         const wong = supers['Wong'];
         const metroWins = metro.pxum <= wong.pxum;
@@ -570,7 +432,7 @@ function renderTable(data) {
 // ---- NAV HIGHLIGHT ----
 function setupNav() {
     const links = document.querySelectorAll('.nav-link');
-    const sections = ['resumen', 'tendencias', 'comparar', 'tabla'];
+    const sections = ['resumen', 'comparar', 'tabla'];
     window.addEventListener('scroll', () => {
         let cur = 'resumen';
         sections.forEach(id => {
@@ -583,9 +445,9 @@ function setupNav() {
     });
 }
 
-// ---- MOBILE FILTERS TOGGLE ----
+// ---- FILTERS TOGGLE ----
 window.toggleFilters = function () {
-    const panel = document.getElementById('filters-advanced');
+    const panel = document.getElementById('filters-panel');
     const btn = document.getElementById('filters-toggle-btn');
     if (!panel) return;
     const isOpen = panel.classList.toggle('open');
@@ -593,7 +455,7 @@ window.toggleFilters = function () {
 };
 
 function updateFilterBadge() {
-    const active = ['tipo', 'marca', 'presentacion'].filter(k => filters[k] !== 'Todos').length;
+    const active = ['super', 'tipo', 'categoria', 'marca', 'presentacion'].filter(k => filters[k] !== 'Todos').length;
     const badge = document.getElementById('filter-count-badge');
     const btn = document.getElementById('filters-toggle-btn');
     if (badge) { badge.textContent = active; badge.style.display = active ? 'inline-block' : 'none'; }
