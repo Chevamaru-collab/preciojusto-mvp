@@ -2,6 +2,15 @@
 // PRECIO JUSTO - OBSERVATORIO DE PRECIOS · app.js
 // ============================================================
 
+// ---- CONFIG: SUPERMERCADOS ----
+const SUPERMERCADOS = {
+    Metro:    { id: 'Metro',    nombre: 'Metro',     color: '#e84040', cssClass: 'metro',    activo: true  },
+    Wong:     { id: 'Wong',     nombre: 'Wong',      color: '#f5a623', cssClass: 'wong',     activo: true  },
+    Tottus:   { id: 'Tottus',   nombre: 'Tottus',    color: '#0066cc', cssClass: 'tottus',   activo: false },
+    PlazaVea: { id: 'PlazaVea', nombre: 'Plaza Vea', color: '#00a651', cssClass: 'plazavea', activo: false }
+};
+function activeSupers() { return Object.values(SUPERMERCADOS).filter(s => s.activo); }
+
 // ---- STATE ----
 let filters = { super: 'Todos', tipo: 'Todos', categoria: 'Todos', marca: 'Todos', presentacion: 'Todos' };
 let tableData = [];
@@ -18,7 +27,10 @@ function fmtSoles(n) {
     return 'S/ ' + parseFloat(n).toFixed(2);
 }
 function superClass(s) {
-    return s.toLowerCase();
+    return SUPERMERCADOS[s]?.cssClass || s.toLowerCase();
+}
+function prodKeyFn(d) {
+    return `${d.tipo}|${d.clase || 'N/A'}|${d.presentacion}${d.um || 'u'}`;
 }
 function getFiltered(data) {
     return data.filter(d => {
@@ -93,6 +105,149 @@ function getLatest(data) {
     return data.filter(d => d.fecha === maxDate);
 }
 
+// ---- USER MANAGER ----
+const UserManager = {
+    KEY: 'pj_user',
+    get()   { return JSON.parse(localStorage.getItem(this.KEY) || 'null'); },
+    save(u) { localStorage.setItem(this.KEY, JSON.stringify(u)); },
+    create(nombre) {
+        const u = {
+            id: 'u_' + Date.now(),
+            nombre: nombre.trim(),
+            created: new Date().toISOString(),
+            listas: [{ id: 'l0', nombre: 'Mi Lista', items: [] }]
+        };
+        this.save(u);
+        return u;
+    }
+};
+
+// ---- LISTA MANAGER ----
+const ListaManager = {
+    getLista() { return UserManager.get()?.listas?.[0] || { items: [] }; },
+    saveLista(lista) {
+        const u = UserManager.get();
+        if (!u) return;
+        u.listas[0] = lista;
+        UserManager.save(u);
+    },
+    addItem(prodKey, nombre, categoria, um) {
+        if (!UserManager.get()) { showWelcomeModal(); return; }
+        const lista = this.getLista();
+        const existing = lista.items.find(i => i.prodKey === prodKey);
+        if (existing) { existing.cantidad++; }
+        else { lista.items.push({ prodKey, nombre, categoria, um, cantidad: 1 }); }
+        this.saveLista(lista);
+        this.renderSidebar();
+        this.updateBadge();
+        // Flash feedback on button
+        const btn = document.querySelector(`.btn-add-lista[data-prod-key="${encodeURIComponent(prodKey)}"]`);
+        if (btn) {
+            btn.textContent = '✓ Agregado';
+            btn.classList.add('added');
+            setTimeout(() => { btn.textContent = '+ Mi Lista'; btn.classList.remove('added'); }, 1400);
+        }
+    },
+    removeItem(prodKey) {
+        const lista = this.getLista();
+        lista.items = lista.items.filter(i => i.prodKey !== prodKey);
+        this.saveLista(lista);
+        this.renderSidebar();
+        this.updateBadge();
+    },
+    changeQty(prodKey, delta) {
+        const lista = this.getLista();
+        const item = lista.items.find(i => i.prodKey === prodKey);
+        if (!item) return;
+        item.cantidad = Math.max(0, item.cantidad + delta);
+        if (item.cantidad === 0) lista.items = lista.items.filter(i => i.prodKey !== prodKey);
+        this.saveLista(lista);
+        this.renderSidebar();
+        this.updateBadge();
+    },
+    getLatestPxum(prodKey, superNombre) {
+        const matches = rawData.filter(d => prodKeyFn(d) === prodKey && d.super === superNombre && d.pxum);
+        if (!matches.length) return null;
+        matches.sort((a, b) => parseDate(b.fecha) - parseDate(a.fecha));
+        return matches[0].pxum;
+    },
+    calcularTotales() {
+        const lista = this.getLista();
+        const totales = {};
+        activeSupers().forEach(s => {
+            totales[s.nombre] = lista.items.reduce((sum, item) => {
+                const price = this.getLatestPxum(item.prodKey, s.nombre);
+                return sum + (price !== null ? price * item.cantidad : 0);
+            }, 0);
+        });
+        return totales;
+    },
+    updateBadge() {
+        const lista = this.getLista();
+        const count = lista.items.reduce((s, i) => s + i.cantidad, 0);
+        const badge = document.getElementById('lista-count');
+        if (badge) { badge.textContent = count; badge.style.display = count ? 'inline-block' : 'none'; }
+    },
+    renderSidebar() {
+        const lista = this.getLista();
+        const body   = document.getElementById('lista-body');
+        const footer = document.getElementById('lista-footer');
+        if (!body || !footer) return;
+
+        if (!lista.items.length) {
+            body.innerHTML = '<p class="lista-empty">Tu lista está vacía.<br>Agrega productos desde "¿Dónde comprar más barato?"</p>';
+            footer.innerHTML = '';
+            return;
+        }
+
+        body.innerHTML = lista.items.map(item => `
+            <div class="lista-item">
+                <div class="lista-item-info">
+                    <div class="lista-item-nombre">${item.nombre}</div>
+                    <div class="lista-item-cat">${item.categoria} · ${item.um}/u</div>
+                </div>
+                <div class="lista-item-controls">
+                    <button class="lista-qty-btn" data-key="${encodeURIComponent(item.prodKey)}" onclick="ListaManager.changeQty(decodeURIComponent(this.dataset.key), -1)">−</button>
+                    <span class="lista-qty-val">${item.cantidad}</span>
+                    <button class="lista-qty-btn" data-key="${encodeURIComponent(item.prodKey)}" onclick="ListaManager.changeQty(decodeURIComponent(this.dataset.key), 1)">+</button>
+                    <button class="lista-remove-btn" data-key="${encodeURIComponent(item.prodKey)}" onclick="ListaManager.removeItem(decodeURIComponent(this.dataset.key))">✕</button>
+                </div>
+            </div>`).join('');
+
+        const totales = this.calcularTotales();
+        const entries = Object.entries(totales).filter(([, t]) => t > 0).sort((a, b) => a[1] - b[1]);
+
+        if (!entries.length) {
+            footer.innerHTML = '<p class="lista-empty" style="padding:12px 0">Sin precios disponibles para los productos de tu lista.</p>';
+            return;
+        }
+
+        const [, mejorTotal] = entries[0];
+        footer.innerHTML = `
+            <div class="lista-totales">
+                <div class="lista-totales-title">¿Dónde comprar?</div>
+                ${entries.map(([superNombre, total], i) => {
+                    const isMejor = i === 0;
+                    const diff = i > 0 ? `+${fmtSoles(total - mejorTotal)}` : '';
+                    const s = SUPERMERCADOS[superNombre];
+                    return `
+                        <div class="lista-total-row${isMejor ? ' lista-mejor' : ''}">
+                            <div class="lista-total-super">
+                                <span class="super-dot ${s?.cssClass || ''}"></span>
+                                ${superNombre}
+                                ${isMejor ? '<span class="lista-mejor-badge">✓ Mejor opción</span>' : ''}
+                            </div>
+                            <div class="lista-total-precio">
+                                ${fmtSoles(total)}
+                                ${diff ? `<small class="lista-total-diff">${diff}</small>` : ''}
+                            </div>
+                        </div>`;
+                }).join('')}
+                <div class="lista-totales-note">* Precio estimado por unidad × cantidad</div>
+            </div>`;
+    }
+};
+
 // ---- FILTER TOGGLE ----
 window.setFilter = function (dim, value, el) {
     filters[dim] = value;
@@ -106,7 +261,6 @@ window.setFilter = function (dim, value, el) {
         filters.presentacion = 'Todos';
         updatePresentacionOptions();
     }
-    // Active class only for chip buttons (Categoría y Supermercado)
     if (el && el.tagName === 'BUTTON') {
         el.closest('.filter-chips').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
         el.classList.add('active');
@@ -140,30 +294,23 @@ function renderAll() {
 function updateLastUpdateBadge() {
     const el = document.getElementById('last-update-badge');
     if (!el) return;
-
-    // Get all unique dates from rawData
     const dates = [...new Set(rawData.map(d => d.fecha))].sort((a, b) => parseDate(b) - parseDate(a));
     if (!dates.length) return;
-
-    const latestDateStr = dates[0];
-    const latestDate = parseDate(latestDateStr);
+    const latestDate = parseDate(dates[0]);
     const now = new Date();
-    
-    // Reset hours for comparison
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     const yesterday = new Date(today);
     yesterday.setDate(yesterday.getDate() - 1);
-
     let displayDate = '';
     if (latestDate.getTime() === today.getTime()) {
-        displayDate = 'hoy';
+        displayDate = 'hoy'; el.classList.remove('warning');
     } else if (latestDate.getTime() === yesterday.getTime()) {
-        displayDate = 'ayer';
+        displayDate = 'ayer'; el.classList.add('warning');
     } else {
         const months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
         displayDate = `el ${latestDate.getDate()} de ${months[latestDate.getMonth()]}`;
+        el.classList.add('warning');
     }
-
     el.innerHTML = `<span class="badge-dot"></span>Actualizado ${displayDate}`;
 }
 
@@ -177,7 +324,7 @@ function renderHeroStats(data) {
     el.innerHTML = `
     <div class="hero-stat"><div class="hero-stat-value">${dates.length}</div><div class="hero-stat-label">Días monitoreados</div></div>
     <div class="hero-stat"><div class="hero-stat-value">${prods.length}</div><div class="hero-stat-label">Productos únicos</div></div>
-    <div class="hero-stat"><div class="hero-stat-value">2</div><div class="hero-stat-label">Supermercados</div></div>
+    <div class="hero-stat"><div class="hero-stat-value">${activeSupers().length}</div><div class="hero-stat-label">Supermercados</div></div>
     <div class="hero-stat"><div class="hero-stat-value">${avgDisc}%</div><div class="hero-stat-label">Descuento promedio</div></div>
   `;
 }
@@ -188,15 +335,12 @@ function renderKPIs(data) {
     const isArroz = filters.categoria === 'Arroz';
     const um = isArroz ? 'kg' : 'Lt';
 
-    // Precio más barato — usa fecha más reciente
     const cheapestLatest = latest.filter(d => d.pxum).length
         ? latest.filter(d => d.pxum).reduce((m, d) => d.pxum < m.pxum ? d : m, latest.filter(d => d.pxum)[0])
         : null;
     const minPxum = cheapestLatest ? cheapestLatest.pxum : 0;
-    const cheapestSuperLabel = (filters.super === 'Todos' && cheapestLatest)
-        ? ` · ${cheapestLatest.super}` : '';
+    const cheapestSuperLabel = (filters.super === 'Todos' && cheapestLatest) ? ` · ${cheapestLatest.super}` : '';
 
-    // Mayor descuento — SOLO fecha más reciente
     const withDiscLatest = latest.filter(d => d.descuento !== null && d.descuento < 0);
     const maxDisc = withDiscLatest.length
         ? withDiscLatest.reduce((m, d) => d.descuento < m.descuento ? d : m, withDiscLatest[0])
@@ -204,8 +348,6 @@ function renderKPIs(data) {
 
     const avgPxum = latest.length ? (latest.reduce((s, d) => s + (d.pxum || 0), 0) / latest.length).toFixed(2) : 0;
     const totalObs = data.length;
-
-    // Rango de fechas dinámico
     const allFechas = [...new Set(data.map(d => d.fecha))].sort((a, b) => parseDate(a) - parseDate(b));
     const rangoFechas = allFechas.length > 1
         ? `${allFechas[0]} – ${allFechas[allFechas.length - 1]}`
@@ -213,7 +355,6 @@ function renderKPIs(data) {
 
     const icon = isArroz ? '🌾' : '🛢️';
     const catLabel = isArroz ? 'Arroz' : 'Aceite';
-
     const container = document.getElementById('kpi-grid');
     container.innerHTML = `
     <div class="kpi-card blue">
@@ -250,31 +391,34 @@ function buildBestInsight(data) {
     const recentDates = new Set(sortedDates.slice(0, 3));
     const recent = data.filter(d => recentDates.has(d.fecha));
 
-    const prodKey = d => `${d.tipo}|${d.clase || 'N/A'}|${d.presentacion}${d.um || 'u'}`;
     const byProd = {};
     recent.forEach(d => {
-        const k = prodKey(d);
+        const k = prodKeyFn(d);
         if (!byProd[k]) byProd[k] = {};
         if (!byProd[k][d.super] || d.pxum < byProd[k][d.super].pxum) byProd[k][d.super] = d;
     });
 
-    const compared = Object.entries(byProd).filter(([, supers]) => supers['Metro'] && supers['Wong']);
+    const superNames = activeSupers().map(s => s.nombre);
+    const compared = Object.entries(byProd).filter(([, supers]) =>
+        superNames.filter(n => supers[n]).length >= 2
+    );
     if (!compared.length) return null;
 
-    const [, bestSupers] = compared.reduce((maxPair, curr) => {
-        const [, cs] = curr;
-        const [, ms] = maxPair;
-        return Math.abs(cs['Metro'].pxum - cs['Wong'].pxum) > Math.abs(ms['Metro'].pxum - ms['Wong'].pxum)
-            ? curr : maxPair;
+    let maxDiff = -1, bestEntry = null;
+    compared.forEach(([, supers]) => {
+        const prices = superNames.filter(n => supers[n]).map(n => supers[n].pxum);
+        const diff = Math.max(...prices) - Math.min(...prices);
+        if (diff > maxDiff) { maxDiff = diff; bestEntry = supers; }
     });
-    return { metro: bestSupers['Metro'], wong: bestSupers['Wong'] };
+    return bestEntry;
 }
 
-function insightCardHTML(metro, wong) {
-    const metroWins = metro.pxum <= wong.pxum;
-    const winner = metroWins ? metro : wong;
-    const loser = metroWins ? wong : metro;
-    const winnerName = metroWins ? 'Metro' : 'Wong';
+function insightCardHTML(supers) {
+    const superNames = activeSupers().map(s => s.nombre).filter(n => supers[n]);
+    superNames.sort((a, b) => supers[a].pxum - supers[b].pxum);
+    const winner = supers[superNames[0]];
+    const winnerName = superNames[0];
+    const loser = supers[superNames[superNames.length - 1]];
     const savings = loser.pxum - winner.pxum;
     const um = winner.um || 'Lt';
     const icon = winner.categoria === 'Arroz' ? '🌾' : '🛢️';
@@ -286,14 +430,14 @@ function insightCardHTML(metro, wong) {
         <div class="insight-super-badge insight-${winnerName.toLowerCase()}">${winnerName} más barato</div>
       </div>
       <div class="insight-right">
-        <div class="insight-compare-row ${metroWins ? 'insight-winner-row' : ''}">
-          <span class="insight-super-name"><span class="super-dot metro"></span>Metro</span>
-          <span class="insight-price-sm ${metroWins ? 'winner' : 'loser'}">${fmtSoles(metro.pxum)}<small>/${um}</small></span>
-        </div>
-        <div class="insight-compare-row ${!metroWins ? 'insight-winner-row' : ''}">
-          <span class="insight-super-name"><span class="super-dot wong"></span>Wong</span>
-          <span class="insight-price-sm ${!metroWins ? 'winner' : 'loser'}">${fmtSoles(wong.pxum)}<small>/${um}</small></span>
-        </div>
+        ${superNames.map(n => {
+            const isWinner = n === winnerName;
+            return `
+            <div class="insight-compare-row ${isWinner ? 'insight-winner-row' : ''}">
+              <span class="insight-super-name"><span class="super-dot ${superClass(n)}"></span>${n}</span>
+              <span class="insight-price-sm ${isWinner ? 'winner' : 'loser'}">${fmtSoles(supers[n].pxum)}<small>/${um}</small></span>
+            </div>`;
+        }).join('')}
         <div class="insight-savings">↓ Ahorras ${fmtSoles(savings)} / ${um}</div>
       </div>`;
 }
@@ -313,8 +457,8 @@ function renderInsightHero(data) {
         }
         el.className = 'insight-card insight-card--dual';
         el.innerHTML = [
-            aceiteInsight ? `<div class="insight-panel">${insightCardHTML(aceiteInsight.metro, aceiteInsight.wong)}</div>` : '',
-            arrozInsight  ? `<div class="insight-panel">${insightCardHTML(arrozInsight.metro,  arrozInsight.wong)}</div>`  : ''
+            aceiteInsight ? `<div class="insight-panel">${insightCardHTML(aceiteInsight)}</div>` : '',
+            arrozInsight  ? `<div class="insight-panel">${insightCardHTML(arrozInsight)}</div>`  : ''
         ].join('');
     } else {
         const insight = buildBestInsight(data);
@@ -323,30 +467,27 @@ function renderInsightHero(data) {
             el.innerHTML = '<p style="color:var(--text3);text-align:center;padding:24px">Sin datos comparables disponibles</p>';
             return;
         }
-        el.innerHTML = insightCardHTML(insight.metro, insight.wong);
+        el.innerHTML = insightCardHTML(insight);
     }
 }
 
 // ---- COMPARE GRID ----
 function renderCompare(data) {
-    // Use last 3 days to capture both Metro and Wong data
     const sortedDates = [...new Set(data.map(d => d.fecha))].sort((a, b) => parseDate(b) - parseDate(a));
     const recentDates = new Set(sortedDates.slice(0, 3));
     const recent = data.filter(d => recentDates.has(d.fecha));
 
-    // Group by tipo+clase+presentacion for comparison
-    const prodKey = d => `${d.tipo}|${d.clase || 'N/A'}|${d.presentacion}${d.um || 'u'}`;
     const byProd = {};
     recent.forEach(d => {
-        const k = prodKey(d);
+        const k = prodKeyFn(d);
         if (!byProd[k]) byProd[k] = {};
-        if (!byProd[k][d.super] || d.pxum < byProd[k][d.super].pxum) {
-            byProd[k][d.super] = d;
-        }
+        if (!byProd[k][d.super] || d.pxum < byProd[k][d.super].pxum) byProd[k][d.super] = d;
     });
 
-    // Only show products with data from both supermarkets
-    const compared = Object.entries(byProd).filter(([, supers]) => supers['Metro'] && supers['Wong']);
+    const superNames = activeSupers().map(s => s.nombre);
+    const compared = Object.entries(byProd).filter(([, supers]) =>
+        superNames.filter(n => supers[n]).length >= 2
+    );
     const container = document.getElementById('compare-grid');
 
     if (!compared.length) {
@@ -354,39 +495,36 @@ function renderCompare(data) {
         return;
     }
 
-    container.innerHTML = compared.slice(0, 9).map(([, supers]) => {
-        const metro = supers['Metro'];
-        const wong = supers['Wong'];
-        const metroWins = metro.pxum <= wong.pxum;
-        const isArrozItem = metro.categoria === 'Arroz';
+    container.innerHTML = compared.slice(0, 9).map(([key, supers]) => {
+        const available = superNames.filter(n => supers[n]);
+        available.sort((a, b) => supers[a].pxum - supers[b].pxum);
+        const winner = supers[available[0]];
+        const isArrozItem = winner.categoria === 'Arroz';
         const icon = isArrozItem ? '🌾' : '🛢️';
-        const sizeLabel = `${metro.presentacion} ${metro.um || (isArrozItem ? 'kg' : 'L')}`;
-        const unit = metro.um || (isArrozItem ? 'kg' : 'Lt');
+        const sizeLabel = `${winner.presentacion} ${winner.um || (isArrozItem ? 'kg' : 'L')}`;
+        const unit = winner.um || (isArrozItem ? 'kg' : 'Lt');
+        const displayNombre = `${winner.tipo}${winner.clase ? ' · ' + winner.clase : ''} · ${sizeLabel}`;
         return `
       <div class="compare-card">
-        <div class="compare-product">${icon} ${metro.tipo} ${metro.clase ? '· ' + metro.clase : ''} · ${sizeLabel}</div>
+        <div class="compare-product">${icon} ${displayNombre}</div>
+        ${available.map(n => {
+            const d = supers[n];
+            const isWinner = n === available[0];
+            const s = SUPERMERCADOS[n];
+            return `
         <div class="compare-row">
           <div class="compare-super">
-            <div class="super-dot metro"></div> Metro
-            ${metroWins ? '<span class="winner-badge">+ barato</span>' : ''}
+            <div class="super-dot ${s?.cssClass || ''}"></div> ${n}
+            ${isWinner ? '<span class="winner-badge">+ barato</span>' : ''}
           </div>
           <div class="compare-prices">
-            <div class="compare-pxum ${metroWins ? 'winner' : 'loser'}">${fmtSoles(metro.pxum)}<span style="font-size:11px;font-weight:400;color:var(--text3)">/${unit}</span></div>
-            <div class="compare-label">${fmtSoles(metro.precioOnline)} online</div>
+            <div class="compare-pxum ${isWinner ? 'winner' : 'loser'}">${fmtSoles(d.pxum)}<span style="font-size:11px;font-weight:400;color:var(--text3)">/${unit}</span></div>
+            <div class="compare-label">${fmtSoles(d.precioOnline)} online</div>
           </div>
-        </div>
-        <div class="compare-row">
-          <div class="compare-super">
-            <div class="super-dot wong"></div> Wong
-            ${!metroWins ? '<span class="winner-badge">+ barato</span>' : ''}
-          </div>
-          <div class="compare-prices">
-            <div class="compare-pxum ${!metroWins ? 'winner' : 'loser'}">${fmtSoles(wong.pxum)}<span style="font-size:11px;font-weight:400;color:var(--text3)">/${unit}</span></div>
-            <div class="compare-label">${fmtSoles(wong.precioOnline)} online</div>
-          </div>
-        </div>
-      </div>
-    `;
+        </div>`;
+        }).join('')}
+        <button class="btn-add-lista" data-prod-key="${encodeURIComponent(key)}" data-nombre="${displayNombre}" data-categoria="${winner.categoria}" data-um="${unit}" onclick="window.addToLista(this)">+ Mi Lista</button>
+      </div>`;
     }).join('');
 }
 
@@ -425,12 +563,12 @@ function renderDeals(data) {
 
     if (showGroups) {
         let html = '';
-        ['Metro', 'Wong'].forEach(s => {
-            const deals = withDisc.filter(d => d.super === s);
+        activeSupers().forEach(s => {
+            const deals = withDisc.filter(d => d.super === s.nombre);
             if (!deals.length) return;
             html += `
             <div class="deals-super-section">
-              <div class="deals-super-header ${s.toLowerCase()}">${s}</div>
+              <div class="deals-super-header ${s.cssClass}">${s.nombre}</div>
               <div class="deals-sub-grid">${deals.map(dealCard).join('')}</div>
             </div>`;
         });
@@ -494,6 +632,17 @@ function setupNav() {
     });
 }
 
+// ---- SUPER CHIPS (dynamic from SUPERMERCADOS) ----
+function setupSuperChips() {
+    const container = document.getElementById('filter-super');
+    if (!container) return;
+    container.innerHTML = `
+        <button class="chip active" data-value="Todos" onclick="setFilter('super','Todos',this)">Todos</button>
+        ${activeSupers().map(s =>
+            `<button class="chip" data-value="${s.nombre}" onclick="setFilter('super','${s.nombre}',this)">${s.nombre}</button>`
+        ).join('')}`;
+}
+
 // ---- FILTERS TOGGLE ----
 window.toggleFilters = function () {
     const panel = document.getElementById('filters-panel');
@@ -531,12 +680,76 @@ window.closeMobileNav = function () {
     if (btn) { btn.classList.remove('open'); btn.setAttribute('aria-expanded', false); }
 };
 
+// ---- USER / WELCOME MODAL ----
+function showWelcomeModal() {
+    const modal = document.getElementById('welcome-modal');
+    if (modal) modal.classList.add('visible');
+    setTimeout(() => document.getElementById('user-name-input')?.focus(), 100);
+}
+function hideWelcomeModal() {
+    const modal = document.getElementById('welcome-modal');
+    if (modal) modal.classList.remove('visible');
+}
+window.submitWelcome = function () {
+    const input = document.getElementById('user-name-input');
+    const nombre = input?.value?.trim();
+    if (!nombre) {
+        input?.classList.add('shake');
+        setTimeout(() => input?.classList.remove('shake'), 600);
+        return;
+    }
+    UserManager.create(nombre);
+    hideWelcomeModal();
+    renderGreeting();
+    ListaManager.updateBadge();
+};
+function renderGreeting() {
+    const user = UserManager.get();
+    const el = document.getElementById('user-greeting');
+    if (el) el.textContent = user ? `Hola, ${user.nombre}` : '';
+}
+function initUser() {
+    if (!UserManager.get()) {
+        showWelcomeModal();
+    } else {
+        renderGreeting();
+        ListaManager.updateBadge();
+    }
+}
+
+// ---- LISTA SIDEBAR ----
+window.toggleLista = function () {
+    const sidebar = document.getElementById('lista-sidebar');
+    const overlay = document.getElementById('lista-overlay');
+    if (!sidebar) return;
+    if (!UserManager.get()) { showWelcomeModal(); return; }
+    const isOpen = sidebar.classList.toggle('open');
+    if (overlay) overlay.classList.toggle('visible', isOpen);
+    if (isOpen) ListaManager.renderSidebar();
+};
+window.closeLista = function () {
+    document.getElementById('lista-sidebar')?.classList.remove('open');
+    document.getElementById('lista-overlay')?.classList.remove('visible');
+};
+window.addToLista = function (btn) {
+    const prodKey = decodeURIComponent(btn.dataset.prodKey);
+    const nombre   = btn.dataset.nombre;
+    const categoria = btn.dataset.categoria;
+    const um       = btn.dataset.um;
+    ListaManager.addItem(prodKey, nombre, categoria, um);
+};
+
 // ---- INIT ----
 document.addEventListener('DOMContentLoaded', () => {
+    setupSuperChips();
     updateTipoOptions();
     updateMarcaOptions();
     updatePresentacionOptions();
     renderAll();
     setupNav();
     setupHamburger();
+    initUser();
+    document.getElementById('user-name-input')?.addEventListener('keydown', e => {
+        if (e.key === 'Enter') window.submitWelcome();
+    });
 });

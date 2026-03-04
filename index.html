@@ -31,6 +31,12 @@
         <a href="#comparar" class="nav-link" id="nav-comparar">Comparar</a>
         <a href="#tabla" class="nav-link" id="nav-tabla">Datos</a>
       </nav>
+      <div class="header-right">
+        <span class="user-greeting" id="user-greeting"></span>
+        <button class="btn-mi-lista" id="btn-mi-lista" onclick="toggleLista()" aria-label="Mi Lista de Compras">
+          🛒 Mi Lista <span class="lista-count" id="lista-count" style="display:none">0</span>
+        </button>
+      </div>
       <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -215,6 +221,30 @@
       </div>
     </div>
   </footer>
+
+  <!-- WELCOME MODAL -->
+  <div class="modal-overlay" id="welcome-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-emoji">👋</div>
+      <h2 id="modal-title">Bienvenido a Precio Justo</h2>
+      <p>¿Cómo te llamas? Guardaremos tu lista de compras entre sesiones.</p>
+      <input id="user-name-input" type="text" placeholder="Tu nombre" maxlength="30" autocomplete="off" />
+      <button onclick="submitWelcome()">Empezar →</button>
+    </div>
+  </div>
+
+  <!-- LISTA SIDEBAR -->
+  <div class="lista-overlay" id="lista-overlay" onclick="closeLista()"></div>
+  <aside class="lista-sidebar" id="lista-sidebar" aria-label="Mi Lista de Compras">
+    <div class="lista-header">
+      <h3>🛒 Mi Lista</h3>
+      <button class="lista-close-btn" onclick="closeLista()" aria-label="Cerrar lista">×</button>
+    </div>
+    <div class="lista-body" id="lista-body">
+      <p class="lista-empty">Tu lista está vacía.<br>Agrega productos desde "¿Dónde comprar más barato?"</p>
+    </div>
+    <div class="lista-footer" id="lista-footer"></div>
+  </aside>
 
   <script src="data.js"></script>
   <script src="app.js"></script>
