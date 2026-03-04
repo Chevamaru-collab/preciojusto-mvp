@@ -133,6 +133,38 @@ function renderAll() {
     renderCompare(filtered);
     renderDeals(filtered);
     renderTable(filtered);
+    updateLastUpdateBadge();
+}
+
+// ---- LAST UPDATE BADGE ----
+function updateLastUpdateBadge() {
+    const el = document.getElementById('last-update-badge');
+    if (!el) return;
+
+    // Get all unique dates from rawData
+    const dates = [...new Set(rawData.map(d => d.fecha))].sort((a, b) => parseDate(b) - parseDate(a));
+    if (!dates.length) return;
+
+    const latestDateStr = dates[0];
+    const latestDate = parseDate(latestDateStr);
+    const now = new Date();
+    
+    // Reset hours for comparison
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const yesterday = new Date(today);
+    yesterday.setDate(yesterday.getDate() - 1);
+
+    let displayDate = '';
+    if (latestDate.getTime() === today.getTime()) {
+        displayDate = 'hoy';
+    } else if (latestDate.getTime() === yesterday.getTime()) {
+        displayDate = 'ayer';
+    } else {
+        const months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+        displayDate = `el ${latestDate.getDate()} de ${months[latestDate.getMonth()]}`;
+    }
+
+    el.innerHTML = `<span class="badge-dot"></span>Actualizado ${displayDate}`;
 }
 
 // ---- HERO STATS ----
