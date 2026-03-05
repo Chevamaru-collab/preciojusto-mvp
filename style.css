@@ -764,3 +764,54 @@ body {
 @media (max-width: 768px) {
   .lista-sidebar { width: 100%; }
 }
+
+/* ---- Touch & Ripple feedback ---- */
+.chip, .btn-mi-lista, .btn-add-lista, .lista-qty-btn, .lista-remove-btn, .lista-close-btn {
+  touch-action: manipulation;
+}
+.chip:active { transform: scale(0.94); transition: transform 0.08s; }
+.lista-qty-btn:active, .lista-remove-btn:active, .lista-close-btn:active {
+  transform: scale(0.88); transition: transform 0.08s;
+}
+.btn-mi-lista, .btn-add-lista { position: relative; overflow: hidden; }
+.btn-mi-lista::after, .btn-add-lista::after {
+  content: '';
+  position: absolute; top: 50%; left: 50%;
+  width: 6px; height: 6px; border-radius: 50%;
+  background: rgba(255,255,255,0.3);
+  transform: translate(-50%,-50%) scale(0);
+  opacity: 0; pointer-events: none;
+}
+.btn-mi-lista:active::after, .btn-add-lista:active::after {
+  animation: ripple-burst 0.45s ease-out forwards;
+}
+@keyframes ripple-burst {
+  0%   { transform: translate(-50%,-50%) scale(0); opacity: 1; }
+  100% { transform: translate(-50%,-50%) scale(60); opacity: 0; }
+}
+
+/* ---- Skeleton / shimmer ---- */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--bg2) 25%, var(--bg3) 50%, var(--bg2) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite linear;
+  border-radius: var(--radius-sm);
+}
+.skeleton-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.sk-line { height: 13px; }
+.sk-sm { width: 50%; }
+.sk-md { width: 75%; }
+.sk-lg { width: 92%; }
+.sk-price { height: 30px; width: 48%; }
+
+/* ---- Section refresh fade ---- */
+.section-refresh { animation: section-fade-in 0.18s ease; }
+@keyframes section-fade-in { from { opacity: 0.35; } to { opacity: 1; } }

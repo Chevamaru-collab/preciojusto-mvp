@@ -280,6 +280,10 @@ window.clearFilters = function () {
 
 // ---- RENDER ALL ----
 function renderAll() {
+    ['compare-grid', 'deals-grid', 'insight-card'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.classList.remove('section-refresh'); void el.offsetWidth; el.classList.add('section-refresh'); }
+    });
     const filtered = getFiltered(rawData);
     renderHeroStats(filtered);
     renderKPIs(filtered);
@@ -740,6 +744,31 @@ window.addToLista = function (btn) {
 };
 
 // ---- INIT ----
+function initSwipeSidebar() {
+    const sidebar = document.getElementById('lista-sidebar');
+    if (!sidebar) return;
+    let startX = 0, startY = 0, dragging = false;
+    sidebar.addEventListener('touchstart', e => {
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+        dragging = false;
+        sidebar.style.transition = 'none';
+    }, { passive: true });
+    sidebar.addEventListener('touchmove', e => {
+        const dx = e.touches[0].clientX - startX;
+        const dy = Math.abs(e.touches[0].clientY - startY);
+        if (!dragging && dy > 10) { sidebar.style.transition = ''; return; }
+        if (dx > 0) { dragging = true; sidebar.style.transform = `translateX(${dx}px)`; }
+    }, { passive: true });
+    sidebar.addEventListener('touchend', e => {
+        const dx = e.changedTouches[0].clientX - startX;
+        sidebar.style.transition = '';
+        if (dx > 80) { closeLista(); }
+        else { sidebar.style.transform = sidebar.classList.contains('open') ? 'translateX(0)' : 'translateX(100%)'; }
+        dragging = false;
+    }, { passive: true });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     setupSuperChips();
     updateTipoOptions();
@@ -749,6 +778,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupNav();
     setupHamburger();
     initUser();
+    initSwipeSidebar();
     document.getElementById('user-name-input')?.addEventListener('keydown', e => {
         if (e.key === 'Enter') window.submitWelcome();
     });
