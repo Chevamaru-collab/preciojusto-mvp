@@ -503,7 +503,7 @@ function renderCompare(data) {
         const icon = isArrozItem ? '🌾' : '🛢️';
         const sizeLabel = `${winner.presentacion} ${winner.um || (isArrozItem ? 'kg' : 'L')}`;
         const unit = winner.um || (isArrozItem ? 'kg' : 'Lt');
-        const displayNombre = `${winner.tipo}${winner.clase ? ' · ' + winner.clase : ''} · ${sizeLabel}`;
+        const displayNombre = `${winner.marca ? winner.marca + ' ' : ''}${winner.tipo}${winner.clase ? ' ' + winner.clase : ''} ${sizeLabel}`;
         return `
       <div class="compare-card">
         <div class="compare-product">${icon} ${displayNombre}</div>

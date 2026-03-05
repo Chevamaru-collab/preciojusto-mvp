@@ -29,11 +29,3 @@
 - [ ] Primera ejecución manual exitosa
 - [ ] Verificar auto-update diario
 ```
-
----
-
-### **2. Setup Obsidian (opcional pero recomendado):**
-
-**Crear vault:**
-```
-/PrecioJusto-Docs (Obsidian vault)
