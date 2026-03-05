@@ -4,9 +4,9 @@
 
 // ---- CONFIG: SUPERMERCADOS ----
 const SUPERMERCADOS = {
-    Metro:    { id: 'Metro',    nombre: 'Metro',     color: '#e84040', cssClass: 'metro',    activo: true  },
-    Wong:     { id: 'Wong',     nombre: 'Wong',      color: '#f5a623', cssClass: 'wong',     activo: true  },
-    Tottus:   { id: 'Tottus',   nombre: 'Tottus',    color: '#0066cc', cssClass: 'tottus',   activo: false },
+    Metro: { id: 'Metro', nombre: 'Metro', color: '#e84040', cssClass: 'metro', activo: true },
+    Wong: { id: 'Wong', nombre: 'Wong', color: '#f5a623', cssClass: 'wong', activo: true },
+    Tottus: { id: 'Tottus', nombre: 'Tottus', color: '#0066cc', cssClass: 'tottus', activo: false },
     PlazaVea: { id: 'PlazaVea', nombre: 'Plaza Vea', color: '#00a651', cssClass: 'plazavea', activo: false }
 };
 function activeSupers() { return Object.values(SUPERMERCADOS).filter(s => s.activo); }
@@ -47,19 +47,30 @@ function updateTipoOptions() {
     const el = document.getElementById('filter-tipo');
     const label = document.getElementById('filter-tipo-label');
     let opts = [];
-    if (cat === 'Todos' || cat === 'Aceite') {
+    if (cat === 'Aceite') {
         opts = [
             { v: 'Todos', l: 'Todos los tipos' }, { v: 'Vegetal', l: 'Vegetal' },
             { v: 'De Oliva', l: 'Oliva' }, { v: 'De Girasol', l: 'Girasol' }, { v: 'De Cártamo', l: 'Cártamo' }
         ];
         if (label) label.textContent = 'Tipo de Aceite';
-    } else {
+    } else if (cat === 'Arroz') {
         opts = [
             { v: 'Todos', l: 'Todos los tipos' }, { v: 'Extra', l: 'Extra' },
             { v: 'Extra Añejo', l: 'Extra Añejo' }, { v: 'Añejo Extra', l: 'Añejo Extra' },
             { v: 'Superior', l: 'Superior' }, { v: 'Integral', l: 'Integral' }, { v: 'Gran Reserva', l: 'Gran Reserva' }
         ];
         if (label) label.textContent = 'Tipo de Arroz';
+    } else {
+        // Todos: show combined types from both categories
+        opts = [
+            { v: 'Todos', l: 'Todos los tipos' },
+            { v: 'Vegetal', l: 'Aceite Vegetal' }, { v: 'De Oliva', l: 'Aceite Oliva' },
+            { v: 'De Girasol', l: 'Aceite Girasol' }, { v: 'De Cártamo', l: 'Aceite Cártamo' },
+            { v: 'Extra', l: 'Arroz Extra' }, { v: 'Extra Añejo', l: 'Arroz Extra Añejo' },
+            { v: 'Añejo Extra', l: 'Arroz Añejo Extra' }, { v: 'Superior', l: 'Arroz Superior' },
+            { v: 'Integral', l: 'Arroz Integral' }, { v: 'Gran Reserva', l: 'Arroz Gran Reserva' }
+        ];
+        if (label) label.textContent = 'Tipo de Producto';
     }
     if (el) el.innerHTML = opts.map(o =>
         `<option value="${o.v}"${filters.tipo === o.v ? ' selected' : ''}>${o.l}</option>`
@@ -108,7 +119,7 @@ function getLatest(data) {
 // ---- USER MANAGER ----
 const UserManager = {
     KEY: 'pj_user',
-    get()   { return JSON.parse(localStorage.getItem(this.KEY) || 'null'); },
+    get() { return JSON.parse(localStorage.getItem(this.KEY) || 'null'); },
     save(u) { localStorage.setItem(this.KEY, JSON.stringify(u)); },
     create(nombre) {
         const u = {
@@ -190,7 +201,7 @@ const ListaManager = {
     },
     renderSidebar() {
         const lista = this.getLista();
-        const body   = document.getElementById('lista-body');
+        const body = document.getElementById('lista-body');
         const footer = document.getElementById('lista-footer');
         if (!body || !footer) return;
 
@@ -227,10 +238,10 @@ const ListaManager = {
             <div class="lista-totales">
                 <div class="lista-totales-title">¿Dónde comprar?</div>
                 ${entries.map(([superNombre, total], i) => {
-                    const isMejor = i === 0;
-                    const diff = i > 0 ? `+${fmtSoles(total - mejorTotal)}` : '';
-                    const s = SUPERMERCADOS[superNombre];
-                    return `
+            const isMejor = i === 0;
+            const diff = i > 0 ? `+${fmtSoles(total - mejorTotal)}` : '';
+            const s = SUPERMERCADOS[superNombre];
+            return `
                         <div class="lista-total-row${isMejor ? ' lista-mejor' : ''}">
                             <div class="lista-total-super">
                                 <span class="super-dot ${s?.cssClass || ''}"></span>
@@ -242,7 +253,7 @@ const ListaManager = {
                                 ${diff ? `<small class="lista-total-diff">${diff}</small>` : ''}
                             </div>
                         </div>`;
-                }).join('')}
+        }).join('')}
                 <div class="lista-totales-note">* Precio estimado por unidad × cantidad</div>
             </div>`;
     }
@@ -322,14 +333,29 @@ function updateLastUpdateBadge() {
 function renderHeroStats(data) {
     const dates = [...new Set(data.map(d => d.fecha))];
     const prods = [...new Set(data.map(d => d.item))];
-    const withDisc = data.filter(d => d.descuento !== null && d.descuento < 0);
-    const avgDisc = withDisc.length ? (withDisc.reduce((s, d) => s + Math.abs(d.descuento), 0) / withDisc.length).toFixed(1) : 0;
+
+    // Best discount per supermarket
+    const bestDiscPerSuper = activeSupers().map(s => {
+        const deals = data.filter(d => d.super === s.nombre && d.descuento !== null && d.descuento < 0);
+        if (!deals.length) return null;
+        const best = deals.reduce((m, d) => d.descuento < m.descuento ? d : m, deals[0]);
+        return { nombre: s.nombre, descuento: Math.abs(best.descuento) };
+    }).filter(Boolean);
+
+    const bestDiscLabel = bestDiscPerSuper.length
+        ? bestDiscPerSuper.map(s => `${s.nombre} ${s.descuento.toFixed(0)}%`).join(' · ')
+        : 'Sin ofertas';
+
     const el = document.getElementById('hero-stats');
     el.innerHTML = `
     <div class="hero-stat"><div class="hero-stat-value">${dates.length}</div><div class="hero-stat-label">Días monitoreados</div></div>
     <div class="hero-stat"><div class="hero-stat-value">${prods.length}</div><div class="hero-stat-label">Productos únicos</div></div>
     <div class="hero-stat"><div class="hero-stat-value">${activeSupers().length}</div><div class="hero-stat-label">Supermercados</div></div>
-    <div class="hero-stat"><div class="hero-stat-value">${avgDisc}%</div><div class="hero-stat-label">Descuento promedio</div></div>
+    <div class="hero-stat hero-stat--deals">
+      <div class="hero-stat-value">🏷️</div>
+      <div class="hero-stat-label">Mejor descuento</div>
+      <div class="hero-stat-deals">${bestDiscLabel}</div>
+    </div>
   `;
 }
 
@@ -435,13 +461,13 @@ function insightCardHTML(supers) {
       </div>
       <div class="insight-right">
         ${superNames.map(n => {
-            const isWinner = n === winnerName;
-            return `
+        const isWinner = n === winnerName;
+        return `
             <div class="insight-compare-row ${isWinner ? 'insight-winner-row' : ''}">
               <span class="insight-super-name"><span class="super-dot ${superClass(n)}"></span>${n}</span>
               <span class="insight-price-sm ${isWinner ? 'winner' : 'loser'}">${fmtSoles(supers[n].pxum)}<small>/${um}</small></span>
             </div>`;
-        }).join('')}
+    }).join('')}
         <div class="insight-savings">↓ Ahorras ${fmtSoles(savings)} / ${um}</div>
       </div>`;
 }
@@ -452,7 +478,7 @@ function renderInsightHero(data) {
 
     if (filters.categoria === 'Todos') {
         const aceiteInsight = buildBestInsight(data.filter(d => d.categoria === 'Aceite'));
-        const arrozInsight  = buildBestInsight(data.filter(d => d.categoria === 'Arroz'));
+        const arrozInsight = buildBestInsight(data.filter(d => d.categoria === 'Arroz'));
 
         if (!aceiteInsight && !arrozInsight) {
             el.className = 'insight-card';
@@ -462,7 +488,7 @@ function renderInsightHero(data) {
         el.className = 'insight-card insight-card--dual';
         el.innerHTML = [
             aceiteInsight ? `<div class="insight-panel">${insightCardHTML(aceiteInsight)}</div>` : '',
-            arrozInsight  ? `<div class="insight-panel">${insightCardHTML(arrozInsight)}</div>`  : ''
+            arrozInsight ? `<div class="insight-panel">${insightCardHTML(arrozInsight)}</div>` : ''
         ].join('');
     } else {
         const insight = buildBestInsight(data);
@@ -643,8 +669,8 @@ function setupSuperChips() {
     container.innerHTML = `
         <button class="chip active" data-value="Todos" onclick="setFilter('super','Todos',this)">Todos</button>
         ${activeSupers().map(s =>
-            `<button class="chip" data-value="${s.nombre}" onclick="setFilter('super','${s.nombre}',this)">${s.nombre}</button>`
-        ).join('')}`;
+        `<button class="chip" data-value="${s.nombre}" onclick="setFilter('super','${s.nombre}',this)">${s.nombre}</button>`
+    ).join('')}`;
 }
 
 // ---- FILTERS TOGGLE ----
@@ -710,7 +736,10 @@ window.submitWelcome = function () {
 function renderGreeting() {
     const user = UserManager.get();
     const el = document.getElementById('user-greeting');
-    if (el) el.textContent = user ? `Hola, ${user.nombre}` : '';
+    if (el) {
+        el.textContent = user ? `Hola, ${user.nombre}` : '';
+        el.classList.toggle('has-user', !!user);
+    }
 }
 function initUser() {
     if (!UserManager.get()) {
@@ -727,11 +756,22 @@ window.toggleLista = function () {
     const overlay = document.getElementById('lista-overlay');
     if (!sidebar) return;
     if (!UserManager.get()) { showWelcomeModal(); return; }
-    sidebar.style.transform = '';
-    sidebar.style.transition = '';
-    const isOpen = sidebar.classList.toggle('open');
-    if (overlay) overlay.classList.toggle('visible', isOpen);
-    if (isOpen) ListaManager.renderSidebar();
+    const isOpen = !sidebar.classList.contains('open');
+    if (isOpen) {
+        ListaManager.renderSidebar();
+        // Small delay so renderSidebar DOM is ready before the transition starts
+        requestAnimationFrame(() => {
+            sidebar.style.transform = '';
+            sidebar.style.transition = '';
+            sidebar.classList.add('open');
+            if (overlay) overlay.classList.add('visible');
+        });
+    } else {
+        sidebar.style.transform = '';
+        sidebar.style.transition = '';
+        sidebar.classList.remove('open');
+        if (overlay) overlay.classList.remove('visible');
+    }
 };
 window.closeLista = function () {
     const sidebar = document.getElementById('lista-sidebar');
@@ -740,9 +780,9 @@ window.closeLista = function () {
 };
 window.addToLista = function (btn) {
     const prodKey = decodeURIComponent(btn.dataset.prodKey);
-    const nombre   = btn.dataset.nombre;
+    const nombre = btn.dataset.nombre;
     const categoria = btn.dataset.categoria;
-    const um       = btn.dataset.um;
+    const um = btn.dataset.um;
     ListaManager.addItem(prodKey, nombre, categoria, um);
 };
 
