@@ -1427,6 +1427,16 @@ body {
   align-items: center;
   gap: 10px;
   margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 220px;
+}
+
+@media (min-width: 769px) {
+  .header-right {
+    max-width: none;
+    flex-wrap: nowrap;
+  }
 }
 
 .user-greeting {
@@ -1441,9 +1451,13 @@ body {
 }
 
 .user-greeting.has-user {
-  max-width: 160px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: normal;
+  word-break: break-word;
+  font-size: 12px;
+  text-align: right;
+  order: 2;
+  /* shows below the button on mobile (wraps to 2nd flex row) */
 }
 
 .btn-mi-lista {

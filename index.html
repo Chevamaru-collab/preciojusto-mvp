@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Observatorio de Precios · Precio Justo</title>
   <meta name="description"
     content="Monitorea y compara precios de aceites y arroz en Wong y Metro. Datos reales del mercado limeño." />
@@ -48,9 +48,9 @@
   </header>
 
   <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
-    <a href="#resumen"  class="mobile-nav-link" onclick="closeMobileNav()">Resumen</a>
+    <a href="#resumen" class="mobile-nav-link" onclick="closeMobileNav()">Resumen</a>
     <a href="#comparar" class="mobile-nav-link" onclick="closeMobileNav()">Comparar</a>
-    <a href="#tabla"    class="mobile-nav-link" onclick="closeMobileNav()">Datos</a>
+    <a href="#tabla" class="mobile-nav-link" onclick="closeMobileNav()">Datos</a>
   </div>
 
   <!-- HERO -->
@@ -99,7 +99,8 @@
           <div class="filter-group">
             <label class="filter-label">Categoría</label>
             <div class="filter-chips" id="filter-cat">
-              <button class="chip active" data-value="Todos" onclick="setFilter('categoria','Todos',this)">🛒 Todos</button>
+              <button class="chip active" data-value="Todos" onclick="setFilter('categoria','Todos',this)">🛒
+                Todos</button>
               <button class="chip" data-value="Aceite" onclick="setFilter('categoria','Aceite',this)">🫙 Aceite</button>
               <button class="chip" data-value="Arroz" onclick="setFilter('categoria','Arroz',this)">🌾 Arroz</button>
             </div>
@@ -157,9 +158,27 @@
         <p class="section-desc">Precio online más reciente por unidad comparable (Lt o Kg), entre supermercados</p>
       </div>
       <div class="compare-grid" id="compare-grid">
-        <div class="skeleton-card"><div class="skeleton sk-line sk-sm"></div><div class="skeleton sk-line sk-lg"></div><div class="skeleton sk-price"></div><div class="skeleton sk-line sk-md"></div><div class="skeleton sk-price" style="width:36%"></div></div>
-        <div class="skeleton-card"><div class="skeleton sk-line sk-sm"></div><div class="skeleton sk-line sk-lg"></div><div class="skeleton sk-price"></div><div class="skeleton sk-line sk-md"></div><div class="skeleton sk-price" style="width:36%"></div></div>
-        <div class="skeleton-card"><div class="skeleton sk-line sk-sm"></div><div class="skeleton sk-line sk-lg"></div><div class="skeleton sk-price"></div><div class="skeleton sk-line sk-md"></div><div class="skeleton sk-price" style="width:36%"></div></div>
+        <div class="skeleton-card">
+          <div class="skeleton sk-line sk-sm"></div>
+          <div class="skeleton sk-line sk-lg"></div>
+          <div class="skeleton sk-price"></div>
+          <div class="skeleton sk-line sk-md"></div>
+          <div class="skeleton sk-price" style="width:36%"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton sk-line sk-sm"></div>
+          <div class="skeleton sk-line sk-lg"></div>
+          <div class="skeleton sk-price"></div>
+          <div class="skeleton sk-line sk-md"></div>
+          <div class="skeleton sk-price" style="width:36%"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton sk-line sk-sm"></div>
+          <div class="skeleton sk-line sk-lg"></div>
+          <div class="skeleton sk-price"></div>
+          <div class="skeleton sk-line sk-md"></div>
+          <div class="skeleton sk-price" style="width:36%"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -172,8 +191,16 @@
         <p class="section-desc" id="deals-date">Productos con mayor descuento respecto al precio regular</p>
       </div>
       <div class="deals-grid" id="deals-grid">
-        <div class="skeleton-card"><div class="skeleton sk-line sk-sm"></div><div class="skeleton sk-price"></div><div class="skeleton sk-line sk-md"></div></div>
-        <div class="skeleton-card"><div class="skeleton sk-line sk-sm"></div><div class="skeleton sk-price"></div><div class="skeleton sk-line sk-md"></div></div>
+        <div class="skeleton-card">
+          <div class="skeleton sk-line sk-sm"></div>
+          <div class="skeleton sk-price"></div>
+          <div class="skeleton sk-line sk-md"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton sk-line sk-sm"></div>
+          <div class="skeleton sk-price"></div>
+          <div class="skeleton sk-line sk-md"></div>
+        </div>
       </div>
     </div>
   </section>
