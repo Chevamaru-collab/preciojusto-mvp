@@ -545,7 +545,7 @@ function renderDeals(data) {
         return;
     }
 
-    const latestDate = latest[0]?.fecha || '';
+    const latestDate = [...new Set(rawData.map(d => d.fecha))].sort((a, b) => parseDate(b) - parseDate(a))[0] || '';
     const dealsSub = document.getElementById('deals-date');
     if (dealsSub) dealsSub.textContent = latestDate ? `Datos al ${latestDate}` : '';
 
@@ -727,12 +727,15 @@ window.toggleLista = function () {
     const overlay = document.getElementById('lista-overlay');
     if (!sidebar) return;
     if (!UserManager.get()) { showWelcomeModal(); return; }
+    sidebar.style.transform = '';
+    sidebar.style.transition = '';
     const isOpen = sidebar.classList.toggle('open');
     if (overlay) overlay.classList.toggle('visible', isOpen);
     if (isOpen) ListaManager.renderSidebar();
 };
 window.closeLista = function () {
-    document.getElementById('lista-sidebar')?.classList.remove('open');
+    const sidebar = document.getElementById('lista-sidebar');
+    if (sidebar) { sidebar.classList.remove('open'); sidebar.style.transform = ''; sidebar.style.transition = ''; }
     document.getElementById('lista-overlay')?.classList.remove('visible');
 };
 window.addToLista = function (btn) {
@@ -763,8 +766,8 @@ function initSwipeSidebar() {
     sidebar.addEventListener('touchend', e => {
         const dx = e.changedTouches[0].clientX - startX;
         sidebar.style.transition = '';
+        sidebar.style.transform = '';
         if (dx > 80) { closeLista(); }
-        else { sidebar.style.transform = sidebar.classList.contains('open') ? 'translateX(0)' : 'translateX(100%)'; }
         dragging = false;
     }, { passive: true });
 }
