@@ -1,5 +1,5 @@
 // PRECIO JUSTO — rawDataScraped
-// Generado: 2026-03-06T22:31:33.761Z
+// Generado: 2026-03-06T22:44:29.889Z
 // Registros: 153
 // Fuente: scrapers automáticos
 const rawDataScraped = [
@@ -20,7 +20,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Refrigeradora Mabe 520L Side By Side No Frost ...",
     "categoria": "Arroz",
     "marca": "Refrigeradora",
@@ -35,7 +35,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Celular Motorola Moto G06 4 + 256Gb Café",
     "categoria": "Arroz",
     "marca": "Celular",
@@ -50,7 +50,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Celular Motorola Moto G06 4 + 256Gb Azul",
     "categoria": "Arroz",
     "marca": "Celular",
@@ -65,7 +65,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Lonchera Batwheels Nido Prank",
     "categoria": "Arroz",
     "marca": "Lonchera",
@@ -80,7 +80,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Case Xtrem Trinity 6Xt Spider Black",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -95,7 +95,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Leggin Pack X2 Niña Circus Yt",
     "categoria": "Arroz",
     "marca": "Leggin",
@@ -110,7 +110,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Lonchera Pokemon Pikachu Media",
     "categoria": "Arroz",
     "marca": "Lonchera",
@@ -125,7 +125,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Hot Wheels Azul",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -140,7 +140,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Set Mochila + Bolso + Lonchera + Cartuchera Xt...",
     "categoria": "Arroz",
     "marca": "Set",
@@ -155,7 +155,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Lonchera Peppa Pig",
     "categoria": "Arroz",
     "marca": "Lonchera",
@@ -170,7 +170,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Celular Samsung Galaxy A17 256GB 8GB Negro",
     "categoria": "Arroz",
     "marca": "Celular",
@@ -185,7 +185,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Celular Samsung Galaxy A17 256GB 8GB Celeste",
     "categoria": "Arroz",
     "marca": "Celular",
@@ -200,7 +200,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Pesas Para Muñeca Y Tobillo 1Kg Fit.365 Rosa",
     "categoria": "Arroz",
     "marca": "Pesas",
@@ -215,7 +215,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Tipo Libro Zubito Sweetwave",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -230,7 +230,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Artesco Tweens Futbol",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -245,7 +245,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Snoopy Rojo",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -260,7 +260,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Mochila Circus Whale",
     "categoria": "Arroz",
     "marca": "Mochila",
@@ -275,7 +275,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Pokemon Pikachu Media",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -290,7 +290,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Lonchera One Piece Wanted",
     "categoria": "Arroz",
     "marca": "Lonchera",
@@ -305,7 +305,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Bt21",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -320,7 +320,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Bluey Rosa",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -335,7 +335,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Tobogán Con Columpio Torre Azul",
     "categoria": "Arroz",
     "marca": "Tobogán",
@@ -350,7 +350,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Gabby'S Dollhouse",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -365,7 +365,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Mochila Circus Bunny",
     "categoria": "Arroz",
     "marca": "Mochila",
@@ -380,7 +380,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Set Mochila + Lonchera + Cartuchera Magic Ofic...",
     "categoria": "Arroz",
     "marca": "Set",
@@ -395,7 +395,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Mochila Artesco Tweens Futbol",
     "categoria": "Arroz",
     "marca": "Mochila",
@@ -410,7 +410,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Set Mochila + Bolso + Lonchera + Cartuchera Xt...",
     "categoria": "Arroz",
     "marca": "Set",
@@ -425,7 +425,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Lonchera Artesco Tweens Futbol",
     "categoria": "Arroz",
     "marca": "Lonchera",
@@ -440,7 +440,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Set Mochila + Lonchera + Cartuchera Kombat Ofi...",
     "categoria": "Arroz",
     "marca": "Set",
@@ -455,7 +455,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Set Mochila De Ruedas + Lonchera + Cartuchera ...",
     "categoria": "Arroz",
     "marca": "Set",
@@ -470,7 +470,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Mochila Portalaptop Xtrem Gamma 6Xt Dark Olive",
     "categoria": "Arroz",
     "marca": "Mochila",
@@ -485,7 +485,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Mochila Xtrem Hopper 2.0 6Xt Grey Comic",
     "categoria": "Arroz",
     "marca": "Mochila",
@@ -500,7 +500,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Tabla De Pilates Multifuncional Fit.365 Gris",
     "categoria": "Arroz",
     "marca": "Tabla",
@@ -515,7 +515,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Lonchera Escolar Avengers",
     "categoria": "Arroz",
     "marca": "Lonchera",
@@ -530,7 +530,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Peppa Pig",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -545,7 +545,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Juego De Vajilla Floral",
     "categoria": "Arroz",
     "marca": "Juego",
@@ -560,7 +560,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Rack Botellas Vino Bamboo 37.5 X 16 X 12 Cm",
     "categoria": "Arroz",
     "marca": "Rack",
@@ -575,7 +575,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Artesco Básica Negro",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -590,7 +590,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Lonchera Among Us",
     "categoria": "Arroz",
     "marca": "Lonchera",
@@ -605,7 +605,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Among Us",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -620,7 +620,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Cartuchera Case Xtrem University+ 6Xt Mermaid ...",
     "categoria": "Arroz",
     "marca": "Cartuchera",
@@ -635,7 +635,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Mochila Portalaptop Xtrem Cleveland 6Xt Lila",
     "categoria": "Arroz",
     "marca": "Mochila",
@@ -650,7 +650,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Set Especiero Bamboo",
     "categoria": "Arroz",
     "marca": "Set",
@@ -665,7 +665,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Set Mochila + Bolsa Aseo + Lonchera + Cartuche...",
     "categoria": "Arroz",
     "marca": "Set",
@@ -680,7 +680,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Mochila Bluey Rosa",
     "categoria": "Arroz",
     "marca": "Mochila",
@@ -695,7 +695,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Perro Caminador De Peluche My Little Pet Grand...",
     "categoria": "Arroz",
     "marca": "Perro",
@@ -710,7 +710,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Lonchera Furby",
     "categoria": "Arroz",
     "marca": "Lonchera",
@@ -725,7 +725,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Mochila Portalaptop Xtrem Monroe 6Xt Black",
     "categoria": "Arroz",
     "marca": "Mochila",
@@ -740,7 +740,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Set Mochila + Maletín + Lonchera + Cartuchera ...",
     "categoria": "Arroz",
     "marca": "Set",
@@ -755,7 +755,7 @@ const rawDataScraped = [
   },
   {
     "fecha": "6/3/2026",
-    "super": "PlazaVea",
+    "super": "Plaza Vea",
     "item": "Celular Motorola Moto G06 4 + 128Gb Azul",
     "categoria": "Arroz",
     "marca": "Celular",
