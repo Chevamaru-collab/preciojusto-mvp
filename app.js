@@ -19,6 +19,7 @@ let searchQuery = '';
 
 // ---- HELPERS ----
 function parseDate(str) {
+    if (!str) return new Date(0);
     const parts = str.split('/');
     if (parts.length < 3) return new Date(0);
     return new Date(+parts[2], +parts[1] - 1, +parts[0]);
