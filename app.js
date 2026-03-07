@@ -28,6 +28,7 @@ function fmtSoles(n) {
     return 'S/ ' + parseFloat(n).toFixed(2);
 }
 function superClass(s) {
+    if (!s) return 'unknown';
     return SUPERMERCADOS[s]?.cssClass || s.toLowerCase();
 }
 function prodKeyFn(d) {
