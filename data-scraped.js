@@ -1,5 +1,5 @@
 // PRECIO JUSTO — rawDataScraped
-// Generado: 2026-03-07T00:27:30.662Z
+// Generado: 2026-03-07T00:45:41.162Z
 // Registros: 105
 // Fuente: scrapers automáticos
 const rawDataScraped = [
@@ -14,6 +14,7 @@ const rawDataScraped = [
     "precioOnline": 13.1,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "u",
     "pxum": 13.1
@@ -29,6 +30,7 @@ const rawDataScraped = [
     "precioOnline": 26.8,
     "precioRegular": 36.4,
     "descuento": -26,
+    "presentacion": 1,
     "vt": 1,
     "um": "u",
     "pxum": 26.8
@@ -44,6 +46,7 @@ const rawDataScraped = [
     "precioOnline": 22.9,
     "precioRegular": 26.9,
     "descuento": -15,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.58
@@ -59,6 +62,7 @@ const rawDataScraped = [
     "precioOnline": 23.9,
     "precioRegular": 25.9,
     "descuento": -8,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.78
@@ -74,6 +78,7 @@ const rawDataScraped = [
     "precioOnline": 17.9,
     "precioRegular": 19.9,
     "descuento": -10,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.58
@@ -89,6 +94,7 @@ const rawDataScraped = [
     "precioOnline": 4.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 6
@@ -104,6 +110,7 @@ const rawDataScraped = [
     "precioOnline": 20.9,
     "precioRegular": 26.9,
     "descuento": -22,
+    "presentacion": 1,
     "vt": 1,
     "um": "u",
     "pxum": 20.9
@@ -119,6 +126,7 @@ const rawDataScraped = [
     "precioOnline": 19.9,
     "precioRegular": 25.9,
     "descuento": -23,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.98
@@ -134,6 +142,7 @@ const rawDataScraped = [
     "precioOnline": 22.4,
     "precioRegular": 23.4,
     "descuento": -4,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.48
@@ -149,6 +158,7 @@ const rawDataScraped = [
     "precioOnline": 3.2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "u",
     "pxum": 3.2
@@ -164,6 +174,7 @@ const rawDataScraped = [
     "precioOnline": 21.9,
     "precioRegular": 22.9,
     "descuento": -4,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.38
@@ -179,6 +190,7 @@ const rawDataScraped = [
     "precioOnline": 4.2,
     "precioRegular": 4.8,
     "descuento": -12,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.6
@@ -194,6 +206,7 @@ const rawDataScraped = [
     "precioOnline": 5.6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 7.47
@@ -209,6 +222,7 @@ const rawDataScraped = [
     "precioOnline": 20.5,
     "precioRegular": 21.9,
     "descuento": -6,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.1
@@ -224,6 +238,7 @@ const rawDataScraped = [
     "precioOnline": 19.9,
     "precioRegular": 21.9,
     "descuento": -9,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.98
@@ -239,6 +254,7 @@ const rawDataScraped = [
     "precioOnline": 3.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 4.67
@@ -254,6 +270,7 @@ const rawDataScraped = [
     "precioOnline": 3.79,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.05
@@ -269,6 +286,7 @@ const rawDataScraped = [
     "precioOnline": 4.99,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 4.99
@@ -284,6 +302,7 @@ const rawDataScraped = [
     "precioOnline": 7.2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 150,
     "vt": 150,
     "um": "g",
     "pxum": 48
@@ -299,6 +318,7 @@ const rawDataScraped = [
     "precioOnline": 5.8,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 5.8
@@ -314,6 +334,7 @@ const rawDataScraped = [
     "precioOnline": 23.6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.72
@@ -329,6 +350,7 @@ const rawDataScraped = [
     "precioOnline": 3.1,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 4.13
@@ -344,6 +366,7 @@ const rawDataScraped = [
     "precioOnline": 17.9,
     "precioRegular": 18.7,
     "descuento": -4,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.58
@@ -359,6 +382,7 @@ const rawDataScraped = [
     "precioOnline": 1.4,
     "precioRegular": 1.9,
     "descuento": -26,
+    "presentacion": 6,
     "vt": 6,
     "um": "u",
     "pxum": 0.23
@@ -374,6 +398,7 @@ const rawDataScraped = [
     "precioOnline": 6.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 8.67
@@ -389,6 +414,7 @@ const rawDataScraped = [
     "precioOnline": 4.7,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 6.27
@@ -404,6 +430,7 @@ const rawDataScraped = [
     "precioOnline": 20.9,
     "precioRegular": 23.9,
     "descuento": -13,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.18
@@ -419,6 +446,7 @@ const rawDataScraped = [
     "precioOnline": 6.4,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 150,
     "vt": 150,
     "um": "g",
     "pxum": 42.67
@@ -434,6 +462,7 @@ const rawDataScraped = [
     "precioOnline": 6.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "u",
     "pxum": 6.9
@@ -449,6 +478,7 @@ const rawDataScraped = [
     "precioOnline": 6.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 150,
     "vt": 150,
     "um": "g",
     "pxum": 46
@@ -464,6 +494,7 @@ const rawDataScraped = [
     "precioOnline": 5.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 5.5
@@ -479,6 +510,7 @@ const rawDataScraped = [
     "precioOnline": 4,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.33
@@ -494,6 +526,7 @@ const rawDataScraped = [
     "precioOnline": 22.9,
     "precioRegular": 24.9,
     "descuento": -8,
+    "presentacion": 1,
     "vt": 1,
     "um": "u",
     "pxum": 22.9
@@ -509,6 +542,7 @@ const rawDataScraped = [
     "precioOnline": 13.2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 100,
     "vt": 100,
     "um": "g",
     "pxum": 132
@@ -524,6 +558,7 @@ const rawDataScraped = [
     "precioOnline": 6.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 350,
     "vt": 350,
     "um": "g",
     "pxum": 19.71
@@ -539,6 +574,7 @@ const rawDataScraped = [
     "precioOnline": 7.7,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 200,
     "vt": 200,
     "um": "g",
     "pxum": 38.5
@@ -554,6 +590,7 @@ const rawDataScraped = [
     "precioOnline": 18.9,
     "precioRegular": 21.9,
     "descuento": -14,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.78
@@ -569,6 +606,7 @@ const rawDataScraped = [
     "precioOnline": 13.99,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 50,
     "vt": 50,
     "um": "g",
     "pxum": 279.8
@@ -584,6 +622,7 @@ const rawDataScraped = [
     "precioOnline": 19.9,
     "precioRegular": 22.7,
     "descuento": -12,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.98
@@ -599,6 +638,7 @@ const rawDataScraped = [
     "precioOnline": 23.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.78
@@ -614,6 +654,7 @@ const rawDataScraped = [
     "precioOnline": 38,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 10,
     "vt": 10,
     "um": "kg",
     "pxum": 3.8
@@ -629,6 +670,7 @@ const rawDataScraped = [
     "precioOnline": 2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 50,
     "vt": 50,
     "um": "g",
     "pxum": 40
@@ -644,6 +686,7 @@ const rawDataScraped = [
     "precioOnline": 2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 50,
     "vt": 50,
     "um": "g",
     "pxum": 40
@@ -659,6 +702,7 @@ const rawDataScraped = [
     "precioOnline": 10.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 21
@@ -674,6 +718,7 @@ const rawDataScraped = [
     "precioOnline": 6.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 13.8
@@ -689,6 +734,7 @@ const rawDataScraped = [
     "precioOnline": 23.2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.64
@@ -704,6 +750,7 @@ const rawDataScraped = [
     "precioOnline": 4.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 6
@@ -719,6 +766,7 @@ const rawDataScraped = [
     "precioOnline": 24.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.98
@@ -734,6 +782,7 @@ const rawDataScraped = [
     "precioOnline": 24.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.98
@@ -749,6 +798,7 @@ const rawDataScraped = [
     "precioOnline": 18.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.78
@@ -764,6 +814,7 @@ const rawDataScraped = [
     "precioOnline": 4.3,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.73
@@ -779,6 +830,7 @@ const rawDataScraped = [
     "precioOnline": 23.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.78
@@ -794,6 +846,7 @@ const rawDataScraped = [
     "precioOnline": 4.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 6
@@ -809,6 +862,7 @@ const rawDataScraped = [
     "precioOnline": 6.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 8.67
@@ -824,6 +878,7 @@ const rawDataScraped = [
     "precioOnline": 3.6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 4.8
@@ -839,6 +894,7 @@ const rawDataScraped = [
     "precioOnline": 19.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.9
@@ -854,6 +910,7 @@ const rawDataScraped = [
     "precioOnline": 21.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.3
@@ -869,6 +926,7 @@ const rawDataScraped = [
     "precioOnline": 6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 6
@@ -884,6 +942,7 @@ const rawDataScraped = [
     "precioOnline": 24.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.9
@@ -899,6 +958,7 @@ const rawDataScraped = [
     "precioOnline": 22.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.5
@@ -914,6 +974,7 @@ const rawDataScraped = [
     "precioOnline": 7.6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 7.6
@@ -929,6 +990,7 @@ const rawDataScraped = [
     "precioOnline": 5.3,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 5.3
@@ -944,6 +1006,7 @@ const rawDataScraped = [
     "precioOnline": 4.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 4.5
@@ -959,6 +1022,7 @@ const rawDataScraped = [
     "precioOnline": 48.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 10,
     "vt": 10,
     "um": "kg",
     "pxum": 4.89
@@ -974,6 +1038,7 @@ const rawDataScraped = [
     "precioOnline": 5.7,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 7.6
@@ -989,6 +1054,7 @@ const rawDataScraped = [
     "precioOnline": 18.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.7
@@ -1004,6 +1070,7 @@ const rawDataScraped = [
     "precioOnline": 30.3,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 6.06
@@ -1019,6 +1086,7 @@ const rawDataScraped = [
     "precioOnline": 22.8,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 45.6
@@ -1034,6 +1102,7 @@ const rawDataScraped = [
     "precioOnline": 6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 8
@@ -1049,6 +1118,7 @@ const rawDataScraped = [
     "precioOnline": 24.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.98
@@ -1064,6 +1134,7 @@ const rawDataScraped = [
     "precioOnline": 16.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 3,
     "vt": 3,
     "um": "kg",
     "pxum": 5.63
@@ -1079,6 +1150,7 @@ const rawDataScraped = [
     "precioOnline": 4.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 6
@@ -1094,6 +1166,7 @@ const rawDataScraped = [
     "precioOnline": 12.4,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 16.53
@@ -1109,6 +1182,7 @@ const rawDataScraped = [
     "precioOnline": 4.3,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.73
@@ -1124,6 +1198,7 @@ const rawDataScraped = [
     "precioOnline": 6.3,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 6.3
@@ -1139,6 +1214,7 @@ const rawDataScraped = [
     "precioOnline": 1.4,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 6,
     "vt": 6,
     "um": "u",
     "pxum": 0.23
@@ -1154,6 +1230,7 @@ const rawDataScraped = [
     "precioOnline": 4.2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.6
@@ -1169,6 +1246,7 @@ const rawDataScraped = [
     "precioOnline": 8.25,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 8.25
@@ -1184,6 +1262,7 @@ const rawDataScraped = [
     "precioOnline": 5.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 7.33
@@ -1199,6 +1278,7 @@ const rawDataScraped = [
     "precioOnline": 4,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.33
@@ -1214,6 +1294,7 @@ const rawDataScraped = [
     "precioOnline": 22.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.58
@@ -1229,6 +1310,7 @@ const rawDataScraped = [
     "precioOnline": 7.6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 7.6
@@ -1244,6 +1326,7 @@ const rawDataScraped = [
     "precioOnline": 2.99,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 5.98
@@ -1259,6 +1342,7 @@ const rawDataScraped = [
     "precioOnline": 36.2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 36.2
@@ -1274,6 +1358,7 @@ const rawDataScraped = [
     "precioOnline": 7.6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 7.6
@@ -1289,6 +1374,7 @@ const rawDataScraped = [
     "precioOnline": 19.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 39.8
@@ -1304,6 +1390,7 @@ const rawDataScraped = [
     "precioOnline": 43.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 8.78
@@ -1319,6 +1406,7 @@ const rawDataScraped = [
     "precioOnline": 4.3,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.73
@@ -1334,6 +1422,7 @@ const rawDataScraped = [
     "precioOnline": 4.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 6.53
@@ -1349,6 +1438,7 @@ const rawDataScraped = [
     "precioOnline": 3.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 4.67
@@ -1364,6 +1454,7 @@ const rawDataScraped = [
     "precioOnline": 23.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.78
@@ -1379,6 +1470,7 @@ const rawDataScraped = [
     "precioOnline": 28.7,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 5.74
@@ -1394,6 +1486,7 @@ const rawDataScraped = [
     "precioOnline": 19.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 3.98
@@ -1409,6 +1502,7 @@ const rawDataScraped = [
     "precioOnline": 16.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 3,
     "vt": 3,
     "um": "kg",
     "pxum": 5.63
@@ -1424,6 +1518,7 @@ const rawDataScraped = [
     "precioOnline": 15.6,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 1,
     "vt": 1,
     "um": "kg",
     "pxum": 15.6
@@ -1439,6 +1534,7 @@ const rawDataScraped = [
     "precioOnline": 5.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 11.8
@@ -1454,6 +1550,7 @@ const rawDataScraped = [
     "precioOnline": 12.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 400,
     "vt": 400,
     "um": "g",
     "pxum": 32.25
@@ -1469,6 +1566,7 @@ const rawDataScraped = [
     "precioOnline": 3.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 750,
     "vt": 750,
     "um": "g",
     "pxum": 5.2
@@ -1484,6 +1582,7 @@ const rawDataScraped = [
     "precioOnline": 14.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 400,
     "vt": 400,
     "um": "g",
     "pxum": 36.25
@@ -1499,6 +1598,7 @@ const rawDataScraped = [
     "precioOnline": 20.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 41.8
@@ -1514,6 +1614,7 @@ const rawDataScraped = [
     "precioOnline": 18.5,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 420,
     "vt": 420,
     "um": "g",
     "pxum": 44.05
@@ -1529,6 +1630,7 @@ const rawDataScraped = [
     "precioOnline": 26,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 5.2
@@ -1544,6 +1646,7 @@ const rawDataScraped = [
     "precioOnline": 19.9,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 39.8
@@ -1559,6 +1662,7 @@ const rawDataScraped = [
     "precioOnline": 22.2,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 5,
     "vt": 5,
     "um": "kg",
     "pxum": 4.44
@@ -1574,6 +1678,7 @@ const rawDataScraped = [
     "precioOnline": 11.99,
     "precioRegular": 0,
     "descuento": null,
+    "presentacion": 500,
     "vt": 500,
     "um": "g",
     "pxum": 23.98
