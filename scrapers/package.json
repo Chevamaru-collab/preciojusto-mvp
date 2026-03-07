@@ -1,0 +1,20 @@
+{
+    "name": "preciojusto-scrapers",
+    "version": "1.0.0",
+    "description": "Scrapers automáticos precios supermercados Lima — 15 categorías INEI",
+    "main": "run-all.js",
+    "scripts": {
+        "scrape": "node run-all.js",
+        "scrape:wong": "node scraper-wong.js",
+        "scrape:metro": "node scraper-metro.js",
+        "scrape:plazavea": "node scraper-plazavea.js",
+        "scrape:tottus": "node scraper-tottus.js",
+        "test": "node ../test/test-scraper.js",
+        "test:selectors": "node test-selectors.js"
+    },
+    "dependencies": {
+        "puppeteer": "^24.38.0"
+    },
+    "author": "PrecioJusto",
+    "license": "MIT"
+}

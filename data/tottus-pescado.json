@@ -1,0 +1,626 @@
+[
+  {
+    "id": "tottus_tottusfiletedetilapi_mmgpkz5a",
+    "nombre": "TOTTUS Filete De Tilapia Sin Piel Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 16.9,
+      "regular": 22.9,
+      "porUnidad": 16.9
+    },
+    "presentacion": null,
+    "descuento": 26,
+    "timestamp": "2026-03-07T19:20:49.390Z"
+  },
+  {
+    "id": "tottus_tottusfiletedetrucha_mmgpkz5a",
+    "nombre": "TOTTUS Filete de Trucha Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 29.9,
+      "regular": null,
+      "porUnidad": 29.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.390Z"
+  },
+  {
+    "id": "tottus_tottusporcionesdebon_mmgpkz5a",
+    "nombre": "TOTTUS Porciones De Bonito Tottus 500 g",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "porUnidad": 25.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.390Z"
+  },
+  {
+    "id": "tottus_tottusporcionesdeper_mmgpkz5d",
+    "nombre": "TOTTUS Porciones De Perico Sin Piel Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 29.9,
+      "regular": null,
+      "porUnidad": 29.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.390Z"
+  },
+  {
+    "id": "tottus_tottusfiletedetilapi_mmgpkz5d",
+    "nombre": "TOTTUS Filete De Tilapia Azul Premium Fresco Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 53.9,
+      "regular": null,
+      "porUnidad": 53.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuspejerreycortem_mmgpkz5d",
+    "nombre": "TOTTUS Pejerrey Corte Mariposa",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 18.9,
+      "regular": null,
+      "porUnidad": 18.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusfiletedebasato_mmgpkz5d",
+    "nombre": "TOTTUS Filete De Basa Tottus 1 kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 15.9,
+      "regular": null,
+      "porUnidad": 15.9
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusfiletedeperico_mmgpkz5d",
+    "nombre": "TOTTUS Filete De Perico Sin Piel Tottus 1 kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 24.9,
+      "regular": 46.9,
+      "porUnidad": 24.9
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 47,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusfiletedepejerr_mmgpkz5d",
+    "nombre": "TOTTUS Filete de Pejerrey Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 30.9,
+      "regular": null,
+      "porUnidad": 30.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_preciounofiletedetil_mmgpkz5d",
+    "nombre": "PRECIO UNO Filete de Tilapia",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 11.5,
+      "regular": null,
+      "porUnidad": 11.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_santapriscilacolasde_mmgpkz5d",
+    "nombre": "SANTA PRISCILA Colas de Langostino Apanado",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 31.9,
+      "regular": null,
+      "porUnidad": 31.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuspremiumporcion_mmgpkz5d",
+    "nombre": "TOTTUS PREMIUM Porciones De Salmón Tottus Premium 500 g",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 44.5,
+      "regular": 51.9,
+      "porUnidad": 89
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuschuletadepiern_mmgpkz5d",
+    "nombre": "TOTTUS Chuleta De Pierna De Cerdo Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 17.9,
+      "regular": 21.9,
+      "porUnidad": 17.9
+    },
+    "presentacion": null,
+    "descuento": 18,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusossobucoderest_mmgpkz5d",
+    "nombre": "TOTTUS Ossobuco De Res Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 25.9,
+      "regular": null,
+      "porUnidad": 25.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuspancetaconpiel_mmgpkz5d",
+    "nombre": "TOTTUS Panceta Con Piel Con Hueso Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 25.9,
+      "regular": 33.9,
+      "porUnidad": 25.9
+    },
+    "presentacion": null,
+    "descuento": 24,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuscarnemolidader_mmgpkz5d",
+    "nombre": "TOTTUS Carne Molida De Res Corte Clásico Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 14.9,
+      "regular": null,
+      "porUnidad": 14.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuspiernitasdepol_mmgpkz5d",
+    "nombre": "TOTTUS Piernitas De Pollo Importado Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 6.3,
+      "regular": 7.9,
+      "porUnidad": 6.3
+    },
+    "presentacion": null,
+    "descuento": 20,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuslangostinoscru_mmgpkz5d",
+    "nombre": "TOTTUS Langostinos Crudos Y Pelados Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 19.9,
+      "regular": 21.9,
+      "porUnidad": 19.9
+    },
+    "presentacion": null,
+    "descuento": 9,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuspremiummedallo_mmgpkz5d",
+    "nombre": "TOTTUS PREMIUM Medallones De Atún Sin Piel Tottus Premium 600 g",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 38.9,
+      "regular": null,
+      "porUnidad": 64.83
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusmedallonesdepe_mmgpkz5d",
+    "nombre": "TOTTUS Medallones de Pez Espada Tottus Premium",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 39.9,
+      "regular": null,
+      "porUnidad": 39.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottustruchadeshuesa_mmgpkz5d",
+    "nombre": "TOTTUS Trucha Deshuesada Fresca Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 33.9,
+      "regular": null,
+      "porUnidad": 33.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottustilapiaeviscer_mmgpkz5d",
+    "nombre": "TOTTUS Tilapia Eviscerada Chica Entera Congelada x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 18.9,
+      "regular": null,
+      "porUnidad": 18.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusbonitoenteroco_mmgpkz5d",
+    "nombre": "TOTTUS Bonito Entero Congelado x Kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 8.9,
+      "regular": null,
+      "porUnidad": 8.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuscaballaenterac_mmgpkz5d",
+    "nombre": "TOTTUS Caballa Entera Congelada x Kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 8.9,
+      "regular": null,
+      "porUnidad": 8.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusfiletedeswaisi_mmgpkz5d",
+    "nombre": "TOTTUS Filete De Swai Sin Piel Tottus 500 g",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 15.9,
+      "regular": null,
+      "porUnidad": 31.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottustruchaenteraev_mmgpkz5d",
+    "nombre": "TOTTUS Trucha Entera Eviscerada Congelado Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 28.9,
+      "regular": null,
+      "porUnidad": 28.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusjurelenterocon_mmgpkz5d",
+    "nombre": "TOTTUS Jurel Entero Congelado x Kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 8.5,
+      "regular": null,
+      "porUnidad": 8.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusporcionesdetru_mmgpkz5d",
+    "nombre": "TOTTUS Porciones De Trucha Tottus 500 g",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 29.9,
+      "regular": null,
+      "porUnidad": 59.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusfiletedetrucha_mmgpkz5d",
+    "nombre": "TOTTUS Filete De Trucha Congelado Tottus",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 49.9,
+      "regular": null,
+      "porUnidad": 49.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusbarritasdeperi_mmgpkz5d",
+    "nombre": "TOTTUS BARRITAS DE PERICO X 500 G",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 18.9,
+      "regular": null,
+      "porUnidad": 37.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_seafrostmerluzafilet_mmgpkz5d",
+    "nombre": "SEAFROST Merluza Filete Con Piel x 500 g",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 13.9,
+      "regular": null,
+      "porUnidad": 27.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottustilapiaazulevi_mmgpkz5d",
+    "nombre": "TOTTUS TILAPIA AZUL EVISCERADA GRANDE XKG",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 11.45,
+      "regular": null,
+      "porUnidad": 11.45
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusespejoenterono_mmgpkz5d",
+    "nombre": "TOTTUS Espejo Entero Norte x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 19.5,
+      "regular": 20.5,
+      "porUnidad": 19.5
+    },
+    "presentacion": null,
+    "descuento": 5,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusmerorojoentero_mmgpkz5d",
+    "nombre": "TOTTUS Mero Rojo Entero Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 64.9,
+      "regular": null,
+      "porUnidad": 64.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuslenguadoentero_mmgpkz5d",
+    "nombre": "TOTTUS Lenguado Entero Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 43.5,
+      "regular": null,
+      "porUnidad": 43.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusmeromuriqueent_mmgpkz5d",
+    "nombre": "TOTTUS Mero Murique Entero Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 60.5,
+      "regular": 62.9,
+      "porUnidad": 60.5
+    },
+    "presentacion": null,
+    "descuento": 4,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusrobaloenterofr_mmgpkz5d",
+    "nombre": "TOTTUS Robalo Entero Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 43.5,
+      "regular": 46.9,
+      "porUnidad": 43.5
+    },
+    "presentacion": null,
+    "descuento": 7,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusmacheteenterof_mmgpkz5d",
+    "nombre": "TOTTUS Machete Entero Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 8.9,
+      "regular": 9.5,
+      "porUnidad": 8.9
+    },
+    "presentacion": null,
+    "descuento": 6,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuscongriorojoent_mmgpkz5d",
+    "nombre": "TOTTUS Congrio Rojo Entero Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 41.9,
+      "regular": 49.5,
+      "porUnidad": 41.9
+    },
+    "presentacion": null,
+    "descuento": 15,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottustollodelecheen_mmgpkz5d",
+    "nombre": "TOTTUS Tollo De Leche Entero Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 46.9,
+      "regular": 48.9,
+      "porUnidad": 46.9
+    },
+    "presentacion": null,
+    "descuento": 4,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottuscachemaenteraf_mmgpkz5d",
+    "nombre": "TOTTUS Cachema Entera Fresca x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 33.5,
+      "regular": 33.9,
+      "porUnidad": 33.5
+    },
+    "presentacion": null,
+    "descuento": 1,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  },
+  {
+    "id": "tottus_tottusbonitoenterofr_mmgpkz5d",
+    "nombre": "TOTTUS Bonito Entero Fresco x kg",
+    "categoria": "pescado",
+    "super": "tottus",
+    "precios": {
+      "online": 12.5,
+      "regular": null,
+      "porUnidad": 12.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:20:49.393Z"
+  }
+]

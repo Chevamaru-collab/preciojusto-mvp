@@ -1,0 +1,732 @@
+[
+  {
+    "id": "metro_jamonadadepolloredon_mmgio29l",
+    "nombre": "Jamonada de Pollo Redondos 85g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 1.9,
+      "regular": null,
+      "porUnidad": 22.35
+    },
+    "presentacion": {
+      "valor": 85,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.089Z"
+  },
+  {
+    "id": "metro_patasdepolloxkg_mmgio29l",
+    "nombre": "Patas de Pollo x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 9.5,
+      "regular": null,
+      "porUnidad": 9.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.089Z"
+  },
+  {
+    "id": "metro_patdehgadodepollosan_mmgio29l",
+    "nombre": "Paté de Hígado de Pollo San Fernando 100 g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 2.5,
+      "regular": 3.9,
+      "porUnidad": 25
+    },
+    "presentacion": {
+      "valor": 100,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 36,
+    "timestamp": "2026-03-07T16:07:16.089Z"
+  },
+  {
+    "id": "metro_jamonadaconpollocerd_mmgio29l",
+    "nombre": "Jamonada con Pollo Cerdeña Paquete 100 g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 2.5,
+      "regular": null,
+      "porUnidad": 25
+    },
+    "presentacion": {
+      "valor": 100,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.089Z"
+  },
+  {
+    "id": "metro_corazndepolloxkg_mmgio29l",
+    "nombre": "Corazón de Pollo x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "porUnidad": 12.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.089Z"
+  },
+  {
+    "id": "metro_hotdogdepollorazzeto_mmgio29m",
+    "nombre": "Hot Dog de Pollo Razzeto 93g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 2.7,
+      "regular": null,
+      "porUnidad": 29.03
+    },
+    "presentacion": {
+      "valor": 93,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.089Z"
+  },
+  {
+    "id": "metro_jamonadaconpollorico_mmgio29m",
+    "nombre": "Jamonada con Pollo Rico 200g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.9,
+      "regular": null,
+      "porUnidad": 24.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_mollejadepolloxkg_mmgio29m",
+    "nombre": "Molleja de Pollo x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 13.9,
+      "regular": null,
+      "porUnidad": 13.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_patdepollorico100g_mmgio29m",
+    "nombre": "Paté de Pollo Rico 100g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 2.8,
+      "regular": null,
+      "porUnidad": 28
+    },
+    "presentacion": {
+      "valor": 100,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_jamonadadepollobraed_mmgio29m",
+    "nombre": "Jamonada de Pollo Braedt 180g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.9,
+      "regular": null,
+      "porUnidad": 27.22
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_piernadepolloxkg_mmgio29m",
+    "nombre": "Pierna de Pollo x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 15.9,
+      "regular": null,
+      "porUnidad": 15.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_hamburguesasdepollox_mmgio29m",
+    "nombre": "Hamburguesas de Pollo x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 17.75,
+      "regular": null,
+      "porUnidad": 17.75
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_jamonadadepolloottok_mmgio29m",
+    "nombre": "Jamonada de Pollo Otto Kunz Paquete 100 g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.47,
+      "regular": 4.7,
+      "porUnidad": 44.7
+    },
+    "presentacion": {
+      "valor": 100,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 5,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_jamonadadepollocuisi_mmgio29m",
+    "nombre": "Jamonada de Pollo Cuisine & Co 200g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 3.9,
+      "regular": 4.9,
+      "porUnidad": 19.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 20,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_jamonadaconpolloespe_mmgio29m",
+    "nombre": "Jamonada con Pollo Especial Razzeto 200g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 3.9,
+      "regular": 5.5,
+      "porUnidad": 19.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 29,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_jamonadaconpollosuiz_mmgio29m",
+    "nombre": "Jamonada con Pollo Suiza Paquete 200 g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "porUnidad": 29.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_jamonadadepollosanfe_mmgio29m",
+    "nombre": "Jamonada de Pollo San Fernando 200g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.1,
+      "regular": 5.2,
+      "porUnidad": 20.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 21,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_patconpollolagranjit_mmgio29m",
+    "nombre": "Paté con Pollo La Granjita 100g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.2,
+      "regular": null,
+      "porUnidad": 42
+    },
+    "presentacion": {
+      "valor": 100,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_piernaconencuentrode_mmgio29m",
+    "nombre": "Pierna con Encuentro de Pollo x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 14.5,
+      "regular": null,
+      "porUnidad": 14.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_salchichadepolloredo_mmgio29m",
+    "nombre": "Salchicha de Pollo Redondos 250g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.5,
+      "regular": 4.9,
+      "porUnidad": 18
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 8,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_mortadeladepollonatu_mmgio29m",
+    "nombre": "Mortadela de Pollo Naturave 200g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.7,
+      "regular": null,
+      "porUnidad": 23.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_salchichadepollosanf_mmgio29m",
+    "nombre": "Salchicha de Pollo San Fernando 250g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "porUnidad": 23.6
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_hotdogdepollometropa_mmgio29m",
+    "nombre": "Hot Dog de Pollo Metro Paquete 250 g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.9,
+      "regular": null,
+      "porUnidad": 19.6
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_humitaverdedepollo10_mmgio29m",
+    "nombre": "Humita Verde de Pollo 100g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 4.99,
+      "regular": null,
+      "porUnidad": 49.9
+    },
+    "presentacion": {
+      "valor": 100,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_tamaldechinchadepoll_mmgio29m",
+    "nombre": "Tamal de Chincha de Pollo x un",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 7.2,
+      "regular": 8.5,
+      "porUnidad": 7.2
+    },
+    "presentacion": null,
+    "descuento": 15,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_tamalnorteodepollo22_mmgio29m",
+    "nombre": "Tamal Norteño de Pollo 220g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.5,
+      "regular": null,
+      "porUnidad": 25
+    },
+    "presentacion": {
+      "valor": 220,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_nuggetsdepollosanfer_mmgio29m",
+    "nombre": "Nuggets de Pollo San Fernando 180g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.7,
+      "regular": null,
+      "porUnidad": 31.67
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_crispynuggetsdepollo_mmgio29m",
+    "nombre": "Crispy Nuggets de Pollo San Fernando 160g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.7,
+      "regular": null,
+      "porUnidad": 35.63
+    },
+    "presentacion": {
+      "valor": 160,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_nuggetsdepolloxkg_mmgio29m",
+    "nombre": "Nuggets de Pollo x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 22.99,
+      "regular": null,
+      "porUnidad": 22.99
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_hotdogconpollosuiza2_mmgio29m",
+    "nombre": "Hot Dog con Pollo Suiza 200g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "porUnidad": 29.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_hotdogdepolloahumado_mmgio29m",
+    "nombre": "Hot Dog de Pollo Ahumado San Fernando 220g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "porUnidad": 26.82
+    },
+    "presentacion": {
+      "valor": 220,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_hotdogdepollocuisine_mmgio29m",
+    "nombre": "Hot Dog de Pollo Cuisine & Co 250g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "porUnidad": 23.6
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_packmximajamonadadep_mmgio29m",
+    "nombre": "Pack Máxima: Jamonada de Pollo 85g + Queso Tipo Edam 80g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": 7.3,
+      "porUnidad": 69.41
+    },
+    "presentacion": {
+      "valor": 85,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_hotdogricopollo250g_mmgio29m",
+    "nombre": "Hot Dog Rico Pollo 250 g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "porUnidad": 23.6
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_causadepolloyverdura_mmgio29m",
+    "nombre": "Causa de Pollo y Verduras 180g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "porUnidad": 32.78
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_nuggetsdepechugadepo_mmgio29m",
+    "nombre": "Nuggets de Pechuga de Pollo Redondos 12un",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 6.5,
+      "regular": null,
+      "porUnidad": 0.54
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_humitasdepollodelaca_mmgio29m",
+    "nombre": "Humitas de Pollo De La Casa x Unid",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 6.7,
+      "regular": null,
+      "porUnidad": 6.7
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_jamonadadepollosalch_mmgio29m",
+    "nombre": "Jamonada de Pollo Salchichería Alemana 200g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 6.7,
+      "regular": null,
+      "porUnidad": 33.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_hamburguesasdepollor_mmgio29m",
+    "nombre": "Hamburguesas de Pollo Redondos 6un",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 6.8,
+      "regular": null,
+      "porUnidad": 1.13
+    },
+    "presentacion": {
+      "valor": 6,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_hotdogdepollosalchic_mmgio29m",
+    "nombre": "Hot Dog de Pollo Salchichería Alemana 250g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 7.5,
+      "regular": 8.5,
+      "porUnidad": 30
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 12,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_quesodechanchoricopo_mmgio29m",
+    "nombre": "Queso de Chancho Rico Pollo 200 g",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 7.5,
+      "regular": null,
+      "porUnidad": 37.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_pescuezodepolloredon_mmgio29m",
+    "nombre": "Pescuezo de Pollo Redondos x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 7.5,
+      "regular": null,
+      "porUnidad": 7.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  },
+  {
+    "id": "metro_piernaespeciallightd_mmgio29m",
+    "nombre": "Pierna Especial Light de Pollo x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 17.49,
+      "regular": null,
+      "porUnidad": 17.49
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T16:07:16.090Z"
+  }
+]

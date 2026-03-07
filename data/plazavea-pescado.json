@@ -1,0 +1,728 @@
+[
+  {
+    "id": "plazavea_filetedetilapiabells_mmgpscx2",
+    "nombre": "Filete de Tilapia BELL'S Bolsa 1Kg",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 17.9,
+      "regular": 19.5,
+      "porUnidad": 17.9
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 8,
+    "timestamp": "2026-03-07T19:26:33.830Z"
+  },
+  {
+    "id": "plazavea_porcionesdetruchapis_mmgpscx2",
+    "nombre": "Porciones de Trucha PISCIS Bolsa 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 27.5,
+      "regular": null,
+      "porUnidad": 55
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.830Z"
+  },
+  {
+    "id": "plazavea_porcionesdesalmnaqua_mmgpscx3",
+    "nombre": "Porciones de Salmón AQUA Bolsa 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 51.5,
+      "regular": null,
+      "porUnidad": 103
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.830Z"
+  },
+  {
+    "id": "plazavea_filetedetruchabellsc_mmgpscx3",
+    "nombre": "Filete de Trucha BELL'S Congelado con Piel Bol...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 26.9,
+      "regular": null,
+      "porUnidad": 26.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.830Z"
+  },
+  {
+    "id": "plazavea_filetedebasabellsbol_mmgpscx3",
+    "nombre": "Filete de Basa BELL'S Bolsa 1Kg",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 15.5,
+      "regular": null,
+      "porUnidad": 15.5
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.830Z"
+  },
+  {
+    "id": "plazavea_filetedemerluzaseafr_mmgpscx3",
+    "nombre": "Filete de Merluza SEAFROST S/P 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 14.9,
+      "regular": null,
+      "porUnidad": 29.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_porcindebonitoconpie_mmgpscx3",
+    "nombre": "Porción de Bonito con Piel Congelado FROZEN 50...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 11.5,
+      "regular": null,
+      "porUnidad": 11.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_langostinoscrudosazu_mmgpscx3",
+    "nombre": "Langostinos Crudos AZUL MARINO Bolsa 300g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 18.9,
+      "regular": null,
+      "porUnidad": 63
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_langostinosprecocido_mmgpscx3",
+    "nombre": "Langostinos Precocidos BELL'S Bolsa 300g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 21.5,
+      "regular": null,
+      "porUnidad": 71.67
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_filetedetilapiaimpor_mmgpscx3",
+    "nombre": "Filete de Tilapia Importado",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 19.9,
+      "regular": null,
+      "porUnidad": 19.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_mixturademariscossea_mmgpscx3",
+    "nombre": "Mixtura de Mariscos SEAFROST Bolsa 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 17.5,
+      "regular": 18.5,
+      "porUnidad": 35
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 5,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_porcionesdefileteper_mmgpscx3",
+    "nombre": "Porciones de Filete Perico FROZEN con Pellejo ...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 20.9,
+      "regular": null,
+      "porUnidad": 20.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_porcionesdesalmnvadi_mmgpscx3",
+    "nombre": "Porciones de Salmón VADIMAR Bolsa 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 44.9,
+      "regular": 49.9,
+      "porUnidad": 89.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 10,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_medallonesdeatnconge_mmgpscx3",
+    "nombre": "Medallones de Atún Congelado Bolsa 1Kg",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 49.99,
+      "regular": null,
+      "porUnidad": 49.99
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_pejerreybellsbolsa50_mmgpscx3",
+    "nombre": "Pejerrey BELL'S Bolsa 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 12.5,
+      "regular": null,
+      "porUnidad": 25
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_truchaeviscerada_mmgpscx3",
+    "nombre": "Trucha Eviscerada",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 22.5,
+      "regular": null,
+      "porUnidad": 22.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_pescadobonitoenterof_mmgpscx3",
+    "nombre": "Pescado Bonito Entero Fresco",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 7.9,
+      "regular": null,
+      "porUnidad": 7.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_anillasdecalamarpesc_mmgpscx3",
+    "nombre": "Anillas de Calamar PESCATORE Bolsa 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 14.9,
+      "regular": null,
+      "porUnidad": 29.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_langostinosbellsbols_mmgpscx3",
+    "nombre": "Langostinos BELL'S Bolsa 300g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 23.9,
+      "regular": null,
+      "porUnidad": 79.67
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_porcionesdetruchabel_mmgpscx3",
+    "nombre": "Porciones de Trucha BELL'S Bolsa 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 32.9,
+      "regular": null,
+      "porUnidad": 65.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_langostinospeladoyde_mmgpscx3",
+    "nombre": "Langostinos Pelado y Desvenado Grandes 31-35 S...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 27.9,
+      "regular": null,
+      "porUnidad": 27.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_nuggetsdetilapiasant_mmgpscx3",
+    "nombre": "Nuggets de Tilapia SANTA PRISCILA Bolsa 454g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 18.9,
+      "regular": 19.9,
+      "porUnidad": 41.63
+    },
+    "presentacion": {
+      "valor": 454,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 5,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_filetedepejerreyazul_mmgpscx3",
+    "nombre": "Filete de Pejerrey AZUL MARINO Corte Mariposa ...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.9,
+      "regular": null,
+      "porUnidad": 9.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_mejillonesazulmarino_mmgpscx3",
+    "nombre": "Mejillones AZUL MARINO Paquete 300g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 10.9,
+      "regular": null,
+      "porUnidad": 36.33
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_mixturademariscosgov_mmgpscx3",
+    "nombre": "Mixtura de Mariscos GOVIMAR Bolsa 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 17.9,
+      "regular": null,
+      "porUnidad": 35.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_truchadehuesada_mmgpscx3",
+    "nombre": "Trucha Dehuesada",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 31.5,
+      "regular": null,
+      "porUnidad": 31.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_filetedebasa_mmgpscx3",
+    "nombre": "Filete de Basa",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 13.5,
+      "regular": 14.5,
+      "porUnidad": 13.5
+    },
+    "presentacion": null,
+    "descuento": 7,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_filetedesalmncongela_mmgpscx3",
+    "nombre": "Filete de Salmón Congelado",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 72.9,
+      "regular": null,
+      "porUnidad": 72.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_langostinoempanizado_mmgpscx3",
+    "nombre": "Langostino Empanizado 26-30 PESCATORE Bolsa 50...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 26.5,
+      "regular": null,
+      "porUnidad": 26.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_porcionesdesalmnpesc_mmgpscx3",
+    "nombre": "Porciones de Salmón PESCATORE 500g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 15.49,
+      "regular": null,
+      "porUnidad": 30.98
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_fileteempanizadoalas_mmgpscx3",
+    "nombre": "Filete Empanizado Alaska Pollock PESCATORE Bol...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 13.9,
+      "regular": null,
+      "porUnidad": 13.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_filetesalaskapollock_mmgpscx3",
+    "nombre": "Filetes Alaska Pollock BUENASO Bolsa 1Kg",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 13.9,
+      "regular": null,
+      "porUnidad": 13.9
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_filetedetilapiaapana_mmgpscx3",
+    "nombre": "Filete de Tilapia Apanada SANTA PRISCILA Bolsa...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 29.9,
+      "regular": null,
+      "porUnidad": 29.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_conchasdeabanicoazul_mmgpscx3",
+    "nombre": "Conchas de Abanico AZUL MARINO Media Valva Bol...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 23.9,
+      "regular": null,
+      "porUnidad": 23.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_truchaahumadamarandi_mmgpscx3",
+    "nombre": "Trucha Ahumada MAR ANDINO Bolsa 250g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 35.9,
+      "regular": null,
+      "porUnidad": 143.6
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_anillasdecalamarrebo_mmgpscx3",
+    "nombre": "Anillas de Calamar Rebozadas PESCANOVA Bolsa 5...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 16.5,
+      "regular": null,
+      "porUnidad": 16.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_bonitoenteroiqfdiama_mmgpscx3",
+    "nombre": "Bonito Entero IQF DIAMANTE x Kg",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 8.9,
+      "regular": null,
+      "porUnidad": 8.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_truchacongeladadeshu_mmgpscx3",
+    "nombre": "Trucha Congelada Deshuesada",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 35.9,
+      "regular": null,
+      "porUnidad": 35.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_salmnahumadosouthwin_mmgpscx3",
+    "nombre": "Salmón Ahumado SOUTH WIND Bolsa 100g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 18.9,
+      "regular": 20.5,
+      "porUnidad": 189
+    },
+    "presentacion": {
+      "valor": 100,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 8,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_filetedetruchafresco_mmgpscx3",
+    "nombre": "Filete de Trucha Fresco",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 49.9,
+      "regular": null,
+      "porUnidad": 49.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_pejerreymariposapesc_mmgpscx3",
+    "nombre": "Pejerrey Mariposa PESCATORE Bolsa 1Kg",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 30.9,
+      "regular": null,
+      "porUnidad": 30.9
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_fileteredfishbuenaso_mmgpscx3",
+    "nombre": "Filete Redfish BUENASO Bolsa 1Kg",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 15.9,
+      "regular": null,
+      "porUnidad": 15.9
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_filetedetruchapremiu_mmgpscx3",
+    "nombre": "Filete de Trucha Premium PISCIS Congelado x kg",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 60.9,
+      "regular": null,
+      "porUnidad": 60.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_langostinocrudopelad_mmgpscx3",
+    "nombre": "Langostino Crudo Pelado 36-40 PESCANOVA Bolsa ...",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 18.5,
+      "regular": null,
+      "porUnidad": 18.5
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  },
+  {
+    "id": "plazavea_porcionesdeatnbellsb_mmgpscx3",
+    "nombre": "Porciones de Atún BELL'S Bolsa 400g",
+    "categoria": "pescado",
+    "super": "plazavea",
+    "precios": {
+      "online": 22.5,
+      "regular": null,
+      "porUnidad": 56.25
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-07T19:26:33.831Z"
+  }
+]
