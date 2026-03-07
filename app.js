@@ -12,7 +12,6 @@ const SUPERMERCADOS = {
 function activeSupers() { return Object.values(SUPERMERCADOS).filter(s => s.activo); }
 
 // ---- STATE ----
-let rawData = [];
 let filters = { super: 'Todos', tipo: 'Todos', categoria: 'Todos', marca: 'Todos', presentacion: 'Todos' };
 let tableData = [];
 let sortMode = 'fecha';
@@ -814,13 +813,6 @@ function initSwipeSidebar() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Merge datos scrapeados
-    if (typeof rawDataScraped !== 'undefined' && Array.isArray(rawDataScraped)) {
-        rawData = rawDataScraped; // Única fuente de verdad (borramos histórico)
-        console.log(`[PrecioJusto] Datos scrapeados cargados: ${rawData.length} registros`);
-    } else {
-        rawData = [];
-    }
     setupSuperChips();
     updateTipoOptions();
     updateMarcaOptions();
