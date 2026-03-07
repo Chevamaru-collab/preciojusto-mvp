@@ -1,24 +1,8 @@
 // PRECIO JUSTO — rawDataScraped
-// Generado: 2026-03-07T00:45:41.162Z
-// Registros: 105
+// Generado: 2026-03-07T02:47:51.380Z
+// Registros: 92
 // Fuente: scrapers automáticos
 const rawDataScraped = [
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Galletas de Arroz WANT WANT Sal Marina Caja 10...",
-    "categoria": "Arroz",
-    "marca": "Galletas",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 13.1,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 1,
-    "vt": 1,
-    "um": "u",
-    "pxum": 13.1
-  },
   {
     "fecha": "6/3/2026",
     "super": "Plaza Vea",
@@ -146,22 +130,6 @@ const rawDataScraped = [
     "vt": 5,
     "um": "kg",
     "pxum": 4.48
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Yogurt GLORIA Battimix Vainilla con Arroz Cruj...",
-    "categoria": "Arroz",
-    "marca": "Gloria",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 3.2,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 1,
-    "vt": 1,
-    "um": "u",
-    "pxum": 3.2
   },
   {
     "fecha": "6/3/2026",
@@ -294,22 +262,6 @@ const rawDataScraped = [
   {
     "fecha": "6/3/2026",
     "super": "Plaza Vea",
-    "item": "Galleta de Arroz COSTEÑO Clásica Bolsa 150g",
-    "categoria": "Arroz",
-    "marca": "Costeño",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 7.2,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 150,
-    "vt": 150,
-    "um": "g",
-    "pxum": 48
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
     "item": "Arroz Extra PAISANA Bolsa 1Kg",
     "categoria": "Arroz",
     "marca": "Paisana",
@@ -374,22 +326,6 @@ const rawDataScraped = [
   {
     "fecha": "6/3/2026",
     "super": "Plaza Vea",
-    "item": "Sazonador AJINOMIX Deli Arroz Paquete 6un",
-    "categoria": "Arroz",
-    "marca": "Sazonador",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 1.4,
-    "precioRegular": 1.9,
-    "descuento": -26,
-    "presentacion": 6,
-    "vt": 6,
-    "um": "u",
-    "pxum": 0.23
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
     "item": "Arroz Integral COSTEÑO Bolsa 750g",
     "categoria": "Arroz",
     "marca": "Costeño",
@@ -434,54 +370,6 @@ const rawDataScraped = [
     "vt": 5,
     "um": "kg",
     "pxum": 4.18
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Galletas de Arroz BELL'S Bolsa 150g",
-    "categoria": "Arroz",
-    "marca": "Bell's",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 6.4,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 150,
-    "vt": 150,
-    "um": "g",
-    "pxum": 42.67
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Galleta de Arroz COSTEÑO Finas Hierbas Doypack...",
-    "categoria": "Arroz",
-    "marca": "Costeño",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 6.9,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 1,
-    "vt": 1,
-    "um": "u",
-    "pxum": 6.9
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Galletas de Arroz COSTEÑO Dulce Bolsa 150g",
-    "categoria": "Arroz",
-    "marca": "Costeño",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 6.9,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 150,
-    "vt": 150,
-    "um": "g",
-    "pxum": 46
   },
   {
     "fecha": "6/3/2026",
@@ -534,38 +422,6 @@ const rawDataScraped = [
   {
     "fecha": "6/3/2026",
     "super": "Plaza Vea",
-    "item": "Galleta de Arroz Sésamo WANT WANT Caja 100g",
-    "categoria": "Arroz",
-    "marca": "Galleta",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 13.2,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 100,
-    "vt": 100,
-    "um": "g",
-    "pxum": 132
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Arroz con Leche LA FLORENCIA Bandeja 350g",
-    "categoria": "Arroz",
-    "marca": "Arroz",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 6.9,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 350,
-    "vt": 350,
-    "um": "g",
-    "pxum": 19.71
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
     "item": "Arroz con Pollo BELL'S Bandeja 200g",
     "categoria": "Arroz",
     "marca": "Bell's",
@@ -594,22 +450,6 @@ const rawDataScraped = [
     "vt": 5,
     "um": "kg",
     "pxum": 3.78
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Galletas BABY MUM Arroz Sabor Manzana Caja 50g",
-    "categoria": "Arroz",
-    "marca": "Galletas",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 13.99,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 50,
-    "vt": 50,
-    "um": "g",
-    "pxum": 279.8
   },
   {
     "fecha": "6/3/2026",
@@ -658,38 +498,6 @@ const rawDataScraped = [
     "vt": 10,
     "um": "kg",
     "pxum": 3.8
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Galleta de Arroz Dulce COSTEÑO Bolsa 50g",
-    "categoria": "Arroz",
-    "marca": "Costeño",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 2,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 50,
-    "vt": 50,
-    "um": "g",
-    "pxum": 40
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Plaza Vea",
-    "item": "Galleta de Arroz Clásica COSTEÑO Bolsa 50g",
-    "categoria": "Arroz",
-    "marca": "Costeño",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 2,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 50,
-    "vt": 50,
-    "um": "g",
-    "pxum": 40
   },
   {
     "fecha": "6/3/2026",
@@ -1202,22 +1010,6 @@ const rawDataScraped = [
     "vt": 1,
     "um": "kg",
     "pxum": 6.3
-  },
-  {
-    "fecha": "6/3/2026",
-    "super": "Wong",
-    "item": "Sazonador Deli Arroz Pack 6 Unid",
-    "categoria": "Arroz",
-    "marca": "Sazonador",
-    "tipo": "Extra",
-    "clase": null,
-    "precioOnline": 1.4,
-    "precioRegular": 0,
-    "descuento": null,
-    "presentacion": 6,
-    "vt": 6,
-    "um": "u",
-    "pxum": 0.23
   },
   {
     "fecha": "6/3/2026",

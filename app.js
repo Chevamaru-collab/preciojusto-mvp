@@ -7,11 +7,12 @@ const SUPERMERCADOS = {
     Metro: { id: 'Metro', nombre: 'Metro', color: '#e84040', cssClass: 'metro', activo: true },
     Wong: { id: 'Wong', nombre: 'Wong', color: '#f5a623', cssClass: 'wong', activo: true },
     Tottus: { id: 'Tottus', nombre: 'Tottus', color: '#0066cc', cssClass: 'tottus', activo: false },
-    PlazaVea: { id: 'PlazaVea', nombre: 'Plaza Vea', color: '#00a651', cssClass: 'plazavea', activo: true }
+    PlazaVea: { id: 'PlazaVea', nombre: 'Plaza Vea', color: '#E3001B', cssClass: 'plazavea', activo: true }
 };
 function activeSupers() { return Object.values(SUPERMERCADOS).filter(s => s.activo); }
 
 // ---- STATE ----
+let rawData = [];
 let filters = { super: 'Todos', tipo: 'Todos', categoria: 'Todos', marca: 'Todos', presentacion: 'Todos' };
 let tableData = [];
 let sortMode = 'fecha';
@@ -813,14 +814,12 @@ function initSwipeSidebar() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Merge datos scrapeados con datos históricos
-    // rawData viene de data.js (503 registros históricos Browse.AI)
-    // rawDataScraped viene de data-scraped.js (productos scrapeados hoy)
+    // Merge datos scrapeados
     if (typeof rawDataScraped !== 'undefined' && Array.isArray(rawDataScraped)) {
-        // Agregar los datos del scraper al rawData global
-        rawDataScraped.forEach(p => rawData.push(p));
-        console.log(`[PrecioJusto] Datos scrapeados cargados: ${rawDataScraped.length} productos`);
-        console.log(`[PrecioJusto] Total rawData: ${rawData.length} registros`);
+        rawData = rawDataScraped; // Única fuente de verdad (borramos histórico)
+        console.log(`[PrecioJusto] Datos scrapeados cargados: ${rawData.length} registros`);
+    } else {
+        rawData = [];
     }
     setupSuperChips();
     updateTipoOptions();
