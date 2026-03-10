@@ -1,52 +1,272 @@
 [
   {
-    "id": "wong_ruborlquidomaybellin_mmfeizy5",
-    "nombre": "Rubor Líquido Maybelline Sunkisser Sol Search 4.7ml",
+    "id": "wong_huevosclsicospardosl_mml3p3ht",
+    "nombre": "Huevos Clásicos Pardos La Calera 30un",
     "categoria": "huevos",
     "super": "wong",
     "precios": {
-      "online": 52.9,
-      "regular": null,
-      "porUnidad": 7557.14
+      "online": 20.9,
+      "regular": 23.3,
+      "porUnidad": 0.7
     },
     "presentacion": {
-      "valor": 7,
-      "unidad": "ml",
+      "valor": 30,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 10,
+    "timestamp": "2026-03-10T21:07:00.977Z"
+  },
+  {
+    "id": "wong_huevospardoswongband_mml3p3ht",
+    "nombre": "Huevos Pardos Wong Bandeja 15 Unid",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 10.99,
+      "regular": 10.99,
+      "porUnidad": 0.73
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-06T21:23:35.165Z"
+    "timestamp": "2026-03-10T21:07:00.977Z"
   },
   {
-    "id": "wong_labiallquidosupersta_mmfeizy5",
-    "nombre": "Labial Líquido Super Stay Matte Ink Maybelline Tono Amazonian",
+    "id": "wong_huevospardosartisan1_mml3p3ht",
+    "nombre": "Huevos Pardos Artisan 15un",
     "categoria": "huevos",
     "super": "wong",
     "precios": {
-      "online": 67.9,
-      "regular": null,
-      "porUnidad": 67.9
-    },
-    "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-06T21:23:35.165Z"
-  },
-  {
-    "id": "wong_quitaesmaltecutex100_mmfeizy5",
-    "nombre": "Quita Esmalte Cutex 100ml",
-    "categoria": "huevos",
-    "super": "wong",
-    "precios": {
-      "online": 12.3,
-      "regular": null,
-      "porUnidad": 123
+      "online": 14.9,
+      "regular": 14.9,
+      "porUnidad": 0.99
     },
     "presentacion": {
-      "valor": 100,
-      "unidad": "ml",
+      "valor": 15,
+      "unidad": "u",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-06T21:23:35.165Z"
+    "timestamp": "2026-03-10T21:07:00.977Z"
+  },
+  {
+    "id": "wong_huevospardoswong30un_mml3p3ht",
+    "nombre": "Huevos Pardos Wong 30un",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 20.9,
+      "regular": 20.9,
+      "porUnidad": 0.7
+    },
+    "presentacion": {
+      "valor": 30,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.977Z"
+  },
+  {
+    "id": "wong_huevosgallinaslibres_mml3p3ht",
+    "nombre": "Huevos Gallinas Libres 12un",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 15.9,
+      "regular": 15.9,
+      "porUnidad": 1.32
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.977Z"
+  },
+  {
+    "id": "wong_huevosdecorralwongba_mml3p3ht",
+    "nombre": "Huevos de Corral Wong Bandeja 12 Unid",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 13.7,
+      "regular": 13.7,
+      "porUnidad": 1.14
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.977Z"
+  },
+  {
+    "id": "wong_huevodecorrallacaler_mml3p3hu",
+    "nombre": "Huevo de Corral La Calera 12un.",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 14.5,
+      "regular": 14.5,
+      "porUnidad": 1.21
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
+  },
+  {
+    "id": "wong_huevosorgnicospachac_mml3p3hu",
+    "nombre": "Huevos Orgánicos Pachacamac 12un",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 17.5,
+      "regular": 17.5,
+      "porUnidad": 1.46
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
+  },
+  {
+    "id": "wong_huevosdecodornizwong_mml3p3hu",
+    "nombre": "Huevos de Codorniz Wong Bandeja 18 Unid",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 8.35,
+      "regular": 8.35,
+      "porUnidad": 0.46
+    },
+    "presentacion": {
+      "valor": 18,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
+  },
+  {
+    "id": "wong_huevosclsicosblancos_mml3p3hu",
+    "nombre": "Huevos Clásicos Blancos La Calera 15un",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 11.5,
+      "regular": 11.5,
+      "porUnidad": 0.77
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
+  },
+  {
+    "id": "wong_huevosparaelandelaca_mml3p3hu",
+    "nombre": "Huevos para el Ande La Calera 15un",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 11.9,
+      "regular": 11.9,
+      "porUnidad": 0.79
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
+  },
+  {
+    "id": "wong_huevospardossuperjum_mml3p3hu",
+    "nombre": "Huevos Pardos Super Jumbo Wong Bandeja 10 Unid",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 11.75,
+      "regular": 11.75,
+      "porUnidad": 1.18
+    },
+    "presentacion": {
+      "valor": 10,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
+  },
+  {
+    "id": "wong_huevospardosorgnicos_mml3p3hu",
+    "nombre": "Huevos Pardos Orgánicos Vida Orgánica 12un",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 16.5,
+      "regular": 16.5,
+      "porUnidad": 1.38
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
+  },
+  {
+    "id": "wong_huevospardoswongband_mml3p3hu",
+    "nombre": "Huevos Pardos Wong Bandeja 8 Unid",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 6.49,
+      "regular": 6.49,
+      "porUnidad": 0.81
+    },
+    "presentacion": {
+      "valor": 8,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
+  },
+  {
+    "id": "wong_huevoorgnicowongband_mml3p3hu",
+    "nombre": "Huevo Orgánico Wong Bandeja 8 Unid",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 13.5,
+      "regular": 13.5,
+      "porUnidad": 1.69
+    },
+    "presentacion": {
+      "valor": 8,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:07:00.978Z"
   }
 ]

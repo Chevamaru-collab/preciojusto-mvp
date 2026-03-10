@@ -1,12 +1,30 @@
 [
   {
-    "id": "wong_aceitevegetalprimorp_mmgi9cga",
+    "id": "wong_twopackaceitevegetal_mml3nstt",
+    "nombre": "Twopack Aceite Vegetal Primor Clásico 900ml",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 16.5,
+      "regular": 20,
+      "porUnidad": 18.33
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 18,
+    "timestamp": "2026-03-10T21:06:00.497Z"
+  },
+  {
+    "id": "wong_aceitevegetalprimorp_mml3nstt",
     "nombre": "Aceite Vegetal Primor Premium Botella 900ml",
     "categoria": "aceite",
     "super": "wong",
     "precios": {
       "online": 11.2,
-      "regular": null,
+      "regular": 11.2,
       "porUnidad": 12.44
     },
     "presentacion": {
@@ -15,214 +33,34 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.449Z"
+    "timestamp": "2026-03-10T21:06:00.497Z"
   },
   {
-    "id": "wong_aceitedeolivaextravi_mmgi9cga",
-    "nombre": "Aceite de Oliva Extra Virgen Carbonell Botella 1 Lt",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 59.9,
-      "regular": null,
-      "porUnidad": 59.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.450Z"
-  },
-  {
-    "id": "wong_aceitedeolivaextravi_mmgi9cgb",
-    "nombre": "Aceite de Oliva Extra Virgen Cuisine & Co 250ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 22,
-      "regular": null,
-      "porUnidad": 88
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedegirasolcuisi_mmgi9cgb",
-    "nombre": "Aceite de Girasol Cuisine & Co 900ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 9.5,
-      "regular": null,
-      "porUnidad": 10.56
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivaborgese_mmgi9cgb",
-    "nombre": "Aceite de Oliva Borges Extra Virgen Botella 250 ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 17.9,
-      "regular": null,
-      "porUnidad": 71.6
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivapurocui_mmgi9cgb",
-    "nombre": "Aceite de Oliva Puro Cuisine & Co Botella 250ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 20.9,
-      "regular": null,
-      "porUnidad": 83.6
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivafilippo_mmgi9cgb",
-    "nombre": "Aceite de Oliva Filippo Berio Extra Virgen 250ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 19.9,
-      "regular": null,
-      "porUnidad": 79.6
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitevegetalpamorig_mmgi9cgb",
-    "nombre": "Aceite Vegetal PAM Original Spray 226g",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 30.1,
-      "regular": null,
-      "porUnidad": 133.19
-    },
-    "presentacion": {
-      "valor": 226,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedecanolaborges_mmgi9cgb",
-    "nombre": "Aceite De Canola Borges Botella 2 Litros",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 21.9,
-      "regular": null,
-      "porUnidad": 10.95
-    },
-    "presentacion": {
-      "valor": 2,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivalaespao_mmgi9cgb",
-    "nombre": "Aceite de Oliva La Española Extra Virgen 500ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 29.9,
-      "regular": null,
-      "porUnidad": 59.8
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivaeloliva_mmgi9cgb",
-    "nombre": "Aceite de Oliva El Olivar Virgen Botella 1 L",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 68,
-      "regular": null,
-      "porUnidad": 68
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitevegetalcuisine_mmgi9cgb",
+    "id": "wong_aceitevegetalcuisine_mml3nstt",
     "nombre": "Aceite Vegetal Cuisine & Co 900ml",
     "categoria": "aceite",
     "super": "wong",
     "precios": {
-      "online": 5.5,
-      "regular": null,
-      "porUnidad": 6.11
+      "online": 5.4,
+      "regular": 8.5,
+      "porUnidad": 6
     },
     "presentacion": {
       "valor": 900,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
+    "descuento": 36,
+    "timestamp": "2026-03-10T21:06:00.497Z"
   },
   {
-    "id": "wong_aceitevegetalprimorc_mmgi9cgb",
+    "id": "wong_aceitevegetalprimorc_mml3nstt",
     "nombre": "Aceite Vegetal Primor Clásico Botella 900ml",
     "categoria": "aceite",
     "super": "wong",
     "precios": {
       "online": 10.3,
-      "regular": null,
+      "regular": 10.3,
       "porUnidad": 11.44
     },
     "presentacion": {
@@ -231,438 +69,466 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
+    "timestamp": "2026-03-10T21:06:00.497Z"
   },
   {
-    "id": "wong_aceitededuchabioderm_mmgi9cgb",
-    "nombre": "Aceite de Ducha Bioderma Atoderm 1L",
+    "id": "wong_aceiteoleicodecarman_mml3nstt",
+    "nombre": "Aceite Oleico de Carmano 380g",
     "categoria": "aceite",
     "super": "wong",
     "precios": {
-      "online": 134.9,
-      "regular": null,
-      "porUnidad": 134.9
+      "online": 41.4,
+      "regular": 41.4,
+      "porUnidad": 108.95
     },
     "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedecocoorgnicoc_mmgi9cgb",
-    "nombre": "Aceite de Coco Orgánico Cuisine & Co 350ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 26.9,
-      "regular": null,
-      "porUnidad": 76.86
-    },
-    "presentacion": {
-      "valor": 350,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitecapilarelvivel_mmgi9cgb",
-    "nombre": "Aceite Capilar Elvive Óleo Extraordinario 100ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 34.9,
-      "regular": null,
-      "porUnidad": 349
-    },
-    "presentacion": {
-      "valor": 100,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivaextrasu_mmgi9cgb",
-    "nombre": "Aceite De Oliva Extra Suave Borges Botella 500 ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 26.9,
-      "regular": null,
-      "porUnidad": 53.8
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedepaltavirgen2_mmgi9cgb",
-    "nombre": "Aceite de Palta Virgen 250ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 37.7,
-      "regular": null,
-      "porUnidad": 150.8
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceiteoleicodecarman_mmgi9cgb",
-    "nombre": "Aceite Oleico de Carmano 946ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 42.9,
-      "regular": null,
-      "porUnidad": 45.35
-    },
-    "presentacion": {
-      "valor": 946,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeajonjolioliv_mmgi9cgb",
-    "nombre": "Aceite de Ajonjoli Olivos del Sur 500ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 31,
-      "regular": null,
-      "porUnidad": 62
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitebronceadorhawa_mmgi9cgb",
-    "nombre": "Aceite Bronceador Hawaiian Tropic Tanning FPS4 240ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 29.6,
-      "regular": null,
-      "porUnidad": 123.33
-    },
-    "presentacion": {
-      "valor": 240,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeajonjololivo_mmgi9cgb",
-    "nombre": "Aceite de Ajonjolí Olivos del Sur 200ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 14.5,
-      "regular": null,
-      "porUnidad": 72.5
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitecarbonellsolol_mmgi9cgb",
-    "nombre": "Aceite Carbonell Sol & Oliva 1L",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 19.9,
-      "regular": null,
-      "porUnidad": 19.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedegirasolborge_mmgi9cgb",
-    "nombre": "Aceite De Girasol Borges Botella 1 L",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 12.9,
-      "regular": null,
-      "porUnidad": 12.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedecocoorgnicop_mmgi9cgb",
-    "nombre": "Aceite de Coco Orgánico Peruvian Health Frasco 250 ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 25.3,
-      "regular": null,
-      "porUnidad": 101.2
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivacarbone_mmgi9cgb",
-    "nombre": "Aceite de Oliva Carbonell Spray 200 ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 19.9,
-      "regular": null,
-      "porUnidad": 99.5
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivaclsicoc_mmgi9cgb",
-    "nombre": "Aceite de Oliva Clásico Carbonell Botella 1 Lt",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 54.9,
-      "regular": null,
-      "porUnidad": 54.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeolivasantoli_mmgi9cgb",
-    "nombre": "Aceite de Oliva Santolivo Extra Virgen 1L",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 79.9,
-      "regular": null,
-      "porUnidad": 79.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedecanolacuisin_mmgi9cgb",
-    "nombre": "Aceite de Canola Cuisine & Co 1L",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 7.9,
-      "regular": null,
-      "porUnidad": 7.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeajonjolcuisi_mmgi9cgb",
-    "nombre": "Aceite de Ajonjolí Cuisine & Co 200ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 12.9,
-      "regular": null,
-      "porUnidad": 64.5
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedecocovirgenmi_mmgi9cgb",
-    "nombre": "Aceite de Coco Virgen Mi Tierra Frasco 350 gr",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 39,
-      "regular": null,
-      "porUnidad": 111.43
-    },
-    "presentacion": {
-      "valor": 350,
+      "valor": 380,
       "unidad": "g",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
+    "timestamp": "2026-03-10T21:06:00.497Z"
   },
   {
-    "id": "wong_aceitedecanolawesson_mmgi9cgb",
-    "nombre": "Aceite de Canola Wesson 1.18L",
+    "id": "wong_aceitedecartamoolico_mml3nstt",
+    "nombre": "Aceite De Cartamo Oléico Botella 710 ml",
     "categoria": "aceite",
     "super": "wong",
     "precios": {
-      "online": 44.1,
-      "regular": null,
-      "porUnidad": 37.37
+      "online": 33.6,
+      "regular": 33.6,
+      "porUnidad": 47.32
     },
     "presentacion": {
-      "valor": 1.18,
-      "unidad": "lt",
+      "valor": 710,
+      "unidad": "ml",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
+    "timestamp": "2026-03-10T21:06:00.497Z"
   },
   {
-    "id": "wong_aceitedemantequillap_mmgi9cgb",
-    "nombre": "Aceite de Mantequilla PAM Spray 141g",
+    "id": "wong_filetedeatnenaceitev_mml3nstt",
+    "nombre": "Filete de Atún en Aceite Vegetal Cuisine & Co 140g",
     "categoria": "aceite",
     "super": "wong",
     "precios": {
-      "online": 33.9,
-      "regular": null,
-      "porUnidad": 240.43
+      "online": 3.6,
+      "regular": 5.2,
+      "porUnidad": 25.71
     },
     "presentacion": {
-      "valor": 141,
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 31,
+    "timestamp": "2026-03-10T21:06:00.497Z"
+  },
+  {
+    "id": "wong_filetedeatncampomarg_mml3nstt",
+    "nombre": "Filete de Atún Campomar Gourmet Artesanal en Aceite Vegetal Frasco 160 gr",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 7.6,
+      "regular": 7.6,
+      "porUnidad": 47.5
+    },
+    "presentacion": {
+      "valor": 160,
       "unidad": "g",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
+    "timestamp": "2026-03-10T21:06:00.497Z"
   },
   {
-    "id": "wong_aceiteajonjoliolivos_mmgi9cgb",
-    "nombre": "Aceite Ajonjoli Olivos Del Sur 100 ml",
+    "id": "wong_packprimoraceitevege_mml3nstt",
+    "nombre": "Pack Primor: Aceite Vegetal Premium 900ml + Trozos de Atún en Aceite 2un",
     "categoria": "aceite",
     "super": "wong",
     "precios": {
-      "online": 12.4,
-      "regular": null,
-      "porUnidad": 124
-    },
-    "presentacion": {
-      "valor": 100,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedeajonjolalida_mmgi9cgb",
-    "nombre": "Aceite de Ajonjolí Alida Chiang Botella 60 ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 10.4,
-      "regular": null,
-      "porUnidad": 173.33
-    },
-    "presentacion": {
-      "valor": 60,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedemazmazolaori_mmgi9cgb",
-    "nombre": "Aceite de Maíz Mazola Original Botella 1.18 lt",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 55.4,
-      "regular": null,
-      "porUnidad": 46.95
-    },
-    "presentacion": {
-      "valor": 1.18,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
-  },
-  {
-    "id": "wong_aceitedemazflorida90_mmgi9cgb",
-    "nombre": "Aceite de Maíz Florida 900ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 12.9,
-      "regular": null,
-      "porUnidad": 14.33
+      "online": 18.9,
+      "regular": 24,
+      "porUnidad": 21
     },
     "presentacion": {
       "valor": 900,
       "unidad": "ml",
       "pack": 1
     },
+    "descuento": 21,
+    "timestamp": "2026-03-10T21:06:00.497Z"
+  },
+  {
+    "id": "wong_trozosdeatnenaceitev_mml3nstt",
+    "nombre": "Trozos de Atún en Aceite Vegetal Florida 140g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 6.7,
+      "regular": 6.7,
+      "porUnidad": 47.86
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
     "descuento": 0,
-    "timestamp": "2026-03-07T15:55:49.451Z"
+    "timestamp": "2026-03-10T21:06:00.497Z"
+  },
+  {
+    "id": "wong_sixpackslidocaballae_mml3nstt",
+    "nombre": "Sixpack Sólido Caballa en Aceite Vegetal Campomar 150g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 30.2,
+      "regular": 30.2,
+      "porUnidad": 201.33
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.497Z"
+  },
+  {
+    "id": "wong_slidodeatnenaceiteve_mml3nstt",
+    "nombre": "Sólido de Atún en Aceite Vegetal Florida 140g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 7.99,
+      "regular": 7.99,
+      "porUnidad": 57.07
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.497Z"
+  },
+  {
+    "id": "wong_packx6trozosdeatnflo_mml3nstt",
+    "nombre": "Pack x6 Trozos de Atún Florida en Aceite Vegetal",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 38.9,
+      "regular": 38.9,
+      "porUnidad": 38.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.497Z"
+  },
+  {
+    "id": "wong_trozosdeatnenaceitev_mml3nstu",
+    "nombre": "Trozos de Atún en Aceite Vegetal Cuisine & Co 140g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 3.2,
+      "regular": 4.9,
+      "porUnidad": 22.86
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 35,
+    "timestamp": "2026-03-10T21:06:00.497Z"
+  },
+  {
+    "id": "wong_tripackenterodeancho_mml3nstu",
+    "nombre": "Tripack Entero de Anchoveta en Aceite Vegetal Tambomar 120g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 9.4,
+      "regular": 9.9,
+      "porUnidad": 78.33
+    },
+    "presentacion": {
+      "valor": 120,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 5,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_packx6trozosatnaceit_mml3nstu",
+    "nombre": "Pack x6 Trozos Atún Aceite Vegetal Campomar 150g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 34.8,
+      "regular": 34.8,
+      "porUnidad": 232
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_packx6filetedeatnflo_mml3nstu",
+    "nombre": "Pack x6 Filete de Atún Florida en Aceite Vegetal",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 39.9,
+      "regular": 39.9,
+      "porUnidad": 39.9
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_filetedecaballaenace_mml3nstu",
+    "nombre": "Filete de Caballa en Aceite Vegetal Cuisine & Co 170g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 5.3,
+      "regular": 5.3,
+      "porUnidad": 31.18
+    },
+    "presentacion": {
+      "valor": 170,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_packx6fileteatnaceit_mml3nstu",
+    "nombre": "Pack x6 Filete Atún Aceite Vegetal Campomar 150g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 37.3,
+      "regular": 37.3,
+      "porUnidad": 248.67
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_trozosdejurelenaceit_mml3nstu",
+    "nombre": "Trozos de Jurel en Aceite Vegetal Campomar 150g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 4.1,
+      "regular": 4.1,
+      "porUnidad": 27.33
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_sixpackfiletedeatnen_mml3nstu",
+    "nombre": "Sixpack Filete de Atún en Aceite Vegetal Cuisine & Co 140g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 21.5,
+      "regular": 29.9,
+      "porUnidad": 153.57
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 28,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_sardinasenaceitevege_mml3nstu",
+    "nombre": "Sardinas en Aceite Vegetal Vigilante 120g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 16.9,
+      "regular": 16.9,
+      "porUnidad": 140.83
+    },
+    "presentacion": {
+      "valor": 120,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_tripackfiletedeatnen_mml3nstu",
+    "nombre": "Tripack Filete de Atún en Aceite Vegetal Florida 80g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 13,
+      "regular": 13,
+      "porUnidad": 162.5
+    },
+    "presentacion": {
+      "valor": 80,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_filetedebonitoenacei_mml3nstu",
+    "nombre": "Filete de Bonito en Aceite Vegetal 170g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 4.3,
+      "regular": 4.8,
+      "porUnidad": 25.29
+    },
+    "presentacion": {
+      "valor": 170,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 10,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_sardinasallimnenacei_mml3nstu",
+    "nombre": "Sardinas al Limón en Aceite Vegetal Vigilante 120g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 17.5,
+      "regular": 17.5,
+      "porUnidad": 145.83
+    },
+    "presentacion": {
+      "valor": 120,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_sardinaspalaciodelor_mml3nstu",
+    "nombre": "Sardinas Palacio del Oriente Picantes en Aceite Vegetal Lata 125 g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 17.9,
+      "regular": 17.9,
+      "porUnidad": 143.2
+    },
+    "presentacion": {
+      "valor": 125,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_slidodeatnenaceiteve_mml3nstu",
+    "nombre": "Sólido de Atún en Aceite Vegetal Cuisine & Co 140g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 4.9,
+      "regular": 5.9,
+      "porUnidad": 35
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 17,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_packcuisinecoarrozex_mml3nstu",
+    "nombre": "Pack Cuisine & Co: Arroz Extra Añejo 5kg + Aceite Vegetal 900ml",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 27.8,
+      "regular": 33.4,
+      "porUnidad": 5.56
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 17,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_sixpacktrozosdeatnen_mml3nstu",
+    "nombre": "Sixpack Trozos de Atún en Aceite Vegetal Primor 140g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 30.6,
+      "regular": 32.9,
+      "porUnidad": 218.57
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 7,
+    "timestamp": "2026-03-10T21:06:00.498Z"
+  },
+  {
+    "id": "wong_lomitodeatnenaceitev_mml3nstu",
+    "nombre": "Lomito de Atún en Aceite Vegetal Florida 140g",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 7.8,
+      "regular": 7.8,
+      "porUnidad": 55.71
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:06:00.498Z"
   }
 ]

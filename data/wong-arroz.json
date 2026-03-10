@@ -1,12 +1,12 @@
 [
   {
-    "id": "wong_arrozextracosteo5kg_mmgutmxm",
+    "id": "wong_arrozextracosteo5kg_mml3nll4",
     "nombre": "Arroz Extra Costeño 5kg",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 23.2,
-      "regular": null,
+      "regular": 29.6,
       "porUnidad": 4.64
     },
     "presentacion": {
@@ -14,17 +14,17 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.545Z"
+    "descuento": 22,
+    "timestamp": "2026-03-10T21:05:51.111Z"
   },
   {
-    "id": "wong_arrozextracosteo750g_mmgutmxm",
+    "id": "wong_arrozextracosteo750g_mml3nll4",
     "nombre": "Arroz Extra Costeño 750g",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 4.5,
-      "regular": null,
+      "regular": 4.5,
       "porUnidad": 6
     },
     "presentacion": {
@@ -33,16 +33,16 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.546Z"
+    "timestamp": "2026-03-10T21:05:51.112Z"
   },
   {
-    "id": "wong_arrozblancoextraaejo_mmgutmxm",
+    "id": "wong_arrozblancoextraaejo_mml3nll4",
     "nombre": "Arroz Blanco Extra Añejo Faraón Naranja 5kg",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 24.9,
-      "regular": null,
+      "regular": 26.9,
       "porUnidad": 4.98
     },
     "presentacion": {
@@ -50,17 +50,71 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.546Z"
+    "descuento": 7,
+    "timestamp": "2026-03-10T21:05:51.112Z"
   },
   {
-    "id": "wong_arrozgranreservaextr_mmgutmxm",
+    "id": "wong_arrozgranreservaextr_mml3nll4",
+    "nombre": "Arroz Gran Reserva Extra Valle Norte Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 21.9,
+      "regular": 26.9,
+      "porUnidad": 4.38
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 19,
+    "timestamp": "2026-03-10T21:05:51.112Z"
+  },
+  {
+    "id": "wong_arrozextrawongbolsa5_mml3nll4",
+    "nombre": "Arroz Extra Wong Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 18.5,
+      "regular": 20.9,
+      "porUnidad": 3.7
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 11,
+    "timestamp": "2026-03-10T21:05:51.112Z"
+  },
+  {
+    "id": "wong_arrozgranreservaextr_mml3nll5",
     "nombre": "Arroz Gran Reserva Extra Valle Norte Bolsa 750 g",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 4.3,
-      "regular": null,
+      "regular": 4.9,
+      "porUnidad": 5.73
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 12,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozcosteoaejoextra_mml3nll5",
+    "nombre": "Arroz Costeño Añejo Extra 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 4.3,
+      "regular": 4.3,
       "porUnidad": 5.73
     },
     "presentacion": {
@@ -69,70 +123,16 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.546Z"
+    "timestamp": "2026-03-10T21:05:51.113Z"
   },
   {
-    "id": "wong_arrozextrawongbolsa5_mmgutmxm",
-    "nombre": "Arroz Extra Wong Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 18.9,
-      "regular": null,
-      "porUnidad": 3.78
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.546Z"
-  },
-  {
-    "id": "wong_arrozcosteoaejoextra_mmgutmxm",
-    "nombre": "Arroz Costeño Añejo Extra 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 23.9,
-      "regular": null,
-      "porUnidad": 4.78
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.546Z"
-  },
-  {
-    "id": "wong_arrozblancoextraaejo_mmgutmxn",
-    "nombre": "Arroz Blanco Extra Añejo Faraon Verde 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 28.7,
-      "regular": null,
-      "porUnidad": 5.74
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozintegralcosteo7_mmgutmxn",
+    "id": "wong_arrozintegralcosteo7_mml3nll5",
     "nombre": "Arroz Integral Costeño 750g",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 6.5,
-      "regular": null,
+      "regular": 6.5,
       "porUnidad": 8.67
     },
     "presentacion": {
@@ -141,16 +141,52 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
+    "timestamp": "2026-03-10T21:05:51.113Z"
   },
   {
-    "id": "wong_arrozextrawong750g_mmgutmxn",
+    "id": "wong_arrozblancoextraaejo_mml3nll5",
+    "nombre": "Arroz Blanco Extra Añejo Faraon Verde 5kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 28.7,
+      "regular": 28.7,
+      "porUnidad": 5.74
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozsuperiorpaisana_mml3nll5",
+    "nombre": "Arroz Superior Paisana Bolsa 1 kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 6.3,
+      "regular": 6.3,
+      "porUnidad": 6.3
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozextrawong750g_mml3nll5",
     "nombre": "Arroz Extra Wong 750g",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 3.6,
-      "regular": null,
+      "regular": 3.6,
       "porUnidad": 4.8
     },
     "presentacion": {
@@ -159,34 +195,70 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
+    "timestamp": "2026-03-10T21:05:51.113Z"
   },
   {
-    "id": "wong_arrozsuperiorcosteo5_mmgutmxn",
-    "nombre": "Arroz Superior Costeño 5kg",
+    "id": "wong_arrozextraaejocuisin_mml3nll5",
+    "nombre": "Arroz Extra Añejo Cuisine&Co Bolsa 5 kg",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
-      "online": 22.9,
-      "regular": null,
-      "porUnidad": 4.58
+      "online": 20.9,
+      "regular": 24.9,
+      "porUnidad": 4.18
     },
     "presentacion": {
       "valor": 5,
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
+    "descuento": 16,
+    "timestamp": "2026-03-10T21:05:51.113Z"
   },
   {
-    "id": "wong_arrozparacocinaorien_mmgutmxn",
-    "nombre": "Arroz para Cocina Oriental Mizu 1kg",
+    "id": "wong_arrozintegralcuisine_mml3nll5",
+    "nombre": "Arroz Integral Cuisine & Co 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 4.5,
+      "regular": 4.5,
+      "porUnidad": 6
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozextrapaisanabol_mml3nll5",
+    "nombre": "Arroz Extra Paisana Bolsa 5 kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 22.5,
+      "regular": 27.8,
+      "porUnidad": 4.5
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 19,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozintegralpaisana_mml3nll5",
+    "nombre": "Arroz Integral Paisana Bolsa 1 kg",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 7.6,
-      "regular": null,
+      "regular": 7.6,
       "porUnidad": 7.6
     },
     "presentacion": {
@@ -195,16 +267,250 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
+    "timestamp": "2026-03-10T21:05:51.113Z"
   },
   {
-    "id": "wong_arrozintegralextrafa_mmgutmxn",
+    "id": "wong_arrozintegralmolinor_mml3nll5",
+    "nombre": "Arroz Integral Molino Rojo Bolsa 1 Kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 5.3,
+      "regular": 5.3,
+      "porUnidad": 5.3
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozsuperiorwongbol_mml3nll5",
+    "nombre": "Arroz Superior Wong Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 17.9,
+      "regular": 19.9,
+      "porUnidad": 3.58
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 10,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozintegralvalleno_mml3nll5",
+    "nombre": "Arroz Integral Vallenorte 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 5.7,
+      "regular": 5.7,
+      "porUnidad": 7.6
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozextratesorodelc_mml3nll5",
+    "nombre": "Arroz Extra Tesoro Del Campo Bolsa 750 g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 5.5,
+      "regular": 5.5,
+      "porUnidad": 7.33
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozbasmatirisoscot_mml3nll5",
+    "nombre": "Arroz Basmati Riso Scotti Caja 500 g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 22.8,
+      "regular": 22.8,
+      "porUnidad": 45.6
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozparbolizadocost_mml3nll5",
+    "nombre": "Arroz Parbolizado Costeño 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 6,
+      "regular": 6,
+      "porUnidad": 8
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozcosteoextra3kg_mml3nll5",
+    "nombre": "Arroz Costeño Extra 3kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 16.9,
+      "regular": 17.9,
+      "porUnidad": 5.63
+    },
+    "presentacion": {
+      "valor": 3,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 6,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozsuperioraejofar_mml3nll5",
+    "nombre": "Arroz Superior Añejo Faraón Rojo 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 4,
+      "regular": 4,
+      "porUnidad": 5.33
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozarboriocosteo75_mml3nll5",
+    "nombre": "Arroz Arborio Costeño 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 12.4,
+      "regular": 12.4,
+      "porUnidad": 16.53
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozaejoextracuisin_mml3nll5",
+    "nombre": "Arroz Añejo Extra Cuisine & Co 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 4.2,
+      "regular": 4.2,
+      "porUnidad": 5.6
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozglaseadotesorod_mml3nll5",
+    "nombre": "Arroz Glaseado Tesoro Del Campo Bolsa 1 Kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 8.25,
+      "regular": 8.25,
+      "porUnidad": 8.25
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozsuperiorcosteo5_mml3nll5",
+    "nombre": "Arroz Superior Costeño 5kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 22.9,
+      "regular": 23.25,
+      "porUnidad": 4.58
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 2,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozparacocinaorien_mml3nll5",
+    "nombre": "Arroz para Cocina Oriental Mizu 1kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 7.6,
+      "regular": 7.6,
+      "porUnidad": 7.6
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:05:51.113Z"
+  },
+  {
+    "id": "wong_arrozintegralextrafa_mml3nll5",
     "nombre": "Arroz Integral Extra Faraón 500g",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 2.99,
-      "regular": null,
+      "regular": 2.99,
       "porUnidad": 5.98
     },
     "presentacion": {
@@ -213,16 +519,16 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
+    "timestamp": "2026-03-10T21:05:51.113Z"
   },
   {
-    "id": "wong_arrozparbolizadopais_mmgutmxn",
+    "id": "wong_arrozparbolizadopais_mml3nll5",
     "nombre": "Arroz Parbolizado Paisana Bolsa 1 kg",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
       "online": 7.6,
-      "regular": null,
+      "regular": 7.6,
       "porUnidad": 7.6
     },
     "presentacion": {
@@ -231,672 +537,6 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozmixkiwichaylina_mmgutmxn",
-    "nombre": "Arroz Mix Kiwicha y Linaza Huella Verde 500g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 19.9,
-      "regular": null,
-      "porUnidad": 39.8
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozrisottoarborioi_mmgutmxn",
-    "nombre": "Arroz Risotto Arborio Inverni 1kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 36.2,
-      "regular": null,
-      "porUnidad": 36.2
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozparasushimiyabi_mmgutmxn",
-    "nombre": "Arroz para Sushi Miyabi-Mai 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 43.9,
-      "regular": null,
-      "porUnidad": 8.78
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozsuperiorcuisine_mmgutmxn",
-    "nombre": "Arroz Superior Cuisine & Co 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 18.5,
-      "regular": null,
-      "porUnidad": 3.7
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozsuperiorvalleno_mmgutmxn",
-    "nombre": "Arroz Superior Valle Norte Primera cosecha Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 23.9,
-      "regular": null,
-      "porUnidad": 4.78
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozsuperiorcosteo7_mmgutmxn",
-    "nombre": "Arroz Superior Costeño 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 4.9,
-      "regular": null,
-      "porUnidad": 6.53
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozextracuisineco5_mmgutmxn",
-    "nombre": "Arroz Extra Cuisine & Co 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 19.9,
-      "regular": null,
-      "porUnidad": 3.98
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozcosteoextraaejo_mmgutmxn",
-    "nombre": "Arroz Costeño Extra Añejo 10kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 43.5,
-      "regular": null,
-      "porUnidad": 4.35
-    },
-    "presentacion": {
-      "valor": 10,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozarboriopaisanab_mmgutmxn",
-    "nombre": "Arroz Arborio Paisana Bolsa 1 kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 15.6,
-      "regular": null,
-      "porUnidad": 15.6
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozjapnicoparasush_mmgutmxn",
-    "nombre": "Arroz Japónico para Sushi Bárcidda 500g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 5.9,
-      "regular": null,
-      "porUnidad": 11.8
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozchaufaconpolloc_mmgutmxn",
-    "nombre": "Arroz Chaufa con Pollo Cuisine & Co 400g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 12.9,
-      "regular": null,
-      "porUnidad": 32.25
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozextracuisineco7_mmgutmxn",
-    "nombre": "Arroz Extra Cuisine & Co 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 3.9,
-      "regular": null,
-      "porUnidad": 5.2
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozbelncuisineco50_mmgutmxn",
-    "nombre": "Arroz Belén Cuisine & Co 500g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 20.9,
-      "regular": null,
-      "porUnidad": 41.8
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozconpollocuisine_mmgutmxn",
-    "nombre": "Arroz con Pollo Cuisine & Co 400g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 14.5,
-      "regular": null,
-      "porUnidad": 36.25
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozaejosuperiorval_mmgutmxn",
-    "nombre": "Arroz Añejo Superior Valle Norte 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 26,
-      "regular": null,
-      "porUnidad": 5.2
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arroztostadochocokri_mmgutmxn",
-    "nombre": "Arroz Tostado Choco Krispis Kellogg's Caja 310 g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 16.5,
-      "regular": null,
-      "porUnidad": 53.23
-    },
-    "presentacion": {
-      "valor": 310,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozmixcaihuaychahu_mmgutmxn",
-    "nombre": "Arroz Mix Cañihua y Chía Huella Verde 500g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 19.9,
-      "regular": null,
-      "porUnidad": 39.8
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozextragranchaln5_mmgutmxn",
-    "nombre": "Arroz Extra Gran Chalán 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 22.2,
-      "regular": null,
-      "porUnidad": 4.44
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozchaufacuisineco_mmgutmxn",
-    "nombre": "Arroz Chaufa Cuisine & Co 500g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 11.99,
-      "regular": null,
-      "porUnidad": 23.98
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozalajardineracon_mmgutmxn",
-    "nombre": "Arroz a la Jardinera con Pollo al Horno Cuisine & Co 400g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 13.5,
-      "regular": null,
-      "porUnidad": 33.75
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozblancocuisineco_mmgutmxn",
-    "nombre": "Arroz Blanco Cuisine & Co 400g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 9.5,
-      "regular": null,
-      "porUnidad": 23.75
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozrisottocarnarol_mmgutmxn",
-    "nombre": "Arroz Risotto Carnaroli Inverni 1kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 37.9,
-      "regular": null,
-      "porUnidad": 37.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozextragranchaln1_mmgutmxn",
-    "nombre": "Arroz Extra Gran Chalán 10kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 46.9,
-      "regular": null,
-      "porUnidad": 4.69
-    },
-    "presentacion": {
-      "valor": 10,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozconpollowongrea_mmgutmxn",
-    "nombre": "Arroz con Pollo Wong Ready Bandeja 320 g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 14.5,
-      "regular": null,
-      "porUnidad": 45.31
-    },
-    "presentacion": {
-      "valor": 320,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozchaufaconbroast_mmgutmxn",
-    "nombre": "Arroz Chaufa con Broaster Cuisine & Co 400g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 15.5,
-      "regular": null,
-      "porUnidad": 38.75
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_arrozextraaejocampon_mmgutmxn",
-    "nombre": "Arroz Extra Añejo Campo Norte 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 25.9,
-      "regular": null,
-      "porUnidad": 5.18
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_verdurasparaarrozcon_mmgutmxn",
-    "nombre": "Verduras para Arroz con Carne Wong Bandeja 200g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 14.5,
-      "regular": null,
-      "porUnidad": 72.5
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_cerealdeavenayarrozc_mmgutmxn",
-    "nombre": "Cereal de Avena y Arroz Cuisine & Co Sin Gluten 250g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 13.2,
-      "regular": null,
-      "porUnidad": 52.8
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_cerealorgnicodequinu_mmgutmxn",
-    "nombre": "Cereal Orgánico de Quinua, Kiwicha y Arroz Kids Organics Caja 240 gr",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 20.8,
-      "regular": null,
-      "porUnidad": 86.67
-    },
-    "presentacion": {
-      "valor": 240,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_papeldearrozbrcidda2_mmgutmxn",
-    "nombre": "Papel de Arroz Bárcidda 22cm 300g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 22.5,
-      "regular": null,
-      "porUnidad": 75
-    },
-    "presentacion": {
-      "valor": 300,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_zerocarbopastaprecoc_mmgutmxn",
-    "nombre": "Zero Carbo Pasta Precocida de Konjac Arroz Konjac Sin Gluten Doypack 270 g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 14.4,
-      "regular": null,
-      "porUnidad": 53.33
-    },
-    "presentacion": {
-      "valor": 270,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_papilladecerealorgni_mmgutmxn",
-    "nombre": "Papilla de Cereal Orgánico Instantáneo de Quinua, Kiwicha, Cañihua y Arroz Kids Organics Caja 300 gr",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 18.9,
-      "regular": null,
-      "porUnidad": 63
-    },
-    "presentacion": {
-      "valor": 300,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_vinagredearrozbrcidd_mmgutmxn",
-    "nombre": "Vinagre de Arroz Bárcidda 500ml",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 16.9,
-      "regular": null,
-      "porUnidad": 33.8
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_compotasmileykidsper_mmgutmxn",
-    "nombre": "Compota Smiley Kids Pera, Zapallito, Espinaca y Arroz 90g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 4.9,
-      "regular": null,
-      "porUnidad": 54.44
-    },
-    "presentacion": {
-      "valor": 90,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_pastaorgnicadequinua_mmgutmxn",
-    "nombre": "Pasta Orgánica de Quinua y Arroz Spaghetti América Orgánica 227g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 20.8,
-      "regular": null,
-      "porUnidad": 91.63
-    },
-    "presentacion": {
-      "valor": 227,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_fideosdearrozshaheno_mmgutmxn",
-    "nombre": "Fideos de Arroz Sha He Noodle 250g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 10.5,
-      "regular": null,
-      "porUnidad": 42
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
-  },
-  {
-    "id": "wong_harinadearrozcosteo1_mmgutmxn",
-    "nombre": "Harina de Arroz Costeño 1 g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 9.5,
-      "regular": null,
-      "porUnidad": 9500
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T21:47:31.547Z"
+    "timestamp": "2026-03-10T21:05:51.113Z"
   }
 ]

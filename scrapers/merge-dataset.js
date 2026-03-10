@@ -10,8 +10,8 @@ const path = require('path');
 
 const ARROZ_CSV = path.join(__dirname, '..', 'Browse.ia - B.L_Arroz - 2026-03-06.csv');
 const ACEITE_CSV = path.join(__dirname, '..', 'Browse.ia - B.L_Aceite - 2026-03-06.csv');
-const SCRAPED_JS = path.join(__dirname, '..', 'MVP', 'data-scraped.js');
-const OUTPUT_DATA = path.join(__dirname, '..', 'MVP', 'data.js');
+const SCRAPED_JS = path.join(__dirname, '..', 'data-scraped.js');
+const OUTPUT_DATA = path.join(__dirname, '..', 'data.js');
 
 // Helper para parsear CSV manual simple
 function parseCSV(csvContent) {
