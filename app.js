@@ -6,7 +6,7 @@
 const SUPERMERCADOS = {
     Metro: { id: 'Metro', nombre: 'Metro', color: '#e84040', cssClass: 'metro', activo: true },
     Wong: { id: 'Wong', nombre: 'Wong', color: '#f5a623', cssClass: 'wong', activo: true },
-    Tottus: { id: 'Tottus', nombre: 'Tottus', color: '#0066cc', cssClass: 'tottus', activo: false },
+    Tottus: { id: 'Tottus', nombre: 'Tottus', color: '#83b81a', cssClass: 'tottus', activo: true },
     PlazaVea: { id: 'PlazaVea', nombre: 'Plaza Vea', color: '#E3001B', cssClass: 'plazavea', activo: true }
 };
 function activeSupers() { return Object.values(SUPERMERCADOS).filter(s => s.activo); }
@@ -48,35 +48,23 @@ function updateTipoOptions() {
     const cat = filters.categoria;
     const el = document.getElementById('filter-tipo');
     const label = document.getElementById('filter-tipo-label');
-    let opts = [];
-    if (cat === 'Aceite') {
-        opts = [
-            { v: 'Todos', l: 'Todos los tipos' }, { v: 'Vegetal', l: 'Vegetal' },
-            { v: 'De Oliva', l: 'Oliva' }, { v: 'De Girasol', l: 'Girasol' }, { v: 'De Cártamo', l: 'Cártamo' }
-        ];
-        if (label) label.textContent = 'Tipo de Aceite';
-    } else if (cat === 'Arroz') {
-        opts = [
-            { v: 'Todos', l: 'Todos los tipos' }, { v: 'Extra', l: 'Extra' },
-            { v: 'Extra Añejo', l: 'Extra Añejo' }, { v: 'Añejo Extra', l: 'Añejo Extra' },
-            { v: 'Superior', l: 'Superior' }, { v: 'Integral', l: 'Integral' }, { v: 'Gran Reserva', l: 'Gran Reserva' }
-        ];
-        if (label) label.textContent = 'Tipo de Arroz';
-    } else {
-        // Todos: show combined types from both categories
-        opts = [
-            { v: 'Todos', l: 'Todos los tipos' },
-            { v: 'Vegetal', l: 'Aceite Vegetal' }, { v: 'De Oliva', l: 'Aceite Oliva' },
-            { v: 'De Girasol', l: 'Aceite Girasol' }, { v: 'De Cártamo', l: 'Aceite Cártamo' },
-            { v: 'Extra', l: 'Arroz Extra' }, { v: 'Extra Añejo', l: 'Arroz Extra Añejo' },
-            { v: 'Añejo Extra', l: 'Arroz Añejo Extra' }, { v: 'Superior', l: 'Arroz Superior' },
-            { v: 'Integral', l: 'Arroz Integral' }, { v: 'Gran Reserva', l: 'Arroz Gran Reserva' }
-        ];
-        if (label) label.textContent = 'Tipo de Producto';
+    const base = rawData.filter(d => cat === 'Todos' || d.categoria === cat);
+    const tipos = [...new Set(base.map(d => d.tipo).filter(Boolean))].sort();
+    
+    if (label) {
+        if (cat === 'Todos') label.textContent = 'Tipo de Producto';
+        else {
+            const displayCat = typeof fmtCatFn === 'function' ? fmtCatFn(cat) : cat;
+            label.textContent = `Tipo de ${displayCat}`;
+        }
     }
-    if (el) el.innerHTML = opts.map(o =>
-        `<option value="${o.v}"${filters.tipo === o.v ? ' selected' : ''}>${o.l}</option>`
-    ).join('');
+    
+    if (el) {
+        el.innerHTML = [
+            `<option value="Todos"${filters.tipo === 'Todos' ? ' selected' : ''}>Todos los tipos</option>`,
+            ...tipos.map(t => `<option value="${t}"${filters.tipo === t ? ' selected' : ''}>${t}</option>`)
+        ].join('');
+    }
 }
 function updateMarcaOptions() {
     const base = rawData.filter(d => {
@@ -664,6 +652,35 @@ function setupNav() {
     });
 }
 
+function fmtCatFn(str) {
+    if(str==='azucar-blanca') return 'Azúcar Blanca';
+    if(str==='azucar-rubia') return 'Azúcar Rubia';
+    if(str.includes('-')) return str.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+// ---- CATEGORY CHIPS (dynamic from data) ----
+function setupCatChips() {
+    const container = document.getElementById('filter-cat');
+    if (!container) return;
+    const cats = [...new Set(rawData.map(d => d.categoria))].sort();
+    const emojis = {
+        'Aceite': '🫙', 'Arroz': '🌾', 'Azucar': '🧊', 'azucar-blanca': '🧊', 'azucar-rubia': '🧊',
+        'Carne': '🥩', 'Condimentos': '🧂', 'Fideos': '🍝', 'frijol-canario': '🫘', 'Frutas': '🍎',
+        'Harina': '🌾', 'Huevos': '🥚', 'Leche': '🥛', 'leche-evaporada': '🥛', 'leche-fresca': '🥛',
+        'lentejas': '🫘', 'mantequilla': '🧈', 'Menestras': '🫘', 'Pan': '🥖', 'pan-molde': '🍞',
+        'Pescado': '🐟', 'Pollo': '🍗', 'Verduras': '🥦', 'avena': '🥣'
+    };
+    
+    container.innerHTML = `
+        <button class="chip active" data-value="Todos" onclick="setFilter('categoria','Todos',this)">🛒 Todos</button>
+        ${cats.map(c => {
+            const e = emojis[c] || '📦';
+            return `<button class="chip" data-value="${c}" onclick="setFilter('categoria','${c}',this)">${e} ${fmtCatFn(c)}</button>`;
+        }).join('')}
+    `;
+}
+
 // ---- SUPER CHIPS (dynamic from SUPERMERCADOS) ----
 function setupSuperChips() {
     const container = document.getElementById('filter-super');
@@ -815,6 +832,7 @@ function initSwipeSidebar() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    setupCatChips();
     setupSuperChips();
     updateTipoOptions();
     updateMarcaOptions();
