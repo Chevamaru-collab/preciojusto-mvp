@@ -1,174 +1,116 @@
 /**
- * scraper-plazavea.js — Scraper PlazaVea.com.pe
- * PrecioJusto Sprint 3
+ * scraper-plazavea.js — Scraper PlazaVea.com.pe (REST API BYPASS)
+ * PrecioJusto Sprint 3.2
  *
- * Plataforma: VTEX Custom (clases .Showcase*)
- * Selectores: VERIFICADOS en DOM real (6 Mar 2026)
- *
- * PARTICULARIDAD: Usa clases propias ".Showcase" (no las clases VTEX estándar).
- *                 Cookie popup #onetrust-accept-btn-handler.
- *                 Precio regular = .Showcase__oldPrice (tachado)
- *                 Precio venta = .Showcase__salePrice
+ * ESTRATEGIA: API DIRECTA (VTEX REST)
+ * Plaza Vea expone su endpoint público `api/catalog_system/pub/products/search`.
+ * Simulamos esta petición pura vía Node-Fetch para evadir Puppeteer y timeouts.
  */
 
-const puppeteer = require('puppeteer');
+const fs = require('fs');
 const config = require('./config');
 const utils = require('./utils');
-
-// ─── Selectores DOM Plaza Vea ─────────────────────────────────────────────────
-// VERIFICADOS: Inspeccionados en vivo en plazavea.com.pe/search?q=arroz (6 Mar 2026)
-// Plataforma: VTEX Custom con clases .Showcase
-const SELECTORS = {
-    // Cookie consent popup
-    cookieBtn: [
-        '#onetrust-accept-btn-handler',
-        '.cookie-accept',
-        '[id*="cookie"] button',
-        'button[class*="accept"]'
-    ],
-
-    // Tarjeta de producto — usa clase .Showcase
-    productCard: [
-        '.Showcase',
-        '[class*="Showcase__"]:not([class*="Showcase__name"]):not([class*="Showcase__price"])',
-        '[class*="vtex-search-result-3-x-galleryItem"]',
-        '[class*="galleryItem"]',
-        'article'
-    ],
-    // Nombre del producto
-    productName: [
-        '.Showcase__name',
-        '[class*="Showcase__name"]',
-        '[class*="vtex-product-summary-2-x-productNameContainer"]',
-        '[class*="productNameContainer"]',
-        'h3', 'h2'
-    ],
-    // Precio de venta / online
-    priceOnline: [
-        '.Showcase__salePrice',
-        '.Showcase__sellingPrice',
-        '[class*="Showcase__salePrice"]',
-        '[class*="Showcase__sellingPrice"]',
-        '[class*="sellingPriceValue"]',
-        '[class*="sellingPrice"]'
-    ],
-    // Precio regular tachado
-    priceRegular: [
-        '.Showcase__oldPrice',
-        '[class*="Showcase__oldPrice"]',
-        '[class*="Showcase__listPrice"]',
-        '[class*="listPriceValue"]',
-        'del span'
-    ]
-};
 
 class PlazaVeaScraper {
     constructor() {
         this.superId = 'plazavea';
-        this.browser = null;
-        this.page = null;
-        this._cookieDismissed = false;
-        this._detectedSelectors = {};
+        this.baseHeaders = {
+            "accept": "application/json",
+            "accept-language": "es-419,es;q=0.9",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "referer": "https://www.plazavea.com.pe/"
+        };
     }
 
     async init() {
-        utils.log('=== Iniciando Plaza Vea Scraper ===', 'info');
-        this.browser = await puppeteer.launch(config.puppeteer);
-        this.page = await this.browser.newPage();
-
-        await this.page.setUserAgent(utils.getRandomUserAgent(config.userAgents));
-        await this.page.setViewport({ width: 1920, height: 1080 });
-
-        // Plaza Vea: NO bloqueamos imágenes para asegurar render correcto
-    }
-
-    async dismissCookiePopup() {
-        if (this._cookieDismissed) return;
-        for (const sel of SELECTORS.cookieBtn) {
-            try {
-                await this.page.waitForSelector(sel, { timeout: 3000 });
-                await this.page.click(sel);
-                this._cookieDismissed = true;
-                utils.log('Plaza Vea: cookie popup cerrado', 'ok');
-                await utils.randomDelay(500, 1000);
-                return;
-            } catch (e) { /* intentar siguiente */ }
-        }
-        this._cookieDismissed = true; // no había popup
-    }
-
-    async findSelector(selectorList, cacheKey) {
-        if (typeof selectorList === 'string') return selectorList;
-        if (this._detectedSelectors[cacheKey]) return this._detectedSelectors[cacheKey];
-
-        for (const sel of selectorList) {
-            try {
-                const count = await this.page.$$eval(sel, els => els.length);
-                if (count > 0) {
-                    utils.log(`  PlazaVea selector [${cacheKey}]: "${sel}" → ${count}`, 'ok');
-                    this._detectedSelectors[cacheKey] = sel;
-                    return sel;
-                }
-            } catch (e) { /* continuar */ }
-        }
-        return null;
+        utils.log('=== Iniciando Plaza Vea Scraper (Fetch API Bypass) ===', 'info');
     }
 
     async scrapeCategory(categoria) {
-        utils.log(`Plaza Vea: scraping [${categoria.id}]...`, 'info');
+        utils.log(`Plaza Vea: API fetch [${categoria.id}] ("${categoria.query}")...`, 'info');
 
-        const url = config.supermercados.plazavea.searchUrl + encodeURIComponent(categoria.query);
+        let rawProducts = [];
+        const limit = 50; 
+        const totalPaginas = Math.ceil((categoria.minItems * 2) / limit);
 
-        try {
-            // networkidle0 = espera hasta que no haya requests en vuelo
-            await this.page.goto(url, { waitUntil: 'networkidle0', timeout: 45000 });
-            await this.dismissCookiePopup();
-            await utils.randomDelay(config.delays.pageLoad, config.delays.pageLoad + 2000);
+        for (let page = 0; page < totalPaginas; page++) {
+            const from = page * limit;
+            const to = from + limit - 1;
 
-            const cardSel = await this.findSelector(SELECTORS.productCard, 'card');
-            if (!cardSel) {
-                utils.log(`Plaza Vea: sin productos para [${categoria.id}]`, 'warn');
-                return [];
+            utils.log(`  -> Plaza Vea [${categoria.id}] Pág ${page + 1}: index ${from} - ${to}`, 'info');
+
+            // El querystring para buscar
+            // Plaza Vea VTEX usa &O=OrderByScoreDESC y _from/_to
+            const endpoint = `https://www.plazavea.com.pe/api/catalog_system/pub/products/search/?ft=${encodeURIComponent(categoria.query)}&O=OrderByScoreDESC&_from=${from}&_to=${to}`;
+
+            try {
+                const res = await fetch(endpoint, {
+                    method: 'GET',
+                    headers: this.baseHeaders
+                });
+
+                if (!res.ok) {
+                    utils.log(`  Plaza Vea API error: HTTP ${res.status}`, 'error');
+                    break;
+                }
+
+                const productsArray = await res.json();
+
+                if (!Array.isArray(productsArray) || productsArray.length === 0) {
+                    utils.log(`  Plaza Vea API: No hay más resultados en pág ${page + 1}`, 'warn');
+                    break;
+                }
+
+                rawProducts = rawProducts.concat(productsArray);
+
+                await utils.randomDelay(800, 1500);
+
+                if (rawProducts.length >= categoria.minItems * 2) {
+                    break;
+                }
+            } catch (e) {
+                utils.log(`  Plaza Vea ERROR request: ${e.message}`, 'error');
+                break;
             }
+        }
 
-            const nameSel = await this.findSelector(SELECTORS.productName, 'name') || 'h3';
-            const p1Sel = await this.findSelector(SELECTORS.priceOnline, 'p1') || null;
-            const p2Sel = await this.findSelector(SELECTORS.priceRegular, 'p2') || null;
-
-            // Plaza Vea carga mas lento — scroll pausado
-            await utils.scrollNTimes(this.page, 4, 2500);
-
-            const productos = await this.page.evaluate((cardS, nameS, p1S, p2S, superId, catId) => {
-                const cards = Array.from(document.querySelectorAll(cardS));
-                return cards.map(card => {
-                    try {
-                        const nombre = card.querySelector(nameS)?.innerText?.trim() || '';
-                        const p1El = p1S ? card.querySelector(p1S) : null;
-                        const p2El = p2S ? card.querySelector(p2S) : null;
-                        if (!nombre || !p1El) return null;
-                        return {
-                            nombre,
-                            precioOnline: p1El.innerText.trim(),
-                            precioRegular: p2El?.innerText?.trim() || null,
-                            categoria: catId,
-                            scraped: new Date().toISOString()
-                        };
-                    } catch (e) { return null; }
-                }).filter(Boolean);
-            }, cardSel, nameSel, p1Sel, p2Sel, this.superId, categoria.id);
-
-            const cleaned = productos
-                .map(p => utils.normalizeProduct(p, this.superId))
-                .filter(Boolean)
-                .slice(0, categoria.minItems * 3);
-
-            utils.log(`Plaza Vea [${categoria.id}]: ${cleaned.length} productos`, cleaned.length > 0 ? 'ok' : 'warn');
-            return cleaned;
-
-        } catch (e) {
-            utils.log(`Plaza Vea ERROR [${categoria.id}]: ${e.message}`, 'error');
+        if (rawProducts.length === 0) {
+            utils.log(`Plaza Vea [${categoria.id}]: Sin resultados válidos`, 'warn');
             return [];
         }
+
+        const cleaned = rawProducts.map(p => {
+            const nombre = p.productName;
+            
+            // VTEX REST Search Schema
+            // Los precios viven dentro de items[X].sellers[Y].commertialOffer
+            const seller = p.items?.[0]?.sellers?.[0];
+            const offer = seller?.commertialOffer;
+            
+            const precioRef = offer?.Price;
+            const precioRegular = offer?.ListPrice;
+
+            if (!nombre) return null;
+            if (precioRef === null || precioRef === undefined || precioRef <= 0) return null;
+
+            if (!utils.isRelevant(nombre, categoria.id)) return null;
+
+            return utils.normalizeProduct({
+                nombre: nombre.trim(),
+                precioOnline: precioRef.toString(),
+                precioRegular: (precioRegular && precioRegular > precioRef) ? precioRegular.toString() : null,
+                categoria: categoria.id,
+                scraped: new Date().toISOString(),
+                // Metadata util pero opcional
+                marca: p.brand
+            }, this.superId);
+        }).filter(Boolean);
+
+        const deduplicated = Array.from(new Map(cleaned.map(item => [item.id, item])).values());
+        const finalProducts = deduplicated.slice(0, Math.ceil(categoria.minItems * 1.5));
+
+        utils.log(`Plaza Vea [${categoria.id}]: ${finalProducts.length} productos procesados (Deduplicados/Filtro. Relevancia)`, 'ok');
+        return finalProducts;
     }
 
     async scrapeAll() {
@@ -180,10 +122,10 @@ class PlazaVeaScraper {
                 const productos = await this.scrapeCategory(categoria);
                 allData[categoria.id] = productos;
                 utils.saveJSON(`plazavea-${categoria.id}.json`, productos);
-                // Plaza Vea más lento — delay extra
+
                 await utils.randomDelay(
-                    config.delays.betweenCategories + 3000,
-                    config.delays.betweenCategories + 6000
+                    config.delays.betweenCategories,
+                    config.delays.betweenCategories + 1000
                 );
             } catch (e) {
                 utils.log(`Plaza Vea FATAL [${categoria.id}]: ${e.message}`, 'error');
@@ -191,9 +133,8 @@ class PlazaVeaScraper {
             }
         }
 
-        await this.browser.close();
         const total = Object.values(allData).reduce((s, arr) => s + arr.length, 0);
-        utils.log(`=== Plaza Vea completado: ${total} productos totales ===`, 'ok');
+        utils.log(`=== Plaza Vea API Parsing completado: ${total} productos totales ===`, 'ok');
         return allData;
     }
 }

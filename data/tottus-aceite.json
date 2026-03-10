@@ -1,6 +1,42 @@
 [
   {
-    "id": "tottus_primoraceitevegetalp_mmgpjrnd",
+    "id": "tottus_primoraceitevegetalp_mml4avhy",
+    "nombre": "PRIMOR Aceite Vegetal Primor Clásico Botella 1.8 L",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 15.5,
+      "regular": 19,
+      "porUnidad": 8.61
+    },
+    "presentacion": {
+      "valor": 1.8,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": 18,
+    "timestamp": "2026-03-10T21:23:57.046Z"
+  },
+  {
+    "id": "tottus_tottusaceitevegetalt_mml4avhy",
+    "nombre": "TOTTUS Aceite Vegetal Tottus Botella 5 L",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 30.5,
+      "regular": 33.6,
+      "porUnidad": 6.1
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": 9,
+    "timestamp": "2026-03-10T21:23:57.046Z"
+  },
+  {
+    "id": "tottus_primoraceitevegetalp_mml4avhz",
     "nombre": "PRIMOR ACEITE VEGETAL PRIMOR DEFENSAS BOTELLA X 1L",
     "categoria": "aceite",
     "super": "tottus",
@@ -15,28 +51,28 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.017Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusaceitevegetalt_mmgpjrnd",
-    "nombre": "TOTTUS Aceite Vegetal Tottus x 2L",
+    "id": "tottus_tottusaceitevegetalt_mml4avhz",
+    "nombre": "TOTTUS Aceite Vegetal Tottus Botella 3 L",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 13.5,
-      "regular": null,
-      "porUnidad": 6.75
+      "online": 18.3,
+      "regular": 19.9,
+      "porUnidad": 6.1
     },
     "presentacion": {
-      "valor": 2,
+      "valor": 3,
       "unidad": "lt",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.017Z"
+    "descuento": 8,
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottuscajadeaceiteve_mmgpjrne",
+    "id": "tottus_tottuscajadeaceiteve_mml4avhz",
     "nombre": "TOTTUS Caja de Aceite Vegetal Tottus 12 Unidades",
     "categoria": "aceite",
     "super": "tottus",
@@ -51,28 +87,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.017Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusaceitegirasols_mmgpjrne",
-    "nombre": "TOTTUS Aceite girasol Spray Tottus 200 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 21.5,
-      "regular": null,
-      "porUnidad": 107.5
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_tottuscajadeaceitede_mmgpjrne",
+    "id": "tottus_tottuscajadeaceitede_mml4avhz",
     "nombre": "TOTTUS Caja De Aceite De Girasol Tottus x 12 Unidades",
     "categoria": "aceite",
     "super": "tottus",
@@ -87,10 +105,28 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusaceitedegiraso_mmgpjrne",
+    "id": "tottus_tottusaceitegirasols_mml4avhz",
+    "nombre": "TOTTUS Aceite girasol Spray Tottus 200 mL",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 21.5,
+      "regular": null,
+      "porUnidad": 107.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:23:57.047Z"
+  },
+  {
+    "id": "tottus_tottusaceitedegiraso_mml4avhz",
     "nombre": "TOTTUS Aceite de girasol Tottus 900 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -105,10 +141,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusaceitedeolivat_mmgpjrne",
+    "id": "tottus_tottusaceitedeolivat_mml4avhz",
     "nombre": "TOTTUS Aceite de Oliva Tottus Extra Virgen Botella 500 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -123,10 +159,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusaceitecanolato_mmgpjrne",
+    "id": "tottus_tottusaceitecanolato_mml4avhz",
     "nombre": "TOTTUS Aceite Canola Tottus 200 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -141,10 +177,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_primoraceiteolivapri_mmgpjrne",
+    "id": "tottus_primoraceiteolivapri_mml4avhz",
     "nombre": "PRIMOR ACEITE OLIVA PRIMOR EXTRA VIRGEN MEDIO BOT X 1L",
     "categoria": "aceite",
     "super": "tottus",
@@ -159,10 +195,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusaceitedecanola_mmgpjrne",
+    "id": "tottus_tottusaceitedecanola_mml4avhz",
     "nombre": "TOTTUS Aceite de Canola Premium Tottus 1 L",
     "categoria": "aceite",
     "super": "tottus",
@@ -177,10 +213,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_primoraceitedeolivap_mmgpjrne",
+    "id": "tottus_primoraceitedeolivap_mml4avhz",
     "nombre": "PRIMOR Aceite de Oliva Primor Extra Virgen Medio Botella 500 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -195,10 +231,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusaceitedeolivae_mmgpjrne",
+    "id": "tottus_tottusaceitedeolivae_mml4avhz",
     "nombre": "TOTTUS Aceite de Oliva Extra Virgen 5 Pimientas 250 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -213,10 +249,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusaceiteolivaext_mmgpjrne",
+    "id": "tottus_tottusaceiteolivaext_mml4avhz",
     "nombre": "TOTTUS Aceite Oliva Extra Virgen Spray Tottus 200 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -231,46 +267,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusvinagredemanza_mmgpjrne",
-    "nombre": "TOTTUS Vinagre de Manzana Tottus Botella 1 L",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 14.8,
-      "regular": null,
-      "porUnidad": 14.8
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_tottusarvejapartidat_mmgpjrne",
-    "nombre": "TOTTUS Arveja Partida Tottus Menestra Bolsa 500 g",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 3.2,
-      "regular": null,
-      "porUnidad": 6.4
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_tottuscubitodecaldod_mmgpjrne",
+    "id": "tottus_tottuscubitodecaldod_mml4avhz",
     "nombre": "TOTTUS Cubito de Caldo de Vegetales Tottus 80 g",
     "categoria": "aceite",
     "super": "tottus",
@@ -285,100 +285,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_tottusvinagredevinob_mmgpjrne",
-    "nombre": "TOTTUS Vinagre de Vino Blanco Tottus Botella 250 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 2,
-      "regular": null,
-      "porUnidad": 8
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_deleiteaceitevegetal_mmgpjrne",
-    "nombre": "DELEITE Aceite Vegetal Deleite Premium 2L",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 14.8,
-      "regular": null,
-      "porUnidad": 7.4
-    },
-    "presentacion": {
-      "valor": 2,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_tonderoaceitevegetal_mmgpjrne",
-    "nombre": "TONDERO Aceite Vegetal Tondero Botella 450 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 4.7,
-      "regular": null,
-      "porUnidad": 10.44
-    },
-    "presentacion": {
-      "valor": 450,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_alpaaceitevegetalalp_mmgpjrne",
-    "nombre": "ALPA Aceite Vegetal Alpa Premium Botella 900 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 6.9,
-      "regular": null,
-      "porUnidad": 7.67
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_preciounoaceitedesoy_mmgpjrne",
-    "nombre": "PRECIO UNO Aceite de Soya Precio Uno Botella 900 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 5.4,
-      "regular": 5.69,
-      "porUnidad": 6
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 5,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_saoaceitevegetalsoya_mmgpjrne",
+    "id": "tottus_saoaceitevegetalsoya_mml4avhz",
     "nombre": "SAO Aceite Vegetal Soya Sao Botella 900 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -393,46 +303,82 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_elolivaraceitedeoliv_mmgpjrne",
-    "nombre": "EL OLIVAR Aceite de Oliva Extra Virgen El Olivar Botella 200 mL",
+    "id": "tottus_deleiteaceitevegetal_mml4avhz",
+    "nombre": "DELEITE Aceite Vegetal Premium Deleite Botella 5 L",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 18,
-      "regular": 18.9,
-      "porUnidad": 90
+      "online": 39.11,
+      "regular": null,
+      "porUnidad": 7.82
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:23:57.047Z"
+  },
+  {
+    "id": "tottus_preciounoaceitedesoy_mml4avhz",
+    "nombre": "PRECIO UNO Aceite de Soya Precio Uno Botella 900 mL",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 5.4,
+      "regular": 5.69,
+      "porUnidad": 6
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 5,
+    "timestamp": "2026-03-10T21:23:57.047Z"
+  },
+  {
+    "id": "tottus_tonderoaceitevegetal_mml4avhz",
+    "nombre": "TONDERO Aceite Vegetal Tondero Botella 450 mL",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 4.7,
+      "regular": null,
+      "porUnidad": 10.44
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:23:57.047Z"
+  },
+  {
+    "id": "tottus_olivosdelsuraceitede_mml4avhz",
+    "nombre": "OLIVOS DEL SUR Aceite de Oliva Virgen Olivos del Sur Botella 200 mL",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 20.6,
+      "regular": null,
+      "porUnidad": 103
     },
     "presentacion": {
       "valor": 200,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 5,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_floridaaceitedemaizf_mmgpjrne",
-    "nombre": "FLORIDA Aceite De Maiz Florida 1lt",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 22.9,
-      "regular": null,
-      "porUnidad": 22.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_palmerolaaceitepalme_mmgpjrne",
+    "id": "tottus_palmerolaaceitepalme_mml4avhz",
     "nombre": "PALMEROLA Aceite Palmerola Botella 900 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -447,10 +393,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_preciounoaceiteveget_mmgpjrne",
+    "id": "tottus_preciounoaceiteveget_mml4avhz",
     "nombre": "PRECIO UNO Aceite Vegetal Precio Uno x 500 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -465,64 +411,46 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_olivosdelsuraceitede_mmgpjrne",
-    "nombre": "OLIVOS DEL SUR Aceite de Ajonjolí Olivos del Sur Botella 500 mL",
+    "id": "tottus_alpaaceitevegetalalp_mml4avhz",
+    "nombre": "ALPA Aceite Vegetal Alpa Premium Botella 900 mL",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 38.6,
-      "regular": null,
-      "porUnidad": 77.2
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
-  },
-  {
-    "id": "tottus_preciounocajadeaceit_mmgpjrne",
-    "nombre": "PRECIO UNO Caja de Aceite 100% Soya Precio Uno Pack 12 Unidades 900 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 78,
-      "regular": null,
-      "porUnidad": 86.67
+      "online": 5.3,
+      "regular": 6.9,
+      "porUnidad": 5.89
     },
     "presentacion": {
       "valor": 900,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "descuento": 23,
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_carbonellaceitedeoli_mmgpjrne",
-    "nombre": "CARBONELL Aceite de Oliva Carbonell Extra Virgen Botella 250 mL",
+    "id": "tottus_carbonellaceitedeoli_mml4avhz",
+    "nombre": "CARBONELL Aceite de Oliva Carbonell Extra Virgen Botella 1 L",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 24.9,
-      "regular": null,
-      "porUnidad": 99.6
+      "online": 49.9,
+      "regular": 69.8,
+      "porUnidad": 49.9
     },
     "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
+      "valor": 1,
+      "unidad": "lt",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "descuento": 29,
+    "timestamp": "2026-03-10T21:23:57.047Z"
   },
   {
-    "id": "tottus_oleicoaceitedecrtamo_mmgpjrne",
+    "id": "tottus_oleicoaceitedecrtamo_mml4avhz",
     "nombre": "OLEICO Aceite de Cártamo Oléico Botella 946 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -537,6 +465,42 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:19:53.018Z"
+    "timestamp": "2026-03-10T21:23:57.047Z"
+  },
+  {
+    "id": "tottus_elolivaraceitedeoliv_mml4avhz",
+    "nombre": "EL OLIVAR Aceite de Oliva Suave El Olivar Botella 200 mL",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 16.5,
+      "regular": null,
+      "porUnidad": 82.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:23:57.047Z"
+  },
+  {
+    "id": "tottus_preciounocajadeaceit_mml4avhz",
+    "nombre": "PRECIO UNO Caja de Aceite 100% Soya Precio Uno Pack 12 Unidades 900 mL",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 78,
+      "regular": null,
+      "porUnidad": 86.67
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:23:57.047Z"
   }
 ]

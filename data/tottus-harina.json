@@ -1,24 +1,6 @@
 [
   {
-    "id": "tottus_blancaflorharinadetr_mmgpk15h",
-    "nombre": "BLANCA FLOR Harina de Trigo Sin Preparar Blanca Flor Bolsa 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 8.2,
-      "regular": null,
-      "porUnidad": 8.2
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_molitaliaharinasinpr_mmgpk15h",
+    "id": "tottus_molitaliaharinasinpr_mml4b9r4",
     "nombre": "MOLITALIA Harina Sin Preparar Molitalia Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -33,10 +15,28 @@
       "pack": 1
     },
     "descuento": 27,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_molitaliaharinaprepa_mmgpk15h",
+    "id": "tottus_blancaflorharinadetr_mml4b9r4",
+    "nombre": "BLANCA FLOR Harina de Trigo Sin Preparar Blanca Flor Bolsa 1 Kg",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 8.2,
+      "regular": null,
+      "porUnidad": 8.2
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_molitaliaharinaprepa_mml4b9r4",
     "nombre": "MOLITALIA Harina Preparada Molitalia Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -51,492 +51,10 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_tottusharinadetrigop_mmgpk15h",
-    "nombre": "TOTTUS Harina de Trigo Preparada Tottus Bolsa 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 5.1,
-      "regular": 7.1,
-      "porUnidad": 5.1
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 28,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_tottusharinasinprepa_mmgpk15h",
-    "nombre": "TOTTUS Harina Sin Preparar Tottus Bolsa 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 6.5,
-      "regular": 6.9,
-      "porUnidad": 6.5
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 6,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_molitaliaharinatrigo_mmgpk15h",
-    "nombre": "MOLITALIA Harina Trigo Repostera Especial 1 kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 8.7,
-      "regular": null,
-      "porUnidad": 8.7
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_tottusharinademazbla_mmgpk15h",
-    "nombre": "TOTTUS Harina de Maíz Blanco Tottus",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 11,
-      "regular": null,
-      "porUnidad": 11
-    },
-    "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_tottusharinaintegral_mmgpk15h",
-    "nombre": "TOTTUS Harina Integral Tottus Bolsa 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 8.2,
-      "regular": null,
-      "porUnidad": 8.2
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_benotiharinasinprepa_mmgpk15h",
-    "nombre": "BENOTI Harina Sin Preparar Benoti Empaque 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 5.3,
-      "regular": null,
-      "porUnidad": 5.3
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_blancaflorpremezclad_mmgpk15h",
-    "nombre": "BLANCA FLOR Premezcla de Keke Blanca Flor Sabor Vainilla Bolsa 750 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 12.5,
-      "regular": null,
-      "porUnidad": 16.67
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_panharinademazpanama_mmgpk15h",
-    "nombre": "PAN Harina de Maíz PAN Amarillo Precocida Empaque 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 7.5,
-      "regular": null,
-      "porUnidad": 7.5
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_elartesanoharinadeca_mmgpk15h",
-    "nombre": "EL ARTESANO Harina de Camote El Artesano Bolsa 250 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 18.9,
-      "regular": null,
-      "porUnidad": 75.6
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_mitierraharinadearro_mmgpk15h",
-    "nombre": "MI TIERRA Harina de Arroz Mi Tierra Bolsa 500 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 9.4,
-      "regular": null,
-      "porUnidad": 18.8
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_granodeoroharinadetr_mmgpk15h",
-    "nombre": "GRANO DE ORO Harina de Trigo sin Preparar 180 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 0.9,
-      "regular": null,
-      "porUnidad": 5
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_lacasamarimielharina_mmgpk15h",
-    "nombre": "LA CASA MARIMIEL Harina de 7 Semillas La Casa Marimiel Sabor Fresa Doypack 200 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 8.8,
-      "regular": null,
-      "porUnidad": 44
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_munthushaboiharinade_mmgpk15h",
-    "nombre": "MUNTHU SHABOI Harina De Canihua Extruido Munthu Shaboix250G",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 7.3,
-      "regular": null,
-      "porUnidad": 29.2
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_gattiharinadeajonjol_mmgpk15h",
-    "nombre": "GATTI Harina de Ajonjolí Gatti Doypack 250 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 10,
-      "regular": null,
-      "porUnidad": 40
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_renacerharinadekiwic_mmgpk15h",
-    "nombre": "RENACER Harina de Kiwicha Renacer Bolsa 200 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 10.9,
-      "regular": null,
-      "porUnidad": 54.5
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_harinadelinazax200gl_mmgpk15h",
-    "nombre": "HARINA DE LINAZA X 200G LA CASA MARIMIEL",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 6.7,
-      "regular": null,
-      "porUnidad": 33.5
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_renacerharinadequinu_mmgpk15h",
-    "nombre": "RENACER Harina de Quinua Renacer Bolsa 500 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 30.3,
-      "regular": 33.9,
-      "porUnidad": 60.6
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 11,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_elartesanoharinadepl_mmgpk15h",
-    "nombre": "EL ARTESANO Harina de Plátano El Artesano Bolsa 250 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 12.3,
-      "regular": null,
-      "porUnidad": 49.2
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_molicuscoharinadequi_mmgpk15h",
-    "nombre": "MOLICUSCO Harina de Quinua Molicusco Bolsa 250 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 10.49,
-      "regular": null,
-      "porUnidad": 41.96
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_gattiharinadechagatt_mmgpk15h",
-    "nombre": "GATTI Harina de Chía Gatti Doypack 250 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 10,
-      "regular": null,
-      "porUnidad": 40
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_harinasinglutenrepos_mmgpk15h",
-    "nombre": "HARINA SIN GLUTEN REPOSTERIA AMERICAORGANICA 454G",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 26,
-      "regular": null,
-      "porUnidad": 57.27
-    },
-    "presentacion": {
-      "valor": 454,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_renacerharinadesoyat_mmgpk15h",
-    "nombre": "RENACER Harina de Soya Tostada Renacer Bolsa 500 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 15.2,
-      "regular": 16.4,
-      "porUnidad": 30.4
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 7,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_costenoharinadearroz_mmgpk15h",
-    "nombre": "COSTENO Harina de Arroz Costeño Bolsa 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 8.9,
-      "regular": null,
-      "porUnidad": 8.9
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_bobsredmillharinadea_mmgpk15h",
-    "nombre": "BOBS RED MILL Harina de Arroz Orgánica Bobs Red Mill Bolsa 680 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 22.9,
-      "regular": null,
-      "porUnidad": 33.68
-    },
-    "presentacion": {
-      "valor": 680,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_preciounoharinaprepa_mmgpk15h",
-    "nombre": "PRECIO UNO Harina Preparada Precio Uno Empaque 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 5.1,
-      "regular": 5.5,
-      "porUnidad": 5.1
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 7,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_mitierraharinadecoco_mmgpk15h",
-    "nombre": "MI TIERRA Harina de Coco Mi Tierra Bolsa 400 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 10.2,
-      "regular": 15.5,
-      "porUnidad": 25.5
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 34,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_nuestrasaludharinade_mmgpk15h",
-    "nombre": "NUESTRA SALUD Harina de Maca y Lúcuma Nuestra Salud Doypack 200 g",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 20.9,
-      "regular": null,
-      "porUnidad": 104.5
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
-  },
-  {
-    "id": "tottus_panharinademazblanco_mmgpk15h",
+    "id": "tottus_panharinademazblanco_mml4b9r4",
     "nombre": "PAN Harina de Maíz Blanco Pan Precocido Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -551,28 +69,46 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_bobsredmillharinadey_mmgpk15h",
-    "nombre": "BOBS RED MILL Harina de Yuca Bobs Red Mill Empaque 453 g",
+    "id": "tottus_tottusharinadetrigop_mml4b9r4",
+    "nombre": "TOTTUS Harina de Trigo Preparada Tottus Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
     "precios": {
-      "online": 22.9,
-      "regular": null,
-      "porUnidad": 50.55
+      "online": 5.1,
+      "regular": 7.1,
+      "porUnidad": 5.1
     },
     "presentacion": {
-      "valor": 453,
-      "unidad": "g",
+      "valor": 1,
+      "unidad": "kg",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "descuento": 28,
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_tierraharinadeavenat_mmgpk15h",
+    "id": "tottus_tottusharinasinprepa_mml4b9r4",
+    "nombre": "TOTTUS Harina Sin Preparar Tottus Bolsa 1 Kg",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 6.5,
+      "regular": 6.9,
+      "porUnidad": 6.5
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 6,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_tierraharinadeavenat_mml4b9r4",
     "nombre": "TIERRA Harina de Avena Tierra Sin Gluten Empaque 400 g",
     "categoria": "harina",
     "super": "tottus",
@@ -587,17 +123,17 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_preciounoharinasinpr_mmgpk15h",
-    "nombre": "PRECIO UNO Harina Sin Preparar Precio Uno Empaque 1 Kg",
+    "id": "tottus_tottusharinaintegral_mml4b9r4",
+    "nombre": "TOTTUS Harina Integral Tottus Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
     "precios": {
-      "online": 4.9,
+      "online": 8.2,
       "regular": null,
-      "porUnidad": 4.9
+      "porUnidad": 8.2
     },
     "presentacion": {
       "valor": 1,
@@ -605,28 +141,100 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_renacerharinapretost_mmgpk15h",
-    "nombre": "RENACER Harina Pre Tostada Especial Renacer Bolsa 500 g",
+    "id": "tottus_panharinademazpanama_mml4b9r4",
+    "nombre": "PAN Harina de Maíz PAN Amarillo Precocida Empaque 1 Kg",
     "categoria": "harina",
     "super": "tottus",
     "precios": {
-      "online": 15.2,
-      "regular": 16.9,
-      "porUnidad": 30.4
+      "online": 7.5,
+      "regular": null,
+      "porUnidad": 7.5
     },
     "presentacion": {
-      "valor": 500,
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_costenoharinadearroz_mml4b9r4",
+    "nombre": "COSTENO Harina de Arroz Costeño Bolsa 1 Kg",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 8.9,
+      "regular": null,
+      "porUnidad": 8.9
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_molicuscoharinadequi_mml4b9r4",
+    "nombre": "MOLICUSCO Harina de Quinua Molicusco Bolsa 250 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 10.49,
+      "regular": null,
+      "porUnidad": 41.96
+    },
+    "presentacion": {
+      "valor": 250,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 10,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_naturandesharinade7s_mmgpk15h",
+    "id": "tottus_bobsredmillharinadea_mml4b9r4",
+    "nombre": "BOBS RED MILL Harina de Arroz Orgánica Bobs Red Mill Bolsa 680 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 22.9,
+      "regular": null,
+      "porUnidad": 33.68
+    },
+    "presentacion": {
+      "valor": 680,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_naturandesharinadeli_mml4b9r4",
+    "nombre": "NATURANDES Harina de Linaza Naturandes Doypack 300 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 12,
+      "regular": null,
+      "porUnidad": 40
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_naturandesharinade7s_mml4b9r4",
     "nombre": "NATURANDES Harina de 7 Semillas Naturandes Doypack 200 g",
     "categoria": "harina",
     "super": "tottus",
@@ -641,35 +249,89 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_lacasamarimielhojuel_mmgpk15h",
-    "nombre": "LA CASA MARIMIEL Hojuelas de Avena Integral La Casa Marimiel Doypack 300 g",
+    "id": "tottus_mitierraharinadecoco_mml4b9r4",
+    "nombre": "MI TIERRA Harina de Coco Mi Tierra Bolsa 400 g",
     "categoria": "harina",
     "super": "tottus",
     "precios": {
-      "online": 10.9,
-      "regular": null,
-      "porUnidad": 36.33
+      "online": 10.2,
+      "regular": 15.5,
+      "porUnidad": 25.5
     },
     "presentacion": {
-      "valor": 300,
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 34,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_preciounoharinaprepa_mml4b9r4",
+    "nombre": "PRECIO UNO Harina Preparada Precio Uno Empaque 1 Kg",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 5.1,
+      "regular": 5.5,
+      "porUnidad": 5.1
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 7,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_bobsredmillmezclahar_mml4b9r4",
+    "nombre": "BOBS RED MILL Mezcla Harina Bobs Red Mill Sin Gluten Bolsa 623 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 33,
+      "regular": null,
+      "porUnidad": 52.97
+    },
+    "presentacion": {
+      "valor": 623,
       "unidad": "g",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "timestamp": "2026-03-10T21:24:15.520Z"
   },
   {
-    "id": "tottus_lacasamarimielgranol_mmgpk15h",
-    "nombre": "LA CASA MARIMIEL Granola Premium La Casa Marimiel Doypack 250 g",
+    "id": "tottus_preciounoharinasinpr_mml4b9r4",
+    "nombre": "PRECIO UNO Harina Sin Preparar Precio Uno Empaque 1 Kg",
     "categoria": "harina",
     "super": "tottus",
     "precios": {
-      "online": 11.5,
+      "online": 4.9,
       "regular": null,
-      "porUnidad": 46
+      "porUnidad": 4.9
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_elartesanoharinadeca_mml4b9r4",
+    "nombre": "EL ARTESANO Harina de Camote El Artesano Bolsa 250 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 18.9,
+      "regular": null,
+      "porUnidad": 75.6
     },
     "presentacion": {
       "valor": 250,
@@ -677,6 +339,362 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:20:05.333Z"
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_renacerharinadequinu_mml4b9r4",
+    "nombre": "RENACER Harina de Quinua Renacer Bolsa 500 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 30.3,
+      "regular": 33.9,
+      "porUnidad": 60.6
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 11,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_renacerharinadekiwic_mml4b9r4",
+    "nombre": "RENACER Harina de Kiwicha Renacer Bolsa 200 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 10.9,
+      "regular": null,
+      "porUnidad": 54.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_gattiharinadechagatt_mml4b9r4",
+    "nombre": "GATTI Harina de Chía Gatti Doypack 250 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 10,
+      "regular": null,
+      "porUnidad": 40
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_gattiharinadeajonjol_mml4b9r4",
+    "nombre": "GATTI Harina de Ajonjolí Gatti Doypack 250 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 10,
+      "regular": null,
+      "porUnidad": 40
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_renacerharinadesoyat_mml4b9r4",
+    "nombre": "RENACER Harina de Soya Tostada Renacer Bolsa 500 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 15.2,
+      "regular": 16.4,
+      "porUnidad": 30.4
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 7,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_elartesanoharinadepl_mml4b9r4",
+    "nombre": "EL ARTESANO Harina de Plátano El Artesano Bolsa 250 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 12.3,
+      "regular": null,
+      "porUnidad": 49.2
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_bobsredmillharinadey_mml4b9r4",
+    "nombre": "BOBS RED MILL Harina de Yuca Bobs Red Mill Empaque 453 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 22.9,
+      "regular": null,
+      "porUnidad": 50.55
+    },
+    "presentacion": {
+      "valor": 453,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_naturandesblend7semi_mml4b9r4",
+    "nombre": "NATURANDES Blend 7 Semillas Chocolate Naturandes Doypack 200 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 18.6,
+      "regular": null,
+      "porUnidad": 93
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_benotiharinasinprepa_mml4b9r4",
+    "nombre": "BENOTI Harina Sin Preparar Benoti Empaque 1 Kg",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 5.3,
+      "regular": null,
+      "porUnidad": 5.3
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_renacerharinapretost_mml4b9r4",
+    "nombre": "RENACER Harina Pre Tostada Especial Renacer Bolsa 500 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 15.2,
+      "regular": 16.9,
+      "porUnidad": 30.4
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 10,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_molitaliaharinatrigo_mml4b9r4",
+    "nombre": "MOLITALIA Harina Trigo Repostera Especial 1 kg",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 8.7,
+      "regular": null,
+      "porUnidad": 8.7
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_tottusharinademazbla_mml4b9r4",
+    "nombre": "TOTTUS Harina de Maíz Blanco Tottus",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 11,
+      "regular": null,
+      "porUnidad": 11
+    },
+    "presentacion": null,
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_blancaflorpremezclad_mml4b9r4",
+    "nombre": "BLANCA FLOR Premezcla de Keke Blanca Flor Sabor Vainilla Bolsa 750 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 12.5,
+      "regular": null,
+      "porUnidad": 16.67
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_mitierraharinadearro_mml4b9r4",
+    "nombre": "MI TIERRA Harina de Arroz Mi Tierra Bolsa 500 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 9.4,
+      "regular": null,
+      "porUnidad": 18.8
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_granodeoroharinadetr_mml4b9r4",
+    "nombre": "GRANO DE ORO Harina de Trigo sin Preparar 180 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 0.9,
+      "regular": null,
+      "porUnidad": 5
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_lacasamarimielharina_mml4b9r4",
+    "nombre": "LA CASA MARIMIEL Harina de Avena Integral La Casa Marimiel Doypack 300 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "porUnidad": 43
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_munthushaboiharinade_mml4b9r4",
+    "nombre": "MUNTHU SHABOI Harina De Canihua Extruido Munthu Shaboix250G",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 7.3,
+      "regular": null,
+      "porUnidad": 29.2
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_harinasinglutenrepos_mml4b9r4",
+    "nombre": "HARINA SIN GLUTEN REPOSTERIA AMERICAORGANICA 454G",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 26,
+      "regular": null,
+      "porUnidad": 57.27
+    },
+    "presentacion": {
+      "valor": 454,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_harinadelinazax200gl_mml4b9r4",
+    "nombre": "HARINA DE LINAZA X 200G LA CASA MARIMIEL",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 6.7,
+      "regular": null,
+      "porUnidad": 33.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:24:15.520Z"
+  },
+  {
+    "id": "tottus_nuestrasaludharinade_mml4b9r4",
+    "nombre": "NUESTRA SALUD Harina de Maca Roja Nuestra Salud Doypack 200 g",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 17.9,
+      "regular": 23.1,
+      "porUnidad": 89.5
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 23,
+    "timestamp": "2026-03-10T21:24:15.520Z"
   }
 ]

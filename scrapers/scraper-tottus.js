@@ -34,7 +34,7 @@ class TottusScraper {
         try {
             utils.log("Tottus: Solicitando cookies iniciales...", 'info');
             const warmup = await fetch('https://www.tottus.com.pe', { headers: this.baseHeaders });
-            const cookiesArray = warmup.headers.raw()['set-cookie'] || [];
+            const cookiesArray = warmup.headers.getSetCookie ? warmup.headers.getSetCookie() : [];
 
             // Juntar cookies
             let cookieStr = '';
