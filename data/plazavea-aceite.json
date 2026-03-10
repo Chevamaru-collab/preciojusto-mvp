@@ -1,200 +1,42 @@
 [
   {
-    "id": "plazavea_aceitevegetalpremium_mmgpmvea",
+    "id": "plazavea_filetedeatnenaceitev_mml45yk0",
+    "nombre": "Filete de Atún en Aceite Vegetal FLORIDA Lata 140g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.6,
+      "regular": 6.4,
+      "porUnidad": 40
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 13,
+    "timestamp": "2026-03-10T21:20:07.728Z"
+  },
+  {
+    "id": "plazavea_aceitevegetalpremium_mml45yk0",
     "nombre": "Aceite Vegetal Premium PRIMOR Botella 900ml",
     "categoria": "aceite",
     "super": "plazavea",
     "precios": {
-      "online": 9.1,
-      "regular": 11,
-      "porUnidad": 10.11
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 17,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_aceitevegetalbellsbo_mmgpmvea",
-    "nombre": "Aceite Vegetal BELL'S Botella 900ml",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 5.5,
-      "regular": 5.6,
-      "porUnidad": 6.11
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 2,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_packaceitevegetalpri_mmgpmvea",
-    "nombre": "Pack Aceite Vegetal PRIMOR Premium 900ml Botel...",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 18.5,
-      "regular": 22,
-      "porUnidad": 20.56
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 16,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_aceitedesoyasaobotel_mmgpmvea",
-    "nombre": "Aceite de Soya SAO Botella 900ml",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 6.3,
-      "regular": 6.9,
-      "porUnidad": 7
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 9,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_packaceitevegetalpri_mmgpmvea",
-    "nombre": "Pack Aceite Vegetal PRIMOR Clásico Botella 900...",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 16.5,
-      "regular": 19.4,
-      "porUnidad": 16.5
-    },
-    "presentacion": null,
-    "descuento": 15,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_aceitevegetalcociner_mmgpmvea",
-    "nombre": "Aceite Vegetal COCINERO Botella 900ml",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 7.6,
-      "regular": 8.7,
-      "porUnidad": 8.44
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 13,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_aceitevegetalprimorc_mmgpmvea",
-    "nombre": "Aceite Vegetal PRIMOR Clásico Botella 900ml",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 8.4,
-      "regular": 9.7,
-      "porUnidad": 9.33
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 13,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_aceitevegetalprimorc_mmgpmvea",
-    "nombre": "Aceite Vegetal PRIMOR Clásico Botella 1.8L",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 15.5,
-      "regular": 17.8,
-      "porUnidad": 8.61
-    },
-    "presentacion": {
-      "valor": 1.8,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 13,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_aceitedesoyabellsbot_mmgpmvea",
-    "nombre": "Aceite de Soya BELL'S Botella 900ml",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 4.9,
-      "regular": 5.3,
-      "porUnidad": 5.44
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 8,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_aceitevegetaldeleite_mmgpmvea",
-    "nombre": "Aceite Vegetal DELEITE Premium Botella 900ml",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 6.9,
-      "regular": 7.3,
-      "porUnidad": 7.67
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 5,
-    "timestamp": "2026-03-07T19:22:17.842Z"
-  },
-  {
-    "id": "plazavea_aceitevegetalbellsga_mmgpmvea",
-    "nombre": "Aceite Vegetal BELL'S Galonera 5L",
-    "categoria": "aceite",
-    "super": "plazavea",
-    "precios": {
-      "online": 30.5,
+      "online": 11,
       "regular": null,
-      "porUnidad": 6.1
+      "porUnidad": 12.22
     },
     "presentacion": {
-      "valor": 5,
-      "unidad": "lt",
+      "valor": 900,
+      "unidad": "ml",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:22:17.842Z"
+    "timestamp": "2026-03-10T21:20:07.728Z"
   },
   {
-    "id": "plazavea_aceitevegetalbellsbo_mmgpmvea",
+    "id": "plazavea_aceitevegetalbellsbo_mml45yk1",
     "nombre": "Aceite Vegetal BELL'S Botella 3L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -209,28 +51,262 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:22:17.842Z"
+    "timestamp": "2026-03-10T21:20:07.729Z"
   },
   {
-    "id": "plazavea_aceitevegetalprimorg_mmgpmvea",
-    "nombre": "Aceite Vegetal PRIMOR Galón 5L",
+    "id": "plazavea_packfiletedeatnprimo_mml45yk1",
+    "nombre": "Pack Filete de Atún PRIMOR en Aceite Vegetal 140g Lata 3un",
     "categoria": "aceite",
     "super": "plazavea",
     "precios": {
-      "online": 46.5,
-      "regular": null,
-      "porUnidad": 9.3
+      "online": 15.6,
+      "regular": 20.1,
+      "porUnidad": 111.43
     },
     "presentacion": {
-      "valor": 5,
-      "unidad": "lt",
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 22,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_packaceitevegetalpri_mml45yk1",
+    "nombre": "Pack Aceite Vegetal PRIMOR Clásico Botella 900ml x 2un",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 16.5,
+      "regular": 19.4,
+      "porUnidad": 18.33
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 15,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_filetedeatncampomare_mml45yk1",
+    "nombre": "Filete de Atún CAMPOMAR en Aceite Vegetal Lata 150g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.3,
+      "regular": 5.9,
+      "porUnidad": 35.33
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 10,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_aceitedesoyasaobotel_mml45yk1",
+    "nombre": "Aceite de Soya SAO Botella 900ml",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 6.2,
+      "regular": 6.9,
+      "porUnidad": 6.89
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 10,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_filetedeatnenaceitev_mml45yk1",
+    "nombre": "Filete de Atún en Aceite Vegetal FANNY Lata 140g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.5,
+      "regular": null,
+      "porUnidad": 39.29
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:22:17.842Z"
+    "timestamp": "2026-03-10T21:20:07.729Z"
   },
   {
-    "id": "plazavea_aceitevegetaldeleite_mmgpmvea",
+    "id": "plazavea_filetedeatnprimorena_mml45yk1",
+    "nombre": "Filete de Atún PRIMOR en Aceite Vegetal Lata 140g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.6,
+      "regular": 6.7,
+      "porUnidad": 40
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 16,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_packtrozosdeatnprimo_mml45yk1",
+    "nombre": "Pack Trozos de Atún PRIMOR en Aceite Vegetal 140g Lata 3un",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 15.3,
+      "regular": 19.5,
+      "porUnidad": 109.29
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 22,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_trozosdeatnenaceitev_mml45yk1",
+    "nombre": "Trozos de Atún en Aceite Vegetal FANNY Lata 140g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.4,
+      "regular": null,
+      "porUnidad": 38.57
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_trozosdeatnprimorena_mml45yk1",
+    "nombre": "Trozos de Atún PRIMOR en Aceite Vegetal Lata 140g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.5,
+      "regular": 6.5,
+      "porUnidad": 39.29
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_aceitevegetalcociner_mml45yk1",
+    "nombre": "Aceite Vegetal COCINERO Botella 900ml",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 8.7,
+      "regular": null,
+      "porUnidad": 9.67
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_aceitevegetalprimorc_mml45yk1",
+    "nombre": "Aceite Vegetal PRIMOR Clásico Botella 1.8L",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 15.5,
+      "regular": 17.8,
+      "porUnidad": 8.61
+    },
+    "presentacion": {
+      "valor": 1.8,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": 13,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_lomosdeatnenaceiteve_mml45yk1",
+    "nombre": "Lomos de Atún en Aceite Vegetal CAMPOMAR Lata 150g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.5,
+      "regular": 6.1,
+      "porUnidad": 36.67
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 10,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_trozosdeatnfloridaen_mml45yk1",
+    "nombre": "Trozos de Atún FLORIDA en Aceite Vegetal Lata 140g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.2,
+      "regular": 5.9,
+      "porUnidad": 37.14
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 12,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_slidodecaballacampom_mml45yk1",
+    "nombre": "Sólido de Caballa CAMPOMAR en Aceite Vegetal Lata 150g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.7,
+      "regular": null,
+      "porUnidad": 38
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_aceitevegetaldeleite_mml45yk1",
     "nombre": "Aceite Vegetal DELEITE Premium Bidón 5L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -245,28 +321,82 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:22:17.842Z"
+    "timestamp": "2026-03-10T21:20:07.729Z"
   },
   {
-    "id": "plazavea_aceitedesoyasoyabote_mmgpmvea",
-    "nombre": "Aceite de Soya SOYA Botella 900ml",
+    "id": "plazavea_aceitevegetalbellsga_mml45yk1",
+    "nombre": "Aceite Vegetal BELL'S Galonera 5L",
     "categoria": "aceite",
     "super": "plazavea",
     "precios": {
-      "online": 6,
+      "online": 30.5,
       "regular": null,
-      "porUnidad": 6.67
+      "porUnidad": 6.1
     },
     "presentacion": {
-      "valor": 900,
+      "valor": 5,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_aceitedeajonjolbells_mml45yk1",
+    "nombre": "Aceite de Ajonjolí BELL'S Frasco 200ml",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "porUnidad": 64.5
+    },
+    "presentacion": {
+      "valor": 200,
       "unidad": "ml",
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:22:17.842Z"
+    "timestamp": "2026-03-10T21:20:07.729Z"
   },
   {
-    "id": "plazavea_aceitevegetalpremium_mmgpmvea",
+    "id": "plazavea_aceitevegetalprimorg_mml45yk1",
+    "nombre": "Aceite Vegetal PRIMOR Galón 5L",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 46.5,
+      "regular": null,
+      "porUnidad": 9.3
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_filetedebonitocampom_mml45yk1",
+    "nombre": "Filete de Bonito CAMPOMAR en Aceite Vegetal Lata 150g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 4.9,
+      "regular": null,
+      "porUnidad": 32.67
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_aceitevegetalpremium_mml45yk1",
     "nombre": "Aceite Vegetal Premium DELEITE Bidón 3L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -281,24 +411,118 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:22:17.842Z"
+    "timestamp": "2026-03-10T21:20:07.729Z"
   },
   {
-    "id": "plazavea_aceitedegirasolrefin_mmgpmvea",
-    "nombre": "Aceite de Girasol Refinado EL CORTE INGLÉS Bot...",
+    "id": "plazavea_grateddeatnenaceitev_mml45yk1",
+    "nombre": "Grated de Atún en Aceite Vegetal FLORIDA Lata 140g",
     "categoria": "aceite",
     "super": "plazavea",
     "precios": {
-      "online": 14.9,
+      "online": 4.6,
       "regular": null,
-      "porUnidad": 14.9
+      "porUnidad": 32.86
     },
-    "presentacion": null,
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:22:17.842Z"
+    "timestamp": "2026-03-10T21:20:07.729Z"
   },
   {
-    "id": "plazavea_aceitevegetalwessonc_mmgpmvea",
+    "id": "plazavea_aceitedecrtamooleico_mml45yk1",
+    "nombre": "Aceite de Cártamo OLEICO Botella 710ml",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 32.9,
+      "regular": null,
+      "porUnidad": 46.34
+    },
+    "presentacion": {
+      "valor": 710,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_aceitedecocobellsfra_mml45yk1",
+    "nombre": "Aceite de Coco BELL'S Frasco 350ml",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 26.8,
+      "regular": null,
+      "porUnidad": 76.57
+    },
+    "presentacion": {
+      "valor": 350,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_filetedebonitofresco_mml45yk1",
+    "nombre": "Filete de Bonito FRESCOMAR en Aceite Vegetal Lata 170g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.7,
+      "regular": null,
+      "porUnidad": 33.53
+    },
+    "presentacion": {
+      "valor": 170,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_grateddeatna1enaceit_mml45yk1",
+    "nombre": "Grated de Atún A1 en Aceite Vegetal Lata 140g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 4.3,
+      "regular": null,
+      "porUnidad": 30.71
+    },
+    "presentacion": {
+      "valor": 140,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_filetedeatnclaroenac_mml45yk1",
+    "nombre": "Filete de Atún Claro en Aceite Vegetal CAMPOMAR Lata 150g",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 6.9,
+      "regular": null,
+      "porUnidad": 46
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 0,
+    "timestamp": "2026-03-10T21:20:07.729Z"
+  },
+  {
+    "id": "plazavea_aceitevegetalwessonc_mml45yk1",
     "nombre": "Aceite Vegetal WESSON Canola Botella 1.18L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -313,6 +537,6 @@
       "pack": 1
     },
     "descuento": 0,
-    "timestamp": "2026-03-07T19:22:17.842Z"
+    "timestamp": "2026-03-10T21:20:07.729Z"
   }
 ]
