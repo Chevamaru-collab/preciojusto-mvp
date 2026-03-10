@@ -18,6 +18,47 @@ let sortMode = 'fecha';
 let searchQuery = '';
 
 // ---- HELPERS ----
+function getCatEmoji(cat) {
+    const emojis = {
+        'Aceite': '🫙', 'Arroz': '🌾', 'Azucar': '🧊', 'azucar-blanca': '🧊', 'azucar-rubia': '🧊',
+        'Carne': '🥩', 'Condimentos': '🧂', 'Fideos': '🍝', 'frijol-canario': '🫘', 'Frutas': '🍎',
+        'Harina': '🌾', 'Huevos': '🥚', 'Leche': '🥛', 'leche-evaporada': '🥛', 'leche-fresca': '🥛',
+        'lentejas': '🫘', 'mantequilla': '🧈', 'Menestras': '🫘', 'Pan': '🥖', 'pan-molde': '🍞',
+        'Pescado': '🐟', 'Pollo': '🍗', 'Verduras': '🥦', 'avena': '🥣'
+    };
+    return emojis[cat] || '📦';
+}
+
+function getCatUnit(cat) {
+    const liquids = ['Aceite', 'Leche', 'leche-evaporada', 'leche-fresca'];
+    return liquids.includes(cat) ? 'L' : 'kg';
+}
+
+function normalizeUnits() {
+    if (typeof rawData === 'undefined') return;
+    rawData.forEach(d => {
+        if (!d.um) return;
+        const u = d.um.toLowerCase().trim();
+        if (u === 'g' || u === 'gr') {
+            d.vt = d.vt / 1000;
+            d.um = 'kg';
+            d.presentacion = d.vt;
+        } else if (u === 'ml') {
+            d.vt = d.vt / 1000;
+            d.um = 'L';
+            d.presentacion = d.vt;
+        } else if (u === 'lt' || u === 'l') {
+            d.um = 'L';
+        } else if (u === 'kg') {
+            d.um = 'kg';
+        }
+        if (d.vt) {
+            d.vt = parseFloat(d.vt.toFixed(2));
+            if (u === 'g' || u === 'gr' || u === 'ml') d.presentacion = d.vt;
+        }
+    });
+}
+
 function parseDate(str) {
     if (!str) return new Date(0);
     const parts = str.split('/');
@@ -352,9 +393,7 @@ function renderHeroStats(data) {
 // ---- KPI CARDS ----
 function renderKPIs(data) {
     const latest = getLatest(data);
-    const isArroz = filters.categoria === 'Arroz';
-    const um = isArroz ? 'kg' : 'Lt';
-
+    
     const cheapestLatest = latest.filter(d => d.pxum).length
         ? latest.filter(d => d.pxum).reduce((m, d) => d.pxum < m.pxum ? d : m, latest.filter(d => d.pxum)[0])
         : null;
@@ -373,14 +412,19 @@ function renderKPIs(data) {
         ? `${allFechas[0]} – ${allFechas[allFechas.length - 1]}`
         : (allFechas[0] || '');
 
-    const icon = isArroz ? '🌾' : '🛢️';
-    const catLabel = isArroz ? 'Arroz' : 'Aceite';
     const container = document.getElementById('kpi-grid');
+    
+    // Make text contextual
+    const isTodos = filters.categoria === 'Todos';
+    const catLabel = isTodos ? 'Producto' : (cheapestLatest ? fmtCatFn(cheapestLatest.categoria) : fmtCatFn(filters.categoria));
+    const icon = isTodos ? '📦' : getCatEmoji(filters.categoria);
+    const unitLabel = isTodos ? 'um' : getCatUnit(filters.categoria);
+
     container.innerHTML = `
     <div class="kpi-card blue">
       <div class="kpi-icon">${icon}</div>
-      <div class="kpi-label">${catLabel} más barato / ${um}</div>
-      <div class="kpi-value">${fmtSoles(minPxum)} <span>/ ${um}</span></div>
+      <div class="kpi-label">${catLabel} más barato / ${unitLabel}</div>
+      <div class="kpi-value">${fmtSoles(minPxum)} <span>/ ${unitLabel}</span></div>
       <div class="kpi-sub">Precio online más reciente${cheapestSuperLabel}</div>
       <div class="kpi-badge down">🏆 Mejor precio</div>
     </div>
@@ -392,9 +436,9 @@ function renderKPIs(data) {
     </div>
     <div class="kpi-card yellow">
       <div class="kpi-icon">📊</div>
-      <div class="kpi-label">Precio Promedio / ${um} (más reciente)</div>
-      <div class="kpi-value">${fmtSoles(avgPxum)} <span>/ ${um}</span></div>
-      <div class="kpi-sub">Todos los tipos de ${catLabel.toLowerCase()}</div>
+      <div class="kpi-label">Precio Promedio / ${unitLabel} (más reciente)</div>
+      <div class="kpi-value">${fmtSoles(avgPxum)} <span>/ ${unitLabel}</span></div>
+      <div class="kpi-sub">${isTodos ? 'Todos los productos' : `Todos los tipos de ${catLabel.toLowerCase()}`}</div>
     </div>
     <div class="kpi-card red">
       <div class="kpi-icon">📋</div>
@@ -441,7 +485,7 @@ function insightCardHTML(supers) {
     const loser = supers[superNames[superNames.length - 1]];
     const savings = loser.pxum - winner.pxum;
     const um = winner.um || 'Lt';
-    const icon = winner.categoria === 'Arroz' ? '🌾' : '🛢️';
+    const icon = getCatEmoji(winner.categoria);
     return `
       <div class="insight-left">
         <div class="insight-label">🏆 Mayor diferencia · ${winner.categoria}</div>
@@ -664,18 +708,11 @@ function setupCatChips() {
     const container = document.getElementById('filter-cat');
     if (!container) return;
     const cats = [...new Set(rawData.map(d => d.categoria))].sort();
-    const emojis = {
-        'Aceite': '🫙', 'Arroz': '🌾', 'Azucar': '🧊', 'azucar-blanca': '🧊', 'azucar-rubia': '🧊',
-        'Carne': '🥩', 'Condimentos': '🧂', 'Fideos': '🍝', 'frijol-canario': '🫘', 'Frutas': '🍎',
-        'Harina': '🌾', 'Huevos': '🥚', 'Leche': '🥛', 'leche-evaporada': '🥛', 'leche-fresca': '🥛',
-        'lentejas': '🫘', 'mantequilla': '🧈', 'Menestras': '🫘', 'Pan': '🥖', 'pan-molde': '🍞',
-        'Pescado': '🐟', 'Pollo': '🍗', 'Verduras': '🥦', 'avena': '🥣'
-    };
     
     container.innerHTML = `
         <button class="chip active" data-value="Todos" onclick="setFilter('categoria','Todos',this)">🛒 Todos</button>
         ${cats.map(c => {
-            const e = emojis[c] || '📦';
+            const e = getCatEmoji(c);
             return `<button class="chip" data-value="${c}" onclick="setFilter('categoria','${c}',this)">${e} ${fmtCatFn(c)}</button>`;
         }).join('')}
     `;
@@ -832,6 +869,7 @@ function initSwipeSidebar() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    normalizeUnits();
     setupCatChips();
     setupSuperChips();
     updateTipoOptions();
