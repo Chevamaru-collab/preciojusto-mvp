@@ -7,7 +7,7 @@ const SUPERMERCADOS = {
     Metro: { id: 'Metro', nombre: 'Metro', color: '#e84040', cssClass: 'metro', activo: true },
     Wong: { id: 'Wong', nombre: 'Wong', color: '#f5a623', cssClass: 'wong', activo: true },
     Tottus: { id: 'Tottus', nombre: 'Tottus', color: '#83b81a', cssClass: 'tottus', activo: true },
-    PlazaVea: { id: 'PlazaVea', nombre: 'Plaza Vea', color: '#E3001B', cssClass: 'plazavea', activo: true }
+    'Plaza Vea': { id: 'PlazaVea', nombre: 'Plaza Vea', color: '#E3001B', cssClass: 'plazavea', activo: true }
 };
 function activeSupers() { return Object.values(SUPERMERCADOS).filter(s => s.activo); }
 
