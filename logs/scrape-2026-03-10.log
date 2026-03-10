@@ -1,0 +1,214 @@
+[2026-03-10T20:14:15.073Z] [INFO ] === Iniciando Metro Scraper (Fetch API Bypass) ===
+[2026-03-10T20:14:15.085Z] [INFO ] Metro: API fetch [arroz] ("arroz")...
+[2026-03-10T20:14:15.085Z] [INFO ]   -> Metro [arroz] Pág 1: index 0 - 49
+[2026-03-10T20:14:19.129Z] [OK   ] Metro [arroz]: 45 productos parseados vía API
+[2026-03-10T20:14:19.131Z] [OK   ] Guardado: metro-arroz.json (45 productos)
+[2026-03-10T20:14:25.341Z] [INFO ] Metro: API fetch [aceite] ("aceite vegetal")...
+[2026-03-10T20:14:25.343Z] [INFO ]   -> Metro [aceite] Pág 1: index 0 - 49
+[2026-03-10T20:14:29.693Z] [OK   ] Metro [aceite]: 28 productos parseados vía API
+[2026-03-10T20:14:29.695Z] [OK   ] Guardado: metro-aceite.json (28 productos)
+[2026-03-10T20:14:35.376Z] [INFO ] Metro: API fetch [azucar-blanca] ("azucar blanca")...
+[2026-03-10T20:14:35.377Z] [INFO ]   -> Metro [azucar-blanca] Pág 1: index 0 - 49
+[2026-03-10T20:14:38.510Z] [OK   ] Metro [azucar-blanca]: 8 productos parseados vía API
+[2026-03-10T20:14:38.512Z] [OK   ] Guardado: metro-azucar-blanca.json (8 productos)
+[2026-03-10T20:14:41.432Z] [INFO ] === Iniciando Wong Scraper (Classic DOM) ===
+[2026-03-10T20:14:43.527Z] [INFO ] Metro: API fetch [azucar-rubia] ("azucar rubia")...
+[2026-03-10T20:14:43.528Z] [INFO ]   -> Metro [azucar-rubia] Pág 1: index 0 - 49
+[2026-03-10T20:14:47.726Z] [OK   ] Metro [azucar-rubia]: 11 productos parseados vía API
+[2026-03-10T20:14:47.728Z] [OK   ] Guardado: metro-azucar-rubia.json (11 productos)
+[2026-03-10T20:14:54.280Z] [INFO ] Metro: API fetch [harina] ("harina")...
+[2026-03-10T20:14:54.281Z] [INFO ]   -> Metro [harina] Pág 1: index 0 - 49
+[2026-03-10T20:14:59.025Z] [OK   ] Metro [harina]: 31 productos parseados vía API
+[2026-03-10T20:14:59.027Z] [OK   ] Guardado: metro-harina.json (31 productos)
+[2026-03-10T20:15:04.426Z] [INFO ] Metro: API fetch [avena] ("avena")...
+[2026-03-10T20:15:04.426Z] [INFO ]   -> Metro [avena] Pág 1: index 0 - 49
+[2026-03-10T20:15:09.641Z] [OK   ] Metro [avena]: 1 productos parseados vía API
+[2026-03-10T20:15:09.643Z] [OK   ] Guardado: metro-avena.json (1 productos)
+[2026-03-10T20:15:16.527Z] [INFO ] Metro: API fetch [fideos] ("fideos pasta")...
+[2026-03-10T20:15:16.528Z] [INFO ]   -> Metro [fideos] Pág 1: index 0 - 49
+[2026-03-10T20:15:23.611Z] [OK   ] Metro [fideos]: 13 productos parseados vía API
+[2026-03-10T20:15:23.613Z] [OK   ] Guardado: metro-fideos.json (13 productos)
+[2026-03-10T20:15:29.642Z] [INFO ] Metro: API fetch [pollo] ("pollo")...
+[2026-03-10T20:15:29.643Z] [INFO ]   -> Metro [pollo] Pág 1: index 0 - 49
+[2026-03-10T20:15:33.161Z] [OK   ] Metro [pollo]: 43 productos parseados vía API
+[2026-03-10T20:15:33.163Z] [OK   ] Guardado: metro-pollo.json (43 productos)
+[2026-03-10T20:15:39.428Z] [INFO ] Metro: API fetch [huevos] ("huevos")...
+[2026-03-10T20:15:39.429Z] [INFO ]   -> Metro [huevos] Pág 1: index 0 - 49
+[2026-03-10T20:15:43.348Z] [INFO ] === Iniciando Wong Scraper (Classic DOM) ===
+[2026-03-10T20:15:45.036Z] [OK   ] Metro [huevos]: 19 productos parseados vía API
+[2026-03-10T20:15:45.145Z] [OK   ] Guardado: metro-huevos.json (19 productos)
+[2026-03-10T20:15:45.887Z] [INFO ] Wong: DOM Parse [arroz] ("arroz")...
+[2026-03-10T20:15:48.303Z] [INFO ] Wong [arroz]: Esperando catálogo...
+[2026-03-10T20:15:52.002Z] [INFO ] Metro: API fetch [leche-evaporada] ("leche evaporada")...
+[2026-03-10T20:15:52.002Z] [INFO ]   -> Metro [leche-evaporada] Pág 1: index 0 - 49
+[2026-03-10T20:15:55.327Z] [OK   ] Metro [leche-evaporada]: 3 productos parseados vía API
+[2026-03-10T20:15:55.328Z] [OK   ] Guardado: metro-leche-evaporada.json (3 productos)
+[2026-03-10T20:16:01.669Z] [INFO ] Metro: API fetch [leche-fresca] ("leche fresca")...
+[2026-03-10T20:16:01.669Z] [INFO ]   -> Metro [leche-fresca] Pág 1: index 0 - 49
+[2026-03-10T20:16:05.643Z] [OK   ] Metro [leche-fresca]: 21 productos parseados vía API
+[2026-03-10T20:16:05.645Z] [OK   ] Guardado: metro-leche-fresca.json (21 productos)
+[2026-03-10T20:16:11.993Z] [INFO ] Metro: API fetch [mantequilla] ("mantequilla")...
+[2026-03-10T20:16:11.994Z] [INFO ]   -> Metro [mantequilla] Pág 1: index 0 - 49
+[2026-03-10T20:16:15.433Z] [OK   ] Metro [mantequilla]: 15 productos parseados vía API
+[2026-03-10T20:16:15.435Z] [OK   ] Guardado: metro-mantequilla.json (15 productos)
+[2026-03-10T20:16:18.323Z] [ERROR] Wong ERROR [arroz]: Waiting for selector `[class*="vtex-search-result-3-x-galleryItem"] article, [class*="vtex-product-summary-2-x-container"]` failed
+[2026-03-10T20:16:18.324Z] [OK   ] Guardado: wong-arroz.json (0 productos)
+[2026-03-10T20:16:20.980Z] [INFO ] Metro: API fetch [lentejas] ("lentejas")...
+[2026-03-10T20:16:20.980Z] [INFO ]   -> Metro [lentejas] Pág 1: index 0 - 49
+[2026-03-10T20:16:23.621Z] [INFO ] Wong: DOM Parse [aceite] ("aceite vegetal")...
+[2026-03-10T20:16:25.232Z] [OK   ] Metro [lentejas]: 18 productos parseados vía API
+[2026-03-10T20:16:25.234Z] [OK   ] Guardado: metro-lentejas.json (18 productos)
+[2026-03-10T20:16:31.190Z] [INFO ] Wong [aceite]: Esperando catálogo...
+[2026-03-10T20:16:31.431Z] [INFO ] Metro: API fetch [frijol-canario] ("frijol canario")...
+[2026-03-10T20:16:31.630Z] [INFO ]   -> Metro [frijol-canario] Pág 1: index 0 - 49
+[2026-03-10T20:16:35.260Z] [OK   ] Metro [frijol-canario]: 8 productos parseados vía API
+[2026-03-10T20:16:35.318Z] [OK   ] Guardado: metro-frijol-canario.json (8 productos)
+[2026-03-10T20:16:38.238Z] [INFO ]   Wong [aceite]: Click Load More
+[2026-03-10T20:16:41.629Z] [INFO ] Metro: API fetch [pan-molde] ("pan molde")...
+[2026-03-10T20:16:41.629Z] [INFO ]   -> Metro [pan-molde] Pág 1: index 0 - 49
+[2026-03-10T20:16:44.712Z] [OK   ] Metro [pan-molde]: 34 productos parseados vía API
+[2026-03-10T20:16:44.714Z] [OK   ] Guardado: metro-pan-molde.json (34 productos)
+[2026-03-10T20:16:44.789Z] [INFO ]   Wong [aceite]: Click Load More
+[2026-03-10T20:16:50.788Z] [OK   ] === Metro API completado: 298 productos totales ===
+[2026-03-10T20:16:54.416Z] [INFO ]   Wong [aceite]: Click Load More
+[2026-03-10T20:17:06.158Z] [INFO ]   Wong [aceite]: Click Load More
+[2026-03-10T20:17:08.592Z] [OK   ]   Wong [aceite]: Captura completa (97 items)
+[2026-03-10T20:17:08.596Z] [OK   ] Wong [aceite]: 41 productos renderizados
+[2026-03-10T20:17:08.597Z] [OK   ] Guardado: wong-aceite.json (41 productos)
+[2026-03-10T20:17:13.628Z] [INFO ] Wong: DOM Parse [azucar-blanca] ("azucar blanca")...
+[2026-03-10T20:17:30.344Z] [INFO ] Wong [azucar-blanca]: Esperando catálogo...
+[2026-03-10T20:17:39.241Z] [INFO ]   Wong [azucar-blanca]: Click Load More
+[2026-03-10T20:17:48.908Z] [INFO ]   Wong [azucar-blanca]: Click Load More
+[2026-03-10T20:17:51.151Z] [OK   ]   Wong [azucar-blanca]: Captura completa (37 items)
+[2026-03-10T20:17:51.152Z] [OK   ] Wong [azucar-blanca]: 1 productos renderizados
+[2026-03-10T20:17:51.153Z] [OK   ] Guardado: wong-azucar-blanca.json (1 productos)
+[2026-03-10T20:17:56.796Z] [INFO ] Wong: DOM Parse [azucar-rubia] ("azucar rubia")...
+[2026-03-10T20:18:04.171Z] [INFO ] Wong [azucar-rubia]: Esperando catálogo...
+[2026-03-10T20:18:12.805Z] [INFO ]   Wong [azucar-rubia]: Click Load More
+[2026-03-10T20:18:17.235Z] [INFO ]   Wong [azucar-rubia]: Click Load More
+[2026-03-10T20:18:19.527Z] [OK   ]   Wong [azucar-rubia]: Captura completa (37 items)
+[2026-03-10T20:18:19.528Z] [OK   ] Wong [azucar-rubia]: 6 productos renderizados
+[2026-03-10T20:18:19.529Z] [OK   ] Guardado: wong-azucar-rubia.json (6 productos)
+[2026-03-10T20:18:25.364Z] [INFO ] Wong: DOM Parse [harina] ("harina")...
+[2026-03-10T20:18:27.479Z] [INFO ] Wong [harina]: Esperando catálogo...
+[2026-03-10T20:18:57.484Z] [ERROR] Wong ERROR [harina]: Waiting for selector `[class*="vtex-search-result-3-x-galleryItem"] article, [class*="vtex-product-summary-2-x-container"]` failed
+[2026-03-10T20:18:57.486Z] [OK   ] Guardado: wong-harina.json (0 productos)
+[2026-03-10T20:19:03.442Z] [INFO ] Wong: DOM Parse [avena] ("avena")...
+[2026-03-10T20:19:05.973Z] [INFO ] Wong [avena]: Esperando catálogo...
+[2026-03-10T20:19:35.977Z] [ERROR] Wong ERROR [avena]: Waiting for selector `[class*="vtex-search-result-3-x-galleryItem"] article, [class*="vtex-product-summary-2-x-container"]` failed
+[2026-03-10T20:19:35.980Z] [OK   ] Guardado: wong-avena.json (0 productos)
+[2026-03-10T20:19:41.260Z] [INFO ] Wong: DOM Parse [fideos] ("fideos pasta")...
+[2026-03-10T20:19:47.700Z] [INFO ] Wong [fideos]: Esperando catálogo...
+[2026-03-10T20:19:54.207Z] [INFO ]   Wong [fideos]: Click Load More
+[2026-03-10T20:19:59.592Z] [INFO ]   Wong [fideos]: Click Load More
+[2026-03-10T20:20:03.056Z] [OK   ]   Wong [fideos]: Captura completa (62 items)
+[2026-03-10T20:20:03.057Z] [OK   ] Wong [fideos]: 38 productos renderizados
+[2026-03-10T20:20:03.058Z] [OK   ] Guardado: wong-fideos.json (38 productos)
+[2026-03-10T20:20:09.022Z] [INFO ] Wong: DOM Parse [pollo] ("pollo")...
+[2026-03-10T20:20:12.469Z] [INFO ] Wong [pollo]: Esperando catálogo...
+[2026-03-10T20:20:42.481Z] [ERROR] Wong ERROR [pollo]: Waiting for selector `[class*="vtex-search-result-3-x-galleryItem"] article, [class*="vtex-product-summary-2-x-container"]` failed
+[2026-03-10T20:20:42.482Z] [OK   ] Guardado: wong-pollo.json (0 productos)
+[2026-03-10T20:20:48.261Z] [INFO ] Wong: DOM Parse [huevos] ("huevos")...
+[2026-03-10T20:20:51.131Z] [INFO ] Wong [huevos]: Esperando catálogo...
+[2026-03-10T20:21:21.140Z] [ERROR] Wong ERROR [huevos]: Waiting for selector `[class*="vtex-search-result-3-x-galleryItem"] article, [class*="vtex-product-summary-2-x-container"]` failed
+[2026-03-10T20:21:21.141Z] [OK   ] Guardado: wong-huevos.json (0 productos)
+[2026-03-10T20:21:27.015Z] [INFO ] Wong: DOM Parse [leche-evaporada] ("leche evaporada")...
+[2026-03-10T20:21:32.842Z] [INFO ] Wong [leche-evaporada]: Esperando catálogo...
+[2026-03-10T20:21:39.047Z] [INFO ]   Wong [leche-evaporada]: Click Load More
+[2026-03-10T20:21:44.703Z] [INFO ]   Wong [leche-evaporada]: Click Load More
+[2026-03-10T20:21:47.227Z] [OK   ]   Wong [leche-evaporada]: Captura completa (60 items)
+[2026-03-10T20:21:47.228Z] [OK   ] Wong [leche-evaporada]: 0 productos renderizados
+[2026-03-10T20:21:47.229Z] [OK   ] Guardado: wong-leche-evaporada.json (0 productos)
+[2026-03-10T20:21:52.642Z] [INFO ] Wong: DOM Parse [leche-fresca] ("leche fresca")...
+[2026-03-10T20:22:00.350Z] [INFO ] Wong [leche-fresca]: Esperando catálogo...
+[2026-03-10T20:22:06.391Z] [INFO ]   Wong [leche-fresca]: Click Load More
+[2026-03-10T20:22:11.177Z] [INFO ]   Wong [leche-fresca]: Click Load More
+[2026-03-10T20:22:21.554Z] [INFO ]   Wong [leche-fresca]: Click Load More
+[2026-03-10T20:22:23.470Z] [OK   ]   Wong [leche-fresca]: Captura completa (97 items)
+[2026-03-10T20:22:23.472Z] [OK   ] Wong [leche-fresca]: 21 productos renderizados
+[2026-03-10T20:22:23.473Z] [OK   ] Guardado: wong-leche-fresca.json (21 productos)
+[2026-03-10T20:22:29.000Z] [INFO ] Wong: DOM Parse [mantequilla] ("mantequilla")...
+[2026-03-10T20:22:32.517Z] [INFO ] Wong [mantequilla]: Esperando catálogo...
+[2026-03-10T20:23:02.530Z] [ERROR] Wong ERROR [mantequilla]: Waiting for selector `[class*="vtex-search-result-3-x-galleryItem"] article, [class*="vtex-product-summary-2-x-container"]` failed
+[2026-03-10T20:23:02.534Z] [OK   ] Guardado: wong-mantequilla.json (0 productos)
+[2026-03-10T20:23:07.801Z] [INFO ] Wong: DOM Parse [lentejas] ("lentejas")...
+[2026-03-10T20:23:09.570Z] [INFO ] Wong [lentejas]: Esperando catálogo...
+[2026-03-10T20:23:39.578Z] [ERROR] Wong ERROR [lentejas]: Waiting for selector `[class*="vtex-search-result-3-x-galleryItem"] article, [class*="vtex-product-summary-2-x-container"]` failed
+[2026-03-10T20:23:39.580Z] [OK   ] Guardado: wong-lentejas.json (0 productos)
+[2026-03-10T20:23:45.342Z] [INFO ] Wong: DOM Parse [frijol-canario] ("frijol canario")...
+[2026-03-10T20:23:52.371Z] [INFO ] Wong [frijol-canario]: Esperando catálogo...
+[2026-03-10T20:23:59.178Z] [INFO ]   Wong [frijol-canario]: Click Load More
+[2026-03-10T20:24:09.374Z] [INFO ]   Wong [frijol-canario]: Click Load More
+[2026-03-10T20:24:11.925Z] [OK   ]   Wong [frijol-canario]: Captura completa (37 items)
+[2026-03-10T20:24:11.925Z] [OK   ] Wong [frijol-canario]: 4 productos renderizados
+[2026-03-10T20:24:11.927Z] [OK   ] Guardado: wong-frijol-canario.json (4 productos)
+[2026-03-10T20:24:17.651Z] [INFO ] Wong: DOM Parse [pan-molde] ("pan molde")...
+[2026-03-10T20:24:27.545Z] [INFO ] Wong [pan-molde]: Esperando catálogo...
+[2026-03-10T20:24:34.786Z] [INFO ]   Wong [pan-molde]: Click Load More
+[2026-03-10T20:24:44.175Z] [INFO ]   Wong [pan-molde]: Click Load More
+[2026-03-10T20:24:46.793Z] [OK   ]   Wong [pan-molde]: Captura completa (62 items)
+[2026-03-10T20:24:46.794Z] [OK   ] Wong [pan-molde]: 17 productos renderizados
+[2026-03-10T20:24:46.796Z] [OK   ] Guardado: wong-pan-molde.json (17 productos)
+[2026-03-10T20:24:53.196Z] [OK   ] === Wong Classic Parsing completado: 128 productos totales ===
+[2026-03-10T21:05:47.846Z] [INFO ] === Iniciando Wong Scraper (Fetch API Bypass) ===
+[2026-03-10T21:05:47.855Z] [INFO ] Wong: API fetch [arroz] ("arroz")...
+[2026-03-10T21:05:47.856Z] [INFO ]   -> Wong [arroz] Pág 1: index 0 - 49
+[2026-03-10T21:05:51.114Z] [OK   ] Wong [arroz]: 30 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:05:51.115Z] [OK   ] Guardado: wong-arroz.json (30 productos)
+[2026-03-10T21:05:56.961Z] [INFO ] Wong: API fetch [aceite] ("aceite vegetal")...
+[2026-03-10T21:05:56.962Z] [INFO ]   -> Wong [aceite] Pág 1: index 0 - 49
+[2026-03-10T21:06:00.498Z] [OK   ] Wong [aceite]: 30 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:06:00.500Z] [OK   ] Guardado: wong-aceite.json (30 productos)
+[2026-03-10T21:06:06.443Z] [INFO ] Wong: API fetch [azucar-blanca] ("azucar blanca")...
+[2026-03-10T21:06:06.444Z] [INFO ]   -> Wong [azucar-blanca] Pág 1: index 0 - 49
+[2026-03-10T21:06:09.093Z] [OK   ] Wong [azucar-blanca]: 6 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:06:09.095Z] [OK   ] Guardado: wong-azucar-blanca.json (6 productos)
+[2026-03-10T21:06:14.827Z] [INFO ] Wong: API fetch [azucar-rubia] ("azucar rubia")...
+[2026-03-10T21:06:14.828Z] [INFO ]   -> Wong [azucar-rubia] Pág 1: index 0 - 49
+[2026-03-10T21:06:17.443Z] [OK   ] Wong [azucar-rubia]: 11 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:06:17.445Z] [OK   ] Guardado: wong-azucar-rubia.json (11 productos)
+[2026-03-10T21:06:23.293Z] [INFO ] Wong: API fetch [harina] ("harina")...
+[2026-03-10T21:06:23.294Z] [INFO ]   -> Wong [harina] Pág 1: index 0 - 49
+[2026-03-10T21:06:26.993Z] [OK   ] Wong [harina]: 23 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:06:26.995Z] [OK   ] Guardado: wong-harina.json (23 productos)
+[2026-03-10T21:06:32.474Z] [INFO ] Wong: API fetch [avena] ("avena")...
+[2026-03-10T21:06:32.475Z] [INFO ]   -> Wong [avena] Pág 1: index 0 - 49
+[2026-03-10T21:06:35.261Z] [OK   ] Wong [avena]: 23 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:06:35.263Z] [OK   ] Guardado: wong-avena.json (23 productos)
+[2026-03-10T21:06:40.437Z] [INFO ] Wong: API fetch [fideos] ("fideos pasta")...
+[2026-03-10T21:06:40.438Z] [INFO ]   -> Wong [fideos] Pág 1: index 0 - 49
+[2026-03-10T21:06:44.407Z] [OK   ] Wong [fideos]: 30 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:06:44.408Z] [OK   ] Guardado: wong-fideos.json (30 productos)
+[2026-03-10T21:06:49.687Z] [INFO ] Wong: API fetch [pollo] ("pollo")...
+[2026-03-10T21:06:49.688Z] [INFO ]   -> Wong [pollo] Pág 1: index 0 - 49
+[2026-03-10T21:06:53.612Z] [OK   ] Wong [pollo]: 23 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:06:53.613Z] [OK   ] Guardado: wong-pollo.json (23 productos)
+[2026-03-10T21:06:59.128Z] [INFO ] Wong: API fetch [huevos] ("huevos")...
+[2026-03-10T21:06:59.128Z] [INFO ]   -> Wong [huevos] Pág 1: index 0 - 49
+[2026-03-10T21:07:00.978Z] [OK   ] Wong [huevos]: 15 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:07:00.980Z] [OK   ] Guardado: wong-huevos.json (15 productos)
+[2026-03-10T21:07:06.601Z] [INFO ] Wong: API fetch [leche-evaporada] ("leche evaporada")...
+[2026-03-10T21:07:06.602Z] [INFO ]   -> Wong [leche-evaporada] Pág 1: index 0 - 49
+[2026-03-10T21:07:10.928Z] [OK   ] Wong [leche-evaporada]: 3 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:07:10.930Z] [OK   ] Guardado: wong-leche-evaporada.json (3 productos)
+[2026-03-10T21:07:16.897Z] [INFO ] Wong: API fetch [leche-fresca] ("leche fresca")...
+[2026-03-10T21:07:16.898Z] [INFO ]   -> Wong [leche-fresca] Pág 1: index 0 - 49
+[2026-03-10T21:07:20.662Z] [OK   ] Wong [leche-fresca]: 26 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:07:20.663Z] [OK   ] Guardado: wong-leche-fresca.json (26 productos)
+[2026-03-10T21:07:26.480Z] [INFO ] Wong: API fetch [mantequilla] ("mantequilla")...
+[2026-03-10T21:07:26.481Z] [INFO ]   -> Wong [mantequilla] Pág 1: index 0 - 49
+[2026-03-10T21:07:29.144Z] [OK   ] Wong [mantequilla]: 23 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:07:29.146Z] [OK   ] Guardado: wong-mantequilla.json (23 productos)
+[2026-03-10T21:07:34.242Z] [INFO ] Wong: API fetch [lentejas] ("lentejas")...
+[2026-03-10T21:07:34.243Z] [INFO ]   -> Wong [lentejas] Pág 1: index 0 - 49
+[2026-03-10T21:07:38.411Z] [OK   ] Wong [lentejas]: 15 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:07:38.413Z] [OK   ] Guardado: wong-lentejas.json (15 productos)
+[2026-03-10T21:07:43.493Z] [INFO ] Wong: API fetch [frijol-canario] ("frijol canario")...
+[2026-03-10T21:07:43.494Z] [INFO ]   -> Wong [frijol-canario] Pág 1: index 0 - 49
+[2026-03-10T21:07:45.177Z] [OK   ] Wong [frijol-canario]: 5 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:07:45.179Z] [OK   ] Guardado: wong-frijol-canario.json (5 productos)
+[2026-03-10T21:07:50.992Z] [INFO ] Wong: API fetch [pan-molde] ("pan molde")...
+[2026-03-10T21:07:50.993Z] [INFO ]   -> Wong [pan-molde] Pág 1: index 0 - 49
+[2026-03-10T21:07:54.528Z] [OK   ] Wong [pan-molde]: 23 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-10T21:07:54.530Z] [OK   ] Guardado: wong-pan-molde.json (23 productos)
+[2026-03-10T21:08:00.024Z] [OK   ] === Wong API Parsing completado: 286 productos totales ===

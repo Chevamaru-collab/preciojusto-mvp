@@ -9,20 +9,50 @@ module.exports = {
   categorias: [
     { id: 'arroz', query: 'arroz', minItems: 20, unidad: 'kg' },
     { id: 'aceite', query: 'aceite vegetal', minItems: 20, unidad: 'lt' },
-    { id: 'azucar', query: 'azucar', minItems: 15, unidad: 'kg' },
+    { id: 'azucar-blanca', query: 'azucar blanca', minItems: 15, unidad: 'kg' },
+    { id: 'azucar-rubia', query: 'azucar rubia', minItems: 15, unidad: 'kg' },
     { id: 'harina', query: 'harina', minItems: 15, unidad: 'kg' },
+    { id: 'avena', query: 'avena', minItems: 15, unidad: 'kg' },
     { id: 'fideos', query: 'fideos pasta', minItems: 20, unidad: 'kg' },
-    { id: 'pan', query: 'pan molde', minItems: 15, unidad: 'u' },
-    { id: 'leche', query: 'leche', minItems: 20, unidad: 'lt' },
-    { id: 'huevos', query: 'huevos', minItems: 10, unidad: 'u' },
     { id: 'pollo', query: 'pollo', minItems: 15, unidad: 'kg' },
-    { id: 'carne', query: 'carne res', minItems: 15, unidad: 'kg' },
-    { id: 'pescado', query: 'pescado', minItems: 15, unidad: 'kg' },
-    { id: 'menestras', query: 'menestras lentejas', minItems: 15, unidad: 'kg' },
-    { id: 'verduras', query: 'verduras vegetales', minItems: 15, unidad: 'kg' },
-    { id: 'frutas', query: 'frutas manzana', minItems: 15, unidad: 'kg' },
-    { id: 'condimentos', query: 'sal pimienta condimentos', minItems: 10, unidad: 'u' }
+    { id: 'huevos', query: 'huevos', minItems: 10, unidad: 'u' },
+    { id: 'leche-evaporada', query: 'leche evaporada', minItems: 20, unidad: 'lt' },
+    { id: 'leche-fresca', query: 'leche fresca', minItems: 20, unidad: 'lt' },
+    { id: 'mantequilla', query: 'mantequilla', minItems: 15, unidad: 'kg' },
+    { id: 'lentejas', query: 'lentejas', minItems: 15, unidad: 'kg' },
+    { id: 'frijol-canario', query: 'frijol canario', minItems: 15, unidad: 'kg' },
+    { id: 'pan-molde', query: 'pan molde', minItems: 15, unidad: 'u' }
   ],
+
+  relevanceKeywords: {
+    'arroz': ['arroz'],
+    'aceite': ['aceite', 'oil'],
+    'azucar-blanca': ['azúcar blanca', 'azucar blanca', 'blanca'],
+    'azucar-rubia': ['azúcar rubia', 'azucar rubia', 'rubia'],
+    'harina': ['harina'],
+    'avena': ['avena', 'hojuelas'],
+    'fideos': ['fideos', 'pasta', 'spaghetti', 'tallarín', 'tallarin', 'macarron'],
+    'pollo': ['pollo', 'chicken', 'pecho de'],
+    'huevos': ['huevo', 'egg'],
+    'leche-evaporada': ['evaporada'],
+    'leche-fresca': ['fresca', 'uht', 'entera'],
+    'mantequilla': ['mantequilla', 'butter'],
+    'lentejas': ['lenteja'],
+    'frijol-canario': ['frejol canario', 'frijol canario', 'canario'],
+    'pan-molde': ['pan molde', 'pan de molde', 'sandwich']
+  },
+
+  excludeKeywords: {
+    'arroz': ['yogurt', 'sazonador', 'leche', 'galleta', 'alimento para', 'mascota', 'perro', 'gato', 'deli arroz'],
+    'aceite': ['aceitera', 'motor', 'corporal', 'masaje', 'esencia', 'spray', 'oliva'],
+    'azucar-blanca': ['rubia', 'impalpable', 'coco', 'impapable'],
+    'azucar-rubia': ['blanca', 'impalpable', 'coco'],
+    'harina': ['preparada'],
+    'leche-evaporada': ['fresca', 'polvo', 'condensada'],
+    'leche-fresca': ['evaporada', 'polvo', 'condensada'],
+    'mantequilla': ['margarina', 'mani', 'maní'],
+    'pan-molde': ['paneton', 'panetón', 'bizcocho', 'tostada', 'rallado']
+  },
 
   // ─── Supermercados ────────────────────────────────────────────────────────
   supermercados: {

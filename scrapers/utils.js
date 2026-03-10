@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const config = require('./config');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const LOGS_DIR = path.join(__dirname, '..', 'logs');
@@ -218,6 +219,27 @@ function getRandomUserAgent(agents) {
     return agents[Math.floor(Math.random() * agents.length)];
 }
 
+// ─── Relevancia de Producto ──────────────────────────────────────────────────
+function isRelevant(nombre, catId) {
+    if (!nombre) return false;
+    const keywords = config.relevanceKeywords?.[catId];
+    if (!keywords) return true;
+    const nb = nombre.toLowerCase();
+
+    // Validar inclusión requerida
+    const hasKeyword = keywords.some(k => nb.includes(k.toLowerCase()));
+    if (!hasKeyword) return false;
+
+    // Validar exclusiones forzadas (evitar falsos positivos)
+    const excludes = config.excludeKeywords?.[catId];
+    if (excludes) {
+        const isExcluded = excludes.some(k => nb.includes(k.toLowerCase()));
+        if (isExcluded) return false;
+    }
+
+    return true;
+}
+
 module.exports = {
     log,
     saveJSON,
@@ -232,6 +254,7 @@ module.exports = {
     autoScroll,
     scrollNTimes,
     getRandomUserAgent,
+    isRelevant,
     DATA_DIR,
     LOGS_DIR
 };

@@ -124,6 +124,7 @@ class MetroScraper {
                 }
 
                 if (!p.productName || p1 === null || p1 === 0) return null;
+                if (!utils.isRelevant(p.productName, categoria.id)) return null;
 
                 return utils.normalizeProduct({
                     nombre: p.productName,
