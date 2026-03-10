@@ -28,6 +28,8 @@
   --yellow: #f59e0b;
   --metro: #e84040;
   --wong: #f5a623;
+  --tottus: #83b81a;
+  --plazavea: #E3001B;
   --grad1: linear-gradient(135deg, #4f8ef7 0%, #7c3aed 100%);
   --grad2: linear-gradient(135deg, #10b981 0%, #059669 100%);
   --grad3: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
@@ -577,6 +579,16 @@ body {
   color: var(--wong);
 }
 
+.insight-tottus {
+  background: rgba(131, 184, 26, 0.15);
+  color: var(--tottus);
+}
+
+.insight-plazavea {
+  background: rgba(227, 0, 27, 0.15);
+  color: var(--plazavea);
+}
+
 .insight-right {
   background: var(--card);
   border: 1px solid var(--border);
@@ -763,6 +775,14 @@ body {
 
 .super-dot.wong {
   background: var(--wong);
+}
+
+.super-dot.tottus {
+  background: var(--tottus);
+}
+
+.super-dot.plazavea {
+  background: var(--plazavea);
 }
 
 .compare-prices {
