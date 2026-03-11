@@ -233,15 +233,22 @@ function getRandomUserAgent(agents) {
 // ─── Relevancia de Producto ──────────────────────────────────────────────────
 function isRelevant(nombre, catId) {
     if (!nombre) return false;
-    const keywords = config.relevanceKeywords?.[catId];
-    if (!keywords) return true;
     const nb = nombre.toLowerCase();
 
-    // Validar inclusión requerida
-    const hasKeyword = keywords.some(k => nb.includes(k.toLowerCase()));
-    if (!hasKeyword) return false;
+    // 1. Validar exclusiones GLOBALES primero
+    if (config.globalExcludeKeywords) {
+        const isGlobalExcluded = config.globalExcludeKeywords.some(k => nb.includes(k.toLowerCase()));
+        if (isGlobalExcluded) return false;
+    }
 
-    // Validar exclusiones forzadas (evitar falsos positivos)
+    // 2. Validar inclusiones por categoría
+    const keywords = config.relevanceKeywords?.[catId];
+    if (keywords) {
+        const hasKeyword = keywords.some(k => nb.includes(k.toLowerCase()));
+        if (!hasKeyword) return false;
+    }
+
+    // 3. Validar exclusiones forzadas por categoría
     const excludes = config.excludeKeywords?.[catId];
     if (excludes) {
         const isExcluded = excludes.some(k => nb.includes(k.toLowerCase()));

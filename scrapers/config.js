@@ -41,13 +41,21 @@ module.exports = {
     'frijol-canario': ['frejol canario', 'frijol canario', 'canario'],
     'pan-molde': ['pan molde', 'pan de molde', 'sandwich']
   },
+  
+  globalExcludeKeywords: [
+    'ricocan', 'ricocat', 'perro', 'gato', 'mascota', 'canina', 'felina',
+    'mouse pad', 'juguete', 'shampoo', 'detergente', 'ventilador', 'tv', 
+    'celular', 'colchon', 'colchón', 'libreria', 'regalo', 'adorno', 'decorativo'
+  ],
 
   excludeKeywords: {
-    'arroz': ['yogurt', 'sazonador', 'leche', 'galleta', 'alimento para', 'mascota', 'perro', 'gato', 'deli arroz'],
+    'arroz': ['yogurt', 'sazonador', 'leche', 'galleta', 'alimento para', 'mascota', 'perro', 'gato', 'deli arroz', 'canino', 'felino'],
     'aceite': ['aceitera', 'motor', 'corporal', 'masaje', 'esencia', 'spray', 'oliva'],
     'azucar-blanca': ['rubia', 'impalpable', 'coco', 'impapable'],
     'azucar-rubia': ['blanca', 'impalpable', 'coco'],
     'harina': ['preparada'],
+    'huevos': ['pascua', 'decorativo', 'adorno', 'juguete', 'chocolate'],
+    'lentejas': ['pascua', 'chocolate'],
     'leche-evaporada': ['fresca', 'polvo', 'condensada'],
     'leche-fresca': ['evaporada', 'polvo', 'condensada'],
     'mantequilla': ['margarina', 'mani', 'maní'],
