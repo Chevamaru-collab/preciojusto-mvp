@@ -1,0 +1,113 @@
+[
+  {
+    "url": "https://www.plazavea.com.pe/api/segments",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "accept-language": "es-419,es;q=0.9",
+      "accept": "application/json",
+      "content-type": "application/json",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "cookie": "VtexRCSessionIdv7=8ee85ed1-700b-4be5-b408-ae1ec5f85902; VtexRCMacIdv7=73d889b1-599d-4d8d-9b03-14e44371bb87"
+    }
+  },
+  {
+    "url": "https://www.plazavea.com.pe/api/io/_v/public/graphql/v1?workspace=master",
+    "method": "POST",
+    "headers": {
+      "access-control-allow-origin": "*",
+      "referer": "https://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "accept-language": "es-419,es;q=0.9",
+      "accept": "application/json",
+      "content-type": "application/json",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "cookie": "VtexRCSessionIdv7=8ee85ed1-700b-4be5-b408-ae1ec5f85902; VtexRCMacIdv7=73d889b1-599d-4d8d-9b03-14e44371bb87",
+      "origin": "https://www.plazavea.com.pe"
+    },
+    "postData": "{\"query\":\"{\\n      categories(treeLevel: 1) @context(provider: \\\"vtex.store-graphql\\\") {\\n          id\\n          name\\n          slug\\n        }\\n    }\"}"
+  },
+  {
+    "url": "https://www.plazavea.com.pe/api/sessions/files/client.js?_=1773177502964",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "x-requested-with": "XMLHttpRequest",
+      "accept-language": "es-419,es;q=0.9",
+      "accept": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "cookie": "VtexRCSessionIdv7=8ee85ed1-700b-4be5-b408-ae1ec5f85902; VtexRCMacIdv7=73d889b1-599d-4d8d-9b03-14e44371bb87; urlLastSearch=http://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes"
+    }
+  },
+  {
+    "url": "https://www.plazavea.com.pe/api/checkout/pub/orderForm?refreshOutdatedData=true",
+    "method": "POST",
+    "headers": {
+      "referer": "https://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "x-requested-with": "XMLHttpRequest",
+      "accept-language": "es-419,es;q=0.9",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json; charset=UTF-8",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "cookie": "VtexRCSessionIdv7=8ee85ed1-700b-4be5-b408-ae1ec5f85902; VtexRCMacIdv7=73d889b1-599d-4d8d-9b03-14e44371bb87; urlLastSearch=http://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "origin": "https://www.plazavea.com.pe"
+    },
+    "postData": "{\"expectedOrderFormSections\":[\"items\",\"totalizers\",\"clientProfileData\",\"shippingData\",\"paymentData\",\"sellers\",\"messages\",\"marketingData\",\"clientPreferencesData\",\"storePreferencesData\",\"giftRegistryData\",\"ratesAndBenefitsData\",\"openTextField\",\"commercialConditionData\",\"customData\"]}"
+  },
+  {
+    "url": "https://www.plazavea.com.pe/api/checkout/pub/orderForm?refreshOutdatedData=true",
+    "method": "POST",
+    "headers": {
+      "referer": "https://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "x-requested-with": "XMLHttpRequest",
+      "accept-language": "es-419,es;q=0.9",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json; charset=UTF-8",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "cookie": "VtexRCSessionIdv7=8ee85ed1-700b-4be5-b408-ae1ec5f85902; VtexRCMacIdv7=73d889b1-599d-4d8d-9b03-14e44371bb87; urlLastSearch=http://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes; retailer-visitor-id=aTqQd1I38E-4kJT6Jahvq-ywuBo7Fx6i; vtex_segment=eyJjYW1wYWlnbnMiOm51bGwsImNoYW5uZWwiOiIxIiwicHJpY2VUYWJsZXMiOm51bGwsInJlZ2lvbklkIjpudWxsLCJ1dG1fY2FtcGFpZ24iOm51bGwsInV0bV9zb3VyY2UiOm51bGwsInV0bWlfY2FtcGFpZ24iOm51bGwsImN1cnJlbmN5Q29kZSI6IlBFTiIsImN1cnJlbmN5U3ltYm9sIjoiUy8iLCJjb3VudHJ5Q29kZSI6IlBFUiIsImN1bHR1cmVJbmZvIjoiZXMtUEUiLCJjaGFubmVsUHJpdmFjeSI6InB1YmxpYyJ9; VTEXSC=sc=1; ISSMB=ScreenMedia=0&UserAcceptMobile=False; SGTS=8F29EAC429254CBDDA94F32707DD8DD1; checkout.vtex.com=__ofid=f2d9be8227ba4b88aa9e27306ad2aa07; CheckoutOrderFormOwnership=",
+      "origin": "https://www.plazavea.com.pe"
+    },
+    "postData": "{\"expectedOrderFormSections\":[\"items\",\"totalizers\",\"clientProfileData\",\"shippingData\",\"paymentData\",\"sellers\",\"messages\",\"marketingData\",\"clientPreferencesData\",\"storePreferencesData\",\"giftRegistryData\",\"ratesAndBenefitsData\",\"openTextField\",\"commercialConditionData\",\"customData\"]}"
+  },
+  {
+    "url": "https://www.plazavea.com.pe/api/sessions/?items=profile.isAuthenticated",
+    "method": "POST",
+    "headers": {
+      "vtex-session-ui-version": "session-portal@1.2.2",
+      "referer": "https://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "x-requested-with": "XMLHttpRequest",
+      "accept-language": "es-419,es;q=0.9",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "cookie": "VtexRCSessionIdv7=8ee85ed1-700b-4be5-b408-ae1ec5f85902; VtexRCMacIdv7=73d889b1-599d-4d8d-9b03-14e44371bb87; urlLastSearch=http://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes; retailer-visitor-id=aTqQd1I38E-4kJT6Jahvq-ywuBo7Fx6i; vtex_segment=eyJjYW1wYWlnbnMiOm51bGwsImNoYW5uZWwiOiIxIiwicHJpY2VUYWJsZXMiOm51bGwsInJlZ2lvbklkIjpudWxsLCJ1dG1fY2FtcGFpZ24iOm51bGwsInV0bV9zb3VyY2UiOm51bGwsInV0bWlfY2FtcGFpZ24iOm51bGwsImN1cnJlbmN5Q29kZSI6IlBFTiIsImN1cnJlbmN5U3ltYm9sIjoiUy8iLCJjb3VudHJ5Q29kZSI6IlBFUiIsImN1bHR1cmVJbmZvIjoiZXMtUEUiLCJjaGFubmVsUHJpdmFjeSI6InB1YmxpYyJ9; VTEXSC=sc=1; ISSMB=ScreenMedia=0&UserAcceptMobile=False; SGTS=8F29EAC429254CBDDA94F32707DD8DD1; checkout.vtex.com=__ofid=f2d9be8227ba4b88aa9e27306ad2aa07; CheckoutOrderFormOwnership=",
+      "origin": "https://www.plazavea.com.pe"
+    },
+    "postData": "{\"public\":{}}"
+  },
+  {
+    "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search/?ft=fideos&",
+    "method": "GET",
+    "headers": {
+      "accept-language": "es-419,es;q=0.9",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referer": "https://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "accept": "*/*",
+      "cookie": "VtexRCSessionIdv7=8ee85ed1-700b-4be5-b408-ae1ec5f85902; VtexRCMacIdv7=73d889b1-599d-4d8d-9b03-14e44371bb87; urlLastSearch=http://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes; retailer-visitor-id=aTqQd1I38E-4kJT6Jahvq-ywuBo7Fx6i; vtex_segment=eyJjYW1wYWlnbnMiOm51bGwsImNoYW5uZWwiOiIxIiwicHJpY2VUYWJsZXMiOm51bGwsInJlZ2lvbklkIjpudWxsLCJ1dG1fY2FtcGFpZ24iOm51bGwsInV0bV9zb3VyY2UiOm51bGwsInV0bWlfY2FtcGFpZ24iOm51bGwsImN1cnJlbmN5Q29kZSI6IlBFTiIsImN1cnJlbmN5U3ltYm9sIjoiUy8iLCJjb3VudHJ5Q29kZSI6IlBFUiIsImN1bHR1cmVJbmZvIjoiZXMtUEUiLCJjaGFubmVsUHJpdmFjeSI6InB1YmxpYyJ9; VTEXSC=sc=1; ISSMB=ScreenMedia=0&UserAcceptMobile=False; SGTS=8F29EAC429254CBDDA94F32707DD8DD1; checkout.vtex.com=__ofid=f2d9be8227ba4b88aa9e27306ad2aa07; CheckoutOrderFormOwnership=; vtex_session=eyJhbGciOiJFUzI1NiIsImtpZCI6IjIwOTk2OGRkLTg1MzItNGNiYi05ZDg5LTI3YmRmZmVmNDdiMCIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50LmlkIjpbXSwiaWQiOiI5NzlkOWIxMy0yMGMzLTQ2YmYtYWQ1ZS0wOWE0NTFmYjFiYmYiLCJ2ZXJzaW9uIjoyLCJzdWIiOiJzZXNzaW9uIiwiYWNjb3VudCI6InBsYXphdmVhIiwiZXhwIjoxNzczNjA5NTAyLCJpYXQiOjE3NzMxNzc1MDIsImp0aSI6ImMxNDUxMzQ5LTZmNzYtNDk0YS1hYmVkLTAxY2ZiMWMyZmZiYyIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.RZUOEa2gvkPCwoBofWFRznVVPdfiYZwFznAbS6FPS23l_dTmQMaKWOOoV55fd2FXf0a6ml-uCH3cMNOke2FhYQ"
+    }
+  },
+  {
+    "url": "https://www.plazavea.com.pe/api/checkout/pub/orderForm?refreshOutdatedData=true",
+    "method": "POST",
+    "headers": {
+      "referer": "https://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes",
+      "x-requested-with": "XMLHttpRequest",
+      "accept-language": "es-419,es;q=0.9",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json; charset=UTF-8",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "cookie": "VtexRCSessionIdv7=8ee85ed1-700b-4be5-b408-ae1ec5f85902; VtexRCMacIdv7=73d889b1-599d-4d8d-9b03-14e44371bb87; urlLastSearch=http://www.plazavea.com.pe/fideos/pastas-y-fideos/abarrotes; retailer-visitor-id=aTqQd1I38E-4kJT6Jahvq-ywuBo7Fx6i; vtex_segment=eyJjYW1wYWlnbnMiOm51bGwsImNoYW5uZWwiOiIxIiwicHJpY2VUYWJsZXMiOm51bGwsInJlZ2lvbklkIjpudWxsLCJ1dG1fY2FtcGFpZ24iOm51bGwsInV0bV9zb3VyY2UiOm51bGwsInV0bWlfY2FtcGFpZ24iOm51bGwsImN1cnJlbmN5Q29kZSI6IlBFTiIsImN1cnJlbmN5U3ltYm9sIjoiUy8iLCJjb3VudHJ5Q29kZSI6IlBFUiIsImN1bHR1cmVJbmZvIjoiZXMtUEUiLCJjaGFubmVsUHJpdmFjeSI6InB1YmxpYyJ9; VTEXSC=sc=1; ISSMB=ScreenMedia=0&UserAcceptMobile=False; SGTS=8F29EAC429254CBDDA94F32707DD8DD1; checkout.vtex.com=__ofid=f2d9be8227ba4b88aa9e27306ad2aa07; CheckoutOrderFormOwnership=; vtex_session=eyJhbGciOiJFUzI1NiIsImtpZCI6IjIwOTk2OGRkLTg1MzItNGNiYi05ZDg5LTI3YmRmZmVmNDdiMCIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50LmlkIjpbXSwiaWQiOiI5NzlkOWIxMy0yMGMzLTQ2YmYtYWQ1ZS0wOWE0NTFmYjFiYmYiLCJ2ZXJzaW9uIjoyLCJzdWIiOiJzZXNzaW9uIiwiYWNjb3VudCI6InBsYXphdmVhIiwiZXhwIjoxNzczNjA5NTAyLCJpYXQiOjE3NzMxNzc1MDIsImp0aSI6ImMxNDUxMzQ5LTZmNzYtNDk0YS1hYmVkLTAxY2ZiMWMyZmZiYyIsImlzcyI6InNlc3Npb24vZGF0YS1zaWduZXIifQ.RZUOEa2gvkPCwoBofWFRznVVPdfiYZwFznAbS6FPS23l_dTmQMaKWOOoV55fd2FXf0a6ml-uCH3cMNOke2FhYQ",
+      "origin": "https://www.plazavea.com.pe"
+    },
+    "postData": "{\"expectedOrderFormSections\":[\"items\",\"totalizers\",\"clientProfileData\",\"shippingData\",\"paymentData\",\"sellers\",\"messages\",\"marketingData\",\"clientPreferencesData\",\"storePreferencesData\",\"giftRegistryData\",\"ratesAndBenefitsData\",\"openTextField\",\"commercialConditionData\",\"customData\"]}"
+  }
+]
