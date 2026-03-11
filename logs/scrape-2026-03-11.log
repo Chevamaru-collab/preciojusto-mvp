@@ -1,0 +1,213 @@
+[2026-03-11T18:18:31.987Z] [INFO ] 
+======================================================
+[2026-03-11T18:18:32.011Z] [INFO ]       PRECIOJUSTO SPRINT 3 — SCRAPER ORCHESTRATOR      
+[2026-03-11T18:18:32.012Z] [INFO ]       Objetivo: 4 Supers × 15 Categorías INEI        
+[2026-03-11T18:18:32.012Z] [INFO ] ======================================================
+
+[2026-03-11T18:18:32.013Z] [INFO ] 
+[▶] INICIANDO SCRAPE MASSIVO: TOTTUS
+[2026-03-11T18:18:32.013Z] [INFO ] === Iniciando Tottus Scraper (NextJS API Fetch Bypass) ===
+[2026-03-11T18:18:32.014Z] [INFO ] Tottus: Solicitando cookies iniciales...
+[2026-03-11T18:18:32.740Z] [INFO ] Tottus: Fetch API [arroz] ("arroz")...
+[2026-03-11T18:18:32.741Z] [INFO ]   -> Tottus [arroz] Pág 1
+[2026-03-11T18:18:33.469Z] [OK   ] Tottus [arroz]: 40 productos parseados vía API GET
+[2026-03-11T18:18:33.471Z] [OK   ] Guardado: tottus-arroz.json (40 productos)
+[2026-03-11T18:18:39.178Z] [INFO ] Tottus: Fetch API [aceite] ("aceite vegetal")...
+[2026-03-11T18:18:39.179Z] [INFO ]   -> Tottus [aceite] Pág 1
+[2026-03-11T18:18:39.762Z] [OK   ] Tottus [aceite]: 32 productos parseados vía API GET
+[2026-03-11T18:18:39.763Z] [OK   ] Guardado: tottus-aceite.json (32 productos)
+[2026-03-11T18:18:45.261Z] [INFO ] Tottus: Fetch API [azucar-blanca] ("azucar blanca")...
+[2026-03-11T18:18:45.261Z] [INFO ]   -> Tottus [azucar-blanca] Pág 1
+[2026-03-11T18:18:46.141Z] [OK   ] Tottus [azucar-blanca]: 30 productos parseados vía API GET
+[2026-03-11T18:18:46.142Z] [OK   ] Guardado: tottus-azucar-blanca.json (30 productos)
+[2026-03-11T18:18:51.305Z] [INFO ] Tottus: Fetch API [azucar-rubia] ("azucar rubia")...
+[2026-03-11T18:18:51.306Z] [INFO ]   -> Tottus [azucar-rubia] Pág 1
+[2026-03-11T18:18:52.060Z] [OK   ] Tottus [azucar-rubia]: 31 productos parseados vía API GET
+[2026-03-11T18:18:52.061Z] [OK   ] Guardado: tottus-azucar-rubia.json (31 productos)
+[2026-03-11T18:18:57.189Z] [INFO ] Tottus: Fetch API [harina] ("harina")...
+[2026-03-11T18:18:57.189Z] [INFO ]   -> Tottus [harina] Pág 1
+[2026-03-11T18:18:57.874Z] [OK   ] Tottus [harina]: 40 productos parseados vía API GET
+[2026-03-11T18:18:57.876Z] [OK   ] Guardado: tottus-harina.json (40 productos)
+[2026-03-11T18:19:03.272Z] [INFO ] Tottus: Fetch API [avena] ("avena")...
+[2026-03-11T18:19:03.273Z] [INFO ]   -> Tottus [avena] Pág 1
+[2026-03-11T18:19:03.857Z] [OK   ] Tottus [avena]: 32 productos parseados vía API GET
+[2026-03-11T18:19:03.858Z] [OK   ] Guardado: tottus-avena.json (32 productos)
+[2026-03-11T18:19:09.864Z] [INFO ] Tottus: Fetch API [fideos] ("fideos pasta")...
+[2026-03-11T18:19:10.187Z] [INFO ]   -> Tottus [fideos] Pág 1
+[2026-03-11T18:19:11.444Z] [OK   ] Tottus [fideos]: 41 productos parseados vía API GET
+[2026-03-11T18:19:11.446Z] [OK   ] Guardado: tottus-fideos.json (41 productos)
+[2026-03-11T18:19:16.704Z] [INFO ] Tottus: Fetch API [pollo] ("pollo")...
+[2026-03-11T18:19:16.705Z] [INFO ]   -> Tottus [pollo] Pág 1
+[2026-03-11T18:19:17.500Z] [OK   ] Tottus [pollo]: 39 productos parseados vía API GET
+[2026-03-11T18:19:17.501Z] [OK   ] Guardado: tottus-pollo.json (39 productos)
+[2026-03-11T18:19:22.804Z] [INFO ] Tottus: Fetch API [huevos] ("huevos")...
+[2026-03-11T18:19:22.804Z] [INFO ]   -> Tottus [huevos] Pág 1
+[2026-03-11T18:19:23.303Z] [OK   ] Tottus [huevos]: 30 productos parseados vía API GET
+[2026-03-11T18:19:23.304Z] [OK   ] Guardado: tottus-huevos.json (30 productos)
+[2026-03-11T18:19:28.339Z] [INFO ] Tottus: Fetch API [leche-evaporada] ("leche evaporada")...
+[2026-03-11T18:19:28.339Z] [INFO ]   -> Tottus [leche-evaporada] Pág 1
+[2026-03-11T18:19:28.936Z] [OK   ] Tottus [leche-evaporada]: 29 productos parseados vía API GET
+[2026-03-11T18:19:28.937Z] [OK   ] Guardado: tottus-leche-evaporada.json (29 productos)
+[2026-03-11T18:19:34.793Z] [INFO ] Tottus: Fetch API [leche-fresca] ("leche fresca")...
+[2026-03-11T18:19:34.793Z] [INFO ]   -> Tottus [leche-fresca] Pág 1
+[2026-03-11T18:19:35.593Z] [OK   ] Tottus [leche-fresca]: 39 productos parseados vía API GET
+[2026-03-11T18:19:35.595Z] [OK   ] Guardado: tottus-leche-fresca.json (39 productos)
+[2026-03-11T18:19:40.793Z] [INFO ] Tottus: Fetch API [mantequilla] ("mantequilla")...
+[2026-03-11T18:19:40.794Z] [INFO ]   -> Tottus [mantequilla] Pág 1
+[2026-03-11T18:19:41.866Z] [OK   ] Tottus [mantequilla]: 30 productos parseados vía API GET
+[2026-03-11T18:19:41.867Z] [OK   ] Guardado: tottus-mantequilla.json (30 productos)
+[2026-03-11T18:19:47.775Z] [INFO ] Tottus: Fetch API [lentejas] ("lentejas")...
+[2026-03-11T18:19:47.776Z] [INFO ]   -> Tottus [lentejas] Pág 1
+[2026-03-11T18:19:48.728Z] [OK   ] Tottus [lentejas]: 42 productos parseados vía API GET
+[2026-03-11T18:19:48.729Z] [OK   ] Guardado: tottus-lentejas.json (42 productos)
+[2026-03-11T18:19:53.906Z] [INFO ] Tottus: Fetch API [frijol-canario] ("frijol canario")...
+[2026-03-11T18:19:53.907Z] [INFO ]   -> Tottus [frijol-canario] Pág 1
+[2026-03-11T18:19:55.797Z] [OK   ] Tottus [frijol-canario]: 42 productos parseados vía API GET
+[2026-03-11T18:19:55.798Z] [OK   ] Guardado: tottus-frijol-canario.json (42 productos)
+[2026-03-11T18:20:01.389Z] [INFO ] Tottus: Fetch API [pan-molde] ("pan molde")...
+[2026-03-11T18:20:01.390Z] [INFO ]   -> Tottus [pan-molde] Pág 1
+[2026-03-11T18:20:02.167Z] [OK   ] Tottus [pan-molde]: 32 productos parseados vía API GET
+[2026-03-11T18:20:02.169Z] [OK   ] Guardado: tottus-pan-molde.json (32 productos)
+[2026-03-11T18:20:07.271Z] [OK   ] === Tottus API NextJS completado: 529 productos totales ===
+[2026-03-11T18:20:07.272Z] [OK   ] [✔] FINALIZADO TOTTUS — Total extraído: 529 prods
+[2026-03-11T18:20:07.279Z] [INFO ] 
+[▶] INICIANDO SCRAPE MASSIVO: PLAZAVEA
+[2026-03-11T18:20:07.280Z] [INFO ] === Iniciando Plaza Vea Scraper (Fetch API Bypass) ===
+[2026-03-11T18:20:07.282Z] [INFO ] Plaza Vea: API fetch [arroz] ("arroz")...
+[2026-03-11T18:20:07.282Z] [INFO ]   -> Plaza Vea [arroz] Pág 1: index 0 - 49
+[2026-03-11T18:20:09.226Z] [OK   ] Plaza Vea [arroz]: 29 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:20:09.228Z] [OK   ] Guardado: plazavea-arroz.json (29 productos)
+[2026-03-11T18:20:15.173Z] [INFO ] Plaza Vea: API fetch [aceite] ("aceite vegetal")...
+[2026-03-11T18:20:15.174Z] [INFO ]   -> Plaza Vea [aceite] Pág 1: index 0 - 49
+[2026-03-11T18:20:16.806Z] [OK   ] Plaza Vea [aceite]: 30 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:20:16.807Z] [OK   ] Guardado: plazavea-aceite.json (30 productos)
+[2026-03-11T18:20:22.655Z] [INFO ] Plaza Vea: API fetch [azucar-blanca] ("azucar blanca")...
+[2026-03-11T18:20:22.656Z] [INFO ]   -> Plaza Vea [azucar-blanca] Pág 1: index 0 - 49
+[2026-03-11T18:20:23.926Z] [OK   ] Plaza Vea [azucar-blanca]: 4 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:20:23.927Z] [OK   ] Guardado: plazavea-azucar-blanca.json (4 productos)
+[2026-03-11T18:20:29.689Z] [INFO ] Plaza Vea: API fetch [azucar-rubia] ("azucar rubia")...
+[2026-03-11T18:20:29.690Z] [INFO ]   -> Plaza Vea [azucar-rubia] Pág 1: index 0 - 49
+[2026-03-11T18:20:31.141Z] [OK   ] Plaza Vea [azucar-rubia]: 8 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:20:31.142Z] [OK   ] Guardado: plazavea-azucar-rubia.json (8 productos)
+[2026-03-11T18:20:36.814Z] [INFO ] Plaza Vea: API fetch [harina] ("harina")...
+[2026-03-11T18:20:36.815Z] [INFO ]   -> Plaza Vea [harina] Pág 1: index 0 - 49
+[2026-03-11T18:20:38.164Z] [OK   ] Plaza Vea [harina]: 19 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:20:38.166Z] [OK   ] Guardado: plazavea-harina.json (19 productos)
+[2026-03-11T18:20:43.546Z] [INFO ] Plaza Vea: API fetch [avena] ("avena")...
+[2026-03-11T18:20:43.547Z] [INFO ]   -> Plaza Vea [avena] Pág 1: index 0 - 49
+[2026-03-11T18:20:45.511Z] [OK   ] Plaza Vea [avena]: 23 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:20:45.513Z] [OK   ] Guardado: plazavea-avena.json (23 productos)
+[2026-03-11T18:20:50.879Z] [INFO ] Plaza Vea: API fetch [fideos] ("fideos pasta")...
+[2026-03-11T18:20:50.880Z] [INFO ]   -> Plaza Vea [fideos] Pág 1: index 0 - 49
+[2026-03-11T18:20:52.640Z] [OK   ] Plaza Vea [fideos]: 30 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:20:52.642Z] [OK   ] Guardado: plazavea-fideos.json (30 productos)
+[2026-03-11T18:20:58.445Z] [INFO ] Plaza Vea: API fetch [pollo] ("pollo")...
+[2026-03-11T18:20:58.446Z] [INFO ]   -> Plaza Vea [pollo] Pág 1: index 0 - 49
+[2026-03-11T18:21:00.729Z] [OK   ] Plaza Vea [pollo]: 23 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:21:00.730Z] [OK   ] Guardado: plazavea-pollo.json (23 productos)
+[2026-03-11T18:21:06.043Z] [INFO ] Plaza Vea: API fetch [huevos] ("huevos")...
+[2026-03-11T18:21:06.044Z] [INFO ]   -> Plaza Vea [huevos] Pág 1: index 0 - 49
+[2026-03-11T18:21:07.644Z] [OK   ] Plaza Vea [huevos]: 15 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:21:07.646Z] [OK   ] Guardado: plazavea-huevos.json (15 productos)
+[2026-03-11T18:21:13.558Z] [INFO ] Plaza Vea: API fetch [leche-evaporada] ("leche evaporada")...
+[2026-03-11T18:21:13.559Z] [INFO ]   -> Plaza Vea [leche-evaporada] Pág 1: index 0 - 49
+[2026-03-11T18:21:15.157Z] [OK   ] Plaza Vea [leche-evaporada]: 3 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:21:15.159Z] [OK   ] Guardado: plazavea-leche-evaporada.json (3 productos)
+[2026-03-11T18:21:20.889Z] [INFO ] Plaza Vea: API fetch [leche-fresca] ("leche fresca")...
+[2026-03-11T18:21:20.890Z] [INFO ]   -> Plaza Vea [leche-fresca] Pág 1: index 0 - 49
+[2026-03-11T18:21:22.405Z] [OK   ] Plaza Vea [leche-fresca]: 7 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:21:22.407Z] [OK   ] Guardado: plazavea-leche-fresca.json (7 productos)
+[2026-03-11T18:21:27.869Z] [INFO ] Plaza Vea: API fetch [mantequilla] ("mantequilla")...
+[2026-03-11T18:21:27.869Z] [INFO ]   -> Plaza Vea [mantequilla] Pág 1: index 0 - 49
+[2026-03-11T18:21:29.105Z] [OK   ] Plaza Vea [mantequilla]: 19 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:21:29.107Z] [OK   ] Guardado: plazavea-mantequilla.json (19 productos)
+[2026-03-11T18:21:34.235Z] [INFO ] Plaza Vea: API fetch [lentejas] ("lentejas")...
+[2026-03-11T18:21:34.236Z] [INFO ]   -> Plaza Vea [lentejas] Pág 1: index 0 - 49
+[2026-03-11T18:21:35.618Z] [OK   ] Plaza Vea [lentejas]: 17 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:21:35.619Z] [OK   ] Guardado: plazavea-lentejas.json (17 productos)
+[2026-03-11T18:21:41.376Z] [INFO ] Plaza Vea: API fetch [frijol-canario] ("frijol canario")...
+[2026-03-11T18:21:41.377Z] [INFO ]   -> Plaza Vea [frijol-canario] Pág 1: index 0 - 49
+[2026-03-11T18:21:42.736Z] [OK   ] Plaza Vea [frijol-canario]: 7 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:21:42.738Z] [OK   ] Guardado: plazavea-frijol-canario.json (7 productos)
+[2026-03-11T18:21:48.367Z] [INFO ] Plaza Vea: API fetch [pan-molde] ("pan molde")...
+[2026-03-11T18:21:48.368Z] [INFO ]   -> Plaza Vea [pan-molde] Pág 1: index 0 - 49
+[2026-03-11T18:21:50.435Z] [OK   ] Plaza Vea [pan-molde]: 20 productos procesados (Deduplicados/Filtro. Relevancia)
+[2026-03-11T18:21:50.436Z] [OK   ] Guardado: plazavea-pan-molde.json (20 productos)
+[2026-03-11T18:21:56.149Z] [OK   ] === Plaza Vea API Parsing completado: 254 productos totales ===
+[2026-03-11T18:21:56.150Z] [OK   ] [✔] FINALIZADO PLAZAVEA — Total extraído: 254 prods
+[2026-03-11T18:21:56.151Z] [INFO ] 
+[▶] INICIANDO SCRAPE MASSIVO: METRO
+[2026-03-11T18:21:56.152Z] [INFO ] === Iniciando Metro Scraper (Fetch API Bypass) ===
+[2026-03-11T18:21:56.153Z] [INFO ] Metro: API fetch [arroz] ("arroz")...
+[2026-03-11T18:21:56.154Z] [INFO ]   -> Metro [arroz] Pág 1: index 0 - 49
+[2026-03-11T18:21:59.000Z] [OK   ] Metro [arroz]: 44 productos parseados vía API
+[2026-03-11T18:21:59.002Z] [OK   ] Guardado: metro-arroz.json (44 productos)
+[2026-03-11T18:22:04.532Z] [INFO ] Metro: API fetch [aceite] ("aceite vegetal")...
+[2026-03-11T18:22:04.533Z] [INFO ]   -> Metro [aceite] Pág 1: index 0 - 49
+[2026-03-11T18:22:10.898Z] [OK   ] Metro [aceite]: 32 productos parseados vía API
+[2026-03-11T18:22:10.900Z] [OK   ] Guardado: metro-aceite.json (32 productos)
+[2026-03-11T18:22:16.706Z] [INFO ] Metro: API fetch [azucar-blanca] ("azucar blanca")...
+[2026-03-11T18:22:16.707Z] [INFO ]   -> Metro [azucar-blanca] Pág 1: index 0 - 49
+[2026-03-11T18:22:19.562Z] [OK   ] Metro [azucar-blanca]: 6 productos parseados vía API
+[2026-03-11T18:22:19.564Z] [OK   ] Guardado: metro-azucar-blanca.json (6 productos)
+[2026-03-11T18:22:25.625Z] [INFO ] Metro: API fetch [azucar-rubia] ("azucar rubia")...
+[2026-03-11T18:22:25.625Z] [INFO ]   -> Metro [azucar-rubia] Pág 1: index 0 - 49
+[2026-03-11T18:22:29.524Z] [OK   ] Metro [azucar-rubia]: 11 productos parseados vía API
+[2026-03-11T18:22:29.526Z] [OK   ] Guardado: metro-azucar-rubia.json (11 productos)
+[2026-03-11T18:22:35.176Z] [INFO ] Metro: API fetch [harina] ("harina")...
+[2026-03-11T18:22:35.176Z] [INFO ]   -> Metro [harina] Pág 1: index 0 - 49
+[2026-03-11T18:22:38.281Z] [OK   ] Metro [harina]: 31 productos parseados vía API
+[2026-03-11T18:22:38.309Z] [OK   ] Guardado: metro-harina.json (31 productos)
+[2026-03-11T18:22:44.076Z] [INFO ] Metro: API fetch [avena] ("avena")...
+[2026-03-11T18:22:44.076Z] [INFO ]   -> Metro [avena] Pág 1: index 0 - 49
+[2026-03-11T18:22:47.258Z] [OK   ] Metro [avena]: 1 productos parseados vía API
+[2026-03-11T18:22:47.259Z] [OK   ] Guardado: metro-avena.json (1 productos)
+[2026-03-11T18:22:53.022Z] [INFO ] Metro: API fetch [fideos] ("fideos pasta")...
+[2026-03-11T18:22:53.023Z] [INFO ]   -> Metro [fideos] Pág 1: index 0 - 49
+[2026-03-11T18:22:59.039Z] [OK   ] Metro [fideos]: 13 productos parseados vía API
+[2026-03-11T18:22:59.040Z] [OK   ] Guardado: metro-fideos.json (13 productos)
+[2026-03-11T18:23:05.086Z] [INFO ] Metro: API fetch [pollo] ("pollo")...
+[2026-03-11T18:23:05.088Z] [INFO ]   -> Metro [pollo] Pág 1: index 0 - 49
+[2026-03-11T18:23:10.176Z] [OK   ] Metro [pollo]: 43 productos parseados vía API
+[2026-03-11T18:23:10.178Z] [OK   ] Guardado: metro-pollo.json (43 productos)
+[2026-03-11T18:23:16.699Z] [INFO ] Metro: API fetch [huevos] ("huevos")...
+[2026-03-11T18:23:16.700Z] [INFO ]   -> Metro [huevos] Pág 1: index 0 - 49
+[2026-03-11T18:23:20.067Z] [OK   ] Metro [huevos]: 20 productos parseados vía API
+[2026-03-11T18:23:20.069Z] [OK   ] Guardado: metro-huevos.json (20 productos)
+[2026-03-11T18:23:26.367Z] [INFO ] Metro: API fetch [leche-evaporada] ("leche evaporada")...
+[2026-03-11T18:23:26.369Z] [INFO ]   -> Metro [leche-evaporada] Pág 1: index 0 - 49
+[2026-03-11T18:23:30.573Z] [OK   ] Metro [leche-evaporada]: 3 productos parseados vía API
+[2026-03-11T18:23:30.574Z] [OK   ] Guardado: metro-leche-evaporada.json (3 productos)
+[2026-03-11T18:23:37.462Z] [INFO ] Metro: API fetch [leche-fresca] ("leche fresca")...
+[2026-03-11T18:23:37.462Z] [INFO ]   -> Metro [leche-fresca] Pág 1: index 0 - 49
+[2026-03-11T18:23:41.026Z] [OK   ] Metro [leche-fresca]: 21 productos parseados vía API
+[2026-03-11T18:23:41.028Z] [OK   ] Guardado: metro-leche-fresca.json (21 productos)
+[2026-03-11T18:23:46.062Z] [INFO ] Metro: API fetch [mantequilla] ("mantequilla")...
+[2026-03-11T18:23:46.063Z] [INFO ]   -> Metro [mantequilla] Pág 1: index 0 - 49
+[2026-03-11T18:23:49.356Z] [OK   ] Metro [mantequilla]: 15 productos parseados vía API
+[2026-03-11T18:23:49.358Z] [OK   ] Guardado: metro-mantequilla.json (15 productos)
+[2026-03-11T18:23:54.555Z] [INFO ] Metro: API fetch [lentejas] ("lentejas")...
+[2026-03-11T18:23:54.555Z] [INFO ]   -> Metro [lentejas] Pág 1: index 0 - 49
+[2026-03-11T18:23:58.812Z] [OK   ] Metro [lentejas]: 17 productos parseados vía API
+[2026-03-11T18:23:58.814Z] [OK   ] Guardado: metro-lentejas.json (17 productos)
+[2026-03-11T18:24:04.205Z] [INFO ] Metro: API fetch [frijol-canario] ("frijol canario")...
+[2026-03-11T18:24:04.206Z] [INFO ]   -> Metro [frijol-canario] Pág 1: index 0 - 49
+[2026-03-11T18:24:06.326Z] [OK   ] Metro [frijol-canario]: 8 productos parseados vía API
+[2026-03-11T18:24:06.327Z] [OK   ] Guardado: metro-frijol-canario.json (8 productos)
+[2026-03-11T18:24:12.939Z] [INFO ] Metro: API fetch [pan-molde] ("pan molde")...
+[2026-03-11T18:24:12.940Z] [INFO ]   -> Metro [pan-molde] Pág 1: index 0 - 49
+[2026-03-11T18:24:16.840Z] [OK   ] Metro [pan-molde]: 33 productos parseados vía API
+[2026-03-11T18:24:16.842Z] [OK   ] Guardado: metro-pan-molde.json (33 productos)
+[2026-03-11T18:24:22.305Z] [OK   ] === Metro API completado: 298 productos totales ===
+[2026-03-11T18:24:22.306Z] [OK   ] [✔] FINALIZADO METRO — Total extraído: 298 prods
+[2026-03-11T18:24:22.326Z] [WARN ] 
+⏭️ Saltando wong (Inactivo en config.js)
+[2026-03-11T18:24:22.327Z] [INFO ] 
+======================================================
+[2026-03-11T18:24:22.328Z] [INFO ]                    REPORTE FINAL                      
+[2026-03-11T18:24:22.328Z] [INFO ] ======================================================
+[2026-03-11T18:24:22.328Z] [INFO ]   Tiempo Total: 5m 50s
+[2026-03-11T18:24:22.329Z] [INFO ]   Catálogo: 1081 productos
+[2026-03-11T18:24:22.336Z] [OK   ] Guardado: master-data.json (undefined productos)
+[2026-03-11T18:24:22.336Z] [OK   ] 
+💾 Archivo consolidado guardado en /data/master-data.json
