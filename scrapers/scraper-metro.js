@@ -114,12 +114,22 @@ class MetroScraper {
                 // Buscamos precio del seller principal '1'
                 let p1 = null;
                 let p2 = null;
+                let precioTarjeta = null;
+                let tarjetaDesc = null;
 
                 if (p.items && p.items.length > 0) {
                     const seller = p.items[0].sellers.find(s => s.sellerId === "1" || s.sellerDefault);
                     if (seller && seller.commertialOffer) {
                         p1 = seller.commertialOffer.Price;
                         p2 = seller.commertialOffer.ListPrice;
+                        
+                        if (seller.commertialOffer.teasers && seller.commertialOffer.teasers.length > 0) {
+                            const teaserCencosud = seller.commertialOffer.teasers.find(t => t.name && t.name.toLowerCase().includes('cencosud'));
+                            if (teaserCencosud) {
+                                precioTarjeta = p1; // VTEX sets 'Price' to the teaser price when active
+                                tarjetaDesc = 'Cencosud';
+                            }
+                        }
                     }
                 }
 
@@ -130,6 +140,8 @@ class MetroScraper {
                     nombre: p.productName,
                     precioOnline: 'S/ ' + p1,
                     precioRegular: p2 && p2 > p1 ? ('S/ ' + p2) : null,
+                    precioTarjeta: precioTarjeta ? 'S/ ' + precioTarjeta : null,
+                    tarjetaDesc,
                     categoria: categoria.id,
                     scraped: new Date().toISOString()
                 }, this.superId);

@@ -1,545 +1,700 @@
 [
   {
-    "id": "tottus_tottuspollofrescocon_mmmd594s",
+    "id": "tottus_tottuspollofrescocon_mmmjmjha",
     "nombre": "TOTTUS Pollo Fresco Con Menudencia Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 9.6,
       "regular": null,
-      "porUnidad": 9.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_sanfernandofiletedep_mmmd594s",
+    "id": "tottus_sanfernandofiletedep_mmmjmjha",
     "nombre": "SAN FERNANDO Filete De Pechuga De Pollo Corte Mariposa Congelado San Fernando",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 23.9,
       "regular": 24.9,
-      "porUnidad": 23.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": 4,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspiernitasdepol_mmmd594s",
+    "id": "tottus_tottuspiernitasdepol_mmmjmjha",
     "nombre": "TOTTUS Piernitas De Pollo Importado Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 6.3,
       "regular": 7.9,
-      "porUnidad": 6.3
+      "tarjeta": 5.8,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 6.3,
+      "porUnidadTarjeta": 5.8
     },
     "presentacion": null,
     "descuento": 20,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": 27,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottusfiletedepechug_mmmd594s",
+    "id": "tottus_tottusfiletedepechug_mmmjmjha",
     "nombre": "TOTTUS Filete De Pechuga De Pollo Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 24.9,
       "regular": null,
-      "porUnidad": 24.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 24.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspechugaespecia_mmmd594s",
+    "id": "tottus_tottuspechugaespecia_mmmjmjha",
     "nombre": "TOTTUS Pechuga Especial de Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 14.5,
       "regular": 17.5,
-      "porUnidad": 14.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 14.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": 17,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_redondospolloenterot_mmmd594s",
+    "id": "tottus_redondospolloenterot_mmmjmjha",
     "nombre": "REDONDOS Pollo Entero Trozado Redondos",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 9.9,
       "regular": null,
-      "porUnidad": 9.9
+      "tarjeta": 9.2,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 9.9,
+      "porUnidadTarjeta": 9.2
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspackahorradord_mmmd594s",
+    "id": "tottus_tottuspackahorradord_mmmjmjha",
     "nombre": "TOTTUS Pack Ahorrador De Piernitas De Pollo Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 6.5,
       "regular": null,
-      "porUnidad": 6.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_sanfernandopollofres_mmmd594s",
+    "id": "tottus_sanfernandopollofres_mmmjmjha",
     "nombre": "SAN FERNANDO Pollo Fresco Entero Sin Menudencia San Fernando",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 11.5,
       "regular": null,
-      "porUnidad": 11.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspollofrescoent_mmmd594s",
+    "id": "tottus_tottuspollofrescoent_mmmjmjha",
     "nombre": "TOTTUS Pollo Fresco Entero Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 9.4,
       "regular": null,
-      "porUnidad": 9.4
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.4,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspackahorradorp_mmmd594s",
+    "id": "tottus_tottuspackahorradorp_mmmjmjha",
     "nombre": "TOTTUS Pack Ahorrador Piernitas De Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 15.9,
       "regular": null,
-      "porUnidad": 15.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_redondospolloenteros_mmmd594s",
+    "id": "tottus_redondospolloenteros_mmmjmjha",
     "nombre": "REDONDOS Pollo Entero Sabor A Lena",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 16.9,
       "regular": null,
-      "porUnidad": 16.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottusmuslitosdepoll_mmmd594s",
+    "id": "tottus_tottusmuslitosdepoll_mmmjmjha",
     "nombre": "TOTTUS Muslitos de Pollo Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 16.5,
       "regular": null,
-      "porUnidad": 16.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_sanfernandomuslodepo_mmmd594s",
+    "id": "tottus_sanfernandomuslodepo_mmmjmjha",
     "nombre": "SAN FERNANDO Muslo De Pollo Congelado San Fernando",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 15.9,
       "regular": 16.5,
-      "porUnidad": 15.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": 4,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_sanfernandopiernadep_mmmd594s",
+    "id": "tottus_sanfernandopiernadep_mmmjmjha",
     "nombre": "SAN FERNANDO Pierna De Pollo Congelado San Fernando",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 15.9,
       "regular": null,
-      "porUnidad": 15.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspackahorradorf_mmmd594s",
+    "id": "tottus_tottuspackahorradorf_mmmjmjha",
     "nombre": "TOTTUS Pack Ahorrador Filete de Pierna Sin Piel de Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 21.9,
       "regular": null,
-      "porUnidad": 21.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 21.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspackahorradorh_mmmd594s",
+    "id": "tottus_tottuspackahorradorh_mmmjmjha",
     "nombre": "TOTTUS Pack Ahorrador Hígado De Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 8.9,
       "regular": null,
-      "porUnidad": 8.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_redondossangrecitacr_mmmd594s",
+    "id": "tottus_redondossangrecitacr_mmmjmjha",
     "nombre": "REDONDOS Sangrecita Criolla Redondos",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 5.9,
       "regular": 6.4,
-      "porUnidad": 5.9
+      "tarjeta": 4.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 5.9,
+      "porUnidadTarjeta": 4.9
     },
     "presentacion": null,
     "descuento": 8,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": 23,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_sanfernandocarnemoli_mmmd594s",
+    "id": "tottus_sanfernandocarnemoli_mmmjmjha",
     "nombre": "SAN FERNANDO Carne Molida De Pollo Termoformado",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 12.7,
       "regular": null,
-      "porUnidad": 12.7
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.7,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_artisanfiletedepechu_mmmd594s",
+    "id": "tottus_artisanfiletedepechu_mmmjmjha",
     "nombre": "ARTISAN Filete De Pechuga Artisan. Libre de Antibióticos.",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 37.9,
       "regular": 39.9,
-      "porUnidad": 37.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 37.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": 5,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_sanfernandopiernacon_mmmd594s",
+    "id": "tottus_sanfernandopiernacon_mmmjmjha",
     "nombre": "SAN FERNANDO Pierna Con Encuentro De Pollo Congelado San Fernando",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 13.9,
       "regular": null,
-      "porUnidad": 13.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspackahorradorm_mmmd594s",
+    "id": "tottus_tottuspackahorradorm_mmmjmjha",
     "nombre": "TOTTUS Pack Ahorrador Mollejitas De Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 13.5,
       "regular": 13.9,
-      "porUnidad": 13.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": 3,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspiernaconencue_mmmd594s",
+    "id": "tottus_tottuspiernaconencue_mmmjmjha",
     "nombre": "TOTTUS Pierna Con Encuentro De Pollo Importado Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 5.7,
       "regular": 7.9,
-      "porUnidad": 5.7
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.7,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": 28,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspackahorradorc_mmmd594s",
+    "id": "tottus_tottuspackahorradorc_mmmjmjha",
     "nombre": "TOTTUS Pack Ahorrador Corazón De Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 12.9,
       "regular": null,
-      "porUnidad": 12.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuslomitosasamide_mmmd594s",
+    "id": "tottus_tottuslomitosasamide_mmmjmjha",
     "nombre": "TOTTUS Lomito Sasami De Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 25.9,
       "regular": null,
-      "porUnidad": 25.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_redondospolloconmenu_mmmd594s",
+    "id": "tottus_redondospolloconmenu_mmmjmjha",
     "nombre": "REDONDOS Pollo Con Menudencia Redondos",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 8.8,
       "regular": null,
-      "porUnidad": 8.8
+      "tarjeta": 8.5,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 8.8,
+      "porUnidadTarjeta": 8.5
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_sanfernandopechugaco_mmmd594s",
+    "id": "tottus_sanfernandopechugaco_mmmjmjha",
     "nombre": "SAN FERNANDO Pechuga Con Ala De Pollo Congelado San Fernando",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 16.9,
       "regular": null,
-      "porUnidad": 16.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottusalitasdepolloi_mmmd594s",
+    "id": "tottus_tottusalitasdepolloi_mmmjmjha",
     "nombre": "TOTTUS Alitas De Pollo Importadas",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 10.9,
       "regular": 12.9,
-      "porUnidad": 10.9
+      "tarjeta": 10.5,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 10.9,
+      "porUnidadTarjeta": 10.5
     },
     "presentacion": null,
     "descuento": 16,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": 19,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottusmollejitasdepo_mmmd594s",
+    "id": "tottus_tottusmollejitasdepo_mmmjmjha",
     "nombre": "TOTTUS Mollejitas De Pollo Importada Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 7.9,
       "regular": null,
-      "porUnidad": 7.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_redondossangrecitasi_mmmd594s",
+    "id": "tottus_redondossangrecitasi_mmmjmjha",
     "nombre": "REDONDOS Sangrecita Sin Condimentos Redondos",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 5.9,
       "regular": null,
-      "porUnidad": 5.9
+      "tarjeta": 4.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 5.9,
+      "porUnidadTarjeta": 4.9
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspiernitaconenc_mmmd594s",
+    "id": "tottus_tottuspiernitaconenc_mmmjmjha",
     "nombre": "TOTTUS Piernita Con Encuentro Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 13.9,
       "regular": null,
-      "porUnidad": 13.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottusmuslitolightde_mmmd594s",
+    "id": "tottus_tottusmuslitolightde_mmmjmjha",
     "nombre": "TOTTUS Muslito Light De Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 17.9,
       "regular": null,
-      "porUnidad": 17.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 17.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_sanfernandoalitasdep_mmmd594s",
+    "id": "tottus_sanfernandoalitasdep_mmmjmjha",
     "nombre": "SAN FERNANDO Alitas De Pollo Congeladas San Fernando",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 15.9,
       "regular": null,
-      "porUnidad": 15.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspechugaconalad_mmmd594s",
+    "id": "tottus_tottuspechugaconalad_mmmjmjha",
     "nombre": "TOTTUS Pechuga con Ala de Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 15.9,
       "regular": null,
-      "porUnidad": 15.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_artisanmuslitosdepol_mmmd594s",
+    "id": "tottus_artisanmuslitosdepol_mmmjmjha",
     "nombre": "ARTISAN Muslitos De Pollo Artisan. Libre de Antibióticos.",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 29.9,
       "regular": 31.4,
-      "porUnidad": 29.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 29.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": 5,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottuspackahorradora_mmmd594s",
+    "id": "tottus_tottuspackahorradora_mmmjmjha",
     "nombre": "TOTTUS Pack Ahorrador Alitas de Pollo",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 14.9,
       "regular": null,
-      "porUnidad": 14.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 14.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottussupremadepollo_mmmd594s",
+    "id": "tottus_tottussupremadepollo_mmmjmjha",
     "nombre": "TOTTUS Suprema De Pollo Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 20.9,
       "regular": 22.9,
-      "porUnidad": 20.9
+      "tarjeta": 19.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 20.9,
+      "porUnidadTarjeta": 19.9
     },
     "presentacion": null,
     "descuento": 9,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": 13,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottusmuslitodepollo_mmmd594s",
+    "id": "tottus_tottusmuslitodepollo_mmmjmjha",
     "nombre": "TOTTUS Muslito De Pollo Importado Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 11.5,
       "regular": 11.9,
-      "porUnidad": 11.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": 3,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_tottusmilanesadepoll_mmmd594s",
+    "id": "tottus_tottusmilanesadepoll_mmmjmjha",
     "nombre": "TOTTUS Milanesa De Pollo Tottus",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 22.9,
       "regular": 24.9,
-      "porUnidad": 22.9
+      "tarjeta": 21.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 22.9,
+      "porUnidadTarjeta": 21.9
     },
     "presentacion": null,
     "descuento": 8,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": 12,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   },
   {
-    "id": "tottus_redondoscorazndepoll_mmmd594s",
+    "id": "tottus_redondoscorazndepoll_mmmjmjha",
     "nombre": "REDONDOS Corazón de Pollo Anticuchero Rojo 400 g",
     "categoria": "pollo",
     "super": "tottus",
     "precios": {
       "online": 6.3,
       "regular": 7.9,
-      "porUnidad": 15.75
+      "tarjeta": 5.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 15.75,
+      "porUnidadTarjeta": 14.75
     },
     "presentacion": {
       "valor": 400,
@@ -547,6 +702,7 @@
       "pack": 1
     },
     "descuento": 20,
-    "timestamp": "2026-03-11T18:19:17.500Z"
+    "descuentoTarjeta": 25,
+    "timestamp": "2026-03-11T21:20:41.758Z"
   }
 ]

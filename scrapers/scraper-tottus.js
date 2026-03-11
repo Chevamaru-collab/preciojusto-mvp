@@ -96,18 +96,23 @@ class TottusScraper {
             try {
                 let p1 = null;
                 let p2 = null;
+                let cmr = null;
 
                 // Buscar precio online en el array de prices
                 if (p.prices && Array.isArray(p.prices)) {
-                    // En Tottus: internetPrice es el preferido. cmrPrice omitido.
+                    // En Tottus: internetPrice es el preferido. cmrPrice es la tarjeta.
                     const inet = p.prices.find(pr => pr.type === 'internetPrice' || pr.type === 'normalPrice');
                     const norm = p.prices.find(pr => pr.type === 'normalPrice' && pr.crossed === true);
+                    const cmrPrice = p.prices.find(pr => pr.type === 'cmrPrice');
 
                     if (inet && inet.price && inet.price.length > 0) {
                         p1 = inet.price[0];
                     }
                     if (norm && norm.price && norm.price.length > 0) {
                         p2 = norm.price[0];
+                    }
+                    if (cmrPrice && cmrPrice.price && cmrPrice.price.length > 0) {
+                        cmr = cmrPrice.price[0];
                     }
                 }
 
@@ -120,6 +125,8 @@ class TottusScraper {
                     nombre: brandPrefix + p.displayName,
                     precioOnline: 'S/ ' + p1,
                     precioRegular: p2 && p2 > p1 ? ('S/ ' + p2) : null,
+                    precioTarjeta: cmr ? ('S/ ' + cmr) : null,
+                    tarjetaDesc: cmr ? 'CMR' : null,
                     categoria: categoria.id,
                     scraped: new Date().toISOString()
                 }, this.superId);

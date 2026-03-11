@@ -156,7 +156,14 @@ function normalizeProduct(raw, superId) {
 
         const descuento = (precioRegular && precioRegular > precioOnline)
             ? Math.round(((precioRegular - precioOnline) / precioRegular) * 100)
-            : 0;
+            : null; // null en lugar de 0 para ser consistente
+
+        const precioTarjeta = cleanPrice(raw.precioTarjeta);
+        const descuentoTarjeta = (precioRegular && precioTarjeta && precioRegular > precioTarjeta)
+            ? Math.round(((precioRegular - precioTarjeta) / precioRegular) * 100)
+            : null;
+        
+        const pxumTarjeta = precioTarjeta ? calcPrecioPorUM(precioTarjeta, presentacion) : null;
 
         return {
             id: generateProductId(superId, nombre),
@@ -166,7 +173,10 @@ function normalizeProduct(raw, superId) {
             precios: {
                 online: parseFloat(precioOnline.toFixed(2)),
                 regular: precioRegular ? parseFloat(precioRegular.toFixed(2)) : null,
-                porUnidad
+                tarjeta: precioTarjeta ? parseFloat(precioTarjeta.toFixed(2)) : null,
+                tarjetaDesc: precioTarjeta && raw.tarjetaDesc ? raw.tarjetaDesc : null,
+                porUnidad,
+                porUnidadTarjeta: pxumTarjeta
             },
             presentacion: presentacion ? {
                 valor: presentacion.value,
@@ -174,6 +184,7 @@ function normalizeProduct(raw, superId) {
                 pack: presentacion.pack
             } : null,
             descuento,
+            descuentoTarjeta,
             timestamp: raw.scraped || new Date().toISOString()
         };
     } catch (e) {

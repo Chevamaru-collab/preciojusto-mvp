@@ -1,13 +1,16 @@
 [
   {
-    "id": "tottus_tottuslentejabebmene_mmmd5x86",
+    "id": "tottus_tottuslentejabebmene_mmmjn7xr",
     "nombre": "TOTTUS Lenteja Bebé Menestra Tottus Bolsa 500 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 4.4,
       "regular": 4.5,
-      "porUnidad": 8.8
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -15,35 +18,43 @@
       "pack": 1
     },
     "descuento": 2,
-    "timestamp": "2026-03-11T18:19:48.726Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottuslentejabebtott_mmmd5x87",
+    "id": "tottus_tottuslentejabebtott_mmmjn7xr",
     "nombre": "TOTTUS Lenteja Bebé Tottus Menestra Bolsa 1 Kg",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 8.6,
       "regular": null,
-      "porUnidad": 8.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 1,
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.726Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_costenolentejamenest_mmmd5x87",
+    "id": "tottus_costenolentejamenest_mmmjn7xr",
     "nombre": "COSTENO Lenteja Menestra Costeño Bolsa 500 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 4.5,
       "regular": 5.4,
-      "porUnidad": 9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -51,89 +62,109 @@
       "pack": 1
     },
     "descuento": 17,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottuslentejatottusm_mmmd5x87",
+    "id": "tottus_tottuslentejatottusm_mmmjn7xr",
     "nombre": "TOTTUS Lenteja Tottus Menestra Bolsa 1 Kg",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 8.6,
       "regular": null,
-      "porUnidad": 8.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 1,
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tesorodelcampolentej_mmmd5x87",
+    "id": "tottus_tesorodelcampolentej_mmmjn7xr",
     "nombre": "TESORO DEL CAMPO Lenteja Tesoro Del Campo Bolsa 350 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 4.9,
       "regular": null,
-      "porUnidad": 14
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 14,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 350,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottuslentejntottusm_mmmd5x87",
+    "id": "tottus_tottuslentejntottusm_mmmjn7xr",
     "nombre": "TOTTUS Lentejón Tottus Menestra Bolsa 500 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 4.5,
       "regular": null,
-      "porUnidad": 9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_costenolentejnmenest_mmmd5x87",
+    "id": "tottus_costenolentejnmenest_mmmjn7xr",
     "nombre": "COSTENO Lentejón Menestra Costeño Bolsa 500 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 6.9,
       "regular": null,
-      "porUnidad": 13.8
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_vallenortelentejabeb_mmmd5x87",
+    "id": "tottus_vallenortelentejabeb_mmmjn7xr",
     "nombre": "VALLENORTE Lenteja Bebé Valle Norte Bolsa 500 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 6.3,
       "regular": 6.6,
-      "porUnidad": 12.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -141,17 +172,21 @@
       "pack": 1
     },
     "descuento": 5,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_vallenortelentejaval_mmmd5x87",
+    "id": "tottus_vallenortelentejaval_mmmjn7xr",
     "nombre": "VALLENORTE Lenteja Valle Norte Bolsa 500 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 6.6,
       "regular": 6.9,
-      "porUnidad": 13.2
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.2,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -159,197 +194,241 @@
       "pack": 1
     },
     "descuento": 4,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_preciounolentejaprec_mmmd5x87",
+    "id": "tottus_preciounolentejaprec_mmmjn7xr",
     "nombre": "PRECIO UNO Lenteja Precio Uno Bolsa 400 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 3.4,
       "regular": null,
-      "porUnidad": 8.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 400,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_preciounolentejnprec_mmmd5x87",
+    "id": "tottus_preciounolentejnprec_mmmjn7xr",
     "nombre": "PRECIO UNO Lentejón Precio Uno Bolsa 400 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 3.45,
       "regular": null,
-      "porUnidad": 8.63
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.63,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 400,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottuspackmenestrato_mmmd5x87",
+    "id": "tottus_tottuspackmenestrato_mmmjn7xr",
     "nombre": "TOTTUS Pack Menestra Tottus Lenteja 500 g + Arveja 500 g + Frijol Canario 500 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 13.6,
       "regular": null,
-      "porUnidad": 27.2
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 27.2,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_casaverdelentejasade_mmmd5x87",
+    "id": "tottus_casaverdelentejasade_mmmjn7xr",
     "nombre": "CASA VERDE Lentejas Aderezadas Casa Verde Envase 360 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 7.5,
       "regular": null,
-      "porUnidad": 20.83
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.83,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 360,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottusconservadelent_mmmd5x87",
+    "id": "tottus_tottusconservadelent_mmmjn7xr",
     "nombre": "TOTTUS Conserva de Lentejas en Salmuera 400g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 4.9,
       "regular": null,
-      "porUnidad": 12.25
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.25,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 400,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottuscazueladelente_mmmd5x87",
+    "id": "tottus_tottuscazueladelente_mmmjn7xr",
     "nombre": "TOTTUS Cazuela de Lentejas Tottus Lata 425 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 7.1,
       "regular": null,
-      "porUnidad": 16.71
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.71,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 425,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottuslentejascontoc_mmmd5x87",
+    "id": "tottus_tottuslentejascontoc_mmmjn7xr",
     "nombre": "TOTTUS Lentejas con Tocino Tottus Lata 425 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 7.1,
       "regular": null,
-      "porUnidad": 16.71
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.71,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 425,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottushuevodepascuat_mmmd5x87",
+    "id": "tottus_tottushuevodepascuat_mmmjn7xr",
     "nombre": "TOTTUS Huevo De Pascua Tottus x 130 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 14.9,
       "regular": null,
-      "porUnidad": 114.62
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 114.62,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 130,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_lentejasgragealentej_mmmd5x87",
+    "id": "tottus_lentejasgragealentej_mmmjn7xr",
     "nombre": "LENTEJAS GRAGEA LENTEJAS MINI CHOCOLATE BOLSA 7G X 35UND",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 15,
       "regular": null,
-      "porUnidad": 2142.86
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 2142.86,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 7,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_lentejaslentejasconf_mmmd5x87",
+    "id": "tottus_lentejaslentejasconf_mmmjn7xr",
     "nombre": "LENTEJAS Lentejas Confitado Chocolate 30 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 2,
       "regular": null,
-      "porUnidad": 66.67
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 66.67,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 30,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_lentejaschocolatesle_mmmd5x87",
+    "id": "tottus_lentejaschocolatesle_mmmjn7xr",
     "nombre": "LENTEJAS Chocolates Lentejas Confitados Display 20 Und",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 28.5,
       "regular": 40,
-      "porUnidad": 1.43
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.43,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 20,
@@ -357,71 +436,87 @@
       "pack": 1
     },
     "descuento": 29,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_lentejaschocolatelen_mmmd5x87",
-    "nombre": "LENTEJAS Chocolate Lentejas Fiesta Mini Bolsa 30 Und",
-    "categoria": "lentejas",
-    "super": "tottus",
-    "precios": {
-      "online": 14.9,
-      "regular": null,
-      "porUnidad": 0.5
-    },
-    "presentacion": {
-      "valor": 30,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
-  },
-  {
-    "id": "tottus_lentejas8packhuevosd_mmmd5x87",
-    "nombre": "LENTEJAS 8Pack Huevos De Pascua Lentejas x 165 g",
-    "categoria": "lentejas",
-    "super": "tottus",
-    "precios": {
-      "online": 28.5,
-      "regular": null,
-      "porUnidad": 172.73
-    },
-    "presentacion": {
-      "valor": 165,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
-  },
-  {
-    "id": "tottus_lentejashuevochocola_mmmd5x87",
+    "id": "tottus_lentejashuevochocola_mmmjn7xr",
     "nombre": "LENTEJAS Huevo Chocolate Lentejas 90g + Sorpresa 11.5 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 19.9,
       "regular": null,
-      "porUnidad": 221.11
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 221.11,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 90,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_lentejashuevodechoco_mmmd5x87",
+    "id": "tottus_lentejaschocolatelen_mmmjn7xr",
+    "nombre": "LENTEJAS Chocolate Lentejas Fiesta Mini Bolsa 30 Und",
+    "categoria": "lentejas",
+    "super": "tottus",
+    "precios": {
+      "online": 14.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 30,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
+  },
+  {
+    "id": "tottus_lentejas8packhuevosd_mmmjn7xr",
+    "nombre": "LENTEJAS 8Pack Huevos De Pascua Lentejas x 165 g",
+    "categoria": "lentejas",
+    "super": "tottus",
+    "precios": {
+      "online": 28.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 172.73,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 165,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
+  },
+  {
+    "id": "tottus_lentejashuevodechoco_mmmjn7xr",
     "nombre": "LENTEJAS Huevo de Chocolate Lentejas con Grageas de Pasta Empaque 20.7 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 3,
       "regular": 3.5,
-      "porUnidad": 144.93
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 144.93,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 20.7,
@@ -429,175 +524,171 @@
       "pack": 1
     },
     "descuento": 14,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_tottusverdurassprout_mmmd5x87",
+    "id": "tottus_tottusverdurassprout_mmmjn7xr",
     "nombre": "TOTTUS VERDURAS Sprouts Germinado De Lenteja",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 16.6,
       "regular": null,
-      "porUnidad": 16.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_lentejasdisplayhuevo_mmmd5x87",
+    "id": "tottus_lentejasdisplayhuevo_mmmjn7xr",
     "nombre": "LENTEJAS Display Huevo Chocol Lentejas 20.7G x 12 Unidades",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 42,
       "regular": null,
-      "porUnidad": 2028.99
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 2028.99,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 20.7,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_lorenzoflentejassach_mmmd5x87",
+    "id": "tottus_lorenzoflentejassach_mmmjn7xr",
     "nombre": "LORENZO F LENTEJAS SACHET 425 GR",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 8,
       "regular": null,
-      "porUnidad": 18.82
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 18.82,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 425,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_ohochipsdelentejacon_mmmd5x87",
-    "nombre": "OHO Chips de Lenteja con Queso Oho Bolsa 100 g",
+    "id": "tottus_ohochipsdelentejacon_mmmjn7xr",
+    "nombre": "OHO Chips de Lenteja con Tocino Oho Bolsa 100 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 4.5,
       "regular": null,
-      "porUnidad": 45
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 45,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 100,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_dellanaturahambveget_mmmd5x87",
+    "id": "tottus_dellanaturahambveget_mmmjn7xr",
     "nombre": "DELLANATURA HAMB VEGETARIANAS D LENTEJAS DELL X 600G",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 23.9,
       "regular": null,
-      "porUnidad": 39.83
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 39.83,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 600,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_sanuahamburguesasana_mmmd5x87",
+    "id": "tottus_sanuahamburguesasana_mmmjn7xr",
     "nombre": "SANUA Hamburguesa Sanúa de Lentejas Caja 400 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 23.5,
       "regular": null,
-      "porUnidad": 58.75
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 58.75,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 400,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_ohochipsdelentejasab_mmmd5x87",
+    "id": "tottus_ohochipsdelentejasab_mmmjn7xr",
     "nombre": "OHO Chips de Lenteja Sabor Crema Agria Oho Bolsa 100 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 4.5,
       "regular": null,
-      "porUnidad": 45
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 45,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 100,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_sanuahamburguesasanu_mmmd5x87",
-    "nombre": "SANUA Hamburguesa Sanua Lentejas y Champiñones Caja 600 g",
-    "categoria": "lentejas",
-    "super": "tottus",
-    "precios": {
-      "online": 24.9,
-      "regular": null,
-      "porUnidad": 41.5
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
-  },
-  {
-    "id": "tottus_tottuslifehamburgues_mmmd5x88",
-    "nombre": "TOTTUS LIFE Hamburguesas de Lentejas Tottus Life Caja 400 g",
-    "categoria": "lentejas",
-    "super": "tottus",
-    "precios": {
-      "online": 3.9,
-      "regular": null,
-      "porUnidad": 9.75
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.727Z"
-  },
-  {
-    "id": "tottus_sanuasopacriolladele_mmmd5x88",
+    "id": "tottus_sanuasopacriolladele_mmmjn7xr",
     "nombre": "SANUA SOPA CRIOLLA DE LENTEJAS Y GARBANZOS SANUA 480 GR",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 11.39,
       "regular": 22.7,
-      "porUnidad": 23.73
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.73,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 480,
@@ -605,125 +696,153 @@
       "pack": 1
     },
     "descuento": 50,
-    "timestamp": "2026-03-11T18:19:48.728Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_ohochipsdelentejapic_mmmd5x88",
+    "id": "tottus_tottuslifehamburgues_mmmjn7xr",
+    "nombre": "TOTTUS LIFE Hamburguesas de Lentejas Tottus Life Caja 400 g",
+    "categoria": "lentejas",
+    "super": "tottus",
+    "precios": {
+      "online": 3.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.75,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
+  },
+  {
+    "id": "tottus_sanuahamburguesasanu_mmmjn7xr",
+    "nombre": "SANUA Hamburguesa Sanua Lentejas y Champiñones Caja 600 g",
+    "categoria": "lentejas",
+    "super": "tottus",
+    "precios": {
+      "online": 24.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 41.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
+  },
+  {
+    "id": "tottus_ohochipsdelentejapic_mmmjn7xr",
     "nombre": "OHO Chips de Lenteja Picante Extra Oho Bolsa 100 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 4.5,
       "regular": null,
-      "porUnidad": 45
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 45,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 100,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.728Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_ohochipsdelentejacon_mmmd5x88",
-    "nombre": "OHO Chips de Lenteja con Tocino Oho Bolsa 100 g",
-    "categoria": "lentejas",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": null,
-      "porUnidad": 45
-    },
-    "presentacion": {
-      "valor": 100,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.728Z"
-  },
-  {
-    "id": "tottus_eldoradopastacoditos_mmmd5x88",
+    "id": "tottus_eldoradopastacoditos_mmmjn7xs",
     "nombre": "EL DORADO Pasta Coditos de Lentejas Rojas El Dorado Bolsa 250 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 24.51,
       "regular": null,
-      "porUnidad": 98.04
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 98.04,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 250,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.728Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.455Z"
   },
   {
-    "id": "tottus_granutspasasbanadasc_mmmd5x88",
+    "id": "tottus_granutspasasbanadasc_mmmjn7xs",
     "nombre": "GRANUTS PASAS BANADAS CON CHOCOLATE X 120GR",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 14.9,
       "regular": null,
-      "porUnidad": 124.17
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 124.17,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 120,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.728Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.456Z"
   },
   {
-    "id": "tottus_flipzpretzelflipzcho_mmmd5x88",
-    "nombre": "FLIPZ Pretzel Flipz Chocolate Con Leche Doypack 141 g",
+    "id": "tottus_vizziomanvizziocubie_mmmjn7xs",
+    "nombre": "VIZZIO Maní Vizzio Cubierto con Chocolate Caja 70 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
-      "online": 23.9,
-      "regular": null,
-      "porUnidad": 169.5
+      "online": 4.7,
+      "regular": 5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 67.14,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 141,
+      "valor": 70,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.728Z"
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.456Z"
   },
   {
-    "id": "tottus_chinchingrageaschinc_mmmd5x88",
-    "nombre": "CHIN CHIN Grageas Chin Chin Chocolate Bolsa 45 g",
-    "categoria": "lentejas",
-    "super": "tottus",
-    "precios": {
-      "online": 4,
-      "regular": null,
-      "porUnidad": 88.89
-    },
-    "presentacion": {
-      "valor": 45,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:19:48.728Z"
-  },
-  {
-    "id": "tottus_chinchinchocolatechi_mmmd5x88",
+    "id": "tottus_chinchinchocolatechi_mmmjn7xs",
     "nombre": "CHIN CHIN Chocolate Chin Chin Mini Bolsa 32 Und",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
       "online": 14.9,
       "regular": 17.5,
-      "porUnidad": 0.47
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.47,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 32,
@@ -731,24 +850,51 @@
       "pack": 1
     },
     "descuento": 15,
-    "timestamp": "2026-03-11T18:19:48.728Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.456Z"
   },
   {
-    "id": "tottus_vizziomanvizziocerea_mmmd5x88",
-    "nombre": "VIZZIO Maní Vizzio Cereal Almendra Grageas Caja 122 g",
+    "id": "tottus_flipzpretzelflipzcho_mmmjn7xs",
+    "nombre": "FLIPZ Pretzel Flipz Chocolate Con Leche Doypack 141 g",
     "categoria": "lentejas",
     "super": "tottus",
     "precios": {
-      "online": 9,
-      "regular": 9.9,
-      "porUnidad": 73.77
+      "online": 23.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 169.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 122,
+      "valor": 141,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 9,
-    "timestamp": "2026-03-11T18:19:48.728Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.456Z"
+  },
+  {
+    "id": "tottus_chinchingrageaschinc_mmmjn7xs",
+    "nombre": "CHIN CHIN Grageas Chin Chin Chocolate Bolsa 45 g",
+    "categoria": "lentejas",
+    "super": "tottus",
+    "precios": {
+      "online": 4,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 88.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 45,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:21:13.456Z"
   }
 ]

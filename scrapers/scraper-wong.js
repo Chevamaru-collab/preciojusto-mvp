@@ -139,6 +139,20 @@ class WongScraper {
             const nombre = p.productName;
             const precioRef = p.priceRange?.sellingPrice?.lowPrice;
 
+            let precioTarjeta = null;
+            let tarjetaDesc = null;
+
+            const offer = p.items?.[0]?.sellers?.[0]?.commertialOffer;
+            if (offer?.teasers?.length > 0) {
+                const teaserCencosud = offer.teasers.find(t => t.name && t.name.toLowerCase().includes('cencosud'));
+                if (teaserCencosud) {
+                    // For VTEX, if there's a teaser, the "Price" is usually the teaser price.
+                    // If it is significantly lower than list price, we assume it's the card price.
+                    precioTarjeta = offer.Price;
+                    tarjetaDesc = 'Cencosud';
+                }
+            }
+
             if (!nombre) return null;
             if (precioRef === null || precioRef === undefined) return null;
 
@@ -148,6 +162,8 @@ class WongScraper {
                 nombre: nombre.trim(),
                 precioOnline: precioRef.toString(),
                 precioRegular: p.priceRange?.listPrice?.highPrice?.toString() || null,
+                precioTarjeta: precioTarjeta ? precioTarjeta.toString() : null,
+                tarjetaDesc,
                 categoria: categoria.id,
                 scraped: new Date().toISOString()
             }, this.superId);

@@ -1,31 +1,38 @@
 [
   {
-    "id": "metro_grageasconfitadaslen_mmmdba70",
+    "id": "metro_grageasconfitadaslen_mmmjsk8m",
     "nombre": "Grageas Confitadas Lentejas Caja 30 g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 1.9,
       "regular": null,
-      "porUnidad": 63.33
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 63.33,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 30,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_huevodepascualenteja_mmmdba70",
+    "id": "metro_huevodepascualenteja_mmmjsk8m",
     "nombre": "Huevo de Pascua Lentejas 4un",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 14.5,
       "regular": 16.9,
-      "porUnidad": 3.63
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.63,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 4,
@@ -33,17 +40,21 @@
       "pack": 1
     },
     "descuento": 14,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejamxima500g_mmmdba70",
+    "id": "metro_lentejamxima500g_mmmjsk8m",
     "nombre": "Lenteja Máxima 500g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 3.7,
       "regular": 4.5,
-      "porUnidad": 7.4
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.4,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -51,17 +62,21 @@
       "pack": 1
     },
     "descuento": 18,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejabebcuisineco5_mmmdba70",
+    "id": "metro_lentejabebcuisineco5_mmmjsk8m",
     "nombre": "Lenteja Bebé Cuisine & Co 500g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 3.9,
       "regular": 4.9,
-      "porUnidad": 7.8
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -69,17 +84,21 @@
       "pack": 1
     },
     "descuento": 20,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejacuisineco500g_mmmdba70",
+    "id": "metro_lentejacuisineco500g_mmmjsk8m",
     "nombre": "Lenteja Cuisine & Co 500g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 3.9,
       "regular": 4.9,
-      "porUnidad": 7.8
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -87,35 +106,43 @@
       "pack": 1
     },
     "descuento": 20,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejabolsa350g_mmmdba70",
+    "id": "metro_lentejabolsa350g_mmmjsk8m",
     "nombre": "Lenteja Bolsa 350 g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 5,
       "regular": null,
-      "porUnidad": 14.29
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 14.29,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 350,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejacosteo500g_mmmdba70",
+    "id": "metro_lentejacosteo500g_mmmjsk8m",
     "nombre": "Lenteja Costeño 500g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 5.3,
       "regular": 6.6,
-      "porUnidad": 10.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -123,182 +150,223 @@
       "pack": 1
     },
     "descuento": 20,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejabebcosechaand_mmmdba70",
+    "id": "metro_lentejabebcosechaand_mmmjsk8m",
     "nombre": "Lenteja Bebé Cosecha Andina 500g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 5.4,
       "regular": null,
-      "porUnidad": 10.8
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejabebtesorodelc_mmmdba70",
+    "id": "metro_lentejabebtesorodelc_mmmjsk8m",
     "nombre": "Lenteja Bebé Tesoro Del Campo Bolsa 500 g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 5.5,
       "regular": null,
-      "porUnidad": 11
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejatesorodelcamp_mmmdba70",
+    "id": "metro_lentejatesorodelcamp_mmmjsk8m",
     "nombre": "Lenteja Tesoro Del Campo Bolsa 500 g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 5.85,
       "regular": null,
-      "porUnidad": 11.7
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.7,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejabelugacosecha_mmmdba70",
+    "id": "metro_lentejabelugacosecha_mmmjsk8m",
     "nombre": "Lenteja Beluga Cosecha Andina 500g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 6.3,
       "regular": null,
-      "porUnidad": 12.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejasbebbolsa500g_mmmdba70",
+    "id": "metro_lentejasbebbolsa500g_mmmjsk8m",
     "nombre": "Lentejas Bebé Bolsa 500 g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 6.5,
       "regular": null,
-      "porUnidad": 13
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejavallenortebol_mmmdba70",
+    "id": "metro_lentejavallenortebol_mmmjsk8m",
     "nombre": "Lenteja Valle Norte Bolsa 500 g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 6.5,
       "regular": null,
-      "porUnidad": 13
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejagranosdelsur_mmmdba70",
+    "id": "metro_lentejagranosdelsur_mmmjsk8m",
     "nombre": "Lenteja Granos Del Sur",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 6.7,
       "regular": null,
-      "porUnidad": 6.7
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.7,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejasaderezadasca_mmmdba70",
+    "id": "metro_lentejasaderezadasca_mmmjsk8m",
     "nombre": "Lentejas Aderezadas Casa Verde 360g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 7.5,
       "regular": null,
-      "porUnidad": 20.83
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.83,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 360,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejaslorenzo425g_mmmdba70",
+    "id": "metro_lentejaslorenzo425g_mmmjsk8m",
     "nombre": "Lentejas Lorenzo 425g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 7.8,
       "regular": null,
-      "porUnidad": 18.35
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 18.35,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 425,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   },
   {
-    "id": "metro_lentejaspreparadascu_mmmdba70",
+    "id": "metro_lentejaspreparadascu_mmmjsk8m",
     "nombre": "Lentejas Preparadas Cuisine & Co 425g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
       "online": 8.7,
       "regular": null,
-      "porUnidad": 20.47
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.47,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 425,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-11T18:23:58.812Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-11T21:25:22.678Z"
   }
 ]

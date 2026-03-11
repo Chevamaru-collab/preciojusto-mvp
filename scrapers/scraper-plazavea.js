@@ -90,6 +90,25 @@ class PlazaVeaScraper {
             const precioRef = offer?.Price;
             const precioRegular = offer?.ListPrice;
 
+            // Encontrar precio tarjeta Oh! / Agora
+            let precioTarjeta = null;
+            let tarjetaDesc = null;
+
+            if (offer?.Installments && Array.isArray(offer.Installments)) {
+                // Buscamos Installment de Tarjeta Oh (PaymentSystemName === 'Tarjeta-Oh-Cuotas')
+                // y Agora (PaymentSystemName === 'Agora-Visa' o 'AGORAWEB')
+                const ohInstallment = offer.Installments.find(i => i.PaymentSystemName && i.PaymentSystemName.includes('Tarjeta-Oh'));
+                const agoraInstallment = offer.Installments.find(i => i.PaymentSystemName && i.PaymentSystemName.toLowerCase().includes('agora'));
+
+                if (ohInstallment && ohInstallment.Value && ohInstallment.Value < precioRef) {
+                    precioTarjeta = ohInstallment.Value;
+                    tarjetaDesc = 'Oh!';
+                } else if (agoraInstallment && agoraInstallment.Value && agoraInstallment.Value < precioRef) {
+                    precioTarjeta = agoraInstallment.Value;
+                    tarjetaDesc = 'Agora';
+                }
+            }
+
             if (!nombre) return null;
             if (precioRef === null || precioRef === undefined || precioRef <= 0) return null;
 
@@ -99,6 +118,8 @@ class PlazaVeaScraper {
                 nombre: nombre.trim(),
                 precioOnline: precioRef.toString(),
                 precioRegular: (precioRegular && precioRegular > precioRef) ? precioRegular.toString() : null,
+                precioTarjeta: precioTarjeta ? precioTarjeta.toString() : null,
+                tarjetaDesc,
                 categoria: categoria.id,
                 scraped: new Date().toISOString(),
                 // Metadata util pero opcional
