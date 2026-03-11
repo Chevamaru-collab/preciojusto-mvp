@@ -379,7 +379,7 @@ function renderHeroStats(data) {
 
     const el = document.getElementById('hero-stats');
     el.innerHTML = `
-    <div class="hero-stat"><div class="hero-stat-value">${dates.length}</div><div class="hero-stat-label">Días monitoreados</div></div>
+    <div class="hero-stat"><div class="hero-stat-value">${dates.length} ${dates.length === 1 ? 'día' : 'días'}</div><div class="hero-stat-label">monitoreados</div></div>
     <div class="hero-stat"><div class="hero-stat-value">${prods.length}</div><div class="hero-stat-label">Productos únicos</div></div>
     <div class="hero-stat"><div class="hero-stat-value">${activeSupers().length}</div><div class="hero-stat-label">Supermercados</div></div>
     <div class="hero-stat hero-stat--deals">
