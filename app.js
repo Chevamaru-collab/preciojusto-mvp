@@ -352,9 +352,8 @@ window.setFilter = function (dim, value, el) {
 };
 window.clearFilters = function () {
     filters = { super: 'Todos', tipo: 'Todos', categoria: 'Todos', marca: 'Todos', presentacion: 'Todos' };
-    document.querySelectorAll('#filter-cat .chip, #filter-super .chip').forEach(c => {
-        c.classList.toggle('active', c.dataset.value === 'Todos');
-    });
+    setupSuperChips();   // reconstruye con Todos=active
+    setupCatChips();     // reconstruye con Todos=active y todas las cats
     updateTipoOptions(); updateMarcaOptions(); updatePresentacionOptions();
     updateFilterBadge();
     renderAll();
@@ -759,14 +758,15 @@ function setupCatChips() {
     `;
 }
 
-// ---- SUPER CHIPS (dynamic from SUPERMERCADOS) ----
+// ---- SUPER CHIPS (alfabético + Todos primero, cascada hacia categorías) ----
 function setupSuperChips() {
     const container = document.getElementById('filter-super');
     if (!container) return;
+    const supers = activeSupers().sort((a, b) => a.nombre.localeCompare(b.nombre));
     container.innerHTML = `
-        <button class="chip active" data-value="Todos" onclick="setFilter('super','Todos',this)">Todos</button>
-        ${activeSupers().map(s =>
-        `<button class="chip" data-value="${s.nombre}" onclick="setFilter('super','${s.nombre}',this)">${s.nombre}</button>`
+        <button class="chip${filters.super === 'Todos' ? ' active' : ''}" data-value="Todos" onclick="setFilter('super','Todos',this)">Todos</button>
+        ${supers.map(s =>
+        `<button class="chip${filters.super === s.nombre ? ' active' : ''}" data-value="${s.nombre}" onclick="setFilter('super','${s.nombre}',this)">${s.nombre}</button>`
     ).join('')}`;
 }
 

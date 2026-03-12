@@ -96,40 +96,47 @@
         </button>
 
         <div class="filters-panel" id="filters-panel">
-          <div class="filter-group">
-            <label class="filter-label">Categoría</label>
-            <div class="filter-chips" id="filter-cat">
-              <!-- JS filled -->
-            </div>
-          </div>
+
+          <!-- 1. SUPERMERCADO (entrada de la cascada) -->
           <div class="filter-group">
             <label class="filter-label">Supermercado</label>
             <div class="filter-chips" id="filter-super">
-              <button class="chip active" data-value="Todos" onclick="setFilter('super','Todos',this)">Todos</button>
-              <button class="chip" data-value="Metro" onclick="setFilter('super','Metro',this)">Metro</button>
-              <button class="chip" data-value="Wong" onclick="setFilter('super','Wong',this)">Wong</button>
-              <button class="chip" data-value="Plaza Vea" onclick="setFilter('super','Plaza Vea',this)">Plaza
-                Vea</button>
+              <!-- JS filled by setupSuperChips() -->
             </div>
           </div>
+
+          <!-- 2. CATEGORÍA (se recalcula al cambiar super) -->
           <div class="filter-group">
-            <label class="filter-label" id="filter-tipo-label">Tipo de Aceite</label>
+            <label class="filter-label">Categoría</label>
+            <div class="filter-chips" id="filter-cat">
+              <!-- JS filled by setupCatChips() -->
+            </div>
+          </div>
+
+          <!-- 3. TIPO -->
+          <div class="filter-group">
+            <label class="filter-label" id="filter-tipo-label">Tipo de Producto</label>
             <select class="filter-select" id="filter-tipo" onchange="setFilter('tipo', this.value, this)">
               <option value="Todos">Todos los tipos</option>
             </select>
           </div>
+
+          <!-- 4. MARCA -->
           <div class="filter-group">
             <label class="filter-label">Marca</label>
             <select class="filter-select" id="filter-marca" onchange="setFilter('marca', this.value, this)">
               <option value="Todos">Todas las marcas</option>
             </select>
           </div>
+
+          <!-- 5. PRESENTACIÓN -->
           <div class="filter-group">
             <label class="filter-label">Presentación</label>
             <select class="filter-select" id="filter-pres" onchange="setFilter('presentacion', this.value, this)">
               <option value="Todos">Todas las presentaciones</option>
             </select>
           </div>
+
           <div class="filter-group filter-group--clear">
             <label class="filter-label">&nbsp;</label>
             <button class="btn-clear-filters" onclick="clearFilters()">✕ Limpiar filtros</button>
