@@ -1,13 +1,16 @@
 [
   {
-    "id": "wong_lentejacosteo500g_mml3pwdn",
+    "id": "wong_lentejacosteo500g_mmnsuiq6",
     "nombre": "Lenteja Costeño 500g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 5.3,
       "regular": 6.6,
-      "porUnidad": 10.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
@@ -15,258 +18,271 @@
       "pack": 1
     },
     "descuento": 20,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_lentejabebtesorodelc_mml3pwdn",
+    "id": "wong_lentejabebtesorodelc_mmnsuiq6",
     "nombre": "Lenteja Bebé Tesoro Del Campo Bolsa 500 g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 5.8,
       "regular": 5.8,
-      "porUnidad": 11.6
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.6,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_lentejabebcuisineco5_mml3pwdn",
+    "id": "wong_lentejabebcuisineco5_mmnsuiq6",
     "nombre": "Lenteja Bebé Cuisine & Co 500g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
-      "online": 4.9,
+      "online": 3.9,
       "regular": 4.9,
-      "porUnidad": 9.8
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": 20,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_lentejacuisineco500g_mml3pwdn",
+    "id": "wong_lentejacuisineco500g_mmnsuiq6",
     "nombre": "Lenteja Cuisine & Co 500g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
-      "online": 5.7,
-      "regular": 5.7,
-      "porUnidad": 11.4
+      "online": 3.9,
+      "regular": 4.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": 20,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_lentejasbebbolsa500g_mml3pwdn",
+    "id": "wong_lentejasbebbolsa500g_mmnsuiq6",
     "nombre": "Lentejas Bebé Bolsa 500 g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 6.7,
       "regular": 6.7,
-      "porUnidad": 13.4
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.4,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_lentejatesorodelcamp_mml3pwdn",
+    "id": "wong_lentejatesorodelcamp_mmnsuiq6",
     "nombre": "Lenteja Tesoro Del Campo Bolsa 500 g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 5.85,
       "regular": 5.85,
-      "porUnidad": 11.7
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.7,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_lentejavallenortebol_mml3pwdn",
+    "id": "wong_lentejavallenortebol_mmnsuiq6",
     "nombre": "Lenteja Valle Norte Bolsa 500 g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 6.5,
       "regular": 6.5,
-      "porUnidad": 13
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_lentejasaderezadasca_mml3pwdn",
+    "id": "wong_lentejasaderezadasca_mmnsuiq6",
     "nombre": "Lentejas Aderezadas Casa Verde 360g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 7.5,
       "regular": 7.5,
-      "porUnidad": 20.83
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.83,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 360,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_packfiestagrageascon_mml3pwdn",
+    "id": "wong_packfiestagrageascon_mmnsuiq6",
     "nombre": "Pack Fiesta Grageas Confitadas Lentejas Mini 240g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 15.5,
       "regular": 15.5,
-      "porUnidad": 64.58
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 64.58,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 240,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_lentejaspreparadascu_mml3pwdn",
+    "id": "wong_lentejaspreparadascu_mmnsuiq6",
     "nombre": "Lentejas Preparadas Cuisine & Co 425g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 9.1,
       "regular": 9.1,
-      "porUnidad": 21.41
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 21.41,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 425,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_pastadelentejasrojas_mml3pwdn",
+    "id": "wong_pastadelentejasrojas_mmnsuiq6",
     "nombre": "Pasta de Lentejas Rojas Coditos Sin Gluten El Dorado Caja 250 g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 30.5,
       "regular": 30.5,
-      "porUnidad": 122
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 122,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 250,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_spaghettidelentejasr_mml3pwdn",
+    "id": "wong_spaghettidelentejasr_mmnsuiq6",
     "nombre": "Spaghetti de Lentejas Rojas y Arroz El Dorado 250g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 25.5,
       "regular": 25.5,
-      "porUnidad": 102
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 102,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 250,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   },
   {
-    "id": "wong_huevodepascualenteja_mml3pwdn",
-    "nombre": "Huevo de Pascua Lentejas 20.7g Surtido",
-    "categoria": "lentejas",
-    "super": "wong",
-    "precios": {
-      "online": 3.2,
-      "regular": 3.5,
-      "porUnidad": 154.59
-    },
-    "presentacion": {
-      "valor": 20.7,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "timestamp": "2026-03-10T21:07:38.411Z"
-  },
-  {
-    "id": "wong_sopadelentejasauga43_mml3pwdn",
+    "id": "wong_sopadelentejasauga43_mmnsuiq6",
     "nombre": "Sopa de Lentejas Auga 430g",
     "categoria": "lentejas",
     "super": "wong",
     "precios": {
       "online": 19.9,
       "regular": 19.9,
-      "porUnidad": 46.28
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 46.28,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 430,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:38.411Z"
-  },
-  {
-    "id": "wong_huevodepascuasorpres_mml3pwdn",
-    "nombre": "Huevo de Pascua Sorpresa Lentejas 101.5g",
-    "categoria": "lentejas",
-    "super": "wong",
-    "precios": {
-      "online": 16.9,
-      "regular": 18.9,
-      "porUnidad": 166.5
-    },
-    "presentacion": {
-      "valor": 101.5,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 11,
-    "timestamp": "2026-03-10T21:07:38.411Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:36.750Z"
   }
 ]

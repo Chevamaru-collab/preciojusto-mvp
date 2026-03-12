@@ -1,31 +1,38 @@
 [
   {
-    "id": "wong_lechefrescapiamonteb_mml3piol",
+    "id": "wong_lechefrescapiamonteb_mmnsu6tt",
     "nombre": "Leche Fresca Piamonte Botella 950 ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 8.9,
       "regular": 8.9,
-      "porUnidad": 9.37
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.37,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 950,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lechefrescadechocola_mml3piol",
+    "id": "wong_lechefrescadechocola_mmnsu6tt",
     "nombre": "Leche Fresca de Chocolate Piamonte Botella 950 ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 11.5,
       "regular": 12.9,
-      "porUnidad": 12.11
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.11,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 950,
@@ -33,319 +40,369 @@
       "pack": 1
     },
     "descuento": 11,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheenterapasteuriz_mml3piol",
-    "nombre": "Leche Entera Pasteurizada Danlac Botella 900ml",
+    "id": "wong_lecheenterapasteuriz_mmnsu6tt",
+    "nombre": "Leche Entera Pasteurizada Danlac Sabor Chocolate Botella 900ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
-      "online": 7.6,
-      "regular": 7.6,
-      "porUnidad": 8.44
+      "online": 8.9,
+      "regular": 8.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.89,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 900,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lechesemidescremadau_mml3piol",
+    "id": "wong_lechesemidescremadau_mmnsu6tt",
     "nombre": "Leche Semidescremada UHT Laive Light 900ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 5.5,
       "regular": 5.5,
-      "porUnidad": 6.11
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.11,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 900,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheuhtsinlactosagl_mml3piol",
+    "id": "wong_lecheuhtsinlactosagl_mmnsu6tt",
     "nombre": "Leche UHT Sin Lactosa Gloria Zero Lacto Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 6.5,
       "regular": 6.5,
-      "porUnidad": 6.87
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.87,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheenterauhtgloria_mml3piol",
+    "id": "wong_lecheenterauhtgloria_mmnsu6tt",
     "nombre": "Leche Entera UHT Gloria Bolsa 800ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 5.5,
       "regular": 5.5,
-      "porUnidad": 6.88
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.88,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 800,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheuhtglorialightc_mml3piol",
+    "id": "wong_lecheuhtglorialightc_mmnsu6tt",
     "nombre": "Leche UHT Gloria Light Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 6.5,
       "regular": 6.5,
-      "porUnidad": 6.87
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.87,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheuhtvigorbolsa80_mml3piol",
+    "id": "wong_lecheuhtvigorbolsa80_mmnsu6tt",
     "nombre": "Leche Uht Vigor Bolsa 800ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 5.2,
       "regular": 5.2,
-      "porUnidad": 6.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 800,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lechedescremadauhtla_mml3piol",
+    "id": "wong_lechedescremadauhtla_mmnsu6tt",
     "nombre": "Leche Descremada UHT Laive Sbelt Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 6.5,
       "regular": 6.5,
-      "porUnidad": 6.87
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.87,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheuhtdescremadagl_mml3piol",
+    "id": "wong_lecheuhtdescremadagl_mmnsu6tt",
     "nombre": "Leche UHT Descremada Gloria Slim Triple Zero Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 6.5,
       "regular": 6.5,
-      "porUnidad": 6.87
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.87,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheenterauhtlaivec_mml3piol",
+    "id": "wong_lecheenterauhtlaivec_mmnsu6tt",
     "nombre": "Leche Entera UHT Laive Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 6.2,
       "regular": 6.2,
-      "porUnidad": 6.55
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.55,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheuhtenteracuisin_mml3piol",
+    "id": "wong_lecheuhtenteracuisin_mmnsu6tt",
     "nombre": "Leche UHT Entera Cuisine & Co Caja 1 lt",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 5.8,
       "regular": 5.8,
-      "porUnidad": 5.8
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 1,
       "unidad": "lt",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheuhtsinlactosacu_mml3piol",
+    "id": "wong_lecheuhtsinlactosacu_mmnsu6tt",
     "nombre": "Leche UHT Sin Lactosa Cuisine & Co Caja 1L",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 5.8,
       "regular": 5.8,
-      "porUnidad": 5.8
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.8,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 1,
       "unidad": "lt",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheuhtvigorlightbo_mml3piol",
+    "id": "wong_lecheuhtvigorlightbo_mmnsu6tt",
     "nombre": "Leche UHT Vigor Light Bolsa 800ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 5.2,
       "regular": 5.2,
-      "porUnidad": 6.5
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.5,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 800,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheuhtlightlaivesi_mml3piol",
-    "nombre": "Leche UHT Light Laive Sin Lactosa Bolsa 800ml",
-    "categoria": "leche-fresca",
-    "super": "wong",
-    "precios": {
-      "online": 5.6,
-      "regular": 5.6,
-      "porUnidad": 7
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
-  },
-  {
-    "id": "wong_lecheenterauhtlaive8_mml3piol",
+    "id": "wong_lecheenterauhtlaive8_mmnsu6tt",
     "nombre": "Leche Entera UHT Laive 800ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 5.4,
       "regular": 5.4,
-      "porUnidad": 6.75
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.75,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 800,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheparcialmentedes_mml3piol",
+    "id": "wong_lecheuhtlightlaivesi_mmnsu6tt",
+    "nombre": "Leche UHT Light Laive Sin Lactosa Bolsa 800ml",
+    "categoria": "leche-fresca",
+    "super": "wong",
+    "precios": {
+      "online": 5.6,
+      "regular": 5.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 800,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
+  },
+  {
+    "id": "wong_lecheparcialmentedes_mmnsu6tt",
     "nombre": "Leche Parcialmente Descremada UHT Gloria Zero Lacto",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 14.9,
       "regular": 14.9,
-      "porUnidad": 14.9
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 14.9,
+      "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_lecheenteradeslactos_mml3piol",
-    "nombre": "Leche Entera Deslactosada con Café Danlac Capuccino Botella 250ml",
-    "categoria": "leche-fresca",
-    "super": "wong",
-    "precios": {
-      "online": 4.7,
-      "regular": 4.7,
-      "porUnidad": 18.8
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
-  },
-  {
-    "id": "wong_tripacklecheuhtsinla_mml3piol",
+    "id": "wong_tripacklecheuhtsinla_mmnsu6tt",
     "nombre": "Tripack Leche UHT Sin Lactosa Gloria Zero Lacto Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
-      "online": 16.5,
+      "online": 15.9,
       "regular": 18.5,
-      "porUnidad": 17.44
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.81,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 11,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_tripacklecheenterauh_mml3piol",
+    "id": "wong_tripacklecheenterauh_mmnsu6tt",
     "nombre": "Tripack Leche Entera UHT Gloria Bolsa 800ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 13.5,
       "regular": 15.7,
-      "porUnidad": 16.88
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.88,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 800,
@@ -353,53 +410,65 @@
       "pack": 1
     },
     "descuento": 14,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_fourpacklechesemides_mml3piol",
+    "id": "wong_fourpacklechesemides_mmnsu6tt",
     "nombre": "Fourpack Leche Semidescremada UHT Laive Light Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 23.9,
       "regular": 23.9,
-      "porUnidad": 25.26
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.26,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_tripacklecheuhtglori_mml3piol",
+    "id": "wong_tripacklecheuhtglori_mmnsu6tt",
     "nombre": "Tripack Leche UHT Gloria Light Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
-      "online": 16.5,
+      "online": 15.9,
       "regular": 18.5,
-      "porUnidad": 17.44
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.81,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 11,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_tripacklecheuhtdescr_mml3piol",
+    "id": "wong_tripacklecheuhtdescr_mmnsu6tt",
     "nombre": "Tripack Leche UHT Descremada Gloria Slim Triple Zero Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 15.5,
       "regular": 18.5,
-      "porUnidad": 16.38
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.38,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
@@ -407,53 +476,65 @@
       "pack": 1
     },
     "descuento": 16,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_fourpacklecheenterau_mml3piol",
+    "id": "wong_fourpacklecheenterau_mmnsu6tt",
     "nombre": "Fourpack Leche Entera UHT Laive Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 23.9,
       "regular": 23.9,
-      "porUnidad": 25.26
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.26,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_fourpacklechedescrem_mml3piol",
+    "id": "wong_fourpacklechedescrem_mmnsu6tt",
     "nombre": "Fourpack Leche Descremada UHT Laive Sbelt Caja 946ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 24.9,
       "regular": 24.9,
-      "porUnidad": 26.32
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 26.32,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 946,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 0,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   },
   {
-    "id": "wong_sixpacklecheuhtlaive_mml3piol",
+    "id": "wong_sixpacklecheuhtlaive_mmnsu6tt",
     "nombre": "Sixpack Leche UHT Laive Sabor Chocolate 170ml",
     "categoria": "leche-fresca",
     "super": "wong",
     "precios": {
       "online": 8.5,
       "regular": 9.9,
-      "porUnidad": 50
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 50,
+      "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 170,
@@ -461,6 +542,7 @@
       "pack": 1
     },
     "descuento": 14,
-    "timestamp": "2026-03-10T21:07:20.661Z"
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T18:26:21.329Z"
   }
 ]
