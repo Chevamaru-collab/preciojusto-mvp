@@ -1,37 +1,81 @@
 const fs = require('fs');
 const path = require('path');
+const utils = require('./utils'); // for isRelevant logic as per quality rules
 
+const DATA_DIR = path.join(__dirname, '..', 'data');
 const DATA_JS_PATH = path.join(__dirname, '..', 'data.js');
-const WONG_JSON_PATH = path.join(__dirname, '..', '..', 'data', 'wong-arroz.json');
-const METRO_JSON_PATH = path.join(__dirname, '..', '..', 'data', 'metro-arroz.json');
+
+// Mapa super: scraper id -> app nombre
+const SUPER_MAP = {
+    'wong': 'Wong',
+    'metro': 'Metro',
+    'plazavea': 'Plaza Vea',
+    'tottus': 'Tottus'
+};
+
+// Mapa categoría: scraper id -> app nombre
+const CAT_MAP = {
+    'arroz': 'Arroz',
+    'aceite': 'Aceite',
+    'azucar-blanca': 'Azúcar Blanca',
+    'azucar-rubia': 'Azúcar Rubia',
+    'harina': 'Harina',
+    'avena': 'Avena',
+    'fideos': 'Fideos',
+    'pollo': 'Pollo',
+    'huevos': 'Huevos',
+    'leche-evaporada': 'Leche Evaporada',
+    'leche-fresca': 'Leche Fresca',
+    'mantequilla': 'Mantequilla',
+    'lentejas': 'Lentejas',
+    'frijol-canario': 'Frijol Canario',
+    'pan-molde': 'Pan de Molde'
+};
 
 function extractMarca(nombre) {
     const marcas = [
-        'Costeño', 'Faraón', 'Valle Norte', 'Vallenorte', 'Paisana', 'Wong',
-        'Metro', 'Cuisine & Co', 'Bell\'s', 'Gran Chalán', 'Mizu', 'Huella Verde', 
+        'Costeño', 'Mochica', 'Faraón', 'Tottus', 'Bell\'s', 'Bells',
+        'Paisana', 'Vallenorte', 'Valle Norte', 'Doña Isolina', 'Rímac', 'La Preferida',
+        'Primor', 'Cil', 'Capri', 'Sello de Oro', 'Dorina', 'Friol',
+        'Gloria', 'Laive', 'Pura Vida', 'Anchor', 'Bonle', 'Miami',
+        'Wong', 'Metro', 'Cuisine & Co', 'Eco', 'Molitalia', 'Don Victorio', 'Cayetano',
+        'Nicolini', 'Lavaggi', 'Buli', 'Alianza', 'Maximo',
+        'San Fernando', 'La Molina', 'Redondos', 'Benedetti', 'Gran Chalán', 'Mizu', 'Huella Verde', 
         'Inverni', 'Miyabi-Mai', 'Bárcidda', 'Kellogg\'s', 'Ricocan', 'Pedigree'
     ];
-    const lower = nombre.toLowerCase();
+    const nb = nombre.toLowerCase();
     for (const m of marcas) {
-        if (lower.includes(m.toLowerCase())) {
-            // Normalizar "Valle Norte" a "Vallenorte" por consistencia si lo prefieren,
-            // pero lo dejaremos como coincide.
-            return m;
-        }
+        if (nb.includes(m.toLowerCase())) return m;
     }
-    return 'Arroz';
+    const tokens = nombre.split(' ');
+    if (tokens[0] && /^[A-ZÁÉÍÓÚ]/.test(tokens[0]) && tokens[0].length > 2) {
+        return tokens[0];
+    }
+    return 'Genérico';
 }
 
-function extractTipo(nombre) {
-    const tipos = [
-        'Extra Añejo', 'Añejo Extra', 'Gran Reserva', 'Superior', 'Integral', 
-        'Parbolizado', 'Japónico', 'Arborio', 'Carnaroli', 'Extra'
-    ];
-    const lower = nombre.toLowerCase();
-    for (const t of tipos) {
-        if (lower.includes(t.toLowerCase())) return t;
+function extractTipo(nombre, categoria) {
+    const nb = nombre.toLowerCase();
+    if (categoria === 'Arroz') {
+        if (nb.includes('integral')) return 'Integral';
+        if (nb.includes('gran reserva')) return 'Gran Reserva';
+        if (nb.includes('añejo extra') || nb.includes('anejo extra')) return 'Añejo Extra';
+        if (nb.includes('extra añejo') || nb.includes('extra anejo')) return 'Extra Añejo';
+        if (nb.includes('extra')) return 'Extra';
+        if (nb.includes('superior')) return 'Superior';
+        return 'Extra'; 
     }
-    return 'Extra';
+    if (categoria === 'Aceite') {
+        if (nb.includes('oliva')) return 'De Oliva';
+        if (nb.includes('girasol')) return 'De Girasol';
+        if (nb.includes('cártamo') || nb.includes('cartamo')) return 'De Cártamo';
+        return 'Vegetal';
+    }
+    const words = ['molida', 'entera', 'fresca', 'congelada', 'filetes', 'bolsa', 'caja'];
+    for (const w of words) {
+        if (nb.includes(w)) return w.charAt(0).toUpperCase() + w.slice(1);
+    }
+    return categoria;
 }
 
 function parseCurrency(val) {
@@ -43,14 +87,17 @@ function formatFecha(timestampStr) {
     return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
 }
 
-function normalizePuppeteerItem(item) {
+function normalizePuppeteerItem(item, catId) {
+    const categoria = CAT_MAP[catId] || catId;
+    const superNombre = SUPER_MAP[item.super] || (item.super === 'wong' ? 'Wong' : (item.super === 'metro' ? 'Metro' : item.super));
+
     return {
         fecha: formatFecha(item.timestamp),
-        super: item.super === 'wong' ? 'Wong' : (item.super === 'metro' ? 'Metro' : item.super),
+        super: superNombre,
         item: item.nombre,
-        categoria: 'Arroz',
+        categoria: categoria,
         marca: extractMarca(item.nombre),
-        tipo: extractTipo(item.nombre),
+        tipo: extractTipo(item.nombre, categoria),
         clase: null,
         precioOnline: parseCurrency(item.precios?.online),
         precioRegular: parseCurrency(item.precios?.regular) || 0,
@@ -78,7 +125,7 @@ async function main() {
     }
 
     const mergedMap = new Map();
-    // 1. Cargar existentes (Browse.AI priority)
+    // 1. Cargar existentes
     for (const d of existingData) {
         const key = `${d.super}|${d.item}|${d.fecha}`.toLowerCase();
         mergedMap.set(key, d);
@@ -87,30 +134,30 @@ async function main() {
     let addedCount = 0;
     let discardedCount = 0;
 
-    // 2. Leer Wong JSON
-    if (fs.existsSync(WONG_JSON_PATH)) {
-        const pData = JSON.parse(fs.readFileSync(WONG_JSON_PATH, 'utf8'));
-        console.log(`[Wong] Leídos ${pData.length} registros raw.`);
-        for (const raw of pData) {
-            const norm = normalizePuppeteerItem(raw);
-            const key = `${norm.super}|${norm.item}|${norm.fecha}`.toLowerCase();
-            if (mergedMap.has(key)) {
-                discardedCount++;
-            } else {
-                mergedMap.set(key, norm);
-                addedCount++;
-            }
-        }
-    } else {
-        console.log(`[Wong] No se encontró el archivo: ${WONG_JSON_PATH}`);
-    }
+    const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json') && !f.includes('master-data'));
+    console.log(`[Merge] Procesando ${files.length} archivos JSON en ${DATA_DIR}...`);
 
-    // 3. Leer Metro JSON
-    if (fs.existsSync(METRO_JSON_PATH)) {
-        const pData = JSON.parse(fs.readFileSync(METRO_JSON_PATH, 'utf8'));
-        console.log(`[Metro] Leídos ${pData.length} registros raw.`);
-        for (const raw of pData) {
-            const norm = normalizePuppeteerItem(raw);
+    for (const file of files) {
+        const filepath = path.join(DATA_DIR, file);
+        let products;
+        try {
+            products = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+        } catch (e) {
+            console.warn(`[Merge] Error leyendo ${file}: ${e.message}`);
+            continue;
+        }
+
+        if (!Array.isArray(products) || products.length === 0) continue;
+
+        // "wong-arroz.json" -> catId "arroz"
+        const parts = file.replace('.json', '').split('-');
+        const catId = parts.slice(1).join('-');
+
+        // Filtro estricto usando isRelevant
+        const validProducts = products.filter(p => utils.isRelevant(p.nombre || '', catId));
+
+        for (const raw of validProducts) {
+            const norm = normalizePuppeteerItem(raw, catId);
             const key = `${norm.super}|${norm.item}|${norm.fecha}`.toLowerCase();
             if (mergedMap.has(key)) {
                 discardedCount++;
@@ -119,8 +166,7 @@ async function main() {
                 addedCount++;
             }
         }
-    } else {
-        console.log(`[Metro] No se encontró el archivo: ${METRO_JSON_PATH}`);
+        console.log(`[Merge] ${file}: +${validProducts.length} procesados (${products.length - validProducts.length} filtrados)`);
     }
 
     const finalDataset = Array.from(mergedMap.values());
@@ -133,6 +179,18 @@ async function main() {
 
     fs.writeFileSync(DATA_JS_PATH, finalContent, 'utf8');
     console.log(`✅ ¡Éxito! Dataset maestro actualizado en MVP/data.js`);
+
+    // Reporte: productos por super y categoría
+    const bySuper = {};
+    const byCat = {};
+    for (const p of finalDataset) {
+        bySuper[p.super] = (bySuper[p.super] || 0) + 1;
+        byCat[p.categoria] = (byCat[p.categoria] || 0) + 1;
+    }
+    console.log('\n--- REPORTE POR SUPERMERCADO ---');
+    console.table(bySuper);
+    console.log('\n--- REPORTE POR CATEGORÍA ---');
+    console.table(byCat);
 }
 
 main();
