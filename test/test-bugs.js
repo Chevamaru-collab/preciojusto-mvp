@@ -51,8 +51,8 @@ function section(title) {
 function normalizeUnits(rawData) {
     rawData.forEach(d => {
         if (!d.um) return;
-        // Bug #6 fix: skip products with invalid vt (prevents price/0 = Infinity)
-        if (!d.vt || d.vt <= 0) return;
+        // Bug #6 fix: si vt=0, limpiar pxum pre-calculado para que no escape al render
+        if (!d.vt || d.vt <= 0) { d.pxum = null; return; }
         const u = d.um.toLowerCase().trim();
         if (u === 'g' || u === 'gr') {
             d.vt = d.vt / 1000;
@@ -105,16 +105,31 @@ section('BUG #6 — normalizeUnits() precios absurdos en Arroz');
     assertBelow(pxum, 50, '#6.2 arroz 900g: pxum debe ser < S/50/kg (razonable)');
 }
 
-// ─── Test #6.3: vt=0 — normalizeUnits debe dejar el producto sin modificar (inválido) ────
+// ─── Test #6.3: vt=0 — normalizeUnits debe anular pxum pre-calculado ────────
 {
-    const row = { item: 'Arroz Genérico 0g', um: 'g', vt: 0, precioOnline: 5.5 };
+    const row = { item: 'Arroz Genérico 0g', um: 'g', vt: 0, precioOnline: 5.5, pxum: 8900 };
     normalizeUnits([row]);
-    // Fix correcto: guard retorna sin modificar el producto cuando vt<=0
-    // d.vt queda en 0 (falsy) → el producto será excluido del render (pxum no se calcula)
-    // Verificamos que el guard NO dividió 0/1000 (lo que daría vt=-0 o NaN en algunos casos)
-    assert(!row.vt || row.vt === 0, '#6.3 vt=0: normalizeUnits no modifica vt inválido (sigue siendo 0/null)');
-    // Verificamos que el um NO se cambió (el guard debería haber cortado antes de cambiar um)
-    assertEqual(row.um, 'g', '#6.3 vt=0: um no debe cambiar cuando vt es inválido');
+    // Fix real: cuando vt<=0, el pxum pre-calculado (absurdo) debe ser anulado
+    assert(row.pxum === null, '#6.3 vt=0: normalizeUnits debe anular pxum absurdo pre-calculado');
+    assert(!row.vt || row.vt === 0, '#6.3 vt=0: vt no se modifica (permanece inválido)');
+    assertEqual(row.um, 'g', '#6.3 vt=0: um no cambia cuando vt es inválido');
+}
+
+// ─── Test #6.6: getFiltered debe excluir filas con pxum absurdo (>500) ────────
+{
+    function getFilteredTest(data) {
+        return data.filter(d => {
+            if (!d.vt || d.vt <= 0) return false;
+            if (d.pxum && (d.pxum > 500 || !isFinite(d.pxum))) return false;
+            return true;
+        });
+    }
+    const badRow  = { item: 'Arroz vt0', um: 'kg', vt: 0,   precioOnline: 8.9, pxum: 8900 };
+    const goodRow = { item: 'Arroz 5kg', um: 'kg', vt: 5,   precioOnline: 22.9, pxum: 4.58 };
+    const infRow  = { item: 'Arroz inf', um: 'kg', vt: 0.001, precioOnline: 8.9, pxum: Infinity };
+    const filtered = getFilteredTest([badRow, goodRow, infRow]);
+    assertEqual(filtered.length, 1, '#6.6 getFiltered: solo 1 fila válida pasa (vt>0 y pxum<500)');
+    assertEqual(filtered[0].item, 'Arroz 5kg', '#6.6 getFiltered: la fila válida es "Arroz 5kg"');
 }
 
 // ─── Test #6.4: Llamada doble a normalizeUnits no debe re-dividir ─────────────

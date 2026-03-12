@@ -38,8 +38,8 @@ function normalizeUnits() {
     if (typeof rawData === 'undefined') return;
     rawData.forEach(d => {
         if (!d.um) return;
-        // Bug #6 fix: skip products with invalid vt (prevents price/0 = Infinity)
-        if (!d.vt || d.vt <= 0) return;
+        // Bug #6 fix: si vt=0, limpiar pxum pre-calculado para que no escape al render
+        if (!d.vt || d.vt <= 0) { d.pxum = null; return; }
         const u = d.um.toLowerCase().trim();
         if (u === 'g' || u === 'gr') {
             d.vt = d.vt / 1000;
@@ -79,6 +79,9 @@ function prodKeyFn(d) {
 }
 function getFiltered(data) {
     return data.filter(d => {
+        // Bug #6 fix: excluir filas con datos de presentación inválidos o pxum absurdo
+        if (!d.vt || d.vt <= 0) return false;
+        if (d.pxum && (d.pxum > 500 || !isFinite(d.pxum))) return false;
         if (filters.categoria !== 'Todos' && d.categoria !== filters.categoria) return false;
         if (filters.super !== 'Todos' && d.super !== filters.super) return false;
         if (filters.tipo !== 'Todos' && d.tipo !== filters.tipo) return false;
