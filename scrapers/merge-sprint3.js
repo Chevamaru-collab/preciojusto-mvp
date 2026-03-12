@@ -87,24 +87,48 @@ function formatFecha(timestampStr) {
     return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
 }
 
+function generateStableId(superNombre, itemNombre) {
+    const clean = itemNombre.toLowerCase().replace(/[^a-z0-9]/g, '').substring(0, 40);
+    const sId = superNombre.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return `${sId}_${clean}`;
+}
+
 function normalizePuppeteerItem(item, catId) {
     const categoria = CAT_MAP[catId] || catId;
     const superNombre = SUPER_MAP[item.super] || (item.super === 'wong' ? 'Wong' : (item.super === 'metro' ? 'Metro' : item.super));
 
+    let rubro = "Abarrotes";
+    if (['Pollo', 'Carne', 'Pescado'].includes(categoria)) rubro = "Carnes";
+    if (['Verduras', 'Frutas'].includes(categoria)) rubro = "Frescos";
+    if (['Leche Evaporada', 'Leche Fresca', 'Mantequilla', 'Huevos'].includes(categoria)) rubro = "Lácteos y Huevos";
+    if (['Pan de Molde'].includes(categoria)) rubro = "Panadería";
+
     return {
+        // --- SPRINT 4 NEW SCHEMA ---
+        product_id: generateStableId(superNombre, item.nombre),
+        supermercado: superNombre,
+        rubro: rubro,
+        categoria: categoria,
+        tipo: extractTipo(item.nombre, categoria),
+        presentacion: item.presentacion?.valor || 1,
+        precio_x_presentacion: parseCurrency(item.precios?.online),
+        precio_x_um: parseCurrency(item.precios?.porUnidad),
+        um: item.presentacion?.unidad || 'u',
+        precio_online: parseCurrency(item.precios?.online),
+        precio_regular: parseCurrency(item.precios?.regular) || 0,
+        precio_tarjeta: parseCurrency(item.precios?.tarjeta) || null,
+        descuento_publicado: (item.descuento && item.descuento > 0) ? -item.descuento : null,
+
+        // --- LEGACY SCHEMA (kept for backwards compatibility) ---
         fecha: formatFecha(item.timestamp),
         super: superNombre,
         item: item.nombre,
-        categoria: categoria,
         marca: extractMarca(item.nombre),
-        tipo: extractTipo(item.nombre, categoria),
         clase: null,
         precioOnline: parseCurrency(item.precios?.online),
         precioRegular: parseCurrency(item.precios?.regular) || 0,
         descuento: (item.descuento && item.descuento > 0) ? -item.descuento : null,
-        presentacion: item.presentacion?.valor || 1,
         vt: item.presentacion?.valor || 1,
-        um: item.presentacion?.unidad || 'u',
         pxum: parseCurrency(item.precios?.porUnidad),
         pack: item.presentacion?.pack || 1
     };
@@ -127,6 +151,27 @@ async function main() {
     const mergedMap = new Map();
     // 1. Cargar existentes
     for (const d of existingData) {
+        // Backfill new schema fields if missing
+        if (!d.product_id) d.product_id = generateStableId(d.super, d.item);
+        if (!d.supermercado) d.supermercado = d.super;
+        if (!d.rubro) {
+            let r = "Abarrotes";
+            if (['Pollo', 'Carne', 'Pescado', 'carne', 'pollo', 'pescado'].includes(d.categoria)) r = "Carnes";
+            if (['Verduras', 'Frutas', 'verduras', 'frutas'].includes(d.categoria)) r = "Frescos";
+            if (['Leche Evaporada', 'Leche Fresca', 'Mantequilla', 'Huevos', 'leche', 'huevos', 'mantequilla'].includes(d.categoria)) r = "Lácteos y Huevos";
+            if (['Pan de Molde', 'pan'].includes(d.categoria)) r = "Panadería";
+            d.rubro = r;
+        }
+        if (!d.tipo) d.tipo = extractTipo(d.item, d.categoria);
+        if (d.presentacion === undefined) d.presentacion = d.vt || 1;
+        if (d.precio_x_presentacion === undefined) d.precio_x_presentacion = d.precioOnline;
+        if (d.precio_x_um === undefined) d.precio_x_um = d.pxum;
+        if (!d.um) d.um = d.um || 'u';
+        if (d.precio_online === undefined) d.precio_online = d.precioOnline;
+        if (d.precio_regular === undefined) d.precio_regular = d.precioRegular || 0;
+        if (d.precio_tarjeta === undefined) d.precio_tarjeta = null;
+        if (d.descuento_publicado === undefined) d.descuento_publicado = d.descuento || null;
+
         const key = `${d.super}|${d.item}|${d.fecha}`.toLowerCase();
         mergedMap.set(key, d);
     }
