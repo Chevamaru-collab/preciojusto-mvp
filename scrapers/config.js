@@ -72,7 +72,8 @@ module.exports = {
       // URL categoría directa (/arroz) funciona con 160 productos sin sesión.
       // Para búsquedas generales usar ?_q=&map=ft con término de categoría.
       searchUrl: 'https://www.wong.pe/',
-      color: '#f5a623'
+      color: '#f5a623',
+      activo: true
     },
     metro: {
       id: 'metro',
