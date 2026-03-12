@@ -34,9 +34,39 @@ function getCatUnit(cat) {
     return liquids.includes(cat) ? 'L' : 'kg';
 }
 
+// ---- NORMALIZAR CATEGORÍA (Bug #8 fix: unifica casing aceite/Aceite, arroz/Arroz...) ----
+const CAT_NORM_MAP = {
+    'aceite':'Aceite','arroz':'Arroz','avena':'Avena','azucar':'Azucar',
+    'azucar-blanca':'Azúcar Blanca','azucar-rubia':'Azúcar Rubia','carne':'Carne',
+    'condimentos':'Condimentos','fideos':'Fideos','frijol-canario':'Frijol Canario',
+    'frutas':'Frutas','harina':'Harina','huevos':'Huevos','leche':'Leche',
+    'leche-evaporada':'Leche Evaporada','leche-fresca':'Leche Fresca',
+    'lentejas':'Lentejas','mantequilla':'Mantequilla','menestras':'Menestras',
+    'pan':'Pan','pan-molde':'Pan de Molde','pescado':'Pescado','pollo':'Pollo','verduras':'Verduras'
+};
+function normalizeCat(cat) {
+    if (!cat) return cat;
+    return CAT_NORM_MAP[cat.toLowerCase()] || cat;
+}
+
+// ---- DETECTAR PESCADO EN CONSERVA (Bug #10 fix: Filete de Atún → Pescado, no Aceite) ----
+function isFishInOilProduct(item) {
+    const n = (item || '').toLowerCase();
+    return ['filete de atún','filete de atun','filete de bonito','filete de jurel',
+        'filete de caballa','anchoveta en aceite','entero de anchoveta',
+        'trozos de atún','trozos de atun','trozos de jurel',
+        'grated de atún','grated de atun','sardinas en aceite','filete de sardina'
+    ].some(k => n.includes(k));
+}
+
 function normalizeUnits() {
+
     if (typeof rawData === 'undefined') return;
     rawData.forEach(d => {
+        // Bug #8 fix: normalizar casing de categoría
+        d.categoria = normalizeCat(d.categoria);
+        // Bug #10 fix: reclasificar pescado en conserva que estaba en Aceite
+        if (d.categoria === 'Aceite' && isFishInOilProduct(d.item)) d.categoria = 'Pescado';
         if (!d.um) return;
         // Bug #6 fix: si vt=0, limpiar pxum pre-calculado para que no escape al render
         if (!d.vt || d.vt <= 0) { d.pxum = null; return; }
@@ -298,7 +328,12 @@ const ListaManager = {
 // ---- FILTER TOGGLE ----
 window.setFilter = function (dim, value, el) {
     filters[dim] = value;
-    if (dim === 'categoria') {
+    if (dim === 'super') {
+        // Bug #9 fix: cascada — cambiar super resetea cat+tipo+marca+presentación y reconstruye chips
+        filters.categoria = 'Todos'; filters.tipo = 'Todos'; filters.marca = 'Todos'; filters.presentacion = 'Todos';
+        setupCatChips();
+        updateTipoOptions(); updateMarcaOptions(); updatePresentacionOptions();
+    } else if (dim === 'categoria') {
         filters.tipo = 'Todos'; filters.marca = 'Todos'; filters.presentacion = 'Todos';
         updateTipoOptions(); updateMarcaOptions(); updatePresentacionOptions();
     } else if (dim === 'tipo') {
@@ -708,17 +743,18 @@ function fmtCatFn(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-// ---- CATEGORY CHIPS (dynamic from data) ----
+// ---- CATEGORY CHIPS (Bug #8 + #9 fix: dinámico por super, sin duplicados) ----
 function setupCatChips() {
     const container = document.getElementById('filter-cat');
     if (!container) return;
-    const cats = [...new Set(rawData.map(d => d.categoria))].sort();
-    
+    // Filtrar data por el super activo antes de listar categorías
+    const base = filters.super === 'Todos' ? rawData : rawData.filter(d => d.super === filters.super);
+    const cats = [...new Set(base.map(d => normalizeCat(d.categoria)).filter(Boolean))].sort();
     container.innerHTML = `
         <button class="chip active" data-value="Todos" onclick="setFilter('categoria','Todos',this)">🛒 Todos</button>
         ${cats.map(c => {
             const e = getCatEmoji(c);
-            return `<button class="chip" data-value="${c}" onclick="setFilter('categoria','${c}',this)">${e} ${fmtCatFn(c)}</button>`;
+            return `<button class="chip${filters.categoria === c ? ' active' : ''}" data-value="${c}" onclick="setFilter('categoria','${c}',this)">${e} ${fmtCatFn(c)}</button>`;
         }).join('')}
     `;
 }
