@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_pollorostizadopapasf_mmmjoqkm",
+    "id": "plazavea_pollorostizadopapasf_mmnru6dh",
     "nombre": "Pollo Rostizado + Papas Fritas",
     "categoria": "pollo",
     "super": "plazavea",
@@ -15,10 +15,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
+    "timestamp": "2026-03-12T17:58:21.125Z"
   },
   {
-    "id": "plazavea_hamburguesadepolloca_mmmjoqkm",
+    "id": "plazavea_hamburguesadepolloca_mmnru6dh",
     "nombre": "Hamburguesa de Pollo Casera x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -33,160 +33,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
+    "timestamp": "2026-03-12T17:58:21.125Z"
   },
   {
-    "id": "plazavea_alimentoparagatopuri_mmmjoqkm",
-    "nombre": "Alimento para Gato PURINA ONE Adulto Sabor Pollo y Salmón Bolsa 6Kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 156,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 26,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 6,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_alimentoparagatorico_mmmjoqkm",
-    "nombre": "Alimento para Gato RICOCAT Adulto Pollo, Sardina y Salmón Bolsa 9Kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 79.9,
-      "regular": 92.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.88,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 9,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_alimentoparagatofris_mmmjoqkm",
-    "nombre": "Alimento para Gato FRISKIES Gatito Pollo, Zanahoria y Leche Bolsa 7.5Kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 95.5,
-      "regular": 99.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.73,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 7.5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 4,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_alimentoparagatochur_mmmjoqkm",
-    "nombre": "Alimento para Gato CHURU Pollo con Vieira Pouch 56g",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 11.2,
-      "regular": 11.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 200,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 56,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 3,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_comidaparaperrosenio_mmmjoqkm",
-    "nombre": "Comida para Perro Senior Canbo Todas las Razas Pollo 15 kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 247.9,
-      "regular": 285.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.53,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 15,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 13,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_snackcremosogatochur_mmmjoqkm",
-    "nombre": "Snack Cremoso Gato Churu Sabor Atun y Pollo 6 x 14gr",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 96,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 1142.86,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 14,
-      "unidad": "g",
-      "pack": 6
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_snackparagatoschuruv_mmmjoqkm",
-    "nombre": "Snack para Gatos Churu Vet Diet Atún y Pollo x50",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 180,
-      "regular": 229.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 180,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": 22,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_miocanesuperpremiums_mmmjoqkm",
+    "id": "plazavea_miocanesuperpremiums_mmnru6dh",
     "nombre": "Mio Cane Super Premium Senior 15 Kg y GRATIS Go Pet Patas de Pollo Deshidratadas x 10",
     "categoria": "pollo",
     "super": "plazavea",
@@ -205,10 +55,10 @@
     },
     "descuento": 11,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
+    "timestamp": "2026-03-12T17:58:21.125Z"
   },
   {
-    "id": "plazavea_comidaparagatitoscan_mmmjoqkm",
+    "id": "plazavea_comidaparagatitoscan_mmnru6dh",
     "nombre": "Comida para Gatitos Canbo Desarrollo Inicial Pollo 3 kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -227,208 +77,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
+    "timestamp": "2026-03-12T17:58:21.125Z"
   },
   {
-    "id": "plazavea_alimentoparagatosgra_mmmjoqkm",
-    "nombre": "Alimento para gatos Gran plus castrados adultos pollo y arroz 10 kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 211.9,
-      "regular": 228.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 21.19,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 10,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 7,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_alimentohmedoparaper_mmmjoqkm",
-    "nombre": "Alimento Húmedo para Perro RICOCAN Cachorro Sabor Pollo Pouch 100g",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 30,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 100,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_alimentoparaperroram_mmmjoqkm",
-    "nombre": "Alimento para Perro RAMBALA Snack Patas de Pollo Doypack 20un",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 16.1,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.81,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 20,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_alimentoparagatocatc_mmmjoqkn",
-    "nombre": "Alimento para Gato CAT CHOW Adulto Sabor Carne, Salmón y Pollo Bolsa 1Kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 22.5,
-      "regular": 23.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 22.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 4,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.262Z"
-  },
-  {
-    "id": "plazavea_alimentohmedoparagat_mmmjoqkn",
-    "nombre": "Alimento Húmedo para Gato RICOCAT Gatito Sabor Pollo y Carne Lata 180g",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 4.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.263Z"
-  },
-  {
-    "id": "plazavea_alimentoparagatofris_mmmjoqkn",
-    "nombre": "Alimento para Gato FRISKIES Gatito Pollo, Zanahoria y Leche Bolsa 1Kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 19.9,
-      "regular": 21.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 19.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 7,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.263Z"
-  },
-  {
-    "id": "plazavea_alimentoparagatorico_mmmjoqkn",
-    "nombre": "Alimento para Gato RICOCAT Adulto Sabor Pollo, Sardina y Salmón Bolsa 15Kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 149.9,
-      "regular": 152.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 9.99,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 15,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 2,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.263Z"
-  },
-  {
-    "id": "plazavea_alimentoparagatopuri_mmmjoqkn",
-    "nombre": "Alimento para Gato PURINA ONE Gatito Sabor Pollo y Carne Bolsa 500g",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 20.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 41.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.263Z"
-  },
-  {
-    "id": "plazavea_alimentoparaperroone_mmmjoqkn",
-    "nombre": "Alimento para Perro ONE Adulto Minis y Pequeños Sabor Pollo y Cordero Bolsa 6Kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 104.9,
-      "regular": 112,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 17.48,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 6,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 6,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.263Z"
-  },
-  {
-    "id": "plazavea_polloenterofrescocon_mmmjoqkn",
+    "id": "plazavea_polloenterofrescocon_mmnru6dh",
     "nombre": "Pollo Entero Fresco con Menudencia x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -443,10 +95,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.263Z"
+    "timestamp": "2026-03-12T17:58:21.125Z"
   },
   {
-    "id": "plazavea_filetedepechugadepol_mmmjoqkn",
+    "id": "plazavea_filetedepechugadepol_mmnru6dh",
     "nombre": "Filete de Pechuga de Pollo SADIA Bolsa 1kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -465,10 +117,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.263Z"
+    "timestamp": "2026-03-12T17:58:21.125Z"
   },
   {
-    "id": "plazavea_muslosdepolloxkg_mmmjoqkn",
+    "id": "plazavea_muslosdepolloxkg_mmnru6dh",
     "nombre": "Muslos de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -483,6 +135,268 @@
     "presentacion": null,
     "descuento": 4,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-11T21:22:24.263Z"
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_pechugaespecialdepol_mmnru6dh",
+    "nombre": "Pechuga Especial de Pollo Light SAN FERNANDO x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 19.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 19.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_nuggetsdepolloprecoc_mmnru6dh",
+    "nombre": "Nuggets de Pollo Precocido AVINKA Bolsa 15un",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.66,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_piernaconencuentrode_mmnru6dh",
+    "nombre": "Pierna con Encuentro de Pollo x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 11.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_sasamidepolloxkg_mmnru6dh",
+    "nombre": "Sasami de Pollo x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 20.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_hgadodepolloxkg_mmnru6dh",
+    "nombre": "Hígado de Pollo x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 8.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_pechugaenteradepollo_mmnru6dh",
+    "nombre": "Pechuga Entera de Pollo x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 13.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_muslosdepollosadiabo_mmnru6dh",
+    "nombre": "Muslos de Pollo SADIA Bolsa 1kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_mollejadepollosadiab_mmnru6dh",
+    "nombre": "Molleja de Pollo SADIA Bolsa 1kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 7.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_pollotrozadoen8pieza_mmnru6dh",
+    "nombre": "Pollo Trozado en 8 Piezas x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 10.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_dedosdepolloavinka27_mmnru6dh",
+    "nombre": "Dedos de Pollo AVINKA 270g Bolsa 12un x 270g",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 47.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 270,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_nuggetsdepolloconqui_mmnru6dh",
+    "nombre": "Nuggets de Pollo con Quinua AVINKA Bolsa 15un",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.9,
+      "regular": 10.99,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.66,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 10,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_nuggetsdepolloconbrc_mmnru6dh",
+    "nombre": "Nuggets de Pollo con Brócoli AVINKA Bolsa 15un",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.3,
+      "regular": 10.99,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.62,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
+  },
+  {
+    "id": "plazavea_chicharrndepolloavin_mmnru6dh",
+    "nombre": "Chicharrón de Pollo AVINKA Bolsa 350g",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 16.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 48.29,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 350,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-12T17:58:21.125Z"
   }
 ]
