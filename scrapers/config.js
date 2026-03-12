@@ -54,7 +54,7 @@ module.exports = {
     'azucar-blanca': ['rubia', 'impalpable', 'coco', 'impapable'],
     'azucar-rubia': ['blanca', 'impalpable', 'coco'],
     'harina': ['preparada'],
-    'huevos': ['pascua', 'decorativo', 'adorno', 'juguete', 'chocolate'],
+    'huevos': ['pascua', 'decorativo', 'adorno', 'juguete', 'chocolate', 'cocedor', 'eléctrico', 'electrico', 'shampoo', 'cosmético', 'cosmetico'],
     'lentejas': ['pascua', 'chocolate'],
     'leche-evaporada': ['fresca', 'polvo', 'condensada'],
     'leche-fresca': ['evaporada', 'polvo', 'condensada'],
