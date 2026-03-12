@@ -38,6 +38,8 @@ function normalizeUnits() {
     if (typeof rawData === 'undefined') return;
     rawData.forEach(d => {
         if (!d.um) return;
+        // Bug #6 fix: skip products with invalid vt (prevents price/0 = Infinity)
+        if (!d.vt || d.vt <= 0) return;
         const u = d.um.toLowerCase().trim();
         if (u === 'g' || u === 'gr') {
             d.vt = d.vt / 1000;
