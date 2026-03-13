@@ -53,7 +53,7 @@ module.exports = {
 
   excludeKeywords: {
     'arroz': ['yogurt', 'sazonador', 'leche', 'galleta', 'alimento para', 'deli arroz'],
-    'aceite': ['aceitera', 'motor', 'corporal', 'masaje', 'esencia', 'spray', 'oliva'],
+    'aceite': ['aceitera', 'motor', 'corporal', 'masaje', 'esencia', 'spray', 'oliva', 'atún', 'atun', 'filete', 'anchoveta', 'campomar', 'pescado', 'lomo', 'lomito', 'grated', 'bonito'],
     'azucar-blanca': ['rubia', 'impalpable', 'coco', 'gaseosa', 'bebida', 'energizante', 'sixpack', 'twopack', 'pack', 'jugo', 'refresco'],
     'azucar-rubia': ['blanca', 'impalpable', 'coco', 'gaseosa', 'bebida', 'energizante', 'sixpack', 'twopack', 'pack', 'jugo', 'refresco'],
     'harina': ['preparada', 'pescado', 'maca', 'sopa'],

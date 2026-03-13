@@ -41,15 +41,26 @@ function extractMarca(nombre) {
         'Wong', 'Metro', 'Cuisine & Co', 'Eco', 'Molitalia', 'Don Victorio', 'Cayetano',
         'Nicolini', 'Lavaggi', 'Buli', 'Alianza', 'Maximo',
         'San Fernando', 'La Molina', 'Redondos', 'Benedetti', 'Gran Chalán', 'Mizu', 'Huella Verde', 
-        'Inverni', 'Miyabi-Mai', 'Bárcidda', 'Kellogg\'s', 'Ricocan', 'Pedigree'
+        'Inverni', 'Miyabi-Mai', 'Bárcidda', 'Kellogg\'s', 'Ricocan', 'Pedigree', 'Campomar', 'Florida',
+        'Compass', 'Wesson', 'Spread', 'Pam', 'Olivos del Sur', 'Sao', 'Bimbo', 'Pyc', 'Unión', 'Bodega'
     ];
     const nb = nombre.toLowerCase();
     for (const m of marcas) {
         if (nb.includes(m.toLowerCase())) return m;
     }
+    
+    const blacklistedGenericFirstWords = [
+        'pack', 'twopack', 'sixpack', 'tripack', 'precio', 'promo', 'dato',
+        'bolsa', 'caja', 'el', 'la', 'los', 'las', 'un', 'una', 'con', 'sin', 'surtido',
+        'oferta', 'super', 'mega', 'mini', 'maxi', 'extra'
+    ];
+
     const tokens = nombre.split(' ');
-    if (tokens[0] && /^[A-ZÁÉÍÓÚ]/.test(tokens[0]) && tokens[0].length > 2 && tokens[0] !== 'Dato') {
-        return tokens[0];
+    if (tokens[0] && /^[A-ZÁÉÍÓÚ]/.test(tokens[0]) && tokens[0].length > 2) {
+        const potentialBrand = tokens[0].toLowerCase();
+        if (!blacklistedGenericFirstWords.includes(potentialBrand)) {
+            return tokens[0];
+        }
     }
     return 'Genérico';
 }
@@ -79,6 +90,10 @@ function extractTipo(nombre, categoria) {
         if (nb.includes('girasol')) return 'De Girasol';
         if (nb.includes('cártamo') || nb.includes('cartamo') || nb.includes('c??rtamo')) return 'De Cártamo';
         if (nb.includes('soja') || nb.includes('soya')) return 'De Soya';
+        if (nb.includes('canola')) return 'De Canola';
+        if (nb.includes('maíz') || nb.includes('maiz')) return 'De Maíz';
+        if (nb.includes('ajonjolí') || nb.includes('ajonjoli') || nb.includes('sésamo') || nb.includes('sesamo')) return 'De Ajonjolí';
+        if (nb.includes('coco')) return 'De Coco';
         if (nb.includes('mezcla')) return 'Mezcla';
         return 'Vegetal';
     }
