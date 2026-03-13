@@ -48,7 +48,7 @@ function extractMarca(nombre) {
         if (nb.includes(m.toLowerCase())) return m;
     }
     const tokens = nombre.split(' ');
-    if (tokens[0] && /^[A-ZÁÉÍÓÚ]/.test(tokens[0]) && tokens[0].length > 2) {
+    if (tokens[0] && /^[A-ZÁÉÍÓÚ]/.test(tokens[0]) && tokens[0].length > 2 && tokens[0] !== 'Dato') {
         return tokens[0];
     }
     return 'Genérico';
@@ -59,8 +59,9 @@ function extractTipo(nombre, categoria) {
     if (categoria === 'Arroz') {
         if (nb.includes('integral')) return 'Integral';
         if (nb.includes('gran reserva')) return 'Gran Reserva';
-        if (nb.includes('añejo extra') || nb.includes('anejo extra')) return 'Añejo Extra';
-        if (nb.includes('extra añejo') || nb.includes('extra anejo')) return 'Extra Añejo';
+        if (nb.includes('añejo extra') || nb.includes('anejo extra') || nb.includes('a??ejo extra')) return 'Añejo Extra';
+        if (nb.includes('extra añejo') || nb.includes('extra anejo') || nb.includes('extra a??ejo')) return 'Añejo Extra'; // Normalized to Añejo Extra
+        if (nb.includes('japónico') || nb.includes('japonico') || nb.includes('jap??nico')) return 'Japónico';
         if (nb.includes('extra')) return 'Extra';
         if (nb.includes('superior')) return 'Superior';
         return 'Extra'; 
@@ -68,7 +69,7 @@ function extractTipo(nombre, categoria) {
     if (categoria === 'Aceite') {
         if (nb.includes('oliva')) return 'De Oliva';
         if (nb.includes('girasol')) return 'De Girasol';
-        if (nb.includes('cártamo') || nb.includes('cartamo')) return 'De Cártamo';
+        if (nb.includes('cártamo') || nb.includes('cartamo') || nb.includes('c??rtamo')) return 'De Cártamo';
         return 'Vegetal';
     }
     const words = ['molida', 'entera', 'fresca', 'congelada', 'filetes', 'bolsa', 'caja'];
