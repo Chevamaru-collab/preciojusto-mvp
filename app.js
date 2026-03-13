@@ -122,9 +122,14 @@ function getFiltered(data) {
 }
 function updateTipoOptions() {
     const cat = filters.categoria;
+    const superm = filters.super;
     const el = document.getElementById('filter-tipo');
     const label = document.getElementById('filter-tipo-label');
-    const base = rawData.filter(d => cat === 'Todos' || d.categoria === cat);
+    const base = rawData.filter(d => {
+        if (cat !== 'Todos' && d.categoria !== cat) return false;
+        if (superm !== 'Todos' && d.super !== superm) return false;
+        return true;
+    });
     const tipos = [...new Set(base.map(d => d.tipo).filter(Boolean))].sort();
     
     if (label) {
