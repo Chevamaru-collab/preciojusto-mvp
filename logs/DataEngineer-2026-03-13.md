@@ -11,8 +11,15 @@
 - **Data Leakage Fix:** Introducción masiva de listas de exclusión negativa en `config.js` (`isRelevant`) para frenar contaminación cruzada (shampoo en avena, croquetas en atún).
 - **Recálculo de Tipos:** Se amplió `extractTipo()` a las 15 categorías. Se erradicaron >2,000 tipos falsos ("Bolsa", "Caja") reemplazándolos por taxonomía real ("Spaghetti", "Evaporada", "Deslactosada").
 - Resultado final en `data.js` depurado de basura purgada, encogiendo el dataset base a 4,910 verdaderos elementos comestibles limpios y consistentes.
+- **Refinamiento de Aceites y Marcas Falsas (Wave 2):** Se añadió filtro anti-pescado a Aceite, evitando contaminación cruzada con conservas de atún. Se tipificaron aceites Canola, Maíz, Coco, Ajonjolí. Se implementó una blacklist de marcas para bloquear palabras publicitarias (Pack, Precio, Twopack), re-tipificando 4,707 items.
+- **Normalización Cero-Eliminación (Wave 3):** Se aplicó transformación global preservando toda la data. 
+  - **Aislamiento de Combos:** Se interceptaron cientos de promociones (Pollo + Papas, Tripacks) y se les asignó forzosamente el tipo "Combo/Pack" para no destrozar el precio unitario del dataset.
+  - **Panadería y Menestras:** Se unificó estructuralmente el Pan y Pan de Molde (Blanco, Integral, Multigranos). Se expandieron Menestras a semillas específicas (Garbanzos, Lentejas, Trigo, Pallares).
 - **Commits:**
   - `feat(data): scraping diario 13 Marzo`
+  - `feat(data): sanitizacion global, filtros anti-leakage y extraccion real de tipos`
+  - `feat(data): refine Aceite types, exclude canned fish, and obliterate generic UI brands`
+  - `feat(data): wave 3 zero-deletion normalization (combos, menestras, pan)`
 
 ## 2. Métricas de Datos
 - **Total productos extraídos hoy:** 1,339 productos
@@ -20,7 +27,8 @@
   - Plaza Vea: 248
   - Metro: 288
   - Wong: 283
-- **Total productos en data.js:** 4,910 registros activos (reducido desde 5,952 tras purga de contaminación cruzada).
-- **Nuevos Items Añadidos:** 1,099 (netos preliminares antes de purga).
+- **Total productos en data.js:** 4,707 registros físicos puros y clasificados (reducido desde 5,952 tras purgas anti-leakage y deduplicaciones).
+- **Combos Aisaldos en Base:** 201 productos clasificados bajo el tipo `Combo/Pack`.
+- **Nuevos Items Añadidos:** 1,099 (netos preliminares antes de purgas).
 ## 3. Bloqueadores Encontrados
 - **Ninguno:** El flujo operó con autonomía total como fue solicitado, integrando la data de manera óptima.
