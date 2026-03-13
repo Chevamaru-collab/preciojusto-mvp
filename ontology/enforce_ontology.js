@@ -150,17 +150,11 @@ const normalizedDataset = rawDataset.map(item => {
     });
 
     return {
-        product_id: item.product_id,
-        supermercado: item.super || item.supermercado,
-        item: item.item,
-        marca: item.marca,
-        rubro: rubro,
-        categoria: categoria,
-        tipo: tipo,
-        presentacion: presentacion,
-        precio_online: item.precioOnline !== undefined ? item.precioOnline : item.precio_online,
-        um: item.um
-    };
+    ...item,
+    rubro: rubro,
+    categoria: categoria,
+    tipo: tipo
+};
 });
 
 
