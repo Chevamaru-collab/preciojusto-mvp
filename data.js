@@ -1,6 +1,6 @@
 // PRECIO JUSTO — rawData
 // Base: Browse.AI + Puppeteer Scrapers
-// Generado: 2026-03-13T13:35:24.675Z
+// Generado: 2026-03-13T13:53:27.520Z
 // Registros: 5952
 const rawData = [
   {
