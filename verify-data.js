@@ -1,17 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataFile = path.join(__dirname, 'data.js');
-const jsContent = fs.readFileSync(dataFile, 'utf8');
-
-// data.js has "const rawData = [ ... ];"
-// To evaluate it safely without module.exports
-const jsonMatch = jsContent.match(/\[[\s\S]*\]/);
-const rawData = JSON.parse(jsonMatch[0]);
+const dataFile = path.join(__dirname, 'normalized_dataset.json');
+const rawData = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
 
 console.log(`1. Total records: ${rawData.length}`);
 
-const supers = [...new Set(rawData.map(p => p.super))];
+const supers = [...new Set(rawData.map(p => p.supermercado))];
 console.log(`2. Supermarkets present:`);
 console.log(supers);
 
