@@ -43,24 +43,34 @@ module.exports = {
   },
   
   globalExcludeKeywords: [
-    'ricocan', 'ricocat', 'perro', 'gato', 'mascota', 'canina', 'felina',
-    'mouse pad', 'juguete', 'shampoo', 'detergente', 'ventilador', 'tv', 
-    'celular', 'colchon', 'colchón', 'libreria', 'regalo', 'adorno', 'decorativo'
+    'ricocan', 'ricocat', 'supercat', 'mimaskot', 'dog-chow', 'cat-chow',
+    'perro', 'gato', 'mascota', 'canina', 'felina', 'cachorro', 'gatito',
+    'mouse pad', 'juguete', 'tv', 'celular', 'colchon', 'colchón', 'libreria',
+    'adorno', 'decorativo', 'regalo',
+    'shampoo', 'detergente', 'ventilador', 'jabon', 'jabón', 'mascarilla',
+    'crema', 'acondicionador', 'suavizante', 'lavadora', 'insecticida'
   ],
 
   excludeKeywords: {
-    'arroz': ['yogurt', 'sazonador', 'leche', 'galleta', 'alimento para', 'mascota', 'perro', 'gato', 'deli arroz', 'canino', 'felino'],
+    'arroz': ['yogurt', 'sazonador', 'leche', 'galleta', 'alimento para', 'deli arroz'],
     'aceite': ['aceitera', 'motor', 'corporal', 'masaje', 'esencia', 'spray', 'oliva'],
-    'azucar-blanca': ['rubia', 'impalpable', 'coco', 'impapable'],
-    'azucar-rubia': ['blanca', 'impalpable', 'coco'],
-    'harina': ['preparada'],
-    'huevos': ['pascua', 'decorativo', 'adorno', 'juguete', 'chocolate', 'cocedor', 'eléctrico', 'electrico', 'shampoo', 'cosmético', 'cosmetico'],
-    'lentejas': ['pascua', 'chocolate'],
-    'leche-evaporada': ['fresca', 'polvo', 'condensada'],
-    'leche-fresca': ['evaporada', 'polvo', 'condensada'],
-    'mantequilla': ['margarina', 'mani', 'maní'],
-    'pan-molde': ['paneton', 'panetón', 'bizcocho', 'tostada', 'rallado']
+    'azucar-blanca': ['rubia', 'impalpable', 'coco', 'gaseosa', 'bebida', 'energizante', 'sixpack', 'twopack', 'pack', 'jugo', 'refresco'],
+    'azucar-rubia': ['blanca', 'impalpable', 'coco', 'gaseosa', 'bebida', 'energizante', 'sixpack', 'twopack', 'pack', 'jugo', 'refresco'],
+    'harina': ['preparada', 'pescado', 'maca', 'sopa'],
+    'huevos': ['pascua', 'decorativo', 'adorno', 'chocolate', 'cocedor', 'eléctrico', 'electrico', 'cosmético', 'cosmetico', 'fideos', 'fetuccini', 'tagliatelle', 'pasta', 'tallarin', 'gomita', 'gragea'],
+    'lentejas': ['pascua', 'chocolate', 'grageas', 'caramelo', 'gomita', 'sopa', 'hamburguesa'],
+    'leche-evaporada': ['fresca', 'polvo', 'condensada', 'crema', 'bebida', 'formula', 'fórmula', 'mezcla', 'chocolatada'],
+    'leche-fresca': ['evaporada', 'polvo', 'condensada', 'crema', 'bebida', 'formula', 'fórmula', 'mezcla', 'chocolatada'],
+    'mantequilla': ['margarina', 'mani', 'maní', 'galleta', 'galletas', 'canchita'],
+    'pan-molde': ['paneton', 'panetón', 'bizcocho', 'tostada', 'rallado', 'pita', 'hamburguesa', 'hot dog', 'ciabatta', 'frances'],
+    'pollo': ['higado', 'hígado', 'corazon', 'corazón', 'patillas', 'molleja', 'pescuezo', 'patas', 'patita', 'sangrecita', 'jamonada', 'pate', 'paté', 'hot dog', 'chorizo', 'salchicha', 'menudencia', 'hamburguesa', 'nuggets'],
+    'carne': ['mondongo', 'higado', 'hígado', 'corazon', 'corazón', 'panceta', 'hueso', 'patas', 'orejas', 'rabo', 'chicharron', 'chicharrón', 'chorizo', 'salchicha', 'hamburguesa', 'albóndiga'],
+    'pescado': ['mondongo', 'patas', 'corazon', 'molleja', 'anillos', 'mariscos', 'mixtura', 'langostino'],
+    'fideos': ['sopa', 'instantanea', 'instantánea', 'aji-no-men', 'ramen', 'sazonador'],
+    'frijol-canario': ['castilla', 'rojo', 'negro', 'panamito', 'soya', 'pallar', 'palo'],
+    'avena': ['bebida', 'refresco', 'galleta']
   },
+
 
   // ─── Supermercados ────────────────────────────────────────────────────────
   supermercados: {

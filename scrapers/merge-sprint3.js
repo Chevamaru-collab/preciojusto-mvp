@@ -56,7 +56,8 @@ function extractMarca(nombre) {
 
 function extractTipo(nombre, categoria) {
     const nb = nombre.toLowerCase();
-    if (categoria === 'Arroz') {
+    
+    if (categoria === 'Arroz' || categoria === 'arroz') {
         if (nb.includes('integral')) return 'Integral';
         if (nb.includes('gran reserva')) return 'Gran Reserva';
         if (nb.includes('japónico') || nb.includes('japonico') || nb.includes('jap??nico')) return 'Japónico';
@@ -71,19 +72,106 @@ function extractTipo(nombre, categoria) {
         if (tieneSuperior) return 'Superior';
         if (tieneExtra) return 'Extra';
         
-        return 'Extra'; 
+        return 'Extra'; // Fallback Arroz
     }
-    if (categoria === 'Aceite') {
+    if (categoria === 'Aceite' || categoria === 'aceite') {
         if (nb.includes('oliva')) return 'De Oliva';
         if (nb.includes('girasol')) return 'De Girasol';
         if (nb.includes('cártamo') || nb.includes('cartamo') || nb.includes('c??rtamo')) return 'De Cártamo';
+        if (nb.includes('soja') || nb.includes('soya')) return 'De Soya';
+        if (nb.includes('mezcla')) return 'Mezcla';
         return 'Vegetal';
     }
-    const words = ['molida', 'entera', 'fresca', 'congelada', 'filetes', 'bolsa', 'caja'];
+    if (categoria === 'Fideos' || categoria === 'fideos') {
+        if (nb.includes('spaghetti') || nb.includes('espagueti')) return 'Spaghetti';
+        if (nb.includes('tallarí') || nb.includes('tallari')) return 'Tallarín';
+        if (nb.includes('cabello')) return 'Cabello de Ángel';
+        if (nb.includes('canuto')) return 'Canuto';
+        if (nb.includes('codito')) return 'Codito';
+        if (nb.includes('tornillo')) return 'Tornillo';
+        if (nb.includes('corbata')) return 'Corbata';
+        if (nb.includes('macarró') || nb.includes('macarro')) return 'Macarrón';
+        if (nb.includes('integral')) return 'Integral';
+        return 'Pasta Larga'; // Fallback
+    }
+    if (categoria === 'Carne' || categoria === 'carne') {
+        if (nb.includes('molida')) return 'Molida';
+        if (nb.includes('bisteck') || nb.includes('bistec')) return 'Bisteck';
+        if (nb.includes('guiso')) return 'Guiso';
+        if (nb.includes('churrasco')) return 'Churrasco';
+        if (nb.includes('lomo')) return 'Lomo';
+        if (nb.includes('asado')) return 'Asado';
+        if (nb.includes('sancochado')) return 'Sancochado';
+        return 'Cortes Variados';
+    }
+    if (categoria === 'Pollo' || categoria === 'pollo') {
+        if (nb.includes('entero')) return 'Entero';
+        if (nb.includes('pechuga')) return 'Pechuga';
+        if (nb.includes('pierna')) return 'Pierna';
+        if (nb.includes('encuentro')) return 'Encuentro';
+        if (nb.includes('filete')) return 'Filete';
+        if (nb.includes('milanesa')) return 'Milanesa';
+        return 'Cortes Variados';
+    }
+    if (categoria === 'Pan de Molde' || categoria === 'pan-molde') {
+        if (nb.includes('blanco')) return 'Blanco';
+        if (nb.includes('integral')) return 'Integral';
+        if (nb.includes('sin borde')) return 'Sin Borde';
+        if (nb.includes('semillas') || nb.includes('linaza') || nb.includes('multicereal')) return 'Multicereal';
+        return 'Blanco';
+    }
+    if (categoria === 'Leche Fresca' || categoria === 'leche-fresca' || categoria === 'Leche' || categoria === 'leche-evaporada') {
+        if (nb.includes('deslactosada')) return 'Deslactosada';
+        if (nb.includes('light')) return 'Light';
+        if (nb.includes('entera')) return 'Entera';
+        if (nb.includes('evaporada')) return 'Evaporada';
+        if (nb.includes('fresca') || nb.includes('uht')) return 'Fresca';
+        if (nb.includes('mezcla') || nb.includes('láctea') || nb.includes('lactea')) return 'Mezcla Láctea';
+        return 'Entera';
+    }
+    if (categoria === 'Huevos' || categoria === 'huevos') {
+        if (nb.includes('codorniz')) return 'Codorniz';
+        if (nb.includes('rosado') || nb.includes('pardo')) return 'Rosado';
+        if (nb.includes('blanco')) return 'Blanco';
+        return 'Rosado'; // Majoritarily Rosado in Peru
+    }
+    if (categoria === 'Azúcar Blanca' || categoria === 'azucar-blanca') return 'Blanca';
+    if (categoria === 'Azúcar Rubia' || categoria === 'azucar-rubia') return 'Rubia';
+    if (categoria === 'Avena' || categoria === 'avena') {
+        if (nb.includes('entera') || nb.includes('tradicional')) return 'Tradicional';
+        if (nb.includes('instantánea') || nb.includes('instantanea') || nb.includes('precocida')) return 'Instantánea';
+        if (nb.includes('maca')) return 'Con Maca';
+        if (nb.includes('kiwicha') || nb.includes('quinua')) return 'Multicereal';
+        return 'Clásica';
+    }
+    if (categoria === 'Mantequilla' || categoria === 'mantequilla') {
+        if (nb.includes('con sal')) return 'Con Sal';
+        if (nb.includes('sin sal')) return 'Sin Sal';
+        return 'Regular';
+    }
+    if (categoria === 'Lentejas' || categoria === 'lentejas') {
+        if (nb.includes('bebé') || nb.includes('bebe')) return 'Bebé';
+        if (nb.includes('pardina')) return 'Pardina';
+        return 'Regular';
+    }
+    if (categoria === 'Frijol Canario' || categoria === 'frijol-canario') {
+         if (nb.includes('castilla')) return 'Castilla'; // shouldn't happen due to exclusions but just in case
+         return 'Canario';
+    }
+    if (categoria === 'Harina' || categoria === 'harina') {
+        if (nb.includes('preparada')) return 'Preparada';
+        if (nb.includes('sin preparar')) return 'Sin Preparar';
+        if (nb.includes('integral')) return 'Integral';
+        if (nb.includes('maíz') || nb.includes('maiz')) return 'De Maíz';
+        return 'Sin Preparar';
+    }
+
+    // Default Fallback
+    const words = ['filetes', 'congelada', 'fresca'];
     for (const w of words) {
         if (nb.includes(w)) return w.charAt(0).toUpperCase() + w.slice(1);
     }
-    return categoria;
+    return 'Regular';
 }
 
 function parseCurrency(val) {
