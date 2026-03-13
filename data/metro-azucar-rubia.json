@@ -1,6 +1,6 @@
 [
   {
-    "id": "metro_azcarrubiamxima1kg_mmnrw41g",
+    "id": "metro_azcarrubiamxima1kg_mmoxko92",
     "nombre": "Azúcar Rubia Máxima 1kg",
     "categoria": "azucar-rubia",
     "super": "metro",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
+    "timestamp": "2026-03-13T13:26:41.606Z"
   },
   {
-    "id": "metro_azcarrubiametro1kg_mmnrw41g",
+    "id": "metro_azcarrubiametro1kg_mmoxko92",
     "nombre": "Azúcar Rubia Metro 1kg",
     "categoria": "azucar-rubia",
     "super": "metro",
@@ -41,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
+    "timestamp": "2026-03-13T13:26:41.606Z"
   },
   {
-    "id": "metro_azcarrubiacuisineco1_mmnrw41g",
+    "id": "metro_azcarrubiacuisineco1_mmoxko93",
     "nombre": "Azúcar Rubia Cuisine & Co 1kg",
     "categoria": "azucar-rubia",
     "super": "metro",
@@ -63,186 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
+    "timestamp": "2026-03-13T13:26:41.606Z"
   },
   {
-    "id": "metro_azcarrubiadulfinabol_mmnrw41g",
-    "nombre": "Azúcar Rubia Dulfina Bolsa 2 kg",
-    "categoria": "azucar-rubia",
-    "super": "metro",
-    "precios": {
-      "online": 9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 2,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
-  },
-  {
-    "id": "metro_azcarrubiaparamonga1_mmnrw41g",
-    "nombre": "Azúcar Rubia Paramonga 1kg",
-    "categoria": "azucar-rubia",
-    "super": "metro",
-    "precios": {
-      "online": 4.99,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.99,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
-  },
-  {
-    "id": "metro_azcarrubiametrobolsa_mmnrw41g",
-    "nombre": "Azúcar Rubia Metro Bolsa 2 Kg",
-    "categoria": "azucar-rubia",
-    "super": "metro",
-    "precios": {
-      "online": 7.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.75,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 2,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
-  },
-  {
-    "id": "metro_azcarrubiaconsteviac_mmnrw41g",
-    "nombre": "Azúcar Rubia Con Stevia Cuisine&Co Doypack 500 g",
-    "categoria": "azucar-rubia",
-    "super": "metro",
-    "precios": {
-      "online": 7.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
-  },
-  {
-    "id": "metro_azcarrubiametro5kg_mmnrw41g",
-    "nombre": "Azúcar Rubia Metro 5kg",
-    "categoria": "azucar-rubia",
-    "super": "metro",
-    "precios": {
-      "online": 14.9,
-      "regular": 18.8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 2.98,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 21,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
-  },
-  {
-    "id": "metro_azcarrubiamximabolsa_mmnrw41g",
-    "nombre": "Azúcar Rubia Máxima Bolsa 5 kg",
-    "categoria": "azucar-rubia",
-    "super": "metro",
-    "precios": {
-      "online": 17.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.58,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
-  },
-  {
-    "id": "metro_azcarrubiacuisineco5_mmnrw41g",
-    "nombre": "Azúcar Rubia Cuisine & Co 5kg",
-    "categoria": "azucar-rubia",
-    "super": "metro",
-    "precios": {
-      "online": 17.9,
-      "regular": 19.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.58,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 10,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.412Z"
-  },
-  {
-    "id": "metro_azcarrubiaparamongab_mmnrw41h",
-    "nombre": "Azúcar Rubia Paramonga Bolsa 5 kg",
-    "categoria": "azucar-rubia",
-    "super": "metro",
-    "precios": {
-      "online": 19.9,
-      "regular": 21.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.98,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 7,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.413Z"
-  },
-  {
-    "id": "metro_azcarrubiadulfinabol_mmnrw41h",
+    "id": "metro_azcarrubiadulfinabol_mmoxko93",
     "nombre": "Azúcar Rubia Dulfina Bolsa 5 kg",
     "categoria": "azucar-rubia",
     "super": "metro",
@@ -261,6 +85,160 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:51.413Z"
+    "timestamp": "2026-03-13T13:26:41.607Z"
+  },
+  {
+    "id": "metro_azcarrubiaparamonga1_mmoxko93",
+    "nombre": "Azúcar Rubia Paramonga 1kg",
+    "categoria": "azucar-rubia",
+    "super": "metro",
+    "precios": {
+      "online": 4.99,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.99,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-13T13:26:41.607Z"
+  },
+  {
+    "id": "metro_azcarrubiametrobolsa_mmoxko93",
+    "nombre": "Azúcar Rubia Metro Bolsa 2 Kg",
+    "categoria": "azucar-rubia",
+    "super": "metro",
+    "precios": {
+      "online": 7.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.75,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 2,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-13T13:26:41.607Z"
+  },
+  {
+    "id": "metro_azcarrubiaconsteviac_mmoxko93",
+    "nombre": "Azúcar Rubia Con Stevia Cuisine&Co Doypack 500 g",
+    "categoria": "azucar-rubia",
+    "super": "metro",
+    "precios": {
+      "online": 7.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-13T13:26:41.607Z"
+  },
+  {
+    "id": "metro_azcarrubiametro5kg_mmoxko93",
+    "nombre": "Azúcar Rubia Metro 5kg",
+    "categoria": "azucar-rubia",
+    "super": "metro",
+    "precios": {
+      "online": 14.9,
+      "regular": 18.8,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 2.98,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 21,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-13T13:26:41.607Z"
+  },
+  {
+    "id": "metro_azcarrubiamximabolsa_mmoxko93",
+    "nombre": "Azúcar Rubia Máxima Bolsa 5 kg",
+    "categoria": "azucar-rubia",
+    "super": "metro",
+    "precios": {
+      "online": 17.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.58,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-13T13:26:41.607Z"
+  },
+  {
+    "id": "metro_azcarrubiacuisineco5_mmoxko93",
+    "nombre": "Azúcar Rubia Cuisine & Co 5kg",
+    "categoria": "azucar-rubia",
+    "super": "metro",
+    "precios": {
+      "online": 17.9,
+      "regular": 19.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.58,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 10,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-13T13:26:41.607Z"
+  },
+  {
+    "id": "metro_azcarrubiaparamongab_mmoxko93",
+    "nombre": "Azúcar Rubia Paramonga Bolsa 5 kg",
+    "categoria": "azucar-rubia",
+    "super": "metro",
+    "precios": {
+      "online": 21.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.3,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-13T13:26:41.607Z"
   }
 ]

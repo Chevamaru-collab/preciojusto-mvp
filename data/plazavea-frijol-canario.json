@@ -1,15 +1,15 @@
 [
   {
-    "id": "plazavea_frijolcanariocosteob_mmnrv37i",
+    "id": "plazavea_frijolcanariocosteob_mmoxjkib",
     "nombre": "Frijol Canario COSTEÑO Bolsa 500g",
     "categoria": "frijol-canario",
     "super": "plazavea",
     "precios": {
-      "online": 7.9,
+      "online": 7.4,
       "regular": 9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 15.8,
+      "porUnidad": 14.8,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,34 +17,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 12,
+    "descuento": 18,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:03.677Z"
+    "timestamp": "2026-03-13T13:25:50.099Z"
   },
   {
-    "id": "plazavea_frijolcanariofaraonx_mmnrv37i",
-    "nombre": "Frijol Canario FARAON x500g",
-    "categoria": "frijol-canario",
-    "super": "plazavea",
-    "precios": {
-      "online": 7.59,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15.18,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:03.678Z"
-  },
-  {
-    "id": "plazavea_frijolcanariobellsbo_mmnrv37i",
+    "id": "plazavea_frijolcanariobellsbo_mmoxjkib",
     "nombre": "Frijol Canario BELL'S Bolsa 500g",
     "categoria": "frijol-canario",
     "super": "plazavea",
@@ -63,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:03.678Z"
+    "timestamp": "2026-03-13T13:25:50.099Z"
   },
   {
-    "id": "plazavea_frejolcanariotesorod_mmnrv37i",
+    "id": "plazavea_frejolcanariotesorod_mmoxjkib",
     "nombre": "Frejol Canario TESORO DEL CAMPO Bolsa 500g",
     "categoria": "frijol-canario",
     "super": "plazavea",
@@ -85,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:03.678Z"
+    "timestamp": "2026-03-13T13:25:50.099Z"
   },
   {
-    "id": "plazavea_frijolescanarioslore_mmnrv37i",
+    "id": "plazavea_frijolescanarioslore_mmoxjkib",
     "nombre": "Frijoles Canarios LORENZO Doypack 425g",
     "categoria": "frijol-canario",
     "super": "plazavea",
@@ -107,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:03.678Z"
+    "timestamp": "2026-03-13T13:25:50.099Z"
   },
   {
-    "id": "plazavea_frijolcanarioprecoci_mmnrv37i",
+    "id": "plazavea_frijolcanarioprecoci_mmoxjkib",
     "nombre": "Frijol Canario Precocido Bolsa 500g",
     "categoria": "frijol-canario",
     "super": "plazavea",
@@ -129,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:03.678Z"
+    "timestamp": "2026-03-13T13:25:50.099Z"
   },
   {
-    "id": "plazavea_frijolcanarioarobols_mmnrv37i",
+    "id": "plazavea_frijolcanarioarobols_mmoxjkib",
     "nombre": "Frijol Canario ARO Bolsa 1Kg",
     "categoria": "frijol-canario",
     "super": "plazavea",
@@ -151,6 +129,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-12T17:59:03.678Z"
+    "timestamp": "2026-03-13T13:25:50.099Z"
+  },
+  {
+    "id": "plazavea_frijolcanariofaraonx_mmoxjkib",
+    "nombre": "Frijol Canario FARAON x500g",
+    "categoria": "frijol-canario",
+    "super": "plazavea",
+    "precios": {
+      "online": 7.59,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.18,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-13T13:25:50.099Z"
   }
 ]
