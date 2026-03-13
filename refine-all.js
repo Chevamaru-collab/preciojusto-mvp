@@ -14,7 +14,8 @@ function extractMarca(nombre) {
         'Nicolini', 'Lavaggi', 'Buli', 'Alianza', 'Maximo',
         'San Fernando', 'La Molina', 'Redondos', 'Benedetti', 'Gran Chalán', 'Mizu', 'Huella Verde', 
         'Inverni', 'Miyabi-Mai', 'Bárcidda', 'Kellogg\'s', 'Ricocan', 'Pedigree', 'Campomar', 'Florida',
-        'Compass', 'Wesson', 'Spread', 'Pam', 'Olivos del Sur', 'Sao', 'Bimbo', 'Pyc', 'Unión', 'Bodega', 'Oléico'
+        'Compass', 'Wesson', 'Spread', 'Pam', 'Olivos del Sur', 'Sao', 'Bimbo', 'Pyc', 'Unión', 'Bodega',
+        'Cocinero', 'Deleite', 'Oléico', 'Oleico', '3 Ositos', 'Grano de Oro', 'Santa Catalina', 'La Purita', 'La Florencia'
     ];
     const nb = nombre.toLowerCase();
     for (const m of marcas) {
@@ -24,7 +25,8 @@ function extractMarca(nombre) {
     const blacklistedGenericFirstWords = [
         'pack', 'twopack', 'sixpack', 'tripack', 'precio', 'promo', 'dato',
         'bolsa', 'caja', 'el', 'la', 'los', 'las', 'un', 'una', 'con', 'sin', 'surtido',
-        'oferta', 'super', 'mega', 'mini', 'maxi', 'extra'
+        'oferta', 'super', 'mega', 'mini', 'maxi', 'extra',
+        'arroz', 'avena', 'aceite', 'fideos', 'azúcar', 'azucar', 'pan', 'leche', 'filete'
     ];
 
     const tokens = nombre.split(' ');
@@ -41,7 +43,7 @@ function extractTipo(nombre, categoria) {
     const nb = nombre.toLowerCase();
 
     // 1. GLOBAL COMBO INTERCEPTION FOR ALL 15 CATEGORIES
-    if (nb.includes(' + ') || nb.includes(' gratis ') || nb.includes(' pack ') || nb.includes('tripack') || nb.includes('sixpack') || nb.includes('twopack') || nb.includes(' combo ')) {
+    if (/\bpack\b/.test(nb) || nb.includes(' + ') || nb.includes(' gratis ') || nb.includes('tripack') || nb.includes('sixpack') || nb.includes('twopack') || nb.includes(' combo ')) {
         return 'Combo/Pack';
     }
     
@@ -187,18 +189,57 @@ function performRefineAll() {
     let items = JSON.parse(jsonMatch[0]);
     let initialCount = items.length;
     let comboCount = 0;
+    let mathFixCount = 0;
     
     // ZERO DELETION POLICY: We only transform, we do not filter.
     // Recompute everything with upgraded logic
     items.forEach(d => {
+        const itemNameLower = d.item.toLowerCase();
+        
+        // Zero-Deletion Leakage Resolution (Transfer, Don't Delete)
+        if (itemNameLower.includes('vinagre')) {
+            d.categoria = 'Condimentos';
+        } else if (itemNameLower.includes('pan de molde')) {
+            d.categoria = 'Pan de Molde';
+        } else if (itemNameLower.includes('cereal') || itemNameLower.includes('chocapic') || itemNameLower.includes('zucaritas')) {
+            d.categoria = 'Cereales_Oculto'; // Stores data but hides from main 15 categories UI
+        } else if (itemNameLower.includes('lunch') || itemNameLower.includes('comida preparada')) {
+            d.categoria = 'Comida_Preparada_Oculta';
+        }
+
         d.tipo = extractTipo(d.item, d.categoria);
         d.marca = extractMarca(d.item);
-        if (d.tipo === 'Combo/Pack') comboCount++;
+        if (d.tipo === 'Combo/Pack') {
+            comboCount++;
+        }
+
+        // Mathematical Fix for Packs (Historical)
+        const packMatch = itemNameLower.match(/(?:x|paquete|bandeja|bolsa|caja)[\s]*(\d+)[\s]*(?:un|und|unid|unidades)\b/);
+        
+        if (packMatch && packMatch[1]) {
+            const multiplier = parseInt(packMatch[1], 10);
+            if (multiplier > 1 && multiplier < 50) {
+                // To avoid infinitely multiplying if run twice, we check if originalVt isn't set
+                if (!d.originalVt) {
+                    d.originalVt = d.vt || 1;
+                    d.vt = d.originalVt * multiplier;
+                    d.volumen_total = d.vt; 
+                    
+                    // Recalculate unitary price
+                    if (d.precioOnline) {
+                        d.pxum = d.precioOnline / d.vt;
+                        d.precio_x_um = d.pxum;
+                    }
+                    mathFixCount++;
+                }
+            }
+        }
     });
 
     console.log(`Global Clean complete (Zero Deletion).`);
     console.log(`Total rows processed: ${items.length}`);
     console.log(`Combos isolated into unique type: ${comboCount}`);
+    console.log(`Mathematical Volume Fixes applied: ${mathFixCount}`);
 
     const header = `// PRECIO JUSTO — rawData\n// Base: Browse.AI + Puppeteer Scrapers\n// Generado: ${new Date().toISOString()}\n// Registros: ${items.length}\n`;
     const finalContent = `${header}const rawData = ${JSON.stringify(items, null, 2)};\n`;
