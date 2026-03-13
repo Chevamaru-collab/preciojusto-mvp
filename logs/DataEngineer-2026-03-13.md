@@ -15,11 +15,16 @@
 - **Normalización Cero-Eliminación (Wave 3):** Se aplicó transformación global preservando toda la data. 
   - **Aislamiento de Combos:** Se interceptaron cientos de promociones (Pollo + Papas, Tripacks) y se les asignó forzosamente el tipo "Combo/Pack" para no destrozar el precio unitario del dataset.
   - **Panadería y Menestras:** Se unificó estructuralmente el Pan y Pan de Molde (Blanco, Integral, Multigranos). Se expandieron Menestras a semillas específicas (Garbanzos, Lentejas, Trigo, Pallares).
+- **Ola 4: Inmunidad de Marcas, Matemática de Packs y Leakages (Global):**
+  - Todas las categorías (`arroz`, `fideos`, `filete`, etc.) bloqueadas como falsas marcas (679 corregidas). 
+  - Fugas de categoría tratadas sin borrar data: 9 fugas migradas silenciosamente a condimentos o índices ocultos. 
+  - Se reactivó la matemática de Packs para cazar cadenas `x 2un`, multiplicando los volúmenes reales históricamente.
 - **Commits:**
   - `feat(data): scraping diario 13 Marzo`
   - `feat(data): sanitizacion global, filtros anti-leakage y extraccion real de tipos`
   - `feat(data): refine Aceite types, exclude canned fish, and obliterate generic UI brands`
   - `feat(data): wave 3 zero-deletion normalization (combos, menestras, pan)`
+  - `feat(data): wave 4 global brand immunity, accurate pack volume math, non-destructive leakages`
 
 ## 2. Métricas de Datos
 - **Total productos extraídos hoy:** 1,339 productos

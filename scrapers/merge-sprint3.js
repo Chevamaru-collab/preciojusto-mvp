@@ -42,7 +42,8 @@ function extractMarca(nombre) {
         'Nicolini', 'Lavaggi', 'Buli', 'Alianza', 'Maximo',
         'San Fernando', 'La Molina', 'Redondos', 'Benedetti', 'Gran Chalán', 'Mizu', 'Huella Verde', 
         'Inverni', 'Miyabi-Mai', 'Bárcidda', 'Kellogg\'s', 'Ricocan', 'Pedigree', 'Campomar', 'Florida',
-        'Compass', 'Wesson', 'Spread', 'Pam', 'Olivos del Sur', 'Sao', 'Bimbo', 'Pyc', 'Unión', 'Bodega'
+        'Compass', 'Wesson', 'Spread', 'Pam', 'Olivos del Sur', 'Sao', 'Bimbo', 'Pyc', 'Unión', 'Bodega',
+        'Cocinero', 'Deleite', 'Oléico', 'Oleico', '3 Ositos', 'Grano de Oro', 'Santa Catalina', 'La Purita', 'La Florencia'
     ];
     const nb = nombre.toLowerCase();
     for (const m of marcas) {
@@ -52,7 +53,8 @@ function extractMarca(nombre) {
     const blacklistedGenericFirstWords = [
         'pack', 'twopack', 'sixpack', 'tripack', 'precio', 'promo', 'dato',
         'bolsa', 'caja', 'el', 'la', 'los', 'las', 'un', 'una', 'con', 'sin', 'surtido',
-        'oferta', 'super', 'mega', 'mini', 'maxi', 'extra'
+        'oferta', 'super', 'mega', 'mini', 'maxi', 'extra',
+        'arroz', 'avena', 'aceite', 'fideos', 'azúcar', 'azucar', 'pan', 'leche', 'filete'
     ];
 
     const tokens = nombre.split(' ');
@@ -68,8 +70,8 @@ function extractMarca(nombre) {
 function extractTipo(nombre, categoria) {
     const nb = nombre.toLowerCase();
 
-    // 1. GLOBAL COMBO INTERCEPTION FOR ALL 15 CATEGORIES
-    if (nb.includes(' + ') || nb.includes(' gratis ') || nb.includes(' pack ') || nb.includes('tripack') || nb.includes('sixpack') || nb.includes('twopack') || nb.includes(' combo ')) {
+    // 1. GLOBAL COMBO INTERCEPTION FOR ALL 15 CATEGORIES (STRICT WORD BOUNDARY)
+    if (/\bpack\b/.test(nb) || nb.includes(' + ') || nb.includes(' gratis ') || nb.includes('tripack') || nb.includes('sixpack') || nb.includes('twopack') || nb.includes(' combo ')) {
         return 'Combo/Pack';
     }
     
@@ -228,6 +230,24 @@ function normalizePuppeteerItem(item, catId) {
     if (['Leche Evaporada', 'Leche Fresca', 'Mantequilla', 'Huevos'].includes(categoria)) rubro = "Lácteos y Huevos";
     if (['Pan de Molde'].includes(categoria)) rubro = "Panadería";
 
+    // GLOBAL VOLUME MULTIPLIER (Math correction for Packs)
+    let parsedVt = item.presentacion?.valor || 1;
+    let parsedPxum = parseCurrency(item.precios?.porUnidad);
+    const itemNameLower = item.nombre.toLowerCase();
+    
+    // Look for string patterns like "x 2un", "Paquete 6un", "Bandeja 12un" 
+    const packMatch = itemNameLower.match(/(?:x|paquete|bandeja|bolsa|caja)[\s]*(\d+)[\s]*(?:un|und|unid|unidades)\b/);
+    if (packMatch && packMatch[1]) {
+        const multiplier = parseInt(packMatch[1], 10);
+        if (multiplier > 1 && multiplier < 50) { // Safety bound
+            parsedVt = parsedVt * multiplier;
+            // Unitary price drops by the multiplier since there's more volume for the same shelf price
+            if (parsedPxum > 0) {
+                parsedPxum = parsedPxum / multiplier;
+            }
+        }
+    }
+
     return {
         // --- SPRINT 4 NEW SCHEMA ---
         product_id: generateStableId(superNombre, item.nombre),
@@ -235,9 +255,10 @@ function normalizePuppeteerItem(item, catId) {
         rubro: rubro,
         categoria: categoria,
         tipo: extractTipo(item.nombre, categoria),
-        presentacion: item.presentacion?.valor || 1,
+        presentacion: item.presentacion?.valor || 1, // original scanned string value
+        volumen_total: parsedVt, // new computed total volume
         precio_x_presentacion: parseCurrency(item.precios?.online),
-        precio_x_um: parseCurrency(item.precios?.porUnidad),
+        precio_x_um: parsedPxum,
         um: item.presentacion?.unidad || 'u',
         precio_online: parseCurrency(item.precios?.online),
         precio_regular: parseCurrency(item.precios?.regular) || 0,
