@@ -50,7 +50,11 @@ function extractTipo(nombre, categoria) {
     // 2. SPECIFIC CATEGORY TYPING
     if (categoria === 'Arroz' || categoria === 'arroz') {
         if (nb.includes('integral')) return 'Integral';
-        if (nb.includes('gran reserva')) return 'Gran Reserva';
+        if (nb.includes('gran reserva')) {
+            if (nb.includes('extra') && nb.includes('añejo')) return 'Extra Añejo Gran Reserva';
+            if (nb.includes('extra')) return 'Extra Gran Reserva';
+            return 'Gran Reserva';
+        }
         if (nb.includes('japónico') || nb.includes('japonico') || nb.includes('jap??nico')) return 'Japónico';
         
         const tieneAnejo = nb.includes('añejo') || nb.includes('anejo');
@@ -112,6 +116,7 @@ function extractTipo(nombre, categoria) {
         if (nb.includes('integral')) return 'Integral';
         if (nb.includes('blanco')) return 'Blanco';
         if (nb.includes('multigranos')) return 'Multigranos';
+        if (nb.includes('avena') && (nb.includes('semilla') || nb.includes('multisemilla'))) return 'Multisemilla y Avena';
         if (nb.includes('avena')) return 'Con Avena';
         if (nb.includes('semillas') || nb.includes('multisemilla') || nb.includes('linaza')) return 'Multisemilla';
         if (nb.includes('pita')) return 'Pita';
@@ -121,6 +126,7 @@ function extractTipo(nombre, categoria) {
         return 'Regular';
     }
     if (categoria === 'Leche Fresca' || categoria === 'leche-fresca' || categoria === 'Leche' || categoria === 'leche-evaporada') {
+        if (nb.includes('activavena')) return 'UHT Activavena';
         if (nb.includes('deslactosada')) return 'Deslactosada';
         if (nb.includes('light')) return 'Light';
         if (nb.includes('entera')) return 'Entera';
@@ -138,6 +144,7 @@ function extractTipo(nombre, categoria) {
     if (categoria === 'Azúcar Blanca' || categoria === 'azucar-blanca') return 'Blanca';
     if (categoria === 'Azúcar Rubia' || categoria === 'azucar-rubia') return 'Rubia';
     if (categoria === 'Avena' || categoria === 'avena') {
+        if (nb.includes('sin gluten')) return 'Sin Gluten';
         if (nb.includes('entera') || nb.includes('tradicional')) return 'Tradicional';
         if (nb.includes('instantánea') || nb.includes('instantanea') || nb.includes('precocida')) return 'Instantánea';
         if (nb.includes('maca')) return 'Con Maca';
@@ -197,7 +204,7 @@ function performRefineAll() {
         const itemNameLower = d.item.toLowerCase();
         
         // Zero-Deletion Leakage Resolution (Transfer, Don't Delete)
-        if (itemNameLower.includes('vinagre')) {
+        if (itemNameLower.includes('vinagre') && ['arroz', 'Arroz'].includes(d.categoria)) {
             d.categoria = 'Condimentos';
         } else if (itemNameLower.includes('pan de molde')) {
             d.categoria = 'Pan de Molde';
@@ -205,6 +212,8 @@ function performRefineAll() {
             d.categoria = 'Cereales_Oculto'; // Stores data but hides from main 15 categories UI
         } else if (itemNameLower.includes('lunch') || itemNameLower.includes('comida preparada')) {
             d.categoria = 'Comida_Preparada_Oculta';
+        } else if (itemNameLower.includes('leche activavena')) {
+            d.categoria = 'Leche Fresca';
         }
 
         d.tipo = extractTipo(d.item, d.categoria);
@@ -232,6 +241,30 @@ function performRefineAll() {
                     }
                     mathFixCount++;
                 }
+            }
+        }
+
+        // UoM Fallback for Historical Scraper Failures ('kg'/'lt' mapped to '1 u')
+        if (d.um === 'u' && ['Arroz', 'Avena', 'Fideos', 'Azúcar Blanca', 'Azúcar Rubia', 'Leche Fresca', 'Leche', 'Aceite'].includes(d.categoria)) {
+            const fallbackMatch = itemNameLower.match(/(?:\b|x|bolsa|pack)[\s]*(\d+(?:\.\d+)?)[\s]*(kg|g|gr|l|lt|ml)\b/);
+            if (fallbackMatch && fallbackMatch[1]) {
+                const val = parseFloat(fallbackMatch[1]);
+                const weightType = fallbackMatch[2];
+                
+                let calcVt = val;
+                if (['g', 'gr', 'ml'].includes(weightType)) {
+                    calcVt = val / 1000;
+                }
+                
+                d.um = ['l', 'lt', 'ml'].includes(weightType) ? 'lt' : 'kg';
+                d.vt = calcVt;
+                d.volumen_total = calcVt;
+                
+                if (d.precioOnline && calcVt > 0) {
+                    d.pxum = d.precioOnline / calcVt;
+                    d.precio_x_um = d.pxum;
+                }
+                mathFixCount++;
             }
         }
     });

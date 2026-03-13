@@ -78,7 +78,11 @@ function extractTipo(nombre, categoria) {
     // 2. SPECIFIC CATEGORY TYPING
     if (categoria === 'Arroz' || categoria === 'arroz') {
         if (nb.includes('integral')) return 'Integral';
-        if (nb.includes('gran reserva')) return 'Gran Reserva';
+        if (nb.includes('gran reserva')) {
+            if (nb.includes('extra') && nb.includes('añejo')) return 'Extra Añejo Gran Reserva';
+            if (nb.includes('extra')) return 'Extra Gran Reserva';
+            return 'Gran Reserva';
+        }
         if (nb.includes('japónico') || nb.includes('japonico') || nb.includes('jap??nico')) return 'Japónico';
         
         const tieneAnejo = nb.includes('añejo') || nb.includes('anejo') || nb.includes('a??ejo');
@@ -140,6 +144,7 @@ function extractTipo(nombre, categoria) {
         if (nb.includes('integral')) return 'Integral';
         if (nb.includes('blanco')) return 'Blanco';
         if (nb.includes('multigranos')) return 'Multigranos';
+        if (nb.includes('avena') && (nb.includes('semilla') || nb.includes('multisemilla'))) return 'Multisemilla y Avena';
         if (nb.includes('avena')) return 'Con Avena';
         if (nb.includes('semillas') || nb.includes('multisemilla') || nb.includes('linaza')) return 'Multisemilla';
         if (nb.includes('pita')) return 'Pita';
@@ -149,6 +154,7 @@ function extractTipo(nombre, categoria) {
         return 'Regular';
     }
     if (categoria === 'Leche Fresca' || categoria === 'leche-fresca' || categoria === 'Leche' || categoria === 'leche-evaporada') {
+        if (nb.includes('activavena')) return 'UHT Activavena';
         if (nb.includes('deslactosada')) return 'Deslactosada';
         if (nb.includes('light')) return 'Light';
         if (nb.includes('entera')) return 'Entera';
@@ -166,6 +172,7 @@ function extractTipo(nombre, categoria) {
     if (categoria === 'Azúcar Blanca' || categoria === 'azucar-blanca') return 'Blanca';
     if (categoria === 'Azúcar Rubia' || categoria === 'azucar-rubia') return 'Rubia';
     if (categoria === 'Avena' || categoria === 'avena') {
+        if (nb.includes('sin gluten')) return 'Sin Gluten';
         if (nb.includes('entera') || nb.includes('tradicional')) return 'Tradicional';
         if (nb.includes('instantánea') || nb.includes('instantanea') || nb.includes('precocida')) return 'Instantánea';
         if (nb.includes('maca')) return 'Con Maca';
@@ -221,7 +228,23 @@ function generateStableId(superNombre, itemNombre) {
 }
 
 function normalizePuppeteerItem(item, catId) {
-    const categoria = CAT_MAP[catId] || catId;
+    const itemNameLower = item.nombre.toLowerCase();
+
+    // NATIVE LEAKAGE RESOLUTION BEFORE ANY PROCESSING
+    let finalCatId = catId;
+    if (itemNameLower.includes('vinagre') && ['arroz', 'Arroz'].includes(catId)) {
+        finalCatId = 'Condimentos';
+    } else if (itemNameLower.includes('pan de molde')) {
+        finalCatId = 'pan-molde';
+    } else if (itemNameLower.includes('cereal') || itemNameLower.includes('chocapic') || itemNameLower.includes('zucaritas')) {
+        finalCatId = 'Cereales_Oculto'; 
+    } else if (itemNameLower.includes('lunch') || itemNameLower.includes('comida preparada')) {
+        finalCatId = 'Comida_Preparada_Oculta';
+    } else if (itemNameLower.includes('leche activavena')) {
+        finalCatId = 'leche-fresca';
+    }
+
+    const categoria = CAT_MAP[finalCatId] || finalCatId;
     const superNombre = SUPER_MAP[item.super] || (item.super === 'wong' ? 'Wong' : (item.super === 'metro' ? 'Metro' : item.super));
 
     let rubro = "Abarrotes";
@@ -230,10 +253,10 @@ function normalizePuppeteerItem(item, catId) {
     if (['Leche Evaporada', 'Leche Fresca', 'Mantequilla', 'Huevos'].includes(categoria)) rubro = "Lácteos y Huevos";
     if (['Pan de Molde'].includes(categoria)) rubro = "Panadería";
 
-    // GLOBAL VOLUME MULTIPLIER (Math correction for Packs)
+    // GLOBAL VOLUME MULTIPLIER & FALLBACK CORRECTIONS
     let parsedVt = item.presentacion?.valor || 1;
     let parsedPxum = parseCurrency(item.precios?.porUnidad);
-    const itemNameLower = item.nombre.toLowerCase();
+    let umFinal = item.presentacion?.unidad || 'u';
     
     // Look for string patterns like "x 2un", "Paquete 6un", "Bandeja 12un" 
     const packMatch = itemNameLower.match(/(?:x|paquete|bandeja|bolsa|caja)[\s]*(\d+)[\s]*(?:un|und|unid|unidades)\b/);
@@ -244,6 +267,26 @@ function normalizePuppeteerItem(item, catId) {
             // Unitary price drops by the multiplier since there's more volume for the same shelf price
             if (parsedPxum > 0) {
                 parsedPxum = parsedPxum / multiplier;
+            }
+        }
+    }
+    
+    // Fallback for Scraper Failure to detect 'kg' boundaries (e.g., 'Arroz Gran Reserva 5kg' mapped to '1 u')
+    if (umFinal === 'u' && ['Arroz', 'Avena', 'Fideos', 'Azúcar Blanca', 'Azúcar Rubia', 'Leche Fresca', 'Leche', 'Aceite'].includes(categoria)) {
+        const fallbackMatch = itemNameLower.match(/(?:\b|x|bolsa|pack)[\s]*(\d+(?:\.\d+)?)[\s]*(kg|g|gr|l|lt|ml)\b/);
+        if (fallbackMatch && fallbackMatch[1]) {
+            const val = parseFloat(fallbackMatch[1]);
+            const weightType = fallbackMatch[2];
+            
+            if (['g', 'gr', 'ml'].includes(weightType)) {
+                parsedVt = val / 1000;
+            } else {
+                parsedVt = val;
+            }
+            umFinal = ['l', 'lt', 'ml'].includes(weightType) ? 'lt' : 'kg';
+            
+            if (item.precios?.online && parsedVt > 0) {
+                parsedPxum = parseCurrency(item.precios.online) / parsedVt;
             }
         }
     }
@@ -259,7 +302,7 @@ function normalizePuppeteerItem(item, catId) {
         volumen_total: parsedVt, // new computed total volume
         precio_x_presentacion: parseCurrency(item.precios?.online),
         precio_x_um: parsedPxum,
-        um: item.presentacion?.unidad || 'u',
+        um: umFinal,
         precio_online: parseCurrency(item.precios?.online),
         precio_regular: parseCurrency(item.precios?.regular) || 0,
         precio_tarjeta: parseCurrency(item.precios?.tarjeta) || null,
@@ -384,4 +427,12 @@ async function main() {
     console.table(byCat);
 }
 
-main();
+if (require.main === module) {
+    main();
+} else {
+    module.exports = {
+        extractMarca,
+        extractTipo,
+        normalizePuppeteerItem
+    };
+}

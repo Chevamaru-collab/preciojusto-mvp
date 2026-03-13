@@ -19,12 +19,18 @@
   - Todas las categorías (`arroz`, `fideos`, `filete`, etc.) bloqueadas como falsas marcas (679 corregidas). 
   - Fugas de categoría tratadas sin borrar data: 9 fugas migradas silenciosamente a condimentos o índices ocultos. 
   - Se reactivó la matemática de Packs para cazar cadenas `x 2un`, multiplicando los volúmenes reales históricamente.
+- **Ola 5: TDD Hotfixes de Especificidad y Unidades de Análisis (Global):**
+  - Aplicación estricta de Protocolo TDD identificando fallas en las Unidades de Medida y Especificidades reportadas por el Product Owner.
+  - El motor ahora detecta cuando el scraper da Unidades ('u') erróneas para Arroz/Avena y fuerza la extracción de 'kg', recalculando los volúmenes físicos reales (ej. Bolsa 5kg ahora tiene um 'kg' y vt '5').
+  - Se salvaron los subtipos (Extra Añejo Gran Reserva) y se sellaron las fugas nativas de Pan en Avena y Leche Activavena. 
 - **Commits:**
   - `feat(data): scraping diario 13 Marzo`
   - `feat(data): sanitizacion global, filtros anti-leakage y extraccion real de tipos`
   - `feat(data): refine Aceite types, exclude canned fish, and obliterate generic UI brands`
   - `feat(data): wave 3 zero-deletion normalization (combos, menestras, pan)`
   - `feat(data): wave 4 global brand immunity, accurate pack volume math, non-destructive leakages`
+  - `test(data): tdd bug reproducer added`
+  - `fix(data): wave 5 units of measurement fallback, native leakages, strict specificity`
 
 ## 2. Métricas de Datos
 - **Total productos extraídos hoy:** 1,339 productos
