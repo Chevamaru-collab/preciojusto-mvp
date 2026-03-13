@@ -1,0 +1,911 @@
+{
+  "total_applied": 434,
+  "changes": [
+    {
+      "product_id": "metro_alimentohmedopedigreepouchsalmnyarroz",
+      "item": "Alimento Húmedo Pedigree Pouch Salmón y Arroz",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Arroz",
+      "expected_rubro": "Mascotas"
+    },
+    {
+      "product_id": "metro_pandemoldeconavenaorno600g",
+      "item": "Pan de Molde con Avena Orno 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeblancocuisineco500g",
+      "item": "Pan de Molde Blanco Cuisine & Co 500g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegralfamiliarpycbolsa500g",
+      "item": "Pan de Molde Integral Familiar PYC Bolsa 500 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeblancopyc480g",
+      "item": "Pan de Molde Blanco PYC 480g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegraluninmedianobolsa360g",
+      "item": "Pan de Molde Integral Unión Mediano Bolsa 360 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldemultigranos390g",
+      "item": "Pan de Molde Multigranos 390g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldecampesinomisturapan390g",
+      "item": "Pan de Molde Campesino Misturapan 390g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldesuperbomblanco465g",
+      "item": "Pan de Molde Superbom Blanco 465 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegralmisturapan390g",
+      "item": "Pan de Molde Integral Misturapan 390g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegralbimboextragrande810g",
+      "item": "Pan de Molde Integral Bimbo Extra Grande 810g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeuninmultisemillachipsmielbolsa",
+      "item": "Pan de Molde Unión Multisemilla & Chips Miel bolsa 540 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeuningranosintegralesbolsa540g",
+      "item": "Pan de Molde Unión Granos Integrales Bolsa 540 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeblancobimboextragrande770g",
+      "item": "Pan de Molde Blanco Bimbo Extra Grande 770g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldebriochewong300g",
+      "item": "Pan de Molde Brioche Wong 300g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldemulticerealvitalbimbobolsa360g",
+      "item": "Pan de Molde Multicereal Vital Bimbo Bolsa 360 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldedesemillasbimbovitalbolsa360g",
+      "item": "Pan de Molde de Semillas Bimbo Vital Bolsa 360 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldebimbodoblefibra510g",
+      "item": "Pan de Molde Bimbo Doble Fibra 510g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldedeyemamisturapan390g",
+      "item": "Pan de Molde de Yema Misturapan 390g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldefinashierbasmisturapan390g",
+      "item": "Pan de Molde Finas Hierbas Misturapan 390g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldetipoartesanalbimboartesanointe",
+      "item": "Pan de Molde Tipo Artesanal Bimbo Artesano Integral 560g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldedonmaminoblancosincortezabolsa",
+      "item": "Pan de Molde Don Mamino Blanco Sin Corteza Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegraldonmaminobolsa560g",
+      "item": "Pan de Molde Integral Don Mamino Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegralclsicouningrandebolsa4",
+      "item": "Pan de Molde Integral Clásico Unión Grande Bolsa 495 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldedonmaminomarmoleadobolsa560g",
+      "item": "Pan de Molde Don Mamino Marmoleado Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegralsincorteza610g",
+      "item": "Pan de Molde Integral Sin Corteza 610g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeblancobimbosincorteza590g",
+      "item": "Pan de Molde Blanco Bimbo Sin Corteza 590g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldemulticerealbimbovitalbolsa600g",
+      "item": "Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldedesemillasbimbovitalbolsa600g",
+      "item": "Pan de Molde de Semillas Bimbo Vital Bolsa 600 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldebimbovitalmixdequinuas600g",
+      "item": "Pan de Molde Bimbo Vital Mix de Quinuas 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldedecamoteorno600g",
+      "item": "Pan de Molde de Camote Orno 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldebimbospersandwich800g",
+      "item": "Pan de Molde Bimbo Súper Sandwich 800g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegralorno600g",
+      "item": "Pan de Molde Integral Orno 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_packx2pandemoldedesemillasbimbovitalbols",
+      "item": "Pack x2 Pan de Molde de Semillas Bimbo Vital Bolsa 600 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_packx2pandemoldemulticerealbimbovitalbol",
+      "item": "Pack x2 Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeblancobauducco390g",
+      "item": "Pan de Molde Blanco Bauducco 390g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeblancobimboxl770g",
+      "item": "Pan de Molde Blanco Bimbo XL 770g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeintegralbimbocerocero650g",
+      "item": "Pan de Molde Integral Bimbo Cero Cero 650g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeuninmultisemillasyavenabolsa54",
+      "item": "Pan de Molde UNIÓN Multisemillas y Avena Bolsa 540g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancoxlbimboextragrandebolsa7",
+      "item": "Pan de Molde Blanco XL BIMBO Extra Grande Bolsa 770g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralxlbimboextragrandebols",
+      "item": "Pan de Molde Integral XL BIMBO Extra Grande Bolsa 810g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralbimbovitalmulticerealb",
+      "item": "Pan de Molde Integral BIMBO Vital Multicereal Bolsa 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancodonmaminosincortezabolsa",
+      "item": "Pan de Molde Blanco DON MAMINO sin Corteza Bolsa 560g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldebimbovitalsemillasbolsa360g",
+      "item": "Pan de Molde BIMBO Vital Semillas Bolsa 360g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeuninmultisemillasychipsdemielb",
+      "item": "Pan de Molde UNIÓN Multisemillas y Chips de Miel Bolsa 540g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeuningranosintegralesbolsa540g",
+      "item": "Pan de Molde UNIÓN Granos Integrales Bolsa 540g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancobimbovitaldesemillasbols",
+      "item": "Pan de Molde Blanco BIMBO Vital de Semillas Bolsa 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldebimboblancofamiliarbolsa590g",
+      "item": "Pan de Molde BIMBO Blanco Familiar Bolsa 590g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldebimbointegralfamiliarbolsa620g",
+      "item": "Pan de Molde BIMBO Integral Familiar Bolsa 620g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegrallaflorenciabolsa500g",
+      "item": "Pan de Molde Integral LA FLORENCIA Bolsa 500g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancolaflorenciabolsa500g",
+      "item": "Pan de Molde Blanco LA FLORENCIA Bolsa 500g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldedonmaminoconsalvadodetrigobols",
+      "item": "Pan de Molde DON MAMINO con Salvado de Trigo Bolsa 560g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralbellsmedianobolsa500g",
+      "item": "Pan de Molde Integral BELL'S Mediano Bolsa 500g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancobellsmedianobolsa500g",
+      "item": "Pan de Molde Blanco BELL'S Mediano Bolsa 500g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegraluninmedianobolsa360g",
+      "item": "Pan de Molde Integral UNIÓN Mediano Bolsa 360g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralpycmedianobolsa500g",
+      "item": "Pan de Molde Integral PYC Mediano Bolsa 500g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldelaflorenciaintegralbolsa350g",
+      "item": "Pan de Molde LA FLORENCIA Integral Bolsa 350g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegraluninbolsa495g",
+      "item": "Pan de Molde Integral UNIÓN Bolsa 495g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldemarmoleadodonmaminosincortezab",
+      "item": "Pan de Molde Marmoleado DON MAMINO sin Corteza Bolsa 560g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeuninfibramulticerealbolsa540g",
+      "item": "Pan de Molde UNIÓN Fibra Multicereal Bolsa 540g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeconavenaornobolsa600g",
+      "item": "Pan de Molde con Avena ORNO Bolsa 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldelaflorenciabolsa350g",
+      "item": "Pan de Molde LA FLORENCIA Bolsa 350g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancoxlbimboextragrandebols",
+      "item": "Pan de Molde Blanco XL BIMBO Extra Grande Bols...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralxlbimboextragrandebo",
+      "item": "Pan de Molde Integral XL BIMBO Extra Grande Bo...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralbimbovitalmulticereal",
+      "item": "Pan de Molde Integral BIMBO Vital Multicereal ...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancodonmaminosincortezabol",
+      "item": "Pan de Molde Blanco DON MAMINO sin Corteza Bol...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeuninmultisemillasyavenabolsa",
+      "item": "Pan de Molde UNIÓN Multisemillas y Avena Bolsa...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeuningranosintegralesbolsa540",
+      "item": "Pan de Molde UNIÓN Granos Integrales Bolsa 540...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancobimbovitaldesemillasbo",
+      "item": "Pan de Molde Blanco BIMBO Vital de Semillas Bo...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldebimbointegralcerocerobolsa65",
+      "item": "Pan de Molde BIMBO Integral Cero Cero Bolsa 65...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralmulticereallaflorencia",
+      "item": "Pan de Molde Integral Multicereal LA FLORENCIA...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeuninmultisemillasychipsdemi",
+      "item": "Pan de Molde UNIÓN Multisemillas y Chips de Mi...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralbellsmedianobolsa500",
+      "item": "Pan de Molde Integral BELL'S Mediano Bolsa 500...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldebimbointegralfamiliarbolsa620",
+      "item": "Pan de Molde BIMBO Integral Familiar Bolsa 620...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegral6semillaslaflorencia",
+      "item": "Pan de Molde Integral 6 Semillas LA FLORENCIA ...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancobellstipofuentecortev",
+      "item": "Pan de Molde Blanco BELL’S Tipo Fuente Corte V...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeuninfibramulticerealbolsa540",
+      "item": "Pan de Molde UNIÓN Fibra Multicereal Bolsa 540...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_panamericanosandwichuninbolsa540g",
+      "item": "Pan Americano Sandwich UNIÓN Bolsa 540g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancodonmaminopullmancorteh",
+      "item": "Pan de Molde Blanco DON MAMINO Pullman Corte H...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralmolinosdelmundosingl",
+      "item": "Pan de Molde Integral MOLINOS DEL MUNDO Sin Gl...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldemolinosdelmundosinglutenysi",
+      "item": "Pan de Molde MOLINOS DEL MUNDO Sin Gluten y Si...",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_bimbopandemoldeblancosinbordesbimbo690g",
+      "item": "BIMBO Pan De Molde Blanco Sin Bordes Bimbo 690 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_donmaminopandemoldeblancosincortezadonma",
+      "item": "DON MAMINO Pan de Molde Blanco sin Corteza Don Mamino Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_bimbopandemoldebimbointegralsinbordebols",
+      "item": "BIMBO Pan de Molde Bimbo Integral Sin Borde Bolsa 650 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_pycpandemoldepycintegralbolsa500g",
+      "item": "PYC Pan de Molde PYC Integral Bolsa 500 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_lacanastapandemoldeintegrallacanastaempa",
+      "item": "LA CANASTA Pan de Molde Integral La Canasta Empaque 600 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_unionpanamericanosandwichuninbolsa400g",
+      "item": "UNION Pan Americano Sandwich Unión Bolsa 400 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "pan-molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_bimbopandemoldeintegralbimbo480g",
+      "item": "BIMBO Pan de Molde Integral Bimbo 480 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_bimbopandemoldeartesanointegralbimbo530g",
+      "item": "BIMBO Pan De Molde Artesano Integral Bimbo 530 G",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_bimbopandemoldemultigranolinazaconomega3",
+      "item": "BIMBO Pan De Molde Multigrano Linaza Con Omega 3 Bimbo 420 G",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_bimbopandemoldefruticerealbimbovital360g",
+      "item": "BIMBO Pan de Molde Fruticereal Bimbo Vital 360 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_donmaminopandemoldemrmolsincortardonmami",
+      "item": "DON MAMINO Pan de Molde Mármol sin Cortar Don Mamino Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_lacanastapandemoldeblancolacanastabolsa6",
+      "item": "LA CANASTA Pan de Molde Blanco La Canasta Bolsa 630 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "tottus_lacanastapandemoldeintegrallacanastabols",
+      "item": "LA CANASTA Pan de Molde Integral La Canasta Bolsa 600 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldedonmaminoblancosincortezabolsa",
+      "item": "Pan de Molde Don Mamino Blanco Sin Corteza Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeintegraldonmaminobolsa560g",
+      "item": "Pan de Molde Integral Don Mamino Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeblancobimbocerocero530g",
+      "item": "Pan de Molde Blanco Bimbo Cero Cero 530g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldedesemillasbimbovitalbolsa360g",
+      "item": "Pan de Molde de Semillas Bimbo Vital Bolsa 360 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldetipoartesanalbimboartesanointe",
+      "item": "Pan de Molde Tipo Artesanal Bimbo Artesano Integral 560g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldemulticerealvitalbimbobolsa360g",
+      "item": "Pan de Molde Multicereal Vital Bimbo Bolsa 360 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeintegralbimboextragrande810g",
+      "item": "Pan de Molde Integral Bimbo Extra Grande 810g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldedonmaminomarmoleadobolsa560g",
+      "item": "Pan de Molde Don Mamino Marmoleado Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeuninmultisemillachipsmielbolsa",
+      "item": "Pan de Molde Unión Multisemilla & Chips Miel bolsa 540 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeintegraluninmedianobolsa360g",
+      "item": "Pan de Molde Integral Unión Mediano Bolsa 360 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeuningranosintegralesbolsa540g",
+      "item": "Pan de Molde Unión Granos Integrales Bolsa 540 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldebimbovitalmixdequinuas600g",
+      "item": "Pan de Molde Bimbo Vital Mix de Quinuas 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldedonmaminopullmancortehorizonta",
+      "item": "Pan de Molde Don Mamino Pullman Corte Horizontal Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeintegralclsicouningrandebolsa4",
+      "item": "Pan de Molde Integral Clásico Unión Grande Bolsa 495 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeintegralsinglutenmolinosdelmun",
+      "item": "Pan de Molde Integral Sin Gluten Molinos del Mundo Bolsa 480 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeblancosinglutenmolinosdelmundo",
+      "item": "Pan de Molde Blanco Sin Gluten Molinos del Mundo Bolsa 480 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_packx2pandemoldedesemillasbimbovitalbols",
+      "item": "Pack x2 Pan de Molde de Semillas Bimbo Vital Bolsa 600 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldeblancobauducco390g",
+      "item": "Pan de Molde Blanco Bauducco 390g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_packx2pandemoldemulticerealbimbovitalbol",
+      "item": "Pack x2 Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_twopackpandemoldebimbovitalmixdequinuas6",
+      "item": "Twopack Pan de Molde Bimbo Vital Mix de Quinuas 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_packpandemoldebimboartesanooriginal560gi",
+      "item": "Pack Pan de Molde Bimbo Artesano: Original 560g + Integral 560g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldedecamoteorno600g",
+      "item": "Pan de Molde de Camote Orno 600g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "wong_pandemoldedecamoteyoysinazcar400g",
+      "item": "Pan de Molde de Camote Yoy Sin Azúcar 400g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldebimbointegralcerocerobolsa650g",
+      "item": "Pan de Molde BIMBO Integral Cero Cero Bolsa 650g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeblancodonmaminopullmancortehor",
+      "item": "Pan de Molde Blanco DON MAMINO Pullman Corte Horizontal Bolsa 560g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegralmolinosdelmundosinglut",
+      "item": "Pan de Molde Integral MOLINOS DEL MUNDO Sin Gluten y Sin Lactosa Bolsa 480g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldemolinosdelmundosinglutenysinla",
+      "item": "Pan de Molde MOLINOS DEL MUNDO Sin Gluten y Sin Lactosa Bolsa 480g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldeblancodonmamino250g",
+      "item": "Pan De Molde Blanco Don Mamino 250 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "metro_pandemoldedonmaminopullmancortehorizonta",
+      "item": "Pan de Molde Don Mamino Pullman Corte Horizontal Bolsa 560 g",
+      "current_rubro": "Abarrotes",
+      "current_categoria": "Pan de Molde",
+      "expected_rubro": "Panadería"
+    },
+    {
+      "product_id": "plazavea_pandemoldeintegral6semillaslaflorenciabo",
+      "item": "Pan de Molde Integral 6 Semillas LA FLORENCIA Bolsa 500g",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    },
+    {
+      "product_id": "plazavea_perupeluchescapibarapandemolde",
+      "item": "Peru Peluches Capibara pan de Molde",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    },
+    {
+      "product_id": "wong_pandemoldeblancobimboextragrande770g",
+      "item": "Pan de Molde Blanco Bimbo Extra Grande 770g",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    },
+    {
+      "product_id": "wong_pandemoldemulticerealbimbovitalbolsa600g",
+      "item": "Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    },
+    {
+      "product_id": "wong_pandemoldeintegralbimbocerocero650g",
+      "item": "Pan de Molde Integral Bimbo Cero Cero 650g",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    },
+    {
+      "product_id": "wong_pandemoldeblancodonmamino250g",
+      "item": "Pan De Molde Blanco Don Mamino 250 g",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    },
+    {
+      "product_id": "wong_pandemoldeblancobimbosincorteza590g",
+      "item": "Pan de Molde Blanco Bimbo Sin Corteza 590g",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    },
+    {
+      "product_id": "wong_pandemoldeuninmultisemillasconavena540g",
+      "item": "Pan de Molde Unión Multisemillas con Avena 540g",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    },
+    {
+      "product_id": "wong_pandemoldeblancobimbo480g",
+      "item": "Pan de Molde Blanco Bimbo 480g",
+      "recommended_hierarchy": "Panadería → Pan → Pan de molde"
+    }
+  ]
+}
