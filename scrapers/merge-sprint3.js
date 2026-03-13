@@ -59,11 +59,18 @@ function extractTipo(nombre, categoria) {
     if (categoria === 'Arroz') {
         if (nb.includes('integral')) return 'Integral';
         if (nb.includes('gran reserva')) return 'Gran Reserva';
-        if (nb.includes('añejo extra') || nb.includes('anejo extra') || nb.includes('a??ejo extra')) return 'Añejo Extra';
-        if (nb.includes('extra añejo') || nb.includes('extra anejo') || nb.includes('extra a??ejo')) return 'Añejo Extra'; // Normalized to Añejo Extra
         if (nb.includes('japónico') || nb.includes('japonico') || nb.includes('jap??nico')) return 'Japónico';
-        if (nb.includes('extra')) return 'Extra';
-        if (nb.includes('superior')) return 'Superior';
+        
+        const tieneAnejo = nb.includes('añejo') || nb.includes('anejo') || nb.includes('a??ejo');
+        const tieneSuperior = nb.includes('superior');
+        const tieneExtra = nb.includes('extra');
+
+        if (tieneAnejo && tieneSuperior) return 'Superior Añejo';
+        if (tieneAnejo && tieneExtra) return 'Añejo Extra';
+        if (tieneAnejo) return 'Añejo';
+        if (tieneSuperior) return 'Superior';
+        if (tieneExtra) return 'Extra';
+        
         return 'Extra'; 
     }
     if (categoria === 'Aceite') {
