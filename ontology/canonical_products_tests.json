@@ -1,0 +1,148 @@
+[
+  {
+    "category": "A. Complete Semantic Reconstruction",
+    "tests": [
+      {
+        "input": {
+          "categoria": "Especias",
+          "subcategoria": "Polvo",
+          "presentation": "1",
+          "unit": "KG",
+          "item": "Canela en Polvo x Kg"
+        },
+        "expected_canonical_name": "Canela en Polvo 1 KG"
+      },
+      {
+        "input": {
+          "categoria": "Aceite",
+          "subcategoria": "Vegetal x 5Lt",
+          "cantidad": "5",
+          "um": "LT",
+          "item": "Aceite Bells x 5 Lt."
+        },
+        "expected_canonical_name": "Aceite Vegetal 5 LT"
+      },
+      {
+        "input": {
+          "categoria": "Blanca",
+          "subcategoria": "5Kg",
+          "cantidad": "5",
+          "um": "KG",
+          "item": "Azucar Blanca ARO x 5kg.",
+          "sub_rubro": "Azucar"
+        },
+        "expected_canonical_name": "Azucar Blanca 5 KG"
+      }
+    ]
+  },
+  {
+    "category": "A2. Brand Detection",
+    "tests": [
+      {
+        "input": {
+          "item": "Aceite Bells x 5 Lt.",
+          "marca": "BELLS"
+        },
+        "expected_brand": "BELLS"
+      },
+      {
+        "input": {
+          "item": "Aceite Vegetal PRIMOR x 1 Galon",
+          "marca": ""
+        },
+        "expected_brand": "PRIMOR"
+      },
+      {
+        "input": {
+          "item": "Canela en Polvo x Kg",
+          "marca": ""
+        },
+        "expected_brand": ""
+      }
+    ]
+  },
+  {
+    "category": "B. Split Mixed Subcategory",
+    "tests": [
+      {
+        "input": "Vegetal x 5Lt",
+        "expected": {
+          "subcategoria": "Vegetal",
+          "presentation": "5",
+          "unit": "Lt"
+        }
+      },
+      {
+        "input": "1 Kg",
+        "expected": {
+          "subcategoria": "",
+          "presentation": "1",
+          "unit": "Kg"
+        }
+      },
+      {
+        "input": "#8 - Blanco",
+        "expected": {
+          "subcategoria": "#8 - Blanco",
+          "presentation": "",
+          "unit": ""
+        }
+      }
+    ]
+  },
+  {
+    "category": "C. Avoid Generic Output",
+    "tests": [
+      {
+        "name": "Polvo",
+        "is_generic": true
+      },
+      {
+        "name": "Blanca",
+        "is_generic": true
+      },
+      {
+        "name": "Canela en Polvo",
+        "is_generic": false
+      }
+    ]
+  },
+  {
+    "category": "D. Remove Commercial Noise",
+    "tests": [
+      {
+        "input": {
+          "item": "Aceite Bells x 5 Lt.",
+          "categoria": "Aceite",
+          "subcategoria": "Vegetal x 5Lt",
+          "cantidad": "5",
+          "um": "LT",
+          "marca": "BELLS"
+        },
+        "expected_canonical_name": "Aceite Vegetal 5 LT",
+        "expected_brand_detected": "BELLS"
+      }
+    ]
+  },
+  {
+    "category": "E. Flag Ambiguous Cases",
+    "tests": [
+      {
+        "input": {
+          "item": "",
+          "categoria": "",
+          "subcategoria": ""
+        },
+        "expected_needs_review": true
+      },
+      {
+        "input": {
+          "item": "Gastos Varios (MA) - Fruta",
+          "categoria": "Varios",
+          "subcategoria": ""
+        },
+        "expected_needs_review": true
+      }
+    ]
+  }
+]
