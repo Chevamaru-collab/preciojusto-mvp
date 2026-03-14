@@ -6,3 +6,7 @@ logs/
 # Node
 node_modules/
 .env
+
+secrets.txt
+*.jar
+logs/
