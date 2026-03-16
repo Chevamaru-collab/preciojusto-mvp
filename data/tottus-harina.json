@@ -1,6 +1,6 @@
 [
   {
-    "id": "tottus_molitaliaharinasinpr_mmtidkau",
+    "id": "tottus_molitaliaharinasinpr_mmtr58f2",
     "nombre": "MOLITALIA Harina Sin Preparar Molitalia Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -19,76 +19,10 @@
     },
     "descuento": 27,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.534Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_blancaflorharinadetr_mmtidkau",
-    "nombre": "BLANCA FLOR Harina de Trigo Preparada Blanca Flor Bolsa 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 7.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.534Z"
-  },
-  {
-    "id": "tottus_molitaliaharinaprepa_mmtidkav",
-    "nombre": "MOLITALIA Harina Preparada Molitalia Bolsa 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 8.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.534Z"
-  },
-  {
-    "id": "tottus_panharinademazblanco_mmtidkav",
-    "nombre": "PAN Harina de Maíz Blanco Pan Precocido Bolsa 1 Kg",
-    "categoria": "harina",
-    "super": "tottus",
-    "precios": {
-      "online": 7.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
-  },
-  {
-    "id": "tottus_blancaflorharinadetr_mmtidkav",
+    "id": "tottus_blancaflorharinadetr_mmtr58f2",
     "nombre": "BLANCA FLOR Harina de Trigo Sin Preparar Blanca Flor Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -107,10 +41,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_tottusharinadetrigop_mmtidkav",
+    "id": "tottus_molitaliaharinaprepa_mmtr58f2",
+    "nombre": "MOLITALIA Harina Preparada Molitalia Bolsa 1 Kg",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 8.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T22:25:34.430Z"
+  },
+  {
+    "id": "tottus_panharinademazblanco_mmtr58f2",
+    "nombre": "PAN Harina de Maíz Blanco Pan Precocido Bolsa 1 Kg",
+    "categoria": "harina",
+    "super": "tottus",
+    "precios": {
+      "online": 7.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T22:25:34.430Z"
+  },
+  {
+    "id": "tottus_tottusharinadetrigop_mmtr58f2",
     "nombre": "TOTTUS Harina de Trigo Preparada Tottus Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -129,10 +107,10 @@
     },
     "descuento": 28,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_tottusharinasinprepa_mmtidkav",
+    "id": "tottus_tottusharinasinprepa_mmtr58f2",
     "nombre": "TOTTUS Harina Sin Preparar Tottus Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -151,10 +129,10 @@
     },
     "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_tierraharinadeavenat_mmtidkav",
+    "id": "tottus_tierraharinadeavenat_mmtr58f2",
     "nombre": "TIERRA Harina de Avena Tierra Sin Gluten Empaque 400 g",
     "categoria": "harina",
     "super": "tottus",
@@ -173,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_tottusharinaintegral_mmtidkav",
+    "id": "tottus_tottusharinaintegral_mmtr58f2",
     "nombre": "TOTTUS Harina Integral Tottus Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -195,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_panharinademazpanama_mmtidkav",
+    "id": "tottus_panharinademazpanama_mmtr58f2",
     "nombre": "PAN Harina de Maíz PAN Amarillo Precocida Empaque 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -217,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_costenoharinadearroz_mmtidkav",
+    "id": "tottus_costenoharinadearroz_mmtr58f2",
     "nombre": "COSTENO Harina de Arroz Costeño Bolsa 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -239,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_molicuscoharinadequi_mmtidkav",
+    "id": "tottus_molicuscoharinadequi_mmtr58f2",
     "nombre": "MOLICUSCO Harina de Quinua Molicusco Bolsa 250 g",
     "categoria": "harina",
     "super": "tottus",
@@ -261,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_bobsredmillharinadea_mmtidkav",
+    "id": "tottus_bobsredmillharinadea_mmtr58f2",
     "nombre": "BOBS RED MILL Harina de Arroz Orgánica Bobs Red Mill Bolsa 680 g",
     "categoria": "harina",
     "super": "tottus",
@@ -283,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_naturandesharinadeli_mmtidkav",
+    "id": "tottus_naturandesharinadeli_mmtr58f2",
     "nombre": "NATURANDES Harina de Linaza Naturandes Doypack 300 g",
     "categoria": "harina",
     "super": "tottus",
@@ -305,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_naturandesharinade7s_mmtidkav",
+    "id": "tottus_naturandesharinade7s_mmtr58f2",
     "nombre": "NATURANDES Harina de 7 Semillas Naturandes Doypack 200 g",
     "categoria": "harina",
     "super": "tottus",
@@ -327,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_mitierraharinadecoco_mmtidkav",
+    "id": "tottus_mitierraharinadecoco_mmtr58f2",
     "nombre": "MI TIERRA Harina de Coco Mi Tierra Bolsa 400 g",
     "categoria": "harina",
     "super": "tottus",
@@ -349,10 +327,10 @@
     },
     "descuento": 34,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_preciounoharinaprepa_mmtidkav",
+    "id": "tottus_preciounoharinaprepa_mmtr58f2",
     "nombre": "PRECIO UNO Harina Preparada Precio Uno Empaque 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -371,10 +349,10 @@
     },
     "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_bobsredmillmezclahar_mmtidkav",
+    "id": "tottus_bobsredmillmezclahar_mmtr58f2",
     "nombre": "BOBS RED MILL Mezcla Harina Bobs Red Mill Sin Gluten Bolsa 623 g",
     "categoria": "harina",
     "super": "tottus",
@@ -393,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_preciounoharinasinpr_mmtidkav",
+    "id": "tottus_preciounoharinasinpr_mmtr58f2",
     "nombre": "PRECIO UNO Harina Sin Preparar Precio Uno Empaque 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -415,10 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_elartesanoharinadeca_mmtidkav",
+    "id": "tottus_elartesanoharinadeca_mmtr58f2",
     "nombre": "EL ARTESANO Harina de Camote El Artesano Bolsa 250 g",
     "categoria": "harina",
     "super": "tottus",
@@ -437,10 +415,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_renacerharinadequinu_mmtidkav",
+    "id": "tottus_renacerharinadequinu_mmtr58f2",
     "nombre": "RENACER Harina de Quinua Renacer Bolsa 500 g",
     "categoria": "harina",
     "super": "tottus",
@@ -459,10 +437,10 @@
     },
     "descuento": 11,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_renacerharinadekiwic_mmtidkav",
+    "id": "tottus_renacerharinadekiwic_mmtr58f2",
     "nombre": "RENACER Harina de Kiwicha Renacer Bolsa 200 g",
     "categoria": "harina",
     "super": "tottus",
@@ -481,10 +459,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_gattiharinadechagatt_mmtidkav",
+    "id": "tottus_gattiharinadechagatt_mmtr58f2",
     "nombre": "GATTI Harina de Chía Gatti Doypack 250 g",
     "categoria": "harina",
     "super": "tottus",
@@ -503,10 +481,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_gattiharinadeajonjol_mmtidkav",
+    "id": "tottus_gattiharinadeajonjol_mmtr58f2",
     "nombre": "GATTI Harina de Ajonjolí Gatti Doypack 250 g",
     "categoria": "harina",
     "super": "tottus",
@@ -525,10 +503,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_renacerharinadesoyat_mmtidkav",
+    "id": "tottus_renacerharinadesoyat_mmtr58f2",
     "nombre": "RENACER Harina de Soya Tostada Renacer Bolsa 500 g",
     "categoria": "harina",
     "super": "tottus",
@@ -547,10 +525,10 @@
     },
     "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_elartesanoharinadepl_mmtidkav",
+    "id": "tottus_elartesanoharinadepl_mmtr58f2",
     "nombre": "EL ARTESANO Harina de Plátano El Artesano Bolsa 250 g",
     "categoria": "harina",
     "super": "tottus",
@@ -569,10 +547,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_bobsredmillharinadey_mmtidkav",
+    "id": "tottus_bobsredmillharinadey_mmtr58f2",
     "nombre": "BOBS RED MILL Harina de Yuca Bobs Red Mill Empaque 453 g",
     "categoria": "harina",
     "super": "tottus",
@@ -591,10 +569,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_naturandesblend7semi_mmtidkav",
+    "id": "tottus_naturandesblend7semi_mmtr58f2",
     "nombre": "NATURANDES Blend 7 Semillas Chocolate Naturandes Doypack 200 g",
     "categoria": "harina",
     "super": "tottus",
@@ -613,10 +591,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_benotiharinasinprepa_mmtidkav",
+    "id": "tottus_benotiharinasinprepa_mmtr58f2",
     "nombre": "BENOTI Harina Sin Preparar Benoti Empaque 1 Kg",
     "categoria": "harina",
     "super": "tottus",
@@ -635,10 +613,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_renacerharinapretost_mmtidkav",
+    "id": "tottus_renacerharinapretost_mmtr58f2",
     "nombre": "RENACER Harina Pre Tostada Especial Renacer Bolsa 500 g",
     "categoria": "harina",
     "super": "tottus",
@@ -657,10 +635,10 @@
     },
     "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_molitaliaharinatrigo_mmtidkav",
+    "id": "tottus_molitaliaharinatrigo_mmtr58f2",
     "nombre": "MOLITALIA Harina Trigo Repostera Especial 1 kg",
     "categoria": "harina",
     "super": "tottus",
@@ -679,10 +657,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_blancaflorpremezclad_mmtidkav",
+    "id": "tottus_blancaflorpremezclad_mmtr58f2",
     "nombre": "BLANCA FLOR Premezcla de Keke Blanca Flor Sabor Vainilla Bolsa 750 g",
     "categoria": "harina",
     "super": "tottus",
@@ -701,10 +679,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_mitierraharinadearro_mmtidkav",
+    "id": "tottus_mitierraharinadearro_mmtr58f3",
     "nombre": "MI TIERRA Harina de Arroz Mi Tierra Bolsa 500 g",
     "categoria": "harina",
     "super": "tottus",
@@ -723,10 +701,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.430Z"
   },
   {
-    "id": "tottus_granodeoroharinadetr_mmtidkav",
+    "id": "tottus_granodeoroharinadetr_mmtr58f3",
     "nombre": "GRANO DE ORO Harina de Trigo sin Preparar 180 g",
     "categoria": "harina",
     "super": "tottus",
@@ -745,10 +723,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.431Z"
   },
   {
-    "id": "tottus_harinadelinazax200gl_mmtidkav",
+    "id": "tottus_harinadelinazax200gl_mmtr58f3",
     "nombre": "HARINA DE LINAZA X 200G LA CASA MARIMIEL",
     "categoria": "harina",
     "super": "tottus",
@@ -767,10 +745,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.431Z"
   },
   {
-    "id": "tottus_nuestrasaludharinade_mmtidkav",
+    "id": "tottus_nuestrasaludharinade_mmtr58f3",
     "nombre": "NUESTRA SALUD Harina de Maca y Lúcuma Nuestra Salud Doypack 200 g",
     "categoria": "harina",
     "super": "tottus",
@@ -789,10 +767,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.431Z"
   },
   {
-    "id": "tottus_lacasamarimielharina_mmtidkav",
+    "id": "tottus_lacasamarimielharina_mmtr58f3",
     "nombre": "LA CASA MARIMIEL Harina de 7 Semillas La Casa Marimiel Sabor Fresa Doypack 200 g",
     "categoria": "harina",
     "super": "tottus",
@@ -811,10 +789,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.431Z"
   },
   {
-    "id": "tottus_lacasamarimielgranol_mmtidkav",
+    "id": "tottus_lacasamarimielgranol_mmtr58f3",
     "nombre": "LA CASA MARIMIEL Granola Premium La Casa Marimiel Doypack 250 g",
     "categoria": "harina",
     "super": "tottus",
@@ -833,10 +811,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.431Z"
   },
   {
-    "id": "tottus_lacasamarimielhojuel_mmtidkav",
+    "id": "tottus_lacasamarimielhojuel_mmtr58f3",
     "nombre": "LA CASA MARIMIEL Hojuelas de Avena Integral La Casa Marimiel Doypack 300 g",
     "categoria": "harina",
     "super": "tottus",
@@ -855,6 +833,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T18:20:06.535Z"
+    "timestamp": "2026-03-16T22:25:34.431Z"
   }
 ]
