@@ -1,6 +1,6 @@
 [
   {
-    "id": "tottus_costenofrijolcanario_mmoxh6xb",
+    "id": "tottus_costenofrijolcanario_mmt7lxwo",
     "nombre": "COSTENO Frijol Canario Menestra Costeño Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -19,19 +19,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.640Z"
   },
   {
-    "id": "tottus_tesorodelcampofrijol_mmoxh6xb",
-    "nombre": "TESORO DEL CAMPO Frijol Caballero Tesoro del Campo Menestra Bolsa 500 g",
+    "id": "tottus_tesorodelcampofrijol_mmt7lxwo",
+    "nombre": "TESORO DEL CAMPO Frijol Castilla Tesoro del Campo Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
     "precios": {
-      "online": 9.5,
+      "online": 6.4,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 19,
+      "porUnidad": 12.8,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -41,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.640Z"
   },
   {
-    "id": "tottus_tottusfrijolcanariot_mmoxh6xb",
+    "id": "tottus_tottusfrijolcanariot_mmt7lxwo",
     "nombre": "TOTTUS Frijol Canario Tottus Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -63,19 +63,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.640Z"
   },
   {
-    "id": "tottus_costenofrijolpanamit_mmoxh6xb",
-    "nombre": "COSTENO Frijol Panamito Menestra Costeño Bolsa 500 g",
+    "id": "tottus_tesorodelcampofrijol_mmt7lxwp",
+    "nombre": "TESORO DEL CAMPO Frijol Red Kid Tesoro del Campo Menestra 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
     "precios": {
-      "online": 7,
+      "online": 6.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 14,
+      "porUnidad": 13,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -85,142 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_tottusfrijolcastilla_mmoxh6xb",
-    "nombre": "TOTTUS Frijol Castilla Tottus Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
-  },
-  {
-    "id": "tottus_tottuspackmenestrato_mmoxh6xb",
-    "nombre": "TOTTUS Pack Menestra Tottus Lenteja 500 g + Arveja 500 g + Frijol Canario 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 13.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 27.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
-  },
-  {
-    "id": "tottus_tottusfrijolpanamito_mmoxh6xb",
-    "nombre": "TOTTUS Frijol Panamito Tottus Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 5.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
-  },
-  {
-    "id": "tottus_tottusfrijolredkidne_mmoxh6xb",
-    "nombre": "TOTTUS Frijol Red Kidney Tottus Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 5.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
-  },
-  {
-    "id": "tottus_costenofrijolcastill_mmoxh6xb",
-    "nombre": "COSTENO Frijol Castilla Menestra Costeño Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 6.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 13.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
-  },
-  {
-    "id": "tottus_tesorodelcampolentej_mmoxh6xb",
-    "nombre": "TESORO DEL CAMPO Lentejón Tesoro del Campo Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 6.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
-  },
-  {
-    "id": "tottus_costenofrijolnegrome_mmoxh6xb",
+    "id": "tottus_costenofrijolnegrome_mmt7lxwp",
     "nombre": "COSTENO Frijol Negro Menestra Costeño Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -239,19 +107,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_tottusgarbanzotottus_mmoxh6xb",
-    "nombre": "TOTTUS Garbanzo Tottus Menestra Bolsa 500 g",
+    "id": "tottus_tottusfrijolpanamito_mmt7lxwp",
+    "nombre": "TOTTUS Frijol Panamito Tottus Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
     "precios": {
-      "online": 4.5,
+      "online": 5.3,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 9,
+      "porUnidad": 10.6,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -261,10 +129,76 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_tesorodelcampogarban_mmoxh6xb",
+    "id": "tottus_costenofrijolcastill_mmt7lxwp",
+    "nombre": "COSTENO Frijol Castilla Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 6.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottuspackmenestrato_mmt7lxwp",
+    "nombre": "TOTTUS Pack Menestra Tottus Lenteja 500 g + Arveja 500 g + Frijol Canario 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 13.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 27.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenofrijolpanamit_mmt7lxwp",
+    "nombre": "COSTENO Frijol Panamito Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 14,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tesorodelcampogarban_mmt7lxwp",
     "nombre": "TESORO DEL CAMPO Garbanzo Tesoro del Campo Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -283,10 +217,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_costenogarbanzomenes_mmoxh6xb",
+    "id": "tottus_tottusfrijolredkidne_mmt7lxwp",
+    "nombre": "TOTTUS Frijol Red Kidney Tottus Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 5.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottusfrijolcastilla_mmt7lxwp",
+    "nombre": "TOTTUS Frijol Castilla Tottus Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenogarbanzomenes_mmt7lxwp",
     "nombre": "COSTENO Garbanzo Menestra Costeño Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -305,10 +283,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_tesorodelcampotrigom_mmoxh6xb",
+    "id": "tottus_tottusgarbanzotottus_mmt7lxwp",
+    "nombre": "TOTTUS Garbanzo Tottus Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 4.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tesorodelcampolentej_mmt7lxwp",
+    "nombre": "TESORO DEL CAMPO Lenteja Bebé Tesoro del Campo Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 5.4,
+      "regular": 6.4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 16,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tesorodelcampotrigom_mmt7lxwp",
     "nombre": "TESORO DEL CAMPO Trigo Mote Tesoro del Campo Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -327,32 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_tottusfrijolnegrotot_mmoxh6xc",
-    "nombre": "TOTTUS Frijol Negro Tottus Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 5.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.183Z"
-  },
-  {
-    "id": "tottus_tesorodelcampoarveja_mmoxh6xc",
+    "id": "tottus_tesorodelcampoarveja_mmt7lxwp",
     "nombre": "TESORO DEL CAMPO Arveja Partida Tesoro del Campo Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -371,19 +371,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_costenopallarmenestr_mmoxh6xc",
-    "nombre": "COSTENO Pallar Menestra Costeño Bolsa 500 g",
+    "id": "tottus_tottusfrijolnegrotot_mmt7lxwp",
+    "nombre": "TOTTUS Frijol Negro Tottus Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
     "precios": {
-      "online": 7.7,
+      "online": 5.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 15.4,
+      "porUnidad": 11,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -393,208 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_tesorodelcampolentej_mmoxh6xc",
-    "nombre": "TESORO DEL CAMPO Lenteja Tesoro del Campo Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 6.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tottusquinuatottusme_mmoxh6xc",
-    "nombre": "TOTTUS Quinua Tottus Menestra Bolsa 1 Kg",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 15.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tottuslentejabebmene_mmoxh6xc",
-    "nombre": "TOTTUS Lenteja Bebé Menestra Tottus Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 4.4,
-      "regular": 4.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 2,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenotrigomotemene_mmoxh6xc",
-    "nombre": "COSTENO Trigo Mote Menestra Costeño Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 4.7,
-      "regular": 4.8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 9.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 2,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tesorodelcampopapase_mmoxh6xc",
-    "nombre": "TESORO DEL CAMPO Papa Seca Tesoro del Campo Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 7.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 14.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tottuslentejabebtott_mmoxh6xc",
-    "nombre": "TOTTUS Lenteja Bebé Tottus Menestra Bolsa 1 Kg",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 8.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenoquinuamenestr_mmoxh6xc",
-    "nombre": "COSTENO Quinua Menestra Costeño Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 8.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 17,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenolentejnmenest_mmoxh6xc",
-    "nombre": "COSTENO Lentejón Menestra Costeño Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 6.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 13.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenoarvejapartida_mmoxh6xc",
-    "nombre": "COSTENO Arveja Partida Menestra Costeño Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 3.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenolentejamenest_mmoxh6xc",
+    "id": "tottus_costenolentejamenest_mmt7lxwp",
     "nombre": "COSTENO Lenteja Menestra Costeño Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -613,10 +415,54 @@
     },
     "descuento": 17,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_tesorodelcampoquinua_mmoxh6xc",
+    "id": "tottus_tesorodelcampopapase_mmt7lxwp",
+    "nombre": "TESORO DEL CAMPO Papa Seca Tesoro del Campo Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 7.3,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 14.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenoarvejapartida_mmt7lxwp",
+    "nombre": "COSTENO Arveja Partida Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 3.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tesorodelcampoquinua_mmt7lxwp",
     "nombre": "TESORO DEL CAMPO Quinua Tesoro del Campo Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -635,142 +481,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_tesorodelcampopallas_mmoxh6xc",
-    "nombre": "TESORO DEL CAMPO Palla Seleccionado Tesoro del Campo Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 7.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenopapasecamenes_mmoxh6xc",
-    "nombre": "COSTENO Papa Seca Menestra Costeño Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 8.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tottusarvejatottusme_mmoxh6xc",
-    "nombre": "TOTTUS Arveja Tottus Menestra Bolsa 1 Kg",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 6,
-      "regular": 6.1,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 2,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tesorodelcampomazpop_mmoxh6xc",
-    "nombre": "TESORO DEL CAMPO Maíz Pop Corn Tesoro del Campo Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tottusarvejapartidat_mmoxh6xc",
-    "nombre": "TOTTUS Arveja Partida Tottus Menestra Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 3.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenomazpopcornmen_mmoxh6xc",
-    "nombre": "COSTENO Maíz Pop Corn Menestra Costeño Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 3.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tottuslentejatottusm_mmoxh6xc",
+    "id": "tottus_tottuslentejatottusm_mmt7lxwp",
     "nombre": "TOTTUS Lenteja Tottus Menestra Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -789,10 +503,406 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   },
   {
-    "id": "tottus_costenoarrozsuperior_mmoxh6xc",
+    "id": "tottus_costenotrigomotemene_mmt7lxwp",
+    "nombre": "COSTENO Trigo Mote Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 4.7,
+      "regular": 4.8,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 2,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottusarvejatottusme_mmt7lxwp",
+    "nombre": "TOTTUS Arveja Tottus Menestra Bolsa 1 Kg",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 6,
+      "regular": 6.1,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 2,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenolentejnmenest_mmt7lxwp",
+    "nombre": "COSTENO Lentejón Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 6.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tesorodelcampopallas_mmt7lxwp",
+    "nombre": "TESORO DEL CAMPO Palla Seleccionado Tesoro del Campo Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 7.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottusarvejapartidat_mmt7lxwp",
+    "nombre": "TOTTUS Arveja Partida Tottus Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 3.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenoquinuamenestr_mmt7lxwp",
+    "nombre": "COSTENO Quinua Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 8.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 17,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenopallarmenestr_mmt7lxwp",
+    "nombre": "COSTENO Pallar Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 7.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tesorodelcampomazpop_mmt7lxwp",
+    "nombre": "TESORO DEL CAMPO Maíz Pop Corn Tesoro del Campo Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottuslentejabebmene_mmt7lxwp",
+    "nombre": "TOTTUS Lenteja Bebé Menestra Tottus Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 3.9,
+      "regular": 4.5,
+      "tarjeta": 3.8,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 7.8,
+      "porUnidadTarjeta": 7.6
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 13,
+    "descuentoTarjeta": 16,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottuslentejntottusm_mmt7lxwp",
+    "nombre": "TOTTUS Lentejón Tottus Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 4.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottusquinuatottusme_mmt7lxwp",
+    "nombre": "TOTTUS Quinua Tottus Menestra Bolsa 1 Kg",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 15.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottuspallartottusme_mmt7lxwp",
+    "nombre": "TOTTUS Pallar Tottus Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 5.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottustrigomotetottu_mmt7lxwp",
+    "nombre": "TOTTUS Trigo Mote Tottus Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 3.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottuslentejabebtott_mmt7lxwp",
+    "nombre": "TOTTUS Lenteja Bebé Tottus Menestra Bolsa 1 Kg",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 8.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottuspapasecatottus_mmt7lxwp",
+    "nombre": "TOTTUS Papa Seca Tottus Menestra Bolsa 400 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 5.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 14,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenopapasecamenes_mmt7lxwp",
+    "nombre": "COSTENO Papa Seca Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 8.4,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenomazpopcornmen_mmt7lxwp",
+    "nombre": "COSTENO Maíz Pop Corn Menestra Costeño Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 3.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_tottusmazpopcorntott_mmt7lxwp",
+    "nombre": "TOTTUS Maíz Pop Corn Tottus Menestra Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "tottus",
+    "precios": {
+      "online": 3.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:18:41.641Z"
+  },
+  {
+    "id": "tottus_costenoarrozsuperior_mmt7lxwp",
     "nombre": "COSTENO Arroz Superior Costeño Bolsa 5 Kg",
     "categoria": "frijol-canario",
     "super": "tottus",
@@ -811,116 +921,6 @@
     },
     "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tottusfideostottusca_mmoxh6xc",
-    "nombre": "TOTTUS Fideos Tottus Caracol Bolsa 250 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 1.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenoarrozcosteoex_mmoxh6xc",
-    "nombre": "COSTENO Arroz Costeño Extra Añejo Bolsa 5 Kg",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 19.9,
-      "regular": 28.5,
-      "tarjeta": 18.9,
-      "tarjetaDesc": "CMR",
-      "porUnidad": 3.98,
-      "porUnidadTarjeta": 3.78
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 30,
-    "descuentoTarjeta": 34,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_tottuscanelamolidato_mmoxh6xc",
-    "nombre": "TOTTUS Canela Molida Tottus Envase 50 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 7.5,
-      "regular": 8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 150,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 50,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 6,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenoarrozextracos_mmoxh6xc",
-    "nombre": "COSTENO Arroz Extra Costeño Bolsa 5 Kg",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 20.9,
-      "regular": 28.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.18,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 27,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
-  },
-  {
-    "id": "tottus_costenoarrozarborioc_mmoxh6xc",
-    "nombre": "COSTENO Arroz Arborio Costeño Bolsa 750 g",
-    "categoria": "frijol-canario",
-    "super": "tottus",
-    "precios": {
-      "online": 11.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15.87,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:23:59.184Z"
+    "timestamp": "2026-03-16T13:18:41.641Z"
   }
 ]

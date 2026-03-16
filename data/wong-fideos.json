@@ -1,6 +1,6 @@
 [
   {
-    "id": "wong_fideosespecialestipo_mmoxodgp",
+    "id": "wong_fideosespecialestipo_mmt7sxbe",
     "nombre": "Fideos Especiales Tipo Chifa La Pasta 1kg",
     "categoria": "fideos",
     "super": "wong",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.249Z"
+    "timestamp": "2026-03-16T13:24:07.466Z"
   },
   {
-    "id": "wong_fideoscodorayadodonv_mmoxodgp",
+    "id": "wong_fideoscodorayadodonv_mmt7sxbe",
     "nombre": "Fideos Codo Rayado Don Vittorio 225g",
     "categoria": "fideos",
     "super": "wong",
@@ -41,450 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.249Z"
+    "timestamp": "2026-03-16T13:24:07.466Z"
   },
   {
-    "id": "wong_fideospaghettinicoli_mmoxodgp",
-    "nombre": "Fideo Spaghetti Nicolini 1kg",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 4.3,
-      "regular": 5.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.3,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 23,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.249Z"
-  },
-  {
-    "id": "wong_pastapennerigatesing_mmoxodgs",
-    "nombre": "Pasta Penne Rigate Sin Gluten La Molisana Bolsa 400 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 10.9,
-      "regular": 15.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 27.25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 31,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.251Z"
-  },
-  {
-    "id": "wong_pastaspaghettisinglu_mmoxodgs",
-    "nombre": "Pasta Spaghetti Sin Gluten La Molisana Bolsa 400 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 10.9,
-      "regular": 15.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 27.25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 31,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideoscuisinecocabel_mmoxodgs",
-    "nombre": "Fideos Cuisine &Co Cabello de Ángel 250g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 1.3,
-      "regular": 1.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 19,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideoscuisinecotorni_mmoxodgs",
-    "nombre": "Fideos Cuisine &Co Tornillo 450g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 2.5,
-      "regular": 2.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.56,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 450,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideotallarndelgadon_mmoxodgs",
-    "nombre": "Fideo Tallarín Delgado Nicolini 500g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 2.8,
-      "regular": 3.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 22,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideoscuisinecocanut_mmoxodgs",
-    "nombre": "Fideos Cuisine &Co Canuto 450g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 2.5,
-      "regular": 2.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.56,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 450,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideoscabellodengelc_mmoxodgs",
-    "nombre": "Fideos Cabello de Ángel Cuisine & Co 500g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 2.5,
-      "regular": 3.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 36,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastagnocchisinglute_mmoxodgs",
-    "nombre": "Pasta Gnocchi Sin Gluten La Molisana Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 10.9,
-      "regular": 14.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 21.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 27,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideoscuisinecocorba_mmoxodgs",
-    "nombre": "Fideos Cuisine &Co Corbata 250g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 1.3,
-      "regular": 1.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 19,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideotallarnnicolini_mmoxodgs",
-    "nombre": "Fideo Tallarín Nicolini 1kg",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 4.3,
-      "regular": 5.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.3,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 23,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideospennerigateagn_mmoxodgs",
-    "nombre": "Fideos Penne Rigate Agnesi Bolsa 1 Kg",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 24.5,
-      "regular": 24.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 24.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastapappardellealhu_mmoxodgs",
-    "nombre": "Pasta Pappardelle al Huevo La Molisana Paquete 250 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 5.9,
-      "regular": 6.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 23.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideoscuisinecospagu_mmoxodgs",
-    "nombre": "Fideos Cuisine &Co Spaguetti 450g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 2.5,
-      "regular": 2.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.56,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 450,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastaorgnicadequinua_mmoxodgs",
-    "nombre": "Pasta Orgánica de Quinua y Arroz Spaghetti América Orgánica 227g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 20.8,
-      "regular": 20.8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 91.63,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 227,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastaspaghettin15bio_mmoxodgs",
-    "nombre": "Pasta Spaghetti N°15 Biológica Orgánica La Molisana Paquete 500 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 7.9,
-      "regular": 11.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 34,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastaspaguettisinglu_mmoxodgs",
-    "nombre": "Pasta Spaguetti Sin Gluten Molinos del Mundo Bolsa 400 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 24.9,
-      "regular": 24.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 62.25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastacortatornillobo_mmoxodgs",
-    "nombre": "Pasta Corta Tornillo Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 3.6,
-      "regular": 4.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 20,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastacortamacarrnbol_mmoxodgs",
-    "nombre": "Pasta Corta Macarrón Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 3.6,
-      "regular": 4.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 20,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastatagliatellealhu_mmoxodgs",
-    "nombre": "Pasta Tagliatelle al Huevo La Molisana Paquete 250 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 5.9,
-      "regular": 6.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 23.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideospaghettinicoli_mmoxodgs",
+    "id": "wong_fideospaghettinicoli_mmt7sxbe",
     "nombre": "Fideo Spaghetti Nicolini 500g",
     "categoria": "fideos",
     "super": "wong",
@@ -503,10 +63,428 @@
     },
     "descuento": 30,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
+    "timestamp": "2026-03-16T13:24:07.466Z"
   },
   {
-    "id": "wong_pastadetrigospaghett_mmoxodgs",
+    "id": "wong_pastapennerigatesing_mmt7sxbe",
+    "nombre": "Pasta Penne Rigate Sin Gluten La Molisana Bolsa 400 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 15.9,
+      "regular": 15.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 39.75,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastaspaghettisinglu_mmt7sxbe",
+    "nombre": "Pasta Spaghetti Sin Gluten La Molisana Bolsa 400 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 15.9,
+      "regular": 15.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 39.75,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideoscuisinecocabel_mmt7sxbe",
+    "nombre": "Fideos Cuisine &Co Cabello de Ángel 250g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 1.3,
+      "regular": 1.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideoscuisinecotorni_mmt7sxbe",
+    "nombre": "Fideos Cuisine &Co Tornillo 450g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 2.5,
+      "regular": 2.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideotallarndelgadon_mmt7sxbe",
+    "nombre": "Fideo Tallarín Delgado Nicolini 500g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 2.8,
+      "regular": 3.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 22,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideoscuisinecocanut_mmt7sxbe",
+    "nombre": "Fideos Cuisine &Co Canuto 450g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 2.5,
+      "regular": 2.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideoscabellodengelc_mmt7sxbe",
+    "nombre": "Fideos Cabello de Ángel Cuisine & Co 500g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 2.5,
+      "regular": 3.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 36,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastagnocchisinglute_mmt7sxbe",
+    "nombre": "Pasta Gnocchi Sin Gluten La Molisana Bolsa 500 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 14.9,
+      "regular": 14.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 29.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideoscuisinecocorba_mmt7sxbe",
+    "nombre": "Fideos Cuisine &Co Corbata 250g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 1.3,
+      "regular": 1.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideotallarnnicolini_mmt7sxbe",
+    "nombre": "Fideo Tallarín Nicolini 1kg",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 4.3,
+      "regular": 5.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.3,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 23,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastapappardellealhu_mmt7sxbe",
+    "nombre": "Pasta Pappardelle al Huevo La Molisana Paquete 250 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 6.9,
+      "regular": 6.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 27.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideospennerigateagn_mmt7sxbe",
+    "nombre": "Fideos Penne Rigate Agnesi Bolsa 1 Kg",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 24.5,
+      "regular": 24.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 24.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastaspaghettin15bio_mmt7sxbe",
+    "nombre": "Pasta Spaghetti N°15 Biológica Orgánica La Molisana Paquete 500 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 11.9,
+      "regular": 11.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_fideoscuisinecospagu_mmt7sxbe",
+    "nombre": "Fideos Cuisine &Co Spaguetti 450g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 2.5,
+      "regular": 2.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastaspaguettisinglu_mmt7sxbe",
+    "nombre": "Pasta Spaguetti Sin Gluten Molinos del Mundo Bolsa 400 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 24.9,
+      "regular": 24.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 62.25,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastacortatornillobo_mmt7sxbe",
+    "nombre": "Pasta Corta Tornillo Bolsa 500 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 3.6,
+      "regular": 4.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 20,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastaorgnicadequinua_mmt7sxbe",
+    "nombre": "Pasta Orgánica de Quinua y Arroz Spaghetti América Orgánica 227g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 20.8,
+      "regular": 20.8,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 91.63,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 227,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastacortamacarrnbol_mmt7sxbe",
+    "nombre": "Pasta Corta Macarrón Bolsa 500 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 3.6,
+      "regular": 4.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 20,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastatagliatellealhu_mmt7sxbe",
+    "nombre": "Pasta Tagliatelle al Huevo La Molisana Paquete 250 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 6.9,
+      "regular": 6.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 27.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastadetrigospaghett_mmt7sxbe",
     "nombre": "Pasta de Trigo Spaghetti N° 3 Agnesi Bolsa 1 Kg",
     "categoria": "fideos",
     "super": "wong",
@@ -525,54 +503,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
+    "timestamp": "2026-03-16T13:24:07.466Z"
   },
   {
-    "id": "wong_fideotallarngruesoni_mmoxodgs",
-    "nombre": "Fideo Tallarín Grueso Nicolini 500g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 2.8,
-      "regular": 3.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 22,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_pastadelentejasrojas_mmoxodgs",
-    "nombre": "Pasta de Lentejas Rojas Coditos Sin Gluten El Dorado Caja 250 g",
-    "categoria": "fideos",
-    "super": "wong",
-    "precios": {
-      "online": 30.5,
-      "regular": 30.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 122,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
-  },
-  {
-    "id": "wong_fideosdearrozshaheno_mmoxodgs",
+    "id": "wong_fideosdearrozshaheno_mmt7sxbe",
     "nombre": "Fideos de Arroz Sha He Noodle 250g",
     "categoria": "fideos",
     "super": "wong",
@@ -591,19 +525,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
+    "timestamp": "2026-03-16T13:24:07.466Z"
   },
   {
-    "id": "wong_pastadearrozspaghett_mmoxodgs",
-    "nombre": "Pasta de Arroz Spaghetti Sin Gluten El Dorado Bolsa 250 g",
+    "id": "wong_pastadelentejasrojas_mmt7sxbe",
+    "nombre": "Pasta de Lentejas Rojas Coditos Sin Gluten El Dorado Caja 250 g",
     "categoria": "fideos",
     "super": "wong",
     "precios": {
-      "online": 16.9,
-      "regular": 16.9,
+      "online": 30.5,
+      "regular": 30.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 67.6,
+      "porUnidad": 122,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -613,10 +547,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
+    "timestamp": "2026-03-16T13:24:07.466Z"
   },
   {
-    "id": "wong_pastasinglutenwakasq_mmoxodgs",
+    "id": "wong_fideotallarngruesoni_mmt7sxbe",
+    "nombre": "Fideo Tallarín Grueso Nicolini 500g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 2.8,
+      "regular": 3.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 22,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastasinglutenwakasq_mmt7sxbe",
     "nombre": "Pasta Sin Gluten Wakas Quinua 250g",
     "categoria": "fideos",
     "super": "wong",
@@ -635,10 +591,54 @@
     },
     "descuento": 23,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.252Z"
+    "timestamp": "2026-03-16T13:24:07.466Z"
   },
   {
-    "id": "wong_pastafusillisinglute_mmoxodgt",
+    "id": "wong_pastadearrozspaghett_mmt7sxbe",
+    "nombre": "Pasta de Arroz Spaghetti Sin Gluten El Dorado Bolsa 250 g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 16.9,
+      "regular": 16.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 67.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastaenformadecorazn_mmt7sxbe",
+    "nombre": "Pasta en Forma de Corazón Barilla Love 400g",
+    "categoria": "fideos",
+    "super": "wong",
+    "precios": {
+      "online": 13.9,
+      "regular": 13.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 34.75,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T13:24:07.466Z"
+  },
+  {
+    "id": "wong_pastafusillisinglute_mmt7sxbe",
     "nombre": "Pasta Fusilli Sin Gluten Dr. Schar Bolsa 250 g",
     "categoria": "fideos",
     "super": "wong",
@@ -657,6 +657,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-13T13:29:34.253Z"
+    "timestamp": "2026-03-16T13:24:07.466Z"
   }
 ]
