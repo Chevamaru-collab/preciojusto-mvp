@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_mantequillaconsalglo_mmt7ny36",
+    "id": "plazavea_mantequillaconsalglo_mmtigtc8",
     "nombre": "Mantequilla con Sal GLORIA Pote 180g",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
+    "timestamp": "2026-03-16T18:22:38.216Z"
   },
   {
-    "id": "plazavea_mantequillagloriapot_mmt7ny36",
+    "id": "plazavea_mantequillagloriapot_mmtigtc8",
     "nombre": "Mantequilla GLORIA Pote 390g",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -41,164 +41,10 @@
     },
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
+    "timestamp": "2026-03-16T18:22:38.216Z"
   },
   {
-    "id": "plazavea_mantequillaconsallai_mmt7ny36",
-    "nombre": "Mantequilla con Sal LAIVE en Barra Bolsa 90g",
-    "categoria": "mantequilla",
-    "super": "plazavea",
-    "precios": {
-      "online": 6.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 76.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 90,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
-  },
-  {
-    "id": "plazavea_mantequillasinsalglo_mmt7ny36",
-    "nombre": "Mantequilla sin Sal GLORIA Paquete 180g",
-    "categoria": "mantequilla",
-    "super": "plazavea",
-    "precios": {
-      "online": 9.7,
-      "regular": 10.49,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 53.89,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 8,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
-  },
-  {
-    "id": "plazavea_mantequillaplusa100n_mmt7ny36",
-    "nombre": "Mantequilla PLUSA 100% Natural Barra 200g",
-    "categoria": "mantequilla",
-    "super": "plazavea",
-    "precios": {
-      "online": 15.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 76.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
-  },
-  {
-    "id": "plazavea_mantequillabazovelar_mmt7ny36",
-    "nombre": "Mantequilla BAZO VELARDE Barra 180g",
-    "categoria": "mantequilla",
-    "super": "plazavea",
-    "precios": {
-      "online": 12.9,
-      "regular": 15.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 71.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 16,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
-  },
-  {
-    "id": "plazavea_mantequillagloriacaj_mmt7ny36",
-    "nombre": "Mantequilla GLORIA Caja 90g",
-    "categoria": "mantequilla",
-    "super": "plazavea",
-    "precios": {
-      "online": 6.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 76.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 90,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
-  },
-  {
-    "id": "plazavea_cachitoconmantequill_mmt7ny36",
-    "nombre": "Cachito con Mantequilla DON MAMINO Bolsa 6un",
-    "categoria": "mantequilla",
-    "super": "plazavea",
-    "precios": {
-      "online": 9.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 1.58,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 6,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
-  },
-  {
-    "id": "plazavea_mantequillasinsallai_mmt7ny36",
-    "nombre": "Mantequilla sin Sal LAIVE Barra 180g",
-    "categoria": "mantequilla",
-    "super": "plazavea",
-    "precios": {
-      "online": 10.3,
-      "regular": 10.4,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 57.22,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 1,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
-  },
-  {
-    "id": "plazavea_mantequillaconsallai_mmt7ny37",
+    "id": "plazavea_mantequillaconsallai_mmtigtc8",
     "nombre": "Mantequilla con Sal LAIVE Pote 180g",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -217,10 +63,142 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.186Z"
+    "timestamp": "2026-03-16T18:22:38.216Z"
   },
   {
-    "id": "plazavea_mantequillaconsaldan_mmt7ny37",
+    "id": "plazavea_mantequillasinsalglo_mmtigtc8",
+    "nombre": "Mantequilla sin Sal GLORIA Paquete 180g",
+    "categoria": "mantequilla",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.7,
+      "regular": 10.49,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 53.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 8,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:22:38.216Z"
+  },
+  {
+    "id": "plazavea_mantequillaplusa100n_mmtigtc8",
+    "nombre": "Mantequilla PLUSA 100% Natural Barra 200g",
+    "categoria": "mantequilla",
+    "super": "plazavea",
+    "precios": {
+      "online": 15.3,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 76.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:22:38.216Z"
+  },
+  {
+    "id": "plazavea_mantequillabazovelar_mmtigtc8",
+    "nombre": "Mantequilla BAZO VELARDE Barra 180g",
+    "categoria": "mantequilla",
+    "super": "plazavea",
+    "precios": {
+      "online": 12.9,
+      "regular": 15.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 71.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 16,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:22:38.216Z"
+  },
+  {
+    "id": "plazavea_mantequillagloriacaj_mmtigtc8",
+    "nombre": "Mantequilla GLORIA Caja 90g",
+    "categoria": "mantequilla",
+    "super": "plazavea",
+    "precios": {
+      "online": 6.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 76.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 90,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:22:38.216Z"
+  },
+  {
+    "id": "plazavea_cachitoconmantequill_mmtigtc8",
+    "nombre": "Cachito con Mantequilla DON MAMINO Bolsa 6un",
+    "categoria": "mantequilla",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.58,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 6,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:22:38.216Z"
+  },
+  {
+    "id": "plazavea_mantequillasinsallai_mmtigtc8",
+    "nombre": "Mantequilla sin Sal LAIVE Barra 180g",
+    "categoria": "mantequilla",
+    "super": "plazavea",
+    "precios": {
+      "online": 10.3,
+      "regular": 10.4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 57.22,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 1,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:22:38.216Z"
+  },
+  {
+    "id": "plazavea_mantequillaconsaldan_mmtigtc8",
     "nombre": "Mantequilla con Sal DANLAC Frasco 180g",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -239,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.187Z"
+    "timestamp": "2026-03-16T18:22:38.216Z"
   },
   {
-    "id": "plazavea_mantequillasinsalplu_mmt7ny37",
+    "id": "plazavea_mantequillasinsalplu_mmtigtc8",
     "nombre": "Mantequilla sin Sal PLUSA Barra 200g",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -261,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.187Z"
+    "timestamp": "2026-03-16T18:22:38.216Z"
   },
   {
-    "id": "plazavea_mantequilladealmendr_mmt7ny37",
+    "id": "plazavea_mantequilladealmendr_mmtigtc8",
     "nombre": "Mantequilla de Almendras LA FLORENCIA Pote 200g",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -283,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.187Z"
+    "timestamp": "2026-03-16T18:22:38.216Z"
   },
   {
-    "id": "plazavea_sazonadorpopscosteod_mmt7ny37",
+    "id": "plazavea_sazonadorpopscosteod_mmtigtc9",
     "nombre": "Sazonador Pops COSTEÑO de Pop Corn Sabor Mantequilla Frasco 81g",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -305,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.187Z"
+    "timestamp": "2026-03-16T18:22:38.217Z"
   },
   {
-    "id": "plazavea_papelmantequillabell_mmt7ny37",
+    "id": "plazavea_papelmantequillabell_mmtigtc9",
     "nombre": "Papel Mantequilla BELL'S 18m Blanco",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -323,10 +301,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.187Z"
+    "timestamp": "2026-03-16T18:22:38.217Z"
   },
   {
-    "id": "plazavea_mantequillalachugura_mmt7ny37",
+    "id": "plazavea_mantequillalachugura_mmtigtc9",
     "nombre": "Mantequilla LA CHUGURANITA Caja 240g",
     "categoria": "mantequilla",
     "super": "plazavea",
@@ -345,6 +323,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:20:15.187Z"
+    "timestamp": "2026-03-16T18:22:38.217Z"
   }
 ]

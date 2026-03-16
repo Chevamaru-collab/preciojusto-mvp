@@ -1,28 +1,28 @@
 [
   {
-    "id": "tottus_tottusazcarblancatot_mmt7kfjr",
-    "nombre": "TOTTUS Azúcar Blanca Tottus con Stevia Bolsa 500 g",
+    "id": "tottus_tottusazcarblancatot_mmtidaij",
+    "nombre": "TOTTUS Azúcar Blanca Tottus Bolsa 1 Kg",
     "categoria": "azucar-blanca",
     "super": "tottus",
     "precios": {
-      "online": 7.5,
-      "regular": null,
+      "online": 3.7,
+      "regular": 4.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 15,
+      "porUnidad": 3.7,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 500,
-      "unidad": "g",
+      "valor": 1,
+      "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 24,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.851Z"
   },
   {
-    "id": "tottus_tottusazcarrubiatott_mmt7kfjr",
+    "id": "tottus_tottusazcarrubiatott_mmtidaik",
     "nombre": "TOTTUS Azúcar Rubia Tottus con Stevia Bolsa 500 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -41,28 +41,50 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_tottusendulzantetott_mmt7kfjr",
-    "nombre": "TOTTUS Endulzante Tottus Sucralosa en Polvo Caja 100 Sobres",
+    "id": "tottus_tottusazcarblancatot_mmtidaik",
+    "nombre": "TOTTUS Azúcar Blanca Tottus con Stevia Bolsa 500 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
     "precios": {
-      "online": 23.9,
+      "online": 7.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 23.9,
+      "porUnidad": 15,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:19:53.852Z"
+  },
+  {
+    "id": "tottus_tottusendulzantetott_mmtidaik",
+    "nombre": "TOTTUS Endulzante Tottus Sucralosa en Polvo Caja 200 Sobres",
+    "categoria": "azucar-blanca",
+    "super": "tottus",
+    "precios": {
+      "online": 44.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 44.5,
       "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_tottusedulcorantesuc_mmt7kfjr",
+    "id": "tottus_tottusedulcorantesuc_mmtidaik",
     "nombre": "TOTTUS Edulcorante Sucralosa Comprimidos Tottus 330 Sobres",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -77,28 +99,28 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_tottusendulzantestev_mmt7kfjr",
-    "nombre": "TOTTUS Endulzante Stevia Tottus en Polvo Caja 200 Sobres",
+    "id": "tottus_tottusendulzantestev_mmtidaik",
+    "nombre": "TOTTUS Endulzante Stevia Tottus en Polvo Caja 50 Sobres",
     "categoria": "azucar-blanca",
     "super": "tottus",
     "precios": {
-      "online": 31.9,
+      "online": 13.4,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 31.9,
+      "porUnidad": 13.4,
       "porUnidadTarjeta": null
     },
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_tottusedulcorantetot_mmt7kfjr",
+    "id": "tottus_tottusedulcorantetot_mmtidaik",
     "nombre": "TOTTUS Edulcorante Tottus Sucralosa Líquida Envase 100 mL",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -117,10 +139,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_tottuspanetonchocola_mmt7kfjr",
+    "id": "tottus_tottuspanetonchocola_mmtidaik",
     "nombre": "TOTTUS Paneton Chocolate Blanca Flor 500 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -139,10 +161,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_tottuspanetonnaranja_mmt7kfjr",
+    "id": "tottus_tottuscremademantott_mmtidaik",
+    "nombre": "TOTTUS Crema de Maní Tottus Sin Azúcar Añadida Envase 200 g",
+    "categoria": "azucar-blanca",
+    "super": "tottus",
+    "precios": {
+      "online": 9.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 49.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:19:53.852Z"
+  },
+  {
+    "id": "tottus_tottuspanetonnaranja_mmtidaik",
     "nombre": "TOTTUS Paneton Naranja Blanca Flor 500 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -161,59 +205,15 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_tottuspanmoldeblanco_mmt7kfjr",
-    "nombre": "TOTTUS Pan Molde Blanco Tottus 600 g",
+    "id": "tottus_dulfinaazcarblancadu_mmtidaik",
+    "nombre": "DULFINA Azúcar Blanca Dulfina Bolsa 2 Kg",
     "categoria": "azucar-blanca",
     "super": "tottus",
     "precios": {
-      "online": 9.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
-  },
-  {
-    "id": "tottus_tottusmieldeabejatot_mmt7kfjr",
-    "nombre": "TOTTUS Miel de Abeja Tottus Tottus Envase 600 g",
-    "categoria": "azucar-blanca",
-    "super": "tottus",
-    "precios": {
-      "online": 26.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 44,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
-  },
-  {
-    "id": "tottus_dulfinaazcarblancadu_mmt7kfjr",
-    "nombre": "DULFINA Azúcar Blanca Dulfina Bolsa 5 Kg",
-    "categoria": "azucar-blanca",
-    "super": "tottus",
-    "precios": {
-      "online": 25.5,
+      "online": 10.2,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
@@ -221,16 +221,16 @@
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 5,
+      "valor": 2,
       "unidad": "kg",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_preciounoazcarrubiap_mmt7kfjr",
+    "id": "tottus_preciounoazcarrubiap_mmtidaik",
     "nombre": "PRECIO UNO Azúcar Rubia Precio Uno Bolsa 5 Kg",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -249,10 +249,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_dulfinaazcarrubiadul_mmt7kfjr",
+    "id": "tottus_dulfinaazcarrubiadul_mmtidaik",
     "nombre": "DULFINA Azúcar Rubia Dulfina Bolsa 1 Kg",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -271,10 +271,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_dulfinaazucarrubiadu_mmt7kfjr",
+    "id": "tottus_dulfinaazucarrubiadu_mmtidaik",
     "nombre": "DULFINA AZUCAR RUBIA DULFINA X500GR",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -293,10 +293,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_incaucaazcarmorenali_mmt7kfjr",
+    "id": "tottus_incaucaazcarmorenali_mmtidaik",
     "nombre": "INCAUCA Azúcar Morena Light Incauca Bolsa 850 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -315,54 +315,10 @@
     },
     "descuento": 25,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_zanaendulzantezanabl_mmt7kfjr",
-    "nombre": "ZANA Endulzante Zana Blanca Doypack 400 g",
-    "categoria": "azucar-blanca",
-    "super": "tottus",
-    "precios": {
-      "online": 39,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 97.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
-  },
-  {
-    "id": "tottus_incaucaazcarlightinc_mmt7kfjr",
-    "nombre": "INCAUCA Azúcar Light Incauca Bolsa 850 g",
-    "categoria": "azucar-blanca",
-    "super": "tottus",
-    "precios": {
-      "online": 17.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.71,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 850,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
-  },
-  {
-    "id": "tottus_cartavioazcarrubiaca_mmt7kfjr",
+    "id": "tottus_cartavioazcarrubiaca_mmtidaik",
     "nombre": "CARTAVIO Azúcar Rubia Cartavio 1 kg",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -381,10 +337,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_intherawazcarrubiain_mmt7kfjr",
+    "id": "tottus_incaucaazcarlightinc_mmtidaik",
+    "nombre": "INCAUCA Azúcar Light Incauca Bolsa 850 g",
+    "categoria": "azucar-blanca",
+    "super": "tottus",
+    "precios": {
+      "online": 17.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.71,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 850,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:19:53.852Z"
+  },
+  {
+    "id": "tottus_intherawazcarrubiain_mmtidaik",
     "nombre": "IN THE RAW Azúcar Rubia In The Raw 907 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -403,10 +381,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_cocosugarazcarorgnic_mmt7kfjr",
+    "id": "tottus_zanaendulzantezanabl_mmtidaik",
+    "nombre": "ZANA Endulzante Zana Blanca Doypack 400 g",
+    "categoria": "azucar-blanca",
+    "super": "tottus",
+    "precios": {
+      "online": 39,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 97.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:19:53.852Z"
+  },
+  {
+    "id": "tottus_cocosugarazcarorgnic_mmtidaik",
     "nombre": "COCO SUGAR Azúcar Orgánica Coco Sugar Envase 250 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -425,10 +425,10 @@
     },
     "descuento": 27,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_sugaforsucralosaenpo_mmt7kfjr",
+    "id": "tottus_sugaforsucralosaenpo_mmtidaik",
     "nombre": "SUGAFOR Sucralosa en Polvo Sugarfor Caja 100 Sobres",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -443,32 +443,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_gattipanelagranulada_mmt7kfjr",
-    "nombre": "GATTI Panela Granulada Gatti Bolsa 500 g",
-    "categoria": "azucar-blanca",
-    "super": "tottus",
-    "precios": {
-      "online": 9.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 19.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
-  },
-  {
-    "id": "tottus_sugaforendulzanteenp_mmt7kfjr",
+    "id": "tottus_sugaforendulzanteenp_mmtidaik",
     "nombre": "SUGAFOR Endulzante en Polvo Sugafor 100 mL",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -487,32 +465,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_lakantoendulzantelak_mmt7kfjr",
-    "nombre": "LAKANTO Endulzante Lakanto Clásico Empaque 454 g",
+    "id": "tottus_gattipanelagranulada_mmtidaik",
+    "nombre": "GATTI Panela Granulada Gatti Bolsa 500 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
     "precios": {
-      "online": 69,
+      "online": 9.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 151.98,
+      "porUnidad": 19.8,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 454,
+      "valor": 500,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_onzaazcarrubiaconste_mmt7kfjr",
+    "id": "tottus_onzaazcarrubiaconste_mmtidaik",
     "nombre": "ONZA Azúcar Rubia con Stevia Onza Light Bolsa 500 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -531,10 +509,10 @@
     },
     "descuento": 21,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_tottusorigenespanela_mmt7kfjr",
+    "id": "tottus_tottusorigenespanela_mmtidaik",
     "nombre": "TOTTUS ORIGENES Panela Tottus Orígenes Doypack 500 g",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -553,10 +531,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_splendaendualzantesp_mmt7kfjr",
+    "id": "tottus_splendaendualzantesp_mmtidaik",
     "nombre": "SPLENDA Endualzante Splenda 100 Unidades",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -575,10 +553,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
   },
   {
-    "id": "tottus_sugaforedulcorantepo_mmt7kfjr",
+    "id": "tottus_sugaforedulcorantepo_mmtidaik",
     "nombre": "SUGAFOR Edulcorante Polvo Sugafor 200 Sobres",
     "categoria": "azucar-blanca",
     "super": "tottus",
@@ -593,6 +571,68 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T13:17:31.191Z"
+    "timestamp": "2026-03-16T18:19:53.852Z"
+  },
+  {
+    "id": "tottus_sugaforendulzantesug_mmtidaik",
+    "nombre": "SUGAFOR Endulzante Sugafor 330 Tabletas",
+    "categoria": "azucar-blanca",
+    "super": "tottus",
+    "precios": {
+      "online": 38,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:19:53.852Z"
+  },
+  {
+    "id": "tottus_lakantoendulzantelak_mmtidaik",
+    "nombre": "LAKANTO Endulzante Lakanto Golden Empaque 454 g",
+    "categoria": "azucar-blanca",
+    "super": "tottus",
+    "precios": {
+      "online": 69,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 151.98,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 454,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:19:53.852Z"
+  },
+  {
+    "id": "tottus_onzaendulzantepanela_mmtidaik",
+    "nombre": "ONZA Endulzante Panela Onza Orgánico Bolsa 500 g",
+    "categoria": "azucar-blanca",
+    "super": "tottus",
+    "precios": {
+      "online": 10,
+      "regular": 10.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 5,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-16T18:19:53.852Z"
   }
 ]
