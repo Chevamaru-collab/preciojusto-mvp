@@ -1,6 +1,6 @@
 # Canonical Products Reconstruction Summary
 
-**Generated**: 2026-03-14T19:47:49.544Z
+**Generated**: 2026-03-16T22:43:46.215Z
 **Source**: BD-Insumos.csv
 
 ## Metrics
