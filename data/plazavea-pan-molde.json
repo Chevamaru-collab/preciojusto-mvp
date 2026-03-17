@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_pandemoldeblancoxlbi_mmtr8yzy",
+    "id": "plazavea_pandemoldeblancoxlbi_mmun2pti",
     "nombre": "Pan de Molde Blanco XL BIMBO Extra Grande Bolsa 770g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": 21,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
+    "timestamp": "2026-03-17T13:19:24.726Z"
   },
   {
-    "id": "plazavea_pandemoldeintegralxl_mmtr8yzy",
+    "id": "plazavea_pandemoldeintegralxl_mmun2pti",
     "nombre": "Pan de Molde Integral XL BIMBO Extra Grande Bolsa 810g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -41,19 +41,19 @@
     },
     "descuento": 21,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
+    "timestamp": "2026-03-17T13:19:24.726Z"
   },
   {
-    "id": "plazavea_pandemoldeintegralbi_mmtr8yzy",
+    "id": "plazavea_pandemoldeintegralbi_mmun2pti",
     "nombre": "Pan de Molde Integral BIMBO Vital Multicereal Bolsa 600g",
     "categoria": "pan-molde",
     "super": "plazavea",
     "precios": {
-      "online": 13,
-      "regular": 14.8,
+      "online": 14.8,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 21.67,
+      "porUnidad": 24.67,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -61,21 +61,21 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 12,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
+    "timestamp": "2026-03-17T13:19:24.726Z"
   },
   {
-    "id": "plazavea_pandemoldeblancodonm_mmtr8yzy",
+    "id": "plazavea_pandemoldeblancodonm_mmun2pti",
     "nombre": "Pan de Molde Blanco DON MAMINO sin Corteza Bolsa 560g",
     "categoria": "pan-molde",
     "super": "plazavea",
     "precios": {
-      "online": 11.4,
-      "regular": 13.49,
+      "online": 13.49,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 20.36,
+      "porUnidad": 24.09,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -83,12 +83,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 15,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
+    "timestamp": "2026-03-17T13:19:24.726Z"
   },
   {
-    "id": "plazavea_pandemoldeuninmultis_mmtr8yzy",
+    "id": "plazavea_pandemoldeuninmultis_mmun2pti",
     "nombre": "Pan de Molde UNIÓN Multisemillas y Avena Bolsa 540g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -107,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
+    "timestamp": "2026-03-17T13:19:24.726Z"
   },
   {
-    "id": "plazavea_pandemoldeuningranos_mmtr8yzy",
+    "id": "plazavea_pandemoldeuningranos_mmun2pti",
     "nombre": "Pan de Molde UNIÓN Granos Integrales Bolsa 540g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -129,10 +129,10 @@
     },
     "descuento": 5,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
+    "timestamp": "2026-03-17T13:19:24.726Z"
   },
   {
-    "id": "plazavea_pandemoldeblancobimb_mmtr8yzy",
+    "id": "plazavea_pandemoldeblancobimb_mmun2ptj",
     "nombre": "Pan de Molde Blanco BIMBO Vital de Semillas Bolsa 600g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -151,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
   },
   {
-    "id": "plazavea_pandemoldebimboblanc_mmtr8yzy",
+    "id": "plazavea_pandemoldebimboblanc_mmun2ptj",
     "nombre": "Pan de Molde BIMBO Blanco Familiar Bolsa 590g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -173,186 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
   },
   {
-    "id": "plazavea_pandemoldebimbointeg_mmtr8yzy",
-    "nombre": "Pan de Molde BIMBO Integral Cero Cero Bolsa 650g",
-    "categoria": "pan-molde",
-    "super": "plazavea",
-    "precios": {
-      "online": 10.5,
-      "regular": 12,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.15,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 650,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 13,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
-  },
-  {
-    "id": "plazavea_pandemoldeintegralmu_mmtr8yzy",
-    "nombre": "Pan de Molde Integral Multicereal LA FLORENCIA Bolsa 500g",
-    "categoria": "pan-molde",
-    "super": "plazavea",
-    "precios": {
-      "online": 12.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
-  },
-  {
-    "id": "plazavea_pandemoldeuninmultis_mmtr8yzz",
-    "nombre": "Pan de Molde UNIÓN Multisemillas y Chips de Miel Bolsa 540g",
-    "categoria": "pan-molde",
-    "super": "plazavea",
-    "precios": {
-      "online": 12.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 23.89,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 540,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.846Z"
-  },
-  {
-    "id": "plazavea_pandemoldeintegralla_mmtr8yzz",
-    "nombre": "Pan de Molde Integral LA FLORENCIA Bolsa 500g",
-    "categoria": "pan-molde",
-    "super": "plazavea",
-    "precios": {
-      "online": 7.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
-  },
-  {
-    "id": "plazavea_pandemoldeblancolafl_mmtr8yzz",
-    "nombre": "Pan de Molde Blanco LA FLORENCIA Bolsa 500g",
-    "categoria": "pan-molde",
-    "super": "plazavea",
-    "precios": {
-      "online": 7.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
-  },
-  {
-    "id": "plazavea_pandemoldedonmaminoc_mmtr8yzz",
-    "nombre": "Pan de Molde DON MAMINO con Salvado de Trigo Bolsa 560g",
-    "categoria": "pan-molde",
-    "super": "plazavea",
-    "precios": {
-      "online": 11.5,
-      "regular": 13.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.54,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 560,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
-  },
-  {
-    "id": "plazavea_pandemoldeintegralun_mmtr8yzz",
-    "nombre": "Pan de Molde Integral UNIÓN Bolsa 495g",
-    "categoria": "pan-molde",
-    "super": "plazavea",
-    "precios": {
-      "online": 12.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.66,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 495,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
-  },
-  {
-    "id": "plazavea_pandemoldeuninfibram_mmtr8yzz",
-    "nombre": "Pan de Molde UNIÓN Fibra Multicereal Bolsa 540g",
-    "categoria": "pan-molde",
-    "super": "plazavea",
-    "precios": {
-      "online": 10.8,
-      "regular": 12.7,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 540,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
-  },
-  {
-    "id": "plazavea_pandemoldebimbointeg_mmtr8yzz",
+    "id": "plazavea_pandemoldebimbointeg_mmun2ptj",
     "nombre": "Pan de Molde BIMBO Integral Familiar Bolsa 620g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -371,10 +195,142 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
   },
   {
-    "id": "plazavea_pandemoldeintegral6s_mmtr8yzz",
+    "id": "plazavea_pandemoldeintegralmu_mmun2ptj",
+    "nombre": "Pan de Molde Integral Multicereal LA FLORENCIA Bolsa 500g",
+    "categoria": "pan-molde",
+    "super": "plazavea",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:19:24.727Z"
+  },
+  {
+    "id": "plazavea_pandemoldeuninmultis_mmun2ptj",
+    "nombre": "Pan de Molde UNIÓN Multisemillas y Chips de Miel Bolsa 540g",
+    "categoria": "pan-molde",
+    "super": "plazavea",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 540,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:19:24.727Z"
+  },
+  {
+    "id": "plazavea_pandemoldeintegralla_mmun2ptj",
+    "nombre": "Pan de Molde Integral LA FLORENCIA Bolsa 500g",
+    "categoria": "pan-molde",
+    "super": "plazavea",
+    "precios": {
+      "online": 7.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:19:24.727Z"
+  },
+  {
+    "id": "plazavea_pandemoldedonmaminoc_mmun2ptj",
+    "nombre": "Pan de Molde DON MAMINO con Salvado de Trigo Bolsa 560g",
+    "categoria": "pan-molde",
+    "super": "plazavea",
+    "precios": {
+      "online": 13.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 24.11,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 560,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:19:24.727Z"
+  },
+  {
+    "id": "plazavea_pandemoldeintegralun_mmun2ptj",
+    "nombre": "Pan de Molde Integral UNIÓN Bolsa 495g",
+    "categoria": "pan-molde",
+    "super": "plazavea",
+    "precios": {
+      "online": 12.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.66,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 495,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:19:24.727Z"
+  },
+  {
+    "id": "plazavea_pandemoldeuninfibram_mmun2ptj",
+    "nombre": "Pan de Molde UNIÓN Fibra Multicereal Bolsa 540g",
+    "categoria": "pan-molde",
+    "super": "plazavea",
+    "precios": {
+      "online": 10.8,
+      "regular": 12.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 540,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:19:24.727Z"
+  },
+  {
+    "id": "plazavea_pandemoldeintegral6s_mmun2ptj",
     "nombre": "Pan de Molde Integral 6 Semillas LA FLORENCIA Bolsa 500g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -393,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
   },
   {
-    "id": "plazavea_pandemoldeintegralpy_mmtr8yzz",
+    "id": "plazavea_pandemoldeintegralpy_mmun2ptj",
     "nombre": "Pan de Molde Integral PYC Mediano Bolsa 500g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -415,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
   },
   {
-    "id": "plazavea_pandemoldelaflorenci_mmtr8yzz",
+    "id": "plazavea_pandemoldelaflorenci_mmun2ptj",
     "nombre": "Pan de Molde LA FLORENCIA Bolsa 350g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -437,19 +393,41 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
   },
   {
-    "id": "plazavea_pandemoldemarmoleado_mmtr8yzz",
+    "id": "plazavea_pandemoldeblancolafl_mmun2ptj",
+    "nombre": "Pan de Molde Blanco LA FLORENCIA Bolsa 500g",
+    "categoria": "pan-molde",
+    "super": "plazavea",
+    "precios": {
+      "online": 7.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:19:24.727Z"
+  },
+  {
+    "id": "plazavea_pandemoldemarmoleado_mmun2ptj",
     "nombre": "Pan de Molde Marmoleado DON MAMINO sin Corteza Bolsa 560g",
     "categoria": "pan-molde",
     "super": "plazavea",
     "precios": {
-      "online": 11.5,
-      "regular": 13.5,
+      "online": 13.5,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 20.54,
+      "porUnidad": 24.11,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -457,12 +435,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 15,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
   },
   {
-    "id": "plazavea_pandemoldeconavenaor_mmtr8yzz",
+    "id": "plazavea_pandemoldeconavenaor_mmun2ptj",
     "nombre": "Pan de Molde con Avena ORNO Bolsa 600g",
     "categoria": "pan-molde",
     "super": "plazavea",
@@ -481,19 +459,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
   },
   {
-    "id": "plazavea_pandemoldeblancodonm_mmtr8yzz",
+    "id": "plazavea_pandemoldeblancodonm_mmun2ptj",
     "nombre": "Pan de Molde Blanco DON MAMINO Pullman Corte Horizontal Bolsa 560g",
     "categoria": "pan-molde",
     "super": "plazavea",
     "precios": {
-      "online": 11.5,
-      "regular": 13.5,
+      "online": 13.5,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 20.54,
+      "porUnidad": 24.11,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -501,8 +479,30 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 15,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:28:28.847Z"
+    "timestamp": "2026-03-17T13:19:24.727Z"
+  },
+  {
+    "id": "plazavea_pandemoldemolinosdel_mmun2ptj",
+    "nombre": "Pan de Molde MOLINOS DEL MUNDO Sin Gluten y Sin Lactosa Bolsa 480g",
+    "categoria": "pan-molde",
+    "super": "plazavea",
+    "precios": {
+      "online": 17.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 35.83,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 480,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:19:24.727Z"
   }
 ]
