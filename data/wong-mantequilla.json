@@ -1,50 +1,6 @@
 [
   {
-    "id": "wong_mantequillaconsalglo_mmtreh7h",
-    "nombre": "Mantequilla con Sal Gloria 390g",
-    "categoria": "mantequilla",
-    "super": "wong",
-    "precios": {
-      "online": 17.5,
-      "regular": 21.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 44.87,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 19,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.725Z"
-  },
-  {
-    "id": "wong_mantequillaconsallai_mmtreh7i",
-    "nombre": "Mantequilla con Sal Laive 90g",
-    "categoria": "mantequilla",
-    "super": "wong",
-    "precios": {
-      "online": 6.9,
-      "regular": 6.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 76.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 90,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
-  },
-  {
-    "id": "wong_mantequillaconsalglo_mmtreh7i",
+    "id": "wong_mantequillaconsalglo_mmun85mm",
     "nombre": "Mantequilla con Sal Gloria 90g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -63,10 +19,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillaplusacons_mmtreh7i",
+    "id": "wong_mantequillaconsallai_mmun85mm",
+    "nombre": "Mantequilla con Sal Laive 90g",
+    "categoria": "mantequilla",
+    "super": "wong",
+    "precios": {
+      "online": 6.9,
+      "regular": 6.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 76.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 90,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:23:38.494Z"
+  },
+  {
+    "id": "wong_mantequillaplusacons_mmun85mm",
     "nombre": "Mantequilla Plusa Con Sal Barra 200 g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -85,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillagloriasin_mmtreh7i",
+    "id": "wong_mantequillagloriasin_mmun85mm",
     "nombre": "Mantequilla Gloria Sin Sal 180g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -107,19 +85,19 @@
     },
     "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillasinsallai_mmtreh7i",
+    "id": "wong_mantequillasinsallai_mmun85mm",
     "nombre": "Mantequilla Sin Sal Laive 180g",
     "categoria": "mantequilla",
     "super": "wong",
     "precios": {
-      "online": 11.4,
+      "online": 13.3,
       "regular": 13.3,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 63.33,
+      "porUnidad": 73.89,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -127,12 +105,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 14,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillaconsalprs_mmtreh7i",
+    "id": "wong_mantequillaconsalprs_mmun85mm",
     "nombre": "Mantequilla con Sal Président Barra 200 gr",
     "categoria": "mantequilla",
     "super": "wong",
@@ -151,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillaconsaldan_mmtreh7i",
+    "id": "wong_mantequillaconsaldan_mmun85mm",
     "nombre": "Mantequilla con Sal Danlac Frasco 180g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -173,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillaartesanal_mmtreh7i",
+    "id": "wong_mantequillaartesanal_mmun85mm",
     "nombre": "Mantequilla Artesanal Vakimu 220g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -195,32 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillasinsalprs_mmtreh7i",
-    "nombre": "Mantequilla sin Sal Président Barra 200 gr",
-    "categoria": "mantequilla",
-    "super": "wong",
-    "precios": {
-      "online": 21.5,
-      "regular": 21.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 107.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
-  },
-  {
-    "id": "wong_mantequillasinsalplu_mmtreh7i",
+    "id": "wong_mantequillasinsalplu_mmun85mm",
     "nombre": "Mantequilla Sin Sal Plusa 200g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -239,10 +195,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillaconsalpay_mmtreh7i",
+    "id": "wong_mantequillasinsalprs_mmun85mm",
+    "nombre": "Mantequilla sin Sal Président Barra 200 gr",
+    "categoria": "mantequilla",
+    "super": "wong",
+    "precios": {
+      "online": 21.5,
+      "regular": 21.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 107.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:23:38.494Z"
+  },
+  {
+    "id": "wong_mantequillaconsalpay_mmun85mm",
     "nombre": "Mantequilla Con Sal Paysan Breton Barra 200 g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -261,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillaconsallaa_mmtreh7i",
+    "id": "wong_mantequillaconsallaa_mmun85mm",
     "nombre": "Mantequilla con Sal La Abuela 150g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -283,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillaconsalmar_mmtreh7i",
+    "id": "wong_mantequillaconsalmar_mmun85mm",
     "nombre": "Mantequilla con Sal Marina La Motte Président Pote 250 gr",
     "categoria": "mantequilla",
     "super": "wong",
@@ -305,10 +283,10 @@
     },
     "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillalachugura_mmtreh7i",
+    "id": "wong_mantequillalachugura_mmun85mm",
     "nombre": "Mantequilla La Chuguranita Barra 150 g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -327,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillaconsalpia_mmtreh7i",
+    "id": "wong_mantequillaconsalpia_mmun85mm",
     "nombre": "Mantequilla con Sal Piamonte 250g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -349,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillasinsalpay_mmtreh7i",
+    "id": "wong_mantequillasinsalpay_mmun85mm",
     "nombre": "Mantequilla Sin Sal Paysan Breton Barra 200 g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -371,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillalatterias_mmtreh7i",
+    "id": "wong_mantequillalatterias_mmun85mm",
     "nombre": "Mantequilla Latteria Soresina Barra 125 g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -393,10 +371,10 @@
     },
     "descuento": 32,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillasinlactos_mmtreh7i",
+    "id": "wong_mantequillasinlactos_mmun85mm",
     "nombre": "Mantequilla Sin Lactosa Soresina 125g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -415,10 +393,10 @@
     },
     "descuento": 52,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillasinsalpre_mmtreh7i",
+    "id": "wong_mantequillasinsalpre_mmun85mm",
     "nombre": "Mantequilla Sin Sal President 250g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -437,10 +415,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequilladeajoital_mmtreh7i",
+    "id": "wong_mantequilladeajoital_mmun85mn",
     "nombre": "Mantequilla de Ajo Italian Rose 198g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -459,10 +437,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.494Z"
   },
   {
-    "id": "wong_mantequillasinsalpia_mmtreh7i",
+    "id": "wong_mantequillasinsalpia_mmun85mn",
     "nombre": "Mantequilla Sin Sal Piamonte 250g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -481,10 +459,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.495Z"
   },
   {
-    "id": "wong_mantequillasinsalari_mmtreh7i",
+    "id": "wong_mantequillasinsalari_mmun85mn",
     "nombre": "Mantequilla Sin Sal Arias 235g",
     "categoria": "mantequilla",
     "super": "wong",
@@ -503,6 +481,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:32:45.726Z"
+    "timestamp": "2026-03-17T13:23:38.495Z"
+  },
+  {
+    "id": "wong_mantequillaveganasab_mmun85mn",
+    "nombre": "Mantequilla Vegana Sabor Finas Hierbas Las Tres Gunas 120g",
+    "categoria": "mantequilla",
+    "super": "wong",
+    "precios": {
+      "online": 18.9,
+      "regular": 18.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 157.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 120,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:23:38.495Z"
   }
 ]

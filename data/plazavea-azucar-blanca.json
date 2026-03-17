@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_azcarblancabellsbols_mmtr72n0",
+    "id": "plazavea_azcarblancabellsbols_mmun0tmw",
     "nombre": "Azúcar Blanca BELL'S Bolsa 5Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:27:00.252Z"
+    "timestamp": "2026-03-17T13:17:56.360Z"
   },
   {
-    "id": "plazavea_azcarblancadulfinabo_mmtr72n0",
+    "id": "plazavea_azcarblancadulfinabo_mmun0tmw",
     "nombre": "Azúcar Blanca DULFINA Bolsa 5Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -41,10 +41,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:27:00.252Z"
+    "timestamp": "2026-03-17T13:17:56.360Z"
   },
   {
-    "id": "plazavea_azcarblancarefinadac_mmtr72n0",
+    "id": "plazavea_basedemaquillajeazuc_mmun0tmw",
+    "nombre": "Base de Maquillaje Azucar Blanca 110-C Studio Look",
+    "categoria": "azucar-blanca",
+    "super": "plazavea",
+    "precios": {
+      "online": 41.9,
+      "regular": 62,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 41.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 32,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-17T13:17:56.360Z"
+  },
+  {
+    "id": "plazavea_azcarblancarefinadac_mmun0tmw",
     "nombre": "Azúcar Blanca Refinada CARTAVIO Saco 50Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -63,6 +81,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-16T22:27:00.252Z"
+    "timestamp": "2026-03-17T13:17:56.360Z"
   }
 ]
