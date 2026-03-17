@@ -1,1 +1,0 @@
-node scrapers/run-all.js ; if ($?) { node ontology/enforce_ontology.js } ; if ($?) { node data-logic/verify-data.js } ; if ($?) { node data-logic/build_comparison_dataset.js }
