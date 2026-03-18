@@ -1,6 +1,6 @@
 [
   {
-    "id": "metro_huevospardosmetroban_mmuydd1k",
+    "id": "metro_huevospardosmetroban_mmw4ormg",
     "nombre": "Huevos Pardos Metro Bandeja 8 Unid",
     "categoria": "huevos",
     "super": "metro",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:35:37.160Z"
+    "timestamp": "2026-03-18T14:20:13.144Z"
   },
   {
-    "id": "metro_huevoexplosivololsur_mmuydd1k",
+    "id": "metro_huevoexplosivololsur_mmw4ormg",
     "nombre": "Huevo Explosivo LOL Surprise Surtido",
     "categoria": "huevos",
     "super": "metro",
@@ -37,10 +37,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:35:37.160Z"
+    "timestamp": "2026-03-18T14:20:13.144Z"
   },
   {
-    "id": "metro_huevosorpresakinderj_mmuydd1l",
+    "id": "metro_huevosorpresakinderj_mmw4ormg",
     "nombre": "Huevo Sorpresa Kinder Joy 20g Sorpresa",
     "categoria": "huevos",
     "super": "metro",
@@ -59,10 +59,10 @@
     },
     "descuento": 27,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:35:37.161Z"
+    "timestamp": "2026-03-18T14:20:13.144Z"
   },
   {
-    "id": "metro_huevoexplosivopawpat_mmuydd1l",
+    "id": "metro_huevoexplosivopawpat_mmw4ormg",
     "nombre": "Huevo Explosivo Paw Patrol Surtido",
     "categoria": "huevos",
     "super": "metro",
@@ -77,10 +77,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:35:37.161Z"
+    "timestamp": "2026-03-18T14:20:13.144Z"
   },
   {
-    "id": "metro_huevosdecodornizmetr_mmuydd1l",
+    "id": "metro_huevosdecodornizmetr_mmw4ormg",
     "nombre": "Huevos de Codorniz Metro Paquete 18 Unid",
     "categoria": "huevos",
     "super": "metro",
@@ -99,10 +99,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:35:37.161Z"
+    "timestamp": "2026-03-18T14:20:13.144Z"
   },
   {
-    "id": "metro_huevosclsicosblancos_mmuydd1l",
+    "id": "metro_huevosclsicosblancos_mmw4ormg",
     "nombre": "Huevos Clásicos Blancos La Calera 15un",
     "categoria": "huevos",
     "super": "metro",
@@ -121,10 +121,32 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:35:37.161Z"
+    "timestamp": "2026-03-18T14:20:13.144Z"
   },
   {
-    "id": "metro_huevosorpresaledarco_mmuydd1l",
+    "id": "metro_huevospardosmetro15u_mmw4ormg",
+    "nombre": "Huevos Pardos Metro 15un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 10.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.68,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:20:13.144Z"
+  },
+  {
+    "id": "metro_huevosorpresaledarco_mmw4ormg",
     "nombre": "Huevo Sorpresa LED Arcor 26.4g",
     "categoria": "huevos",
     "super": "metro",
@@ -143,10 +165,10 @@
     },
     "descuento": 35,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:35:37.161Z"
+    "timestamp": "2026-03-18T14:20:13.144Z"
   },
   {
-    "id": "metro_huevosorpresaledsapi_mmuydd1l",
+    "id": "metro_huevosorpresaledsapi_mmw4ormg",
     "nombre": "Huevo Sorpresa LED Sapito 18g",
     "categoria": "huevos",
     "super": "metro",
@@ -165,6 +187,6 @@
     },
     "descuento": 20,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:35:37.161Z"
+    "timestamp": "2026-03-18T14:20:13.144Z"
   }
 ]

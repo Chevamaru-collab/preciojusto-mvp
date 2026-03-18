@@ -1,6 +1,6 @@
 [
   {
-    "id": "tottus_danlaclechefrescapas_mmuy8ghb",
+    "id": "tottus_danlaclechefrescapas_mmw4jv5k",
     "nombre": "DANLAC Leche Fresca Pasteurizada Danlac Botella 900 mL",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_glorialecheuhtentera_mmuy8ghb",
+    "id": "tottus_glorialecheuhtentera_mmw4jv5k",
     "nombre": "GLORIA Leche UHT Entera Gloria Pack 3 Cajas 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -41,54 +41,10 @@
     },
     "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_laivelechefrescanios_mmuy8ghb",
-    "nombre": "LAIVE Leche Fresca Niños Laive Caja 1 L",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 5.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechefrescaente_mmuy8ghb",
-    "nombre": "LAIVE Leche Fresca Entera Laive 1 L",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 6.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_glorialechefrescauht_mmuy8ghb",
+    "id": "tottus_glorialechefrescauht_mmw4jv5k",
     "nombre": "GLORIA Leche Fresca UHT Entera Gloria Caja 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -107,10 +63,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_gloriabebidalcteaglo_mmuy8ghb",
+    "id": "tottus_laivelechefrescanios_mmw4jv5k",
+    "nombre": "LAIVE Leche Fresca Niños Laive Caja 1 L",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_laivelechefrescaente_mmw4jv5k",
+    "nombre": "LAIVE Leche Fresca Entera Laive 1 L",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 6.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_gloriabebidalcteaglo_mmw4jv5k",
     "nombre": "GLORIA Bebida Láctea Gloria Yofresh Sabor Fresa Botella 320 g",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -129,208 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_glorialecheuhtlightg_mmuy8ghb",
-    "nombre": "GLORIA Leche UHT Light Gloria Pack 3 Cajas 1 L",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 16.2,
-      "regular": 18.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 11,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechefrescalaiv_mmuy8ghb",
-    "nombre": "LAIVE Leche Fresca Laive Pack 4 Unidades 1 L",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 22.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 22.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechesemidescre_mmuy8ghb",
-    "nombre": "LAIVE Leche Semidescremada Laive Bolsa 900 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": 4.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 8,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_glorialecheuhtniosgl_mmuy8ghb",
-    "nombre": "GLORIA Leche UHT Niños Gloria Caja 1 L",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 6.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechesinlactosa_mmuy8ghb",
-    "nombre": "LAIVE Leche Sin Lactosa Laive Bolsa 900 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 4.6,
-      "regular": 4.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 6,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechelaivelight_mmuy8ghb",
-    "nombre": "LAIVE Leche Laive Light Sin Lactosa Pack 4 Cajas 946 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 22.9,
-      "regular": 23.1,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 24.21,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 946,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 1,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechelaivesinla_mmuy8ghb",
-    "nombre": "LAIVE Leche Laive Sin Lactosa Pack 4 Cajas 946 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 23,
-      "regular": 24.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 24.31,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 946,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 6,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_glorialechegloriasin_mmuy8ghb",
-    "nombre": "GLORIA Leche Gloria Sin Lactosa Semidescremada Pack 3 Unidades 1 L",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 17.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 17.7,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechelaiveenter_mmuy8ghb",
-    "nombre": "LAIVE Leche Laive Entera Caja 946 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 6.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.55,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 946,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechelaivesemid_mmuy8ghb",
+    "id": "tottus_laivelechelaivesemid_mmw4jv5k",
     "nombre": "LAIVE Leche Laive Semidescremada Uht Pack 4 Unidades 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -349,33 +151,33 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_laivelecheuhtlightsi_mmuy8ghb",
-    "nombre": "LAIVE Leche UHT Light Sin Lactosa Laive Bolsa 900 mL",
+    "id": "tottus_laivelechefrescalaiv_mmw4jv5k",
+    "nombre": "LAIVE Leche Fresca Laive Pack 4 Unidades 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
     "precios": {
-      "online": 4.5,
-      "regular": 5.2,
+      "online": 22.5,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5,
+      "porUnidad": 22.5,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
+      "valor": 1,
+      "unidad": "lt",
       "pack": 1
     },
-    "descuento": 13,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_glorialecheuhtgloria_mmuy8ghb",
-    "nombre": "GLORIA Leche UHT Gloria Slim Triple Zero Caja 1 L",
+    "id": "tottus_glorialecheuhtniosgl_mmw4jv5k",
+    "nombre": "GLORIA Leche UHT Niños Gloria Caja 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
     "precios": {
@@ -393,41 +195,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_laivelechecultivadaf_mmuy8ghb",
-    "nombre": "LAIVE LECHE CULTIVADA FRESA LAIVE BL X 800 ML",
+    "id": "tottus_laivelechelaivelight_mmw4jv5k",
+    "nombre": "LAIVE Leche Laive Light Sin Lactosa Caja 946 mL",
     "categoria": "leche-fresca",
     "super": "tottus",
     "precios": {
-      "online": 4.1,
+      "online": 6.4,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.12,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_glorialechegloriauht_mmuy8ghb",
-    "nombre": "GLORIA Leche Gloria Uht Sin Lactosa 946 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 5.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.24,
+      "porUnidad": 6.77,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -437,63 +217,63 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_laivebebidaconleches_mmuy8ghb",
-    "nombre": "LAIVE Bebida con Leche Sabor Chocolate Laive Bolsa 900 mL",
+    "id": "tottus_laivelechesinlactosa_mmw4jv5k",
+    "nombre": "LAIVE Leche Sin Lactosa Laive Bolsa 900 mL",
     "categoria": "leche-fresca",
     "super": "tottus",
     "precios": {
-      "online": 5.5,
-      "regular": null,
+      "online": 4.6,
+      "regular": 4.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 6.11,
+      "porUnidad": 5.11,
       "porUnidadTarjeta": null
     },
     "presentacion": {
       "valor": 900,
       "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_glorialechegloriasin_mmw4jv5k",
+    "nombre": "GLORIA Leche Gloria Sin Lactosa Semidescremada Pack 3 Unidades 1 L",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 17.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 17.7,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "lt",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_danlaclechepasteuriz_mmuy8ghb",
-    "nombre": "DANLAC Leche Pasteurizada Danlac Chocolate Botella 900 mL",
+    "id": "tottus_laivelechelaiveenter_mmw4jv5k",
+    "nombre": "LAIVE Leche Laive Entera Caja 946 mL",
     "categoria": "leche-fresca",
     "super": "tottus",
     "precios": {
-      "online": 7.8,
-      "regular": 8.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivebebidadealmendr_mmuy8ghb",
-    "nombre": "LAIVE Bebida de Almendra Sin Endulzar Laive Caja 946 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 11.9,
+      "online": 6.2,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 12.58,
+      "porUnidad": 6.55,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -503,76 +283,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_laivebebidadecocosin_mmuy8ghb",
-    "nombre": "LAIVE Bebida de Coco Sin Endulzar Laive Caja 946 mL",
+    "id": "tottus_laivelechelaivesinla_mmw4jv5k",
+    "nombre": "LAIVE Leche Laive Sin Lactosa Avena Canela Botella 250 mL",
     "categoria": "leche-fresca",
     "super": "tottus",
     "precios": {
-      "online": 11.9,
+      "online": 3.1,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 12.58,
+      "porUnidad": 12.4,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 946,
+      "valor": 250,
       "unidad": "ml",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_glorialecheenteraglo_mmuy8ghb",
-    "nombre": "GLORIA Leche Entera Gloria Pack 3 Bolsas 900 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 12.4,
-      "regular": 15.2,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 13.78,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 18,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_glorialechesaborvain_mmuy8ghb",
-    "nombre": "GLORIA Leche Sabor Vainilla Gloria UHT Niños Sixpack Caja 180 mL",
-    "categoria": "leche-fresca",
-    "super": "tottus",
-    "precios": {
-      "online": 9.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 52.78,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
-  },
-  {
-    "id": "tottus_laivelechesbeltsemid_mmuy8ghb",
+    "id": "tottus_laivelechesbeltsemid_mmw4jv5k",
     "nombre": "LAIVE Leche Sbelt Semidescremada Uht 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -591,10 +327,252 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_laivelechesbeltdescr_mmuy8ghb",
+    "id": "tottus_glorialecheuhtgloria_mmw4jv5k",
+    "nombre": "GLORIA Leche UHT Gloria Sin Lactosa Bolsa 900 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 5.25,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.83,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_laivelecheuhtlightsi_mmw4jv5k",
+    "nombre": "LAIVE Leche UHT Light Sin Lactosa Laive Bolsa 900 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 4.5,
+      "regular": 5.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 13,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_glorialecheactiavena_mmw4jv5k",
+    "nombre": "GLORIA Leche Actiavena Gloria UHT Tetra Pack Caja 1 L",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 5.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_laivelechesemidescre_mmw4jv5k",
+    "nombre": "LAIVE Leche Semidescremada Laive Bolsa 900 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 4.5,
+      "regular": 4.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 8,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_glorialechegloriauht_mmw4jv5k",
+    "nombre": "GLORIA Leche Gloria Uht Sin Lactosa 946 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.24,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_laivebebidaconleches_mmw4jv5k",
+    "nombre": "LAIVE Bebida con Leche Sabor Chocolate Laive Bolsa 900 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 5.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.11,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_glorialecheuhtlightg_mmw4jv5k",
+    "nombre": "GLORIA Leche UHT Light Gloria Pack 3 Cajas 1 L",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 16.2,
+      "regular": 18.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": 11,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_laivebebidadealmendr_mmw4jv5k",
+    "nombre": "LAIVE Bebida de Almendra Sin Endulzar Laive Caja 946 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 11.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.58,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_laivebebidadecocosin_mmw4jv5k",
+    "nombre": "LAIVE Bebida de Coco Sin Endulzar Laive Caja 946 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 11.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.58,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_glorialecheenteraglo_mmw4jv5k",
+    "nombre": "GLORIA Leche Entera Gloria Pack 3 Bolsas 900 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 12.4,
+      "regular": 15.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 18,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_glorialechesaborvain_mmw4jv5k",
+    "nombre": "GLORIA Leche Sabor Vainilla Gloria UHT Niños Sixpack Caja 180 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 9.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 52.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_laivelechesbeltdescr_mmw4jv5k",
     "nombre": "LAIVE Leche Sbelt Descremada Pack 4 Unidades 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -613,10 +591,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_laivebebidadecocolai_mmuy8ghb",
+    "id": "tottus_danlaclechepasteuriz_mmw4jv5k",
+    "nombre": "DANLAC Leche Pasteurizada Danlac Chocolate Botella 900 mL",
+    "categoria": "leche-fresca",
+    "super": "tottus",
+    "precios": {
+      "online": 7.8,
+      "regular": 8.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-18T14:16:24.440Z"
+  },
+  {
+    "id": "tottus_laivebebidadecocolai_mmw4jv5k",
     "nombre": "LAIVE Bebida de Coco Laive Caja 946 mL",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -635,10 +635,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_glorialecheuhtchocol_mmuy8ghb",
+    "id": "tottus_glorialecheuhtchocol_mmw4jv5k",
     "nombre": "GLORIA Leche UHT Chocolatada Gloria Caja 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -657,10 +657,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   },
   {
-    "id": "tottus_glorialecheuhtniosdh_mmuy8ghb",
+    "id": "tottus_glorialecheuhtniosdh_mmw4jv5m",
     "nombre": "GLORIA Leche UHT Niños DHA Gloria Pack 3 Cajas 1 L",
     "categoria": "leche-fresca",
     "super": "tottus",
@@ -679,6 +679,6 @@
     },
     "descuento": 11,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-17T18:31:48.335Z"
+    "timestamp": "2026-03-18T14:16:24.440Z"
   }
 ]
