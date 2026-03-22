@@ -1,6 +1,28 @@
 [
   {
-    "id": "metro_pandemoldeblancocuis_mmyzr3ne",
+    "id": "metro_pandemoldeconavenaor_mn2705l5",
+    "nombre": "Pan de Molde con Avena Orno 600g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 4.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.17,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldeblancocuis_mn2705l5",
     "nombre": "Pan de Molde Blanco Cuisine & Co 500g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -19,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeintegralfa_mmyzr3ne",
+    "id": "metro_pandemoldeintegralfa_mn2705l5",
     "nombre": "Pan de Molde Integral Familiar PYC Bolsa 500 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -41,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeblancopyc4_mmyzr3ne",
+    "id": "metro_pandemoldeblancopyc4_mn2705l5",
     "nombre": "Pan de Molde Blanco PYC 480g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -63,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeintegralun_mmyzr3ne",
+    "id": "metro_pandemoldeintegralun_mn2705l5",
     "nombre": "Pan de Molde Integral Unión Mediano Bolsa 360 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -85,208 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeblancobimb_mmyzr3ne",
-    "nombre": "Pan de Molde Blanco Bimbo Extra Grande 770g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 9.8,
-      "regular": 12.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.73,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 770,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 22,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
-  },
-  {
-    "id": "metro_pandemoldeintegralbi_mmyzr3ne",
-    "nombre": "Pan de Molde Integral Bimbo 620g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 10.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.61,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 620,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
-  },
-  {
-    "id": "metro_pandemoldemultigrano_mmyzr3ne",
-    "nombre": "Pan de Molde Multigranos 390g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 9.8,
-      "regular": 11.59,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.13,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
-  },
-  {
-    "id": "metro_pandemoldeblancodonm_mmyzr3ne",
-    "nombre": "Pan De Molde Blanco Don Mamino 250 g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 9.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 39.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
-  },
-  {
-    "id": "metro_pandemoldecampesinom_mmyzr3ne",
-    "nombre": "Pan de Molde Campesino Misturapan 390g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 9.9,
-      "regular": 11.59,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.38,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
-  },
-  {
-    "id": "metro_pandemoldesuperbombl_mmyzr3ne",
-    "nombre": "Pan de Molde Superbom Blanco 465 g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 9.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 21.29,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 465,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
-  },
-  {
-    "id": "metro_pandemoldeintegralmi_mmyzr3ne",
-    "nombre": "Pan de Molde Integral Misturapan 390g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 10.1,
-      "regular": 11.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.490Z"
-  },
-  {
-    "id": "metro_pandemoldeuninmultis_mmyzr3nf",
-    "nombre": "Pan de Molde Unión Multisemilla & Chips Miel bolsa 540 g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 10.5,
-      "regular": 12.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 19.44,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 540,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 19,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldeuningranos_mmyzr3nf",
-    "nombre": "Pan de Molde Unión Granos Integrales Bolsa 540 g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 10.5,
-      "regular": 12.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 19.44,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 540,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 19,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldeblancobimb_mmyzr3nf",
+    "id": "metro_pandemoldeblancobimb_mn2705l5",
     "nombre": "Pan de Molde Blanco Bimbo Sin Corteza 590g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -305,164 +129,10 @@
     },
     "descuento": 1,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldebriochewon_mmyzr3nf",
-    "nombre": "Pan de Molde Brioche Wong 300g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 10.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 35,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 300,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldemulticerea_mmyzr3nf",
-    "nombre": "Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 12.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.83,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldedesemillas_mmyzr3nf",
-    "nombre": "Pan de Molde de Semillas Bimbo Vital Bolsa 600 g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 12.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.83,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldebimbodoble_mmyzr3nf",
-    "nombre": "Pan de Molde Bimbo Doble Fibra 510g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 11.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 22.55,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 510,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldedeyemamist_mmyzr3nf",
-    "nombre": "Pan de Molde de Yema Misturapan 390g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 11.59,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 29.72,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldefinashierb_mmyzr3nf",
-    "nombre": "Pan de Molde Finas Hierbas Misturapan 390g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 11.59,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 29.72,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldetipoartesa_mmyzr3nf",
-    "nombre": "Pan de Molde Tipo Artesanal Bimbo Artesano Integral 560g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 11.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 21.25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 560,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_pandemoldeintegralbi_mmyzr3nf",
+    "id": "metro_pandemoldeintegralbi_mn2705l5",
     "nombre": "Pan de Molde Integral Bimbo Cero Cero 650g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -481,32 +151,296 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeintegralsi_mmyzr3nf",
-    "nombre": "Pan de Molde Integral Sin Corteza 610g",
+    "id": "metro_pandemoldemultigrano_mn2705l5",
+    "nombre": "Pan de Molde Multigranos 390g",
     "categoria": "pan-molde",
     "super": "metro",
     "precios": {
-      "online": 13.4,
-      "regular": 13.5,
+      "online": 9.8,
+      "regular": 11.59,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 21.97,
+      "porUnidad": 25.13,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 610,
+      "valor": 390,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 1,
+    "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldebimbovital_mmyzr3nf",
+    "id": "metro_pandemoldeblancodonm_mn2705l5",
+    "nombre": "Pan De Molde Blanco Don Mamino 250 g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 9.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 39.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldecampesinom_mn2705l5",
+    "nombre": "Pan de Molde Campesino Misturapan 390g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 9.9,
+      "regular": 11.59,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldeintegralmi_mn2705l5",
+    "nombre": "Pan de Molde Integral Misturapan 390g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 10.1,
+      "regular": 11.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldeuninmultis_mn2705l5",
+    "nombre": "Pan de Molde Unión Multisemilla & Chips Miel bolsa 540 g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 10.5,
+      "regular": 12.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 19.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 540,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldeuningranos_mn2705l5",
+    "nombre": "Pan de Molde Unión Granos Integrales Bolsa 540 g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 10.5,
+      "regular": 12.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 19.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 540,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldebriochewon_mn2705l5",
+    "nombre": "Pan de Molde Brioche Wong 300g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 10.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 35,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldemulticerea_mn2705l5",
+    "nombre": "Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 12.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.83,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldedesemillas_mn2705l5",
+    "nombre": "Pan de Molde de Semillas Bimbo Vital Bolsa 600 g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 12.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.83,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldebimbodoble_mn2705l5",
+    "nombre": "Pan de Molde Bimbo Doble Fibra 510g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 11.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 22.55,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 510,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldedeyemamist_mn2705l5",
+    "nombre": "Pan de Molde de Yema Misturapan 390g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 11.59,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 29.72,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldefinashierb_mn2705l5",
+    "nombre": "Pan de Molde Finas Hierbas Misturapan 390g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 11.59,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 29.72,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldetipoartesa_mn2705l5",
+    "nombre": "Pan de Molde Tipo Artesanal Bimbo Artesano Integral 560g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 11.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 21.25,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 560,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldebimbovital_mn2705l5",
     "nombre": "Pan de Molde Bimbo Vital Mix de Quinuas 600g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -525,10 +459,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldedonmaminob_mmyzr3nf",
+    "id": "metro_pandemoldeintegralsi_mn2705l5",
+    "nombre": "Pan de Molde Integral Sin Corteza 610g",
+    "categoria": "pan-molde",
+    "super": "metro",
+    "precios": {
+      "online": 13.4,
+      "regular": 13.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 21.97,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 610,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 1,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-22T20:11:40.745Z"
+  },
+  {
+    "id": "metro_pandemoldedonmaminob_mn2705l5",
     "nombre": "Pan de Molde Don Mamino Blanco Sin Corteza Bolsa 560 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -547,10 +503,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeintegraldo_mmyzr3nf",
+    "id": "metro_pandemoldeintegraldo_mn2705l5",
     "nombre": "Pan de Molde Integral Don Mamino Bolsa 560 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -569,10 +525,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeintegralcl_mmyzr3nf",
+    "id": "metro_pandemoldeintegralcl_mn2705l5",
     "nombre": "Pan de Molde Integral Clásico Unión Grande Bolsa 495 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -591,10 +547,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldedonmaminom_mmyzr3nf",
+    "id": "metro_pandemoldedonmaminom_mn2705l5",
     "nombre": "Pan de Molde Don Mamino Marmoleado Bolsa 560 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -613,10 +569,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldedonmaminop_mmyzr3nf",
+    "id": "metro_pandemoldedonmaminop_mn2705l5",
     "nombre": "Pan de Molde Don Mamino Pullman Corte Horizontal Bolsa 560 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -635,10 +591,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldedecamoteor_mmyzr3nf",
+    "id": "metro_pandemoldedecamoteor_mn2705l5",
     "nombre": "Pan de Molde de Camote Orno 600g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -657,10 +613,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldebimbospers_mmyzr3nf",
+    "id": "metro_pandemoldebimbospers_mn2705l5",
     "nombre": "Pan de Molde Bimbo Súper Sandwich 800g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -679,10 +635,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeintegralor_mmyzr3nf",
+    "id": "metro_pandemoldeintegralor_mn2705l5",
     "nombre": "Pan de Molde Integral Orno 600g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -701,32 +657,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_pandemoldeconavenaor_mmyzr3nf",
-    "nombre": "Pan de Molde con Avena Orno 600g",
-    "categoria": "pan-molde",
-    "super": "metro",
-    "precios": {
-      "online": 15.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 26.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
-  },
-  {
-    "id": "metro_packx2pandemoldemult_mmyzr3nf",
+    "id": "metro_packx2pandemoldemult_mn2705l5",
     "nombre": "Pack x2 Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -745,10 +679,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   },
   {
-    "id": "metro_packx2pandemoldedese_mmyzr3nf",
+    "id": "metro_packx2pandemoldedese_mn2705l5",
     "nombre": "Pack x2 Pan de Molde de Semillas Bimbo Vital Bolsa 600 g",
     "categoria": "pan-molde",
     "super": "metro",
@@ -767,6 +701,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-20T14:25:22.491Z"
+    "timestamp": "2026-03-22T20:11:40.745Z"
   }
 ]
