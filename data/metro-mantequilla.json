@@ -1,226 +1,6 @@
 [
   {
-    "id": "metro_mantequillaconsalglo_mmxbvbgy",
-    "nombre": "Mantequilla con Sal Gloria 180g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 10.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 59.44,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.290Z"
-  },
-  {
-    "id": "metro_mantequillaconsallai_mmxbvbgy",
-    "nombre": "Mantequilla con Sal Laive 180g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 11.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 62.22,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.290Z"
-  },
-  {
-    "id": "metro_cachitodemantequilla_mmxbvbgy",
-    "nombre": "Cachito De Mantequilla Don Mamino Bolsa 6 Unidades",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 9.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 1.65,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 6,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.290Z"
-  },
-  {
-    "id": "metro_mantequillagloriasin_mmxbvbgy",
-    "nombre": "Mantequilla Gloria Sin Sal 180g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 10.5,
-      "regular": 11.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 58.33,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 12,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.290Z"
-  },
-  {
-    "id": "metro_mantequillasinsallai_mmxbvbgy",
-    "nombre": "Mantequilla Sin Sal Laive 180g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 11.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 62.22,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.290Z"
-  },
-  {
-    "id": "metro_mantequillaconsallai_mmxbvbgz",
-    "nombre": "Mantequilla con Sal Laive 350g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 19.99,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 57.11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 350,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
-  },
-  {
-    "id": "metro_mantequillaplusacons_mmxbvbgz",
-    "nombre": "Mantequilla Plusa Con Sal Barra 200 g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 15.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 76.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
-  },
-  {
-    "id": "metro_mantequillaconsaldan_mmxbvbgz",
-    "nombre": "Mantequilla con Sal Danlac Frasco 180g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 15.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 85.56,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
-  },
-  {
-    "id": "metro_mantequillasinsalplu_mmxbvbgz",
-    "nombre": "Mantequilla Sin Sal Plusa 200g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 16.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 82.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
-  },
-  {
-    "id": "metro_mantequillaasturiana_mmxbvbgz",
-    "nombre": "Mantequilla Asturiana 125g",
-    "categoria": "mantequilla",
-    "super": "metro",
-    "precios": {
-      "online": 16.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 133.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 125,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
-  },
-  {
-    "id": "metro_mantequillaconsalglo_mmxbvbgz",
+    "id": "metro_mantequillaconsalglo_mmyzqg7a",
     "nombre": "Mantequilla con Sal Gloria 390g",
     "categoria": "mantequilla",
     "super": "metro",
@@ -239,10 +19,186 @@
     },
     "descuento": 20,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
+    "timestamp": "2026-03-20T14:24:52.102Z"
   },
   {
-    "id": "metro_mantequillalachugura_mmxbvbgz",
+    "id": "metro_mantequillaconsallai_mmyzqg7a",
+    "nombre": "Mantequilla con Sal Laive 350g",
+    "categoria": "mantequilla",
+    "super": "metro",
+    "precios": {
+      "online": 19.99,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 57.11,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 350,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:24:52.102Z"
+  },
+  {
+    "id": "metro_cachitodemantequilla_mmyzqg7a",
+    "nombre": "Cachito De Mantequilla Don Mamino Bolsa 6 Unidades",
+    "categoria": "mantequilla",
+    "super": "metro",
+    "precios": {
+      "online": 9.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.65,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 6,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:24:52.102Z"
+  },
+  {
+    "id": "metro_mantequillagloriasin_mmyzqg7a",
+    "nombre": "Mantequilla Gloria Sin Sal 180g",
+    "categoria": "mantequilla",
+    "super": "metro",
+    "precios": {
+      "online": 10.5,
+      "regular": 11.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 58.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 12,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:24:52.102Z"
+  },
+  {
+    "id": "metro_mantequillasinsallai_mmyzqg7a",
+    "nombre": "Mantequilla Sin Sal Laive 180g",
+    "categoria": "mantequilla",
+    "super": "metro",
+    "precios": {
+      "online": 11.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 62.22,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:24:52.102Z"
+  },
+  {
+    "id": "metro_mantequillaplusacons_mmyzqg7a",
+    "nombre": "Mantequilla Plusa Con Sal Barra 200 g",
+    "categoria": "mantequilla",
+    "super": "metro",
+    "precios": {
+      "online": 15.3,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 76.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:24:52.102Z"
+  },
+  {
+    "id": "metro_mantequillaconsaldan_mmyzqg7a",
+    "nombre": "Mantequilla con Sal Danlac Frasco 180g",
+    "categoria": "mantequilla",
+    "super": "metro",
+    "precios": {
+      "online": 15.4,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 85.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:24:52.102Z"
+  },
+  {
+    "id": "metro_mantequillasinsalplu_mmyzqg7a",
+    "nombre": "Mantequilla Sin Sal Plusa 200g",
+    "categoria": "mantequilla",
+    "super": "metro",
+    "precios": {
+      "online": 16.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 82.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:24:52.102Z"
+  },
+  {
+    "id": "metro_mantequillaasturiana_mmyzqg7a",
+    "nombre": "Mantequilla Asturiana 125g",
+    "categoria": "mantequilla",
+    "super": "metro",
+    "precios": {
+      "online": 16.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 133.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 125,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:24:52.102Z"
+  },
+  {
+    "id": "metro_mantequillalachugura_mmyzqg7a",
     "nombre": "Mantequilla La Chuguranita Barra 150 g",
     "categoria": "mantequilla",
     "super": "metro",
@@ -261,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
+    "timestamp": "2026-03-20T14:24:52.102Z"
   },
   {
-    "id": "metro_mantequillaconsalprs_mmxbvbgz",
+    "id": "metro_mantequillaconsalprs_mmyzqg7a",
     "nombre": "Mantequilla con Sal Président Barra 200 gr",
     "categoria": "mantequilla",
     "super": "metro",
@@ -283,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
+    "timestamp": "2026-03-20T14:24:52.102Z"
   },
   {
-    "id": "metro_mantequillasinsalprs_mmxbvbgz",
+    "id": "metro_mantequillasinsalprs_mmyzqg7a",
     "nombre": "Mantequilla sin Sal Président Barra 200g",
     "categoria": "mantequilla",
     "super": "metro",
@@ -305,6 +261,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:29:02.291Z"
+    "timestamp": "2026-03-20T14:24:52.102Z"
   }
 ]

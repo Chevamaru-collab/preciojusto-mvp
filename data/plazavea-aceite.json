@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_aceitevegetalpremium_mmxbqsnd",
+    "id": "plazavea_aceitevegetalpremium_mmyzlx13",
     "nombre": "Aceite Vegetal Premium PRIMOR Botella 900ml",
     "categoria": "aceite",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": 18,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.273Z"
+    "timestamp": "2026-03-20T14:21:20.631Z"
   },
   {
-    "id": "plazavea_aceitevegetalbellsbo_mmxbqsnd",
+    "id": "plazavea_aceitevegetalbellsbo_mmyzlx13",
     "nombre": "Aceite Vegetal BELL'S Botella 900ml",
     "categoria": "aceite",
     "super": "plazavea",
@@ -41,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.273Z"
+    "timestamp": "2026-03-20T14:21:20.631Z"
   },
   {
-    "id": "plazavea_aceitedesoyasaobotel_mmxbqsnd",
+    "id": "plazavea_aceitedesoyasaobotel_mmyzlx13",
     "nombre": "Aceite de Soya SAO Botella 900ml",
     "categoria": "aceite",
     "super": "plazavea",
@@ -63,19 +63,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.273Z"
+    "timestamp": "2026-03-20T14:21:20.631Z"
   },
   {
-    "id": "plazavea_aceitevegetalcociner_mmxbqsnd",
-    "nombre": "Aceite Vegetal COCINERO Botella 900ml",
+    "id": "plazavea_aceitevegetalprimorc_mmyzlx13",
+    "nombre": "Aceite Vegetal PRIMOR Clásico Botella 900ml",
     "categoria": "aceite",
     "super": "plazavea",
     "precios": {
-      "online": 7.6,
-      "regular": 8.7,
+      "online": 8.4,
+      "regular": 9.7,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 8.44,
+      "porUnidad": 9.33,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -85,10 +85,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.273Z"
+    "timestamp": "2026-03-20T14:21:20.631Z"
   },
   {
-    "id": "plazavea_aceitevegetalprimorc_mmxbqsne",
+    "id": "plazavea_aceitevegetalprimorc_mmyzlx14",
     "nombre": "Aceite Vegetal PRIMOR Clásico Botella 1.8L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -107,10 +107,32 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitevegetalbellsga_mmxbqsne",
+    "id": "plazavea_aceitevegetalcociner_mmyzlx14",
+    "nombre": "Aceite Vegetal COCINERO Botella 900ml",
+    "categoria": "aceite",
+    "super": "plazavea",
+    "precios": {
+      "online": 7.6,
+      "regular": 8.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 13,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-20T14:21:20.632Z"
+  },
+  {
+    "id": "plazavea_aceitevegetalbellsga_mmyzlx14",
     "nombre": "Aceite Vegetal BELL'S Galonera 5L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -129,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitevegetaldeleite_mmxbqsne",
+    "id": "plazavea_aceitevegetaldeleite_mmyzlx14",
     "nombre": "Aceite Vegetal DELEITE Premium Bidón 5L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -151,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitedeajonjolbells_mmxbqsne",
+    "id": "plazavea_aceitedeajonjolbells_mmyzlx14",
     "nombre": "Aceite de Ajonjolí BELL'S Frasco 200ml",
     "categoria": "aceite",
     "super": "plazavea",
@@ -173,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitevegetalbellsbo_mmxbqsne",
+    "id": "plazavea_aceitevegetalbellsbo_mmyzlx14",
     "nombre": "Aceite Vegetal BELL'S Botella 3L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -195,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitevegetalprimorg_mmxbqsne",
+    "id": "plazavea_aceitevegetalprimorg_mmyzlx14",
     "nombre": "Aceite Vegetal PRIMOR Galón 5L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -217,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitedecrtamooleico_mmxbqsne",
+    "id": "plazavea_aceitedecrtamooleico_mmyzlx14",
     "nombre": "Aceite de Cártamo OLEICO Botella 710ml",
     "categoria": "aceite",
     "super": "plazavea",
@@ -239,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitevegetalpremium_mmxbqsne",
+    "id": "plazavea_aceitevegetalpremium_mmyzlx14",
     "nombre": "Aceite Vegetal Premium DELEITE Bidón 3L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -261,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitedecocobellsfra_mmxbqsne",
+    "id": "plazavea_aceitedecocobellsfra_mmyzlx14",
     "nombre": "Aceite de Coco BELL'S Frasco 350ml",
     "categoria": "aceite",
     "super": "plazavea",
@@ -283,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_packaceitevegetalpri_mmxbqsne",
+    "id": "plazavea_packaceitevegetalpri_mmyzlx14",
     "nombre": "Pack Aceite Vegetal PRIMOR Clásico Botella 900ml + Fideo Spaghetti LAVAGGI Bolsa 950g",
     "categoria": "aceite",
     "super": "plazavea",
@@ -305,10 +327,10 @@
     },
     "descuento": 20,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitevegetalwessonc_mmxbqsne",
+    "id": "plazavea_aceitevegetalwessonc_mmyzlx14",
     "nombre": "Aceite Vegetal WESSON Canola Botella 1.18L",
     "categoria": "aceite",
     "super": "plazavea",
@@ -327,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_sardinapicanteenacei_mmxbqsne",
+    "id": "plazavea_sardinapicanteenacei_mmyzlx14",
     "nombre": "Sardina Picante en Aceite Vegetal PALACIO Caja 120g",
     "categoria": "aceite",
     "super": "plazavea",
@@ -349,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.274Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_aceitevegetaldeaguaj_mmxbqsnf",
+    "id": "plazavea_aceitevegetaldeaguaj_mmyzlx14",
     "nombre": "Aceite Vegetal de Aguaje (30 ml) – Brana",
     "categoria": "aceite",
     "super": "plazavea",
@@ -371,10 +393,10 @@
     },
     "descuento": 18,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.275Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   },
   {
-    "id": "plazavea_rociadordeaceitevege_mmxbqsnf",
+    "id": "plazavea_rociadordeaceitevege_mmyzlx15",
     "nombre": "Rociador de aceite vegetal",
     "categoria": "aceite",
     "super": "plazavea",
@@ -389,6 +411,6 @@
     "presentacion": null,
     "descuento": 60,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-19T10:25:31.275Z"
+    "timestamp": "2026-03-20T14:21:20.632Z"
   }
 ]
