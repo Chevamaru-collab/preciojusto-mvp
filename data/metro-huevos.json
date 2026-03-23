@@ -1,6 +1,6 @@
 [
   {
-    "id": "metro_huevospardosmetroban_mn26ypbb",
+    "id": "metro_huevospardosmetroban_mn395hs0",
     "nombre": "Huevos Pardos Metro Bandeja 8 Unid",
     "categoria": "huevos",
     "super": "metro",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
+    "timestamp": "2026-03-23T13:59:35.232Z"
   },
   {
-    "id": "metro_huevoexplosivololsur_mn26ypbb",
+    "id": "metro_huevoexplosivololsur_mn395hs0",
     "nombre": "Huevo Explosivo LOL Surprise Surtido",
     "categoria": "huevos",
     "super": "metro",
@@ -37,10 +37,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
+    "timestamp": "2026-03-23T13:59:35.232Z"
   },
   {
-    "id": "metro_huevosorpresakinderj_mn26ypbb",
+    "id": "metro_huevosorpresakinderj_mn395hs0",
     "nombre": "Huevo Sorpresa Kinder Joy 20g Sorpresa",
     "categoria": "huevos",
     "super": "metro",
@@ -59,10 +59,10 @@
     },
     "descuento": 27,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
+    "timestamp": "2026-03-23T13:59:35.232Z"
   },
   {
-    "id": "metro_huevoexplosivopawpat_mn26ypbb",
+    "id": "metro_huevoexplosivopawpat_mn395hs0",
     "nombre": "Huevo Explosivo Paw Patrol Surtido",
     "categoria": "huevos",
     "super": "metro",
@@ -77,10 +77,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
+    "timestamp": "2026-03-23T13:59:35.232Z"
   },
   {
-    "id": "metro_huevosdecodornizmetr_mn26ypbb",
+    "id": "metro_huevosdecodornizmetr_mn395hs0",
     "nombre": "Huevos de Codorniz Metro Paquete 18 Unid",
     "categoria": "huevos",
     "super": "metro",
@@ -99,32 +99,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
+    "timestamp": "2026-03-23T13:59:35.232Z"
   },
   {
-    "id": "metro_huevosclsicosblancos_mn26ypbb",
-    "nombre": "Huevos Clásicos Blancos La Calera 15un",
-    "categoria": "huevos",
-    "super": "metro",
-    "precios": {
-      "online": 10,
-      "regular": 11.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 15,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": 13,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
-  },
-  {
-    "id": "metro_huevospardosmetro15u_mn26ypbb",
+    "id": "metro_huevospardosmetro15u_mn395hs0",
     "nombre": "Huevos Pardos Metro 15un",
     "categoria": "huevos",
     "super": "metro",
@@ -143,32 +121,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
+    "timestamp": "2026-03-23T13:59:35.232Z"
   },
   {
-    "id": "metro_huevospardosanfernan_mn26ypbb",
-    "nombre": "Huevos Pardo San Fernando 15un",
-    "categoria": "huevos",
-    "super": "metro",
-    "precios": {
-      "online": 10.5,
-      "regular": 11.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.7,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 15,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": 12,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
-  },
-  {
-    "id": "metro_huevosorpresaledarco_mn26ypbb",
+    "id": "metro_huevosorpresaledarco_mn395hs0",
     "nombre": "Huevo Sorpresa LED Arcor 26.4g",
     "categoria": "huevos",
     "super": "metro",
@@ -187,6 +143,28 @@
     },
     "descuento": 35,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-22T20:10:32.999Z"
+    "timestamp": "2026-03-23T13:59:35.232Z"
+  },
+  {
+    "id": "metro_huevosorpresaledsapi_mn395hs0",
+    "nombre": "Huevo Sorpresa LED Sapito 18g",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 10.9,
+      "regular": 13.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 605.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 18,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 20,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-23T13:59:35.232Z"
   }
 ]
