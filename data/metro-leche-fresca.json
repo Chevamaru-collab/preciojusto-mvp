@@ -1,15 +1,15 @@
 [
   {
-    "id": "metro_lecheuhtmilkitobolsa_mn395wml",
+    "id": "metro_lecheuhtmilkitobolsa_mn4qmig6",
     "nombre": "Leche UHT Milkito Bolsa 800ml",
     "categoria": "leche-fresca",
     "super": "metro",
     "precios": {
-      "online": 4.3,
-      "regular": 4.8,
+      "online": 4,
+      "regular": 4.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.37,
+      "porUnidad": 5,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,12 +17,12 @@
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 10,
+    "descuento": 11,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.477Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   },
   {
-    "id": "metro_shakemocaccinouhtglo_mn395wml",
+    "id": "metro_shakemocaccinouhtglo_mn4qmig6",
     "nombre": "Shake Mocaccino UHT Gloria Frasco 330 ml",
     "categoria": "leche-fresca",
     "super": "metro",
@@ -41,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.477Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   },
   {
-    "id": "metro_shakecapuccinouhtglo_mn395wml",
+    "id": "metro_shakecapuccinouhtglo_mn4qmig6",
     "nombre": "Shake Capuccino UHT Gloria Frasco 330 ml",
     "categoria": "leche-fresca",
     "super": "metro",
@@ -63,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.477Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   },
   {
-    "id": "metro_lecheenterauhtlaive8_mn395wml",
+    "id": "metro_lecheenterauhtlaive8_mn4qmig6",
     "nombre": "Leche Entera UHT Laive 800ml",
     "categoria": "leche-fresca",
     "super": "metro",
@@ -85,208 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.477Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   },
   {
-    "id": "metro_lecheenterauhtgloria_mn395wml",
-    "nombre": "Leche Entera UHT Gloria Bolsa 800ml",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 4.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.13,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.477Z"
-  },
-  {
-    "id": "metro_lecheuhtvigorbolsa80_mn395wml",
-    "nombre": "Leche Uht Vigor Bolsa 800ml",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 5.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.477Z"
-  },
-  {
-    "id": "metro_lecheuhtsinlactosagl_mn395wml",
-    "nombre": "Leche UHT Sin Lactosa Gloria Zero Lacto Bolsa 800ml",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 5.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.477Z"
-  },
-  {
-    "id": "metro_lecheuhtvigorlightbo_mn395wml",
-    "nombre": "Leche UHT Vigor Light Bolsa 800ml",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 5.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.477Z"
-  },
-  {
-    "id": "metro_lecheuhtsinlactosade_mn395wmm",
-    "nombre": "Leche UHT Sin Lactosa Deslactosada Vigor Bolsa 800ml",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 5.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.88,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
-  },
-  {
-    "id": "metro_lecheuhtlightlaivesi_mn395wmm",
-    "nombre": "Leche UHT Light Laive Sin Lactosa Bolsa 800ml",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 5.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
-  },
-  {
-    "id": "metro_lecheuhtsinlactosacu_mn395wmm",
-    "nombre": "Leche UHT Sin Lactosa Cuisine & Co Caja 1L",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 5.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
-  },
-  {
-    "id": "metro_lecheenterauhtlaivec_mn395wmm",
-    "nombre": "Leche Entera UHT Laive Caja 946ml",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 5.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.24,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 946,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
-  },
-  {
-    "id": "metro_lecheuhtenteracuisin_mn395wmm",
-    "nombre": "Leche UHT Entera Cuisine & Co Caja 1 lt",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 5.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
-  },
-  {
-    "id": "metro_lecheenterauhtgloria_mn395wmm",
+    "id": "metro_lecheenterauhtgloria_mn4qmig6",
     "nombre": "Leche Entera UHT Gloria Caja 946ml",
     "categoria": "leche-fresca",
     "super": "metro",
@@ -305,10 +107,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   },
   {
-    "id": "metro_lecheuhtsinlactosagl_mn395wmm",
+    "id": "metro_lecheuhtvigorbolsa80_mn4qmig6",
+    "nombre": "Leche Uht Vigor Bolsa 800ml",
+    "categoria": "leche-fresca",
+    "super": "metro",
+    "precios": {
+      "online": 5.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 800,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:56:28.902Z"
+  },
+  {
+    "id": "metro_lecheuhtsinlactosagl_mn4qmig6",
     "nombre": "Leche UHT Sin Lactosa Gloria Zero Lacto Caja 946ml",
     "categoria": "leche-fresca",
     "super": "metro",
@@ -327,10 +151,142 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   },
   {
-    "id": "metro_lecheuhtglorialightc_mn395wmm",
+    "id": "metro_lecheuhtvigorlightbo_mn4qmig6",
+    "nombre": "Leche UHT Vigor Light Bolsa 800ml",
+    "categoria": "leche-fresca",
+    "super": "metro",
+    "precios": {
+      "online": 5.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 800,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:56:28.902Z"
+  },
+  {
+    "id": "metro_lecheuhtsinlactosade_mn4qmig6",
+    "nombre": "Leche UHT Sin Lactosa Deslactosada Vigor Bolsa 800ml",
+    "categoria": "leche-fresca",
+    "super": "metro",
+    "precios": {
+      "online": 5.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.88,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 800,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:56:28.902Z"
+  },
+  {
+    "id": "metro_lecheuhtlightlaivesi_mn4qmig6",
+    "nombre": "Leche UHT Light Laive Sin Lactosa Bolsa 800ml",
+    "categoria": "leche-fresca",
+    "super": "metro",
+    "precios": {
+      "online": 5.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 800,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:56:28.902Z"
+  },
+  {
+    "id": "metro_lecheuhtsinlactosacu_mn4qmig6",
+    "nombre": "Leche UHT Sin Lactosa Cuisine & Co Caja 1L",
+    "categoria": "leche-fresca",
+    "super": "metro",
+    "precios": {
+      "online": 5.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:56:28.902Z"
+  },
+  {
+    "id": "metro_lecheenterauhtlaivec_mn4qmig6",
+    "nombre": "Leche Entera UHT Laive Caja 946ml",
+    "categoria": "leche-fresca",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.24,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:56:28.902Z"
+  },
+  {
+    "id": "metro_lecheuhtenteracuisin_mn4qmig6",
+    "nombre": "Leche UHT Entera Cuisine & Co Caja 1 lt",
+    "categoria": "leche-fresca",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:56:28.902Z"
+  },
+  {
+    "id": "metro_lecheuhtglorialightc_mn4qmig6",
     "nombre": "Leche UHT Gloria Light Caja 946ml",
     "categoria": "leche-fresca",
     "super": "metro",
@@ -349,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   },
   {
-    "id": "metro_lechefrescapiamonteb_mn395wmm",
+    "id": "metro_lechefrescapiamonteb_mn4qmig6",
     "nombre": "Leche Fresca Piamonte Bolsa 950 ml",
     "categoria": "leche-fresca",
     "super": "metro",
@@ -371,10 +327,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   },
   {
-    "id": "metro_tripacklecheenterauh_mn395wmm",
+    "id": "metro_lecheenterapasteuriz_mn4qmig6",
+    "nombre": "Leche Entera Pasteurizada Danlac Botella 900ml",
+    "categoria": "leche-fresca",
+    "super": "metro",
+    "precios": {
+      "online": 7.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:56:28.902Z"
+  },
+  {
+    "id": "metro_tripacklecheenterauh_mn4qmig6",
     "nombre": "Tripack Leche Entera UHT Gloria Bolsa 800ml",
     "categoria": "leche-fresca",
     "super": "metro",
@@ -393,28 +371,6 @@
     },
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
-  },
-  {
-    "id": "metro_tripacklecheuhtvigor_mn395wmm",
-    "nombre": "Tripack Leche UHT Vigor Bolsa 800ml",
-    "categoria": "leche-fresca",
-    "super": "metro",
-    "precios": {
-      "online": 14.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 18.25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:59:54.478Z"
+    "timestamp": "2026-03-24T14:56:28.902Z"
   }
 ]

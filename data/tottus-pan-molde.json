@@ -1,6 +1,138 @@
 [
   {
-    "id": "tottus_tottuspantottusmolde_mn391bxz",
+    "id": "tottus_bimbopandemoldeblanc_mn4qhue4",
+    "nombre": "BIMBO Pan De Molde Blanco Artesano Bimbo 530 G",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 12.4,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 530,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_donmaminopandemoldeb_mn4qhue4",
+    "nombre": "DON MAMINO Pan de Molde Blanco Horizontales Don Mamino Bolsa 560 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 11.3,
+      "regular": 13.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.18,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 560,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 16,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_bimbopandemoldebimbo_mn4qhue4",
+    "nombre": "BIMBO Pan de Molde Bimbo Vital Semillas Bolsa 360 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 8.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 360,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_donmaminopandemoldec_mn4qhue4",
+    "nombre": "DON MAMINO Pan de Molde con Salvado Don Mamino Bolsa 560 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 13.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 24.11,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 560,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_pycpandemoldepycinte_mn4qhue4",
+    "nombre": "PYC Pan de Molde PYC Integral Bolsa 500 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 7.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_tottuspanmoldeintegr_mn4qhue4",
+    "nombre": "TOTTUS Pan Molde Integral Tottus Bolsa 480 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 7.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.63,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 480,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_tottuspantottusmolde_mn4qhue4",
     "nombre": "TOTTUS Pan Tottus Molde Blanco Sin Corteza Bolsa 560 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -19,19 +151,129 @@
     },
     "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.047Z"
+    "timestamp": "2026-03-24T14:52:51.100Z"
   },
   {
-    "id": "tottus_bimbopandemoldebimbo_mn391bxz",
-    "nombre": "BIMBO Pan de Molde Bimbo Vital Integral Multicereal con Chía y Linaza Bolsa 600 g",
+    "id": "tottus_tottuspanmoldeblanco_mn4qhue4",
+    "nombre": "TOTTUS Pan Molde Blanco Tottus Bolsa 480 g",
     "categoria": "pan-molde",
     "super": "tottus",
     "precios": {
-      "online": 12.4,
-      "regular": 14.9,
+      "online": 7.5,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 20.67,
+      "porUnidad": 15.63,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 480,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_donmaminopandemoldem_mn4qhue4",
+    "nombre": "DON MAMINO Pan de Molde Mármol sin Cortar Don Mamino Bolsa 560 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 13.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 24.11,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 560,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_pycpandemoldepycblan_mn4qhue4",
+    "nombre": "PYC Pan de Molde PYC Blanco Bolsa 480 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 7.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.46,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 480,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_molinosdelmundopande_mn4qhue4",
+    "nombre": "MOLINOS DEL MUNDO Pan de Molde Molinos del Mundo Blanco Sin Gluten Bolsa 480 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 17.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 35.83,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 480,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_lacanastapandemoldeb_mn4qhue4",
+    "nombre": "LA CANASTA Pan de Molde Blanco La Canasta Empaque 630 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 9.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.08,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 630,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.100Z"
+  },
+  {
+    "id": "tottus_lacanastapandemoldei_mn4qhue4",
+    "nombre": "LA CANASTA Pan de Molde Integral La Canasta Empaque 600 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 9.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.83,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -39,56 +281,34 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 17,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.047Z"
+    "timestamp": "2026-03-24T14:52:51.100Z"
   },
   {
-    "id": "tottus_bimbopandemoldeblanc_mn391bxz",
-    "nombre": "BIMBO Pan de Molde Blanco Bimbo Sin Bordes Bolsa 650 g",
+    "id": "tottus_superpandemoldereban_mn4qhue4",
+    "nombre": "SUPER Pan de Molde Rebanado Bimbo Fuente de Calcio 480 g",
     "categoria": "pan-molde",
     "super": "tottus",
     "precios": {
-      "online": 13.5,
+      "online": 10.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 20.77,
+      "porUnidad": 21.88,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 650,
+      "valor": 480,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.047Z"
+    "timestamp": "2026-03-24T14:52:51.100Z"
   },
   {
-    "id": "tottus_bimbopandemoldebimbo_mn391by0",
-    "nombre": "BIMBO Pan de Molde Bimbo Integral Sin Borde Bolsa 650 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 13.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.77,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 650,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbopandemoldeblanc_mn391by0",
+    "id": "tottus_bimbopandemoldeblanc_mn4qhue5",
     "nombre": "BIMBO Pan De Molde Blanco Sin Bordes Bimbo 690 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -107,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.100Z"
   },
   {
-    "id": "tottus_bimbopandemoldeinteg_mn391by0",
+    "id": "tottus_bimbopandemoldeinteg_mn4qhue5",
     "nombre": "BIMBO Pan de Molde Integral Bimbo 480 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -129,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopandemoldeartes_mn391by0",
+    "id": "tottus_bimbopandemoldeartes_mn4qhue5",
     "nombre": "BIMBO Pan De Molde Artesano Integral Bimbo 530 G",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -151,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopandemesabimboa_mn391by0",
+    "id": "tottus_bimbopandemesabimboa_mn4qhue5",
     "nombre": "BIMBO Pan de Mesa Bimbo Artesano Bolsa 425 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -173,10 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopanbimboparahot_mn391by0",
+    "id": "tottus_bimbopanbimboparahot_mn4qhue5",
     "nombre": "BIMBO Pan Bimbo para Hot Dog Bolsa 8 Und",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -195,10 +415,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopanpitabimbobla_mn391by0",
+    "id": "tottus_bimbopanpitabimbobla_mn4qhue5",
     "nombre": "BIMBO Pan Pita Bimbo Blanco Bolsa 300 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -217,10 +437,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopanmolidobimbob_mn391by0",
+    "id": "tottus_bimbopanmolidobimbob_mn4qhue5",
     "nombre": "BIMBO Pan Molido Bimbo Bolsa 250 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -239,10 +459,10 @@
     },
     "descuento": 26,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopanhamburguesab_mn391by0",
+    "id": "tottus_bimbopanhamburguesab_mn4qhue5",
     "nombre": "BIMBO Pan Hamburguesa Bimbo Artesano Bolsa 4 Und",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -261,10 +481,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopanpitabimboint_mn391by0",
+    "id": "tottus_bimbopanpitabimboint_mn4qhue5",
     "nombre": "BIMBO Pan Pita Bimbo Integral Cero Cero Bolsa 240 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -283,10 +503,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbobimboletesmarmo_mn391by0",
+    "id": "tottus_bimbobimboletesmarmo_mn4qhue5",
     "nombre": "BIMBO Bimboletes Marmoleado Bimbo 3 Unidades",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -305,10 +525,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbotostadasclsicas_mn391by0",
+    "id": "tottus_bimbotostadasclsicas_mn4qhue5",
     "nombre": "BIMBO Tostadas Clásicas Bimbo Bolsa 160 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -327,32 +547,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopanpitabimbolin_mn391by0",
-    "nombre": "BIMBO Pan Pita Bimbo Linaza Bolsa 10 Und",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 7.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.79,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 10,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbopanetnbimboenbo_mn391by0",
+    "id": "tottus_bimbopanetnbimboenbo_mn4qhue5",
     "nombre": "BIMBO Panetón Bimbo en Bolsa 900 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -371,54 +569,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopanetncajabimbo_mn391by0",
-    "nombre": "BIMBO Panetón Caja Bimbo 900 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 27.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 31,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbokekebimbofamili_mn391by0",
-    "nombre": "BIMBO Keke Bimbo Familiar Naranja Bolsa 380 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 9.4,
-      "regular": 9.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 24.74,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 380,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 5,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbobimboletsaborva_mn391by0",
+    "id": "tottus_bimbobimboletsaborva_mn4qhue5",
     "nombre": "BIMBO BimboleTé Sabor Vainilla Bimbo 3 Unidades",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -437,10 +591,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   },
   {
-    "id": "tottus_bimbopanintegralxgbi_mn391by0",
+    "id": "tottus_bimbopanetncajabimbo_mn4qhue5",
+    "nombre": "BIMBO Panetón Caja Bimbo 900 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 27.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 31,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.101Z"
+  },
+  {
+    "id": "tottus_bimbokekebimbofamili_mn4qhue5",
+    "nombre": "BIMBO Keke Bimbo Familiar Marmoleado Bolsa 380 g",
+    "categoria": "pan-molde",
+    "super": "tottus",
+    "precios": {
+      "online": 9.4,
+      "regular": 9.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 24.74,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 380,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 5,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-24T14:52:51.101Z"
+  },
+  {
+    "id": "tottus_bimbopanintegralxgbi_mn4qhue5",
     "nombre": "BIMBO Pan Integral Xg Bimbo 750 g",
     "categoria": "pan-molde",
     "super": "tottus",
@@ -459,358 +657,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbobimboletesaborv_mn391by0",
-    "nombre": "BIMBO Bimbolete Sabor Vainilla Bimbo 165 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 5.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 32.73,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 165,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbotortillasbimbor_mn391by0",
-    "nombre": "BIMBO Tortillas Bimbo Rapiditas Clásicas Bolsa 310 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 7.9,
-      "regular": 8.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.48,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 310,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 7,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbomnxbimboletchis_mn391by0",
-    "nombre": "BIMBO Mnx BimboleTé Chispas 130g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 8.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 68.46,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 130,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbobimboletesminib_mn391by0",
-    "nombre": "BIMBO Bimboletes Mini Bimbo 130g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 8.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 68.46,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 130,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbopanintegralcero_mn391by0",
-    "nombre": "BIMBO Pan Integral Cero Cero Bimbo X 560g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 10.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 19.29,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 560,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbotostadasintegra_mn391by0",
-    "nombre": "BIMBO Tostadas Integrales Bimbo Bolsa 160 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 7.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 49.38,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 160,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbominipinginomari_mn391by0",
-    "nombre": "BIMBO Mini Pingüino Marinela Bolsa 10 Und",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 10.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 1.09,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 10,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbotostadasbimboce_mn391by0",
-    "nombre": "BIMBO Tostadas Bimbo Cero Cero Bolsa 140 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 8.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 63.57,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 140,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbopanetoncitochis_mn391by0",
-    "nombre": "BIMBO Panetoncito Chispas Chocolate Bimbo 90 gr",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 50,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 90,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbokekitospycvaini_mn391by0",
-    "nombre": "BIMBO Kekitos PYC Vainilla Bolsa 90 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 3.1,
-      "regular": 3.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 34.44,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 90,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 11,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_bimbobimboleteschisp_mn391by0",
-    "nombre": "BIMBO Bimboletes Chispas 82.50g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 3.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 44.85,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 82.5,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_tottuspanmoldeblanco_mn391by0",
-    "nombre": "TOTTUS Pan Molde Blanco Tottus 600 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 9.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_tottuspandemoldeinte_mn391by0",
-    "nombre": "TOTTUS Pan de Molde Integral Tottus Bolsa 500 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 8.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 17.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_unionpanfuenteuninbo_mn391by0",
-    "nombre": "UNION Pan Fuente Unión Bolsa 780 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 11.5,
-      "regular": 12.7,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 14.74,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 780,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_pycpandemoldeblancop_mn391by0",
-    "nombre": "PYC Pan de Molde Blanco Pyc 800 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 13.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 17.25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
-  },
-  {
-    "id": "tottus_tottuspandemoldecons_mn391by0",
-    "nombre": "TOTTUS Pan de Molde con Salvado de Trigo Sin Corteza Tottus 540 g",
-    "categoria": "pan-molde",
-    "super": "tottus",
-    "precios": {
-      "online": 13.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 24.44,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 540,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-23T13:56:21.048Z"
+    "timestamp": "2026-03-24T14:52:51.101Z"
   }
 ]
