@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_alitasdepolloahumaen_mn6n0t5u",
+    "id": "plazavea_alitasdepolloahumaen_mn71ocwo",
     "nombre": "Alitas de Pollo AHUMA en Salsa BBQ Bolsa 500g",
     "categoria": "pollo",
     "super": "plazavea",
@@ -19,28 +19,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.160Z"
   },
   {
-    "id": "plazavea_filetedepechugadepol_mn6n0t5u",
-    "nombre": "Filete de Pechuga de Pollo x kg",
+    "id": "plazavea_filetedepechugadepol_mn71ocwo",
+    "nombre": "Filete de Pechuga de Pollo SADIA Bolsa 1kg",
     "categoria": "pollo",
     "super": "plazavea",
     "precios": {
-      "online": 19.9,
-      "regular": 21.9,
+      "online": 12.6,
+      "regular": 14.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 19.9,
+      "porUnidad": 12.6,
       "porUnidadTarjeta": null
     },
-    "presentacion": null,
-    "descuento": 9,
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.160Z"
   },
   {
-    "id": "plazavea_pollorostizadopapasf_mn6n0t5u",
+    "id": "plazavea_pollorostizadopapasf_mn71ocwo",
     "nombre": "Pollo Rostizado + Papas Fritas",
     "categoria": "pollo",
     "super": "plazavea",
@@ -55,10 +59,10 @@
     "presentacion": null,
     "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.160Z"
   },
   {
-    "id": "plazavea_pollorostizado1un_mn6n0t5u",
+    "id": "plazavea_pollorostizado1un_mn71ocwo",
     "nombre": "Pollo Rostizado 1un",
     "categoria": "pollo",
     "super": "plazavea",
@@ -77,10 +81,10 @@
     },
     "descuento": 17,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.160Z"
   },
   {
-    "id": "plazavea_combopollorostizadop_mn6n0t5u",
+    "id": "plazavea_combopollorostizadop_mn71ocwo",
     "nombre": "Combo Pollo Rostizado + Papas Fritas + Chicha NATURALE 1L",
     "categoria": "pollo",
     "super": "plazavea",
@@ -99,10 +103,28 @@
     },
     "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.160Z"
   },
   {
-    "id": "plazavea_muslosdepolloxkg_mn6n0t5u",
+    "id": "plazavea_filetedepechugadepol_mn71ocwp",
+    "nombre": "Filete de Pechuga de Pollo x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 19.9,
+      "regular": 21.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 19.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T05:41:23.161Z"
+  },
+  {
+    "id": "plazavea_muslosdepolloxkg_mn71ocwp",
     "nombre": "Muslos de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -117,10 +139,10 @@
     "presentacion": null,
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.161Z"
   },
   {
-    "id": "plazavea_pechugaespecialdepol_mn6n0t5u",
+    "id": "plazavea_pechugaespecialdepol_mn71ocwp",
     "nombre": "Pechuga Especial de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -135,10 +157,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.161Z"
   },
   {
-    "id": "plazavea_muslosdepollosadiabo_mn6n0t5u",
+    "id": "plazavea_muslosdepollosadiabo_mn71ocwp",
     "nombre": "Muslos de Pollo SADIA Bolsa 1kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -157,10 +179,10 @@
     },
     "descuento": 16,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.161Z"
   },
   {
-    "id": "plazavea_dedosdepolloavinka27_mn6n0t5u",
+    "id": "plazavea_dedosdepolloavinka27_mn71ocwp",
     "nombre": "Dedos de Pollo AVINKA 270g Bolsa 12un x 270g",
     "categoria": "pollo",
     "super": "plazavea",
@@ -179,28 +201,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.161Z"
   },
   {
-    "id": "plazavea_piernaconencuentrode_mn6n0t5u",
-    "nombre": "Pierna con Encuentro de Pollo x kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 11.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
-  },
-  {
-    "id": "plazavea_sasamidepolloxkg_mn6n0t5u",
+    "id": "plazavea_sasamidepolloxkg_mn71ocwp",
     "nombre": "Sasami de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -215,10 +219,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.161Z"
   },
   {
-    "id": "plazavea_pechugaenteradepollo_mn6n0t5u",
+    "id": "plazavea_pechugaenteradepollo_mn71ocwp",
     "nombre": "Pechuga Entera de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -233,10 +237,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.161Z"
   },
   {
-    "id": "plazavea_piernadepollosanfern_mn6n0t5u",
+    "id": "plazavea_piernadepollosanfern_mn71ocwp",
     "nombre": "Pierna de Pollo SAN FERNANDO x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -251,6 +255,6 @@
     "presentacion": null,
     "descuento": 4,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-25T22:51:09.858Z"
+    "timestamp": "2026-03-26T05:41:23.161Z"
   }
 ]
