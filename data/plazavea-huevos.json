@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_packhuevospardosbell_mn71ohwr",
+    "id": "plazavea_packhuevospardosbell_mn7o5t03",
     "nombre": "Pack Huevos Pardos BELL'S Bandeja 30un x 2un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": 27,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.723Z"
   },
   {
-    "id": "plazavea_huevospardosbellsban_mn71ohwr",
+    "id": "plazavea_huevospardosbellsban_mn7o5t03",
     "nombre": "Huevos Pardos BELL'S Bandeja 30un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -41,10 +41,10 @@
     },
     "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.723Z"
   },
   {
-    "id": "plazavea_huevospardoslacalera_mn71ohwr",
+    "id": "plazavea_huevospardoslacalera_mn7o5t03",
     "nombre": "Huevos Pardos LA CALERA Bandeja 15un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -63,41 +63,41 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.723Z"
   },
   {
-    "id": "plazavea_huevosdegallinalacal_mn71ohwr",
-    "nombre": "Huevos de Gallina LA CALERA Pardos Jumbo Bandeja 15un",
+    "id": "plazavea_huevosdegallinalacal_mn7o5t03",
+    "nombre": "Huevos de Gallina LA CALERA de Corral Paquete 12un",
     "categoria": "huevos",
     "super": "plazavea",
     "precios": {
-      "online": 11.9,
-      "regular": 12.9,
+      "online": 13.9,
+      "regular": 14.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 0.79,
+      "porUnidad": 1.16,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 15,
+      "valor": 12,
       "unidad": "u",
       "pack": 1
     },
-    "descuento": 8,
+    "descuento": 4,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.723Z"
   },
   {
-    "id": "plazavea_huevosdegallinabells_mn71ohwr",
+    "id": "plazavea_huevosdegallinabells_mn7o5t04",
     "nombre": "Huevos de Gallina BELL'S Pardos Bandeja 15un",
     "categoria": "huevos",
     "super": "plazavea",
     "precios": {
-      "online": 10.2,
-      "regular": null,
+      "online": 9.9,
+      "regular": 10.2,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 0.68,
+      "porUnidad": 0.66,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -105,12 +105,12 @@
       "unidad": "u",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 3,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   },
   {
-    "id": "plazavea_huevospardosartisanb_mn71ohwr",
+    "id": "plazavea_huevospardosartisanb_mn7o5t04",
     "nombre": "Huevos Pardos ARTISAN Bandeja 15un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   },
   {
-    "id": "plazavea_huevospardosgallinas_mn71ohwr",
+    "id": "plazavea_huevospardosgallinas_mn7o5t04",
     "nombre": "Huevos Pardos GALLINAS LIBRES Bandeja 12un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -151,10 +151,10 @@
     },
     "descuento": 4,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   },
   {
-    "id": "plazavea_huevosdecodornizlaca_mn71ohwr",
+    "id": "plazavea_huevosdecodornizlaca_mn7o5t04",
     "nombre": "Huevos de Codorniz LA CALERA Bandeja 18un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -173,10 +173,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   },
   {
-    "id": "plazavea_huevosdecodornizbell_mn71ohwr",
+    "id": "plazavea_huevosdegallinalacal_mn7o5t04",
+    "nombre": "Huevos de Gallina LA CALERA Pardos Jumbo Bandeja 15un",
+    "categoria": "huevos",
+    "super": "plazavea",
+    "precios": {
+      "online": 11.9,
+      "regular": 12.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.79,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 8,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:10:48.724Z"
+  },
+  {
+    "id": "plazavea_huevosdecodornizbell_mn7o5t04",
     "nombre": "Huevos de Codorniz BELL'S Bandeja 18un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -195,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   },
   {
-    "id": "plazavea_huevospardosbellsreg_mn71ohwr",
+    "id": "plazavea_huevospardosbellsreg_mn7o5t04",
     "nombre": "Huevos Pardos BELL'S Regulares Paquete 8un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -217,10 +239,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   },
   {
-    "id": "plazavea_huevoslacalerasperju_mn71ohwr",
+    "id": "plazavea_huevosblancoslacaler_mn7o5t04",
+    "nombre": "Huevos Blancos LA CALERA Paquete 15un",
+    "categoria": "huevos",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.9,
+      "regular": 11.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.66,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:10:48.724Z"
+  },
+  {
+    "id": "plazavea_huevoslacalerasperju_mn7o5t04",
     "nombre": "Huevos LA CALERA Súper Jumbo Paquete 10un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -239,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   },
   {
-    "id": "plazavea_huevosparaelandelaca_mn71ohwr",
+    "id": "plazavea_huevosparaelandelaca_mn7o5t04",
     "nombre": "Huevos para el Ande LA CALERA Paquete 15un",
     "categoria": "huevos",
     "super": "plazavea",
@@ -261,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   },
   {
-    "id": "plazavea_clarasdehuevoenkelfo_mn71ohwr",
+    "id": "plazavea_clarasdehuevoenkelfo_mn7o5t04",
     "nombre": "Claras de Huevo ENKEL FOODS Tetrapack 500g",
     "categoria": "huevos",
     "super": "plazavea",
@@ -283,42 +327,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
-  },
-  {
-    "id": "plazavea_huevospackx3jurassic_mn71ohwr",
-    "nombre": "Huevos Pack X3 JURASSIC WORLD T01534 (Modelos Aleatorios)",
-    "categoria": "huevos",
-    "super": "plazavea",
-    "precios": {
-      "online": 69.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 69.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
-  },
-  {
-    "id": "plazavea_organizadordehuevosv_mn71ohwr",
-    "nombre": "Organizador de Huevos VIVA HOME",
-    "categoria": "huevos",
-    "super": "plazavea",
-    "precios": {
-      "online": 24.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 24.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:41:29.643Z"
+    "timestamp": "2026-03-26T16:10:48.724Z"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "id": "tottus_lapastafideoschinose_mn71m23i",
+    "id": "tottus_lapastafideoschinose_mn7o3c0b",
     "nombre": "LA PASTA Fideos Chinos Especiales La Pasta",
     "categoria": "fideos",
     "super": "tottus",
@@ -15,10 +15,10 @@
     "presentacion": null,
     "descuento": 23,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_lapastamasadewantnla_mn71m23i",
+    "id": "tottus_lapastamasadewantnla_mn7o3c0b",
     "nombre": "LA PASTA Masa De Wantán La Pasta",
     "categoria": "fideos",
     "super": "tottus",
@@ -33,28 +33,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_tottusverdurastallar_mn71m23i",
-    "nombre": "TOTTUS VERDURAS Tallarin Chino Tottus",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 9.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 9.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_guskelfideoschinossa_mn71m23i",
+    "id": "tottus_guskelfideoschinossa_mn7o3c0b",
     "nombre": "GUSKEL Fideos Chinos San Sen Guskel",
     "categoria": "fideos",
     "super": "tottus",
@@ -69,10 +51,28 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_guskelmasadewantangu_mn71m23i",
+    "id": "tottus_tottusverdurastallar_mn7o3c0b",
+    "nombre": "TOTTUS VERDURAS Tallarin Chino Tottus",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 9.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_guskelmasadewantangu_mn7o3c0b",
     "nombre": "GUSKEL Masa De Wantan Guskel",
     "categoria": "fideos",
     "super": "tottus",
@@ -87,28 +87,10 @@
     "presentacion": null,
     "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_tottusverdurasfrejol_mn71m23i",
-    "nombre": "TOTTUS VERDURAS Frejolito Desvainado Tottus",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 7.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_tottusverdurasarveja_mn71m23i",
+    "id": "tottus_tottusverdurasarveja_mn7o3c0b",
     "nombre": "TOTTUS VERDURAS Arveja Criolla Tottus",
     "categoria": "fideos",
     "super": "tottus",
@@ -123,230 +105,82 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_molitaliafideopastin_mn71m23i",
-    "nombre": "MOLITALIA Fideo Pastina Molitalia 250 g",
+    "id": "tottus_tottusverdurasfrejol_mn7o3c0b",
+    "nombre": "TOTTUS VERDURAS Frejolito Desvainado Tottus",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
-      "online": 2.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 9.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_molitaliafideoscodom_mn71m23i",
-    "nombre": "MOLITALIA Fideos Codo Mediano Rayado Molitalia Bolsa 235 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.09,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 235,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_preciounofideospague_mn71m23i",
-    "nombre": "PRECIO UNO Fideo Spaguetti Precio Uno 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 2.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_granodeorofideocorta_mn71m23i",
-    "nombre": "GRANO DE ORO Fideo Cortado Tornillo Grano de Oro Empaque 250 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_agnesifideospaguetti_mn71m23i",
-    "nombre": "AGNESI Fideo Spaguetti N°2 Agnesi Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 11.51,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 23.02,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_granodeorofideoplumi_mn71m23i",
-    "nombre": "GRANO DE ORO Fideo Plumilla Grano de Oro Bolsa 250 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_preciounofideotornil_mn71m23i",
-    "nombre": "PRECIO UNO Fideo Tornillo Precio Uno Bolsa 250 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_sanjorgefideocanutor_mn71m23i",
-    "nombre": "SAN JORGE Fideo Canuto Rayado San Jorge 250 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.8,
+      "online": 7.2,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
       "porUnidad": 7.2,
       "porUnidadTarjeta": null
     },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
+    "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_granodeorofideocarac_mn71m23i",
-    "nombre": "GRANO DE ORO Fideo Caracol Grano de Oro Bolsa 250 g",
+    "id": "tottus_tottusverduraspapaam_mn7o3c0b",
+    "nombre": "TOTTUS VERDURAS Papa Amarilla Tottus",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
-      "online": 1.5,
+      "online": 7.19,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 6,
+      "porUnidad": 7.19,
       "porUnidadTarjeta": null
     },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
+    "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_molitaliafideosmacar_mn71m23i",
-    "nombre": "MOLITALIA Fideos Macarrón Molitalia Bolsa 500 g",
+    "id": "tottus_tottusverduraszucchi_mn7o3c0b",
+    "nombre": "TOTTUS VERDURAS Zucchini Baby Tottus",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
-      "online": 3.9,
-      "regular": 4,
+      "online": 12.6,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 7.8,
+      "porUnidad": 12.6,
       "porUnidadTarjeta": null
     },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 3,
+    "presentacion": null,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_marcopolofideomarcop_mn71m23i",
+    "id": "tottus_tottusverduraschoclo_mn7o3c0b",
+    "nombre": "TOTTUS VERDURAS Choclo Baby Tottus",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 11,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_marcopolofideomarcop_mn7o3c0b",
     "nombre": "MARCO POLO Fideo Marco Polo Tornillo Bolsa 235 g",
     "categoria": "fideos",
     "super": "tottus",
@@ -365,19 +199,41 @@
     },
     "descuento": 27,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_molitaliafideorigato_mn71m23i",
-    "nombre": "MOLITALIA Fideo Rigatoni Molitalia Bolsa 235 g",
+    "id": "tottus_molitaliafideopastin_mn7o3c0b",
+    "nombre": "MOLITALIA Fideo Pastina Molitalia 250 g",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
-      "online": 1.6,
-      "regular": 2.3,
+      "online": 2.3,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 6.81,
+      "porUnidad": 9.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_molitaliafideoscodom_mn7o3c0b",
+    "nombre": "MOLITALIA Fideos Codo Mediano Rayado Molitalia Bolsa 235 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.09,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -385,13 +241,13 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 30,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_granodeorofideocanut_mn71m23i",
-    "nombre": "GRANO DE ORO Fideo Canuto Grano de Oro Bolsa 250 g",
+    "id": "tottus_granodeorofideocarac_mn7o3c0b",
+    "nombre": "GRANO DE ORO Fideo Caracol Grano de Oro Bolsa 250 g",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
@@ -409,98 +265,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_sanjorgefideomacarrn_mn71m23i",
-    "nombre": "SAN JORGE Fideo Macarrón San Jorge 250 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_molitaliafideomacarr_mn71m23i",
-    "nombre": "MOLITALIA Fideo Macarrón Molitalia Bolsa 235 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.7,
-      "regular": 2.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.23,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 235,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 26,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_sanjorgefideospaguet_mn71m23i",
-    "nombre": "SAN JORGE Fideo Spaguetti San Jorge 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 3.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_molitaliafideocanuto_mn71m23i",
-    "nombre": "MOLITALIA Fideo Canuto Molitalia Bolsa 235 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.7,
-      "regular": 2.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.23,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 235,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 26,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.838Z"
-  },
-  {
-    "id": "tottus_agnesifideospaguetti_mn71m23j",
+    "id": "tottus_agnesifideospaguetti_mn7o3c0b",
     "nombre": "AGNESI Fideo Spaguetti N°3 Agnesi Bolsa 500 g",
     "categoria": "fideos",
     "super": "tottus",
@@ -519,76 +287,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_molitaliafideomolita_mn71m23j",
-    "nombre": "MOLITALIA Fideo Molitalia Tornillo Pasta Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 3.9,
-      "regular": 4,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 3,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_granodeorofideocodit_mn71m23j",
-    "nombre": "GRANO DE ORO Fideo Codito Rayado Grano de Oro Bolsa 250 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_agnesifideopennetter_mn71m23j",
-    "nombre": "AGNESI Fideo Pennette Rigate Agnesi Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 12.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_granodeorofideospagh_mn71m23j",
+    "id": "tottus_granodeorofideospagh_mn7o3c0b",
     "nombre": "GRANO DE ORO Fideo Spaghetti Grano de Oro Bolsa 500 g",
     "categoria": "fideos",
     "super": "tottus",
@@ -607,187 +309,11 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_barillafideolasagneb_mn71m23j",
-    "nombre": "BARILLA Fideo Lasagne Bolognesi Barilla Caja 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 19.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 39.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_preciounofideocanuto_mn71m23j",
-    "nombre": "PRECIO UNO Fideo Canuto Rayado Precio Uno Bolsa 250 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_donvittoriofideocara_mn71m23j",
-    "nombre": "DON VITTORIO Fideo Caracol Chico Don Vittorio 250 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.29,
-      "regular": 2.45,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.16,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 47,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_marcopolofideomarcop_mn71m23j",
-    "nombre": "MARCO POLO Fideo Marco Polo Codo Mediano Rayado Bolsa 235 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 1.1,
-      "regular": 1.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.68,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 235,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 27,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_gnfideospaguettilarg_mn71m23j",
-    "nombre": "GN Fideo Spaguetti Largo GN Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 3.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_agnesifideopennettei_mn71m23j",
-    "nombre": "AGNESI Fideo Pennette Integral Agnesi 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 14.91,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 29.82,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_agnesifideofetuccini_mn71m23j",
-    "nombre": "AGNESI Fideo Fetuccini Flat Agnesi 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 12.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_agnesifideolinguinin_mn71m23j",
-    "nombre": "AGNESI Fideo Linguini N°10 Agnesi Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 13.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 27,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_granodeorofideorigat_mn71m23j",
-    "nombre": "GRANO DE ORO Fideo Rigatoni Grano de Oro Empaque 250 g",
+    "id": "tottus_granodeorofideoplumi_mn7o3c0b",
+    "nombre": "GRANO DE ORO Fideo Plumilla Grano de Oro Bolsa 250 g",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
@@ -805,19 +331,41 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_montanarafideospaghe_mn71m23j",
-    "nombre": "MONTANARA Fideo Spaghetti al Huevo Montanara Bolsa 500 g",
+    "id": "tottus_preciounofideotornil_mn7o3c0b",
+    "nombre": "PRECIO UNO Fideo Tornillo Precio Uno Bolsa 250 g",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
-      "online": 7.8,
+      "online": 1.3,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 15.6,
+      "porUnidad": 5.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_preciounofideospague_mn7o3c0b",
+    "nombre": "PRECIO UNO Fideo Spaguetti Precio Uno 500 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 2.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.4,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -827,19 +375,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_granorofideopennerig_mn71m23j",
-    "nombre": "GRANORO Fideo Penne Rigate Granoro 500 g",
+    "id": "tottus_molitaliafideosmacar_mn7o3c0b",
+    "nombre": "MOLITALIA Fideos Macarrón Molitalia Bolsa 500 g",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
-      "online": 4.29,
-      "regular": 8.45,
+      "online": 3.9,
+      "regular": 4,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 8.58,
+      "porUnidad": 7.8,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -847,12 +395,56 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 49,
+    "descuento": 3,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_granorofideoristoran_mn71m23j",
+    "id": "tottus_granodeorofideocanut_mn7o3c0b",
+    "nombre": "GRANO DE ORO Fideo Canuto Grano de Oro Bolsa 250 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_sanjorgefideocanutor_mn7o3c0b",
+    "nombre": "SAN JORGE Fideo Canuto Rayado San Jorge 250 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_granorofideoristoran_mn7o3c0b",
     "nombre": "GRANORO Fideo Ristoranti Granoro 500 g",
     "categoria": "fideos",
     "super": "tottus",
@@ -871,10 +463,318 @@
     },
     "descuento": 50,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_nicolinifideospaghet_mn71m23j",
+    "id": "tottus_molitaliafideorigato_mn7o3c0b",
+    "nombre": "MOLITALIA Fideo Rigatoni Molitalia Bolsa 235 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.6,
+      "regular": 2.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.81,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 235,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 30,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_preciounofideocanuto_mn7o3c0b",
+    "nombre": "PRECIO UNO Fideo Canuto Rayado Precio Uno Bolsa 250 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.3,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_granodeorofideocorta_mn7o3c0b",
+    "nombre": "GRANO DE ORO Fideo Cortado Tornillo Grano de Oro Empaque 250 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_molitaliafideomacarr_mn7o3c0b",
+    "nombre": "MOLITALIA Fideo Macarrón Molitalia Bolsa 235 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.7,
+      "regular": 2.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.23,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 235,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 26,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_sanjorgefideospaguet_mn7o3c0b",
+    "nombre": "SAN JORGE Fideo Spaguetti San Jorge 500 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 3.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_sanjorgefideomacarrn_mn7o3c0b",
+    "nombre": "SAN JORGE Fideo Macarrón San Jorge 250 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_agnesifideopennetter_mn7o3c0b",
+    "nombre": "AGNESI Fideo Pennette Rigate Agnesi Bolsa 500 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 12.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_granodeorofideocodit_mn7o3c0b",
+    "nombre": "GRANO DE ORO Fideo Codito Rayado Grano de Oro Bolsa 250 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_molitaliafideocanuto_mn7o3c0b",
+    "nombre": "MOLITALIA Fideo Canuto Molitalia Bolsa 235 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.7,
+      "regular": 2.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.23,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 235,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 26,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_molitaliafideomolita_mn7o3c0b",
+    "nombre": "MOLITALIA Fideo Molitalia Tornillo Pasta Bolsa 500 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 3.9,
+      "regular": 4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 3,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_granodeorofideorigat_mn7o3c0b",
+    "nombre": "GRANO DE ORO Fideo Rigatoni Grano de Oro Empaque 250 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_granodeorofideotorni_mn7o3c0b",
+    "nombre": "GRANO DE ORO Fideo Tornillo Grano de Oro Multicereal Bolsa 225 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 225,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_barillafideobarillap_mn7o3c0b",
+    "nombre": "BARILLA Fideo Barilla Pennette Rigatte Integral Caja 500 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 15.9,
+      "regular": 16.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 31.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_molitaliafideotornil_mn7o3c0b",
+    "nombre": "MOLITALIA Fideo Tornillo Molitalia Bolsa 235 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.09,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 235,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_nicolinifideospaghet_mn7o3c0b",
     "nombre": "NICOLINI Fideo Spaghetti Nicolini Bolsa 1 Kg",
     "categoria": "fideos",
     "super": "tottus",
@@ -893,19 +793,63 @@
     },
     "descuento": 17,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_tottusfideostottusco_mn71m23j",
-    "nombre": "TOTTUS Fideos Tottus Corbata Bolsa 250 g",
+    "id": "tottus_tottusfideospaguetti_mn7o3c0b",
+    "nombre": "TOTTUS Fideo Spaguetti Tottus 500 g",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
-      "online": 1.7,
+      "online": 2.5,
+      "regular": 4.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 44,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_agnesifideoagnesispa_mn7o3c0b",
+    "nombre": "AGNESI Fideo Agnesi Spaguetti Integral Bolsa 500 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 14.91,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 6.8,
+      "porUnidad": 29.82,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_donvittoriofideocara_mn7o3c0b",
+    "nombre": "DON VITTORIO Fideo Caracol Chico Don Vittorio 250 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 1.29,
+      "regular": 2.45,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.16,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -913,21 +857,43 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 47,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   },
   {
-    "id": "tottus_agnesifideoelichetri_mn71m23j",
-    "nombre": "AGNESI Fideo Eliche Tricolor Agnesi Bolsa 500 g",
+    "id": "tottus_agefideofetucciniint_mn7o3c0b",
+    "nombre": "AGE Fideo Fetuccini Integral Age Empaque 500 g",
     "categoria": "fideos",
     "super": "tottus",
     "precios": {
-      "online": 14.9,
+      "online": 14.4,
+      "regular": 14.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 28.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 1,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:08:53.387Z"
+  },
+  {
+    "id": "tottus_barillafideospaguett_mn7o3c0b",
+    "nombre": "BARILLA Fideo Spaguettini n3 Barilla Empaque 500 g",
+    "categoria": "fideos",
+    "super": "tottus",
+    "precios": {
+      "online": 13.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 29.8,
+      "porUnidad": 27,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -937,28 +903,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
-  },
-  {
-    "id": "tottus_agnesifideoelichen56_mn71m23j",
-    "nombre": "AGNESI Fideo Eliche N°56 Agnesi Bolsa 500 g",
-    "categoria": "fideos",
-    "super": "tottus",
-    "precios": {
-      "online": 13.91,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 27.82,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:39:35.839Z"
+    "timestamp": "2026-03-26T16:08:53.387Z"
   }
 ]

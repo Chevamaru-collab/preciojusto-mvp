@@ -1,6 +1,28 @@
 [
   {
-    "id": "metro_aceitevegetalcuisine_mn71pva8",
+    "id": "metro_aceitevegetalmetro90_mn7o78ek",
+    "nombre": "Aceite Vegetal Metro 900ml",
+    "categoria": "aceite",
+    "super": "metro",
+    "precios": {
+      "online": 5.4,
+      "regular": 6.1,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 11,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:11:55.340Z"
+  },
+  {
+    "id": "metro_aceitevegetalcuisine_mn7o78ek",
     "nombre": "Aceite Vegetal Cuisine & Co 900ml",
     "categoria": "aceite",
     "super": "metro",
@@ -19,32 +41,10 @@
     },
     "descuento": 36,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.632Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_aceitevegetalmetro90_mn71pva8",
-    "nombre": "Aceite Vegetal Metro 900ml",
-    "categoria": "aceite",
-    "super": "metro",
-    "precios": {
-      "online": 5.6,
-      "regular": 6.1,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.22,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 8,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.632Z"
-  },
-  {
-    "id": "metro_aceitevegetalmxima90_mn71pva9",
+    "id": "metro_aceitevegetalmxima90_mn7o78ek",
     "nombre": "Aceite Vegetal Máxima 900ml",
     "categoria": "aceite",
     "super": "metro",
@@ -63,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.632Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_aceitedesoyasaobotel_mn71pva9",
+    "id": "metro_aceitedesoyasaobotel_mn7o78ek",
     "nombre": "Aceite de Soya Sao Botella 900ml",
     "categoria": "aceite",
     "super": "metro",
@@ -85,19 +85,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.633Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_aceitevegetaldeleite_mn71pva9",
+    "id": "metro_aceitevegetaldeleite_mn7o78ek",
     "nombre": "Aceite Vegetal Deleite Premium 900ml",
     "categoria": "aceite",
     "super": "metro",
     "precios": {
-      "online": 7.35,
-      "regular": null,
+      "online": 6.9,
+      "regular": 7.35,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 8.17,
+      "porUnidad": 7.67,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -105,12 +105,34 @@
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.633Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_aceitedesoyacosteo90_mn71pva9",
+    "id": "metro_aceitevegetalcociner_mn7o78ek",
+    "nombre": "Aceite Vegetal Cocinero 900ml",
+    "categoria": "aceite",
+    "super": "metro",
+    "precios": {
+      "online": 7.6,
+      "regular": 9.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 17,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:11:55.340Z"
+  },
+  {
+    "id": "metro_aceitedesoyacosteo90_mn7o78ek",
     "nombre": "Aceite de Soya Costeño 900ml",
     "categoria": "aceite",
     "super": "metro",
@@ -129,32 +151,10 @@
     },
     "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.633Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_aceitevegetalprimorc_mn71pva9",
-    "nombre": "Aceite Vegetal Primor Clásico Botella 1.8L",
-    "categoria": "aceite",
-    "super": "metro",
-    "precios": {
-      "online": 15.5,
-      "regular": 19,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.61,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1.8,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 18,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.633Z"
-  },
-  {
-    "id": "metro_aceitevegetalprimorp_mn71pva9",
+    "id": "metro_aceitevegetalprimorp_mn7o78ek",
     "nombre": "Aceite Vegetal Primor Premium Botella 900ml",
     "categoria": "aceite",
     "super": "metro",
@@ -173,32 +173,32 @@
     },
     "descuento": 19,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.633Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_aceitevegetalcociner_mn71pva9",
-    "nombre": "Aceite Vegetal Cocinero 900ml",
+    "id": "metro_aceitevegetalprimorc_mn7o78ek",
+    "nombre": "Aceite Vegetal Primor Clásico Botella 1.8L",
     "categoria": "aceite",
     "super": "metro",
     "precios": {
-      "online": 9.2,
-      "regular": null,
+      "online": 14.9,
+      "regular": 18.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 10.22,
+      "porUnidad": 8.28,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
+      "valor": 1.8,
+      "unidad": "lt",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 19,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.633Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_twopackaceitevegetal_mn71pva9",
+    "id": "metro_twopackaceitevegetal_mn7o78ek",
     "nombre": "Twopack Aceite Vegetal Primor Clásico 900ml",
     "categoria": "aceite",
     "super": "metro",
@@ -217,10 +217,10 @@
     },
     "descuento": 18,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.633Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_sardinasenaceitevege_mn71pvaa",
+    "id": "metro_sardinasenaceitevege_mn7o78ek",
     "nombre": "Sardinas en Aceite Vegetal Vigilante 120g",
     "categoria": "aceite",
     "super": "metro",
@@ -239,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.633Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   },
   {
-    "id": "metro_sardinasallimnenacei_mn71pvaa",
+    "id": "metro_sardinasallimnenacei_mn7o78ek",
     "nombre": "Sardinas al Limón en Aceite Vegetal Vigilante 120g",
     "categoria": "aceite",
     "super": "metro",
@@ -261,6 +261,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:42:33.634Z"
+    "timestamp": "2026-03-26T16:11:55.340Z"
   }
 ]

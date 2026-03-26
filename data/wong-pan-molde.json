@@ -1,6 +1,6 @@
 [
   {
-    "id": "wong_pandemoldedonmaminob_mn71v8ng",
+    "id": "wong_pandemoldedonmaminob_mn7od3ao",
     "nombre": "Pan de Molde Don Mamino Blanco Sin Corteza Bolsa 560 g",
     "categoria": "pan-molde",
     "super": "wong",
@@ -19,10 +19,10 @@
     },
     "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
   },
   {
-    "id": "wong_pandemoldeintegraldo_mn71v8ng",
+    "id": "wong_pandemoldeintegraldo_mn7od3ao",
     "nombre": "Pan de Molde Integral Don Mamino Bolsa 560 g",
     "categoria": "pan-molde",
     "super": "wong",
@@ -41,230 +41,10 @@
     },
     "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
   },
   {
-    "id": "wong_pandemoldedesemillas_mn71v8ng",
-    "nombre": "Pan de Molde de Semillas Bimbo Vital Bolsa 600 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 12.5,
-      "regular": 12.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.83,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldetipoartesa_mn71v8ng",
-    "nombre": "Pan de Molde Tipo Artesanal Bimbo Artesano Integral 560g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 12.5,
-      "regular": 12.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 22.32,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 560,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldemulticerea_mn71v8ng",
-    "nombre": "Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 12.5,
-      "regular": 12.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.83,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldedonmaminom_mn71v8ng",
-    "nombre": "Pan de Molde Don Mamino Marmoleado Bolsa 560 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 11.5,
-      "regular": 13.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.54,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 560,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldeintegralbi_mn71v8ng",
-    "nombre": "Pan de Molde Integral Bimbo XL 810g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 9.8,
-      "regular": 12.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.1,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 810,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 22,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldeblancobimb_mn71v8ng",
-    "nombre": "Pan de Molde Blanco Bimbo Sin Corteza 590g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 10.9,
-      "regular": 14.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 18.47,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 590,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 24,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldeuninmultis_mn71v8ng",
-    "nombre": "Pan de Molde Unión Multisemillas con Avena 540g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 13.6,
-      "regular": 13.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.19,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 540,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldeuningranos_mn71v8ng",
-    "nombre": "Pan de Molde Unión Granos Integrales Bolsa 540 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 13.6,
-      "regular": 13.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.19,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 540,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldeintegralun_mn71v8ng",
-    "nombre": "Pan de Molde Integral Unión Mediano Bolsa 360 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 9.7,
-      "regular": 9.7,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 26.94,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 360,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.236Z"
-  },
-  {
-    "id": "wong_pandemoldeintegralbi_mn71v8nh",
-    "nombre": "Pan de Molde Integral Bimbo 620g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 10.3,
-      "regular": 10.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.61,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 620,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
-  },
-  {
-    "id": "wong_pandemoldedesemillas_mn71v8nh",
+    "id": "wong_pandemoldedesemillas_mn7od3ao",
     "nombre": "Pan de Molde de Semillas Bimbo Vital Bolsa 360 g",
     "categoria": "pan-molde",
     "super": "wong",
@@ -283,11 +63,11 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
   },
   {
-    "id": "wong_pandemoldebimbovital_mn71v8nh",
-    "nombre": "Pan de Molde Bimbo Vital Mix de Quinuas 600g",
+    "id": "wong_pandemoldetipoartesa_mn7od3ao",
+    "nombre": "Pan de Molde Tipo Artesanal Bimbo Artesano Integral 560g",
     "categoria": "pan-molde",
     "super": "wong",
     "precios": {
@@ -295,73 +75,7 @@
       "regular": 12.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 20.83,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
-  },
-  {
-    "id": "wong_pandemoldeintegralsi_mn71v8nh",
-    "nombre": "Pan de Molde Integral Sin Gluten Molinos del Mundo Bolsa 480 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 21.9,
-      "regular": 21.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 45.63,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 480,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
-  },
-  {
-    "id": "wong_pandemoldeuninmultis_mn71v8nh",
-    "nombre": "Pan de Molde Unión Multisemilla & Chips Miel bolsa 540 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 13.6,
-      "regular": 13.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.19,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 540,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
-  },
-  {
-    "id": "wong_pandemoldedonmaminop_mn71v8nh",
-    "nombre": "Pan de Molde Don Mamino Pullman Corte Horizontal Bolsa 560 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 11.5,
-      "regular": 13.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.54,
+      "porUnidad": 22.32,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -369,34 +83,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
-  },
-  {
-    "id": "wong_pandemoldeintegralcl_mn71v8nh",
-    "nombre": "Pan de Molde Integral Clásico Unión Grande Bolsa 495 g",
-    "categoria": "pan-molde",
-    "super": "wong",
-    "precios": {
-      "online": 14.6,
-      "regular": 14.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 29.49,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 495,
-      "unidad": "g",
-      "pack": 1
-    },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
   },
   {
-    "id": "wong_pandemoldemulticerea_mn71v8nh",
+    "id": "wong_pandemoldemulticerea_mn7od3ao",
     "nombre": "Pan de Molde Multicereal Vital Bimbo Bolsa 360 g",
     "categoria": "pan-molde",
     "super": "wong",
@@ -415,10 +107,230 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
   },
   {
-    "id": "wong_pandemoldeblancosing_mn71v8nh",
+    "id": "wong_pandemoldedonmaminom_mn7od3ao",
+    "nombre": "Pan de Molde Don Mamino Marmoleado Bolsa 560 g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 11.5,
+      "regular": 13.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.54,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 560,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeintegralbi_mn7od3ao",
+    "nombre": "Pan de Molde Integral Bimbo 620g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 10.3,
+      "regular": 10.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.61,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 620,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeblancobimb_mn7od3ao",
+    "nombre": "Pan de Molde Blanco Bimbo Sin Corteza 590g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 10.9,
+      "regular": 14.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 18.47,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 590,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 24,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeuninmultis_mn7od3ao",
+    "nombre": "Pan de Molde Unión Multisemilla & Chips Miel bolsa 540 g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 13.6,
+      "regular": 13.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.19,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 540,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeuningranos_mn7od3ao",
+    "nombre": "Pan de Molde Unión Granos Integrales Bolsa 540 g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 13.6,
+      "regular": 13.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.19,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 540,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeintegralun_mn7od3ao",
+    "nombre": "Pan de Molde Integral Unión Mediano Bolsa 360 g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 9.7,
+      "regular": 9.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 26.94,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 360,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldebimbovital_mn7od3ao",
+    "nombre": "Pan de Molde Bimbo Vital Mix de Quinuas 600g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 12.5,
+      "regular": 12.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.83,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeintegralsi_mn7od3ao",
+    "nombre": "Pan de Molde Integral Sin Gluten Molinos del Mundo Bolsa 480 g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 21.9,
+      "regular": 21.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 45.63,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 480,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldedonmaminop_mn7od3ao",
+    "nombre": "Pan de Molde Don Mamino Pullman Corte Horizontal Bolsa 560 g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 11.5,
+      "regular": 13.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.54,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 560,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeintegralcl_mn7od3ao",
+    "nombre": "Pan de Molde Integral Clásico Unión Grande Bolsa 495 g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 14.6,
+      "regular": 14.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 29.49,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 495,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeblancosing_mn7od3ao",
     "nombre": "Pan de Molde Blanco Sin Gluten Molinos del Mundo Bolsa 480 g",
     "categoria": "pan-molde",
     "super": "wong",
@@ -437,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
   },
   {
-    "id": "wong_pandemoldeblancodonm_mn71v8nh",
+    "id": "wong_pandemoldeblancodonm_mn7od3ao",
     "nombre": "Pan De Molde Blanco Don Mamino 250 g",
     "categoria": "pan-molde",
     "super": "wong",
@@ -459,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
   },
   {
-    "id": "wong_packx2pandemoldedese_mn71v8nh",
+    "id": "wong_packx2pandemoldedese_mn7od3ao",
     "nombre": "Pack x2 Pan de Molde de Semillas Bimbo Vital Bolsa 600 g",
     "categoria": "pan-molde",
     "super": "wong",
@@ -481,10 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
   },
   {
-    "id": "wong_pandemoldeblancocuis_mn71v8nh",
+    "id": "wong_pandemoldeblancocuis_mn7od3ao",
     "nombre": "Pan de Molde Blanco Cuisine & Co 500g",
     "categoria": "pan-molde",
     "super": "wong",
@@ -503,6 +415,94 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-26T05:46:44.237Z"
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeintegralba_mn7od3ao",
+    "nombre": "Pan de Molde Integral Bauducco 390g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 9.9,
+      "regular": 9.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_packx2pandemoldemult_mn7od3ao",
+    "nombre": "Pack x2 Pan de Molde Multicereal Bimbo Vital Bolsa 600 g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 29.6,
+      "regular": 29.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 49.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_pandemoldeblancobaud_mn7od3ao",
+    "nombre": "Pan de Molde Blanco Bauducco 390g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 9.9,
+      "regular": 9.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
+  },
+  {
+    "id": "wong_twopackpandemoldebim_mn7od3ao",
+    "nombre": "Twopack Pan de Molde Bimbo Artesano Original 560g",
+    "categoria": "pan-molde",
+    "super": "wong",
+    "precios": {
+      "online": 27.2,
+      "regular": 27.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 48.57,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 560,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-26T16:16:28.656Z"
   }
 ]
