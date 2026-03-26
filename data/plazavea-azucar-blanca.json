@@ -1,6 +1,28 @@
 [
   {
-    "id": "plazavea_azcarblancabellsbols_mn4qiao7",
+    "id": "plazavea_azcarblancabellsbols_mn6mzzo3",
+    "nombre": "Azúcar Blanca BELL'S Bolsa 1Kg",
+    "categoria": "azucar-blanca",
+    "super": "plazavea",
+    "precios": {
+      "online": 4.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-25T22:50:31.635Z"
+  },
+  {
+    "id": "plazavea_azcarblancabellsbols_mn6mzzo4",
     "nombre": "Azúcar Blanca BELL'S Bolsa 5Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -19,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:53:12.199Z"
+    "timestamp": "2026-03-25T22:50:31.636Z"
   },
   {
-    "id": "plazavea_azcarblancadulfinabo_mn4qiao7",
+    "id": "plazavea_azcarblancadulfinabo_mn6mzzo4",
     "nombre": "Azúcar Blanca DULFINA Bolsa 5Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -41,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:53:12.199Z"
+    "timestamp": "2026-03-25T22:50:31.636Z"
   },
   {
-    "id": "plazavea_basedemaquillajeazuc_mn4qiao7",
+    "id": "plazavea_basedemaquillajeazuc_mn6mzzo4",
     "nombre": "Base de Maquillaje Azucar Blanca 110-C Studio Look",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -59,10 +81,10 @@
     "presentacion": null,
     "descuento": 32,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:53:12.199Z"
+    "timestamp": "2026-03-25T22:50:31.636Z"
   },
   {
-    "id": "plazavea_azcarblancarefinadac_mn4qiao7",
+    "id": "plazavea_azcarblancarefinadac_mn6mzzo4",
     "nombre": "Azúcar Blanca Refinada CARTAVIO Saco 50Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -81,6 +103,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:53:12.199Z"
+    "timestamp": "2026-03-25T22:50:31.636Z"
   }
 ]

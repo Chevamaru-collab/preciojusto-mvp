@@ -1,6 +1,6 @@
 [
   {
-    "id": "wong_pollorostizadosinpap_mn4qovlp",
+    "id": "wong_pollorostizadosinpap_mn6n6hpa",
     "nombre": "Pollo Rostizado Sin Papas",
     "categoria": "pollo",
     "super": "wong",
@@ -15,19 +15,19 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.261Z"
+    "timestamp": "2026-03-25T22:55:34.942Z"
   },
   {
-    "id": "wong_pollorostizadopapasf_mn4qovlp",
+    "id": "wong_pollorostizadopapasf_mn6n6hpa",
     "nombre": "Pollo Rostizado + Papas Fritas + Gaseosa Inca Kola Sin Azúcar 1.5L",
     "categoria": "pollo",
     "super": "wong",
     "precios": {
-      "online": 33.9,
-      "regular": 33.9,
+      "online": 37.9,
+      "regular": 37.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 22.6,
+      "porUnidad": 25.27,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -37,10 +37,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.261Z"
+    "timestamp": "2026-03-25T22:55:34.942Z"
   },
   {
-    "id": "wong_pollodeshilachadobol_mn4qovlp",
+    "id": "wong_pollodeshilachadobol_mn6n6hpa",
     "nombre": "Pollo Deshilachado Bolsa 250 g",
     "categoria": "pollo",
     "super": "wong",
@@ -59,32 +59,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.261Z"
+    "timestamp": "2026-03-25T22:55:34.942Z"
   },
   {
-    "id": "wong_pollorostizado2unpap_mn4qovlp",
-    "nombre": "Pollo Rostizado 2un + Papas Fritas 2un + Ensalada + Chicha Morada 1L",
+    "id": "wong_pollorostizado2unpap_mn6n6hpa",
+    "nombre": "Pollo Rostizado 2un + Papas Fritas 2un + Ensalada + Gaseosa 1.5L",
     "categoria": "pollo",
     "super": "wong",
     "precios": {
-      "online": 84.9,
-      "regular": 84.9,
+      "online": 80.99,
+      "regular": 80.99,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 84.9,
+      "porUnidad": 53.99,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 1,
+      "valor": 1.5,
       "unidad": "lt",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.261Z"
+    "timestamp": "2026-03-25T22:55:34.942Z"
   },
   {
-    "id": "wong_polloenterolightxkg_mn4qovlp",
+    "id": "wong_polloenterolightxkg_mn6n6hpa",
     "nombre": "Pollo Entero Light x kg",
     "categoria": "pollo",
     "super": "wong",
@@ -99,10 +99,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.261Z"
+    "timestamp": "2026-03-25T22:55:34.942Z"
   },
   {
-    "id": "wong_polloenteromarinados_mn4qovlq",
+    "id": "wong_polloenteromarinados_mn6n6hpa",
     "nombre": "Pollo Entero Marinado Sazón Brasa San Fernando 1.4kg",
     "categoria": "pollo",
     "super": "wong",
@@ -121,10 +121,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.942Z"
   },
   {
-    "id": "wong_polloenrolladocordon_mn4qovlq",
+    "id": "wong_pollorostizado2unpap_mn6n6hpb",
+    "nombre": "Pollo Rostizado 2un + Papas Fritas 2un + Ensalada + Chicha Morada 1L",
+    "categoria": "pollo",
+    "super": "wong",
+    "precios": {
+      "online": 84.9,
+      "regular": 84.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 84.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-25T22:55:34.943Z"
+  },
+  {
+    "id": "wong_polloenrolladocordon_mn6n6hpb",
     "nombre": "Pollo Enrollado Cordon Bleu Redondos x un",
     "categoria": "pollo",
     "super": "wong",
@@ -139,19 +161,19 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_pollorostizadopapasf_mn4qovlq",
+    "id": "wong_pollorostizadopapasf_mn6n6hpb",
     "nombre": "Pollo Rostizado + Papas Fritas + Ensalada + Chicha Morada 1L",
     "categoria": "pollo",
     "super": "wong",
     "precios": {
-      "online": 50.5,
+      "online": 45.9,
       "regular": 50.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 50.5,
+      "porUnidad": 45.9,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -159,12 +181,12 @@
       "unidad": "lt",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_polloenrolladoconfru_mn4qovlq",
+    "id": "wong_polloenrolladoconfru_mn6n6hpb",
     "nombre": "Pollo Enrollado con Frutas Redondos x un",
     "categoria": "pollo",
     "super": "wong",
@@ -179,10 +201,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_pollosaborcilindroxu_mn4qovlq",
+    "id": "wong_pollosaborcilindroxu_mn6n6hpb",
     "nombre": "Pollo Sabor Cilindro x un",
     "categoria": "pollo",
     "super": "wong",
@@ -197,10 +219,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_polloenrolladoconcha_mn4qovlq",
+    "id": "wong_polloenrolladoconcha_mn6n6hpb",
     "nombre": "Pollo Enrollado con Champiñones Redondos x un",
     "categoria": "pollo",
     "super": "wong",
@@ -215,10 +237,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_polloenrolladoconver_mn4qovlq",
+    "id": "wong_polloenrolladoconver_mn6n6hpb",
     "nombre": "Pollo Enrollado con Verduras x kg",
     "categoria": "pollo",
     "super": "wong",
@@ -233,10 +255,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_polloenrolladoconjam_mn4qovlq",
+    "id": "wong_polloenrolladoconjam_mn6n6hpb",
     "nombre": "Pollo Enrollado con Jamon y Queso x kg",
     "categoria": "pollo",
     "super": "wong",
@@ -251,10 +273,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_polloalhornosanferna_mn4qovlq",
+    "id": "wong_polloalhornosanferna_mn6n6hpb",
     "nombre": "Pollo al Horno San Fernando Bolsa 800 g / Medio pollo en 4 Piezas",
     "categoria": "pollo",
     "super": "wong",
@@ -273,10 +295,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_pollopolladasanferna_mn4qovlq",
+    "id": "wong_pollopolladasanferna_mn6n6hpb",
     "nombre": "Pollo Pollada San Fernando Bolsa 800 g / 2 Cuartos de Pollo",
     "categoria": "pollo",
     "super": "wong",
@@ -295,10 +317,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_polloenrolladojamony_mn4qovlq",
+    "id": "wong_polloenrolladojamony_mn6n6hpb",
     "nombre": "Pollo Enrollado Jamon y Queso Sin Piel x kg",
     "categoria": "pollo",
     "super": "wong",
@@ -313,10 +335,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_pollosaborestofadore_mn4qovlq",
+    "id": "wong_pollosaborestofadore_mn6n6hpb",
     "nombre": "Pollo Sabor Estofado Redondos 780g",
     "categoria": "pollo",
     "super": "wong",
@@ -335,10 +357,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_pollosaborpachamanca_mn4qovlq",
+    "id": "wong_pollosaborpachamanca_mn6n6hpb",
     "nombre": "Pollo Sabor Pachamanca Redondos 780g",
     "categoria": "pollo",
     "super": "wong",
@@ -357,10 +379,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_pollosabororientalre_mn4qovlq",
+    "id": "wong_pollosabororientalre_mn6n6hpb",
     "nombre": "Pollo Sabor Oriental Redondos 780g",
     "categoria": "pollo",
     "super": "wong",
@@ -379,10 +401,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_pollosaborcriollored_mn4qovlq",
+    "id": "wong_pollosaborcriollored_mn6n6hpb",
     "nombre": "Pollo Sabor Criollo Redondos 780g",
     "categoria": "pollo",
     "super": "wong",
@@ -401,10 +423,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_pollorostizadoensala_mn4qovlq",
+    "id": "wong_pollorostizadoensala_mn6n6hpb",
     "nombre": "Pollo Rostizado + Ensalada + Chicha Morada 1L",
     "categoria": "pollo",
     "super": "wong",
@@ -423,10 +445,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   },
   {
-    "id": "wong_polloalhornoconpurya_mn4qovlq",
+    "id": "wong_polloalhornoconpurya_mn6n6hpb",
     "nombre": "Pollo al Horno con Puré y Arroz Cuisine & Co 400g",
     "categoria": "pollo",
     "super": "wong",
@@ -445,28 +467,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
-  },
-  {
-    "id": "wong_pollodeshilachadocon_mn4qovlq",
-    "nombre": "Pollo Deshilachado con Mayonesa Bolsa 250 g",
-    "categoria": "pollo",
-    "super": "wong",
-    "precios": {
-      "online": 12.9,
-      "regular": 12.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 51.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-24T14:58:19.262Z"
+    "timestamp": "2026-03-25T22:55:34.943Z"
   }
 ]
