@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_alitasdepolloahumaen_mn8tb26k",
+    "id": "plazavea_alitasdepolloahumaen_mn94negn",
     "nombre": "Alitas de Pollo AHUMA en Salsa BBQ Bolsa 500g",
     "categoria": "pollo",
     "super": "plazavea",
@@ -19,32 +19,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.156Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_filetedepechugadepol_mn8tb26k",
-    "nombre": "Filete de Pechuga de Pollo SADIA Bolsa 1kg",
+    "id": "plazavea_filetedepechugadepol_mn94negn",
+    "nombre": "Filete de Pechuga de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
     "precios": {
-      "online": 12.6,
-      "regular": 14.9,
+      "online": 19.9,
+      "regular": 21.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 12.6,
+      "porUnidad": 19.9,
       "porUnidadTarjeta": null
     },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 15,
+    "presentacion": null,
+    "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.156Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_pollorostizadopapasf_mn8tb26k",
+    "id": "plazavea_pollorostizadopapasf_mn94negn",
     "nombre": "Pollo Rostizado + Papas Fritas",
     "categoria": "pollo",
     "super": "plazavea",
@@ -59,10 +55,10 @@
     "presentacion": null,
     "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.156Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_pollorostizado1un_mn8tb26k",
+    "id": "plazavea_pollorostizado1un_mn94negn",
     "nombre": "Pollo Rostizado 1un",
     "categoria": "pollo",
     "super": "plazavea",
@@ -81,10 +77,10 @@
     },
     "descuento": 17,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.156Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_combopollorostizadop_mn8tb26k",
+    "id": "plazavea_combopollorostizadop_mn94negn",
     "nombre": "Combo Pollo Rostizado + Papas Fritas + Chicha NATURALE 1L",
     "categoria": "pollo",
     "super": "plazavea",
@@ -103,28 +99,10 @@
     },
     "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.156Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_filetedepechugadepol_mn8tb26l",
-    "nombre": "Filete de Pechuga de Pollo x kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 19.9,
-      "regular": 21.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 19.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
-  },
-  {
-    "id": "plazavea_muslosdepolloxkg_mn8tb26l",
+    "id": "plazavea_muslosdepolloxkg_mn94negn",
     "nombre": "Muslos de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -139,10 +117,10 @@
     "presentacion": null,
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_pechugaespecialdepol_mn8tb26l",
+    "id": "plazavea_pechugaespecialdepol_mn94negn",
     "nombre": "Pechuga Especial de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -157,10 +135,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_muslosdepollosadiabo_mn8tb26l",
+    "id": "plazavea_muslosdepollosadiabo_mn94negn",
     "nombre": "Muslos de Pollo SADIA Bolsa 1kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -179,10 +157,28 @@
     },
     "descuento": 16,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_dedosdepolloavinka27_mn8tb26l",
+    "id": "plazavea_pollotrozadoen8pieza_mn94negn",
+    "nombre": "Pollo Trozado en 8 Piezas x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 8.5,
+      "regular": 10.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 17,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-27T16:40:09.719Z"
+  },
+  {
+    "id": "plazavea_dedosdepolloavinka27_mn94negn",
     "nombre": "Dedos de Pollo AVINKA 270g Bolsa 12un x 270g",
     "categoria": "pollo",
     "super": "plazavea",
@@ -201,10 +197,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_piernaconencuentrode_mn8tb26l",
+    "id": "plazavea_piernaconencuentrode_mn94negn",
     "nombre": "Pierna con Encuentro de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -219,10 +215,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_sasamidepolloxkg_mn8tb26l",
+    "id": "plazavea_sasamidepolloxkg_mn94negn",
     "nombre": "Sasami de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -237,10 +233,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_pechugaenteradepollo_mn8tb26l",
+    "id": "plazavea_pechugaenteradepollo_mn94negn",
     "nombre": "Pechuga Entera de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -255,10 +251,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   },
   {
-    "id": "plazavea_piernadepollosanfern_mn8tb26l",
+    "id": "plazavea_piernadepollosanfern_mn94nego",
     "nombre": "Pierna de Pollo SAN FERNANDO x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -273,6 +269,6 @@
     "presentacion": null,
     "descuento": 4,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T11:22:38.157Z"
+    "timestamp": "2026-03-27T16:40:09.719Z"
   }
 ]
