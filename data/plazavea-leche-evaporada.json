@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_lecheevaporadaentera_mn94nq1a",
+    "id": "plazavea_lecheevaporadaentera_mn9hf8ya",
     "nombre": "Leche Evaporada Entera GLORIA Lata 390g Paquete 6un",
     "categoria": "leche-evaporada",
     "super": "plazavea",
@@ -19,10 +19,32 @@
     },
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T16:40:24.718Z"
+    "timestamp": "2026-03-27T22:37:44.338Z"
   },
   {
-    "id": "plazavea_lecheevaporadadanlac_mn94nq1a",
+    "id": "plazavea_lecheevaporadadanlac_mn9hf8ya",
+    "nombre": "Leche Evaporada DANLAC con Proteína y Vainilla Botella 250ml",
+    "categoria": "leche-evaporada",
+    "super": "plazavea",
+    "precios": {
+      "online": 6.99,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 27.96,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-27T22:37:44.338Z"
+  },
+  {
+    "id": "plazavea_lecheevaporadadanlac_mn9hf8yb",
     "nombre": "Leche Evaporada DANLAC con Proteína Toffee Botella 250ml",
     "categoria": "leche-evaporada",
     "super": "plazavea",
@@ -41,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T16:40:24.718Z"
+    "timestamp": "2026-03-27T22:37:44.338Z"
   },
   {
-    "id": "plazavea_lecheevaporadabellsl_mn94nq1a",
+    "id": "plazavea_lecheevaporadabellsl_mn9hf8yb",
     "nombre": "Leche Evaporada BELL'S Light Lata 410g",
     "categoria": "leche-evaporada",
     "super": "plazavea",
@@ -63,6 +85,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T16:40:24.718Z"
+    "timestamp": "2026-03-27T22:37:44.339Z"
   }
 ]

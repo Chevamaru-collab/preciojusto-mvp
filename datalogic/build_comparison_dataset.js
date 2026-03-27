@@ -91,7 +91,25 @@ function normalizeUnit(um) {
 
 }
 
+function normalizePresentation(presentacion, unit) {
+    if (!presentacion || !unit) return { value: presentacion, unit };
 
+    const u = unit.toLowerCase();
+
+    if (u === 'ml') {
+        return { value: presentacion / 1000, unit: 'lt' };
+    }
+
+    if (u === 'g') {
+        return { value: presentacion / 1000, unit: 'kg' };
+    }
+
+    if (u === 'lt' || u === 'kg' || u === 'u') {
+        return { value: presentacion, unit: u };
+    }
+
+    return { value: presentacion, unit: u };
+}
 
 /**
 
@@ -309,9 +327,12 @@ function buildComparisonGroups(rawData) {
 
         const tipo = normalizeTipo(row.tipo);
 
-        const pres = parsePresentacion(row.presentacion);
+        const rawPres = parsePresentacion(row.presentacion);
+        const rawUnit = normalizeUnit(row.um);
 
-        const unit = normalizeUnit(row.um);
+        const { value: pres, unit: normalizedUnit } = normalizePresentation(rawPres, rawUnit);
+
+        const unit = normalizedUnit;
 
         const store = (row.super || row.supermercado || '').trim();
 
