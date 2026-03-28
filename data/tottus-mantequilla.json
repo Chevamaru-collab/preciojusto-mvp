@@ -1,50 +1,50 @@
 [
   {
-    "id": "tottus_gloriamantequillacon_mnactc3s",
-    "nombre": "GLORIA Mantequilla con Sal Gloria en Barra Empaque 50 g",
+    "id": "tottus_gloriamantequillacon_mnajg7xj",
+    "nombre": "GLORIA Mantequilla Con Sal 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
     "precios": {
-      "online": 3.7,
+      "online": 9.7,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 74,
+      "porUnidad": 53.89,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 50,
+      "valor": 180,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.079Z"
   },
   {
-    "id": "tottus_laivemantequillacons_mnactc3s",
-    "nombre": "LAIVE Mantequilla con Sal Laive en Barra Empaque 100 g",
+    "id": "tottus_laivemantequillacons_mnajg7xj",
+    "nombre": "LAIVE Mantequilla con Sal Laive Envase 350 g",
     "categoria": "mantequilla",
     "super": "tottus",
     "precios": {
-      "online": 6.9,
-      "regular": null,
+      "online": 18.4,
+      "regular": 19.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 69,
+      "porUnidad": 52.57,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 100,
+      "valor": 350,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.079Z"
   },
   {
-    "id": "tottus_gloriamantequillaglo_mnactc3s",
+    "id": "tottus_gloriamantequillaglo_mnajg7xj",
     "nombre": "GLORIA Mantequilla Gloria con Sal Envase 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -63,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.079Z"
   },
   {
-    "id": "tottus_plusamantequillacons_mnactc3s",
+    "id": "tottus_plusamantequillacons_mnajg7xj",
     "nombre": "PLUSA Mantequilla con Sal Plusa Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -85,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.079Z"
   },
   {
-    "id": "tottus_gloriamantequillasin_mnactc3s",
+    "id": "tottus_gloriamantequillasin_mnajg7xj",
     "nombre": "GLORIA Mantequilla Sin Sal Gloria en Barra Empaque 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -107,10 +107,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.079Z"
   },
   {
-    "id": "tottus_danlacmantequillacon_mnactc3s",
+    "id": "tottus_gloriamantequillacon_mnajg7xk",
+    "nombre": "GLORIA Mantequilla con Sal Gloria en Barra Empaque 50 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 3.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 74,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 50,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_laivemantequillacons_mnajg7xk",
+    "nombre": "LAIVE Mantequilla con Sal Laive en Barra Empaque 100 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 6.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 69,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 100,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_danlacmantequillacon_mnajg7xk",
     "nombre": "DANLAC Mantequilla con Sal Danlac Empaque 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -129,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_delestablomantequill_mnactc3s",
+    "id": "tottus_delestablomantequill_mnajg7xk",
     "nombre": "DEL ESTABLO Mantequilla Del Establo Con Sal Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -151,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_laivecremademantequi_mnactc3s",
+    "id": "tottus_laivecremademantequi_mnajg7xk",
     "nombre": "LAIVE Crema de Mantequilla Laive Extra Untable Envase 350 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -173,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_laivemantequillasins_mnactc3s",
+    "id": "tottus_laivemantequillasins_mnajg7xk",
     "nombre": "LAIVE Mantequilla sin Sal Laive en Barra Empaque 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -195,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_plusamantequillasins_mnactc3s",
+    "id": "tottus_plusamantequillasins_mnajg7xk",
     "nombre": "PLUSA Mantequilla Sin Sal Plusa Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -217,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_paysanbretonmantequi_mnactc3s",
+    "id": "tottus_paysanbretonmantequi_mnajg7xk",
     "nombre": "PAYSAN BRETON Mantequilla con Sal Paysan Breton Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -239,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_presidentmantequilla_mnactc3s",
+    "id": "tottus_presidentmantequilla_mnajg7xk",
     "nombre": "PRESIDENT Mantequilla con Sal President Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -261,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_tottusmantequillacon_mnactc3s",
+    "id": "tottus_tottusmantequillacon_mnajg7xk",
     "nombre": "TOTTUS Mantequilla con Sal Tottus Envase 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -283,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_tottusmixuntableconm_mnactc3s",
+    "id": "tottus_tottusmixuntableconm_mnajg7xk",
     "nombre": "TOTTUS Mix Untable con Mantequilla Tottus Envase 450 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -305,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriaac_mnactc3s",
+    "id": "tottus_gloriayogurtgloriaac_mnajg7xk",
     "nombre": "GLORIA Yogurt Gloria Actibio Mora con Chía Botella 1 Kg",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -327,94 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriava_mnactc3s",
-    "nombre": "GLORIA Yogurt Gloria Vainilla Botella 180 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 1.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10.56,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
-  },
-  {
-    "id": "tottus_gloriayogurtgloriaze_mnactc3t",
-    "nombre": "GLORIA Yogurt Gloria Zero Lacto Vainilla Botella 1.7 Kg",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 11.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1.7,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.704Z"
-  },
-  {
-    "id": "tottus_gloriaquesofrescosin_mnactc3t",
-    "nombre": "GLORIA Queso Fresco Sin Lactosa Gloria Molde x Kg",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 37,
-      "regular": 37.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 37,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": 2,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
-  },
-  {
-    "id": "tottus_gloriaquesoedamglori_mnactc3t",
-    "nombre": "GLORIA Queso Edam Gloria Bonlé Empaque 250 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 14.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 58,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
-  },
-  {
-    "id": "tottus_gloriayogurtgloriava_mnactc3t",
+    "id": "tottus_gloriayogurtgloriava_mnajg7xk",
     "nombre": "GLORIA Yogurt Gloria Vainilla Sixpack Botella 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -433,76 +393,72 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriafr_mnactc3t",
-    "nombre": "GLORIA Yogurt Gloria Frutado Fresa Envase 120 g",
+    "id": "tottus_gloriaquesofrescosin_mnajg7xk",
+    "nombre": "GLORIA Queso Fresco Sin Lactosa Gloria Molde x Kg",
     "categoria": "mantequilla",
     "super": "tottus",
     "precios": {
-      "online": 1.9,
+      "online": 37,
+      "regular": 37.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 37,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 2,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_gloriayogurtgloriaze_mnajg7xk",
+    "nombre": "GLORIA Yogurt Gloria Zero Lacto Vainilla Botella 1.7 Kg",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 11.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 15.83,
+      "porUnidad": 7,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 120,
+      "valor": 1.7,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_gloriaquesoedamglori_mnajg7xk",
+    "nombre": "GLORIA Queso Edam Gloria Empaque 500 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 19.9,
+      "regular": 25.1,
+      "tarjeta": 15.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 39.8,
+      "porUnidadTarjeta": 31.8
+    },
+    "presentacion": {
+      "valor": 500,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
+    "descuento": 21,
+    "descuentoTarjeta": 37,
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriadu_mnactc3t",
-    "nombre": "GLORIA Yogurt Gloria Durazno Botella 1.6 Kg",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 10.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.75,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1.6,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
-  },
-  {
-    "id": "tottus_gloriayogurtglorialc_mnactc3t",
-    "nombre": "GLORIA Yogurt Gloria Lúcuma Botella 1.6 Kg",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 10.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.75,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1.6,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
-  },
-  {
-    "id": "tottus_gloriayogurtparcialm_mnactc3t",
+    "id": "tottus_gloriayogurtparcialm_mnajg7xk",
     "nombre": "GLORIA Yogurt Parcialmente Descremado Gloria Fresa Plátano Botella 1.6 Kg",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -521,19 +477,41 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriagr_mnactc3t",
-    "nombre": "GLORIA Yogurt Gloria Griego Frutos Rojos Envase 120 g",
+    "id": "tottus_gloriayogurtglorialc_mnajg7xk",
+    "nombre": "GLORIA Yogurt Gloria Lúcuma Botella 1.6 Kg",
     "categoria": "mantequilla",
     "super": "tottus",
     "precios": {
-      "online": 1.8,
+      "online": 10.8,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 15,
+      "porUnidad": 6.75,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1.6,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_gloriayogurtgloriafr_mnajg7xk",
+    "nombre": "GLORIA Yogurt Gloria Frutado Fresa Envase 120 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 1.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.83,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -543,10 +521,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriayo_mnactc3t",
+    "id": "tottus_gloriayogurtgloriadu_mnajg7xk",
+    "nombre": "GLORIA Yogurt Gloria Durazno Botella 1.6 Kg",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 10.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.75,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1.6,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_gloriayogurtgloriagr_mnajg7xk",
+    "nombre": "GLORIA Yogurt Gloria Griego Mango Bolsa 800 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 7.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.88,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 800,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_gloriayogurtgloriayo_mnajg7xk",
     "nombre": "GLORIA Yogurt Gloria Yoguito Vainilla Sixpack Botella 80 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -565,10 +587,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriaquesofundidogl_mnactc3t",
+    "id": "tottus_gloriaquesofundidogl_mnajg7xk",
     "nombre": "GLORIA Queso Fundido Gloria Untable Bolsa 80 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -587,10 +609,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriaba_mnactc3t",
+    "id": "tottus_gloriayogurtgloriaba_mnajg7xk",
     "nombre": "GLORIA Yogurt Gloria Battishake Fresa Envase 120 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -609,10 +631,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
   },
   {
-    "id": "tottus_gloriaquesogoudentaj_mnactc3t",
+    "id": "tottus_gloriaquesoedamentaj_mnajg7xk",
+    "nombre": "GLORIA Queso Edam en Tajadas Gloria Empaque 250 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 15.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 62,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_gloriaquesogoudentaj_mnajg7xk",
     "nombre": "GLORIA Queso Goudá en Tajadas Gloria Empaque 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -631,6 +675,24 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T13:16:29.705Z"
+    "timestamp": "2026-03-28T16:22:15.080Z"
+  },
+  {
+    "id": "tottus_gloriaquesofrescoglo_mnajg7xk",
+    "nombre": "GLORIA Queso Fresco Gloria Molde x Kg",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 36,
+      "regular": 36.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 36,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 2,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T16:22:15.080Z"
   }
 ]
