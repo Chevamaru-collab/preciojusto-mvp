@@ -485,7 +485,142 @@ function loadRawData(filePath) {
 
 }
 
+function flattenMasterData(masterData) {
+    const rows = [];
 
+    if (!masterData || !masterData.supermercados) return rows;
+
+    for (const [superKey, categories] of Object.entries(masterData.supermercados)) {
+        for (const [categoryKey, products] of Object.entries(categories || {})) {
+            for (const product of products || []) {
+                const precioOnline = product?.precios?.online ?? null;
+                const precioRegular = product?.precios?.regular ?? null;
+                const precioTarjeta = product?.precios?.tarjeta ?? null;
+                const precioPorUnidad = product?.precios?.porUnidad ?? null;
+
+                const presentacionValor = product?.presentacion?.valor ?? null;
+                const presentacionUnidad = product?.presentacion?.unidad ?? null;
+                const pack = product?.presentacion?.pack ?? 1;
+
+                const categoria = product?.categoria || categoryKey || '';
+                const nombre = product?.nombre || '';
+                const superNombre = product?.super || superKey || '';
+
+                rows.push({
+                    fecha: product?.timestamp ? new Date(product.timestamp).toLocaleDateString('es-PE') : '',
+                    super: normalizeSuperName(superNombre),
+                    supermercado: normalizeSuperName(superNombre),
+                    item: nombre,
+                    categoria: normalizeCategoryLabel(categoria),
+                    marca: inferBrand(nombre),
+                    tipo: inferTipo(nombre, categoria),
+                    clase: null,
+                    precioOnline,
+                    precioRegular: precioRegular ?? 0,
+                    descuento: product?.descuento ?? null,
+                    presentacion: presentacionValor,
+                    vt: presentacionValor,
+                    um: presentacionUnidad,
+                    pxum: precioPorUnidad,
+                    pack,
+                    product_id: product?.id || '',
+                    rubro: product?.rubro || '',
+                    precio_x_presentacion: precioOnline,
+                    precio_x_um: precioPorUnidad,
+                    precio_online: precioOnline,
+                    precio_regular: precioRegular,
+                    precio_tarjeta: precioTarjeta,
+                    descuento_publicado: product?.descuento ?? null
+                });
+            }
+        }
+    }
+
+    return rows;
+}
+
+function normalizeSuperName(name) {
+    const n = String(name || '').trim().toLowerCase();
+    if (n === 'wong') return 'Wong';
+    if (n === 'metro') return 'Metro';
+    if (n === 'tottus') return 'Tottus';
+    if (n === 'plazavea' || n === 'plaza vea') return 'Plaza Vea';
+    return name;
+}
+
+function normalizeCategoryLabel(cat) {
+    const c = String(cat || '').trim().toLowerCase();
+    const map = {
+        'aceite': 'Aceite',
+        'arroz': 'Arroz',
+        'azucar-blanca': 'Azúcar Blanca',
+        'azucar-rubia': 'Azúcar Rubia',
+        'condimentos': 'Condimentos',
+        'fideos': 'Fideos',
+        'frijol-canario': 'Frijol Canario',
+        'frutas': 'Frutas',
+        'harina': 'Harina',
+        'huevos': 'Huevos',
+        'leche': 'Leche',
+        'leche-evaporada': 'Leche Evaporada',
+        'leche-fresca': 'Leche Fresca',
+        'lentejas': 'Lentejas',
+        'mantequilla': 'Mantequilla',
+        'menestras': 'Menestras',
+        'pan-molde': 'Pan de Molde',
+        'pan': 'Pan',
+        'pollo': 'Pollo',
+        'verduras': 'Verduras',
+        'avena': 'Avena'
+    };
+    return map[c] || cat;
+}
+
+function inferBrand(name) {
+    if (!name) return '';
+    const parts = String(name).trim().split(/\s+/);
+    return parts[0] || '';
+}
+
+function inferTipo(name, categoria) {
+    const n = String(name || '').toLowerCase();
+    const c = String(categoria || '').toLowerCase();
+
+    if (c.includes('aceite')) {
+        if (n.includes('vegetal')) return 'Vegetal';
+        if (n.includes('girasol')) return 'Girasol';
+        if (n.includes('oliva')) return 'Oliva';
+        if (n.includes('canola')) return 'Canola';
+        if (n.includes('cártamo') || n.includes('cartamo')) return 'Cártamo';
+    }
+
+    if (c.includes('arroz')) {
+        if (n.includes('extra')) return 'Extra';
+        if (n.includes('superior')) return 'Superior';
+        if (n.includes('integral')) return 'Integral';
+        if (n.includes('añejo') || n.includes('anejo')) return 'Añejo';
+    }
+
+    if (c.includes('huevo')) {
+        if (n.includes('codorniz')) return 'Codorniz';
+        if (n.includes('rosado')) return 'Rosado';
+        if (n.includes('pardo')) return 'Pardo';
+    }
+
+    if (c.includes('leche')) {
+        if (n.includes('entera')) return 'Entera';
+        if (n.includes('descremada')) return 'Descremada';
+        if (n.includes('sin lactosa')) return 'Sin Lactosa';
+    }
+
+    if (c.includes('pollo')) {
+        if (n.includes('pechuga')) return 'Pechuga';
+        if (n.includes('pierna')) return 'Pierna';
+        if (n.includes('entero')) return 'Entero';
+    }
+
+    return String(categoria || '').trim();
+}
 
 // ─── Exports for testing ───────────────────────────────────────────
 
@@ -515,6 +650,16 @@ module.exports = {
 
     loadRawData,
 
+    flattenMasterData,
+
+    normalizeSuperName,
+
+    normalizeCategoryLabel,
+
+    inferBrand,
+
+    inferTipo,
+
 };
 
 
@@ -531,9 +676,9 @@ if (require.main === module) {
 
     console.log('Loading rawData from master-data.json...');
 
-    const rawData = loadRawData(dataPath);
-
-    console.log(`Loaded ${rawData.length} records.`);
+    const masterData = loadRawData(dataPath);
+    const rawData = flattenMasterData(masterData);
+    console.log(`Loaded ${rawData.length} flattened records.`);
 
 
 
