@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_fideoscabellodengeln_mn9herh0",
+    "id": "plazavea_fideoscabellodengeln_mnacuu1m",
     "nombre": "Fideos Cabello de Ángel NICOLINI Bolsa 250g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -19,77 +19,11 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.684Z"
+    "timestamp": "2026-03-28T13:17:39.610Z"
   },
   {
-    "id": "plazavea_fideosfusillideverdu_mn9herh0",
+    "id": "plazavea_fideosfusillideverdu_mnacuu1m",
     "nombre": "Fideos Fusilli de Verduras LA MONTANARA Tornillo Bolsa 500g",
-    "categoria": "fideos",
-    "super": "plazavea",
-    "precios": {
-      "online": 6.99,
-      "regular": 7.7,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 13.98,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.684Z"
-  },
-  {
-    "id": "plazavea_fideosspaghettinicol_mn9herh1",
-    "nombre": "Fideos Spaghetti NICOLINI Bolsa 500g",
-    "categoria": "fideos",
-    "super": "plazavea",
-    "precios": {
-      "online": 2.8,
-      "regular": 3.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
-  },
-  {
-    "id": "plazavea_fideosnicolinitallar_mn9herh1",
-    "nombre": "Fideos NICOLINI Tallarín Delgado Bolsa 500g",
-    "categoria": "fideos",
-    "super": "plazavea",
-    "precios": {
-      "online": 2.8,
-      "regular": 3.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
-  },
-  {
-    "id": "plazavea_fideostagliatelledeh_mn9herh1",
-    "nombre": "Fideos Tagliatelle de Huevo LA MONTANARA Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
     "precios": {
@@ -107,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.610Z"
   },
   {
-    "id": "plazavea_fideosfettucinnedehu_mn9herh1",
+    "id": "plazavea_fideosfettucinnedehu_mnacuu1m",
     "nombre": "Fideos Fettucinne de Huevo LA MONTANARA Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -129,10 +63,76 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.610Z"
   },
   {
-    "id": "plazavea_pastatornillomolital_mn9herh1",
+    "id": "plazavea_fideosspaghettinicol_mnacuu1m",
+    "nombre": "Fideos Spaghetti NICOLINI Bolsa 500g",
+    "categoria": "fideos",
+    "super": "plazavea",
+    "precios": {
+      "online": 2.8,
+      "regular": 3.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T13:17:39.610Z"
+  },
+  {
+    "id": "plazavea_fideostagliatelledeh_mnacuu1m",
+    "nombre": "Fideos Tagliatelle de Huevo LA MONTANARA Bolsa 500g",
+    "categoria": "fideos",
+    "super": "plazavea",
+    "precios": {
+      "online": 7.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T13:17:39.610Z"
+  },
+  {
+    "id": "plazavea_fideosnicolinitallar_mnacuu1m",
+    "nombre": "Fideos NICOLINI Tallarín Delgado Bolsa 500g",
+    "categoria": "fideos",
+    "super": "plazavea",
+    "precios": {
+      "online": 2.8,
+      "regular": 3.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T13:17:39.610Z"
+  },
+  {
+    "id": "plazavea_pastatornillomolital_mnacuu1m",
     "nombre": "Pasta Tornillo MOLITALIA Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -151,10 +151,10 @@
     },
     "descuento": 18,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.610Z"
   },
   {
-    "id": "plazavea_fideosamricaorgnicap_mn9herh1",
+    "id": "plazavea_fideosamricaorgnicap_mnacuu1m",
     "nombre": "Fideos AMÉRICA ORGÁNICA Pasta Fusilli sin Gluten Caja 227g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -173,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.610Z"
   },
   {
-    "id": "plazavea_fideostallarngrueson_mn9herh1",
+    "id": "plazavea_fideostallarngrueson_mnacuu1m",
     "nombre": "Fideos Tallarín Grueso NICOLINI Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -195,10 +195,10 @@
     },
     "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.610Z"
   },
   {
-    "id": "plazavea_fideosconhuevosantac_mn9herh1",
+    "id": "plazavea_fideosconhuevosantac_mnacuu1m",
     "nombre": "Fideos con Huevo SANTA CATALINA Bolsa 400g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -217,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.610Z"
   },
   {
-    "id": "plazavea_fideosagnesispaghett_mn9herh1",
+    "id": "plazavea_fideosagnesispaghett_mnacuu1m",
     "nombre": "Fideos AGNESI Spaghetti Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -239,10 +239,10 @@
     },
     "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.610Z"
   },
   {
-    "id": "plazavea_fideosspaghetti5bari_mn9herh1",
+    "id": "plazavea_fideosspaghetti5bari_mnacuu1n",
     "nombre": "Fideos Spaghetti #5 BARILLA Caja 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -261,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_spaghettieldoradopas_mn9herh1",
+    "id": "plazavea_spaghettieldoradopas_mnacuu1n",
     "nombre": "Spaghetti EL DORADO Pasta Quinua Bolsa 250g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -283,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_pastapennesinglutena_mn9herh1",
+    "id": "plazavea_pastapennesinglutena_mnacuu1n",
     "nombre": "Pasta Penne sin Gluten AMÉRICA ORGÁNICA Caja 227g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -305,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_pastaandinaspaghetti_mn9herh1",
+    "id": "plazavea_pastaandinaspaghetti_mnacuu1n",
     "nombre": "Pasta Andina Spaghetti AMÉRICA ORGÁNICA Arroz y Quinua Sin Gluten Bolsa 227g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -327,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_fideosintegralesspag_mn9herh1",
+    "id": "plazavea_fideosintegralesspag_mnacuu1n",
     "nombre": "Fideos Integrales Spaghetti AGE Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -349,10 +349,10 @@
     },
     "descuento": 1,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_fideosagnesifettucin_mn9herh1",
+    "id": "plazavea_fideosagnesifettucin_mnacuu1n",
     "nombre": "Fideos AGNESI Fettucine Flat Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -371,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_fideostortiglioni46a_mn9herh1",
+    "id": "plazavea_fideostortiglioni46a_mnacuu1n",
     "nombre": "Fideos Tortiglioni #46 AGNESI Paquete 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -393,10 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_fideosspaghettinibar_mn9herh1",
+    "id": "plazavea_fideosspaghettinibar_mnacuu1n",
     "nombre": "Fideos Spaghettini BARILLA Caja 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -415,10 +415,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_pastalasagnabarillac_mn9herh1",
+    "id": "plazavea_pastalasagnabarillac_mnacuu1n",
     "nombre": "Pasta Lasagna BARILLA Caja 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -437,10 +437,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_fideosagnesilinguini_mn9herh1",
+    "id": "plazavea_fideosagnesilinguini_mnacuu1n",
     "nombre": "Fideos AGNESI Linguini Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -459,10 +459,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_pastaandinadelenteja_mn9herh1",
+    "id": "plazavea_pastaandinadelenteja_mnacuu1n",
     "nombre": "Pasta Andina de Lenteja AMOR Fusilli Caja 227g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -481,10 +481,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_pastaletritasamricao_mn9herh1",
+    "id": "plazavea_pastaletritasamricao_mnacuu1n",
     "nombre": "Pasta Letritas AMÉRICA ORGÁNICA Caja 227g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -503,10 +503,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_pastaanimalitosamric_mn9herh1",
+    "id": "plazavea_pastaanimalitosamric_mnacuu1n",
     "nombre": "Pasta Animalitos AMÉRICA ORGÁNICA Caja 227g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -525,98 +525,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_fideosintegralesmisu_mn9herh1",
-    "nombre": "Fideos Integrales MISURA Spaghetti Bolsa 500g",
-    "categoria": "fideos",
-    "super": "plazavea",
-    "precios": {
-      "online": 14.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 29,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
-  },
-  {
-    "id": "plazavea_fideosagnesitagliate_mn9herh1",
-    "nombre": "Fideos AGNESI Tagliatelle Mezzane Bolsa 500g",
-    "categoria": "fideos",
-    "super": "plazavea",
-    "precios": {
-      "online": 19.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 39.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
-  },
-  {
-    "id": "plazavea_pastateddytricolored_mn9herh1",
-    "nombre": "Pasta Teddy Tricolore DALLA COSTA Bolsa 250g",
-    "categoria": "fideos",
-    "super": "plazavea",
-    "precios": {
-      "online": 13.1,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 52.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
-  },
-  {
-    "id": "plazavea_pastaparoletricolord_mn9herh1",
-    "nombre": "Pasta Parole Tricolor DALLA COSTA Bolsa 250g",
-    "categoria": "fideos",
-    "super": "plazavea",
-    "precios": {
-      "online": 13.1,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 52.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
-  },
-  {
-    "id": "plazavea_pastadesmolagranoror_mn9herh1",
+    "id": "plazavea_pastadesmolagranoror_mnacuu1n",
     "nombre": "Pasta de Sémola GRANORO Rosmarino Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -635,10 +547,98 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   },
   {
-    "id": "plazavea_fideosfettucciniinte_mn9herh1",
+    "id": "plazavea_fideosintegralesmisu_mnacuu1n",
+    "nombre": "Fideos Integrales MISURA Spaghetti Bolsa 500g",
+    "categoria": "fideos",
+    "super": "plazavea",
+    "precios": {
+      "online": 14.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 29,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T13:17:39.611Z"
+  },
+  {
+    "id": "plazavea_fideosagnesitagliate_mnacuu1n",
+    "nombre": "Fideos AGNESI Tagliatelle Mezzane Bolsa 500g",
+    "categoria": "fideos",
+    "super": "plazavea",
+    "precios": {
+      "online": 19.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 39.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T13:17:39.611Z"
+  },
+  {
+    "id": "plazavea_pastateddytricolored_mnacuu1n",
+    "nombre": "Pasta Teddy Tricolore DALLA COSTA Bolsa 250g",
+    "categoria": "fideos",
+    "super": "plazavea",
+    "precios": {
+      "online": 13.1,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 52.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T13:17:39.611Z"
+  },
+  {
+    "id": "plazavea_pastaparoletricolord_mnacuu1n",
+    "nombre": "Pasta Parole Tricolor DALLA COSTA Bolsa 250g",
+    "categoria": "fideos",
+    "super": "plazavea",
+    "precios": {
+      "online": 13.1,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 52.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-28T13:17:39.611Z"
+  },
+  {
+    "id": "plazavea_fideosfettucciniinte_mnacuu1n",
     "nombre": "Fideos Fettuccini Integral AGE Bolsa 500g",
     "categoria": "fideos",
     "super": "plazavea",
@@ -657,6 +657,6 @@
     },
     "descuento": 1,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-27T22:37:21.685Z"
+    "timestamp": "2026-03-28T13:17:39.611Z"
   }
 ]
