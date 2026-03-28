@@ -1,42 +1,28 @@
 [
   {
-    "product_name": "Aceite De Ajonjolí 0.2lt",
+    "product_name": "Aceite 0.9lt",
     "category": "Aceite",
-    "presentation": 0.2,
+    "presentation": 0.9,
     "unit": "lt",
     "stores": [
+      {
+        "store": "Tottus",
+        "price": 5.4
+      },
       {
         "store": "Plaza Vea",
-        "price": 12.9
+        "price": 6.5
       },
-      {
-        "store": "Tottus",
-        "price": 15.3
-      }
-    ],
-    "best_price": 12.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Aceite De Canola 1lt",
-    "category": "Aceite",
-    "presentation": 1,
-    "unit": "lt",
-    "stores": [
       {
         "store": "Metro",
-        "price": 9.9
-      },
-      {
-        "store": "Tottus",
-        "price": 14.9
+        "price": 6.6
       }
     ],
-    "best_price": 9.9,
-    "best_store": "Metro"
+    "best_price": 5.4,
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Aceite De Cártamo 0.71lt",
+    "product_name": "Aceite Cártamo 0.71lt",
     "category": "Aceite",
     "presentation": 0.71,
     "unit": "lt",
@@ -54,98 +40,22 @@
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Aceite De Cártamo 0.946lt",
-    "category": "Aceite",
-    "presentation": 0.946,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 39.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 39.9
-      }
-    ],
-    "best_price": 39.9,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Aceite De Coco 0.35lt",
-    "category": "Aceite",
-    "presentation": 0.35,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 26.8
-      },
-      {
-        "store": "Metro",
-        "price": 26.9
-      }
-    ],
-    "best_price": 26.8,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Aceite De Girasol 0.9lt",
-    "category": "Aceite",
-    "presentation": 0.9,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 6.9
-      },
-      {
-        "store": "Tottus",
-        "price": 7.5
-      }
-    ],
-    "best_price": 6.9,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Aceite De Soya 0.9lt",
-    "category": "Aceite",
-    "presentation": 0.9,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 5.4
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 6.2
-      },
-      {
-        "store": "Metro",
-        "price": 6.6
-      }
-    ],
-    "best_price": 5.4,
-    "best_store": "Tottus"
-  },
-  {
     "product_name": "Aceite Vegetal 0.12kg",
     "category": "Aceite",
     "presentation": 0.12,
     "unit": "kg",
     "stores": [
       {
-        "store": "Metro",
-        "price": 16.8
-      },
-      {
         "store": "Wong",
         "price": 16.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 17.9
       }
     ],
-    "best_price": 16.8,
-    "best_store": "Metro"
+    "best_price": 16.9,
+    "best_store": "Wong"
   },
   {
     "product_name": "Aceite Vegetal 0.9lt",
@@ -154,8 +64,8 @@
     "unit": "lt",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 5.3
+        "store": "Plaza Vea",
+        "price": 5.4
       },
       {
         "store": "Metro",
@@ -166,12 +76,12 @@
         "price": 5.4
       },
       {
-        "store": "Plaza Vea",
-        "price": 5.6
+        "store": "Tottus",
+        "price": 6.5
       }
     ],
-    "best_price": 5.3,
-    "best_store": "Tottus"
+    "best_price": 5.4,
+    "best_store": "Plaza Vea"
   },
   {
     "product_name": "Aceite Vegetal 1.8lt",
@@ -180,103 +90,95 @@
     "unit": "lt",
     "stores": [
       {
-        "store": "Tottus",
+        "store": "Metro",
         "price": 14.9
       },
       {
-        "store": "Metro",
-        "price": 15.5
-      },
-      {
         "store": "Plaza Vea",
-        "price": 15.5
-      },
-      {
-        "store": "Wong",
         "price": 15.5
       }
     ],
     "best_price": 14.9,
-    "best_store": "Tottus"
+    "best_store": "Metro"
   },
   {
-    "product_name": "Aceite Vegetal 1lt",
-    "category": "Aceite",
-    "presentation": 1,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 12.6
-      },
-      {
-        "store": "Wong",
-        "price": 16.2
-      },
-      {
-        "store": "Metro",
-        "price": 16.2
-      }
-    ],
-    "best_price": 12.6,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Aceite Vegetal 3lt",
-    "category": "Aceite",
-    "presentation": 3,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 18.3
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 18.5
-      }
-    ],
-    "best_price": 18.3,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Aceite Vegetal 5lt",
+    "product_name": "Aceite Vegetal 5kg",
     "category": "Aceite",
     "presentation": 5,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 30.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 30.5
-      },
-      {
-        "store": "Metro",
-        "price": 54.9
-      }
-    ],
-    "best_price": 30.5,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Aceite Vegetal 900lt",
-    "category": "Aceite",
-    "presentation": 900,
-    "unit": "lt",
+    "unit": "kg",
     "stores": [
       {
         "store": "Wong",
-        "price": 5.5
+        "price": 27.4
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 33.8
+      }
+    ],
+    "best_price": 27.4,
+    "best_store": "Wong"
+  },
+  {
+    "product_name": "Arroz 0.5kg",
+    "category": "Arroz",
+    "presentation": 0.5,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 5.9
+      },
+      {
+        "store": "Wong",
+        "price": 22.8
+      }
+    ],
+    "best_price": 5.9,
+    "best_store": "Metro"
+  },
+  {
+    "product_name": "Arroz 0.75kg",
+    "category": "Arroz",
+    "presentation": 0.75,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 3.99
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 5.6
       },
       {
         "store": "Metro",
-        "price": 6.5
+        "price": 5.6
+      },
+      {
+        "store": "Wong",
+        "price": 6
       }
     ],
-    "best_price": 5.5,
+    "best_price": 3.99,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Arroz 1kg",
+    "category": "Arroz",
+    "presentation": 1,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Wong",
+        "price": 7.6
+      },
+      {
+        "store": "Metro",
+        "price": 7.8
+      }
+    ],
+    "best_price": 7.6,
     "best_store": "Wong"
   },
   {
@@ -291,340 +193,14 @@
       },
       {
         "store": "Tottus",
-        "price": 24.9
+        "price": 27.5
       }
     ],
     "best_price": 20.5,
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Arroz Añejo Extra 0.75kg",
-    "category": "Arroz",
-    "presentation": 0.75,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 4.1
-      },
-      {
-        "store": "Metro",
-        "price": 4.2
-      },
-      {
-        "store": "Wong",
-        "price": 4.2
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 4.3
-      }
-    ],
-    "best_price": 4.1,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Arroz Añejo Extra 10kg",
-    "category": "Arroz",
-    "presentation": 10,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Wong",
-        "price": 43.5
-      },
-      {
-        "store": "Tottus",
-        "price": 44
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 47.4
-      }
-    ],
-    "best_price": 43.5,
-    "best_store": "Wong"
-  },
-  {
-    "product_name": "Arroz Añejo Extra 5kg",
-    "category": "Arroz",
-    "presentation": 5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 18.9
-      },
-      {
-        "store": "Tottus",
-        "price": 19.9
-      },
-      {
-        "store": "Wong",
-        "price": 19.9
-      },
-      {
-        "store": "Metro",
-        "price": 21.5
-      }
-    ],
-    "best_price": 18.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Arroz Extra 0.001kg",
-    "category": "Arroz",
-    "presentation": 0.001,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 8.9
-      },
-      {
-        "store": "Wong",
-        "price": 9.5
-      }
-    ],
-    "best_price": 8.9,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Extra 0.09kg",
-    "category": "Arroz",
-    "presentation": 0.09,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 4.9
-      },
-      {
-        "store": "Wong",
-        "price": 4.9
-      }
-    ],
-    "best_price": 4.9,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Extra 0.25kg",
-    "category": "Arroz",
-    "presentation": 0.25,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 7.9
-      },
-      {
-        "store": "Wong",
-        "price": 10.5
-      }
-    ],
-    "best_price": 7.9,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Extra 0.2kg",
-    "category": "Arroz",
-    "presentation": 0.2,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 7.7
-      },
-      {
-        "store": "Metro",
-        "price": 10.5
-      },
-      {
-        "store": "Wong",
-        "price": 14.5
-      }
-    ],
-    "best_price": 7.7,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Arroz Extra 0.4kg",
-    "category": "Arroz",
-    "presentation": 0.4,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 7.2
-      },
-      {
-        "store": "Wong",
-        "price": 9.5
-      }
-    ],
-    "best_price": 7.2,
-    "best_store": "Metro"
-  },
-  {
     "product_name": "Arroz Extra 0.5kg",
-    "category": "Arroz",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 10.99
-      },
-      {
-        "store": "Wong",
-        "price": 11.99
-      }
-    ],
-    "best_price": 10.99,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Extra 0.75kg",
-    "category": "Arroz",
-    "presentation": 0.75,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 3.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 3.5
-      },
-      {
-        "store": "Wong",
-        "price": 3.6
-      },
-      {
-        "store": "Tottus",
-        "price": 4.1
-      }
-    ],
-    "best_price": 3.5,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Extra 10kg",
-    "category": "Arroz",
-    "presentation": 10,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 36.1
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 38
-      },
-      {
-        "store": "Wong",
-        "price": 46.9
-      }
-    ],
-    "best_price": 36.1,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Arroz Extra 1kg",
-    "category": "Arroz",
-    "presentation": 1,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 4.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 5.5
-      },
-      {
-        "store": "Tottus",
-        "price": 5.8
-      },
-      {
-        "store": "Wong",
-        "price": 6
-      }
-    ],
-    "best_price": 4.5,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Extra 5kg",
-    "category": "Arroz",
-    "presentation": 5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 17.9
-      },
-      {
-        "store": "Tottus",
-        "price": 17.9
-      },
-      {
-        "store": "Metro",
-        "price": 17.9
-      },
-      {
-        "store": "Wong",
-        "price": 18.5
-      }
-    ],
-    "best_price": 17.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Arroz Extra Gran Reserva 0.75kg",
-    "category": "Arroz",
-    "presentation": 0.75,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 4.2
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 4.2
-      },
-      {
-        "store": "Wong",
-        "price": 4.3
-      }
-    ],
-    "best_price": 4.2,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Extra Gran Reserva 5kg",
-    "category": "Arroz",
-    "presentation": 5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Wong",
-        "price": 20.9
-      },
-      {
-        "store": "Metro",
-        "price": 20.9
-      }
-    ],
-    "best_price": 20.9,
-    "best_store": "Wong"
-  },
-  {
-    "product_name": "Arroz Integral 0.5kg",
     "category": "Arroz",
     "presentation": 0.5,
     "unit": "kg",
@@ -642,19 +218,103 @@
     "best_store": "Metro"
   },
   {
-    "product_name": "Arroz Integral 0.75kg",
+    "product_name": "Arroz Extra 0.75kg",
     "category": "Arroz",
     "presentation": 0.75,
     "unit": "kg",
     "stores": [
       {
         "store": "Tottus",
-        "price": 3.75
+        "price": 3.5
       },
       {
         "store": "Plaza Vea",
-        "price": 3.79
+        "price": 3.5
       },
+      {
+        "store": "Metro",
+        "price": 3.5
+      },
+      {
+        "store": "Wong",
+        "price": 3.6
+      }
+    ],
+    "best_price": 3.5,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Arroz Extra 10kg",
+    "category": "Arroz",
+    "presentation": 10,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 38
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 44.9
+      }
+    ],
+    "best_price": 38,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Arroz Extra 1kg",
+    "category": "Arroz",
+    "presentation": 1,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 5.5
+      },
+      {
+        "store": "Metro",
+        "price": 5.8
+      },
+      {
+        "store": "Tottus",
+        "price": 5.9
+      },
+      {
+        "store": "Wong",
+        "price": 6
+      }
+    ],
+    "best_price": 5.5,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Arroz Extra 5kg",
+    "category": "Arroz",
+    "presentation": 5,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 17.7
+      },
+      {
+        "store": "Wong",
+        "price": 18.5
+      },
+      {
+        "store": "Tottus",
+        "price": 19.9
+      }
+    ],
+    "best_price": 17.7,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Arroz Integral 0.75kg",
+    "category": "Arroz",
+    "presentation": 0.75,
+    "unit": "kg",
+    "stores": [
       {
         "store": "Metro",
         "price": 4.5
@@ -662,10 +322,18 @@
       {
         "store": "Wong",
         "price": 4.5
+      },
+      {
+        "store": "Tottus",
+        "price": 4.6
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 5.6
       }
     ],
-    "best_price": 3.75,
-    "best_store": "Tottus"
+    "best_price": 4.5,
+    "best_store": "Metro"
   },
   {
     "product_name": "Arroz Integral 1kg",
@@ -683,7 +351,7 @@
       },
       {
         "store": "Tottus",
-        "price": 7.6
+        "price": 6.9
       }
     ],
     "best_price": 4.9,
@@ -696,38 +364,16 @@
     "unit": "kg",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 21.9
-      },
-      {
-        "store": "Wong",
-        "price": 22.9
-      },
-      {
         "store": "Tottus",
+        "price": 23.6
+      },
+      {
+        "store": "Plaza Vea",
         "price": 23.6
       }
     ],
-    "best_price": 21.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Arroz Japónico 0.5kg",
-    "category": "Arroz",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 5.9
-      },
-      {
-        "store": "Wong",
-        "price": 5.9
-      }
-    ],
-    "best_price": 5.9,
-    "best_store": "Metro"
+    "best_price": 23.6,
+    "best_store": "Tottus"
   },
   {
     "product_name": "Arroz Superior 0.75kg",
@@ -740,16 +386,16 @@
         "price": 3.1
       },
       {
-        "store": "Plaza Vea",
-        "price": 3.1
-      },
-      {
         "store": "Metro",
         "price": 3.2
       },
       {
+        "store": "Plaza Vea",
+        "price": 4
+      },
+      {
         "store": "Wong",
-        "price": 3.5
+        "price": 4
       }
     ],
     "best_price": 3.1,
@@ -766,11 +412,11 @@
         "price": 4.5
       },
       {
-        "store": "Plaza Vea",
-        "price": 5.5
+        "store": "Tottus",
+        "price": 4.6
       },
       {
-        "store": "Tottus",
+        "store": "Plaza Vea",
         "price": 5.5
       },
       {
@@ -788,255 +434,85 @@
     "unit": "kg",
     "stores": [
       {
-        "store": "Metro",
-        "price": 17.5
-      },
-      {
         "store": "Plaza Vea",
-        "price": 17.9
-      },
-      {
-        "store": "Wong",
-        "price": 17.9
+        "price": 18.7
       },
       {
         "store": "Tottus",
         "price": 19.5
-      }
-    ],
-    "best_price": 17.5,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Superior Añejo 0.75kg",
-    "category": "Arroz",
-    "presentation": 0.75,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 3.95
-      },
-      {
-        "store": "Wong",
-        "price": 4
-      }
-    ],
-    "best_price": 3.95,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Arroz Superior Añejo 5kg",
-    "category": "Arroz",
-    "presentation": 5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 20.9
-      },
-      {
-        "store": "Metro",
-        "price": 22.5
-      },
-      {
-        "store": "Tottus",
-        "price": 22.9
       },
       {
         "store": "Wong",
         "price": 22.9
       }
     ],
-    "best_price": 20.9,
+    "best_price": 18.7,
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Avena Clásica 0.4kg",
+    "product_name": "Avena 0.045kg",
     "category": "Avena",
-    "presentation": 0.4,
+    "presentation": 0.045,
     "unit": "kg",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 9.9
+        "store": "Metro",
+        "price": 5.9
       },
       {
         "store": "Wong",
-        "price": 9.9
+        "price": 5.9
       }
     ],
-    "best_price": 9.9,
-    "best_store": "Tottus"
+    "best_price": 5.9,
+    "best_store": "Metro"
   },
   {
-    "product_name": "Avena Clásica 0.5kg",
+    "product_name": "Avena 0.18kg",
     "category": "Avena",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 4.1
-      },
-      {
-        "store": "Tottus",
-        "price": 4.7
-      }
-    ],
-    "best_price": 4.1,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Avena Clásica 0.6kg",
-    "category": "Avena",
-    "presentation": 0.6,
+    "presentation": 0.18,
     "unit": "kg",
     "stores": [
       {
         "store": "Tottus",
-        "price": 19.9
+        "price": 5
       },
       {
         "store": "Wong",
-        "price": 27.5
+        "price": 5.4
       }
     ],
-    "best_price": 19.9,
+    "best_price": 5,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Avena Clásica 0.9kg",
+    "product_name": "Avena 0.27kg",
     "category": "Avena",
-    "presentation": 0.9,
+    "presentation": 0.27,
     "unit": "kg",
     "stores": [
       {
         "store": "Tottus",
-        "price": 7.8
+        "price": 4.5
       },
       {
         "store": "Plaza Vea",
-        "price": 9.9
+        "price": 4.5
       },
       {
-        "store": "Wong",
-        "price": 9.9
-      }
-    ],
-    "best_price": 7.8,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Avena Clásica 1kg",
-    "category": "Avena",
-    "presentation": 1,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 7.5
-      },
-      {
-        "store": "Tottus",
-        "price": 10.1
-      }
-    ],
-    "best_price": 7.5,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Avena Con Maca 0.33kg",
-    "category": "Avena",
-    "presentation": 0.33,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 8.5
-      },
-      {
-        "store": "Wong",
-        "price": 9.2
-      }
-    ],
-    "best_price": 8.5,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Avena Instantánea 0.35kg",
-    "category": "Avena",
-    "presentation": 0.35,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Wong",
-        "price": 9.3
-      },
-      {
-        "store": "Tottus",
-        "price": 9.5
-      }
-    ],
-    "best_price": 9.3,
-    "best_store": "Wong"
-  },
-  {
-    "product_name": "Avena Instantánea 0.5kg",
-    "category": "Avena",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 6.6
+        "store": "Metro",
+        "price": 6.4
       },
       {
         "store": "Wong",
         "price": 6.7
       }
     ],
-    "best_price": 6.6,
+    "best_price": 4.5,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Avena Multicereal 0.85kg",
-    "category": "Avena",
-    "presentation": 0.85,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 14.5
-      },
-      {
-        "store": "Tottus",
-        "price": 14.5
-      }
-    ],
-    "best_price": 14.5,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Avena Sin Gluten 0.8kg",
-    "category": "Avena",
-    "presentation": 0.8,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 18
-      },
-      {
-        "store": "Tottus",
-        "price": 18
-      }
-    ],
-    "best_price": 18,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Avena Tradicional 0.29kg",
+    "product_name": "Avena 0.29kg",
     "category": "Avena",
     "presentation": 0.29,
     "unit": "kg",
@@ -1054,27 +530,9 @@
     "best_store": "Tottus"
   },
   {
-    "product_name": "Avena Tradicional 0.5kg",
+    "product_name": "Avena 0.2kg",
     "category": "Avena",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 6.9
-      },
-      {
-        "store": "Tottus",
-        "price": 6.9
-      }
-    ],
-    "best_price": 6.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Azucar Blanca 1kg",
-    "category": "Azucar Blanca",
-    "presentation": 1,
+    "presentation": 0.2,
     "unit": "kg",
     "stores": [
       {
@@ -1083,18 +541,230 @@
       },
       {
         "store": "Wong",
-        "price": 5.5
+        "price": 4.8
+      },
+      {
+        "store": "Tottus",
+        "price": 6.9
       }
     ],
     "best_price": 4.8,
     "best_store": "Metro"
   },
   {
-    "product_name": "Azucar Blanca 2kg",
+    "product_name": "Avena 0.33kg",
+    "category": "Avena",
+    "presentation": 0.33,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 8.5
+      },
+      {
+        "store": "Wong",
+        "price": 9.2
+      }
+    ],
+    "best_price": 8.5,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Avena 0.35kg",
+    "category": "Avena",
+    "presentation": 0.35,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Wong",
+        "price": 9.3
+      },
+      {
+        "store": "Tottus",
+        "price": 9.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 13.6
+      }
+    ],
+    "best_price": 9.3,
+    "best_store": "Wong"
+  },
+  {
+    "product_name": "Avena 0.37kg",
+    "category": "Avena",
+    "presentation": 0.37,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 4.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 4.9
+      }
+    ],
+    "best_price": 4.9,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Avena 0.3kg",
+    "category": "Avena",
+    "presentation": 0.3,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 4.9
+      },
+      {
+        "store": "Wong",
+        "price": 4.9
+      }
+    ],
+    "best_price": 4.9,
+    "best_store": "Metro"
+  },
+  {
+    "product_name": "Avena 0.4kg",
+    "category": "Avena",
+    "presentation": 0.4,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 10
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 10
+      },
+      {
+        "store": "Wong",
+        "price": 16.5
+      }
+    ],
+    "best_price": 10,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Avena 0.5kg",
+    "category": "Avena",
+    "presentation": 0.5,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 4.1
+      },
+      {
+        "store": "Tottus",
+        "price": 4.5
+      },
+      {
+        "store": "Metro",
+        "price": 5.5
+      },
+      {
+        "store": "Wong",
+        "price": 6.7
+      }
+    ],
+    "best_price": 4.1,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Avena 0.6kg",
+    "category": "Avena",
+    "presentation": 0.6,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 19.8
+      },
+      {
+        "store": "Wong",
+        "price": 25.2
+      }
+    ],
+    "best_price": 19.8,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Avena 0.9kg",
+    "category": "Avena",
+    "presentation": 0.9,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 9.7
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 9.7
+      },
+      {
+        "store": "Wong",
+        "price": 9.9
+      }
+    ],
+    "best_price": 9.7,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Avena 1kg",
+    "category": "Avena",
+    "presentation": 1,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 8.9
+      },
+      {
+        "store": "Tottus",
+        "price": 10.1
+      }
+    ],
+    "best_price": 8.9,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Azucar Blanca Azucar-blanca 1kg",
+    "category": "Azucar Blanca",
+    "presentation": 1,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 4.8
+      },
+      {
+        "store": "Metro",
+        "price": 5.45
+      },
+      {
+        "store": "Wong",
+        "price": 5.5
+      }
+    ],
+    "best_price": 4.8,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Azucar Blanca Azucar-blanca 2kg",
     "category": "Azucar Blanca",
     "presentation": 2,
     "unit": "kg",
     "stores": [
+      {
+        "store": "Tottus",
+        "price": 7.4
+      },
       {
         "store": "Metro",
         "price": 10
@@ -1102,58 +772,54 @@
       {
         "store": "Wong",
         "price": 10.2
-      },
-      {
-        "store": "Tottus",
-        "price": 10.2
       }
     ],
-    "best_price": 10,
-    "best_store": "Metro"
+    "best_price": 7.4,
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Azucar Blanca 5kg",
+    "product_name": "Azucar Blanca Azucar-blanca 5kg",
     "category": "Azucar Blanca",
     "presentation": 5,
     "unit": "kg",
     "stores": [
       {
-        "store": "Metro",
+        "store": "Tottus",
         "price": 21.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 22.8
+      },
+      {
+        "store": "Metro",
+        "price": 22.8
       },
       {
         "store": "Wong",
         "price": 22.8
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 22.9
-      },
-      {
-        "store": "Tottus",
-        "price": 25.5
       }
     ],
     "best_price": 21.9,
-    "best_store": "Metro"
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Azucar Rubia 1kg",
+    "product_name": "Azucar Rubia Azucar-rubia 1kg",
     "category": "Azucar Rubia",
     "presentation": 1,
     "unit": "kg",
     "stores": [
       {
+        "store": "Tottus",
+        "price": 3.8
+      },
+      {
         "store": "Plaza Vea",
         "price": 3.8
       },
       {
         "store": "Metro",
         "price": 3.8
-      },
-      {
-        "store": "Tottus",
-        "price": 3.9
       },
       {
         "store": "Wong",
@@ -1161,17 +827,17 @@
       }
     ],
     "best_price": 3.8,
-    "best_store": "Plaza Vea"
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Azucar Rubia 2kg",
+    "product_name": "Azucar Rubia Azucar-rubia 2kg",
     "category": "Azucar Rubia",
     "presentation": 2,
     "unit": "kg",
     "stores": [
       {
         "store": "Metro",
-        "price": 7.5
+        "price": 7.4
       },
       {
         "store": "Wong",
@@ -1180,155 +846,43 @@
       {
         "store": "Plaza Vea",
         "price": 9
+      },
+      {
+        "store": "Tottus",
+        "price": 10.5
       }
     ],
-    "best_price": 7.5,
+    "best_price": 7.4,
     "best_store": "Metro"
   },
   {
-    "product_name": "Azucar Rubia 5kg",
+    "product_name": "Azucar Rubia Azucar-rubia 5kg",
     "category": "Azucar Rubia",
     "presentation": 5,
     "unit": "kg",
     "stores": [
       {
-        "store": "Metro",
+        "store": "Tottus",
         "price": 14.9
       },
       {
-        "store": "Wong",
-        "price": 15.5
+        "store": "Metro",
+        "price": 15.3
       },
       {
-        "store": "Tottus",
-        "price": 21.9
+        "store": "Wong",
+        "price": 15.9
       },
       {
         "store": "Plaza Vea",
-        "price": 22.5
+        "price": 22.7
       }
     ],
     "best_price": 14.9,
-    "best_store": "Metro"
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Fideos Cabello De Ángel 0.25kg",
-    "category": "Fideos",
-    "presentation": 0.25,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 1.3
-      },
-      {
-        "store": "Wong",
-        "price": 1.3
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 1.7
-      }
-    ],
-    "best_price": 1.3,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Fideos Cabello De Ángel 0.5kg",
-    "category": "Fideos",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 2.5
-      },
-      {
-        "store": "Wong",
-        "price": 2.5
-      }
-    ],
-    "best_price": 2.5,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Fideos Canuto 0.25kg",
-    "category": "Fideos",
-    "presentation": 0.25,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 1.3
-      },
-      {
-        "store": "Wong",
-        "price": 1.3
-      }
-    ],
-    "best_price": 1.3,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Fideos Canuto 0.45kg",
-    "category": "Fideos",
-    "presentation": 0.45,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 2.5
-      },
-      {
-        "store": "Wong",
-        "price": 2.5
-      }
-    ],
-    "best_price": 2.5,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Fideos Corbata 0.25kg",
-    "category": "Fideos",
-    "presentation": 0.25,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 1.3
-      },
-      {
-        "store": "Wong",
-        "price": 1.3
-      },
-      {
-        "store": "Tottus",
-        "price": 1.7
-      }
-    ],
-    "best_price": 1.3,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Fideos Macarrón 0.5kg",
-    "category": "Fideos",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Wong",
-        "price": 3.6
-      },
-      {
-        "store": "Tottus",
-        "price": 3.9
-      }
-    ],
-    "best_price": 3.6,
-    "best_store": "Wong"
-  },
-  {
-    "product_name": "Fideos Pasta Larga 0.225kg",
+    "product_name": "Fideos 0.225kg",
     "category": "Fideos",
     "presentation": 0.225,
     "unit": "kg",
@@ -1346,7 +900,7 @@
     "best_store": "Metro"
   },
   {
-    "product_name": "Fideos Pasta Larga 0.227kg",
+    "product_name": "Fideos 0.227kg",
     "category": "Fideos",
     "presentation": 0.227,
     "unit": "kg",
@@ -1357,72 +911,58 @@
       },
       {
         "store": "Wong",
-        "price": 18.9
+        "price": 20.8
       }
     ],
     "best_price": 17.3,
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Fideos Pasta Larga 0.235kg",
+    "product_name": "Fideos 0.235kg",
     "category": "Fideos",
     "presentation": 0.235,
     "unit": "kg",
     "stores": [
       {
-        "store": "Metro",
-        "price": 1.9
+        "store": "Tottus",
+        "price": 1.1
       },
       {
-        "store": "Tottus",
-        "price": 2.3
+        "store": "Metro",
+        "price": 1.9
       }
     ],
-    "best_price": 1.9,
-    "best_store": "Metro"
+    "best_price": 1.1,
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Fideos Pasta Larga 0.25kg",
+    "product_name": "Fideos 0.25kg",
     "category": "Fideos",
     "presentation": 0.25,
     "unit": "kg",
     "stores": [
       {
         "store": "Tottus",
-        "price": 1.8
+        "price": 1.3
       },
       {
         "store": "Wong",
-        "price": 5.9
+        "price": 1.3
+      },
+      {
+        "store": "Metro",
+        "price": 1.6
       },
       {
         "store": "Plaza Vea",
-        "price": 13.1
+        "price": 1.7
       }
     ],
-    "best_price": 1.8,
+    "best_price": 1.3,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Fideos Pasta Larga 0.45kg",
-    "category": "Fideos",
-    "presentation": 0.45,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 2.5
-      },
-      {
-        "store": "Wong",
-        "price": 2.5
-      }
-    ],
-    "best_price": 2.5,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Fideos Pasta Larga 0.4kg",
+    "product_name": "Fideos 0.4kg",
     "category": "Fideos",
     "presentation": 0.4,
     "unit": "kg",
@@ -1433,112 +973,14 @@
       },
       {
         "store": "Wong",
-        "price": 10.9
+        "price": 13.9
       }
     ],
     "best_price": 5,
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Fideos Pasta Larga 0.5kg",
-    "category": "Fideos",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 7.7
-      },
-      {
-        "store": "Wong",
-        "price": 10.9
-      }
-    ],
-    "best_price": 7.7,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Fideos Spaghetti 0.227kg",
-    "category": "Fideos",
-    "presentation": 0.227,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Wong",
-        "price": 20.8
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 21.5
-      }
-    ],
-    "best_price": 20.8,
-    "best_store": "Wong"
-  },
-  {
-    "product_name": "Fideos Spaghetti 0.25kg",
-    "category": "Fideos",
-    "presentation": 0.25,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 16.9
-      },
-      {
-        "store": "Wong",
-        "price": 16.9
-      }
-    ],
-    "best_price": 16.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Fideos Spaghetti 0.5kg",
-    "category": "Fideos",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 2
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 2.8
-      },
-      {
-        "store": "Tottus",
-        "price": 2.8
-      },
-      {
-        "store": "Wong",
-        "price": 2.8
-      }
-    ],
-    "best_price": 2,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Fideos Spaghetti 1kg",
-    "category": "Fideos",
-    "presentation": 1,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 4.1
-      },
-      {
-        "store": "Wong",
-        "price": 4.3
-      }
-    ],
-    "best_price": 4.1,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Fideos Tallarín 0.5kg",
+    "product_name": "Fideos 0.5kg",
     "category": "Fideos",
     "presentation": 0.5,
     "unit": "kg",
@@ -1552,11 +994,11 @@
         "price": 2.2
       },
       {
-        "store": "Plaza Vea",
-        "price": 2.8
+        "store": "Wong",
+        "price": 2.5
       },
       {
-        "store": "Wong",
+        "store": "Plaza Vea",
         "price": 2.8
       }
     ],
@@ -1564,47 +1006,25 @@
     "best_store": "Metro"
   },
   {
-    "product_name": "Fideos Tornillo 0.45kg",
+    "product_name": "Fideos 1kg",
     "category": "Fideos",
-    "presentation": 0.45,
+    "presentation": 1,
     "unit": "kg",
     "stores": [
-      {
-        "store": "Metro",
-        "price": 2.5
-      },
-      {
-        "store": "Wong",
-        "price": 2.5
-      }
-    ],
-    "best_price": 2.5,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Fideos Tornillo 0.5kg",
-    "category": "Fideos",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 3.3
-      },
-      {
-        "store": "Wong",
-        "price": 3.6
-      },
       {
         "store": "Tottus",
-        "price": 3.9
+        "price": 4.3
+      },
+      {
+        "store": "Wong",
+        "price": 5.6
       }
     ],
-    "best_price": 3.3,
-    "best_store": "Plaza Vea"
+    "best_price": 4.3,
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Frijol Canario Frijoles 0.425kg",
+    "product_name": "Frijol Canario Frijol-canario 0.425kg",
     "category": "Frijol Canario",
     "presentation": 0.425,
     "unit": "kg",
@@ -1622,11 +1042,15 @@
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Frijol Canario Frijoles 0.5kg",
+    "product_name": "Frijol Canario Frijol-canario 0.5kg",
     "category": "Frijol Canario",
     "presentation": 0.5,
     "unit": "kg",
     "stores": [
+      {
+        "store": "Tottus",
+        "price": 3.5
+      },
       {
         "store": "Metro",
         "price": 4.7
@@ -1638,95 +1062,49 @@
       {
         "store": "Plaza Vea",
         "price": 6.8
-      },
-      {
-        "store": "Tottus",
-        "price": 6.9
       }
     ],
-    "best_price": 4.7,
+    "best_price": 3.5,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Frijol Canario Frijol-canario 1kg",
+    "category": "Frijol Canario",
+    "presentation": 1,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 6.1
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 12.5
+      }
+    ],
+    "best_price": 6.1,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Harina 0.001kg",
+    "category": "Harina",
+    "presentation": 0.001,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 8.9
+      },
+      {
+        "store": "Wong",
+        "price": 9.5
+      }
+    ],
+    "best_price": 8.9,
     "best_store": "Metro"
   },
   {
-    "product_name": "Harina De Maíz 1kg",
-    "category": "Harina",
-    "presentation": 1,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 6.8
-      },
-      {
-        "store": "Tottus",
-        "price": 7.5
-      },
-      {
-        "store": "Metro",
-        "price": 7.9
-      },
-      {
-        "store": "Wong",
-        "price": 7.9
-      }
-    ],
-    "best_price": 6.8,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Harina Integral 0.3kg",
-    "category": "Harina",
-    "presentation": 0.3,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 12.9
-      },
-      {
-        "store": "Tottus",
-        "price": 12.9
-      },
-      {
-        "store": "Metro",
-        "price": 14.5
-      },
-      {
-        "store": "Wong",
-        "price": 14.9
-      }
-    ],
-    "best_price": 12.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Harina Integral 1kg",
-    "category": "Harina",
-    "presentation": 1,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 7.5
-      },
-      {
-        "store": "Tottus",
-        "price": 8.2
-      },
-      {
-        "store": "Metro",
-        "price": 13.7
-      },
-      {
-        "store": "Wong",
-        "price": 14.7
-      }
-    ],
-    "best_price": 7.5,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Harina Sin Preparar 0.18kg",
+    "product_name": "Harina 0.18kg",
     "category": "Harina",
     "presentation": 0.18,
     "unit": "kg",
@@ -1744,25 +1122,25 @@
     "best_store": "Tottus"
   },
   {
-    "product_name": "Harina Sin Preparar 0.25kg",
+    "product_name": "Harina 0.25kg",
     "category": "Harina",
     "presentation": 0.25,
     "unit": "kg",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 7.3
-      },
-      {
         "store": "Plaza Vea",
         "price": 8.9
+      },
+      {
+        "store": "Tottus",
+        "price": 10
       }
     ],
-    "best_price": 7.3,
-    "best_store": "Tottus"
+    "best_price": 8.9,
+    "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Harina Sin Preparar 0.2kg",
+    "product_name": "Harina 0.2kg",
     "category": "Harina",
     "presentation": 0.2,
     "unit": "kg",
@@ -1773,7 +1151,7 @@
       },
       {
         "store": "Metro",
-        "price": 7.2
+        "price": 7.9
       },
       {
         "store": "Plaza Vea",
@@ -1788,25 +1166,33 @@
     "best_store": "Tottus"
   },
   {
-    "product_name": "Harina Sin Preparar 0.454kg",
+    "product_name": "Harina 0.3kg",
     "category": "Harina",
-    "presentation": 0.454,
+    "presentation": 0.3,
     "unit": "kg",
     "stores": [
       {
+        "store": "Plaza Vea",
+        "price": 10
+      },
+      {
         "store": "Tottus",
-        "price": 26
+        "price": 10.9
+      },
+      {
+        "store": "Metro",
+        "price": 14.5
       },
       {
         "store": "Wong",
-        "price": 28.9
+        "price": 14.9
       }
     ],
-    "best_price": 26,
-    "best_store": "Tottus"
+    "best_price": 10,
+    "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Harina Sin Preparar 0.4kg",
+    "product_name": "Harina 0.4kg",
     "category": "Harina",
     "presentation": 0.4,
     "unit": "kg",
@@ -1832,11 +1218,15 @@
     "best_store": "Tottus"
   },
   {
-    "product_name": "Harina Sin Preparar 0.5kg",
+    "product_name": "Harina 0.5kg",
     "category": "Harina",
     "presentation": 0.5,
     "unit": "kg",
     "stores": [
+      {
+        "store": "Wong",
+        "price": 7.9
+      },
       {
         "store": "Tottus",
         "price": 9.4
@@ -1844,80 +1234,130 @@
       {
         "store": "Metro",
         "price": 15.5
-      },
-      {
-        "store": "Wong",
-        "price": 31.9
       }
     ],
-    "best_price": 9.4,
+    "best_price": 7.9,
+    "best_store": "Wong"
+  },
+  {
+    "product_name": "Harina 0.75kg",
+    "category": "Harina",
+    "presentation": 0.75,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 12.5
+      },
+      {
+        "store": "Metro",
+        "price": 15.4
+      }
+    ],
+    "best_price": 12.5,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Harina Sin Preparar 1kg",
+    "product_name": "Harina 1kg",
     "category": "Harina",
     "presentation": 1,
     "unit": "kg",
     "stores": [
       {
+        "store": "Metro",
+        "price": 4.5
+      },
+      {
         "store": "Wong",
         "price": 4.5
       },
       {
-        "store": "Metro",
+        "store": "Tottus",
         "price": 4.9
       },
       {
         "store": "Plaza Vea",
-        "price": 4.9
-      },
-      {
-        "store": "Tottus",
-        "price": 4.9
+        "price": 5.2
       }
     ],
     "best_price": 4.5,
-    "best_store": "Wong"
-  },
-  {
-    "product_name": "Harina Sin Preparar 1u",
-    "category": "Harina",
-    "presentation": 1,
-    "unit": "u",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 12.9
-      },
-      {
-        "store": "Wong",
-        "price": 13.5
-      }
-    ],
-    "best_price": 12.9,
     "best_store": "Metro"
   },
   {
-    "product_name": "Huevos Blanco 15u",
+    "product_name": "Huevos 0.5kg",
+    "category": "Huevos",
+    "presentation": 0.5,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 19.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 19.9
+      }
+    ],
+    "best_price": 19.9,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Huevos 10u",
+    "category": "Huevos",
+    "presentation": 10,
+    "unit": "u",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 11.5
+      },
+      {
+        "store": "Tottus",
+        "price": 11.9
+      }
+    ],
+    "best_price": 11.5,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Huevos 12u",
+    "category": "Huevos",
+    "presentation": 12,
+    "unit": "u",
+    "stores": [
+      {
+        "store": "Wong",
+        "price": 13.7
+      },
+      {
+        "store": "Tottus",
+        "price": 13.9
+      }
+    ],
+    "best_price": 13.7,
+    "best_store": "Wong"
+  },
+  {
+    "product_name": "Huevos 15u",
     "category": "Huevos",
     "presentation": 15,
     "unit": "u",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 11.5
+        "store": "Plaza Vea",
+        "price": 9.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 11.5
+        "store": "Tottus",
+        "price": 11.3
       },
       {
         "store": "Wong",
         "price": 11.5
       }
     ],
-    "best_price": 11.5,
-    "best_store": "Tottus"
+    "best_price": 9.9,
+    "best_store": "Plaza Vea"
   },
   {
     "product_name": "Huevos Codorniz 18u",
@@ -1926,12 +1366,12 @@
     "unit": "u",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 6.5
-      },
-      {
         "store": "Plaza Vea",
         "price": 6.9
+      },
+      {
+        "store": "Tottus",
+        "price": 7.5
       },
       {
         "store": "Metro",
@@ -1942,31 +1382,31 @@
         "price": 8.35
       }
     ],
-    "best_price": 6.5,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Huevos Rosado 0.5kg",
-    "category": "Huevos",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 19.9
-      },
-      {
-        "store": "Tottus",
-        "price": 19.9
-      }
-    ],
-    "best_price": 19.9,
+    "best_price": 6.9,
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Huevos Rosado 10u",
+    "product_name": "Huevos Pardo 12u",
     "category": "Huevos",
-    "presentation": 10,
+    "presentation": 12,
+    "unit": "u",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 14.9
+      },
+      {
+        "store": "Wong",
+        "price": 14.9
+      }
+    ],
+    "best_price": 14.9,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Huevos Pardo 15u",
+    "category": "Huevos",
+    "presentation": 15,
     "unit": "u",
     "stores": [
       {
@@ -1975,124 +1415,54 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 11.5
+        "price": 9.8
       },
       {
         "store": "Wong",
-        "price": 11.75
+        "price": 14.9
       }
     ],
     "best_price": 9.5,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Huevos Rosado 12u",
-    "category": "Huevos",
-    "presentation": 12,
-    "unit": "u",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 13.5
-      },
-      {
-        "store": "Wong",
-        "price": 13.7
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 14.9
-      }
-    ],
-    "best_price": 13.5,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Huevos Rosado 15u",
-    "category": "Huevos",
-    "presentation": 15,
-    "unit": "u",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 9.4
-      },
-      {
-        "store": "Tottus",
-        "price": 9.5
-      },
-      {
-        "store": "Metro",
-        "price": 10.5
-      },
-      {
-        "store": "Wong",
-        "price": 10.99
-      }
-    ],
-    "best_price": 9.4,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Huevos Rosado 1u",
-    "category": "Huevos",
-    "presentation": 1,
-    "unit": "u",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 3.4
-      },
-      {
-        "store": "Metro",
-        "price": 6.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 24.9
-      }
-    ],
-    "best_price": 3.4,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Huevos Rosado 30u",
+    "product_name": "Huevos Pardo 30u",
     "category": "Huevos",
     "presentation": 30,
     "unit": "u",
     "stores": [
       {
         "store": "Tottus",
-        "price": 12.7
+        "price": 15.5
       },
       {
         "store": "Plaza Vea",
-        "price": 16.5
+        "price": 15.5
       },
       {
         "store": "Wong",
-        "price": 19.99
+        "price": 20.9
       }
     ],
-    "best_price": 12.7,
+    "best_price": 15.5,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Huevos Rosado 8u",
+    "product_name": "Huevos Pardo 8u",
     "category": "Huevos",
     "presentation": 8,
     "unit": "u",
     "stores": [
-      {
-        "store": "Wong",
-        "price": 6.49
-      },
       {
         "store": "Plaza Vea",
         "price": 6.49
       },
       {
         "store": "Metro",
+        "price": 6.49
+      },
+      {
+        "store": "Wong",
         "price": 6.49
       },
       {
@@ -2101,189 +1471,51 @@
       }
     ],
     "best_price": 6.49,
-    "best_store": "Wong"
+    "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Leche Entera 0.8lt",
-    "category": "Leche",
-    "presentation": 0.8,
-    "unit": "lt",
+    "product_name": "Leche Evaporada Entera 0.39kg",
+    "category": "Leche Evaporada",
+    "presentation": 0.39,
+    "unit": "kg",
     "stores": [
-      {
-        "store": "Metro",
-        "price": 4.8
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 4.8
-      }
-    ],
-    "best_price": 4.8,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Leche Entera 0.946lt",
-    "category": "Leche",
-    "presentation": 0.946,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 5.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 6
-      },
       {
         "store": "Tottus",
-        "price": 6.2
+        "price": 22.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 23.3
       }
     ],
-    "best_price": 5.9,
-    "best_store": "Metro"
+    "best_price": 22.5,
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Leche Evaporada Light 0.41kg",
+    "product_name": "Leche Evaporada Leche-evaporada 0.41kg",
     "category": "Leche Evaporada",
     "presentation": 0.41,
     "unit": "kg",
     "stores": [
       {
+        "store": "Tottus",
+        "price": 4
+      },
+      {
         "store": "Plaza Vea",
         "price": 4
       },
       {
-        "store": "Wong",
+        "store": "Metro",
         "price": 4.2
       },
       {
-        "store": "Metro",
+        "store": "Wong",
         "price": 4.2
       }
     ],
     "best_price": 4,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Leche Fresca 0.8lt",
-    "category": "Leche Fresca",
-    "presentation": 0.8,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 4.3
-      },
-      {
-        "store": "Wong",
-        "price": 5.2
-      }
-    ],
-    "best_price": 4.3,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Leche Fresca 0.946lt",
-    "category": "Leche Fresca",
-    "presentation": 0.946,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 5.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 6.2
-      },
-      {
-        "store": "Metro",
-        "price": 6.5
-      },
-      {
-        "store": "Wong",
-        "price": 6.5
-      }
-    ],
-    "best_price": 5.9,
     "best_store": "Tottus"
-  },
-  {
-    "product_name": "Leche Fresca 0.95lt",
-    "category": "Leche Fresca",
-    "presentation": 0.95,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 5.2
-      },
-      {
-        "store": "Wong",
-        "price": 8.9
-      }
-    ],
-    "best_price": 5.2,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Leche Fresca 0.9lt",
-    "category": "Leche Fresca",
-    "presentation": 0.9,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 5.25
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 7.8
-      }
-    ],
-    "best_price": 5.25,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Leche Fresca 1lt",
-    "category": "Leche Fresca",
-    "presentation": 1,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Wong",
-        "price": 5.8
-      },
-      {
-        "store": "Metro",
-        "price": 5.8
-      },
-      {
-        "store": "Tottus",
-        "price": 5.9
-      }
-    ],
-    "best_price": 5.8,
-    "best_store": "Wong"
-  },
-  {
-    "product_name": "Leche Fresca Deslactosada 0.25lt",
-    "category": "Leche Fresca",
-    "presentation": 0.25,
-    "unit": "lt",
-    "stores": [
-      {
-        "store": "Wong",
-        "price": 4.7
-      },
-      {
-        "store": "Metro",
-        "price": 4.7
-      }
-    ],
-    "best_price": 4.7,
-    "best_store": "Wong"
   },
   {
     "product_name": "Leche Fresca Entera 0.8lt",
@@ -2310,24 +1542,24 @@
     "unit": "lt",
     "stores": [
       {
+        "store": "Plaza Vea",
+        "price": 5.8
+      },
+      {
         "store": "Metro",
         "price": 5.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 5.9
+        "store": "Tottus",
+        "price": 6.2
       },
       {
         "store": "Wong",
         "price": 6.2
-      },
-      {
-        "store": "Tottus",
-        "price": 6.2
       }
     ],
-    "best_price": 5.9,
-    "best_store": "Metro"
+    "best_price": 5.8,
+    "best_store": "Plaza Vea"
   },
   {
     "product_name": "Leche Fresca Entera 0.9lt",
@@ -2336,20 +1568,20 @@
     "unit": "lt",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 4.6
-      },
-      {
         "store": "Wong",
         "price": 7.6
       },
       {
         "store": "Metro",
         "price": 7.9
+      },
+      {
+        "store": "Tottus",
+        "price": 12.4
       }
     ],
-    "best_price": 4.6,
-    "best_store": "Tottus"
+    "best_price": 7.6,
+    "best_store": "Wong"
   },
   {
     "product_name": "Leche Fresca Entera 1lt",
@@ -2374,25 +1606,127 @@
     "best_store": "Wong"
   },
   {
-    "product_name": "Leche Fresca Light 0.8lt",
+    "product_name": "Leche Fresca Leche-fresca 0.8lt",
     "category": "Leche Fresca",
     "presentation": 0.8,
     "unit": "lt",
     "stores": [
       {
-        "store": "Wong",
-        "price": 5.2
+        "store": "Plaza Vea",
+        "price": 3.7
       },
       {
         "store": "Metro",
+        "price": 4
+      },
+      {
+        "store": "Wong",
         "price": 5.2
       }
     ],
-    "best_price": 5.2,
-    "best_store": "Wong"
+    "best_price": 3.7,
+    "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Leche Fresca Light 0.946lt",
+    "product_name": "Leche Fresca Leche-fresca 0.946lt",
+    "category": "Leche Fresca",
+    "presentation": 0.946,
+    "unit": "lt",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 5.8
+      },
+      {
+        "store": "Metro",
+        "price": 6.5
+      },
+      {
+        "store": "Wong",
+        "price": 6.5
+      },
+      {
+        "store": "Tottus",
+        "price": 10.9
+      }
+    ],
+    "best_price": 5.8,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Leche Fresca Leche-fresca 0.95lt",
+    "category": "Leche Fresca",
+    "presentation": 0.95,
+    "unit": "lt",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 7.2
+      },
+      {
+        "store": "Wong",
+        "price": 8.9
+      }
+    ],
+    "best_price": 7.2,
+    "best_store": "Metro"
+  },
+  {
+    "product_name": "Leche Fresca Leche-fresca 0.9lt",
+    "category": "Leche Fresca",
+    "presentation": 0.9,
+    "unit": "lt",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 5.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 7.8
+      }
+    ],
+    "best_price": 5.5,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Leche Fresca Leche-fresca 1lt",
+    "category": "Leche Fresca",
+    "presentation": 1,
+    "unit": "lt",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 5.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 16.2
+      }
+    ],
+    "best_price": 5.9,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Leche Fresca Sin Lactosa 0.8lt",
+    "category": "Leche Fresca",
+    "presentation": 0.8,
+    "unit": "lt",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 5.5
+      },
+      {
+        "store": "Wong",
+        "price": 5.6
+      }
+    ],
+    "best_price": 5.5,
+    "best_store": "Metro"
+  },
+  {
+    "product_name": "Leche Fresca Sin Lactosa 0.946lt",
     "category": "Leche Fresca",
     "presentation": 0.946,
     "unit": "lt",
@@ -2408,14 +1742,28 @@
       {
         "store": "Wong",
         "price": 6.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 15.8
       }
     ],
     "best_price": 5.9,
     "best_store": "Tottus"
+  },
+  {
+    "product_name": "Leche Fresca Sin Lactosa 1lt",
+    "category": "Leche Fresca",
+    "presentation": 1,
+    "unit": "lt",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 5.8
+      },
+      {
+        "store": "Wong",
+        "price": 5.8
+      }
+    ],
+    "best_price": 5.8,
+    "best_store": "Metro"
   },
   {
     "product_name": "Lentejas 0.25kg",
@@ -2446,16 +1794,16 @@
     "unit": "kg",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 4.9
-      },
-      {
         "store": "Metro",
         "price": 5
+      },
+      {
+        "store": "Tottus",
+        "price": 5.5
       }
     ],
-    "best_price": 4.9,
-    "best_store": "Tottus"
+    "best_price": 5,
+    "best_store": "Metro"
   },
   {
     "product_name": "Lentejas 0.36kg",
@@ -2468,11 +1816,11 @@
         "price": 7.5
       },
       {
-        "store": "Wong",
+        "store": "Metro",
         "price": 7.5
       },
       {
-        "store": "Metro",
+        "store": "Wong",
         "price": 7.5
       }
     ],
@@ -2520,39 +1868,203 @@
         "price": 3.9
       },
       {
-        "store": "Wong",
-        "price": 3.9
+        "store": "Tottus",
+        "price": 4
       },
       {
-        "store": "Tottus",
-        "price": 4.4
+        "store": "Wong",
+        "price": 4.17
       }
     ],
     "best_price": 3.7,
     "best_store": "Metro"
   },
   {
-    "product_name": "Lentejas 1u",
-    "category": "Lentejas",
-    "presentation": 1,
-    "unit": "u",
+    "product_name": "Mantequilla 0.09kg",
+    "category": "Mantequilla",
+    "presentation": 0.09,
+    "unit": "kg",
     "stores": [
       {
+        "store": "Plaza Vea",
+        "price": 6.9
+      },
+      {
+        "store": "Wong",
+        "price": 6.9
+      }
+    ],
+    "best_price": 6.9,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Mantequilla 0.125kg",
+    "category": "Mantequilla",
+    "presentation": 0.125,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Wong",
+        "price": 12.9
+      },
+      {
         "store": "Metro",
-        "price": 6.7
+        "price": 16.7
+      }
+    ],
+    "best_price": 12.9,
+    "best_store": "Wong"
+  },
+  {
+    "product_name": "Mantequilla 0.15kg",
+    "category": "Mantequilla",
+    "presentation": 0.15,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Wong",
+        "price": 13.5
+      },
+      {
+        "store": "Metro",
+        "price": 17.9
+      }
+    ],
+    "best_price": 13.5,
+    "best_store": "Wong"
+  },
+  {
+    "product_name": "Mantequilla 0.18kg",
+    "category": "Mantequilla",
+    "presentation": 0.18,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 1.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 9.7
+      },
+      {
+        "store": "Wong",
+        "price": 9.9
+      },
+      {
+        "store": "Metro",
+        "price": 10.5
+      }
+    ],
+    "best_price": 1.9,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Mantequilla 0.25kg",
+    "category": "Mantequilla",
+    "presentation": 0.25,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 14.5
+      },
+      {
+        "store": "Wong",
+        "price": 18.6
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 20.5
+      }
+    ],
+    "best_price": 14.5,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Mantequilla 0.2kg",
+    "category": "Mantequilla",
+    "presentation": 0.2,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 9.9
       },
       {
         "store": "Tottus",
-        "price": 16.6
+        "price": 11.9
+      },
+      {
+        "store": "Metro",
+        "price": 15.3
+      },
+      {
+        "store": "Wong",
+        "price": 15.3
       }
     ],
-    "best_price": 6.7,
+    "best_price": 9.9,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Mantequilla 0.35kg",
+    "category": "Mantequilla",
+    "presentation": 0.35,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 14.5
+      },
+      {
+        "store": "Metro",
+        "price": 19.99
+      }
+    ],
+    "best_price": 14.5,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Mantequilla 0.39kg",
+    "category": "Mantequilla",
+    "presentation": 0.39,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 17.1
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 17.5
+      }
+    ],
+    "best_price": 17.1,
     "best_store": "Metro"
   },
   {
-    "product_name": "Mantequilla Con Sal 0.05kg",
+    "product_name": "Mantequilla 6u",
     "category": "Mantequilla",
-    "presentation": 0.05,
+    "presentation": 6,
+    "unit": "u",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 9.5
+      },
+      {
+        "store": "Metro",
+        "price": 9.9
+      }
+    ],
+    "best_price": 9.5,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Pan De Molde Pan-molde 0.25kg",
+    "category": "Pan De Molde",
+    "presentation": 0.25,
     "unit": "kg",
     "stores": [
       {
@@ -2561,360 +2073,84 @@
       },
       {
         "store": "Metro",
-        "price": 3.9
+        "price": 9.9
+      },
+      {
+        "store": "Wong",
+        "price": 9.9
       }
     ],
     "best_price": 3.7,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Mantequilla Con Sal 0.09kg",
-    "category": "Mantequilla",
-    "presentation": 0.09,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 6.2
-      },
-      {
-        "store": "Wong",
-        "price": 6.9
-      }
-    ],
-    "best_price": 6.2,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Mantequilla Con Sal 0.18kg",
-    "category": "Mantequilla",
-    "presentation": 0.18,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 10.5
-      },
-      {
-        "store": "Tottus",
-        "price": 10.7
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 10.7
-      },
-      {
-        "store": "Wong",
-        "price": 11.9
-      }
-    ],
-    "best_price": 10.5,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Mantequilla Con Sal 0.2kg",
-    "category": "Mantequilla",
-    "presentation": 0.2,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 9.9
-      },
-      {
-        "store": "Tottus",
-        "price": 10.95
-      },
-      {
-        "store": "Metro",
-        "price": 15.3
-      },
-      {
-        "store": "Wong",
-        "price": 15.3
-      }
-    ],
-    "best_price": 9.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Mantequilla Con Sal 0.35kg",
-    "category": "Mantequilla",
-    "presentation": 0.35,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 17.9
-      },
-      {
-        "store": "Wong",
-        "price": 17.9
-      }
-    ],
-    "best_price": 17.9,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Mantequilla Sin Sal 0.18kg",
-    "category": "Mantequilla",
-    "presentation": 0.18,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 9.7
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 9.7
-      },
-      {
-        "store": "Wong",
-        "price": 10.2
-      },
-      {
-        "store": "Metro",
-        "price": 10.5
-      }
-    ],
-    "best_price": 9.7,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Mantequilla Sin Sal 0.2kg",
-    "category": "Mantequilla",
-    "presentation": 0.2,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 12.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 15.3
-      },
-      {
-        "store": "Metro",
-        "price": 16.5
-      },
-      {
-        "store": "Wong",
-        "price": 16.5
-      }
-    ],
-    "best_price": 12.9,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Menestras Garbanzos 0.5kg",
-    "category": "Menestras",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 4.5
-      },
-      {
-        "store": "Metro",
-        "price": 4.8
-      }
-    ],
-    "best_price": 4.5,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Menestras Lentejas 0.35kg",
-    "category": "Menestras",
-    "presentation": 0.35,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 4.9
-      },
-      {
-        "store": "Tottus",
-        "price": 4.9
-      }
-    ],
-    "best_price": 4.9,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Menestras Lentejas 0.425kg",
-    "category": "Menestras",
-    "presentation": 0.425,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 7.1
-      },
-      {
-        "store": "Metro",
-        "price": 7.8
-      }
-    ],
-    "best_price": 7.1,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Menestras Lentejas 0.4kg",
-    "category": "Menestras",
-    "presentation": 0.4,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 3.4
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 20.2
-      }
-    ],
-    "best_price": 3.4,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Menestras Lentejas 0.5kg",
-    "category": "Menestras",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 3.9
-      },
-      {
-        "store": "Tottus",
-        "price": 4.4
-      },
-      {
-        "store": "Metro",
-        "price": 4.5
-      }
-    ],
-    "best_price": 3.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Menestras Lentejas 1u",
-    "category": "Menestras",
-    "presentation": 1,
-    "unit": "u",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 5
-      },
-      {
-        "store": "Metro",
-        "price": 6.2
-      }
-    ],
-    "best_price": 5,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Menestras Menestras Variadas 0.5kg",
-    "category": "Menestras",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 4.9
-      },
-      {
-        "store": "Tottus",
-        "price": 7.3
-      }
-    ],
-    "best_price": 4.9,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Menestras Pallares 0.5kg",
-    "category": "Menestras",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 5.6
-      },
-      {
-        "store": "Metro",
-        "price": 5.6
-      }
-    ],
-    "best_price": 5.6,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Menestras Trigo 0.5kg",
-    "category": "Menestras",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 3.2
-      },
-      {
-        "store": "Tottus",
-        "price": 3.8
-      }
-    ],
-    "best_price": 3.2,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Pan De Molde Blanco 0.25kg",
+    "product_name": "Pan De Molde Pan-molde 0.36kg",
     "category": "Pan De Molde",
-    "presentation": 0.25,
+    "presentation": 0.36,
     "unit": "kg",
     "stores": [
       {
-        "store": "Metro",
-        "price": 9.9
+        "store": "Plaza Vea",
+        "price": 7.6
       },
       {
         "store": "Wong",
-        "price": 9.9
+        "price": 9
+      },
+      {
+        "store": "Metro",
+        "price": 9.5
       }
     ],
-    "best_price": 9.9,
-    "best_store": "Metro"
+    "best_price": 7.6,
+    "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Pan De Molde Blanco 0.39kg",
+    "product_name": "Pan De Molde Pan-molde 0.39kg",
     "category": "Pan De Molde",
     "presentation": 0.39,
     "unit": "kg",
     "stores": [
       {
         "store": "Metro",
-        "price": 8.5
+        "price": 9.9
       },
       {
         "store": "Wong",
-        "price": 8.5
+        "price": 9.9
       }
     ],
-    "best_price": 8.5,
+    "best_price": 9.9,
     "best_store": "Metro"
   },
   {
-    "product_name": "Pan De Molde Blanco 0.48kg",
+    "product_name": "Pan De Molde Pan-molde 0.3kg",
+    "category": "Pan De Molde",
+    "presentation": 0.3,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 6.9
+      },
+      {
+        "store": "Metro",
+        "price": 10.5
+      }
+    ],
+    "best_price": 6.9,
+    "best_store": "Tottus"
+  },
+  {
+    "product_name": "Pan De Molde Pan-molde 0.48kg",
     "category": "Pan De Molde",
     "presentation": 0.48,
     "unit": "kg",
     "stores": [
+      {
+        "store": "Tottus",
+        "price": 7.5
+      },
       {
         "store": "Metro",
         "price": 8.2
@@ -2924,141 +2160,71 @@
         "price": 11.9
       }
     ],
-    "best_price": 8.2,
-    "best_store": "Metro"
+    "best_price": 7.5,
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Pan De Molde Blanco 0.56kg",
+    "product_name": "Pan De Molde Pan-molde 0.495kg",
     "category": "Pan De Molde",
-    "presentation": 0.56,
+    "presentation": 0.495,
     "unit": "kg",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 11.4
+        "store": "Metro",
+        "price": 13.5
+      },
+      {
+        "store": "Wong",
+        "price": 14.6
+      }
+    ],
+    "best_price": 13.5,
+    "best_store": "Metro"
+  },
+  {
+    "product_name": "Pan De Molde Pan-molde 0.53kg",
+    "category": "Pan De Molde",
+    "presentation": 0.53,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 12.3
       },
       {
         "store": "Tottus",
-        "price": 11.4
-      },
-      {
-        "store": "Wong",
-        "price": 11.5
-      },
-      {
-        "store": "Metro",
-        "price": 13.5
+        "price": 12.4
       }
     ],
-    "best_price": 11.4,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Pan De Molde Blanco 0.59kg",
-    "category": "Pan De Molde",
-    "presentation": 0.59,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 9.5
-      },
-      {
-        "store": "Metro",
-        "price": 13.4
-      },
-      {
-        "store": "Wong",
-        "price": 13.5
-      }
-    ],
-    "best_price": 9.5,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Pan De Molde Blanco 0.5kg",
-    "category": "Pan De Molde",
-    "presentation": 0.5,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 6.5
-      },
-      {
-        "store": "Metro",
-        "price": 7.9
-      }
-    ],
-    "best_price": 6.5,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Pan De Molde Blanco 0.77kg",
-    "category": "Pan De Molde",
-    "presentation": 0.77,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Wong",
-        "price": 9.8
-      },
-      {
-        "store": "Metro",
-        "price": 9.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 9.9
-      }
-    ],
-    "best_price": 9.8,
-    "best_store": "Wong"
-  },
-  {
-    "product_name": "Pan De Molde Con Avena 0.6kg",
-    "category": "Pan De Molde",
-    "presentation": 0.6,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 4.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 13.9
-      }
-    ],
-    "best_price": 4.9,
+    "best_price": 12.3,
     "best_store": "Metro"
   },
   {
-    "product_name": "Pan De Molde Integral 0.36kg",
+    "product_name": "Pan De Molde Pan-molde 0.54kg",
     "category": "Pan De Molde",
-    "presentation": 0.36,
+    "presentation": 0.54,
     "unit": "kg",
     "stores": [
       {
         "store": "Metro",
-        "price": 7.6
+        "price": 10.5
       },
       {
         "store": "Plaza Vea",
-        "price": 8.4
+        "price": 11.2
       },
       {
         "store": "Wong",
-        "price": 9.7
+        "price": 13.6
       }
     ],
-    "best_price": 7.6,
+    "best_price": 10.5,
     "best_store": "Metro"
   },
   {
-    "product_name": "Pan De Molde Integral 0.48kg",
+    "product_name": "Pan De Molde Pan-molde 0.56kg",
     "category": "Pan De Molde",
-    "presentation": 0.48,
+    "presentation": 0.56,
     "unit": "kg",
     "stores": [
       {
@@ -3067,66 +2233,8 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 21
+        "price": 11.3
       },
-      {
-        "store": "Wong",
-        "price": 21.9
-      }
-    ],
-    "best_price": 10.7,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Pan De Molde Integral 0.495kg",
-    "category": "Pan De Molde",
-    "presentation": 0.495,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 10.8
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 12.7
-      },
-      {
-        "store": "Wong",
-        "price": 14.6
-      }
-    ],
-    "best_price": 10.8,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Pan De Molde Integral 0.54kg",
-    "category": "Pan De Molde",
-    "presentation": 0.54,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 10.32
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 10.8
-      },
-      {
-        "store": "Wong",
-        "price": 13.6
-      }
-    ],
-    "best_price": 10.32,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Pan De Molde Integral 0.56kg",
-    "category": "Pan De Molde",
-    "presentation": 0.56,
-    "unit": "kg",
-    "stores": [
       {
         "store": "Wong",
         "price": 11.5
@@ -3136,18 +2244,36 @@
         "price": 12.5
       }
     ],
-    "best_price": 11.5,
-    "best_store": "Wong"
+    "best_price": 10.7,
+    "best_store": "Tottus"
   },
   {
-    "product_name": "Pan De Molde Integral 0.5kg",
+    "product_name": "Pan De Molde Pan-molde 0.59kg",
+    "category": "Pan De Molde",
+    "presentation": 0.59,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 9.6
+      },
+      {
+        "store": "Metro",
+        "price": 13.4
+      }
+    ],
+    "best_price": 9.6,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Pan De Molde Pan-molde 0.5kg",
     "category": "Pan De Molde",
     "presentation": 0.5,
     "unit": "kg",
     "stores": [
       {
         "store": "Plaza Vea",
-        "price": 6.5
+        "price": 7.5
       },
       {
         "store": "Tottus",
@@ -3155,28 +2281,46 @@
       },
       {
         "store": "Metro",
-        "price": 8.2
+        "price": 7.9
+      },
+      {
+        "store": "Wong",
+        "price": 7.9
       }
     ],
-    "best_price": 6.5,
+    "best_price": 7.5,
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Pan De Molde Integral 0.65kg",
+    "product_name": "Pan De Molde Pan-molde 0.62kg",
+    "category": "Pan De Molde",
+    "presentation": 0.62,
+    "unit": "kg",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 9.9
+      },
+      {
+        "store": "Wong",
+        "price": 10.3
+      }
+    ],
+    "best_price": 9.9,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "product_name": "Pan De Molde Pan-molde 0.65kg",
     "category": "Pan De Molde",
     "presentation": 0.65,
     "unit": "kg",
     "stores": [
       {
         "store": "Plaza Vea",
-        "price": 10.5
+        "price": 10.1
       },
       {
         "store": "Metro",
-        "price": 12.2
-      },
-      {
-        "store": "Wong",
         "price": 12.2
       },
       {
@@ -3184,11 +2328,11 @@
         "price": 13.5
       }
     ],
-    "best_price": 10.5,
+    "best_price": 10.1,
     "best_store": "Plaza Vea"
   },
   {
-    "product_name": "Pan De Molde Integral 0.6kg",
+    "product_name": "Pan De Molde Pan-molde 0.6kg",
     "category": "Pan De Molde",
     "presentation": 0.6,
     "unit": "kg",
@@ -3198,161 +2342,55 @@
         "price": 9.5
       },
       {
-        "store": "Plaza Vea",
-        "price": 13
+        "store": "Metro",
+        "price": 12.5
       },
       {
-        "store": "Metro",
-        "price": 15.9
+        "store": "Wong",
+        "price": 12.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 13.9
       }
     ],
     "best_price": 9.5,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Pan De Molde Integral 0.81kg",
-    "category": "Pan De Molde",
-    "presentation": 0.81,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 9.9
-      },
-      {
-        "store": "Wong",
-        "price": 11.9
-      },
-      {
-        "store": "Metro",
-        "price": 12.5
-      }
-    ],
-    "best_price": 9.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Pan De Molde Multisemilla 0.36kg",
-    "category": "Pan De Molde",
-    "presentation": 0.36,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 8.9
-      },
-      {
-        "store": "Wong",
-        "price": 9.2
-      },
-      {
-        "store": "Metro",
-        "price": 10.9
-      }
-    ],
-    "best_price": 8.9,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Pan De Molde Multisemilla 0.54kg",
-    "category": "Pan De Molde",
-    "presentation": 0.54,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 10.32
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 10.8
-      },
-      {
-        "store": "Wong",
-        "price": 13.6
-      }
-    ],
-    "best_price": 10.32,
-    "best_store": "Metro"
-  },
-  {
-    "product_name": "Pan De Molde Multisemilla Y Avena 0.54kg",
-    "category": "Pan De Molde",
-    "presentation": 0.54,
-    "unit": "kg",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 10.8
-      },
-      {
-        "store": "Wong",
-        "price": 13.6
-      }
-    ],
-    "best_price": 10.8,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "product_name": "Pollo Entero 1u",
+    "product_name": "Pollo 0.4kg",
     "category": "Pollo",
-    "presentation": 1,
-    "unit": "u",
+    "presentation": 0.4,
+    "unit": "kg",
     "stores": [
       {
         "store": "Tottus",
-        "price": 9.4
+        "price": 6.9
       },
       {
         "store": "Wong",
-        "price": 12.3
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 13.5
+        "price": 15.5
       }
     ],
-    "best_price": 9.4,
+    "best_price": 6.9,
     "best_store": "Tottus"
   },
   {
-    "product_name": "Pollo Pechuga 1u",
+    "product_name": "Pollo 1lt",
     "category": "Pollo",
     "presentation": 1,
-    "unit": "u",
+    "unit": "lt",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 14.5
+        "store": "Plaza Vea",
+        "price": 32.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 14.9
+        "store": "Wong",
+        "price": 42.5
       }
     ],
-    "best_price": 14.5,
-    "best_store": "Tottus"
-  },
-  {
-    "product_name": "Pollo Pierna 1u",
-    "category": "Pollo",
-    "presentation": 1,
-    "unit": "u",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 5.7
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 11.5
-      },
-      {
-        "store": "Metro",
-        "price": 14.5
-      }
-    ],
-    "best_price": 5.7,
-    "best_store": "Tottus"
+    "best_price": 32.9,
+    "best_store": "Plaza Vea"
   }
 ]
