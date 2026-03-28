@@ -481,34 +481,7 @@ function formatOutput(groups, minStores = 2) {
 function loadRawData(filePath) {
 
     const content = fs.readFileSync(filePath, 'utf8');
-
-    // data.js declares: const rawData = [...]
-
-    // We wrap it so we can capture the variable
-
-    const wrappedCode = content + '\nmodule.exports = rawData;';
-
-    const tmpPath = path.join(__dirname, '_tmp_data_loader.js');
-
-    fs.writeFileSync(tmpPath, wrappedCode, 'utf8');
-
-    try {
-
-        // Clear require cache to ensure fresh load
-
-        delete require.cache[require.resolve(tmpPath)];
-
-        const data = require(tmpPath);
-
-        return data;
-
-    } finally {
-
-        // Clean up temp file
-
-        try { fs.unlinkSync(tmpPath); } catch (_) { /* ignore */ }
-
-    }
+    return JSON.parse(content);
 
 }
 
@@ -550,13 +523,13 @@ module.exports = {
 
 if (require.main === module) {
 
-    const dataPath = path.join(__dirname, '..', 'data.js');
+    const dataPath = path.join(__dirname, '..', 'data', 'master-data.json');
 
     const outputPath = path.join(__dirname, '..', 'comparison_data.json');
 
 
 
-    console.log('Loading rawData from data.js...');
+    console.log('Loading rawData from master-data.json...');
 
     const rawData = loadRawData(dataPath);
 
