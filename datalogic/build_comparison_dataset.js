@@ -301,7 +301,7 @@ function isComboOrPack(row) {
 
  */
 
-function buildComparisonGroups(rawData) {
+function buildComparisonGroups(rawData, catalog = [], catalogLookup = new Map(), matcher = matcherEngine) {
 
     const groups = new Map();
 
@@ -323,47 +323,34 @@ function buildComparisonGroups(rawData) {
 
         // --- Normalize fields ---
 
-        const cat = normalizeCategory(row.categoria);
+        const matched = getCanonicalMatch(row, catalog, catalogLookup, matcher);
+        if (!matched) continue;
 
-        const tipo = normalizeTipo(row.tipo);
-
-        const rawPres = parsePresentacion(row.presentacion);
-        const rawUnit = normalizeUnit(row.um);
-
-        const { value: pres, unit: normalizedUnit } = normalizePresentation(rawPres, rawUnit);
-
-        const unit = normalizedUnit;
-
+        const cat = matched.categoria || normalizeCategory(row.categoria);
+        const tipo = matched.subcategoria || normalizeTipo(row.tipo);
+        const pres = matched.presentation;
+        const unit = matched.unit || '';
         const store = (row.super || row.supermercado || '').trim();
-
         const price = row.precioOnline;
-
-
 
         if (!cat || !store) continue;
 
-
-
-        // --- Build grouping key ---
-
-        const key = `${cat}|${tipo}|${pres}|${unit}`;
+        const key = matched.canonical_name;
 
 
 
         if (!groups.has(key)) {
 
             groups.set(key, {
-
-                category: cat,
-
-                tipo: tipo,
-
-                presentacion: pres,
-
-                unit: unit,
-
-                storeMap: new Map(), // store → cheapest price
-
+                canonical_name: matched.canonical_name,
+                comparison_group: matched.comparison_group || matched.family_name || matched.canonical_name,
+                category: matched.categoria || cat,
+                tipo: matched.subcategoria || tipo,
+                presentacion: matched.presentation,
+                unit: matched.unit || unit,
+                price_unit: matched.price_unit || matched.normalized_unit || null,
+                normalized_unit: matched.normalized_unit || null,
+                storeMap: new Map(),
             });
 
         }
@@ -431,14 +418,21 @@ function formatOutput(groups, minStores = 2) {
 
 
         results.push({
+            canonical_name: group.canonical_name,
 
-            product_name: buildProductName(group.category, group.tipo, group.presentacion, group.unit),
+            product_name: group.canonical_name,
 
-            category: titleCase(group.category),
+            comparison_group: group.comparison_group,
+
+            category: group.category,
 
             presentation: group.presentacion,
 
             unit: group.unit,
+
+            price_unit: group.price_unit,
+
+            normalized_unit: group.normalized_unit,
 
             stores: stores,
 
@@ -484,6 +478,9 @@ function loadRawData(filePath) {
     return JSON.parse(content);
 
 }
+
+const matcherEngine = require('../ontology/product_matcher_engine');
+
 
 function flattenMasterData(masterData) {
     const rows = [];
@@ -622,6 +619,25 @@ function inferTipo(name, categoria) {
     return String(categoria || '').trim();
 }
 
+function buildCatalogLookup(catalog) {
+    const map = new Map();
+    for (const entry of catalog || []) {
+        map.set(entry.canonical_name, entry);
+    }
+    return map;
+}
+
+function getCanonicalMatch(row, catalog, catalogLookup, matcher = matcherEngine) {
+    const rawName = row.item || row.nombre || '';
+    if (!rawName) return null;
+
+    const result = matcher.match({ name: rawName }, catalog, 1);
+    if (!result || !result.best_match) return null;
+
+    return catalogLookup.get(result.best_match) || null;
+}
+
+
 // ─── Exports for testing ───────────────────────────────────────────
 
 module.exports = {
@@ -659,6 +675,10 @@ module.exports = {
     inferBrand,
 
     inferTipo,
+
+    buildCatalogLookup,
+
+    getCanonicalMatch,
 
 };
 
