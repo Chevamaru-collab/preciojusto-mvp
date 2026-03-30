@@ -1,0 +1,78 @@
+[
+    {
+        "match": "Mix Berries Frambuesa y Blueberries",
+        "action": "force_mix",
+        "canonical_name": "Frutas Mix Berries",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Mix Berries",
+        "comparison_group": "Frutas Mix Berries",
+        "needs_review": false
+    },
+    {
+        "match": "Fresas + Aguaymantos",
+        "action": "force_mix",
+        "canonical_name": "Frutas Mix Fresas Aguaymantos",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Mix Fresas Aguaymantos",
+        "comparison_group": "Frutas Mix Fresas Aguaymantos",
+        "needs_review": false
+    },
+    {
+        "match": "Aguaymanto KG",
+        "action": "force_single",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Aguaymanto",
+        "comparison_group": "Frutas Aguaymanto"
+    },
+    {
+        "match": "Aguaymantos 0.2 KG",
+        "action": "force_single",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Aguaymanto",
+        "comparison_group": "Frutas Aguaymanto"
+    },
+    {
+        "match": "Aguaymantos 0.25 KG",
+        "action": "force_single",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Aguaymanto",
+        "comparison_group": "Frutas Aguaymanto"
+    },
+    {
+        "match": "Arandanos",
+        "action": "force_single",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Arándanos",
+        "comparison_group": "Frutas Arándanos"
+    },
+    {
+        "match": "Arándanos",
+        "action": "force_single",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Arándanos",
+        "comparison_group": "Frutas Arándanos"
+    },
+    {
+        "match": "Frambuesa",
+        "action": "force_single",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Frambuesa",
+        "comparison_group": "Frutas Frambuesa"
+    },
+    {
+        "match": "Frambuesas",
+        "action": "force_single",
+        "rubro": "Frutas",
+        "categoria": "Frutas",
+        "subcategoria": "Frambuesa",
+        "comparison_group": "Frutas Frambuesa"
+    }
+]
