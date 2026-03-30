@@ -1,28 +1,6 @@
 [
   {
-    "id": "plazavea_azcarrubiabellsbolsa_mncbx42z",
-    "nombre": "Azúcar Rubia BELL'S Bolsa 1Kg",
-    "categoria": "azucar-rubia",
-    "super": "plazavea",
-    "precios": {
-      "online": 3.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-03-29T22:26:58.667Z"
-  },
-  {
-    "id": "plazavea_azcarrubiacartaviobo_mncbx42z",
+    "id": "plazavea_azcarrubiacartaviobo_mndsurtn",
     "nombre": "Azúcar Rubia CARTAVIO Bolsa 1Kg",
     "categoria": "azucar-rubia",
     "super": "plazavea",
@@ -41,10 +19,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-29T22:26:58.667Z"
+    "timestamp": "2026-03-30T23:08:49.115Z"
   },
   {
-    "id": "plazavea_azcarrubiadulfinabol_mncbx42z",
+    "id": "plazavea_azcarrubiabellsbolsa_mndsurtn",
+    "nombre": "Azúcar Rubia BELL'S Bolsa 1Kg",
+    "categoria": "azucar-rubia",
+    "super": "plazavea",
+    "precios": {
+      "online": 3.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-30T23:08:49.115Z"
+  },
+  {
+    "id": "plazavea_azcarrubiadulfinabol_mndsurtn",
     "nombre": "Azúcar Rubia DULFINA Bolsa 2Kg",
     "categoria": "azucar-rubia",
     "super": "plazavea",
@@ -63,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-29T22:26:58.667Z"
+    "timestamp": "2026-03-30T23:08:49.115Z"
   },
   {
-    "id": "plazavea_azcarrubiacasagrande_mncbx42z",
+    "id": "plazavea_azcarrubiacasagrande_mndsurtn",
     "nombre": "Azúcar Rubia CASA GRANDE Bolsa 5Kg",
     "categoria": "azucar-rubia",
     "super": "plazavea",
@@ -85,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-29T22:26:58.667Z"
+    "timestamp": "2026-03-30T23:08:49.115Z"
   },
   {
-    "id": "plazavea_azcarrubiabellscaja6_mncbx42z",
+    "id": "plazavea_azcarrubiabellscaja6_mndsurto",
     "nombre": "Azúcar Rubia BELL'S Caja 60un",
     "categoria": "azucar-rubia",
     "super": "plazavea",
@@ -107,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-29T22:26:58.667Z"
+    "timestamp": "2026-03-30T23:08:49.116Z"
   },
   {
-    "id": "plazavea_azcarrubiasanjacinto_mncbx42z",
+    "id": "plazavea_azcarrubiasanjacinto_mndsurto",
     "nombre": "Azúcar Rubia San Jacinto 25 Kg",
     "categoria": "azucar-rubia",
     "super": "plazavea",
@@ -129,6 +129,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-29T22:26:58.667Z"
+    "timestamp": "2026-03-30T23:08:49.116Z"
   }
 ]
