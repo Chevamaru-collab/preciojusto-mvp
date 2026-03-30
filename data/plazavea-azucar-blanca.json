@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_azcarblancabellsbols_mnajh39j",
+    "id": "plazavea_azcarblancabellsbols_mncbwy39",
     "nombre": "Azúcar Blanca BELL'S Bolsa 5Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T16:22:55.687Z"
+    "timestamp": "2026-03-29T22:26:50.901Z"
   },
   {
-    "id": "plazavea_azcarblancadulfinabo_mnajh39j",
+    "id": "plazavea_azcarblancadulfinabo_mncbwy39",
     "nombre": "Azúcar Blanca DULFINA Bolsa 5Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -41,10 +41,50 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T16:22:55.687Z"
+    "timestamp": "2026-03-29T22:26:50.901Z"
   },
   {
-    "id": "plazavea_azcarblancarefinadac_mnajh39j",
+    "id": "plazavea_azcarblancadulfinabo_mncbwy3a",
+    "nombre": "Azúcar Blanca DULFINA Bolsa 1Kg",
+    "categoria": "azucar-blanca",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.3,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.3,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-29T22:26:50.902Z"
+  },
+  {
+    "id": "plazavea_basedemaquillajeazuc_mncbwy3a",
+    "nombre": "Base de Maquillaje Azucar Blanca 110-C Studio Look",
+    "categoria": "azucar-blanca",
+    "super": "plazavea",
+    "precios": {
+      "online": 41.9,
+      "regular": 62,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 41.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 32,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-03-29T22:26:50.902Z"
+  },
+  {
+    "id": "plazavea_azcarblancarefinadac_mncbwy3a",
     "nombre": "Azúcar Blanca Refinada CARTAVIO Saco 50Kg",
     "categoria": "azucar-blanca",
     "super": "plazavea",
@@ -63,6 +103,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-28T16:22:55.687Z"
+    "timestamp": "2026-03-29T22:26:50.902Z"
   }
 ]

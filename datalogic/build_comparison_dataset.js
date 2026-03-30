@@ -697,14 +697,24 @@ if (require.main === module) {
     console.log('Loading rawData from master-data.json...');
 
     const masterData = loadRawData(dataPath);
+
     const rawData = flattenMasterData(masterData);
+
     console.log(`Loaded ${rawData.length} flattened records.`);
 
 
 
+    console.log('Loading matcher catalog...');
+
+    const catalog = matcherEngine.loadCatalog();
+
+    const catalogLookup = buildCatalogLookup(catalog);
+
+    console.log(`Loaded ${catalog.length} matcher catalog entries.`);
+
     console.log('Building comparison groups...');
 
-    const groups = buildComparisonGroups(rawData);
+    const groups = buildComparisonGroups(rawData, catalog, catalogLookup, matcherEngine);
 
     console.log(`Found ${groups.size} total groups.`);
 
