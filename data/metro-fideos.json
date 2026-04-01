@@ -1,6 +1,6 @@
 [
   {
-    "id": "metro_fideoscuisinecocabel_mndsxxcq",
+    "id": "metro_fideoscuisinecocabel_mnfert1f",
     "nombre": "Fideos Cuisine &Co Cabello de Ángel 250g",
     "categoria": "fideos",
     "super": "metro",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.451Z"
   },
   {
-    "id": "metro_fideoscuisinecocanut_mndsxxcq",
+    "id": "metro_fideoscuisinecocanut_mnfert1f",
     "nombre": "Fideos Cuisine &Co Canuto 250g",
     "categoria": "fideos",
     "super": "metro",
@@ -41,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.451Z"
   },
   {
-    "id": "metro_fideoscuisinecocorba_mndsxxcq",
+    "id": "metro_fideoscuisinecocorba_mnfert1f",
     "nombre": "Fideos Cuisine &Co Corbata 250g",
     "categoria": "fideos",
     "super": "metro",
@@ -63,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.451Z"
   },
   {
-    "id": "metro_pastacortamolitaliac_mndsxxcq",
+    "id": "metro_pastacortamolitaliac_mnfert1f",
     "nombre": "Pasta Corta Molitalia Codo Rayado 235g",
     "categoria": "fideos",
     "super": "metro",
@@ -85,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.451Z"
   },
   {
-    "id": "metro_spaghettidelcielo500_mndsxxcq",
+    "id": "metro_spaghettidelcielo500_mnfert1f",
     "nombre": "Spaghetti Del Cielo 500g",
     "categoria": "fideos",
     "super": "metro",
@@ -107,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.451Z"
   },
   {
-    "id": "metro_tallarndelcielo500g_mndsxxcq",
+    "id": "metro_tallarndelcielo500g_mnfert1f",
     "nombre": "Tallarín Del Cielo 500g",
     "categoria": "fideos",
     "super": "metro",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.451Z"
   },
   {
-    "id": "metro_fideoscodorayadodonv_mndsxxcq",
+    "id": "metro_fideoscodorayadodonv_mnfert1f",
     "nombre": "Fideos Codo Rayado Don Vittorio 225g",
     "categoria": "fideos",
     "super": "metro",
@@ -151,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.451Z"
   },
   {
-    "id": "metro_tallarinespigadeoro5_mndsxxcq",
+    "id": "metro_tallarinespigadeoro5_mnfert1g",
     "nombre": "Tallarin Espiga de Oro 500g",
     "categoria": "fideos",
     "super": "metro",
@@ -173,10 +173,10 @@
     },
     "descuento": 21,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.452Z"
   },
   {
-    "id": "metro_spaghettiespigadeoro_mndsxxcq",
+    "id": "metro_spaghettiespigadeoro_mnfert1g",
     "nombre": "Spaghetti Espiga de Oro 500g",
     "categoria": "fideos",
     "super": "metro",
@@ -195,10 +195,32 @@
     },
     "descuento": 21,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.452Z"
   },
   {
-    "id": "metro_fideoscabellodengelc_mndsxxcq",
+    "id": "metro_fideoscuisinecotorni_mnfert1g",
+    "nombre": "Fideos Cuisine &Co Tornillo 450g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.5,
+      "regular": 2.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T02:10:08.452Z"
+  },
+  {
+    "id": "metro_fideoscabellodengelc_mnfert1g",
     "nombre": "Fideos Cabello de Ángel Cuisine & Co 500g",
     "categoria": "fideos",
     "super": "metro",
@@ -217,28 +239,72 @@
     },
     "descuento": 31,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.452Z"
   },
   {
-    "id": "metro_fideotallarndelgadon_mndsxxcq",
-    "nombre": "Fideo Tallarín Delgado Nicolini 500g",
+    "id": "metro_fideoscuisinecocanut_mnfert1g",
+    "nombre": "Fideos Cuisine &Co Canuto 450g",
     "categoria": "fideos",
     "super": "metro",
     "precios": {
-      "online": 2.8,
-      "regular": 3.4,
+      "online": 2.5,
+      "regular": 2.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.6,
+      "porUnidad": 5.56,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 500,
+      "valor": 450,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 18,
+    "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-03-30T23:11:16.250Z"
+    "timestamp": "2026-04-01T02:10:08.452Z"
+  },
+  {
+    "id": "metro_fideoscuisinecospagu_mnfert1g",
+    "nombre": "Fideos Cuisine &Co Spaguetti 450g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.5,
+      "regular": 2.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T02:10:08.452Z"
+  },
+  {
+    "id": "metro_fideoscuisinecocorba_mnfert1g",
+    "nombre": "Fideos Cuisine &Co Corbata 450g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.5,
+      "regular": 2.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T02:10:08.452Z"
   }
 ]

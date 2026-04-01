@@ -14,16 +14,16 @@
         "price": 3.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 5.4
-      },
-      {
         "store": "Metro",
         "price": 5.4
       },
       {
         "store": "Wong",
         "price": 5.4
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 6.5
       }
     ],
     "best_price": 3.9,
@@ -41,7 +41,7 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 13.5
+        "price": 12.6
       },
       {
         "store": "Metro",
@@ -52,7 +52,7 @@
         "price": 15.5
       }
     ],
-    "best_price": 13.5,
+    "best_price": 12.6,
     "best_store": "Tottus"
   },
   {
@@ -122,12 +122,12 @@
         "price": 5.3
       },
       {
-        "store": "Wong",
+        "store": "Tottus",
         "price": 5.5
       },
       {
-        "store": "Tottus",
-        "price": 8.2
+        "store": "Wong",
+        "price": 5.5
       }
     ],
     "best_price": 4.8,
@@ -154,6 +154,10 @@
       {
         "store": "Wong",
         "price": 22.8
+      },
+      {
+        "store": "Tottus",
+        "price": 25.9
       }
     ],
     "best_price": 22.8,
@@ -175,7 +179,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 7.49
+        "price": 6.9
       }
     ],
     "best_price": 6.5,
@@ -304,12 +308,12 @@
         "price": 6.9
       },
       {
-        "store": "Plaza Vea",
+        "store": "Wong",
         "price": 6.9
       },
       {
-        "store": "Wong",
-        "price": 6.9
+        "store": "Plaza Vea",
+        "price": 9.7
       },
       {
         "store": "Metro",
@@ -369,7 +373,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 17.9
+        "price": 17.5
       }
     ],
     "best_price": 9.9,
@@ -386,16 +390,16 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Wong",
-        "price": 15.9
+        "store": "Plaza Vea",
+        "price": 15.3
       },
       {
-        "store": "Plaza Vea",
-        "price": 17.9
+        "store": "Wong",
+        "price": 15.9
       }
     ],
-    "best_price": 15.9,
-    "best_store": "Wong"
+    "best_price": 15.3,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Huevos Pardos 15 UND",
@@ -413,7 +417,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 9.8
+        "price": 9.4
       },
       {
         "store": "Wong",
@@ -438,12 +442,12 @@
         "price": 15.5
       },
       {
-        "store": "Plaza Vea",
-        "price": 15.5
+        "store": "Wong",
+        "price": 18.9
       },
       {
-        "store": "Wong",
-        "price": 20.9
+        "store": "Plaza Vea",
+        "price": 20.5
       }
     ],
     "best_price": 15.5,
@@ -495,11 +499,11 @@
       },
       {
         "store": "Metro",
-        "price": 15.3
+        "price": 15.5
       },
       {
         "store": "Wong",
-        "price": 15.9
+        "price": 16.5
       },
       {
         "store": "Plaza Vea",
@@ -563,7 +567,7 @@
       },
       {
         "store": "Tottus",
-        "price": 5.5
+        "price": 12.2
       }
     ],
     "best_price": 3.7,
