@@ -1,15 +1,15 @@
 [
   {
-    "id": "metro_fideoscuisinecocabel_mnfert1f",
+    "id": "metro_fideoscuisinecocabel_mngndofi",
     "nombre": "Fideos Cuisine &Co Cabello de Ángel 250g",
     "categoria": "fideos",
     "super": "metro",
     "precios": {
-      "online": 1.6,
-      "regular": null,
+      "online": 1.5,
+      "regular": 1.6,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 6.4,
+      "porUnidad": 6,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,232 +17,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.451Z"
+    "timestamp": "2026-04-01T22:58:52.014Z"
   },
   {
-    "id": "metro_fideoscuisinecocanut_mnfert1f",
-    "nombre": "Fideos Cuisine &Co Canuto 250g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 1.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.451Z"
-  },
-  {
-    "id": "metro_fideoscuisinecocorba_mnfert1f",
-    "nombre": "Fideos Cuisine &Co Corbata 250g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 1.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 250,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.451Z"
-  },
-  {
-    "id": "metro_pastacortamolitaliac_mnfert1f",
-    "nombre": "Pasta Corta Molitalia Codo Rayado 235g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 1.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.09,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 235,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.451Z"
-  },
-  {
-    "id": "metro_spaghettidelcielo500_mnfert1f",
-    "nombre": "Spaghetti Del Cielo 500g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.451Z"
-  },
-  {
-    "id": "metro_tallarndelcielo500g_mnfert1f",
-    "nombre": "Tallarín Del Cielo 500g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.451Z"
-  },
-  {
-    "id": "metro_fideoscodorayadodonv_mnfert1f",
-    "nombre": "Fideos Codo Rayado Don Vittorio 225g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 2.1,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 9.33,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 225,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.451Z"
-  },
-  {
-    "id": "metro_tallarinespigadeoro5_mnfert1g",
-    "nombre": "Tallarin Espiga de Oro 500g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 2.2,
-      "regular": 2.8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 21,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.452Z"
-  },
-  {
-    "id": "metro_spaghettiespigadeoro_mnfert1g",
-    "nombre": "Spaghetti Espiga de Oro 500g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 2.2,
-      "regular": 2.8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 21,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.452Z"
-  },
-  {
-    "id": "metro_fideoscuisinecotorni_mnfert1g",
-    "nombre": "Fideos Cuisine &Co Tornillo 450g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 2.5,
-      "regular": 2.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.56,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 450,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.452Z"
-  },
-  {
-    "id": "metro_fideoscabellodengelc_mnfert1g",
-    "nombre": "Fideos Cabello de Ángel Cuisine & Co 500g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 2.5,
-      "regular": 3.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 31,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.452Z"
-  },
-  {
-    "id": "metro_fideoscuisinecocanut_mnfert1g",
+    "id": "metro_fideoscuisinecocanut_mngndofi",
     "nombre": "Fideos Cuisine &Co Canuto 450g",
     "categoria": "fideos",
     "super": "metro",
@@ -261,32 +41,10 @@
     },
     "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.452Z"
+    "timestamp": "2026-04-01T22:58:52.014Z"
   },
   {
-    "id": "metro_fideoscuisinecospagu_mnfert1g",
-    "nombre": "Fideos Cuisine &Co Spaguetti 450g",
-    "categoria": "fideos",
-    "super": "metro",
-    "precios": {
-      "online": 2.5,
-      "regular": 2.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.56,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 450,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.452Z"
-  },
-  {
-    "id": "metro_fideoscuisinecocorba_mnfert1g",
+    "id": "metro_fideoscuisinecocorba_mngndofi",
     "nombre": "Fideos Cuisine &Co Corbata 450g",
     "categoria": "fideos",
     "super": "metro",
@@ -305,6 +63,204 @@
     },
     "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:10:08.452Z"
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_pastacortamolitaliac_mngndofi",
+    "nombre": "Pasta Corta Molitalia Codo Rayado 235g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 1.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.09,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 235,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_spaghettidelcielo500_mngndofi",
+    "nombre": "Spaghetti Del Cielo 500g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_tallarndelcielo500g_mngndofi",
+    "nombre": "Tallarín Del Cielo 500g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_fideoscodorayadodonv_mngndofi",
+    "nombre": "Fideos Codo Rayado Don Vittorio 225g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.1,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 225,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_tallarinespigadeoro5_mngndofi",
+    "nombre": "Tallarin Espiga de Oro 500g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.2,
+      "regular": 2.8,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 21,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_spaghettiespigadeoro_mngndofi",
+    "nombre": "Spaghetti Espiga de Oro 500g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.2,
+      "regular": 2.8,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 21,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_fideoscuisinecotorni_mngndofi",
+    "nombre": "Fideos Cuisine &Co Tornillo 450g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.5,
+      "regular": 2.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_fideoscabellodengelc_mngndofi",
+    "nombre": "Fideos Cabello de Ángel Cuisine & Co 500g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.5,
+      "regular": 3.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 31,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
+  },
+  {
+    "id": "metro_fideoscuisinecospagu_mngndofi",
+    "nombre": "Fideos Cuisine &Co Spaguetti 450g",
+    "categoria": "fideos",
+    "super": "metro",
+    "precios": {
+      "online": 2.5,
+      "regular": 2.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 450,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T22:58:52.014Z"
   }
 ]

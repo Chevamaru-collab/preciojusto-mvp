@@ -14,16 +14,16 @@
         "price": 3.9
       },
       {
+        "store": "Plaza Vea",
+        "price": 5.4
+      },
+      {
         "store": "Metro",
         "price": 5.4
       },
       {
         "store": "Wong",
         "price": 5.4
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 6.5
       }
     ],
     "best_price": 3.9,
@@ -40,20 +40,20 @@
     "normalized_unit": "liter",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 12.6
-      },
-      {
         "store": "Metro",
         "price": 14.9
       },
       {
         "store": "Plaza Vea",
         "price": 15.5
+      },
+      {
+        "store": "Tottus",
+        "price": 22.9
       }
     ],
-    "best_price": 12.6,
-    "best_store": "Tottus"
+    "best_price": 14.9,
+    "best_store": "Metro"
   },
   {
     "canonical_name": "Aceite Vegetal 5 LT",
@@ -66,78 +66,108 @@
     "normalized_unit": "liter",
     "stores": [
       {
-        "store": "Plaza Vea",
+        "store": "Tottus",
         "price": 18.5
       },
       {
-        "store": "Tottus",
-        "price": 39.11
+        "store": "Plaza Vea",
+        "price": 18.5
       }
     ],
     "best_price": 18.5,
-    "best_store": "Plaza Vea"
+    "best_store": "Tottus"
   },
   {
-    "canonical_name": "Avena 1 KG",
-    "product_name": "Avena 1 KG",
-    "comparison_group": "Avena",
-    "category": "Avena",
-    "presentation": 1,
+    "canonical_name": "Avena Hojuelas 0.5 KG",
+    "product_name": "Avena Hojuelas 0.5 KG",
+    "comparison_group": "Avena Hojuelas",
+    "category": "Avena Hojuelas",
+    "presentation": 0.5,
     "unit": "KG",
-    "price_unit": "kilogram",
+    "price_unit": "KG",
     "normalized_unit": "kilogram",
     "stores": [
       {
         "store": "Tottus",
-        "price": 4.5
+        "price": 4
       },
       {
         "store": "Plaza Vea",
+        "price": 4.1
+      },
+      {
+        "store": "Metro",
+        "price": 4.8
+      },
+      {
+        "store": "Wong",
+        "price": 5.7
+      }
+    ],
+    "best_price": 4,
+    "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Avena Hojuelas 1 KG",
+    "product_name": "Avena Hojuelas 1 KG",
+    "comparison_group": "Avena Hojuelas",
+    "category": "Avena Hojuelas",
+    "presentation": 1,
+    "unit": "KG",
+    "price_unit": "KG",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Plaza Vea",
         "price": 8.9
+      },
+      {
+        "store": "Tottus",
+        "price": 9.7
       },
       {
         "store": "Wong",
         "price": 9.9
       }
     ],
-    "best_price": 4.5,
-    "best_store": "Tottus"
+    "best_price": 8.9,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Azucar Blanca 1 KG",
     "product_name": "Azucar Blanca 1 KG",
-    "comparison_group": "Blanca",
-    "category": "Blanca",
+    "comparison_group": "Azucar Blanca",
+    "category": "Azucar",
     "presentation": 1,
     "unit": "KG",
     "price_unit": "kilogram",
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Metro",
-        "price": 4.8
-      },
-      {
         "store": "Plaza Vea",
         "price": 5.3
       },
       {
-        "store": "Tottus",
-        "price": 5.5
+        "store": "Metro",
+        "price": 5.45
       },
       {
         "store": "Wong",
         "price": 5.5
+      },
+      {
+        "store": "Tottus",
+        "price": 8.2
       }
     ],
-    "best_price": 4.8,
-    "best_store": "Metro"
+    "best_price": 5.3,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Azucar Blanca 5 KG",
     "product_name": "Azucar Blanca 5 KG",
-    "comparison_group": "Blanca",
-    "category": "Blanca",
+    "comparison_group": "Azucar Blanca",
+    "category": "Azucar",
     "presentation": 5,
     "unit": "KG",
     "price_unit": "kilogram",
@@ -154,35 +184,69 @@
       {
         "store": "Wong",
         "price": 22.8
-      },
-      {
-        "store": "Tottus",
-        "price": 25.9
       }
     ],
     "best_price": 22.8,
     "best_store": "Plaza Vea"
   },
   {
-    "canonical_name": "Huevos Codorniz 24 UND",
-    "product_name": "Huevos Codorniz 24 UND",
-    "comparison_group": "Codorniz",
-    "category": "Codorniz",
-    "presentation": 24,
-    "unit": "UND",
-    "price_unit": "unit",
-    "normalized_unit": "unit",
+    "canonical_name": "Azucar Rubia 1 KG",
+    "product_name": "Azucar Rubia 1 KG",
+    "comparison_group": "Azucar Rubia",
+    "category": "Azucar",
+    "presentation": 1,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
     "stores": [
       {
         "store": "Tottus",
-        "price": 6.5
+        "price": 2
       },
       {
         "store": "Plaza Vea",
-        "price": 6.9
+        "price": 3.8
+      },
+      {
+        "store": "Metro",
+        "price": 3.8
+      },
+      {
+        "store": "Wong",
+        "price": 4
       }
     ],
-    "best_price": 6.5,
+    "best_price": 2,
+    "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Azucar Rubia 5 KG",
+    "product_name": "Azucar Rubia 5 KG",
+    "comparison_group": "Azucar Rubia",
+    "category": "Azucar",
+    "presentation": 5,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 14.9
+      },
+      {
+        "store": "Metro",
+        "price": 15.5
+      },
+      {
+        "store": "Wong",
+        "price": 16.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 22.7
+      }
+    ],
+    "best_price": 14.9,
     "best_store": "Tottus"
   },
   {
@@ -268,6 +332,110 @@
     "best_store": "Tottus"
   },
   {
+    "canonical_name": "Huevos Codorniz 24 UND",
+    "product_name": "Huevos Codorniz 24 UND",
+    "comparison_group": "Huevos Codorniz",
+    "category": "Huevos",
+    "presentation": 24,
+    "unit": "UND",
+    "price_unit": "unit",
+    "normalized_unit": "unit",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 6.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 6.9
+      }
+    ],
+    "best_price": 6.5,
+    "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Huevos Pardos 15 UND",
+    "product_name": "Huevos Pardos 15 UND",
+    "comparison_group": "Huevos Pardos",
+    "category": "Huevos",
+    "presentation": 15,
+    "unit": "UND",
+    "price_unit": "unit",
+    "normalized_unit": "unit",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 6.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 8.9
+      },
+      {
+        "store": "Wong",
+        "price": 11.5
+      }
+    ],
+    "best_price": 6.5,
+    "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Huevos Pardos 30 UND",
+    "product_name": "Huevos Pardos 30 UND",
+    "comparison_group": "Huevos Pardos",
+    "category": "Huevos",
+    "presentation": 30,
+    "unit": "UND",
+    "price_unit": "unit",
+    "normalized_unit": "unit",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 13.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 18.5
+      },
+      {
+        "store": "Wong",
+        "price": 20.9
+      }
+    ],
+    "best_price": 13.9,
+    "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Leche UHT 0.8 LT",
+    "product_name": "Leche UHT 0.8 LT",
+    "comparison_group": "Leche UHT",
+    "category": "Leche",
+    "presentation": 0.8,
+    "unit": "LT",
+    "price_unit": "liter",
+    "normalized_unit": "liter",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 3.7
+      },
+      {
+        "store": "Metro",
+        "price": 4.3
+      },
+      {
+        "store": "Tottus",
+        "price": 4.6
+      },
+      {
+        "store": "Wong",
+        "price": 5.2
+      }
+    ],
+    "best_price": 3.7,
+    "best_store": "Plaza Vea"
+  },
+  {
     "canonical_name": "Maiz 1 KG",
     "product_name": "Maiz 1 KG",
     "comparison_group": "Maiz",
@@ -312,12 +480,12 @@
         "price": 6.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 9.7
+        "store": "Metro",
+        "price": 7.2
       },
       {
-        "store": "Metro",
-        "price": 10.5
+        "store": "Plaza Vea",
+        "price": 9.7
       }
     ],
     "best_price": 6.9,
@@ -369,7 +537,7 @@
       },
       {
         "store": "Metro",
-        "price": 17.1
+        "price": 16.9
       },
       {
         "store": "Plaza Vea",
@@ -396,181 +564,13 @@
       {
         "store": "Wong",
         "price": 15.9
+      },
+      {
+        "store": "Tottus",
+        "price": 28
       }
     ],
     "best_price": 15.3,
-    "best_store": "Plaza Vea"
-  },
-  {
-    "canonical_name": "Huevos Pardos 15 UND",
-    "product_name": "Huevos Pardos 15 UND",
-    "comparison_group": "Pardos",
-    "category": "Pardos",
-    "presentation": 15,
-    "unit": "UND",
-    "price_unit": "unit",
-    "normalized_unit": "unit",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 6.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 9.4
-      },
-      {
-        "store": "Wong",
-        "price": 11.5
-      }
-    ],
-    "best_price": 6.5,
-    "best_store": "Tottus"
-  },
-  {
-    "canonical_name": "Huevos Pardos 30 UND",
-    "product_name": "Huevos Pardos 30 UND",
-    "comparison_group": "Pardos",
-    "category": "Pardos",
-    "presentation": 30,
-    "unit": "UND",
-    "price_unit": "unit",
-    "normalized_unit": "unit",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 15.5
-      },
-      {
-        "store": "Wong",
-        "price": 18.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 20.5
-      }
-    ],
-    "best_price": 15.5,
-    "best_store": "Tottus"
-  },
-  {
-    "canonical_name": "Azucar Rubia 1 KG",
-    "product_name": "Azucar Rubia 1 KG",
-    "comparison_group": "Rubia",
-    "category": "Rubia",
-    "presentation": 1,
-    "unit": "KG",
-    "price_unit": "kilogram",
-    "normalized_unit": "kilogram",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 2
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 3.8
-      },
-      {
-        "store": "Metro",
-        "price": 3.8
-      },
-      {
-        "store": "Wong",
-        "price": 4
-      }
-    ],
-    "best_price": 2,
-    "best_store": "Tottus"
-  },
-  {
-    "canonical_name": "Azucar Rubia 5 KG",
-    "product_name": "Azucar Rubia 5 KG",
-    "comparison_group": "Rubia",
-    "category": "Rubia",
-    "presentation": 5,
-    "unit": "KG",
-    "price_unit": "kilogram",
-    "normalized_unit": "kilogram",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 14.9
-      },
-      {
-        "store": "Metro",
-        "price": 15.5
-      },
-      {
-        "store": "Wong",
-        "price": 16.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 22.7
-      }
-    ],
-    "best_price": 14.9,
-    "best_store": "Tottus"
-  },
-  {
-    "canonical_name": "Harina Spreparar 1 KG",
-    "product_name": "Harina Spreparar 1 KG",
-    "comparison_group": "Spreparar",
-    "category": "Spreparar",
-    "presentation": 1,
-    "unit": "KG",
-    "price_unit": "kilogram",
-    "normalized_unit": "kilogram",
-    "stores": [
-      {
-        "store": "Metro",
-        "price": 4.5
-      },
-      {
-        "store": "Wong",
-        "price": 4.5
-      },
-      {
-        "store": "Tottus",
-        "price": 4.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 5.2
-      }
-    ],
-    "best_price": 4.5,
-    "best_store": "Metro"
-  },
-  {
-    "canonical_name": "UHT Almendras 0.8 Lt",
-    "product_name": "UHT Almendras 0.8 Lt",
-    "comparison_group": "UHT Almendras",
-    "category": "UHT",
-    "presentation": 0.8,
-    "unit": "Lt",
-    "price_unit": "liter",
-    "normalized_unit": "liter",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 3.7
-      },
-      {
-        "store": "Metro",
-        "price": 4.3
-      },
-      {
-        "store": "Wong",
-        "price": 5.2
-      },
-      {
-        "store": "Tottus",
-        "price": 12.2
-      }
-    ],
-    "best_price": 3.7,
     "best_store": "Plaza Vea"
   }
 ]

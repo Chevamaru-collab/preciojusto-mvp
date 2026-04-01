@@ -1,15 +1,15 @@
 [
   {
-    "id": "metro_frejolcanariomxima50_mnfet901",
-    "nombre": "Frejol Canario Máxima 500g",
+    "id": "metro_frijolcanariocuisine_mngnf5u5",
+    "nombre": "Frijol Canario Cuisine & Co 500g",
     "categoria": "frijol-canario",
     "super": "metro",
     "precios": {
-      "online": 4.7,
-      "regular": 6.9,
+      "online": 4.9,
+      "regular": 7.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 9.4,
+      "porUnidad": 9.8,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,12 +17,56 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 32,
+    "descuento": 35,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:11:15.793Z"
+    "timestamp": "2026-04-01T23:00:01.229Z"
   },
   {
-    "id": "metro_frijolcanariobolsa35_mnfet901",
+    "id": "metro_frejolcanariomxima50_mngnf5u5",
+    "nombre": "Frejol Canario Máxima 500g",
+    "categoria": "frijol-canario",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": 6.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T23:00:01.229Z"
+  },
+  {
+    "id": "metro_frijolcanariotesorod_mngnf5u5",
+    "nombre": "Frijol Canario Tesoro Del Campo Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "metro",
+    "precios": {
+      "online": 6.5,
+      "regular": 9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 28,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T23:00:01.229Z"
+  },
+  {
+    "id": "metro_frijolcanariobolsa35_mngnf5u5",
     "nombre": "Frijol Canario Bolsa 350 g",
     "categoria": "frijol-canario",
     "super": "metro",
@@ -41,32 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:11:15.793Z"
+    "timestamp": "2026-04-01T23:00:01.229Z"
   },
   {
-    "id": "metro_frijolcanariocuisine_mnfet901",
-    "nombre": "Frijol Canario Cuisine & Co 500g",
-    "categoria": "frijol-canario",
-    "super": "metro",
-    "precios": {
-      "online": 7.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:11:15.793Z"
-  },
-  {
-    "id": "metro_frijolcanariocamanej_mnfet901",
+    "id": "metro_frijolcanariocamanej_mngnf5u5",
     "nombre": "Frijol Canario Camanejo Cosecha Andina 500g",
     "categoria": "frijol-canario",
     "super": "metro",
@@ -85,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:11:15.793Z"
+    "timestamp": "2026-04-01T23:00:01.229Z"
   },
   {
-    "id": "metro_frijolcanariocosteo5_mnfet901",
+    "id": "metro_frijolcanariocosteo5_mngnf5u5",
     "nombre": "Frijol Canario Costeño 500g",
     "categoria": "frijol-canario",
     "super": "metro",
@@ -107,10 +129,10 @@
     },
     "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:11:15.793Z"
+    "timestamp": "2026-04-01T23:00:01.229Z"
   },
   {
-    "id": "metro_frijolcanariovalleno_mnfet901",
+    "id": "metro_frijolcanariovalleno_mngnf5u5",
     "nombre": "Frijol Canario Valle Norte Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "metro",
@@ -129,32 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:11:15.793Z"
+    "timestamp": "2026-04-01T23:00:01.229Z"
   },
   {
-    "id": "metro_frijolcanariotesorod_mnfet901",
-    "nombre": "Frijol Canario Tesoro Del Campo Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "metro",
-    "precios": {
-      "online": 9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 18,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:11:15.793Z"
-  },
-  {
-    "id": "metro_frejolcanariobolsa50_mnfet901",
+    "id": "metro_frejolcanariobolsa50_mngnf5u5",
     "nombre": "Frejol Canario Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "metro",
@@ -173,6 +173,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:11:15.793Z"
+    "timestamp": "2026-04-01T23:00:01.229Z"
   }
 ]

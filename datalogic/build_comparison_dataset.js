@@ -337,14 +337,18 @@ function buildComparisonGroups(rawData, catalog = [], catalogLookup = new Map(),
 
         const key = matched.canonical_name;
 
-
+        // Targeted integration fix for Avena semantic split
+        let outputCategory = matched.categoria || cat;
+        if (outputCategory === 'Avena' && matched.comparison_group) {
+            outputCategory = matched.comparison_group;
+        }
 
         if (!groups.has(key)) {
 
             groups.set(key, {
                 canonical_name: matched.canonical_name,
                 comparison_group: matched.comparison_group || matched.family_name || matched.canonical_name,
-                category: matched.categoria || cat,
+                category: outputCategory,
                 tipo: matched.subcategoria || tipo,
                 presentacion: matched.presentation,
                 unit: matched.unit || unit,

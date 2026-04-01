@@ -532,6 +532,59 @@ test('does not produce bogus heuristic groups like Pollo 1lt when there is no ca
 });
 
 
+// ─── 15. Matcher integration: uses comparison_group for Avena category ─
+test('uses comparison_group for Avena category output', () => {
+  const rows = [
+    makeRow({
+      super: 'Metro',
+      item: 'AVENA 3 OSITOS BOLSA 500 G',
+      categoria: 'Avena',
+      tipo: 'Avena',
+      presentacion: 500,
+      um: 'g',
+      precioOnline: 4.5
+    }),
+    makeRow({
+      super: 'Wong',
+      item: 'AVENA 3 OSITOS BOLSA 500 G',
+      categoria: 'Avena',
+      tipo: 'Avena',
+      presentacion: 500,
+      um: 'g',
+      precioOnline: 4.8
+    })
+  ];
+
+  const fakeCatalog = [];
+  const fakeLookup = new Map([
+    ['Avena Hojuelas 500 G', {
+      canonical_name: 'Avena Hojuelas 500 G',
+      comparison_group: 'Avena Hojuelas',
+      categoria: 'Avena',
+      subcategoria: 'Hojuelas',
+      presentation: 0.5,
+      unit: 'KG',
+      normalized_unit: 'kilogram',
+      price_unit: 'kilogram'
+    }]
+  ]);
+
+  const fakeMatcher = {
+    match: ({ name }) => ({
+      raw_name: name,
+      candidates: [{ canonical_name: 'Avena Hojuelas 500 G', score: 0.95 }],
+      best_match: 'Avena Hojuelas 500 G'
+    })
+  };
+
+  const groups = buildComparisonGroups(rows, fakeCatalog, fakeLookup, fakeMatcher);
+  const output = formatOutput(groups, 2);
+
+  assert.strictEqual(output.length, 1, 'Should output one combined group');
+  assert.strictEqual(output[0].category, 'Avena Hojuelas', 'Should use comparison_group as the final category instead of Avena');
+});
+
+
 // ─── Summary ──────────────────────────────────────────────────────
 console.log(`\n${passed + failed} tests: ${passed} passed, ${failed} failed.\n`);
 if (failed > 0) process.exit(1);

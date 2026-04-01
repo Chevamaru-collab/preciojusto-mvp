@@ -149,7 +149,7 @@ function tokenizeCanonical(canonicalName) {
  * @returns {object[]}
  */
 function loadCatalog(catalogPath) {
-  const filePath = catalogPath || path.join(__dirname, 'product_matcher_catalog_v1.json');
+  const filePath = catalogPath || path.join(__dirname, 'product_matcher_catalog_v3_2.json');
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
   // Precompute tokens + normalized presentation for each entry

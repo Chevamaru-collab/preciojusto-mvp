@@ -1,0 +1,35 @@
+[
+  {
+    "target": "Avena",
+    "patterns": ["hojuela", "tradicional", "entera"],
+    "canonical_name": "Avena Hojuelas",
+    "family_name": "Avena",
+    "rubro": "Desayuno",
+    "categoria": "Avena",
+    "subcategoria": "Hojuelas",
+    "comparison_group": "Avena Hojuelas",
+    "action": "replace_avena"
+  },
+  {
+    "target": "Avena",
+    "patterns": ["instant", "instantánea", "instantanea"],
+    "canonical_name": "Avena Instantanea",
+    "family_name": "Avena",
+    "rubro": "Desayuno",
+    "categoria": "Avena",
+    "subcategoria": "Instantanea",
+    "comparison_group": "Avena Instantanea",
+    "action": "replace_avena"
+  },
+  {
+    "target": "Avena",
+    "patterns": ["bebida", "drink", "leche de avena"],
+    "canonical_name": "Bebida de Avena",
+    "family_name": "Bebidas",
+    "rubro": "Desayuno",
+    "categoria": "Avena",
+    "subcategoria": "Bebida",
+    "comparison_group": "Bebida de Avena",
+    "action": "replace_avena"
+  }
+]

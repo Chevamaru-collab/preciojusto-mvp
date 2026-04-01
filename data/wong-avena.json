@@ -1,6 +1,6 @@
 [
   {
-    "id": "wong_avenatradicionalquak_mnfeuj7f",
+    "id": "wong_avenatradicionalquak_mngnghvv",
     "nombre": "Avena Tradicional Quaker 500g",
     "categoria": "avena",
     "super": "wong",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.499Z"
   },
   {
-    "id": "wong_avenatradicionalcuis_mnfeuj7f",
+    "id": "wong_avenatradicionalcuis_mngnghvv",
     "nombre": "Avena Tradicional Cuisine & Co 1kg",
     "categoria": "avena",
     "super": "wong",
@@ -41,41 +41,19 @@
     },
     "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.499Z"
   },
   {
-    "id": "wong_avenaprecocida3osito_mnfeuj7f",
+    "id": "wong_avenaprecocida3osito_mngnghvv",
     "nombre": "Avena Precocida 3 Ositos 900g",
     "categoria": "avena",
     "super": "wong",
     "precios": {
-      "online": 9.9,
+      "online": 11.9,
       "regular": 11.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 17,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
-  },
-  {
-    "id": "wong_avenaintegralenhojue_mnfeuj7f",
-    "nombre": "Avena Integral en Hojuelas Grano de Oro 900g",
-    "categoria": "avena",
-    "super": "wong",
-    "precios": {
-      "online": 18.2,
-      "regular": 18.2,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.22,
+      "porUnidad": 13.22,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -85,10 +63,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.499Z"
   },
   {
-    "id": "wong_avenaintegralenteras_mnfeuj7f",
+    "id": "wong_avenaintegralenhojue_mngnghvv",
+    "nombre": "Avena Integral en Hojuelas Grano de Oro 500g",
+    "categoria": "avena",
+    "super": "wong",
+    "precios": {
+      "online": 5.7,
+      "regular": 5.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T23:01:03.499Z"
+  },
+  {
+    "id": "wong_avenaintegralenteras_mngnghvv",
     "nombre": "Avena Integral Entera Sin Gluten Mi Tierra 650g",
     "categoria": "avena",
     "super": "wong",
@@ -107,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.499Z"
   },
   {
-    "id": "wong_avenainstantneaquake_mnfeuj7f",
+    "id": "wong_avenainstantneaquake_mngnghvv",
     "nombre": "Avena Instantánea Quaker 350g",
     "categoria": "avena",
     "super": "wong",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.499Z"
   },
   {
-    "id": "wong_avenaconquinuaquaker_mnfeuj7f",
+    "id": "wong_avenaconquinuaquaker_mngnghvv",
     "nombre": "Avena con Quinua Quaker 330g",
     "categoria": "avena",
     "super": "wong",
@@ -151,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.499Z"
   },
   {
-    "id": "wong_avenamixcanelayberri_mnfeuj7f",
+    "id": "wong_avenamixcanelayberri_mngnghvv",
     "nombre": "Avena Mix Canela y Berries Amaru 400g",
     "categoria": "avena",
     "super": "wong",
@@ -173,19 +173,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.499Z"
   },
   {
-    "id": "wong_avenanaturalsantacat_mnfeuj7f",
+    "id": "wong_avenanaturalsantacat_mngnghvv",
     "nombre": "Avena Natural Santa Catalina 900g",
     "categoria": "avena",
     "super": "wong",
     "precios": {
-      "online": 9.9,
+      "online": 12.6,
       "regular": 12.6,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 11,
+      "porUnidad": 14,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -193,21 +193,43 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 21,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.499Z"
   },
   {
-    "id": "wong_avenamixconchayberri_mnfeuj7g",
+    "id": "wong_avenaintegralenhojue_mngnghvw",
+    "nombre": "Avena Integral en Hojuelas Grano de Oro 900g",
+    "categoria": "avena",
+    "super": "wong",
+    "precios": {
+      "online": 18.2,
+      "regular": 18.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.22,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-01T23:01:03.500Z"
+  },
+  {
+    "id": "wong_avenamixconchayberri_mngnghvw",
     "nombre": "Avena Mix con Chía y Berries Huella Verde 600g",
     "categoria": "avena",
     "super": "wong",
     "precios": {
-      "online": 25.2,
+      "online": 29.6,
       "regular": 29.6,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 42,
+      "porUnidad": 49.33,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -215,12 +237,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 15,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.675Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenaquinuacuisineco_mnfeuj7g",
+    "id": "wong_avenaquinuacuisineco_mngnghvw",
     "nombre": "Avena Quinua Cuisine & Co 300g",
     "categoria": "avena",
     "super": "wong",
@@ -239,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenaquakertradicion_mnfeuj7g",
+    "id": "wong_avenaquakertradicion_mngnghvw",
     "nombre": "Avena Quaker Tradicional 200g",
     "categoria": "avena",
     "super": "wong",
@@ -261,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenaprecocidasantac_mnfeuj7g",
+    "id": "wong_avenaprecocidasantac_mngnghvw",
     "nombre": "Avena Precocida Santa Catalina Bolsa 500 g",
     "categoria": "avena",
     "super": "wong",
@@ -283,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenaprecocida3osito_mnfeuj7g",
+    "id": "wong_avenaprecocida3osito_mngnghvw",
     "nombre": "Avena Precocida 3 Ositos Chocolate 180g",
     "categoria": "avena",
     "super": "wong",
@@ -305,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenainstantneacuisi_mnfeuj7g",
+    "id": "wong_avenainstantneacuisi_mngnghvw",
     "nombre": "Avena Instantánea Cuisine & Co Frutos Rojos 45g",
     "categoria": "avena",
     "super": "wong",
@@ -327,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenafitnessnaturand_mnfeuj7g",
+    "id": "wong_avenafitnessnaturand_mngnghvw",
     "nombre": "Avena Fitness Naturandes 600g",
     "categoria": "avena",
     "super": "wong",
@@ -349,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenaproticaavenacan_mnfeuj7g",
+    "id": "wong_avenaproticaavenacan_mngnghvw",
     "nombre": "Avena Protéica Avena & Canela Sabor Chocolate 455g",
     "categoria": "avena",
     "super": "wong",
@@ -371,10 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenaconmacaquaker33_mnfeuj7g",
+    "id": "wong_avenaconmacaquaker33_mngnghvw",
     "nombre": "Avena con Maca Quaker 330g",
     "categoria": "avena",
     "super": "wong",
@@ -393,10 +415,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenainstantneaconma_mnfeuj7g",
+    "id": "wong_avenainstantneaconma_mngnghvw",
     "nombre": "Avena Instantánea con Manzana Santa Catalina 350g",
     "categoria": "avena",
     "super": "wong",
@@ -415,19 +437,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenamixconquinuayma_mnfeuj7g",
+    "id": "wong_avenamixconquinuayma_mngnghvw",
     "nombre": "Avena Mix con Quinua y Maca Huella Verde 600g",
     "categoria": "avena",
     "super": "wong",
     "precios": {
-      "online": 25.2,
+      "online": 29.6,
       "regular": 29.6,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 42,
+      "porUnidad": 49.33,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -435,12 +457,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 15,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenamacacuisineco30_mnfeuj7g",
+    "id": "wong_avenamacacuisineco30_mngnghvw",
     "nombre": "Avena Maca Cuisine & Co 300g",
     "categoria": "avena",
     "super": "wong",
@@ -459,10 +481,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   },
   {
-    "id": "wong_avenatradicionalquak_mnfeuj7g",
+    "id": "wong_avenatradicionalquak_mngnghvw",
     "nombre": "Avena Tradicional Quaker Sabor Chocolate 290g",
     "categoria": "avena",
     "super": "wong",
@@ -481,28 +503,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
-  },
-  {
-    "id": "wong_avenacerealandino270_mnfeuj7g",
-    "nombre": "Avena Cereal Andino 270 g",
-    "categoria": "avena",
-    "super": "wong",
-    "precios": {
-      "online": 6.7,
-      "regular": 6.7,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 24.81,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 270,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-01T02:12:15.676Z"
+    "timestamp": "2026-04-01T23:01:03.500Z"
   }
 ]
