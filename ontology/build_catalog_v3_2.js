@@ -19,6 +19,22 @@ for (const item of catalog) {
         removedCount++;
         continue; // drop generic Avena
     }
+
+    // Recover monolithic Unknown items
+    if (item.canonical_name === 'Unknown') {
+        const family = item.family_name || '';
+        if (family && family.trim() !== '' && family.trim() !== 'Unknown') {
+            // Recoverable garbage: keep visible textual identity
+            item.canonical_name = family.trim();
+            item.categoria = family.trim();
+            item.comparison_group = family.trim();
+            item.needs_review = true;
+        } else {
+            // Hard-unknown
+            item.needs_review = true; 
+        }
+    }
+
     result.push({ ...item });
 }
 

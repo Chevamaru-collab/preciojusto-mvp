@@ -102,6 +102,29 @@ test('TEST 10: "Frijol Canario" exists in catalog under Menestras struct', funct
   assert.strictEqual(row.categoria, 'Menestras', 'Frijol Canario must reside under Menestras categoria');
 });
 
+// Unknown monolith logic tests
+test('TEST 11: Unknown monolith avoided', function () {
+  const unknowns = catalog.filter(x => x.canonical_name === 'Unknown');
+  // There should be 1 or 0 hard-unknown, but it should not absorb "Empacados"
+  const empacadosInsideUnknown = unknowns.some(u => u.family_name === 'Empacados');
+  assert.strictEqual(empacadosInsideUnknown, false, 'Empacados must not be absorbed into an Unknown monolith');
+});
+
+test('TEST 12: Recoverable garbage keeps identity', function () {
+  const row = catalog.find(x => x.canonical_name === 'Empacados');
+  assert.ok(row, 'Empacados should emerge as its own distinct entry');
+  assert.strictEqual(row.needs_review, true, 'Recoverable cases must keep needs_review=true');
+});
+
+test('TEST 13: Hard-unknown remains traceable', function () {
+  const row = catalog.find(x => x.canonical_name === 'Unknown');
+  // If there are true hard-unknowns, they stay Unknown. In the mock they might not exist.
+  // We just ensure if it exists, it stays reviewable.
+  if (row) {
+      assert.strictEqual(row.needs_review, true, 'Hard-unknowns must remain reviewable');
+  }
+});
+
 console.log('\n' + (passed + failed) + ' tests: ' + passed + ' passed, ' + failed + ' failed.');
 
 if (failed > 0) {
