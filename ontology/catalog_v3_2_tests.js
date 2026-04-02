@@ -148,6 +148,31 @@ test('TEST 16: "Mantequilla Sal" entries remain intact and unmodified', function
   });
 });
 
+// Spreparar typo contamination tests
+test('TEST 17: "Spreparar" does not exist anywhere in canonical_name or comparison_group', function () {
+  const contaminated = catalog.filter(x =>
+    (x.canonical_name && x.canonical_name.includes('Spreparar')) ||
+    (x.comparison_group && x.comparison_group.includes('Spreparar'))
+  );
+  assert.strictEqual(contaminated.length, 0, 'No entry should contain the typo "Spreparar"');
+});
+
+test('TEST 18: "Sin Preparar" form appears as a valid group', function () {
+  const row = catalog.find(x => x.comparison_group && x.comparison_group.includes('Sin Preparar'));
+  assert.ok(row, 'A "Sin Preparar" comparison group must exist');
+});
+
+test('TEST 19: Refresco family survives and carries "Sin Preparar" after fix', function () {
+  // In V3.2 the contaminated items live under Refresco (not Harina)
+  const refresco = catalog.filter(x => x.comparison_group && x.comparison_group.startsWith('Refresco'));
+  assert.ok(refresco.length > 0, 'Refresco entries must still exist');
+  const refrescoSinPreparar = refresco.filter(x => x.comparison_group.includes('Sin Preparar'));
+  assert.ok(refrescoSinPreparar.length > 0, 'Refresco Sin Preparar group must exist after fix');
+  // No Refresco entry should still carry the typo
+  const refrescoSpreparar = refresco.filter(x => x.comparison_group.includes('Spreparar'));
+  assert.strictEqual(refrescoSpreparar.length, 0, 'No Refresco entry should still carry "Spreparar"');
+});
+
 console.log('\n' + (passed + failed) + ' tests: ' + passed + ' passed, ' + failed + ' failed.');
 
 if (failed > 0) {

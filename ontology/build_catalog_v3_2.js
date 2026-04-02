@@ -17,6 +17,13 @@ function fixSsal(str) {
     return str ? str.replace(SSAL_REGEX, 'Sin Sal') : str;
 }
 
+// Normalize Spreparar typo: "Spreparar" is a CSV abbreviation corruption of "Sin Preparar".
+// Strict word-boundary replacement — does not affect other tokens.
+const SPREPARAR_REGEX = /\bSpreparar\b/g;
+function fixSpreparar(str) {
+    return str ? str.replace(SPREPARAR_REGEX, 'Sin Preparar') : str;
+}
+
 // Remove any generic "Avena"
 // A generic "Avena" is defined as any catalog entry where comparison_group is exactly "Avena",
 // or a category "Avena" that belongs to the old generic structure.
@@ -42,11 +49,14 @@ for (const item of catalog) {
         }
     }
 
-    // Fix CSV data-entry typo: Ssal → Sin Sal
-    item.canonical_name  = fixSsal(item.canonical_name);
-    item.family_name     = fixSsal(item.family_name);
-    item.subcategoria    = fixSsal(item.subcategoria);
-    item.comparison_group = fixSsal(item.comparison_group);
+    // Fix CSV data-entry typos
+    item.canonical_name   = fixSpreparar(fixSsal(item.canonical_name));
+    item.family_name      = fixSpreparar(fixSsal(item.family_name));
+    item.subcategoria     = fixSpreparar(fixSsal(item.subcategoria));
+    item.comparison_group = fixSpreparar(fixSsal(item.comparison_group));
+    if (Array.isArray(item.aliases)) {
+        item.aliases = item.aliases.map(a => fixSpreparar(fixSsal(a)));
+    }
 
     result.push({ ...item });
 }
