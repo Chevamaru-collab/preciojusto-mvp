@@ -14,16 +14,16 @@
         "price": 3.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 5.4
-      },
-      {
         "store": "Metro",
         "price": 5.4
       },
       {
         "store": "Wong",
-        "price": 5.4
+        "price": 5.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 6.5
       }
     ],
     "best_price": 3.9,
@@ -40,98 +40,20 @@
     "normalized_unit": "liter",
     "stores": [
       {
+        "store": "Tottus",
+        "price": 12.6
+      },
+      {
         "store": "Metro",
         "price": 14.9
       },
       {
         "store": "Plaza Vea",
         "price": 15.5
-      },
-      {
-        "store": "Tottus",
-        "price": 22.9
       }
     ],
-    "best_price": 14.9,
-    "best_store": "Metro"
-  },
-  {
-    "canonical_name": "Aceite Vegetal 5 LT",
-    "product_name": "Aceite Vegetal 5 LT",
-    "comparison_group": "Aceite Vegetal",
-    "category": "Aceite",
-    "presentation": 5,
-    "unit": "LT",
-    "price_unit": "liter",
-    "normalized_unit": "liter",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 18.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 18.5
-      }
-    ],
-    "best_price": 18.5,
+    "best_price": 12.6,
     "best_store": "Tottus"
-  },
-  {
-    "canonical_name": "Avena Hojuelas 0.5 KG",
-    "product_name": "Avena Hojuelas 0.5 KG",
-    "comparison_group": "Avena Hojuelas",
-    "category": "Avena Hojuelas",
-    "presentation": 0.5,
-    "unit": "KG",
-    "price_unit": "KG",
-    "normalized_unit": "kilogram",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 4
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 4.1
-      },
-      {
-        "store": "Metro",
-        "price": 4.8
-      },
-      {
-        "store": "Wong",
-        "price": 5.7
-      }
-    ],
-    "best_price": 4,
-    "best_store": "Tottus"
-  },
-  {
-    "canonical_name": "Avena Hojuelas 1 KG",
-    "product_name": "Avena Hojuelas 1 KG",
-    "comparison_group": "Avena Hojuelas",
-    "category": "Avena Hojuelas",
-    "presentation": 1,
-    "unit": "KG",
-    "price_unit": "KG",
-    "normalized_unit": "kilogram",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 8.9
-      },
-      {
-        "store": "Tottus",
-        "price": 9.7
-      },
-      {
-        "store": "Wong",
-        "price": 9.9
-      }
-    ],
-    "best_price": 8.9,
-    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Azucar Blanca 1 KG",
@@ -154,10 +76,6 @@
       {
         "store": "Wong",
         "price": 5.5
-      },
-      {
-        "store": "Tottus",
-        "price": 8.2
       }
     ],
     "best_price": 5.3,
@@ -184,6 +102,10 @@
       {
         "store": "Wong",
         "price": 22.8
+      },
+      {
+        "store": "Tottus",
+        "price": 25.9
       }
     ],
     "best_price": 22.8,
@@ -243,7 +165,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 22.7
+        "price": 22.5
       }
     ],
     "best_price": 14.9,
@@ -342,16 +264,16 @@
     "normalized_unit": "unit",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 6.5
-      },
-      {
         "store": "Plaza Vea",
         "price": 6.9
+      },
+      {
+        "store": "Tottus",
+        "price": 7.5
       }
     ],
-    "best_price": 6.5,
-    "best_store": "Tottus"
+    "best_price": 6.9,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Huevos Pardos 15 UND",
@@ -476,16 +398,16 @@
         "price": 6.9
       },
       {
+        "store": "Plaza Vea",
+        "price": 6.9
+      },
+      {
         "store": "Wong",
         "price": 6.9
       },
       {
         "store": "Metro",
-        "price": 7.2
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 9.7
+        "price": 11.5
       }
     ],
     "best_price": 6.9,
@@ -548,9 +470,9 @@
     "best_store": "Tottus"
   },
   {
-    "canonical_name": "Mantequilla Ssal 0.2 KG",
-    "product_name": "Mantequilla Ssal 0.2 KG",
-    "comparison_group": "Mantequilla Ssal",
+    "canonical_name": "Mantequilla Sin Sal 0.2 KG",
+    "product_name": "Mantequilla Sin Sal 0.2 KG",
+    "comparison_group": "Mantequilla Sin Sal",
     "category": "Mantequilla",
     "presentation": 0.2,
     "unit": "KG",
@@ -559,19 +481,53 @@
     "stores": [
       {
         "store": "Plaza Vea",
-        "price": 15.3
+        "price": 1.3
       },
       {
         "store": "Wong",
-        "price": 15.9
+        "price": 9.9
       },
       {
         "store": "Tottus",
-        "price": 28
+        "price": 10.2
+      },
+      {
+        "store": "Metro",
+        "price": 10.5
       }
     ],
-    "best_price": 15.3,
+    "best_price": 1.3,
     "best_store": "Plaza Vea"
+  },
+  {
+    "canonical_name": "Mantequilla Sin Sal 0.4 KG",
+    "product_name": "Mantequilla Sin Sal 0.4 KG",
+    "comparison_group": "Mantequilla Sin Sal",
+    "category": "Mantequilla",
+    "presentation": 0.4,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 4.4
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 10
+      },
+      {
+        "store": "Metro",
+        "price": 10.7
+      },
+      {
+        "store": "Wong",
+        "price": 11.9
+      }
+    ],
+    "best_price": 4.4,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Frijol Canario 0.5 KG",
@@ -632,5 +588,35 @@
     ],
     "best_price": 3.4,
     "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Refresco Sin Preparar 1 KG",
+    "product_name": "Refresco Sin Preparar 1 KG",
+    "comparison_group": "Refresco Sin Preparar",
+    "category": "Refresco",
+    "presentation": 1,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 4.5
+      },
+      {
+        "store": "Wong",
+        "price": 4.5
+      },
+      {
+        "store": "Tottus",
+        "price": 4.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 5.2
+      }
+    ],
+    "best_price": 4.5,
+    "best_store": "Metro"
   }
 ]
