@@ -125,6 +125,29 @@ test('TEST 13: Hard-unknown remains traceable', function () {
   }
 });
 
+// Mantequilla Ssal typo contamination tests
+test('TEST 14: "Ssal" does not exist anywhere in canonical_name or comparison_group', function () {
+  const contaminated = catalog.filter(x =>
+    (x.canonical_name && x.canonical_name.includes('Ssal')) ||
+    (x.comparison_group && x.comparison_group.includes('Ssal'))
+  );
+  assert.strictEqual(contaminated.length, 0, 'No entry should contain the typo "Ssal"');
+});
+
+test('TEST 15: "Mantequilla Sin Sal" exists as a valid comparison group', function () {
+  const row = catalog.find(x => x.comparison_group === 'Mantequilla Sin Sal');
+  assert.ok(row, '"Mantequilla Sin Sal" comparison group must exist');
+});
+
+test('TEST 16: "Mantequilla Sal" entries remain intact and unmodified', function () {
+  const rows = catalog.filter(x => x.comparison_group === 'Mantequilla Sal');
+  assert.ok(rows.length > 0, '"Mantequilla Sal" entries must still exist');
+  rows.forEach(r => {
+    assert.ok(!r.canonical_name.includes('Ssal'), '"Mantequilla Sal" must not contain "Ssal"');
+    assert.ok(!r.canonical_name.includes('Sin Sal'), '"Mantequilla Sal" must not be affected by Sin Sal rename');
+  });
+});
+
 console.log('\n' + (passed + failed) + ' tests: ' + passed + ' passed, ' + failed + ' failed.');
 
 if (failed > 0) {

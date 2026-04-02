@@ -10,6 +10,13 @@ const overrides = JSON.parse(fs.readFileSync(overridesPath, 'utf8'));
 
 let result = [];
 
+// Normalize Ssal typo: "Ssal" is a CSV data-entry corruption of "Sin Sal".
+// Strict word-boundary replacement — does not affect "Sal" entries.
+const SSAL_REGEX = /\bSsal\b/g;
+function fixSsal(str) {
+    return str ? str.replace(SSAL_REGEX, 'Sin Sal') : str;
+}
+
 // Remove any generic "Avena"
 // A generic "Avena" is defined as any catalog entry where comparison_group is exactly "Avena",
 // or a category "Avena" that belongs to the old generic structure.
@@ -31,9 +38,15 @@ for (const item of catalog) {
             item.needs_review = true;
         } else {
             // Hard-unknown
-            item.needs_review = true; 
+            item.needs_review = true;
         }
     }
+
+    // Fix CSV data-entry typo: Ssal → Sin Sal
+    item.canonical_name  = fixSsal(item.canonical_name);
+    item.family_name     = fixSsal(item.family_name);
+    item.subcategoria    = fixSsal(item.subcategoria);
+    item.comparison_group = fixSsal(item.comparison_group);
 
     result.push({ ...item });
 }
