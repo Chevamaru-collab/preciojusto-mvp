@@ -89,6 +89,19 @@ test('TEST 8: Isolation of aliases between types', function () {
   });
 });
 
+// Menestras semantic logic tests
+test('TEST 9: "Lentejas" exists in catalog under Menestras struct', function () {
+  const row = catalog.find(x => x.comparison_group === 'Lentejas');
+  assert.ok(row, 'Lentejas should exist');
+  assert.strictEqual(row.categoria, 'Menestras', 'Lentejas must reside under Menestras categoria');
+});
+
+test('TEST 10: "Frijol Canario" exists in catalog under Menestras struct', function () {
+  const row = catalog.find(x => x.comparison_group === 'Frijol Canario');
+  assert.ok(row, 'Frijol Canario should exist');
+  assert.strictEqual(row.categoria, 'Menestras', 'Frijol Canario must reside under Menestras categoria');
+});
+
 console.log('\n' + (passed + failed) + ' tests: ' + passed + ' passed, ' + failed + ' failed.');
 
 if (failed > 0) {

@@ -31,5 +31,35 @@
     "subcategoria": "Bebida",
     "comparison_group": "Bebida de Avena",
     "action": "replace_avena"
+  },
+  {
+    "target": "Menestras",
+    "patterns": ["lenteja", "lentejas", "lentejita", "lentejitas"],
+    "canonical_name": "Lenteja 0.5 KG",
+    "family_name": "Menestras",
+    "rubro": "Abarrotes",
+    "categoria": "Menestras",
+    "subcategoria": "Lentejas",
+    "comparison_group": "Lentejas",
+    "presentation": 0.5,
+    "unit": "KG",
+    "normalized_unit": "kilogram",
+    "price_unit": "kilogram",
+    "action": "add_menestras"
+  },
+  {
+    "target": "Menestras",
+    "patterns": ["frijol canario", "frejol canario", "canario"],
+    "canonical_name": "Frijol Canario 0.5 KG",
+    "family_name": "Menestras",
+    "rubro": "Abarrotes",
+    "categoria": "Menestras",
+    "subcategoria": "Frijol Canario",
+    "comparison_group": "Frijol Canario",
+    "presentation": 0.5,
+    "unit": "KG",
+    "normalized_unit": "kilogram",
+    "price_unit": "kilogram",
+    "action": "add_menestras"
   }
 ]

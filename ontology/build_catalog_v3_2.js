@@ -24,17 +24,17 @@ for (const item of catalog) {
 
 // Map the new ones from overrides
 for (const rule of overrides) {
-    if (rule.action === 'replace_avena') {
+    if (rule.action === 'replace_avena' || rule.action === 'add_menestras') {
         const newItem = {
             canonical_name: rule.canonical_name,
             family_name: rule.family_name || rule.canonical_name,
             rubro: rule.rubro || "Desayuno",
             categoria: rule.categoria || "Avena",
             subcategoria: rule.subcategoria || "",
-            presentation: null,
-            unit: "",
-            normalized_unit: null,
-            price_unit: null,
+            presentation: rule.action === 'add_menestras' ? rule.presentation : null,
+            unit: rule.action === 'add_menestras' ? rule.unit : "",
+            normalized_unit: rule.action === 'add_menestras' ? rule.normalized_unit : null,
+            price_unit: rule.action === 'add_menestras' ? rule.price_unit : null,
             brand: null,
             comparison_group: rule.comparison_group,
             comparison_level: 1,

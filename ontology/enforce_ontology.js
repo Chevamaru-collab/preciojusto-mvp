@@ -108,7 +108,7 @@ const CATEGORY_CANONICAL = {
 
     'fideos': 'Fideos',
 
-    'frijol-canario': 'Frijol Canario',
+    'frijol-canario': 'Menestras',
 
     'frutas': 'Frutas',
 
@@ -122,7 +122,7 @@ const CATEGORY_CANONICAL = {
 
     'leche-evaporada': 'Leche Evaporada',
 
-    'lentejas': 'Lentejas',
+    'lentejas': 'Menestras',
 
     'mantequilla': 'Mantequilla',
 

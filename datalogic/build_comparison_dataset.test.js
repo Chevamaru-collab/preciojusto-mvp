@@ -285,6 +285,12 @@ test('handles category normalization (azucar-blanca → azucar blanca)', () => {
   assert.strictEqual(normalizeCategory('ARROZ'), 'arroz');
   assert.strictEqual(normalizeCategory('leche-evaporada'), 'leche evaporada');
 
+  // Menestras semantic grouping assertions for categories
+  const { normalizeCategoryLabel } = require('./build_comparison_dataset');
+  assert.strictEqual(normalizeCategoryLabel('lentejas'), 'Menestras');
+  assert.strictEqual(normalizeCategoryLabel('frijol-canario'), 'Menestras');
+  assert.strictEqual(normalizeCategoryLabel('menestras'), 'Menestras');
+
   // Rows with variant categories should group together
   const rows = [
     makeRow({ super: 'Metro', categoria: 'azucar-blanca', tipo: 'Blanca', presentacion: 1, um: 'kg', precioOnline: 3.5 }),

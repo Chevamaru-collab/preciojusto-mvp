@@ -572,5 +572,65 @@
     ],
     "best_price": 15.3,
     "best_store": "Plaza Vea"
+  },
+  {
+    "canonical_name": "Frijol Canario 0.5 KG",
+    "product_name": "Frijol Canario 0.5 KG",
+    "comparison_group": "Frijol Canario",
+    "category": "Menestras",
+    "presentation": 0.5,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 4.9
+      },
+      {
+        "store": "Wong",
+        "price": 4.9
+      },
+      {
+        "store": "Tottus",
+        "price": 5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 6.6
+      }
+    ],
+    "best_price": 4.9,
+    "best_store": "Metro"
+  },
+  {
+    "canonical_name": "Lenteja 0.5 KG",
+    "product_name": "Lenteja 0.5 KG",
+    "comparison_group": "Lentejas",
+    "category": "Menestras",
+    "presentation": 0.5,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 3.4
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 3.9
+      },
+      {
+        "store": "Metro",
+        "price": 3.9
+      },
+      {
+        "store": "Wong",
+        "price": 4.17
+      }
+    ],
+    "best_price": 3.4,
+    "best_store": "Tottus"
   }
 ]
