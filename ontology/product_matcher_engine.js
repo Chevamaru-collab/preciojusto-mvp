@@ -149,12 +149,15 @@ function tokenizeCanonical(canonicalName) {
  * @returns {object[]}
  */
 function loadCatalog(catalogPath) {
-  const filePath = catalogPath || path.join(__dirname, 'product_matcher_catalog_v3_2.json');
+  const filePath = catalogPath || path.join(__dirname, 'product_matcher_catalog_v4.json');
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
   // Precompute tokens + normalized presentation for each entry
   return data.map(entry => {
-    const tokens = tokenizeCanonical(entry.canonical_name);
+    // _tokens: canonical_name tokens merged with semantic_tokens (V4 field)
+    const canonicalTokens = tokenizeCanonical(entry.canonical_name);
+    const semanticTokens  = Array.isArray(entry.semantic_tokens) ? entry.semantic_tokens : [];
+    const tokens = Array.from(new Set([...canonicalTokens, ...semanticTokens]));
 
     // Compute normalized presentation for the catalog entry
     let normalizedPresentation = entry.presentation;
@@ -220,22 +223,42 @@ function presentationSimilarity(a, b) {
  * @param {object} entry   Catalog entry with _tokens and _normalizedPresentation
  * @returns {number} 0..1
  */
+/**
+ * Density bridge constant for Leche Evaporada.
+ * Leche evaporada density ≈ 1.07 g/mL → 1 KG ≈ 0.935 LT
+ */
+const EVAPORADA_DENSITY = 1.07;
+
 function scoreCandidate(parsed, entry) {
-  // Token match (Jaccard)
+  // Token match — uses merged semantic_tokens via _tokens (set in loadCatalog)
   const tokenScore = jaccardSimilarity(parsed.tokens, entry._tokens);
 
-  // Presentation match (ratio similarity after normalization)
-  const presScore = presentationSimilarity(
-    parsed.normalizedPresentation,
-    entry._normalizedPresentation
-  );
+  // Density bridge: Leche Evaporada is scraped in KG (cans) but catalog may store LT.
+  // Convert scraped KG → LT before presentation scoring when units conflict.
+  let scrapedPresForScoring = parsed.normalizedPresentation;
+  let entryPresForScoring   = entry._normalizedPresentation;
+  let scrapedUnitForScoring = parsed.normalizedUnit;
 
-  // Unit compatibility: 1 if same normalized unit, 0 otherwise
+  if (
+    entry.comparison_group === 'Leche Evaporada' &&
+    parsed.normalizedUnit === 'kilogram' &&
+    entry.normalized_unit === 'liter'
+  ) {
+    // Apply density bridge: KG / density → LT
+    scrapedPresForScoring = parsed.normalizedPresentation != null
+      ? +(parsed.normalizedPresentation / EVAPORADA_DENSITY).toFixed(6)
+      : null;
+    scrapedUnitForScoring = 'liter';
+  }
+
+  // Presentation match (ratio similarity after normalization)
+  const presScore = presentationSimilarity(scrapedPresForScoring, entryPresForScoring);
+
+  // Unit compatibility
   let unitScore = 0;
-  if (parsed.normalizedUnit && entry.normalized_unit) {
-    unitScore = parsed.normalizedUnit === entry.normalized_unit ? 1 : 0;
-  } else if (!parsed.normalizedUnit && !entry.normalized_unit) {
-    // Both have no unit — compatible
+  if (scrapedUnitForScoring && entry.normalized_unit) {
+    unitScore = scrapedUnitForScoring === entry.normalized_unit ? 1 : 0;
+  } else if (!scrapedUnitForScoring && !entry.normalized_unit) {
     unitScore = 1;
   }
 
@@ -259,9 +282,22 @@ function match(scrapedProduct, catalog, topN = 3) {
 
   const parsed = parseScrapedName(scrapedProduct.name);
 
-  // Score all candidates with token-overlap guard
+  // Score all candidates with token-overlap guard and exclusion_tokens veto
   let scored = catalog
     .map(entry => {
+
+      // Hard exclusion veto (V4 field): if any scraped token matches an exclusion
+      // token, this catalog entry is definitively skipped regardless of score.
+      if (Array.isArray(entry.exclusion_tokens) && entry.exclusion_tokens.length > 0) {
+        const excludeSet = new Set(entry.exclusion_tokens);
+        const scrapedFull = parsed.tokens;
+        // Also check against raw lower-cased name for multi-word exclusions
+        const rawLower = scrapedProduct.name.toLowerCase();
+        if (
+          scrapedFull.some(t => excludeSet.has(t)) ||
+          entry.exclusion_tokens.some(e => rawLower.includes(e))
+        ) return null;
+      }
 
       // Prevent matches with zero token overlap
       const tokenOverlap = jaccardSimilarity(parsed.tokens, entry._tokens);
@@ -272,6 +308,7 @@ function match(scrapedProduct, catalog, topN = 3) {
       return {
         canonical_name: entry.canonical_name,
         family_name: entry.family_name,
+        comparison_group: entry.comparison_group,
         score
       };
     })
