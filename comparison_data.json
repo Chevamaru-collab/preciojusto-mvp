@@ -18,12 +18,12 @@
         "price": 5.4
       },
       {
-        "store": "Wong",
-        "price": 5.9
+        "store": "Plaza Vea",
+        "price": 5.7
       },
       {
-        "store": "Plaza Vea",
-        "price": 6.5
+        "store": "Wong",
+        "price": 5.9
       }
     ],
     "best_price": 3.9,
@@ -41,18 +41,18 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 14.8
-      },
-      {
-        "store": "Metro",
-        "price": 14.9
+        "price": 15.5
       },
       {
         "store": "Plaza Vea",
         "price": 15.5
+      },
+      {
+        "store": "Metro",
+        "price": 15.5
       }
     ],
-    "best_price": 14.8,
+    "best_price": 15.5,
     "best_store": "Tottus"
   },
   {
@@ -78,6 +78,88 @@
     "best_store": "Tottus"
   },
   {
+    "canonical_name": "Avena Hojuelas 0.5 KG",
+    "product_name": "Avena Hojuelas 0.5 KG",
+    "comparison_group": "Avena Hojuelas",
+    "category": "Avena Hojuelas",
+    "presentation": 0.5,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Metro",
+        "price": 4.8
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 5.5
+      },
+      {
+        "store": "Wong",
+        "price": 5.7
+      },
+      {
+        "store": "Tottus",
+        "price": 6.6
+      }
+    ],
+    "best_price": 4.8,
+    "best_store": "Metro"
+  },
+  {
+    "canonical_name": "Avena Hojuelas 1 KG",
+    "product_name": "Avena Hojuelas 1 KG",
+    "comparison_group": "Avena Hojuelas",
+    "category": "Avena Hojuelas",
+    "presentation": 1,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Wong",
+        "price": 9.4
+      },
+      {
+        "store": "Tottus",
+        "price": 9.7
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 9.7
+      }
+    ],
+    "best_price": 9.4,
+    "best_store": "Wong"
+  },
+  {
+    "canonical_name": "Avena Instantanea 0.5 KG",
+    "product_name": "Avena Instantanea 0.5 KG",
+    "comparison_group": "Avena Instantanea",
+    "category": "Avena Instantanea",
+    "presentation": 0.5,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 4.5
+      },
+      {
+        "store": "Metro",
+        "price": 4.8
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 6.5
+      }
+    ],
+    "best_price": 4.5,
+    "best_store": "Tottus"
+  },
+  {
     "canonical_name": "Azucar Blanca 1 KG",
     "product_name": "Azucar Blanca 1 KG",
     "comparison_group": "Azucar Blanca",
@@ -88,20 +170,20 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 5.3
+        "store": "Metro",
+        "price": 4.8
       },
       {
-        "store": "Metro",
-        "price": 5.45
+        "store": "Plaza Vea",
+        "price": 5.5
       },
       {
         "store": "Wong",
         "price": 5.5
       }
     ],
-    "best_price": 5.3,
-    "best_store": "Plaza Vea"
+    "best_price": 4.8,
+    "best_store": "Metro"
   },
   {
     "canonical_name": "Azucar Blanca 5 KG",
@@ -115,7 +197,7 @@
     "stores": [
       {
         "store": "Plaza Vea",
-        "price": 22.8
+        "price": 22.5
       },
       {
         "store": "Metro",
@@ -130,7 +212,7 @@
         "price": 25.9
       }
     ],
-    "best_price": 22.8,
+    "best_price": 22.5,
     "best_store": "Plaza Vea"
   },
   {
@@ -178,16 +260,16 @@
         "price": 14.9
       },
       {
+        "store": "Plaza Vea",
+        "price": 15.5
+      },
+      {
         "store": "Metro",
         "price": 15.5
       },
       {
         "store": "Wong",
         "price": 16.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 22.7
       }
     ],
     "best_price": 14.9,
@@ -239,7 +321,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 7.9
+        "price": 7.5
       },
       {
         "store": "Metro",
@@ -286,16 +368,16 @@
     "normalized_unit": "unit",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 6.9
+        "store": "Tottus",
+        "price": 6.5
       },
       {
-        "store": "Tottus",
-        "price": 7.5
+        "store": "Plaza Vea",
+        "price": 7.9
       }
     ],
-    "best_price": 6.9,
-    "best_store": "Plaza Vea"
+    "best_price": 6.5,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Huevos Pardos 15 UND",
@@ -313,7 +395,11 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 8.9
+        "price": 9.4
+      },
+      {
+        "store": "Metro",
+        "price": 9.9
       },
       {
         "store": "Wong",
@@ -335,18 +421,48 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 13.9
+        "price": 15.5
       },
       {
         "store": "Plaza Vea",
-        "price": 18.5
+        "price": 20.5
       },
       {
         "store": "Wong",
-        "price": 20.9
+        "price": 20.5
       }
     ],
-    "best_price": 13.9,
+    "best_price": 15.5,
+    "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Leche Evaporada 0.4 KG",
+    "product_name": "Leche Evaporada 0.4 KG",
+    "comparison_group": "Leche Evaporada",
+    "category": "Leche",
+    "presentation": 0.4,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 4
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 4
+      },
+      {
+        "store": "Metro",
+        "price": 4.1
+      },
+      {
+        "store": "Wong",
+        "price": 4.2
+      }
+    ],
+    "best_price": 4,
     "best_store": "Tottus"
   },
   {
@@ -416,10 +532,6 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Metro",
-        "price": 3.9
-      },
-      {
         "store": "Tottus",
         "price": 6.9
       },
@@ -429,11 +541,15 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 11.2
+        "price": 9.7
+      },
+      {
+        "store": "Metro",
+        "price": 15.4
       }
     ],
-    "best_price": 3.9,
-    "best_store": "Metro"
+    "best_price": 6.9,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Mantequilla Sal 0.2 KG",
@@ -480,12 +596,12 @@
         "price": 9.9
       },
       {
-        "store": "Metro",
-        "price": 16.9
+        "store": "Plaza Vea",
+        "price": 16.5
       },
       {
-        "store": "Plaza Vea",
-        "price": 17.5
+        "store": "Metro",
+        "price": 16.9
       }
     ],
     "best_price": 9.9,
@@ -562,10 +678,6 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Metro",
-        "price": 4.9
-      },
-      {
         "store": "Wong",
         "price": 4.9
       },
@@ -574,12 +686,16 @@
         "price": 5
       },
       {
+        "store": "Metro",
+        "price": 5.9
+      },
+      {
         "store": "Plaza Vea",
         "price": 6.6
       }
     ],
     "best_price": 4.9,
-    "best_store": "Metro"
+    "best_store": "Wong"
   },
   {
     "canonical_name": "Lenteja 0.5 KG",
@@ -610,6 +726,28 @@
     ],
     "best_price": 3.4,
     "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Papel de Arroz 0.3 KG",
+    "product_name": "Papel de Arroz 0.3 KG",
+    "comparison_group": "Papel de Arroz",
+    "category": "Papel",
+    "presentation": 0.3,
+    "unit": "KG",
+    "price_unit": "kilogram",
+    "normalized_unit": "kilogram",
+    "stores": [
+      {
+        "store": "Plaza Vea",
+        "price": 7.6
+      },
+      {
+        "store": "Metro",
+        "price": 7.9
+      }
+    ],
+    "best_price": 7.6,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Refresco Sin Preparar 1 KG",

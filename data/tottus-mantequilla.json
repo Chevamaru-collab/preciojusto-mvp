@@ -1,116 +1,6 @@
 [
   {
-    "id": "tottus_gloriamantequillacon_mniaok00",
-    "nombre": "GLORIA Mantequilla Con Sal 180 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 9.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 53.89,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.832Z"
-  },
-  {
-    "id": "tottus_laivemantequillacons_mniaok00",
-    "nombre": "LAIVE Mantequilla con Sal Laive Envase 350 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 19.3,
-      "regular": 19.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 55.14,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 350,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 3,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.832Z"
-  },
-  {
-    "id": "tottus_gloriamantequillaglo_mniaok00",
-    "nombre": "GLORIA Mantequilla Gloria con Sal Envase 180 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 11.6,
-      "regular": 13.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 64.44,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.832Z"
-  },
-  {
-    "id": "tottus_plusamantequillacons_mniaok00",
-    "nombre": "PLUSA Mantequilla con Sal Plusa Empaque 200 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 15.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 76.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.832Z"
-  },
-  {
-    "id": "tottus_gloriamantequillasin_mniaok00",
-    "nombre": "GLORIA Mantequilla Sin Sal Gloria en Barra Empaque 180 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 10.2,
-      "regular": 11.89,
-      "tarjeta": 9.9,
-      "tarjetaDesc": "CMR",
-      "porUnidad": 56.67,
-      "porUnidadTarjeta": 55
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": 17,
-    "timestamp": "2026-04-03T02:38:56.832Z"
-  },
-  {
-    "id": "tottus_gloriamantequillacon_mniaok01",
+    "id": "tottus_gloriamantequillacon_mnnq4x3f",
     "nombre": "GLORIA Mantequilla con Sal Gloria en Barra Empaque 50 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -129,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_laivemantequillacons_mniaok01",
+    "id": "tottus_laivemantequillacons_mnnq4x3f",
     "nombre": "LAIVE Mantequilla con Sal Laive en Barra Empaque 100 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -151,10 +41,76 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_danlacmantequillacon_mniaok01",
+    "id": "tottus_gloriamantequillaglo_mnnq4x3f",
+    "nombre": "GLORIA Mantequilla Gloria con Sal Envase 180 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 11.6,
+      "regular": 13.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 64.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-06T21:50:25.419Z"
+  },
+  {
+    "id": "tottus_plusamantequillacons_mnnq4x3f",
+    "nombre": "PLUSA Mantequilla con Sal Plusa Empaque 200 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 15.3,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 76.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-06T21:50:25.419Z"
+  },
+  {
+    "id": "tottus_gloriamantequillasin_mnnq4x3f",
+    "nombre": "GLORIA Mantequilla Sin Sal Gloria en Barra Empaque 180 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 10.2,
+      "regular": 11.89,
+      "tarjeta": 9.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 56.67,
+      "porUnidadTarjeta": 55
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": 17,
+    "timestamp": "2026-04-06T21:50:25.419Z"
+  },
+  {
+    "id": "tottus_danlacmantequillacon_mnnq4x3f",
     "nombre": "DANLAC Mantequilla con Sal Danlac Empaque 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -173,10 +129,10 @@
     },
     "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_delestablomantequill_mniaok01",
+    "id": "tottus_delestablomantequill_mnnq4x3f",
     "nombre": "DEL ESTABLO Mantequilla Del Establo Con Sal Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -195,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_laivecremademantequi_mniaok01",
+    "id": "tottus_laivecremademantequi_mnnq4x3f",
     "nombre": "LAIVE Crema de Mantequilla Laive Extra Untable Envase 350 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -217,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_laivemantequillasins_mniaok01",
+    "id": "tottus_laivemantequillasins_mnnq4x3f",
     "nombre": "LAIVE Mantequilla sin Sal Laive en Barra Empaque 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -239,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_plusamantequillasins_mniaok01",
+    "id": "tottus_plusamantequillasins_mnnq4x3f",
     "nombre": "PLUSA Mantequilla Sin Sal Plusa Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -261,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_paysanbretonmantequi_mniaok01",
+    "id": "tottus_paysanbretonmantequi_mnnq4x3f",
     "nombre": "PAYSAN BRETON Mantequilla con Sal Paysan Breton Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -283,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_tottusmantequillacon_mniaok01",
+    "id": "tottus_tottusmantequillacon_mnnq4x3f",
     "nombre": "TOTTUS Mantequilla con Sal Tottus Envase 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -305,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_tottusmixuntableconm_mniaok01",
+    "id": "tottus_tottusmixuntableconm_mnnq4x3f",
     "nombre": "TOTTUS Mix Untable con Mantequilla Tottus Envase 450 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -327,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_presidentmantequilla_mniaok01",
+    "id": "tottus_presidentmantequilla_mnnq4x3f",
     "nombre": "PRESIDENT Mantequilla con Sal President Empaque 200 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -349,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriaac_mniaok01",
+    "id": "tottus_gloriayogurtgloriaac_mnnq4x3f",
     "nombre": "GLORIA Yogurt Gloria Actibio Mora con Chía Botella 1 Kg",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -371,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_gloriayogurtgloriava_mniaok01",
+    "id": "tottus_gloriayogurtgloriava_mnnq4x3f",
     "nombre": "GLORIA Yogurt Gloria Vainilla Botella 180 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -393,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_mantymargarinamantye_mniaok01",
+    "id": "tottus_mantymargarinamantye_mnnq4x3f",
     "nombre": "MANTY Margarina Manty Envase 95 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -415,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_lacajamarquezarosqui_mniaok01",
+    "id": "tottus_lacajamarquezarosqui_mnnq4x3f",
     "nombre": "LA CAJAMARQUEZA Rosquitas de Mantequilla",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -433,10 +389,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_zanettimantequillaza_mniaok01",
+    "id": "tottus_zanettimantequillaza_mnnq4x3f",
     "nombre": "ZANETTI Mantequilla Zanetti Empaque 125 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -455,10 +411,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_chugurquesosmantequi_mniaok01",
+    "id": "tottus_chugurquesosmantequi_mnnq4x3f",
     "nombre": "CHUGUR QUESOS Mantequilla Chuguranita Envase 150 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -477,10 +433,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_ankerplaypuffarcilla_mniaok01",
+    "id": "tottus_ankerplaypuffarcilla_mnnq4x3f",
     "nombre": "ANKER PLAY Puff Arcilla Mantequilla 8 Pzas",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -495,10 +451,10 @@
     "presentacion": null,
     "descuento": 68,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.833Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_enkelfoodsmantequill_mniaok02",
+    "id": "tottus_enkelfoodsmantequill_mnnq4x3f",
     "nombre": "ENKEL FOODS Mantequilla de Maní Enkel Foods Envase 300 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -517,10 +473,10 @@
     },
     "descuento": 20,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_piamontemantequillac_mniaok02",
+    "id": "tottus_piamontemantequillac_mnnq4x3f",
     "nombre": "PIAMONTE Mantequilla con Sal Piamonte Empaque 250 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -539,54 +495,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_amarusuperfoodsmante_mniaok02",
-    "nombre": "AMARU SUPERFOODS Mantequilla de Maní Amaru Superfoods Envase 410 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 22.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 54.88,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 410,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
-  },
-  {
-    "id": "tottus_unionmantequilladema_mniaok02",
-    "nombre": "UNION Mantequilla de Mani Union Pote 410 g",
-    "categoria": "mantequilla",
-    "super": "tottus",
-    "precios": {
-      "online": 22.1,
-      "regular": 24,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 53.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 410,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 8,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
-  },
-  {
-    "id": "tottus_lapuritamantequillad_mniaok02",
+    "id": "tottus_lapuritamantequillad_mnnq4x3f",
     "nombre": "LA PURITA Mantequilla de Maní y Cacao La Purita Pote 170 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -605,10 +517,54 @@
     },
     "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_spreadmantequillacho_mniaok02",
+    "id": "tottus_unionmantequilladema_mnnq4x3f",
+    "nombre": "UNION Mantequilla de Mani Union Pote 410 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 22.1,
+      "regular": 24,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 53.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 410,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 8,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-06T21:50:25.419Z"
+  },
+  {
+    "id": "tottus_amarusuperfoodsmante_mnnq4x3f",
+    "nombre": "AMARU SUPERFOODS Mantequilla de Maní Amaru Superfoods Envase 410 g",
+    "categoria": "mantequilla",
+    "super": "tottus",
+    "precios": {
+      "online": 21.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 53.41,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 410,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-06T21:50:25.419Z"
+  },
+  {
+    "id": "tottus_spreadmantequillacho_mnnq4x3f",
     "nombre": "SPREAD Mantequilla Chocomaní Spread Envase 410 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -627,10 +583,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_santamaniamantequill_mniaok02",
+    "id": "tottus_santamaniamantequill_mnnq4x3f",
     "nombre": "SANTA MANIA Mantequilla de Almendras Santa Manía Pote 185 g",
     "categoria": "mantequilla",
     "super": "tottus",
@@ -649,19 +605,19 @@
     },
     "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_spreadmantequilla100_mniaok02",
-    "nombre": "SPREAD Mantequilla 100% Maní Spread Envase 230 g",
+    "id": "tottus_spreadmantequilla100_mnnq4x3f",
+    "nombre": "SPREAD Mantequilla 100% Almendras Spread Envase 230 g",
     "categoria": "mantequilla",
     "super": "tottus",
     "precios": {
-      "online": 13.9,
-      "regular": null,
+      "online": 25.9,
+      "regular": 26.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 60.43,
+      "porUnidad": 112.61,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -669,30 +625,30 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 4,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   },
   {
-    "id": "tottus_wasiorganicsmantequi_mniaok02",
-    "nombre": "WASI ORGANICS Mantequilla de Maní Wasi Organics Envase 240 g",
+    "id": "tottus_skippymantequilladem_mnnq4x3f",
+    "nombre": "SKIPPY Mantequilla de Maní Skippy Natural Envase 425 g",
     "categoria": "mantequilla",
     "super": "tottus",
     "precios": {
-      "online": 21,
+      "online": 32.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 87.5,
+      "porUnidad": 76.47,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 240,
+      "valor": 425,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-03T02:38:56.834Z"
+    "timestamp": "2026-04-06T21:50:25.419Z"
   }
 ]
