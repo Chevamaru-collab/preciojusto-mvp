@@ -1,6 +1,28 @@
 [
   {
-    "id": "plazavea_arrozextrafaraonbols_mnnq5h5p",
+    "id": "plazavea_arrozextraaejovallen_mnpl6xdg",
+    "nombre": "Arroz Extra Añejo VALLENORTE Gran Reserva Bolsa 5Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 19.9,
+      "regular": 26.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.98,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 26,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.364Z"
+  },
+  {
+    "id": "plazavea_arrozextrafaraonbols_mnpl6xdg",
     "nombre": "Arroz Extra FARAON Bolsa 750g",
     "categoria": "arroz",
     "super": "plazavea",
@@ -19,19 +41,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.421Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozextraaejofaraon_mnnq5h5p",
+    "id": "plazavea_arrozextraaejofaraon_mnpl6xdg",
     "nombre": "Arroz Extra Añejo FARAON Naranja Bolsa 5kg",
     "categoria": "arroz",
     "super": "plazavea",
     "precios": {
-      "online": 26.9,
-      "regular": null,
+      "online": 22.4,
+      "regular": 26.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.38,
+      "porUnidad": 4.48,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -39,78 +61,12 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 17,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.421Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozextracosteobols_mnnq5h5p",
-    "nombre": "Arroz Extra COSTEÑO Bolsa 5Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 20.9,
-      "regular": 25.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.18,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 19,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.421Z"
-  },
-  {
-    "id": "plazavea_arrozaejoextracosteo_mnnq5h5q",
-    "nombre": "Arroz Añejo Extra COSTEÑO Bolsa 750g",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 4.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.73,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
-  },
-  {
-    "id": "plazavea_arrozextrabellsbolsa_mnnq5h5q",
-    "nombre": "Arroz Extra BELL'S Bolsa 750g",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 3.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
-  },
-  {
-    "id": "plazavea_arrozextracosteobols_mnnq5h5q",
+    "id": "plazavea_arrozextracosteobols_mnpl6xdg",
     "nombre": "Arroz Extra COSTEÑO Bolsa 750g",
     "categoria": "arroz",
     "super": "plazavea",
@@ -129,19 +85,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozextraaejovallen_mnnq5h5q",
-    "nombre": "Arroz Extra Añejo VALLENORTE Gran Reserva Bolsa 5Kg",
+    "id": "plazavea_arrozaejoextracosteo_mnpl6xdg",
+    "nombre": "Arroz Añejo Extra COSTEÑO Bolsa 5Kg",
     "categoria": "arroz",
     "super": "plazavea",
     "precios": {
-      "online": 20.9,
-      "regular": 26.9,
+      "online": 19.8,
+      "regular": 25.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.18,
+      "porUnidad": 3.96,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -149,21 +105,43 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 22,
+    "descuento": 24,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozextragranchalan_mnnq5h5q",
+    "id": "plazavea_arrozextrabellsbolsa_mnpl6xdg",
+    "nombre": "Arroz Extra BELL'S Bolsa 5Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 17.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.58,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.364Z"
+  },
+  {
+    "id": "plazavea_arrozextragranchalan_mnpl6xdg",
     "nombre": "Arroz Extra GRAN CHALAN Bolsa 5Kg",
     "categoria": "arroz",
     "super": "plazavea",
     "precios": {
-      "online": 22.2,
+      "online": 20.7,
       "regular": 23.4,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.44,
+      "porUnidad": 4.14,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -171,43 +149,21 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 5,
+    "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozextrapaisanabol_mnnq5h5q",
-    "nombre": "Arroz Extra PAISANA Bolsa 1Kg",
+    "id": "plazavea_arrozextrapaisanabol_mnpl6xdg",
+    "nombre": "Arroz Extra PAISANA Bolsa 5Kg",
     "categoria": "arroz",
     "super": "plazavea",
     "precios": {
-      "online": 5.9,
-      "regular": null,
+      "online": 21.5,
+      "regular": 22.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
-  },
-  {
-    "id": "plazavea_arrozintegralbellsbo_mnnq5h5q",
-    "nombre": "Arroz Integral BELL'S Bolsa 5Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 23.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.7,
+      "porUnidad": 4.3,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -215,12 +171,12 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozextraaejopremiu_mnnq5h5q",
+    "id": "plazavea_arrozextraaejopremiu_mnpl6xdg",
     "nombre": "Arroz Extra Añejo Premium FARAÓN Bolsa 10Kg",
     "categoria": "arroz",
     "super": "plazavea",
@@ -239,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozextravallenorte_mnnq5h5q",
+    "id": "plazavea_arrozextravallenorte_mnpl6xdg",
     "nombre": "Arroz Extra VALLENORTE Gran Reserva Bolsa 750g",
     "categoria": "arroz",
     "super": "plazavea",
@@ -261,10 +217,10 @@
     },
     "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozintegralvalleno_mnnq5h5q",
+    "id": "plazavea_arrozintegralvalleno_mnpl6xdg",
     "nombre": "Arroz Integral VALLENORTE Bolsa 750g",
     "categoria": "arroz",
     "super": "plazavea",
@@ -283,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.364Z"
   },
   {
-    "id": "plazavea_arrozfaraonaejoamari_mnnq5h5q",
+    "id": "plazavea_arrozfaraonaejoamari_mnpl6xdh",
     "nombre": "Arroz FARAON Añejo Amarillo G3 Bolsa 5kg",
     "categoria": "arroz",
     "super": "plazavea",
@@ -305,41 +261,19 @@
     },
     "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.365Z"
   },
   {
-    "id": "plazavea_arrozsuperiorpaisana_mnnq5h5q",
-    "nombre": "Arroz Superior PAISANA Bolsa 5Kg",
+    "id": "plazavea_arrozextrapaisanabol_mnpl6xdh",
+    "nombre": "Arroz Extra PAISANA Bolsa 1Kg",
     "categoria": "arroz",
     "super": "plazavea",
     "precios": {
-      "online": 19.5,
-      "regular": 21.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 11,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
-  },
-  {
-    "id": "plazavea_arrozaejoamarillofar_mnnq5h5q",
-    "nombre": "Arroz Añejo Amarillo FARAÓN G3 Bolsa 1Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 4.99,
+      "online": 5.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.99,
+      "porUnidad": 5.9,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -349,208 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.422Z"
+    "timestamp": "2026-04-08T05:07:33.365Z"
   },
   {
-    "id": "plazavea_arrozsuperiorbellsbo_mnnq5h5r",
-    "nombre": "Arroz Superior BELL'S Bolsa 5Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 17.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozintegralcosteob_mnnq5h5r",
-    "nombre": "Arroz Integral COSTEÑO Bolsa 750g",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 6.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozparbolizadocost_mnnq5h5r",
-    "nombre": "Arroz Parbolizado COSTEÑO Bolsa 750g",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 5.5,
-      "regular": 5.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.33,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 2,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozextraaejobellsb_mnnq5h5r",
-    "nombre": "Arroz Extra Añejo BELL'S Bolsa 5Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 22.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozextraaejopaisan_mnnq5h5r",
-    "nombre": "Arroz Extra Añejo PAISANA Bolsa 5Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 23.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.78,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozblancofaraonext_mnnq5h5r",
-    "nombre": "Arroz Blanco FARAON Extra Añejo Negro Bolsa 5Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 23.4,
-      "regular": 24.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.68,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 6,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozsuperiorfaraonr_mnnq5h5r",
-    "nombre": "Arroz Superior FARAON Rojo Bolsa 5Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 22,
-      "regular": 24.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 12,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozgranchalanextra_mnnq5h5r",
-    "nombre": "Arroz GRAN CHALAN Extra Añejo Bolsa 750g",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 4.1,
-      "regular": 4.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.47,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozsuperioraejoval_mnnq5h5r",
-    "nombre": "Arroz Superior Añejo VALLENORTE Bolsa 5Kg",
-    "categoria": "arroz",
-    "super": "plazavea",
-    "precios": {
-      "online": 20.9,
-      "regular": 23.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.18,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 13,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
-  },
-  {
-    "id": "plazavea_arrozsuperiorpaisana_mnnq5h5r",
+    "id": "plazavea_arrozsuperiorpaisana_mnpl6xdh",
     "nombre": "Arroz Superior PAISANA Bolsa 1Kg",
     "categoria": "arroz",
     "super": "plazavea",
@@ -569,16 +305,16 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
+    "timestamp": "2026-04-08T05:07:33.365Z"
   },
   {
-    "id": "plazavea_arrozsuperiorvalleno_mnnq5h5r",
-    "nombre": "Arroz Superior VALLENORTE Bolsa 750g",
+    "id": "plazavea_arrozextrabellsbolsa_mnpl6xdh",
+    "nombre": "Arroz Extra BELL'S Bolsa 750g",
     "categoria": "arroz",
     "super": "plazavea",
     "precios": {
       "online": 3.5,
-      "regular": 4.5,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
       "porUnidad": 4.67,
@@ -589,34 +325,276 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 22,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
+    "timestamp": "2026-04-08T05:07:33.365Z"
   },
   {
-    "id": "plazavea_arrozextrabellssaco1_mnnq5h5r",
-    "nombre": "Arroz Extra BELL'S Saco 10Kg",
+    "id": "plazavea_arrozintegralbellsbo_mnpl6xdh",
+    "nombre": "Arroz Integral BELL'S Bolsa 5Kg",
     "categoria": "arroz",
     "super": "plazavea",
     "precios": {
-      "online": 34.9,
+      "online": 23.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 3.49,
+      "porUnidad": 4.7,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 10,
+      "valor": 5,
       "unidad": "kg",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
+    "timestamp": "2026-04-08T05:07:33.365Z"
   },
   {
-    "id": "plazavea_harinadearrozcosteob_mnnq5h5r",
+    "id": "plazavea_arrozaejoextracosteo_mnpl6xdh",
+    "nombre": "Arroz Añejo Extra COSTEÑO Bolsa 750g",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 4.3,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.73,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozaejoamarillofar_mnpl6xdh",
+    "nombre": "Arroz Añejo Amarillo FARAÓN G3 Bolsa 1Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 4.99,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.99,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozsuperiorbellsbo_mnpl6xdh",
+    "nombre": "Arroz Superior BELL'S Bolsa 5Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 17.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozintegralcosteob_mnpl6xdh",
+    "nombre": "Arroz Integral COSTEÑO Bolsa 750g",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 6.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozparbolizadocost_mnpl6xdh",
+    "nombre": "Arroz Parbolizado COSTEÑO Bolsa 750g",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.5,
+      "regular": 5.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 2,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozextraaejobellsb_mnpl6xdh",
+    "nombre": "Arroz Extra Añejo BELL'S Bolsa 5Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 22.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozextraaejopaisan_mnpl6xdh",
+    "nombre": "Arroz Extra Añejo PAISANA Bolsa 5Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 23.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozblancofaraonext_mnpl6xdh",
+    "nombre": "Arroz Blanco FARAON Extra Añejo Negro Bolsa 5Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 23.4,
+      "regular": 24.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.68,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozsuperiorfaraonr_mnpl6xdh",
+    "nombre": "Arroz Superior FARAON Rojo Bolsa 5Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 22,
+      "regular": 24.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 12,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozgranchalanextra_mnpl6xdh",
+    "nombre": "Arroz GRAN CHALAN Extra Añejo Bolsa 750g",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 4.1,
+      "regular": 4.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.47,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozsuperioraejoval_mnpl6xdh",
+    "nombre": "Arroz Superior Añejo VALLENORTE Bolsa 5Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 20.9,
+      "regular": 23.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.18,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 13,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_harinadearrozcosteob_mnpl6xdh",
     "nombre": "Harina de Arroz COSTEÑO Bolsa 1kg",
     "categoria": "arroz",
     "super": "plazavea",
@@ -635,28 +613,50 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
+    "timestamp": "2026-04-08T05:07:33.365Z"
   },
   {
-    "id": "plazavea_fideosdearrozbarcidd_mnnq5h5r",
-    "nombre": "Fideos de Arroz BARCIDDA Bolsa 250g",
+    "id": "plazavea_arrozsuperiorvalleno_mnpl6xdh",
+    "nombre": "Arroz Superior VALLENORTE Bolsa 750g",
     "categoria": "arroz",
     "super": "plazavea",
     "precios": {
-      "online": 7.6,
-      "regular": null,
+      "online": 3.5,
+      "regular": 4.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 30.4,
+      "porUnidad": 4.67,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 250,
+      "valor": 750,
       "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 22,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-08T05:07:33.365Z"
+  },
+  {
+    "id": "plazavea_arrozextrabellssaco1_mnpl6xdh",
+    "nombre": "Arroz Extra BELL'S Saco 10Kg",
+    "categoria": "arroz",
+    "super": "plazavea",
+    "precios": {
+      "online": 34.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.49,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 10,
+      "unidad": "kg",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-06T21:50:51.423Z"
+    "timestamp": "2026-04-08T05:07:33.365Z"
   }
 ]
