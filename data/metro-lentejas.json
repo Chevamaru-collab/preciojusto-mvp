@@ -1,15 +1,15 @@
 [
   {
-    "id": "metro_lentejamxima500g_mnplbxy1",
+    "id": "metro_lentejamxima500g_mnserm6i",
     "nombre": "Lenteja Máxima 500g",
     "categoria": "lentejas",
     "super": "metro",
     "precios": {
-      "online": 3.9,
-      "regular": 4.5,
+      "online": 4.5,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 7.8,
+      "porUnidad": 9,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,12 +17,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 13,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.850Z"
   },
   {
-    "id": "metro_lentejabebcuisineco5_mnplbxy1",
+    "id": "metro_lentejabebcuisineco5_mnserm6i",
     "nombre": "Lenteja Bebé Cuisine & Co 500g",
     "categoria": "lentejas",
     "super": "metro",
@@ -41,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.850Z"
   },
   {
-    "id": "metro_lentejacuisineco500g_mnplbxy1",
+    "id": "metro_lentejacuisineco500g_mnserm6i",
     "nombre": "Lenteja Cuisine & Co 500g",
     "categoria": "lentejas",
     "super": "metro",
@@ -63,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.850Z"
   },
   {
-    "id": "metro_lentejabolsa350g_mnplbxy1",
+    "id": "metro_lentejabolsa350g_mnserm6i",
     "nombre": "Lenteja Bolsa 350 g",
     "categoria": "lentejas",
     "super": "metro",
@@ -85,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.850Z"
   },
   {
-    "id": "metro_lentejacosteo500g_mnplbxy1",
+    "id": "metro_lentejacosteo500g_mnserm6j",
     "nombre": "Lenteja Costeño 500g",
     "categoria": "lentejas",
     "super": "metro",
@@ -107,10 +107,10 @@
     },
     "descuento": 18,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejabebcosechaand_mnplbxy1",
+    "id": "metro_lentejabebcosechaand_mnserm6j",
     "nombre": "Lenteja Bebé Cosecha Andina 500g",
     "categoria": "lentejas",
     "super": "metro",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejabebtesorodelc_mnplbxy1",
+    "id": "metro_lentejabebtesorodelc_mnserm6j",
     "nombre": "Lenteja Bebé Tesoro Del Campo Bolsa 500 g",
     "categoria": "lentejas",
     "super": "metro",
@@ -151,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejatesorodelcamp_mnplbxy1",
+    "id": "metro_lentejatesorodelcamp_mnserm6j",
     "nombre": "Lenteja Tesoro Del Campo Bolsa 500 g",
     "categoria": "lentejas",
     "super": "metro",
@@ -173,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejabelugacosecha_mnplbxy1",
+    "id": "metro_lentejabelugacosecha_mnserm6j",
     "nombre": "Lenteja Beluga Cosecha Andina 500g",
     "categoria": "lentejas",
     "super": "metro",
@@ -195,32 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejasbebbolsa500g_mnplbxy1",
-    "nombre": "Lentejas Bebé Bolsa 500 g",
-    "categoria": "lentejas",
-    "super": "metro",
-    "precios": {
-      "online": 6.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 13,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
-  },
-  {
-    "id": "metro_lentejavallenortebol_mnplbxy1",
+    "id": "metro_lentejavallenortebol_mnserm6j",
     "nombre": "Lenteja Valle Norte Bolsa 500 g",
     "categoria": "lentejas",
     "super": "metro",
@@ -239,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejagranosdelsur_mnplbxy1",
+    "id": "metro_lentejagranosdelsur_mnserm6j",
     "nombre": "Lenteja Granos Del Sur",
     "categoria": "lentejas",
     "super": "metro",
@@ -257,10 +235,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejasaderezadasca_mnplbxy1",
+    "id": "metro_lentejasaderezadasca_mnserm6j",
     "nombre": "Lentejas Aderezadas Casa Verde 360g",
     "categoria": "lentejas",
     "super": "metro",
@@ -279,10 +257,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejaslorenzo425g_mnplbxy1",
+    "id": "metro_lentejaslorenzo425g_mnserm6j",
     "nombre": "Lentejas Lorenzo 425g",
     "categoria": "lentejas",
     "super": "metro",
@@ -301,10 +279,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   },
   {
-    "id": "metro_lentejaspreparadascu_mnplbxy1",
+    "id": "metro_lentejaspreparadascu_mnserm6j",
     "nombre": "Lentejas Preparadas Cuisine & Co 425g",
     "categoria": "lentejas",
     "super": "metro",
@@ -323,6 +301,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:27.385Z"
+    "timestamp": "2026-04-10T04:30:59.851Z"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "id": "wong_huevosclsicospardosl_mnpldx9a",
+    "id": "wong_huevosclsicospardosl_mnseto6o",
     "nombre": "Huevos Clásicos Pardos La Calera 30un",
     "categoria": "huevos",
     "super": "wong",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.759Z"
   },
   {
-    "id": "wong_huevospardoswongband_mnpldx9a",
+    "id": "wong_huevospardoswongband_mnseto6o",
     "nombre": "Huevos Pardos Wong Bandeja 8 Unid",
     "categoria": "huevos",
     "super": "wong",
@@ -41,19 +41,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevospardoswong30un_mnpldx9a",
+    "id": "wong_huevospardoswong30un_mnseto6o",
     "nombre": "Huevos Pardos Wong 30un",
     "categoria": "huevos",
     "super": "wong",
     "precios": {
-      "online": 20.9,
+      "online": 17.9,
       "regular": 20.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 0.7,
+      "porUnidad": 0.6,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -61,12 +61,12 @@
       "unidad": "u",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevospardosartisan1_mnpldx9a",
+    "id": "wong_huevospardosartisan1_mnseto6o",
     "nombre": "Huevos Pardos Artisan 15un",
     "categoria": "huevos",
     "super": "wong",
@@ -85,41 +85,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevosgallinaslibres_mnpldx9a",
+    "id": "wong_huevosgallinaslibres_mnseto6o",
     "nombre": "Huevos Gallinas Libres 12un",
     "categoria": "huevos",
     "super": "wong",
     "precios": {
-      "online": 13.5,
+      "online": 15.9,
       "regular": 15.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 1.13,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 12,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
-  },
-  {
-    "id": "wong_huevosdecorralwongba_mnpldx9a",
-    "nombre": "Huevos de Corral Wong Bandeja 12 Unid",
-    "categoria": "huevos",
-    "super": "wong",
-    "precios": {
-      "online": 13.7,
-      "regular": 13.7,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 1.14,
+      "porUnidad": 1.32,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -129,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevodecorrallacaler_mnpldx9a",
+    "id": "wong_huevodecorrallacaler_mnseto6o",
     "nombre": "Huevo de Corral La Calera 12un.",
     "categoria": "huevos",
     "super": "wong",
@@ -151,10 +129,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevosorgnicospachac_mnpldx9a",
+    "id": "wong_huevosdecorralwongba_mnseto6o",
+    "nombre": "Huevos de Corral Wong Bandeja 12 Unid",
+    "categoria": "huevos",
+    "super": "wong",
+    "precios": {
+      "online": 13.7,
+      "regular": 13.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.14,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:32:35.760Z"
+  },
+  {
+    "id": "wong_huevosorgnicospachac_mnseto6o",
     "nombre": "Huevos Orgánicos Pachacamac 12un",
     "categoria": "huevos",
     "super": "wong",
@@ -173,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevosdecodornizwong_mnpldx9a",
+    "id": "wong_huevosdecodornizwong_mnseto6o",
     "nombre": "Huevos de Codorniz Wong Bandeja 18 Unid",
     "categoria": "huevos",
     "super": "wong",
@@ -195,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevosclsicosblancos_mnpldx9a",
+    "id": "wong_huevosclsicosblancos_mnseto6o",
     "nombre": "Huevos Clásicos Blancos La Calera 15un",
     "categoria": "huevos",
     "super": "wong",
@@ -217,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevosparaelandelaca_mnpldx9a",
+    "id": "wong_huevosparaelandelaca_mnseto6o",
     "nombre": "Huevos para el Ande La Calera 15un",
     "categoria": "huevos",
     "super": "wong",
@@ -239,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevospardossuperjum_mnpldx9a",
+    "id": "wong_huevospardossuperjum_mnseto6o",
     "nombre": "Huevos Pardos Super Jumbo Wong Bandeja 10 Unid",
     "categoria": "huevos",
     "super": "wong",
@@ -261,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevospardosorgnicos_mnpldx9a",
+    "id": "wong_huevospardosorgnicos_mnseto6o",
     "nombre": "Huevos Pardos Orgánicos Vida Orgánica 12un",
     "categoria": "huevos",
     "super": "wong",
@@ -283,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevospardospremiumw_mnpldx9a",
+    "id": "wong_huevospardospremiumw_mnseto6o",
     "nombre": "Huevos Pardos Premium Wong 10un",
     "categoria": "huevos",
     "super": "wong",
@@ -305,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   },
   {
-    "id": "wong_huevoorgnicowongband_mnpldx9a",
+    "id": "wong_huevoorgnicowongband_mnseto6o",
     "nombre": "Huevo Orgánico Wong Bandeja 8 Unid",
     "categoria": "huevos",
     "super": "wong",
@@ -327,6 +327,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:12:59.806Z"
+    "timestamp": "2026-04-10T04:32:35.760Z"
   }
 ]

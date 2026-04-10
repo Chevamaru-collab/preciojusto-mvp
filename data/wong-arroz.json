@@ -1,15 +1,15 @@
 [
   {
-    "id": "wong_arrozextracosteo5kg_mnplchp4",
+    "id": "wong_arrozextracosteo5kg_mnses8nj",
     "nombre": "Arroz Extra Costeño 5kg",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
-      "online": 25.9,
+      "online": 20.9,
       "regular": 29.6,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.18,
+      "porUnidad": 4.18,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,12 +17,12 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 13,
+    "descuento": 29,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozextracosteo750g_mnplchp4",
+    "id": "wong_arrozextracosteo750g_mnses8nj",
     "nombre": "Arroz Extra Costeño 750g",
     "categoria": "arroz",
     "super": "wong",
@@ -41,32 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozblancoextraaejo_mnplchp4",
-    "nombre": "Arroz Blanco Extra Añejo Faraón Naranja 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 4,
-      "regular": 4.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.33,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 11,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozgranreservaextr_mnplchp4",
+    "id": "wong_arrozgranreservaextr_mnses8nj",
     "nombre": "Arroz Gran Reserva Extra Valle Norte Bolsa 750 g",
     "categoria": "arroz",
     "super": "wong",
@@ -85,230 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozextrawongbolsa5_mnplchp4",
-    "nombre": "Arroz Extra Wong Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 18.9,
-      "regular": 20.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.78,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 10,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozcosteoaejoextra_mnplchp4",
-    "nombre": "Arroz Costeño Añejo Extra 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 19.8,
-      "regular": 29.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.96,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 33,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozintegralcosteo7_mnplchp4",
-    "nombre": "Arroz Integral Costeño 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 6.5,
-      "regular": 6.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozsuperiorpaisana_mnplchp4",
-    "nombre": "Arroz Superior Paisana Bolsa 5 kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 20.9,
-      "regular": 22.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.18,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 8,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozextrawong750g_mnplchp4",
-    "nombre": "Arroz Extra Wong 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 3.6,
-      "regular": 3.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozextraaejocuisin_mnplchp4",
-    "nombre": "Arroz Extra Añejo Cuisine&Co Bolsa 5 kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 21.9,
-      "regular": 24.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.38,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 12,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozintegralcuisine_mnplchp4",
-    "nombre": "Arroz Integral Cuisine & Co 5kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 22.9,
-      "regular": 24.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.58,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 7,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozextrapaisanabol_mnplchp4",
-    "nombre": "Arroz Extra Paisana Bolsa 1 kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 6,
-      "regular": 6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozintegralpaisana_mnplchp4",
-    "nombre": "Arroz Integral Paisana Bolsa 1 kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 7.6,
-      "regular": 7.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozintegralmolinor_mnplchp4",
-    "nombre": "Arroz Integral Molino Rojo Bolsa 1 Kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 5.3,
-      "regular": 5.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.3,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.984Z"
-  },
-  {
-    "id": "wong_arrozblancoextraaejo_mnplchp5",
+    "id": "wong_arrozblancoextraaejo_mnses8nj",
     "nombre": "Arroz Blanco Extra Añejo Faraon Verde 5kg",
     "categoria": "arroz",
     "super": "wong",
@@ -327,85 +85,19 @@
     },
     "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozsuperioraejofar_mnplchp5",
-    "nombre": "Arroz Superior Añejo Faraón Rojo 750g",
+    "id": "wong_arrozextrawongbolsa5_mnses8nj",
+    "nombre": "Arroz Extra Wong Bolsa 5 Kg",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
-      "online": 4,
-      "regular": 4,
+      "online": 18.9,
+      "regular": 20.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.33,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozintegralvalleno_mnplchp5",
-    "nombre": "Arroz Integral Vallenorte 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 5.7,
-      "regular": 5.7,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozextratesorodelc_mnplchp5",
-    "nombre": "Arroz Extra Tesoro Del Campo Bolsa 750 g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 5.5,
-      "regular": 5.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.33,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozsuperiorwongbol_mnplchp5",
-    "nombre": "Arroz Superior Wong Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 19.9,
-      "regular": 19.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.98,
+      "porUnidad": 3.78,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -413,122 +105,12 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozbasmatirisoscot_mnplchp5",
-    "nombre": "Arroz Basmati Riso Scotti Caja 500 g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 22.8,
-      "regular": 22.8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 45.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozparbolizadocost_mnplchp5",
-    "nombre": "Arroz Parbolizado Costeño 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 6,
-      "regular": 6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozintegralcuisine_mnplchp5",
-    "nombre": "Arroz Integral Cuisine & Co 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 4.5,
-      "regular": 4.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozcosteoextra3kg_mnplchp5",
-    "nombre": "Arroz Costeño Extra 3kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 15.9,
-      "regular": 17.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.3,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 3,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 11,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozglaseadotesorod_mnplchp5",
-    "nombre": "Arroz Glaseado Tesoro Del Campo Bolsa 1 Kg",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 8.25,
-      "regular": 8.25,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 8.25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozcosteoaejoextra_mnplchp5",
+    "id": "wong_arrozcosteoaejoextra_mnses8nj",
     "nombre": "Arroz Costeño Añejo Extra 750g",
     "categoria": "arroz",
     "super": "wong",
@@ -547,19 +129,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozarboriocosteo75_mnplchp5",
-    "nombre": "Arroz Arborio Costeño 750g",
+    "id": "wong_arrozintegralcosteo7_mnses8nj",
+    "nombre": "Arroz Integral Costeño 750g",
     "categoria": "arroz",
     "super": "wong",
     "precios": {
-      "online": 12.4,
-      "regular": 12.4,
+      "online": 6.5,
+      "regular": 6.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 16.53,
+      "porUnidad": 8.67,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -569,32 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozaejoextracuisin_mnplchp5",
-    "nombre": "Arroz Añejo Extra Cuisine & Co 750g",
-    "categoria": "arroz",
-    "super": "wong",
-    "precios": {
-      "online": 4.2,
-      "regular": 4.2,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
-  },
-  {
-    "id": "wong_arrozsuperiorpaisana_mnplchp5",
+    "id": "wong_arrozsuperiorpaisana_mnses8nj",
     "nombre": "Arroz Superior Paisana Bolsa 1 kg",
     "categoria": "arroz",
     "super": "wong",
@@ -613,10 +173,362 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozextragranchaln5_mnplchp5",
+    "id": "wong_arrozextrawong750g_mnses8nj",
+    "nombre": "Arroz Extra Wong 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 3.6,
+      "regular": 3.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozextraaejocuisin_mnses8nj",
+    "nombre": "Arroz Extra Añejo Cuisine&Co Bolsa 5 kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 21.9,
+      "regular": 24.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 12,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozintegralcuisine_mnses8nj",
+    "nombre": "Arroz Integral Cuisine & Co 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 4.5,
+      "regular": 4.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozextrapaisanabol_mnses8nj",
+    "nombre": "Arroz Extra Paisana Bolsa 1 kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 6,
+      "regular": 6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozintegralpaisana_mnses8nj",
+    "nombre": "Arroz Integral Paisana Bolsa 1 kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 7.6,
+      "regular": 7.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozintegralmolinor_mnses8nj",
+    "nombre": "Arroz Integral Molino Rojo Bolsa 1 Kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 5.3,
+      "regular": 5.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.3,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozsuperioraejofar_mnses8nj",
+    "nombre": "Arroz Superior Añejo Faraón Rojo 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 4,
+      "regular": 4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozintegralvalleno_mnses8nj",
+    "nombre": "Arroz Integral Vallenorte 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 5.7,
+      "regular": 5.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozextratesorodelc_mnses8nj",
+    "nombre": "Arroz Extra Tesoro Del Campo Bolsa 750 g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 5.5,
+      "regular": 5.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozsuperiorwongbol_mnses8nj",
+    "nombre": "Arroz Superior Wong Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 19.9,
+      "regular": 19.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.98,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozbasmatirisoscot_mnses8nj",
+    "nombre": "Arroz Basmati Riso Scotti Caja 500 g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 22.8,
+      "regular": 22.8,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 45.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozparbolizadocost_mnses8nj",
+    "nombre": "Arroz Parbolizado Costeño 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 6,
+      "regular": 6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozcosteoextra3kg_mnses8nj",
+    "nombre": "Arroz Costeño Extra 3kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 15.9,
+      "regular": 17.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.3,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 3,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 11,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozglaseadotesorod_mnses8nj",
+    "nombre": "Arroz Glaseado Tesoro Del Campo Bolsa 1 Kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 8.25,
+      "regular": 8.25,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.25,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozarboriocosteo75_mnses8nj",
+    "nombre": "Arroz Arborio Costeño 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 12.4,
+      "regular": 12.4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.53,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozaejoextracuisin_mnses8nj",
+    "nombre": "Arroz Añejo Extra Cuisine & Co 750g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 4.2,
+      "regular": 4.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozextragranchaln5_mnses8nj",
     "nombre": "Arroz Extra Gran Chalán 5kg",
     "categoria": "arroz",
     "super": "wong",
@@ -635,10 +547,10 @@
     },
     "descuento": 20,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
   },
   {
-    "id": "wong_arrozintegralextrafa_mnplchp5",
+    "id": "wong_arrozintegralextrafa_mnses8nj",
     "nombre": "Arroz Integral Extra Faraón 500g",
     "categoria": "arroz",
     "super": "wong",
@@ -657,6 +569,94 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:11:52.985Z"
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozjapnicoparasush_mnses8nj",
+    "nombre": "Arroz Japónico para Sushi Bárcidda 500g",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 5.9,
+      "regular": 5.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 11.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozsuperiorcosteo5_mnses8nj",
+    "nombre": "Arroz Superior Costeño 5kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 21.9,
+      "regular": 23.25,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozparacocinaorien_mnses8nj",
+    "nombre": "Arroz para Cocina Oriental Mizu 1kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 7.6,
+      "regular": 7.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
+  },
+  {
+    "id": "wong_arrozparbolizadopais_mnses8nj",
+    "nombre": "Arroz Parbolizado Paisana Bolsa 1 kg",
+    "categoria": "arroz",
+    "super": "wong",
+    "precios": {
+      "online": 7.6,
+      "regular": 7.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:31:28.975Z"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "id": "metro_piernadepolloxkg_mnplaush",
+    "id": "metro_piernadepolloxkg_mnseqljh",
     "nombre": "Pierna de Pollo x kg",
     "categoria": "pollo",
     "super": "metro",
@@ -15,10 +15,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.641Z"
+    "timestamp": "2026-04-10T04:30:12.365Z"
   },
   {
-    "id": "metro_alasconpuntadepollon_mnplaush",
+    "id": "metro_alasconpuntadepollon_mnseqljh",
     "nombre": "Alas con Punta de Pollo Natural x kg",
     "categoria": "pollo",
     "super": "metro",
@@ -33,10 +33,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.641Z"
+    "timestamp": "2026-04-10T04:30:12.365Z"
   },
   {
-    "id": "metro_mortadeladepollonatu_mnplaush",
+    "id": "metro_mortadeladepollonatu_mnseqljh",
     "nombre": "Mortadela de Pollo Naturave 200g",
     "categoria": "pollo",
     "super": "metro",
@@ -55,50 +55,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.641Z"
+    "timestamp": "2026-04-10T04:30:12.365Z"
   },
   {
-    "id": "metro_humitaverdedepollo10_mnplaush",
-    "nombre": "Humita Verde de Pollo 100g",
+    "id": "metro_tamaldechinchadepoll_mnseqljh",
+    "nombre": "Tamal de Chincha de Pollo x un",
     "categoria": "pollo",
     "super": "metro",
     "precios": {
-      "online": 4.99,
-      "regular": null,
+      "online": 7.9,
+      "regular": 8.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 49.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 100,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.641Z"
-  },
-  {
-    "id": "metro_tamaldechinchadepoll_mnplaush",
-    "nombre": "Tamal de Chincha de Pollo Personal x un",
-    "categoria": "pollo",
-    "super": "metro",
-    "precios": {
-      "online": 5.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.3,
+      "porUnidad": 7.9,
       "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": null,
+    "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.641Z"
+    "timestamp": "2026-04-10T04:30:12.365Z"
   },
   {
-    "id": "metro_humitasdepollodelaca_mnplaush",
+    "id": "metro_humitasdepollodelaca_mnseqljh",
     "nombre": "Humitas de Pollo De La Casa x Unid",
     "categoria": "pollo",
     "super": "metro",
@@ -113,10 +91,28 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.641Z"
+    "timestamp": "2026-04-10T04:30:12.365Z"
   },
   {
-    "id": "metro_quesodechanchoricopo_mnplausi",
+    "id": "metro_tamaldepollodelacasa_mnseqljh",
+    "nombre": "Tamal de Pollo De la Casa x unid",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 7.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T04:30:12.365Z"
+  },
+  {
+    "id": "metro_quesodechanchoricopo_mnseqljh",
     "nombre": "Queso de Chancho Rico Pollo 200 g",
     "categoria": "pollo",
     "super": "metro",
@@ -135,46 +131,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.642Z"
+    "timestamp": "2026-04-10T04:30:12.365Z"
   },
   {
-    "id": "metro_tamaldechinchadepoll_mnplausi",
-    "nombre": "Tamal de Chincha de Pollo x un",
-    "categoria": "pollo",
-    "super": "metro",
-    "precios": {
-      "online": 7.9,
-      "regular": 8.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": 7,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.642Z"
-  },
-  {
-    "id": "metro_tamaldepollodelacasa_mnplausi",
-    "nombre": "Tamal de Pollo De la Casa x unid",
-    "categoria": "pollo",
-    "super": "metro",
-    "precios": {
-      "online": 7.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.642Z"
-  },
-  {
-    "id": "metro_cabanossidepollopica_mnplausi",
+    "id": "metro_cabanossidepollopica_mnseqljh",
     "nombre": "Cabanossi de Pollo Picante Rico 100g",
     "categoria": "pollo",
     "super": "metro",
@@ -193,10 +153,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.642Z"
+    "timestamp": "2026-04-10T04:30:12.365Z"
   },
   {
-    "id": "metro_jamndepechugadepollo_mnplausi",
+    "id": "metro_jamndepechugadepollo_mnseqljh",
     "nombre": "Jamón de Pechuga de Pollo Braedt Balance Paquete 200 g",
     "categoria": "pollo",
     "super": "metro",
@@ -215,6 +175,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-08T05:10:36.642Z"
+    "timestamp": "2026-04-10T04:30:12.365Z"
   }
 ]
