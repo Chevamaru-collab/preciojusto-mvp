@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_harinadetrigosinprep_mnsenglq",
+    "id": "plazavea_harinadetrigosinprep_mnt0f9ln",
     "nombre": "Harina de Trigo sin Preparar MOLITALIA sin Preparar Bolsa 1kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinademazblancopan_mnsenglq",
+    "id": "plazavea_harinademazblancopan_mnt0f9ln",
     "nombre": "Harina de Maíz Blanco P.A.N. Precocida Bolsa 1Kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -41,19 +41,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinasinprepararfav_mnsenglq",
+    "id": "plazavea_harinasinprepararfav_mnt0f9ln",
     "nombre": "Harina Sin Preparar FAVORITA Paquete 1kg",
     "categoria": "harina",
     "super": "plazavea",
     "precios": {
-      "online": 5.2,
-      "regular": null,
+      "online": 4.5,
+      "regular": 5.2,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.2,
+      "porUnidad": 4.5,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -61,34 +61,12 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinasinprepararmol_mnsenglq",
-    "nombre": "Harina sin Preparar MOLITALIA Bolsa 180g",
-    "categoria": "harina",
-    "super": "plazavea",
-    "precios": {
-      "online": 1.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
-  },
-  {
-    "id": "plazavea_harinaintegralgranod_mnsenglq",
+    "id": "plazavea_harinaintegralgranod_mnt0f9ln",
     "nombre": "Harina Integral GRANO DE ORO Bolsa 1Kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -107,10 +85,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinadearrozcosteob_mnsenglq",
+    "id": "plazavea_harinasinprepararmol_mnt0f9ln",
+    "nombre": "Harina sin Preparar MOLITALIA Bolsa 180g",
+    "categoria": "harina",
+    "super": "plazavea",
+    "precios": {
+      "online": 1.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-10T14:37:15.227Z"
+  },
+  {
+    "id": "plazavea_harinadearrozcosteob_mnt0f9ln",
     "nombre": "Harina de Arroz COSTEÑO Bolsa 1kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinadeavenamitierr_mnsenglq",
+    "id": "plazavea_harinadeavenamitierr_mnt0f9ln",
     "nombre": "Harina de Avena MI TIERRA Sin Gluten Bolsa 400g",
     "categoria": "harina",
     "super": "plazavea",
@@ -151,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinasinprepararbla_mnsenglq",
+    "id": "plazavea_harinasinprepararbla_mnt0f9ln",
     "nombre": "Harina sin Preparar BLANCA FLOR Bolsa 1kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -173,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinademazamarillop_mnsenglq",
+    "id": "plazavea_harinademazamarillop_mnt0f9ln",
     "nombre": "Harina de Maíz Amarillo P.A.N. Precocida Bolsa 1Kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -195,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.998Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_cerealnaturandeshari_mnsenglr",
+    "id": "plazavea_cerealnaturandeshari_mnt0f9ln",
     "nombre": "Cereal NATURANDES Harina de linaza Bolsa 300Gr",
     "categoria": "harina",
     "super": "plazavea",
@@ -217,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinamorixedemaizbl_mnsenglr",
+    "id": "plazavea_harinamorixedemaizbl_mnt0f9ln",
     "nombre": "Harina MORIXE de Maiz Blanco Bolsa 1Kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -239,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.227Z"
   },
   {
-    "id": "plazavea_harinadeavenaintegra_mnsenglr",
+    "id": "plazavea_harinadeavenaintegra_mnt0f9lo",
     "nombre": "Harina de Avena Integral LA CASA MARIMIEL Doypack 300g",
     "categoria": "harina",
     "super": "plazavea",
@@ -261,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.228Z"
   },
   {
-    "id": "plazavea_harina7semillaslacas_mnsenglr",
+    "id": "plazavea_harina7semillaslacas_mnt0f9lo",
     "nombre": "Harina 7 Semillas LA CASA MARIMIEL Bolsa 200g",
     "categoria": "harina",
     "super": "plazavea",
@@ -283,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.228Z"
   },
   {
-    "id": "plazavea_harinadelinazalacasa_mnsenglr",
+    "id": "plazavea_harinadelinazalacasa_mnt0f9lo",
     "nombre": "Harina de Linaza LA CASA MARIMIEL Bolsa 200g",
     "categoria": "harina",
     "super": "plazavea",
@@ -305,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.228Z"
   },
   {
-    "id": "plazavea_salvadodetrigoconhar_mnsenglr",
+    "id": "plazavea_salvadodetrigoconhar_mnt0f9lo",
     "nombre": "Salvado de Trigo con Harina de Linaza GRANO DE ORO Doypack 250g",
     "categoria": "harina",
     "super": "plazavea",
@@ -327,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.228Z"
   },
   {
-    "id": "plazavea_harinadetrigonicolin_mnsenglr",
+    "id": "plazavea_harinadetrigonicolin_mnt0f9lo",
     "nombre": "Harina de Trigo NICOLINI Sin Preparar Bolsa 1Kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -349,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.228Z"
   },
   {
-    "id": "plazavea_harina5estacionaestr_mnsenglr",
+    "id": "plazavea_harina5estacionaestr_mnt0f9lo",
     "nombre": "Harina 5 ESTACIONAES Trigo Napoletana Bolsa 1 Kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -371,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.228Z"
   },
   {
-    "id": "plazavea_harinasinprepararben_mnsenglr",
+    "id": "plazavea_harinasinprepararben_mnt0f9lo",
     "nombre": "Harina sin Preparar BENOTI Bolsa 1Kg",
     "categoria": "harina",
     "super": "plazavea",
@@ -393,50 +393,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
-  },
-  {
-    "id": "plazavea_harinadepltanolacasa_mnsenglr",
-    "nombre": "Harina de Plátano LA CASA MARIMIEL Doypack 200g",
-    "categoria": "harina",
-    "super": "plazavea",
-    "precios": {
-      "online": 9.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 47,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
-  },
-  {
-    "id": "plazavea_harinadekiwichalacas_mnsenglr",
-    "nombre": "Harina de Kiwicha LA CASA MARIMIEL Bolsa 200g",
-    "categoria": "harina",
-    "super": "plazavea",
-    "precios": {
-      "online": 8.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 44.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T04:27:45.999Z"
+    "timestamp": "2026-04-10T14:37:15.228Z"
   }
 ]
