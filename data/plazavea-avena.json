@@ -1,15 +1,15 @@
 [
   {
-    "id": "plazavea_avenaquakertradicion_mnt0ffp3",
+    "id": "plazavea_avenaquakertradicion_mnupjfmj",
     "nombre": "Avena QUAKER Tradicional Bolsa 500g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 6.9,
-      "regular": 8.5,
+      "online": 8.5,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 13.8,
+      "porUnidad": 17,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,34 +17,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 19,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaclsica3ositospr_mnt0ffp3",
-    "nombre": "Avena Clásica 3 OSITOS Premium Bolsa 900g",
-    "categoria": "avena",
-    "super": "plazavea",
-    "precios": {
-      "online": 9.4,
-      "regular": 9.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10.44,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 5,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
-  },
-  {
-    "id": "plazavea_avenabellsbolsa1kg_mnt0ffp3",
+    "id": "plazavea_avenabellsbolsa1kg_mnupjfmj",
     "nombre": "Avena BELL'S Bolsa 1Kg",
     "categoria": "avena",
     "super": "plazavea",
@@ -63,10 +41,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenanaturalsantacat_mnt0ffp3",
+    "id": "plazavea_avenaclsica3ositospr_mnupjfmj",
+    "nombre": "Avena Clásica 3 OSITOS Premium Bolsa 900g",
+    "categoria": "avena",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.4,
+      "regular": 9.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 5,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-11T19:08:06.235Z"
+  },
+  {
+    "id": "plazavea_avenanaturalsantacat_mnupjfmj",
     "nombre": "Avena Natural SANTA CATALINA Bolsa 900g",
     "categoria": "avena",
     "super": "plazavea",
@@ -85,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_quinuaavena3ositosbo_mnt0ffp3",
+    "id": "plazavea_quinuaavena3ositosbo_mnupjfmj",
     "nombre": "Quinua Avena 3 OSITOS Bolsa 900g",
     "categoria": "avena",
     "super": "plazavea",
@@ -107,10 +107,10 @@
     },
     "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaintegralgranode_mnt0ffp3",
+    "id": "plazavea_avenaintegralgranode_mnupjfmj",
     "nombre": "Avena Integral GRANO DE ORO Bolsa 500g",
     "categoria": "avena",
     "super": "plazavea",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_pandemoldeuninmultis_mnt0ffp3",
+    "id": "plazavea_pandemoldeuninmultis_mnupjfmj",
     "nombre": "Pan de Molde UNIÓN Multisemillas y Avena Bolsa 540g",
     "categoria": "avena",
     "super": "plazavea",
@@ -151,10 +151,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_cerealconavenaangelb_mnt0ffp3",
+    "id": "plazavea_cerealconavenaangelb_mnupjfmj",
     "nombre": "Cereal con Avena ANGEL Blíster 380g",
     "categoria": "avena",
     "super": "plazavea",
@@ -173,10 +173,10 @@
     },
     "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaconhojuelasingl_mnt0ffp3",
+    "id": "plazavea_avenaconhojuelasingl_mnupjfmj",
     "nombre": "Avena con Hojuela sin Gluten LA PURITA Frasco 1.5Kg",
     "categoria": "avena",
     "super": "plazavea",
@@ -195,10 +195,10 @@
     },
     "descuento": 20,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaquakerconquinua_mnt0ffp3",
+    "id": "plazavea_avenaquakerconquinua_mnupjfmj",
     "nombre": "Avena QUAKER Con Quinua Bolsa 850g",
     "categoria": "avena",
     "super": "plazavea",
@@ -217,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenagranodeorobolsa_mnt0ffp3",
+    "id": "plazavea_avenagranodeorobolsa_mnupjfmj",
     "nombre": "Avena GRANO DE ORO Bolsa 1Kg",
     "categoria": "avena",
     "super": "plazavea",
@@ -239,10 +239,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaquakerconmacabo_mnt0ffp3",
+    "id": "plazavea_avenaquakerconmacabo_mnupjfmj",
     "nombre": "Avena QUAKER Con Maca Bolsa 850g",
     "categoria": "avena",
     "super": "plazavea",
@@ -261,10 +261,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_lecheactivavenaglori_mnt0ffp3",
+    "id": "plazavea_lecheactivavenaglori_mnupjfmj",
     "nombre": "Leche Activavena GLORIA UHT Niños Caja 180ml Paquete 6un",
     "categoria": "avena",
     "super": "plazavea",
@@ -283,10 +283,10 @@
     },
     "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_packavenaquakertradi_mnt0ffp3",
+    "id": "plazavea_packavenaquakertradi_mnupjfmj",
     "nombre": "Pack Avena QUAKER Tradicional Bolsa 900g x2un",
     "categoria": "avena",
     "super": "plazavea",
@@ -305,10 +305,10 @@
     },
     "descuento": 21,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenabellsbolsa500g_mnt0ffp3",
+    "id": "plazavea_avenabellsbolsa500g_mnupjfmj",
     "nombre": "Avena BELL'S Bolsa 500g",
     "categoria": "avena",
     "super": "plazavea",
@@ -327,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaquakerconchayal_mnt0ffp3",
+    "id": "plazavea_avenaquakerconchayal_mnupjfmj",
     "nombre": "Avena QUAKER Con Chía y Algarrobo Bolsa 330g",
     "categoria": "avena",
     "super": "plazavea",
@@ -349,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaclsica3ositosbo_mnt0ffp3",
+    "id": "plazavea_avenaclsica3ositosbo_mnupjfmj",
     "nombre": "Avena Clásica 3 OSITOS Bolsa 500g",
     "categoria": "avena",
     "super": "plazavea",
@@ -371,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_harinadeavenamitierr_mnt0ffp3",
+    "id": "plazavea_harinadeavenamitierr_mnupjfmj",
     "nombre": "Harina de Avena MI TIERRA Sin Gluten Bolsa 400g",
     "categoria": "avena",
     "super": "plazavea",
@@ -393,10 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaintegralmitierr_mnt0ffp3",
+    "id": "plazavea_avenaintegralmitierr_mnupjfmj",
     "nombre": "Avena Integral MI TIERRA sin Gluten Bolsa 400g",
     "categoria": "avena",
     "super": "plazavea",
@@ -415,10 +415,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaconchocolatesan_mnt0ffp3",
+    "id": "plazavea_avenaconchocolatesan_mnupjfmj",
     "nombre": "Avena con Chocolate SANTA CATALINA Bolsa 150g",
     "categoria": "avena",
     "super": "plazavea",
@@ -437,10 +437,10 @@
     },
     "descuento": 40,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaconmanzanasanta_mnt0ffp3",
+    "id": "plazavea_avenaconmanzanasanta_mnupjfmj",
     "nombre": "Avena con Manzana SANTA CATALINA Bolsa 150g",
     "categoria": "avena",
     "super": "plazavea",
@@ -459,10 +459,10 @@
     },
     "descuento": 40,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.127Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_avenaconcerealesandi_mnt0ffp4",
+    "id": "plazavea_avenaconcerealesandi_mnupjfmj",
     "nombre": "Avena con Cereales Andinos Premium 3 OSITOS Bolsa 270g",
     "categoria": "avena",
     "super": "plazavea",
@@ -481,10 +481,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.128Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   },
   {
-    "id": "plazavea_chaavenagranodeoroho_mnt0ffp4",
+    "id": "plazavea_chaavenagranodeoroho_mnupjfmj",
     "nombre": "Chía Avena GRANO DE ORO Hojuelas Precocidas Bolsa 370g",
     "categoria": "avena",
     "super": "plazavea",
@@ -503,6 +503,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-10T14:37:23.128Z"
+    "timestamp": "2026-04-11T19:08:06.235Z"
   }
 ]
