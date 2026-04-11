@@ -61,6 +61,26 @@
     ]
   },
   {
+    "canonical_id": "arroz_extra_0_75_kg",
+    "canonical_name": "Arroz Extra 0.75 kg",
+    "family_name": "Arroz Extra",
+    "categoria": "Arroz",
+    "presentation": 0.75,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "arroz-extra",
+    "aliases": [
+      "GRAN CHALAN Arroz Integral Gran Chalan Bolsa 750 g",
+      "VALLENORTE Arroz Integral Valle Norte Bolsa 750 g",
+      "Arroz Extra VALLENORTE Gran Reserva Bolsa 750g"
+    ],
+    "semantic_tokens": [
+      "arroz",
+      "extra",
+      "aejo"
+    ]
+  },
+  {
     "canonical_id": "arroz_extra_5_kg",
     "canonical_name": "Arroz Extra 5 KG",
     "family_name": "Arroz Extra",
@@ -140,6 +160,86 @@
     ]
   },
   {
+    "canonical_id": "avena_hojuelas_0_27_kg",
+    "canonical_name": "Avena Hojuelas 0.27 kg",
+    "family_name": "Avena Hojuelas",
+    "categoria": "Avena",
+    "presentation": 0.27,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "avena-hojuelas",
+    "aliases": [
+      "3 OSITOS Avena 3 Ositos con Cereales Andinos Bolsa 270 g",
+      "3 OSITOS Avena con Quinua 3 Ositos Bolsa 270 g",
+      "3 OSITOS Avena con Maca 3 Ositos Bolsa 270 g"
+    ],
+    "semantic_tokens": [
+      "avena",
+      "hojuelas",
+      "precocida"
+    ]
+  },
+  {
+    "canonical_id": "avena_hojuelas_0_5_kg",
+    "canonical_name": "Avena Hojuelas 0.5 kg",
+    "family_name": "Avena Hojuelas",
+    "categoria": "Avena",
+    "presentation": 0.5,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "avena-hojuelas",
+    "aliases": [
+      "GRANO DE ORO Avena Grano De Oro Bolsa 500 g",
+      "Avena QUAKER Tradicional Bolsa 500g",
+      "Avena Integral GRANO DE ORO Bolsa 500g"
+    ],
+    "semantic_tokens": [
+      "avena",
+      "hojuelas",
+      "precocida"
+    ]
+  },
+  {
+    "canonical_id": "avena_hojuelas_0_6_kg",
+    "canonical_name": "Avena Hojuelas 0.6 kg",
+    "family_name": "Avena Hojuelas",
+    "categoria": "Avena",
+    "presentation": 0.6,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "avena-hojuelas",
+    "aliases": [
+      "AMARU SUPERFOODS Avena Protéica Amaru Superfoods Chocolate Doypack 600 g",
+      "HUELLA VERDE Avena Mix Huella Verde Superfood Empaque 600 g",
+      "AMARU SUPERFOODS Avena Protéica Amaru Superfoods Vainilla Doypack 600 g"
+    ],
+    "semantic_tokens": [
+      "avena",
+      "hojuelas",
+      "precocida"
+    ]
+  },
+  {
+    "canonical_id": "avena_hojuelas_0_9_kg",
+    "canonical_name": "Avena Hojuelas 0.9 kg",
+    "family_name": "Avena Hojuelas",
+    "categoria": "Avena",
+    "presentation": 0.9,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "avena-hojuelas",
+    "aliases": [
+      "3 OSITOS Avena Clásica 3 Ositos Precocida Bolsa 900 g",
+      "3 OSITOS Quinua Avena Hojuela 3 Ositos Precocida 900 g",
+      "SANTA CATALINA Avena Precocida Santa Catalina Pack 2 Bolsas 900 g"
+    ],
+    "semantic_tokens": [
+      "avena",
+      "hojuelas",
+      "precocida"
+    ]
+  },
+  {
     "canonical_id": "avena_hojuelas_1_kg",
     "canonical_name": "Avena Hojuelas 1 KG",
     "family_name": "Avena Hojuelas",
@@ -203,6 +303,46 @@
     ]
   },
   {
+    "canonical_id": "azucar_0_5_kg",
+    "canonical_name": "Azucar 0.5 kg",
+    "family_name": "Azucar",
+    "categoria": "Azucar",
+    "presentation": 0.5,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "azucar",
+    "aliases": [
+      "TOTTUS Azúcar Blanca Tottus con Stevia Bolsa 500 g",
+      "TOTTUS Azúcar Rubia Tottus con Stevia Bolsa 500 g",
+      "DULFINA AZUCAR RUBIA DULFINA X500GR"
+    ],
+    "semantic_tokens": [
+      "azucar",
+      "rubia",
+      "blanca"
+    ]
+  },
+  {
+    "canonical_id": "azucar_5_kg",
+    "canonical_name": "Azucar 5 kg",
+    "family_name": "Azucar",
+    "categoria": "Azucar",
+    "presentation": 5,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "azucar",
+    "aliases": [
+      "PRECIO UNO Azúcar Rubia Precio Uno Bolsa 5 Kg",
+      "CAMPECHANO Azúcar Rubia Campechano Empaque 5 Kg",
+      "Azúcar Blanca BELL'S Bolsa 5Kg"
+    ],
+    "semantic_tokens": [
+      "azucar",
+      "rubia",
+      "blanca"
+    ]
+  },
+  {
     "canonical_id": "azucar_blanca_1_kg",
     "canonical_name": "Azucar Blanca 1 KG",
     "family_name": "Azucar Blanca",
@@ -260,6 +400,90 @@
       "azucar",
       "rubia",
       "morena"
+    ]
+  },
+  {
+    "canonical_id": "fideo_0_235_kg",
+    "canonical_name": "Fideo 0.235 kg",
+    "family_name": "Fideo",
+    "categoria": "Fideos",
+    "presentation": 0.235,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "fideo",
+    "aliases": [
+      "MARCO POLO Fideo Marco Polo Tornillo Bolsa 235 g",
+      "MOLITALIA Fideos Codo Mediano Rayado Molitalia Bolsa 235 g",
+      "MOLITALIA Fideo Rigatoni Molitalia Bolsa 235 g"
+    ],
+    "semantic_tokens": [
+      "fideo",
+      "spaghetti",
+      "tallarin",
+      "pasta"
+    ]
+  },
+  {
+    "canonical_id": "fideo_0_25_kg",
+    "canonical_name": "Fideo 0.25 kg",
+    "family_name": "Fideo",
+    "categoria": "Fideos",
+    "presentation": 0.25,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "fideo",
+    "aliases": [
+      "MOLITALIA Fideo Pastina Molitalia 250 g",
+      "GRANO DE ORO Fideo Cortado Tornillo Grano de Oro Empaque 250 g",
+      "PRECIO UNO Fideo Tornillo Precio Uno Bolsa 250 g"
+    ],
+    "semantic_tokens": [
+      "fideo",
+      "spaghetti",
+      "tallarin",
+      "pasta"
+    ]
+  },
+  {
+    "canonical_id": "fideo_0_45_kg",
+    "canonical_name": "Fideo 0.45 kg",
+    "family_name": "Fideo",
+    "categoria": "Fideos",
+    "presentation": 0.45,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "fideo",
+    "aliases": [
+      "Fideos Cuisine &Co Tornillo 450g",
+      "Fideos Cuisine &Co Canuto 450g",
+      "Fideos Cuisine &Co Spaguetti 450g"
+    ],
+    "semantic_tokens": [
+      "fideo",
+      "spaghetti",
+      "tallarin",
+      "pasta"
+    ]
+  },
+  {
+    "canonical_id": "fideo_0_5_kg",
+    "canonical_name": "Fideo 0.5 kg",
+    "family_name": "Fideo",
+    "categoria": "Fideos",
+    "presentation": 0.5,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "fideo",
+    "aliases": [
+      "AGNESI Fideo Pennette Rigate Agnesi Bolsa 500 g",
+      "BARILLA Fideo Lasagne Bolognesi Barilla Caja 500 g",
+      "BARILLA Fideo Spaguettini n3 Barilla Empaque 500 g"
+    ],
+    "semantic_tokens": [
+      "fideo",
+      "spaghetti",
+      "tallarin",
+      "pasta"
     ]
   },
   {
@@ -363,6 +587,66 @@
       "frijol",
       "canario",
       "menestra"
+    ]
+  },
+  {
+    "canonical_id": "harina_especial_0_2_kg",
+    "canonical_name": "Harina Especial 0.2 kg",
+    "family_name": "Harina Especial",
+    "categoria": "Harina",
+    "presentation": 0.2,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "harina-especial",
+    "aliases": [
+      "NATURANDES Harina de 7 Semillas Naturandes Doypack 200 g",
+      "RENACER Harina de Kiwicha Renacer Bolsa 200 g",
+      "HARINA DE LINAZA X 200G LA CASA MARIMIEL"
+    ],
+    "semantic_tokens": [
+      "harina",
+      "especial",
+      "semillas"
+    ]
+  },
+  {
+    "canonical_id": "harina_especial_0_4_kg",
+    "canonical_name": "Harina Especial 0.4 kg",
+    "family_name": "Harina Especial",
+    "categoria": "Harina",
+    "presentation": 0.4,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "harina-especial",
+    "aliases": [
+      "TIERRA Harina de Avena Tierra Sin Gluten Empaque 400 g",
+      "MI TIERRA Harina de Coco Mi Tierra Bolsa 400 g",
+      "Harina de Avena MI TIERRA Sin Gluten Bolsa 400g"
+    ],
+    "semantic_tokens": [
+      "harina",
+      "especial",
+      "semillas"
+    ]
+  },
+  {
+    "canonical_id": "harina_especial_1_kg",
+    "canonical_name": "Harina Especial 1 kg",
+    "family_name": "Harina Especial",
+    "categoria": "Harina",
+    "presentation": 1,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "harina-especial",
+    "aliases": [
+      "PAN Harina de Maíz Blanco Pan Precocido Bolsa 1 Kg",
+      "PAN Harina de Maíz PAN Amarillo Precocida Empaque 1 Kg",
+      "Harina de Maíz Blanco P.A.N. Precocida Bolsa 1Kg"
+    ],
+    "semantic_tokens": [
+      "harina",
+      "especial",
+      "semillas"
     ]
   },
   {
@@ -533,6 +817,47 @@
     ]
   },
   {
+    "canonical_id": "leche_uht_entera_0_8_lt",
+    "canonical_name": "Leche UHT Entera 0.8 lt",
+    "family_name": "Leche UHT Entera",
+    "categoria": "Leche",
+    "presentation": 0.8,
+    "unit": "LT",
+    "retail_unit": "LT",
+    "comparison_group": "leche-uht",
+    "aliases": [
+      "GLORIA Leche UHT Entera Gloria Bolsa 800 mL",
+      "Bebida de Leche UHT LA PREFERIDA Regular Bolsa 800ml",
+      "Leche UHT Milkito Bolsa 800ml"
+    ],
+    "semantic_tokens": [
+      "leche",
+      "uht",
+      "entera",
+      "fresca"
+    ]
+  },
+  {
+    "canonical_id": "leche_uht_entera_0_946_lt",
+    "canonical_name": "Leche UHT Entera 0.946 lt",
+    "family_name": "Leche UHT Entera",
+    "categoria": "Leche",
+    "presentation": 0.946,
+    "unit": "LT",
+    "retail_unit": "LT",
+    "comparison_group": "leche-uht",
+    "aliases": [
+      "GLORIA Leche Gloria Uht Sin Lactosa 946 mL",
+      "LAIVE Leche Laive Entera Pack 4 Cajas 946 mL",
+      "LAIVE Leche Laive Entera Caja 946 mL"
+    ],
+    "semantic_tokens": [
+      "leche",
+      "uht",
+      "entera"
+    ]
+  },
+  {
     "canonical_id": "leche_uht_entera_1_lt",
     "canonical_name": "Leche UHT Entera 1 LT",
     "family_name": "Leche UHT",
@@ -573,6 +898,26 @@
     ]
   },
   {
+    "canonical_id": "lenteja_bebe_0_5_kg",
+    "canonical_name": "Lenteja Bebe 0.5 kg",
+    "family_name": "Lenteja Bebe",
+    "categoria": "Lentejas",
+    "presentation": 0.5,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "lenteja-bebe",
+    "aliases": [
+      "Lenteja Bebé BELL'S Bolsa 500g",
+      "Lentejas BELL'S Bolsa 500g",
+      "Lenteja COSTEÑO Bolsa 500g"
+    ],
+    "semantic_tokens": [
+      "lenteja",
+      "bebe",
+      "menestra"
+    ]
+  },
+  {
     "canonical_id": "lenteja_bebe_500_g",
     "canonical_name": "Lenteja Bebe 500 g",
     "family_name": "Lenteja",
@@ -591,6 +936,46 @@
       "lenteja",
       "bebe",
       "menestra"
+    ]
+  },
+  {
+    "canonical_id": "mantequilla_con_sal_0_18_kg",
+    "canonical_name": "Mantequilla Con Sal 0.18 kg",
+    "family_name": "Mantequilla Con Sal",
+    "categoria": "Mantequilla",
+    "presentation": 0.18,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "mantequilla-con-sal",
+    "aliases": [
+      "GLORIA Mantequilla Gloria con Sal Envase 180 g",
+      "GLORIA Mantequilla Sin Sal Gloria en Barra Empaque 180 g",
+      "DANLAC Mantequilla con Sal Danlac Empaque 180 g"
+    ],
+    "semantic_tokens": [
+      "mantequilla",
+      "sal",
+      "pote"
+    ]
+  },
+  {
+    "canonical_id": "mantequilla_con_sal_0_25_kg",
+    "canonical_name": "Mantequilla Con Sal 0.25 kg",
+    "family_name": "Mantequilla Con Sal",
+    "categoria": "Mantequilla",
+    "presentation": 0.25,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "mantequilla-con-sal",
+    "aliases": [
+      "PIAMONTE Mantequilla con Sal Piamonte Empaque 250 g",
+      "Mantequilla con Sal PIAMONTE Pote 250g",
+      "Mantequilla con Sal Président 250g"
+    ],
+    "semantic_tokens": [
+      "mantequilla",
+      "sal",
+      "pote"
     ]
   },
   {
@@ -631,6 +1016,90 @@
       "mantequilla",
       "sin",
       "sal"
+    ]
+  },
+  {
+    "canonical_id": "pan_molde_0_39_kg",
+    "canonical_name": "Pan Molde 0.39 kg",
+    "family_name": "Pan Molde",
+    "categoria": "Pan",
+    "presentation": 0.39,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "pan-molde",
+    "aliases": [
+      "Pan de Molde Multigranos 390g",
+      "Pan de Molde Integral Bauducco 390g",
+      "Pan de Molde Blanco Bauducco 390g"
+    ],
+    "semantic_tokens": [
+      "pan",
+      "molde",
+      "blanco",
+      "sandwich"
+    ]
+  },
+  {
+    "canonical_id": "pan_molde_0_5_kg",
+    "canonical_name": "Pan Molde 0.5 kg",
+    "family_name": "Pan Molde",
+    "categoria": "Pan",
+    "presentation": 0.5,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "pan-molde",
+    "aliases": [
+      "PYC Pan de Molde PYC Integral Bolsa 500 g",
+      "Pan de Molde Integral Multicereal LA FLORENCIA Bolsa 500g",
+      "Pan de Molde Integral LA FLORENCIA Bolsa 500g"
+    ],
+    "semantic_tokens": [
+      "pan",
+      "molde",
+      "blanco",
+      "sandwich"
+    ]
+  },
+  {
+    "canonical_id": "pan_molde_0_56_kg",
+    "canonical_name": "Pan Molde 0.56 kg",
+    "family_name": "Pan Molde",
+    "categoria": "Pan",
+    "presentation": 0.56,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "pan-molde",
+    "aliases": [
+      "DON MAMINO Pan de Molde Blanco sin Corteza Don Mamino Bolsa 560 g",
+      "DON MAMINO Pan de Molde con Salvado de Trigo Don Mamino Bolsa 560 g",
+      "DON MAMINO Pan de Molde Marmoleado sin Cortar Don Mamino Bolsa 560 g"
+    ],
+    "semantic_tokens": [
+      "pan",
+      "molde",
+      "blanco",
+      "sandwich"
+    ]
+  },
+  {
+    "canonical_id": "pan_molde_0_6_kg",
+    "canonical_name": "Pan Molde 0.6 kg",
+    "family_name": "Pan Molde",
+    "categoria": "Pan",
+    "presentation": 0.6,
+    "unit": "KG",
+    "retail_unit": "KG",
+    "comparison_group": "pan-molde",
+    "aliases": [
+      "LA CANASTA Pan de Molde Integral La Canasta Empaque 600 g",
+      "Pan de Molde Integral BIMBO Vital Multicereal Bolsa 600g",
+      "Pan de Molde Blanco BIMBO Vital de Semillas Bolsa 600g"
+    ],
+    "semantic_tokens": [
+      "pan",
+      "molde",
+      "blanco",
+      "sandwich"
     ]
   },
   {
