@@ -20,7 +20,8 @@ const path = require('path');
 // ─── Paths ───────────────────────────────────────────────────────────────────
 const ROOT         = path.join(__dirname, '..');
 const RAW_PATH     = path.join(ROOT, 'data', 'master-data.json');
-const CATALOG_PATH = path.join(ROOT, 'ontology', 'product_matcher_catalog_v4.json');
+const _catalogArg  = process.argv.find(a => a.startsWith('--catalog=')) || process.argv[process.argv.indexOf('--catalog') + 1];
+const CATALOG_PATH = _catalogArg ? path.resolve(ROOT, _catalogArg) : path.join(ROOT, 'ontology', 'product_matcher_catalog_v4.json');
 const OUTPUT_PATH  = path.join(__dirname, 'entity_resolution_output.json');
 
 // ─── Constants ───────────────────────────────────────────────────────────────
