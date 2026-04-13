@@ -1,72 +1,6 @@
 [
   {
-    "id": "tottus_tottushuevospardosto_mnw3h2yt",
-    "nombre": "TOTTUS Huevos Pardos Tottus Bandeja 8 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 6.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.81,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 8,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_lacalerahuevospardos_mnw3h2yt",
-    "nombre": "LA CALERA Huevos Pardos La Calera Bandeja 15 Und + 3 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 9.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.66,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 15,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_tottushuevosdegallin_mnw3h2yt",
-    "nombre": "TOTTUS Huevos de Gallina Pardos Tottus Bandeja 30 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 17.5,
-      "regular": 20.9,
-      "tarjeta": 16.5,
-      "tarjetaDesc": "CMR",
-      "porUnidad": 0.58,
-      "porUnidadTarjeta": 0.55
-    },
-    "presentacion": {
-      "valor": 30,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": 16,
-    "descuentoTarjeta": 21,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_gallinaslibreshuevos_mnw3h2yt",
+    "id": "tottus_gallinaslibreshuevos_mnxd7qfn",
     "nombre": "GALLINAS LIBRES Huevos de Corral Gallinas Libres Caja 12 Und",
     "categoria": "huevos",
     "super": "tottus",
@@ -85,63 +19,37 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_lacalerahuevosdecorr_mnw3h2yt",
-    "nombre": "LA CALERA Huevos de Corral La Calera Bandeja 12 Und",
+    "id": "tottus_tottushuevosblancos_mnxd7qfn",
+    "nombre": "TOTTUS Huevos Blancos",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 12.9,
-      "regular": 14.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 1.07,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 12,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": 11,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_tottushuevosdecodorn_mnw3h2yt",
-    "nombre": "TOTTUS Huevos de Codorniz Tottus Bandeja 18 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 7.5,
+      "online": 11.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 0.42,
+      "porUnidad": 11.5,
       "porUnidadTarjeta": null
     },
-    "presentacion": {
-      "valor": 18,
-      "unidad": "u",
-      "pack": 1
-    },
+    "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_sanfernandohuevosdeg_mnw3h2yt",
-    "nombre": "SAN FERNANDO Huevos de Gallina San Fernando Bandeja 15 Und",
+    "id": "tottus_lacalerahuevospardos_mnxd7qfn",
+    "nombre": "LA CALERA Huevos Pardos La Calera Bandeja 15 Und",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 11.3,
-      "regular": null,
+      "online": 10.5,
+      "regular": 11.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 0.75,
+      "porUnidad": 0.7,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -149,166 +57,66 @@
       "unidad": "u",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_avivelhuevospardosla_mnw3h2yt",
-    "nombre": "AVIVEL Huevos Pardos Laminados Avivel Bandeja 30 Und",
+    "id": "tottus_casajovencortadorpar_mnxd7qfn",
+    "nombre": "CASA JOVEN CORTADOR PARA HUEVO",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 15.5,
+      "online": 9.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 0.52,
+      "porUnidad": 9.9,
       "porUnidadTarjeta": null
     },
-    "presentacion": {
-      "valor": 30,
-      "unidad": "u",
-      "pack": 1
-    },
+    "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_lacalerahuevosdecodo_mnw3h2yt",
-    "nombre": "LA CALERA Huevos de Codorniz La Calera Bandeja 18 Und",
+    "id": "tottus_casajovensetx12huevo_mnxd7qfn",
+    "nombre": "CASA JOVEN SET X 12 HUEVOS CRAQUELADOS",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 7.9,
-      "regular": null,
+      "online": 2.9,
+      "regular": 5.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 0.44,
+      "porUnidad": 2.9,
       "porUnidadTarjeta": null
     },
-    "presentacion": {
-      "valor": 18,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
+    "presentacion": null,
+    "descuento": 51,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_lacalerahuevosblanco_mnw3h2yt",
-    "nombre": "LA CALERA Huevos Blancos La Calera Bandeja 15 Und",
+    "id": "tottus_lacaleracajahuevoroj_mnxd7qfn",
+    "nombre": "LA CALERA Caja Huevo Rojo La Calera",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 11.9,
+      "online": 95.4,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 0.79,
+      "porUnidad": 95.4,
       "porUnidadTarjeta": null
     },
-    "presentacion": {
-      "valor": 15,
-      "unidad": "u",
-      "pack": 1
-    },
+    "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_lacalerahuevossperju_mnw3h2yt",
-    "nombre": "LA CALERA Huevos Súper Jumbo La Calera Bandeja 10 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 11.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 1.19,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 10,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_lacalerahuevosparael_mnw3h2yt",
-    "nombre": "LA CALERA Huevos para el Ande La Calera Bandeja 15 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 12.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.83,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 15,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_cocoysusamigashuevos_mnw3h2yt",
-    "nombre": "COCO Y SUS AMIGAS Huevos Gallina Libre Pastoreo Cocó y sus Amigas Bandeja 12 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 14.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 1.24,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 12,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_sanfernandohuevossan_mnw3h2yt",
-    "nombre": "SAN FERNANDO Huevos San Fernando Bandeja 15 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 11.3,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.75,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 15,
-      "unidad": "u",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_enkelfoodsclarasdehu_mnw3h2yt",
+    "id": "tottus_enkelfoodsclarasdehu_mnxd7qfn",
     "nombre": "ENKEL FOODS Claras de Huevo Enkel Foods Botella 500 g",
     "categoria": "huevos",
     "super": "tottus",
@@ -327,32 +135,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_lacalerahuevorojolac_mnw3h2yt",
-    "nombre": "LA CALERA Huevo Rojo La Calera Plancha Empaque 30 Und",
+    "id": "tottus_tottushuevospardosto_mnxd7qfn",
+    "nombre": "TOTTUS Huevos Pardos Tottus Bandeja 15 Und",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 14.1,
+      "online": 9.4,
       "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.47,
-      "porUnidadTarjeta": null
+      "tarjeta": 8.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 0.63,
+      "porUnidadTarjeta": 0.59
     },
     "presentacion": {
-      "valor": 30,
+      "valor": 15,
       "unidad": "u",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_avivelhuevospardosav_mnw3h2yt",
+    "id": "tottus_bonobonchocolatelonc_mnxd7qfn",
+    "nombre": "BON O BON Chocolate Lonchera Bon o Bon Empaque 74 g",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 21.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 291.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 74,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_avivelhuevospardosav_mnxd7qfn",
     "nombre": "AVIVEL Huevos Pardos Avivel Empaque 15 Und",
     "categoria": "huevos",
     "super": "tottus",
@@ -371,19 +201,63 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_artisanhuevospardosa_mnw3h2yt",
-    "nombre": "ARTISAN Huevos Pardos Artisan Caja 15 Und",
+    "id": "tottus_lacalerahuevosdecodo_mnxd7qfn",
+    "nombre": "LA CALERA Huevos de Codorniz La Calera Bandeja 18 Und",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 15.5,
+      "online": 7.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 1.03,
+      "porUnidad": 0.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 18,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_lacalerahuevosdecorr_mnxd7qfn",
+    "nombre": "LA CALERA Huevos de Corral La Calera Bandeja 12 Und",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 12.9,
+      "regular": 14.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.07,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 11,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_sanfernandohuevossan_mnxd7qfn",
+    "nombre": "SAN FERNANDO Huevos San Fernando Bandeja 15 Und",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 11.3,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.75,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -393,33 +267,281 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_tottushuevopascuatot_mnw3h2yt",
-    "nombre": "TOTTUS Huevo Pascua Tottus Empaque 6 Und",
+    "id": "tottus_tottushuevosdecodorn_mnxd7qfn",
+    "nombre": "TOTTUS Huevos de Codorniz Tottus Bandeja 18 Und",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 26.9,
+      "online": 6.5,
+      "regular": 6.9,
+      "tarjeta": 5.9,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 0.36,
+      "porUnidadTarjeta": 0.33
+    },
+    "presentacion": {
+      "valor": 18,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": 14,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_avivelhuevopardolami_mnxd7qfn",
+    "nombre": "AVIVEL Huevo Pardo Laminado Avivel Empaque 90 Und",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 45.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.48,
+      "porUnidad": 0.51,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 6,
+      "valor": 90,
       "unidad": "u",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_tottushuevodepascuat_mnw3h2yt",
-    "nombre": "TOTTUS Huevo de Pascua Tottus Empaque 40 g",
+    "id": "tottus_lacalerahuevorojolac_mnxd7qfn",
+    "nombre": "LA CALERA Huevo Rojo La Calera Plancha Empaque 30 Und",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 14.1,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.47,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 30,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_avivelhuevospardosla_mnxd7qfn",
+    "nombre": "AVIVEL Huevos Pardos Laminados Avivel Empaque 60 Und",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 28.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.48,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 60,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_nikolohuevonikolo115_mnxd7qfn",
+    "nombre": "NIKOLO Huevo Nikolo 115 g",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 19.4,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 168.7,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 115,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_tottusfusillialhuevo_mnxd7qfn",
+    "nombre": "TOTTUS FUSILLI AL HUEVO IN BRONZO TOTTUS X 400G",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 3.4,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 8.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_costahuevovizzio125g_mnxd7qfn",
+    "nombre": "COSTA Huevo Vizzio 125 g",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 17.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 143.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 125,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_arcorhuevochocolatea_mnxd7qfn",
+    "nombre": "ARCOR Huevo Chocolate Arcor Cofler Block Empaque 56 g",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 22.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 403.57,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 56,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_tottusfettuccinealhu_mnxd7qfn",
+    "nombre": "TOTTUS Fettuccine Al Huevo In Bronzo",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 3.4,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_costahuevocaonazo48g_mnxd7qfn",
+    "nombre": "COSTA Huevo Cañonazo 48 g",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 12.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 268.75,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 48,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_casajovenmoldedesili_mnxd7qfn",
+    "nombre": "Casa Joven Molde de Silicona Para Huevo/ Om",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 2.9,
+      "regular": 3.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 2.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 17,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_casajovensetx4cortad_mnxd7qfn",
+    "nombre": "Casa Joven Set x4 Cortador de Huevo",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 5.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_sewstarsetdepascuahu_mnxd7qfn",
+    "nombre": "SEW STAR Set de Pascua Huevo de Yeso",
+    "categoria": "huevos",
+    "super": "tottus",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-13T15:46:23.507Z"
+  },
+  {
+    "id": "tottus_tottushuevopascuafig_mnxd7qfn",
+    "nombre": "TOTTUS Huevo Pascua Figura de Chocolate 50 g",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
@@ -427,224 +549,78 @@
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 197.5,
+      "porUnidad": 158,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 40,
+      "valor": 50,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_tottusaceitunaverded_mnw3h2yt",
-    "nombre": "TOTTUS Aceituna Verde Deshuesada Tottus Envase 270 g",
+    "id": "tottus_laibericahuevopascua_mnxd7qfn",
+    "nombre": "LA IBERICA Huevo Pascua La Ibérica Empaque 20 g",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 11.4,
-      "regular": 12.9,
+      "online": 7.36,
+      "regular": 8.1,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 42.22,
+      "porUnidad": 368,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 270,
+      "valor": 20,
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 12,
+    "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_tottusaceitunanegrat_mnw3h2yt",
-    "nombre": "TOTTUS Aceituna Negra Tottus Entera Envase 280 g",
+    "id": "tottus_stahlteksartnparahue_mnxd7qfn",
+    "nombre": "Stahltek Sartén para Huevo Stahltek Celebración 16 cm",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 12.4,
-      "regular": null,
+      "online": 19.9,
+      "regular": 29.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 44.29,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 280,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_tottusjamnyorktottus_mnw3h2yt",
-    "nombre": "TOTTUS Jamón York Tottus Empaque 150 g",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 10.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 72.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 150,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_tottuschicharrndepre_mnw3h2yt",
-    "nombre": "TOTTUS Chicharrón de Prensa Tottus Empaque 100 g",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 2.8,
-      "regular": 2.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 28,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 100,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 3,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_tottusaceitunanegrae_mnw3h2yt",
-    "nombre": "TOTTUS Aceituna Negra Entera Cocktail",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 11.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.5,
+      "porUnidad": 19.9,
       "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": null,
+    "descuento": 33,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.507Z"
   },
   {
-    "id": "tottus_tottusaceitunaverdee_mnw3h2yt",
-    "nombre": "TOTTUS Aceituna Verde En Rodaja",
+    "id": "tottus_lacalerahuevosparael_mnxd7qfo",
+    "nombre": "LA CALERA Huevos para el Ande La Calera Bandeja 15 Und",
     "categoria": "huevos",
     "super": "tottus",
     "precios": {
-      "online": 10.9,
+      "online": 12.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 10.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_tottusaceitunaverdec_mnw3h2yt",
-    "nombre": "TOTTUS Aceituna Verde con Pimiento Tottus Envase 280 g",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 11.9,
-      "regular": 14.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 42.5,
+      "porUnidad": 0.83,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 280,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 18,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_tottusjamonadaespeci_mnw3h2yt",
-    "nombre": "TOTTUS Jamonada Especial Tottus Empaque 200 g",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 22.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_tottushuevosblancos_mnw3h2yt",
-    "nombre": "TOTTUS Huevos Blancos",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 11.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
-  },
-  {
-    "id": "tottus_triangulohuevodechoc_mnw3h2yt",
-    "nombre": "TRIANGULO Huevo de Chocolate Triángulo Caja 2 Und",
-    "categoria": "huevos",
-    "super": "tottus",
-    "precios": {
-      "online": 4.25,
-      "regular": 8.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 2.13,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 2,
+      "valor": 15,
       "unidad": "u",
       "pack": 1
     },
-    "descuento": 50,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-12T18:25:57.317Z"
+    "timestamp": "2026-04-13T15:46:23.508Z"
   }
 ]
