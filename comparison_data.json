@@ -18,12 +18,12 @@
         "price": 5.3
       },
       {
-        "store": "Wong",
-        "price": 5.9
+        "store": "Plaza Vea",
+        "price": 5.4
       },
       {
-        "store": "Plaza Vea",
-        "price": 6.5
+        "store": "Wong",
+        "price": 5.9
       }
     ],
     "best_price": 3.9,
@@ -40,19 +40,45 @@
     "normalized_unit": "liter",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 12.6
-      },
-      {
         "store": "Plaza Vea",
         "price": 15.5
       },
       {
         "store": "Metro",
         "price": 15.5
+      },
+      {
+        "store": "Wong",
+        "price": 15.5
+      },
+      {
+        "store": "Tottus",
+        "price": 16.2
       }
     ],
-    "best_price": 12.6,
+    "best_price": 15.5,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "canonical_name": "Aceite Vegetal 5 LT",
+    "product_name": "Aceite Vegetal 5 LT",
+    "comparison_group": "Aceite Vegetal",
+    "category": "Aceite",
+    "presentation": 5,
+    "unit": "LT",
+    "price_unit": "liter",
+    "normalized_unit": "liter",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 18.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 18.5
+      }
+    ],
+    "best_price": 18.5,
     "best_store": "Tottus"
   },
   {
@@ -100,12 +126,12 @@
         "price": 9.4
       },
       {
-        "store": "Wong",
-        "price": 9.4
-      },
-      {
         "store": "Tottus",
         "price": 9.7
+      },
+      {
+        "store": "Wong",
+        "price": 18.2
       }
     ],
     "best_price": 9.4,
@@ -128,10 +154,6 @@
       {
         "store": "Metro",
         "price": 4.8
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 6.5
       }
     ],
     "best_price": 4.5,
@@ -150,10 +172,6 @@
       {
         "store": "Metro",
         "price": 5.45
-      },
-      {
-        "store": "Tottus",
-        "price": 5.5
       },
       {
         "store": "Plaza Vea",
@@ -247,7 +265,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 22.7
+        "price": 18.9
       }
     ],
     "best_price": 14.9,
@@ -377,7 +395,7 @@
       },
       {
         "store": "Wong",
-        "price": 11.5
+        "price": 9.5
       }
     ],
     "best_price": 6.5,
@@ -395,7 +413,7 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 16.9
+        "price": 15.5
       },
       {
         "store": "Plaza Vea",
@@ -406,7 +424,7 @@
         "price": 20.9
       }
     ],
-    "best_price": 16.9,
+    "best_price": 15.5,
     "best_store": "Tottus"
   },
   {
@@ -451,7 +469,7 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 2.63
+        "price": 0.1
       },
       {
         "store": "Plaza Vea",
@@ -466,7 +484,7 @@
         "price": 5.2
       }
     ],
-    "best_price": 2.63,
+    "best_price": 0.1,
     "best_store": "Tottus"
   },
   {
@@ -510,12 +528,12 @@
         "price": 6.9
       },
       {
-        "store": "Wong",
+        "store": "Plaza Vea",
         "price": 6.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 11.5
+        "store": "Wong",
+        "price": 6.9
       },
       {
         "store": "Metro",
@@ -571,7 +589,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 16.5
+        "price": 16.9
       },
       {
         "store": "Metro",
@@ -592,12 +610,12 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 1.2
+        "store": "Tottus",
+        "price": 0.7
       },
       {
-        "store": "Tottus",
-        "price": 9.9
+        "store": "Plaza Vea",
+        "price": 1.2
       },
       {
         "store": "Metro",
@@ -608,8 +626,8 @@
         "price": 10.5
       }
     ],
-    "best_price": 1.2,
-    "best_store": "Plaza Vea"
+    "best_price": 0.7,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Mantequilla Sin Sal 0.4 KG",

@@ -1,24 +1,6 @@
 [
   {
-    "id": "metro_alasconpuntadepollon_mnupm7j9",
-    "nombre": "Alas con Punta de Pollo Natural x kg",
-    "categoria": "pollo",
-    "super": "metro",
-    "precios": {
-      "online": 12.5,
-      "regular": 14.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": 16,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.717Z"
-  },
-  {
-    "id": "metro_piernadepolloxkg_mnupm7j9",
+    "id": "metro_piernadepolloxkg_mnw3m0fa",
     "nombre": "Pierna de Pollo x kg",
     "categoria": "pollo",
     "super": "metro",
@@ -33,10 +15,28 @@
     "presentacion": null,
     "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.717Z"
+    "timestamp": "2026-04-12T18:29:47.302Z"
   },
   {
-    "id": "metro_piernaconencuentrode_mnupm7j9",
+    "id": "metro_alasconpuntadepollon_mnw3m0fa",
+    "nombre": "Alas con Punta de Pollo Natural x kg",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 12.5,
+      "regular": 14.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 16,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-12T18:29:47.302Z"
+  },
+  {
+    "id": "metro_piernaconencuentrode_mnw3m0fa",
     "nombre": "Pierna con Encuentro de Pollo x kg",
     "categoria": "pollo",
     "super": "metro",
@@ -51,28 +51,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.717Z"
+    "timestamp": "2026-04-12T18:29:47.302Z"
   },
   {
-    "id": "metro_tamaldechinchadepoll_mnupm7j9",
-    "nombre": "Tamal de Chincha de Pollo Personal x un",
-    "categoria": "pollo",
-    "super": "metro",
-    "precios": {
-      "online": 4.5,
-      "regular": 5.3,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.717Z"
-  },
-  {
-    "id": "metro_mortadeladepollonatu_mnupm7ja",
+    "id": "metro_mortadeladepollonatu_mnw3m0fa",
     "nombre": "Mortadela de Pollo Naturave 200g",
     "categoria": "pollo",
     "super": "metro",
@@ -91,46 +73,46 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.718Z"
+    "timestamp": "2026-04-12T18:29:47.302Z"
   },
   {
-    "id": "metro_humitasdepollodelaca_mnupm7ja",
-    "nombre": "Humitas de Pollo De La Casa x Unid",
-    "categoria": "pollo",
-    "super": "metro",
-    "precios": {
-      "online": 6.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.7,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": null,
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.718Z"
-  },
-  {
-    "id": "metro_tamaldechinchadepoll_mnupm7ja",
+    "id": "metro_tamaldechinchadepoll_mnw3m0fa",
     "nombre": "Tamal de Chincha de Pollo x un",
     "categoria": "pollo",
     "super": "metro",
     "precios": {
-      "online": 6.9,
+      "online": 7.9,
       "regular": 8.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 6.9,
+      "porUnidad": 7.9,
       "porUnidadTarjeta": null
     },
     "presentacion": null,
-    "descuento": 19,
+    "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.718Z"
+    "timestamp": "2026-04-12T18:29:47.302Z"
   },
   {
-    "id": "metro_tamaldepollodelacasa_mnupm7ja",
+    "id": "metro_humitasdepollodelaca_mnw3m0fa",
+    "nombre": "Humitas de Pollo De La Casa x Unid",
+    "categoria": "pollo",
+    "super": "metro",
+    "precios": {
+      "online": 5.5,
+      "regular": 6.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": 18,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-12T18:29:47.302Z"
+  },
+  {
+    "id": "metro_tamaldepollodelacasa_mnw3m0fa",
     "nombre": "Tamal de Pollo De la Casa x unid",
     "categoria": "pollo",
     "super": "metro",
@@ -145,10 +127,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.718Z"
+    "timestamp": "2026-04-12T18:29:47.302Z"
   },
   {
-    "id": "metro_quesodechanchoricopo_mnupm7ja",
+    "id": "metro_quesodechanchoricopo_mnw3m0fa",
     "nombre": "Queso de Chancho Rico Pollo 200 g",
     "categoria": "pollo",
     "super": "metro",
@@ -167,10 +149,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.718Z"
+    "timestamp": "2026-04-12T18:29:47.302Z"
   },
   {
-    "id": "metro_cabanossidepollopica_mnupm7ja",
+    "id": "metro_cabanossidepollopica_mnw3m0fa",
     "nombre": "Cabanossi de Pollo Picante Rico 100g",
     "categoria": "pollo",
     "super": "metro",
@@ -189,10 +171,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.718Z"
+    "timestamp": "2026-04-12T18:29:47.302Z"
   },
   {
-    "id": "metro_jamndepechugadepollo_mnupm7ja",
+    "id": "metro_jamndepechugadepollo_mnw3m0fa",
     "nombre": "Jamón de Pechuga de Pollo Braedt Balance Paquete 200 g",
     "categoria": "pollo",
     "super": "metro",
@@ -211,6 +193,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-11T19:10:15.718Z"
+    "timestamp": "2026-04-12T18:29:47.302Z"
   }
 ]
