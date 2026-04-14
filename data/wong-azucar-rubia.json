@@ -1,15 +1,15 @@
 [
   {
-    "id": "wong_azcarrubiawongbolsa5_mnxdeva4",
+    "id": "wong_azcarrubiawongbolsa5_mnyr1bke",
     "nombre": "Azúcar Rubia Wong Bolsa 5 kg",
     "categoria": "azucar-rubia",
     "super": "wong",
     "precios": {
-      "online": 16.5,
+      "online": 16.9,
       "regular": 18.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 3.3,
+      "porUnidad": 3.38,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,12 +17,12 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": 13,
+    "descuento": 11,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:56.380Z"
+    "timestamp": "2026-04-14T15:01:05.102Z"
   },
   {
-    "id": "wong_azcarrubiaparamongab_mnxdeva4",
+    "id": "wong_azcarrubiaparamongab_mnyr1bke",
     "nombre": "Azúcar Rubia Paramonga Bolsa 5 kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -41,32 +41,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:56.380Z"
+    "timestamp": "2026-04-14T15:01:05.102Z"
   },
   {
-    "id": "wong_azcarrubiadulfinabol_mnxdeva4",
-    "nombre": "Azúcar Rubia Dulfina Bolsa 1 kg",
+    "id": "wong_azcarrubiadulfinabol_mnyr1bke",
+    "nombre": "Azúcar Rubia Dulfina Bolsa 5 kg",
     "categoria": "azucar-rubia",
     "super": "wong",
     "precios": {
-      "online": 4.8,
-      "regular": 4.8,
+      "online": 18.4,
+      "regular": 20.99,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.8,
+      "porUnidad": 3.68,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 1,
+      "valor": 5,
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:56.380Z"
+    "timestamp": "2026-04-14T15:01:05.102Z"
   },
   {
-    "id": "wong_azcarrubiacuisineco5_mnxdeva4",
+    "id": "wong_azcarrubiacuisineco5_mnyr1bke",
     "nombre": "Azúcar Rubia Cuisine & Co 5kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -85,10 +85,10 @@
     },
     "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:56.380Z"
+    "timestamp": "2026-04-14T15:01:05.102Z"
   },
   {
-    "id": "wong_azcarrubiaparamonga1_mnxdeva4",
+    "id": "wong_azcarrubiaparamonga1_mnyr1bke",
     "nombre": "Azúcar Rubia Paramonga 1kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -107,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:56.380Z"
+    "timestamp": "2026-04-14T15:01:05.102Z"
   },
   {
-    "id": "wong_azcarrubiacuisineco1_mnxdeva4",
+    "id": "wong_azcarrubiacuisineco1_mnyr1bke",
     "nombre": "Azúcar Rubia Cuisine & Co 1kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:56.380Z"
+    "timestamp": "2026-04-14T15:01:05.102Z"
   },
   {
-    "id": "wong_azcarrubiawong1kg_mnxdeva4",
+    "id": "wong_azcarrubiawong1kg_mnyr1bkf",
     "nombre": "Azúcar Rubia Wong 1kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -151,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:56.380Z"
+    "timestamp": "2026-04-14T15:01:05.102Z"
   },
   {
-    "id": "wong_azcarrubiawongbolsa2_mnxdeva4",
+    "id": "wong_azcarrubiawongbolsa2_mnyr1bkf",
     "nombre": "Azúcar Rubia Wong Bolsa 2 kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -173,6 +173,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:56.380Z"
+    "timestamp": "2026-04-14T15:01:05.103Z"
+  },
+  {
+    "id": "wong_azcarrubiadulfinabol_mnyr1bkf",
+    "nombre": "Azúcar Rubia Dulfina Bolsa 1 kg",
+    "categoria": "azucar-rubia",
+    "super": "wong",
+    "precios": {
+      "online": 4.8,
+      "regular": 4.8,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-14T15:01:05.103Z"
   }
 ]

@@ -1,94 +1,6 @@
 [
   {
-    "id": "metro_avenaquinuacuisineco_mnxdc975",
-    "nombre": "Avena Quinua Cuisine & Co 300g",
-    "categoria": "avena",
-    "super": "metro",
-    "precios": {
-      "online": 3.5,
-      "regular": 5.1,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 300,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 31,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.449Z"
-  },
-  {
-    "id": "metro_avenamacacuisineco30_mnxdc975",
-    "nombre": "Avena Maca Cuisine & Co 300g",
-    "categoria": "avena",
-    "super": "metro",
-    "precios": {
-      "online": 3.5,
-      "regular": 5.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 300,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 41,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.449Z"
-  },
-  {
-    "id": "metro_avenaconchacuisineco_mnxdc975",
-    "nombre": "Avena con Chía Cuisine & Co 300g",
-    "categoria": "avena",
-    "super": "metro",
-    "precios": {
-      "online": 3.5,
-      "regular": 4.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 300,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 29,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.449Z"
-  },
-  {
-    "id": "metro_avenatradicionalcuis_mnxdc975",
-    "nombre": "Avena Tradicional Cuisine & Co 300g",
-    "categoria": "avena",
-    "super": "metro",
-    "precios": {
-      "online": 3.5,
-      "regular": 4.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 300,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 29,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.449Z"
-  },
-  {
-    "id": "metro_avenaprecocidasantac_mnxdc976",
+    "id": "metro_avenaprecocidasantac_mnyqyo5n",
     "nombre": "Avena Precocida Santa Catalina Bolsa 500 g",
     "categoria": "avena",
     "super": "metro",
@@ -107,32 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_avenainstantneacuisi_mnxdc976",
-    "nombre": "Avena Instantánea Cuisine & Co Frutos Rojos 45g",
-    "categoria": "avena",
-    "super": "metro",
-    "precios": {
-      "online": 5.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 131.11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 45,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
-  },
-  {
-    "id": "metro_avenaintegralenhojue_mnxdc976",
+    "id": "metro_avenaintegralenhojue_mnyqyo5n",
     "nombre": "Avena Integral en Hojuelas Grano de Oro 500g",
     "categoria": "avena",
     "super": "metro",
@@ -151,10 +41,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_avenagranodeoro500g_mnxdc976",
+    "id": "metro_avenagranodeoro500g_mnyqyo5n",
     "nombre": "Avena Grano de Oro 500g",
     "categoria": "avena",
     "super": "metro",
@@ -173,10 +63,10 @@
     },
     "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_avenaquakertradicion_mnxdc976",
+    "id": "metro_avenaquakertradicion_mnyqyo5n",
     "nombre": "Avena Quaker Tradicional 200g",
     "categoria": "avena",
     "super": "metro",
@@ -195,10 +85,54 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_avenapremium3ositos2_mnxdc976",
+    "id": "metro_avenaconchacuisineco_mnyqyo5n",
+    "nombre": "Avena con Chía Cuisine & Co 300g",
+    "categoria": "avena",
+    "super": "metro",
+    "precios": {
+      "online": 4.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-14T14:59:01.451Z"
+  },
+  {
+    "id": "metro_avenatradicionalcuis_mnyqyo5n",
+    "nombre": "Avena Tradicional Cuisine & Co 300g",
+    "categoria": "avena",
+    "super": "metro",
+    "precios": {
+      "online": 4.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-14T14:59:01.451Z"
+  },
+  {
+    "id": "metro_avenapremium3ositos2_mnyqyo5n",
     "nombre": "Avena Premium 3 Ositos 250g",
     "categoria": "avena",
     "super": "metro",
@@ -217,10 +151,32 @@
     },
     "descuento": 19,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_avenaprecocida3osito_mnxdc976",
+    "id": "metro_avenaquinuacuisineco_mnyqyo5n",
+    "nombre": "Avena Quinua Cuisine & Co 300g",
+    "categoria": "avena",
+    "super": "metro",
+    "precios": {
+      "online": 5.1,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 17,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-14T14:59:01.451Z"
+  },
+  {
+    "id": "metro_avenaprecocida3osito_mnyqyo5n",
     "nombre": "Avena Precocida 3 Ositos 500g",
     "categoria": "avena",
     "super": "metro",
@@ -239,32 +195,10 @@
     },
     "descuento": 25,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_macaavenabolsa270g_mnxdc976",
-    "nombre": "Maca Avena Bolsa 270 g",
-    "categoria": "avena",
-    "super": "metro",
-    "precios": {
-      "online": 5.8,
-      "regular": 6.4,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 21.48,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 270,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
-  },
-  {
-    "id": "metro_avenacerealandino270_mnxdc976",
+    "id": "metro_avenacerealandino270_mnyqyo5n",
     "nombre": "Avena Cereal Andino 270 g",
     "categoria": "avena",
     "super": "metro",
@@ -283,10 +217,32 @@
     },
     "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_quinuaavena3ositos27_mnxdc976",
+    "id": "metro_macaavenabolsa270g_mnyqyo5n",
+    "nombre": "Maca Avena Bolsa 270 g",
+    "categoria": "avena",
+    "super": "metro",
+    "precios": {
+      "online": 5.8,
+      "regular": 6.4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 21.48,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 270,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-14T14:59:01.451Z"
+  },
+  {
+    "id": "metro_quinuaavena3ositos27_mnyqyo5n",
     "nombre": "Quinua Avena 3 Ositos 270g",
     "categoria": "avena",
     "super": "metro",
@@ -305,10 +261,54 @@
     },
     "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_hojuelasdecerealessa_mnxdc976",
+    "id": "metro_avenamacacuisineco30_mnyqyo5n",
+    "nombre": "Avena Maca Cuisine & Co 300g",
+    "categoria": "avena",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 19.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-14T14:59:01.451Z"
+  },
+  {
+    "id": "metro_avenainstantneacuisi_mnyqyo5n",
+    "nombre": "Avena Instantánea Cuisine & Co Frutos Rojos 45g",
+    "categoria": "avena",
+    "super": "metro",
+    "precios": {
+      "online": 5.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 131.11,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 45,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-14T14:59:01.451Z"
+  },
+  {
+    "id": "metro_hojuelasdecerealessa_mnyqyo5n",
     "nombre": "Hojuelas de Cereales Sabor Chocolate Chocapic Bolsa 90 g",
     "categoria": "avena",
     "super": "metro",
@@ -327,10 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_avenaintegralconquin_mnxdc976",
+    "id": "metro_avenaintegralconquin_mnyqyo5n",
     "nombre": "Avena Integral con Quinua Santa Catalina 280g",
     "categoria": "avena",
     "super": "metro",
@@ -349,10 +349,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_avenaintegralconmaca_mnxdc976",
+    "id": "metro_avenaintegralconmaca_mnyqyo5n",
     "nombre": "Avena Integral con Maca Santa Catalina 280g",
     "categoria": "avena",
     "super": "metro",
@@ -371,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   },
   {
-    "id": "metro_avenaintegralconkiwi_mnxdc976",
+    "id": "metro_avenaintegralconkiwi_mnyqyo5n",
     "nombre": "Avena Integral con Kiwicha Santa Catalina 280g",
     "categoria": "avena",
     "super": "metro",
@@ -393,6 +393,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:49:54.450Z"
+    "timestamp": "2026-04-14T14:59:01.451Z"
   }
 ]

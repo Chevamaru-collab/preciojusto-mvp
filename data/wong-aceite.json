@@ -1,6 +1,28 @@
 [
   {
-    "id": "wong_aceitevegetalprimorp_mnxdeig8",
+    "id": "wong_twopackaceitevegetal_mnyr0ycg",
+    "nombre": "Twopack Aceite Vegetal Primor Clásico 900ml",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 16.5,
+      "regular": 20,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 18.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 18,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-14T15:00:47.968Z"
+  },
+  {
+    "id": "wong_aceitevegetalprimorp_mnyr0ycg",
     "nombre": "Aceite Vegetal Primor Premium Botella 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -19,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.752Z"
+    "timestamp": "2026-04-14T15:00:47.968Z"
   },
   {
-    "id": "wong_aceitevegetalcuisine_mnxdeig8",
+    "id": "wong_aceitevegetalcuisine_mnyr0ycg",
     "nombre": "Aceite Vegetal Cuisine & Co 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -41,10 +63,10 @@
     },
     "descuento": 31,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.752Z"
+    "timestamp": "2026-04-14T15:00:47.968Z"
   },
   {
-    "id": "wong_aceitevegetalprimorc_mnxdeig8",
+    "id": "wong_aceitevegetalprimorc_mnyr0ycg",
     "nombre": "Aceite Vegetal Primor Clásico Botella 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -63,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.752Z"
+    "timestamp": "2026-04-14T15:00:47.968Z"
   },
   {
-    "id": "wong_aceiteoleicodecarman_mnxdeig8",
+    "id": "wong_aceiteoleicodecarman_mnyr0ycg",
     "nombre": "Aceite Oleico de Carmano 380g",
     "categoria": "aceite",
     "super": "wong",
@@ -85,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.752Z"
+    "timestamp": "2026-04-14T15:00:47.968Z"
   },
   {
-    "id": "wong_aceitedecartamoolico_mnxdeig8",
+    "id": "wong_aceitedecartamoolico_mnyr0ycg",
     "nombre": "Aceite De Cartamo Oléico Botella 710 ml",
     "categoria": "aceite",
     "super": "wong",
@@ -107,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.752Z"
+    "timestamp": "2026-04-14T15:00:47.968Z"
   },
   {
-    "id": "wong_sardinasenaceitevege_mnxdeig9",
+    "id": "wong_sardinasenaceitevege_mnyr0ych",
     "nombre": "Sardinas en Aceite Vegetal Vigilante 120g",
     "categoria": "aceite",
     "super": "wong",
@@ -129,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.753Z"
+    "timestamp": "2026-04-14T15:00:47.969Z"
   },
   {
-    "id": "wong_sardinaspalaciodelor_mnxdeig9",
+    "id": "wong_sardinaspalaciodelor_mnyr0ych",
     "nombre": "Sardinas Palacio del Oriente Picantes en Aceite Vegetal Lata 125 g",
     "categoria": "aceite",
     "super": "wong",
@@ -151,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.753Z"
+    "timestamp": "2026-04-14T15:00:47.969Z"
   },
   {
-    "id": "wong_sardinasallimnenacei_mnxdeig9",
+    "id": "wong_sardinasallimnenacei_mnyr0ych",
     "nombre": "Sardinas al Limón en Aceite Vegetal Vigilante 120g",
     "categoria": "aceite",
     "super": "wong",
@@ -173,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.753Z"
+    "timestamp": "2026-04-14T15:00:47.969Z"
   },
   {
-    "id": "wong_packcuisinecoarrozex_mnxdeig9",
+    "id": "wong_packcuisinecoarrozex_mnyr0ych",
     "nombre": "Pack Cuisine & Co: Arroz Extra Añejo 5kg + Aceite Vegetal 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -195,6 +217,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-13T15:51:39.753Z"
+    "timestamp": "2026-04-14T15:00:47.969Z"
   }
 ]

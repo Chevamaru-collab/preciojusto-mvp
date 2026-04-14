@@ -15,7 +15,7 @@
       },
       {
         "store": "Metro",
-        "price": 5.3
+        "price": 5.4
       },
       {
         "store": "Wong",
@@ -41,7 +41,7 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 12.6
+        "price": 9.7
       },
       {
         "store": "Metro",
@@ -49,10 +49,10 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 15.5
+        "price": 17.8
       }
     ],
-    "best_price": 12.6,
+    "best_price": 9.7,
     "best_store": "Tottus"
   },
   {
@@ -71,7 +71,7 @@
       },
       {
         "store": "Tottus",
-        "price": 39.11
+        "price": 28.8
       }
     ],
     "best_price": 18.5,
@@ -96,12 +96,12 @@
         "price": 5.5
       },
       {
-        "store": "Tottus",
-        "price": 6.6
+        "store": "Wong",
+        "price": 5.7
       },
       {
-        "store": "Wong",
-        "price": 6.7
+        "store": "Tottus",
+        "price": 6.6
       }
     ],
     "best_price": 4.8,
@@ -118,7 +118,7 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
+        "store": "Wong",
         "price": 9.4
       },
       {
@@ -126,12 +126,12 @@
         "price": 9.7
       },
       {
-        "store": "Wong",
-        "price": 9.9
+        "store": "Plaza Vea",
+        "price": 10.9
       }
     ],
     "best_price": 9.4,
-    "best_store": "Plaza Vea"
+    "best_store": "Wong"
   },
   {
     "canonical_name": "Avena Instantanea 0.5 KG",
@@ -174,10 +174,6 @@
         "price": 5.45
       },
       {
-        "store": "Tottus",
-        "price": 5.5
-      },
-      {
         "store": "Plaza Vea",
         "price": 5.5
       },
@@ -210,6 +206,10 @@
       {
         "store": "Wong",
         "price": 22.8
+      },
+      {
+        "store": "Tottus",
+        "price": 25.9
       }
     ],
     "best_price": 22.5,
@@ -265,7 +265,7 @@
       },
       {
         "store": "Wong",
-        "price": 16.5
+        "price": 16.9
       },
       {
         "store": "Plaza Vea",
@@ -391,7 +391,7 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 9.4
+        "price": 6.5
       },
       {
         "store": "Plaza Vea",
@@ -402,7 +402,7 @@
         "price": 10
       }
     ],
-    "best_price": 9.4,
+    "best_price": 6.5,
     "best_store": "Tottus"
   },
   {
@@ -416,16 +416,20 @@
     "normalized_unit": "unit",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 16.9
+        "store": "Tottus",
+        "price": 15.5
       },
       {
         "store": "Wong",
         "price": 19.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 20.5
       }
     ],
-    "best_price": 16.9,
-    "best_store": "Plaza Vea"
+    "best_price": 15.5,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Leche Evaporada 0.4 KG",
@@ -532,12 +536,12 @@
         "price": 6.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 11.5
+        "store": "Metro",
+        "price": 9.7
       },
       {
-        "store": "Metro",
-        "price": 15.4
+        "store": "Plaza Vea",
+        "price": 11.9
       }
     ],
     "best_price": 6.9,
@@ -588,16 +592,12 @@
         "price": 9.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 16.9
-      },
-      {
         "store": "Metro",
         "price": 16.9
       },
       {
-        "store": "Wong",
-        "price": 16.9
+        "store": "Plaza Vea",
+        "price": 17.9
       }
     ],
     "best_price": 9.9,
@@ -683,7 +683,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 6.6
+        "price": 6.8
       },
       {
         "store": "Metro",
