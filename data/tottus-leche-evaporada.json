@@ -1,28 +1,556 @@
 [
   {
-    "id": "tottus_glorialechegloriarec_mo0s2m7s",
-    "nombre": "GLORIA Leche Gloria Reconstituida Sixpack Lata 170 g",
+    "id": "tottus_idealmezclalcteaidea_mo7chwwn",
+    "nombre": "IDEAL Mezcla Láctea Ideal Amanecer Sixpack Lata 390 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
     "precios": {
-      "online": 12.9,
-      "regular": null,
+      "online": 17.5,
+      "regular": 20.8,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 75.88,
+      "porUnidad": 44.87,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 170,
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 16,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialechegloriarec_mo7chwwn",
+    "nombre": "GLORIA Leche Gloria Reconstituida Entera Sixpack Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 20.9,
+      "regular": 24.6,
+      "tarjeta": 20.5,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 53.59,
+      "porUnidadTarjeta": 52.56
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": 17,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialechegloriazer_mo7chwwn",
+    "nombre": "GLORIA Leche Gloria Zero Lacto Sixpack Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 20.9,
+      "regular": 25.8,
+      "tarjeta": 20.5,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 53.59,
+      "porUnidadTarjeta": 52.56
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "descuentoTarjeta": 21,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialecheuhtentera_mo7chwwn",
+    "nombre": "GLORIA Leche UHT Entera Gloria Pack 3 Cajas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 15.5,
+      "regular": 17.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 13,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialecheuhtsinlac_mo7chwwn",
+    "nombre": "GLORIA Leche UHT Sin Lactosa Gloria Zero Lacto Pack 3 Cajas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 15.5,
+      "regular": 18.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialecheglorialig_mo7chwwn",
+    "nombre": "GLORIA Leche Gloria Light Sixpack Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 20.9,
+      "regular": 25.8,
+      "tarjeta": 20.5,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 53.59,
+      "porUnidadTarjeta": 52.56
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "descuentoTarjeta": 21,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_laivelechelaivesinla_mo7chwwn",
+    "nombre": "LAIVE Leche Laive Sin Lactosa Pack 4 Cajas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 22.6,
+      "regular": 24.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 8,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_laivemezclalctealaiv_mo7chwwn",
+    "nombre": "LAIVE Mezcla Láctea Laive Light Sin Lactosa Sixpack Caja 480 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 23.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 48.96,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 480,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
+    "timestamp": "2026-04-20T15:24:00.599Z"
   },
   {
-    "id": "tottus_laivemezclalctealaiv_mo0s2m7s",
+    "id": "tottus_glorialechegloriaeva_mo7chwwn",
+    "nombre": "GLORIA Leche Gloria Evaporada Entera Sixpack Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 20.9,
+      "regular": 24.6,
+      "tarjeta": 20.5,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 53.59,
+      "porUnidadTarjeta": 52.56
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": 17,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialecheglorianio_mo7chwwn",
+    "nombre": "GLORIA Leche Gloria Niños Sixpack Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 20.9,
+      "regular": 25.8,
+      "tarjeta": 20.5,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 53.59,
+      "porUnidadTarjeta": 52.56
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "descuentoTarjeta": 21,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialechelightuhtg_mo7chwwn",
+    "nombre": "GLORIA Leche Light UHT Gloria Pack 3 Cajas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 15.5,
+      "regular": 18.3,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_laivelechelaivelight_mo7chwwn",
+    "nombre": "LAIVE Leche Laive Light Pack 4 Cajas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 22.6,
+      "regular": 23.1,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 2,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialecheuhtgloria_mo7chwwn",
+    "nombre": "GLORIA Leche UHT Gloria Niños con DHA Pack 3 Cajas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 15.5,
+      "regular": 18.29,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_bonlemezclalcteabonl_mo7chwwn",
+    "nombre": "BONLE Mezcla Láctea Bonlé Light Sixpack Caja 480 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 20.9,
+      "regular": 22.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 43.54,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 480,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_nanfrmulalcteanan3cr_mo7chwwn",
+    "nombre": "NAN Fórmula Láctea Nan 3 Crecimiento Pack 8 Latas 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 40.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.06,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 8,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_laivelechelaiveenter_mo7chwwn",
+    "nombre": "LAIVE Leche Laive Entera Pack 4 Cajas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 22.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 23.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_laivelechelaivepract_mo7chwwn",
+    "nombre": "LAIVE Leche Laive Practitarro Sixpack Botella 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 22.4,
+      "regular": 25.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 57.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 11,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_naturesheartbebidade_mo7chwwn",
+    "nombre": "NATURES HEART Bebida de Almendra Sin Azúcar Nature’s Heart Pack 2 Botellas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 19.5,
+      "regular": 22,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.61,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 11,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_sbeltlechedescremada_mo7chwwn",
+    "nombre": "SBELT Leche Descremada Sbelt Pack 4 Cajas 946 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 23.9,
+      "regular": 24.4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.26,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 2,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_glorialechelightglor_mo7chwwn",
+    "nombre": "GLORIA Leche Light Gloria Zero Lacto Sixpack Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 20.9,
+      "regular": 25.8,
+      "tarjeta": 20.5,
+      "tarjetaDesc": "CMR",
+      "porUnidad": 53.59,
+      "porUnidadTarjeta": 52.56
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 19,
+    "descuentoTarjeta": 21,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_soyvidabebidadesoyas_mo7chwwn",
+    "nombre": "SOY VIDA Bebida de Soya Soy Vida Sixpack Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 15.9,
+      "regular": 16.99,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 40.77,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_bonlebebidalcteabonl_mo7chwwn",
+    "nombre": "BONLE Bebida Láctea Bonle Protección Sixpack Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 14.5,
+      "regular": 15,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 37.18,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 3,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_gloriaprobebidalctea_mo7chwwn",
+    "nombre": "GLORIA PRO Bebida Láctea Gloria Pro Power Dark Chocolate Sixpack Botella 320 mL",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 39.5,
+      "regular": 42.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 123.44,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 320,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 7,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_nestlecremadelechene_mo7chwwn",
+    "nombre": "NESTLE Crema de Leche Nestlé Lata 300 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 9.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 30.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 300,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.599Z"
+  },
+  {
+    "id": "tottus_nanfrmulalctealquida_mo7chwwo",
+    "nombre": "NAN Fórmula Láctea Líquida NAN 2 Bebés Pack 8 Latas 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 46.9,
+      "regular": 47.2,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.86,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 8,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": 1,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.600Z"
+  },
+  {
+    "id": "tottus_laivemezclalctealaiv_mo7chwwo",
     "nombre": "LAIVE Mezcla Láctea Laive Cremosa Sixpack Caja 480 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
@@ -41,10 +569,32 @@
     },
     "descuento": 5,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
+    "timestamp": "2026-04-20T15:24:00.600Z"
   },
   {
-    "id": "tottus_laivelechelaivesinla_mo0s2m7s",
+    "id": "tottus_glorialechegloriarec_mo7chwwo",
+    "nombre": "GLORIA Leche Gloria Reconstituida Entera Lata 390 g",
+    "categoria": "leche-evaporada",
+    "super": "tottus",
+    "precios": {
+      "online": 4.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.77,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 390,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:24:00.600Z"
+  },
+  {
+    "id": "tottus_laivelechelaivesinla_mo7chwwo",
     "nombre": "LAIVE Leche Laive Sin Lactosa Botella 390 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
@@ -63,10 +613,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
+    "timestamp": "2026-04-20T15:24:00.600Z"
   },
   {
-    "id": "tottus_laivelechelaivelight_mo0s2m7s",
+    "id": "tottus_laivelechelaivelight_mo7chwwo",
     "nombre": "LAIVE Leche Laive Light Sin Lactosa Botella 390 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
@@ -85,10 +635,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
+    "timestamp": "2026-04-20T15:24:00.600Z"
   },
   {
-    "id": "tottus_glorialecheenpolvogl_mo0s2m7s",
+    "id": "tottus_glorialecheenpolvogl_mo7chwwo",
     "nombre": "GLORIA Leche en Polvo Gloria Lata 800 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
@@ -107,19 +657,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
+    "timestamp": "2026-04-20T15:24:00.600Z"
   },
   {
-    "id": "tottus_tottuslecheevaporada_mo0s2m7s",
+    "id": "tottus_tottuslecheevaporada_mo7chwwo",
     "nombre": "TOTTUS Leche Evaporada Tottus Lata 410 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
     "precios": {
-      "online": 4,
-      "regular": null,
+      "online": 3.6,
+      "regular": 4,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 9.76,
+      "porUnidad": 8.78,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -127,56 +677,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
+    "timestamp": "2026-04-20T15:24:00.600Z"
   },
   {
-    "id": "tottus_glorialecheglorialig_mo0s2m7s",
-    "nombre": "GLORIA Leche Gloria Light 400 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 4.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_bonlemezclalcteabonl_mo0s2m7s",
-    "nombre": "BONLE Mezcla Láctea Bonlé Sin Lactosa Sixpack Caja 480 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 19.4,
-      "regular": 22.8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 40.42,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 480,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_idealmezclalcteaidea_mo0s2m7s",
+    "id": "tottus_idealmezclalcteaidea_mo7chwwo",
     "nombre": "IDEAL Mezcla Láctea Ideal Cremosita Lata 390 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
@@ -195,99 +701,11 @@
     },
     "descuento": 3,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
+    "timestamp": "2026-04-20T15:24:00.600Z"
   },
   {
-    "id": "tottus_laivelechelaivepract_mo0s2m7s",
-    "nombre": "LAIVE Leche Laive Practitarro Sixpack Botella 390 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 22.5,
-      "regular": 25.2,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 57.69,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 11,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_laivequesoparmesanor_mo0s2m7s",
-    "nombre": "LAIVE Queso Parmesano Rallado Laive Bolsa 35 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": 4.6,
-      "tarjeta": 3.9,
-      "tarjetaDesc": "CMR",
-      "porUnidad": 128.57,
-      "porUnidadTarjeta": 111.43
-    },
-    "presentacion": {
-      "valor": 35,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 2,
-    "descuentoTarjeta": 15,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_glorialechegloriaeva_mo0s2m7s",
-    "nombre": "GLORIA Leche Gloria Evaporada Entera Sixpack Lata 390 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 22.5,
-      "regular": 24.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 57.69,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_laiveyogurtlaivebiod_mo0s2m7s",
-    "nombre": "LAIVE Yogurt Laive Biodefensa Vainilla Francesa Pack 4 Botellas 100 mL",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 6.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 62,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 100,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_glorialechegloriazer_mo0s2m7s",
-    "nombre": "GLORIA Leche Gloria Zero Lacto Sin Lactosa Lata 390 g",
+    "id": "tottus_laivelechelaivepract_mo7chwwo",
+    "nombre": "LAIVE Leche Laive Practitarro Botella 390 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
     "precios": {
@@ -305,336 +723,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
+    "timestamp": "2026-04-20T15:24:00.600Z"
   },
   {
-    "id": "tottus_glorialechegloriaazu_mo0s2m7s",
-    "nombre": "GLORIA Leche Gloria Azul 400 g",
+    "id": "tottus_laivequesoparmesanor_mo7chwwo",
+    "nombre": "LAIVE Queso Parmesano Rallado Laive Bolsa 35 g",
     "categoria": "leche-evaporada",
     "super": "tottus",
     "precios": {
-      "online": 4,
+      "online": 4.6,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 10,
+      "porUnidad": 131.43,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 400,
+      "valor": 35,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_glorialecheglorianio_mo0s2m7s",
-    "nombre": "GLORIA Leche Gloria Niños Sixpack Lata 170 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 14.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 87.65,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 170,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_gloriagloriaconcentr_mo0s2m7s",
-    "nombre": "GLORIA Gloria Concentrada Sin Lactosa395g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 4.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.14,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 395,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_gloriasixpacklechegl_mo0s2m7s",
-    "nombre": "GLORIA Sixpack Leche Gloria Reconstituida 395g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 24.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 62.28,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 395,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_laivelechelaiveconce_mo0s2m7s",
-    "nombre": "LAIVE Leche Laive Concentrada Sin Lactosa 400 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 4.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_glorialechesinlactos_mo0s2m7s",
-    "nombre": "GLORIA Leche Sin Lactosa Gloria 400 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 4.4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_glorialecheenteraenp_mo0s2m7s",
-    "nombre": "GLORIA Leche Entera en Polvo Gloria Bolsa 96 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 46.88,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 96,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_laivesixpacklechelai_mo0s2m7t",
-    "nombre": "LAIVE Sixpack Leche Laive Sin Lactosa Laive 400 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 21.9,
-      "regular": 25.1,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 54.75,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 13,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.528Z"
-  },
-  {
-    "id": "tottus_laivemezclalctealaiv_mo0s2m7t",
-    "nombre": "LAIVE Mezcla Láctea Laive Nutrilac Sixpack Botella 390 g",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 4.15,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10.64,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 390,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.529Z"
-  },
-  {
-    "id": "tottus_glorialechegloriauht_mo0s2m7t",
-    "nombre": "GLORIA Leche Gloria Uht Sin Lactosa 946 mL",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 5.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.24,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 946,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.529Z"
-  },
-  {
-    "id": "tottus_glorialechefrescauht_mo0s2m7t",
-    "nombre": "GLORIA Leche Fresca UHT Entera Gloria Caja 1 L",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 6.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.529Z"
-  },
-  {
-    "id": "tottus_glorialecheactiavena_mo0s2m7t",
-    "nombre": "GLORIA Leche Actiavena Gloria UHT Tetra Pack Caja 1 L",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 0.1,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 0.1,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.529Z"
-  },
-  {
-    "id": "tottus_glorialecheuhtniosgl_mo0s2m7t",
-    "nombre": "GLORIA Leche UHT Niños Gloria Caja 1 L",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 2.63,
-      "regular": 6.2,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 2.63,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": 58,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.529Z"
-  },
-  {
-    "id": "tottus_glorialecheuhtlightg_mo0s2m7t",
-    "nombre": "GLORIA Leche UHT Light Gloria Caja 1 L",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 6.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.529Z"
-  },
-  {
-    "id": "tottus_glorialecheuhtchocol_mo0s2m7t",
-    "nombre": "GLORIA Leche UHT Chocolatada Gloria Caja 1 L",
-    "categoria": "leche-evaporada",
-    "super": "tottus",
-    "precios": {
-      "online": 6.2,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:05:37.529Z"
+    "timestamp": "2026-04-20T15:24:00.600Z"
   }
 ]

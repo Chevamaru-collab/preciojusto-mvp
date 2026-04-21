@@ -1,6 +1,6 @@
 [
   {
-    "id": "wong_frijolcanariocosteo5_mo0sbb13",
+    "id": "wong_frijolcanariocosteo5_mo7cqn9l",
     "nombre": "Frijol Canario Costeño 500g",
     "categoria": "frijol-canario",
     "super": "wong",
@@ -19,10 +19,10 @@
     },
     "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:12:22.934Z"
+    "timestamp": "2026-04-20T15:30:48.009Z"
   },
   {
-    "id": "wong_frijolcanariocuisine_mo0sbb13",
+    "id": "wong_frijolcanariocuisine_mo7cqn9l",
     "nombre": "Frijol Canario Cuisine & Co 500g",
     "categoria": "frijol-canario",
     "super": "wong",
@@ -41,41 +41,19 @@
     },
     "descuento": 35,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:12:22.935Z"
+    "timestamp": "2026-04-20T15:30:48.009Z"
   },
   {
-    "id": "wong_frijolcanariotesorod_mo0sbb13",
+    "id": "wong_frijolcanariotesorod_mo7cqn9l",
     "nombre": "Frijol Canario Tesoro Del Campo Bolsa 500 g",
     "categoria": "frijol-canario",
     "super": "wong",
     "precios": {
-      "online": 6.6,
+      "online": 9,
       "regular": 9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 13.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 27,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:12:22.935Z"
-  },
-  {
-    "id": "wong_frijolcanariovalleno_mo0sbb13",
-    "nombre": "Frijol Canario Valle Norte Bolsa 500 g",
-    "categoria": "frijol-canario",
-    "super": "wong",
-    "precios": {
-      "online": 8.9,
-      "regular": 8.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 17.8,
+      "porUnidad": 18,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -85,10 +63,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:12:22.935Z"
+    "timestamp": "2026-04-20T15:30:48.009Z"
   },
   {
-    "id": "wong_frijolescanarioslore_mo0sbb13",
+    "id": "wong_frijolcanariovalleno_mo7cqn9l",
+    "nombre": "Frijol Canario Valle Norte Bolsa 500 g",
+    "categoria": "frijol-canario",
+    "super": "wong",
+    "precios": {
+      "online": 7.6,
+      "regular": 8.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 15.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-20T15:30:48.009Z"
+  },
+  {
+    "id": "wong_frijolescanarioslore_mo7cqn9l",
     "nombre": "Frijoles Canarios Lorenzo 425g",
     "categoria": "frijol-canario",
     "super": "wong",
@@ -107,6 +107,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-16T01:12:22.935Z"
+    "timestamp": "2026-04-20T15:30:48.009Z"
   }
 ]
