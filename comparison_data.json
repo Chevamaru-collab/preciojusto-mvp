@@ -15,15 +15,15 @@
       },
       {
         "store": "Metro",
-        "price": 5.4
+        "price": 5.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 5.7
       },
       {
         "store": "Wong",
         "price": 5.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 6.5
       }
     ],
     "best_price": 3.9,
@@ -41,22 +41,40 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 13.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 15.5
+        "price": 14.8
       },
       {
         "store": "Metro",
         "price": 15.5
       },
       {
-        "store": "Wong",
-        "price": 15.5
+        "store": "Plaza Vea",
+        "price": 17.8
       }
     ],
-    "best_price": 13.5,
+    "best_price": 14.8,
+    "best_store": "Tottus"
+  },
+  {
+    "canonical_name": "Aceite Vegetal 5 LT",
+    "product_name": "Aceite Vegetal 5 LT",
+    "comparison_group": "Aceite Vegetal",
+    "category": "Aceite",
+    "presentation": 5,
+    "unit": "LT",
+    "price_unit": "liter",
+    "normalized_unit": "liter",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 18.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 18.5
+      }
+    ],
+    "best_price": 18.5,
     "best_store": "Tottus"
   },
   {
@@ -105,11 +123,11 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 9.4
+        "price": 9.9
       },
       {
         "store": "Wong",
-        "price": 9.9
+        "price": 18.2
       }
     ],
     "best_price": 9.2,
@@ -153,7 +171,7 @@
     "stores": [
       {
         "store": "Metro",
-        "price": 4.8
+        "price": 5.45
       },
       {
         "store": "Plaza Vea",
@@ -164,7 +182,7 @@
         "price": 5.5
       }
     ],
-    "best_price": 4.8,
+    "best_price": 5.45,
     "best_store": "Metro"
   },
   {
@@ -188,6 +206,10 @@
       {
         "store": "Wong",
         "price": 22.8
+      },
+      {
+        "store": "Tottus",
+        "price": 25.9
       }
     ],
     "best_price": 21.9,
@@ -238,16 +260,16 @@
         "price": 14.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 15.2
-      },
-      {
         "store": "Metro",
         "price": 15.9
       },
       {
         "store": "Wong",
-        "price": 16.9
+        "price": 16.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 22.7
       }
     ],
     "best_price": 14.9,
@@ -294,6 +316,10 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
+        "store": "Plaza Vea",
+        "price": 5.9
+      },
+      {
         "store": "Tottus",
         "price": 6.4
       },
@@ -302,16 +328,12 @@
         "price": 6.4
       },
       {
-        "store": "Plaza Vea",
-        "price": 7.5
-      },
-      {
         "store": "Wong",
         "price": 7.9
       }
     ],
-    "best_price": 6.4,
-    "best_store": "Tottus"
+    "best_price": 5.9,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Fondant Blanco 1 KG",
@@ -347,14 +369,14 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 6.5
+        "price": 5.99
       },
       {
         "store": "Plaza Vea",
         "price": 6.9
       }
     ],
-    "best_price": 6.5,
+    "best_price": 5.99,
     "best_store": "Tottus"
   },
   {
@@ -369,18 +391,22 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 6.5
+        "price": 6.49
       },
       {
         "store": "Plaza Vea",
         "price": 9.9
       },
       {
+        "store": "Metro",
+        "price": 10.99
+      },
+      {
         "store": "Wong",
         "price": 11.5
       }
     ],
-    "best_price": 6.5,
+    "best_price": 6.49,
     "best_store": "Tottus"
   },
   {
@@ -394,20 +420,24 @@
     "normalized_unit": "unit",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 15.5
+        "store": "Plaza Vea",
+        "price": 14.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 16.5
+        "store": "Metro",
+        "price": 14.9
+      },
+      {
+        "store": "Tottus",
+        "price": 15.5
       },
       {
         "store": "Wong",
         "price": 19.9
       }
     ],
-    "best_price": 15.5,
-    "best_store": "Tottus"
+    "best_price": 14.9,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Leche Evaporada 0.4 KG",
@@ -510,16 +540,16 @@
         "price": 6.89
       },
       {
+        "store": "Metro",
+        "price": 6.9
+      },
+      {
         "store": "Wong",
         "price": 6.9
       },
       {
         "store": "Plaza Vea",
-        "price": 9.7
-      },
-      {
-        "store": "Metro",
-        "price": 10.4
+        "price": 11.9
       }
     ],
     "best_price": 6.89,
@@ -571,11 +601,15 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 16.2
+        "price": 15.9
       },
       {
         "store": "Metro",
         "price": 16.9
+      },
+      {
+        "store": "Wong",
+        "price": 17.9
       }
     ],
     "best_price": 9.9,
@@ -623,11 +657,11 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 4.4
+        "price": 4.5
       },
       {
         "store": "Plaza Vea",
-        "price": 9.9
+        "price": 10
       },
       {
         "store": "Metro",
@@ -638,7 +672,7 @@
         "price": 11.9
       }
     ],
-    "best_price": 4.4,
+    "best_price": 4.5,
     "best_store": "Tottus"
   },
   {
@@ -690,12 +724,12 @@
         "price": 3.4
       },
       {
-        "store": "Wong",
-        "price": 4.3
-      },
-      {
         "store": "Metro",
         "price": 4.5
+      },
+      {
+        "store": "Wong",
+        "price": 4.9
       }
     ],
     "best_price": 3.3,

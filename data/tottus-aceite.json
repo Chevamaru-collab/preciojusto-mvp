@@ -1,28 +1,6 @@
 [
   {
-    "id": "tottus_primoraceitevegetalp_mo7cgu2m",
-    "nombre": "PRIMOR Aceite Vegetal Primor Premium Botella 900 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 8.5,
-      "regular": null,
-      "tarjeta": 7.9,
-      "tarjetaDesc": "CMR",
-      "porUnidad": 9.44,
-      "porUnidadTarjeta": 8.78
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.270Z"
-  },
-  {
-    "id": "tottus_primoraceitevegetalp_mo7cgu2n",
+    "id": "tottus_primoraceitevegetalp_mo8w21ro",
     "nombre": "PRIMOR Aceite Vegetal Primor Clásico Botella 1.8 L",
     "categoria": "aceite",
     "super": "tottus",
@@ -41,54 +19,54 @@
     },
     "descuento": 18,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.900Z"
   },
   {
-    "id": "tottus_tottusaceitevegetalt_mo7cgu2n",
-    "nombre": "TOTTUS Aceite Vegetal Tottus x 2L",
+    "id": "tottus_tottusaceitevegetalt_mo8w21ro",
+    "nombre": "TOTTUS Aceite Vegetal Tottus Botella 3 L",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 13.5,
-      "regular": null,
+      "online": 18.5,
+      "regular": 19.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 6.75,
+      "porUnidad": 6.17,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 2,
+      "valor": 3,
       "unidad": "lt",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.900Z"
   },
   {
-    "id": "tottus_carbonellaceitedeoli_mo7cgu2n",
-    "nombre": "CARBONELL Aceite de Oliva Carbonell Extra Virgen Botella 250 mL",
+    "id": "tottus_carbonellaceitedeoli_mo8w21ro",
+    "nombre": "CARBONELL Aceite de Oliva Carbonell Extra Virgen Botella 1 L",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 24.9,
-      "regular": null,
+      "online": 59.9,
+      "regular": 69.8,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 99.6,
+      "porUnidad": 59.9,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 250,
-      "unidad": "ml",
+      "valor": 1,
+      "unidad": "lt",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.900Z"
   },
   {
-    "id": "tottus_preciounoaceitedesoy_mo7cgu2n",
+    "id": "tottus_preciounoaceitedesoy_mo8w21ro",
     "nombre": "PRECIO UNO Aceite de Soya Precio Uno Botella 900 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -107,32 +85,32 @@
     },
     "descuento": 3,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.900Z"
   },
   {
-    "id": "tottus_tottuscajadeaceitede_mo7cgu2n",
-    "nombre": "TOTTUS Caja De Aceite De Girasol Tottus x 12 Unidades",
+    "id": "tottus_tottusaceitevegetalt_mo8w21rp",
+    "nombre": "TOTTUS Aceite Vegetal Tottus Botella 5 L",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 94.8,
-      "regular": null,
+      "online": 30.5,
+      "regular": 33.6,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 7.9,
+      "porUnidad": 6.1,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 12,
-      "unidad": "u",
+      "valor": 5,
+      "unidad": "lt",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 9,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_tottusaceitedegiraso_mo7cgu2n",
+    "id": "tottus_tottusaceitedegiraso_mo8w21rp",
     "nombre": "TOTTUS Aceite de girasol Tottus 900 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -151,10 +129,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_tottusaceitedeolivat_mo7cgu2n",
+    "id": "tottus_tottuscajadeaceitede_mo8w21rp",
+    "nombre": "TOTTUS Caja De Aceite De Girasol Tottus x 12 Unidades",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 94.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:19:18.901Z"
+  },
+  {
+    "id": "tottus_tottusaceitedeolivat_mo8w21rp",
     "nombre": "TOTTUS Aceite de Oliva Tottus Extra Virgen Botella 500 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -173,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_primoraceiteolivapri_mo7cgu2n",
+    "id": "tottus_primoraceiteolivapri_mo8w21rp",
     "nombre": "PRIMOR ACEITE OLIVA PRIMOR EXTRA VIRGEN EQUIL BOT X250ML",
     "categoria": "aceite",
     "super": "tottus",
@@ -195,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_primoraceitedeolivap_mo7cgu2n",
+    "id": "tottus_primoraceitedeolivap_mo8w21rp",
     "nombre": "PRIMOR Aceite de Oliva Primor Extra Virgen Medio Botella 500 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -217,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_tottusaceitedeolivae_mo7cgu2n",
+    "id": "tottus_tottusaceitedeolivae_mo8w21rp",
     "nombre": "TOTTUS Aceite de Oliva Extra Virgen Ají Tottus 250 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -239,54 +239,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_tottusvinagrebalsmic_mo7cgu2n",
-    "nombre": "TOTTUS Vinagre Balsámico Tottus 200 mL",
+    "id": "tottus_tottusvinagredemanza_mo8w21rp",
+    "nombre": "TOTTUS Vinagre de Manzana Tottus Botella 1 L",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 6.25,
+      "online": 14.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 31.25,
+      "porUnidad": 14.9,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 200,
-      "unidad": "ml",
+      "valor": 1,
+      "unidad": "lt",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_tottusvinagretaclsic_mo7cgu2n",
-    "nombre": "TOTTUS Vinagreta Clásica Light Tottus 485 g",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 7.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16.29,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 485,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
-  },
-  {
-    "id": "tottus_tottuscubitodecaldod_mo7cgu2n",
+    "id": "tottus_tottuscubitodecaldod_mo8w21rp",
     "nombre": "TOTTUS Cubito de Caldo de Vegetales Tottus 80 g",
     "categoria": "aceite",
     "super": "tottus",
@@ -305,54 +283,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_deleiteaceitevegetal_mo7cgu2n",
-    "nombre": "DELEITE Aceite Vegetal Deleite Premium 2L",
+    "id": "tottus_tottusvinagretaclsic_mo8w21rp",
+    "nombre": "TOTTUS Vinagreta Clásica Tottus Envase 237 g",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 14.8,
+      "online": 4.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 7.4,
+      "porUnidad": 20.68,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 2,
-      "unidad": "lt",
+      "valor": 237,
+      "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_alpaaceitevegetalalp_mo7cgu2n",
-    "nombre": "ALPA Aceite Vegetal Alpa Premium Botella 900 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 6.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 7.67,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
-  },
-  {
-    "id": "tottus_saoaceitevegetalsoya_mo7cgu2n",
+    "id": "tottus_saoaceitevegetalsoya_mo8w21rp",
     "nombre": "SAO Aceite Vegetal Soya Sao Botella 900 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -371,10 +327,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_tonderoaceitevegetal_mo7cgu2n",
+    "id": "tottus_deleiteaceitevegetal_mo8w21rp",
+    "nombre": "DELEITE Aceite Vegetal Deleite Premium 2L",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 14.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 2,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:19:18.901Z"
+  },
+  {
+    "id": "tottus_tonderoaceitevegetal_mo8w21rp",
     "nombre": "TONDERO Aceite Vegetal Tondero Botella 450 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -393,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_palmerolaaceitepalme_mo7cgu2n",
+    "id": "tottus_palmerolaaceitepalme_mo8w21rp",
     "nombre": "PALMEROLA Aceite Palmerola Botella 450 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -415,32 +393,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_olivosdelsuraceitede_mo7cgu2n",
-    "nombre": "OLIVOS DEL SUR Aceite de Oliva Virgen Olivos del Sur Botella 1 L",
+    "id": "tottus_oleicoaceitedecrtamo_mo8w21rp",
+    "nombre": "OLEICO Aceite de Cártamo Oléico Spray Envase 380 mL",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 65.5,
+      "online": 39.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 65.5,
+      "porUnidad": 105,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
+      "valor": 380,
+      "unidad": "ml",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_preciounoaceiteveget_mo7cgu2n",
+    "id": "tottus_preciounoaceiteveget_mo8w21rp",
     "nombre": "PRECIO UNO Aceite Vegetal Precio Uno x 500 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -459,32 +437,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_wessonaceitedecanola_mo7cgu2n",
-    "nombre": "WESSON Aceite de Canola Wesson Botella 710 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 35.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 50.42,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 710,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
-  },
-  {
-    "id": "tottus_oleicoaceiteoleicobo_mo7cgu2n",
+    "id": "tottus_oleicoaceiteoleicobo_mo8w21rp",
     "nombre": "OLEICO Aceite Oleico Botella 710 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -503,32 +459,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_elolivaraceitedeoliv_mo7cgu2n",
-    "nombre": "EL OLIVAR Aceite de Oliva Puro El Olivar Botella 1 L",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 62.99,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 62.99,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "lt",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
-  },
-  {
-    "id": "tottus_pamaceiteenspraypams_mo7cgu2n",
+    "id": "tottus_pamaceiteenspraypams_mo8w21rp",
     "nombre": "PAM Aceite en Spray Pam Sabor Mantequilla Envase 141 g",
     "categoria": "aceite",
     "super": "tottus",
@@ -547,76 +481,54 @@
     },
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_cremoniniaceitedeoli_mo7cgu2n",
-    "nombre": "CREMONINI Aceite de Oliva Extra Virgen Cremonini Botella 250 mL",
+    "id": "tottus_alpaaceitevegetalalp_mo8w21rp",
+    "nombre": "ALPA Aceite Vegetal Alpa Premium Botella 900 mL",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 42.91,
+      "online": 6.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 171.64,
+      "porUnidad": 7.67,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 250,
+      "valor": 900,
       "unidad": "ml",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_pamaceitedecanolapam_mo7cgu2n",
-    "nombre": "PAM Aceite de Canola Pam en Aerosol Envase 177 mL",
+    "id": "tottus_olivosdelsuraceitede_mo8w21rp",
+    "nombre": "OLIVOS DEL SUR Aceite de Oliva Extra Virgen Olivos del Sur Botella 200 mL",
     "categoria": "aceite",
     "super": "tottus",
     "precios": {
-      "online": 26.9,
-      "regular": 29.14,
+      "online": 18.5,
+      "regular": 21,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 151.98,
+      "porUnidad": 92.5,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 177,
+      "valor": 200,
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 8,
+    "descuento": 12,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
   },
   {
-    "id": "tottus_oleicoaceitedecrtamo_mo7cgu2n",
-    "nombre": "OLEICO Aceite de Cártamo Oléico Botella 946 mL",
-    "categoria": "aceite",
-    "super": "tottus",
-    "precios": {
-      "online": 39.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 42.18,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 946,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
-  },
-  {
-    "id": "tottus_preciounocajadeaceit_mo7cgu2n",
+    "id": "tottus_preciounocajadeaceit_mo8w21rp",
     "nombre": "PRECIO UNO Caja de Aceite 100% Soya Precio Uno Pack 12 Unidades 900 mL",
     "categoria": "aceite",
     "super": "tottus",
@@ -635,6 +547,94 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:23:10.271Z"
+    "timestamp": "2026-04-21T17:19:18.901Z"
+  },
+  {
+    "id": "tottus_elolivaraceitedeoliv_mo8w21rq",
+    "nombre": "EL OLIVAR Aceite de Oliva Virgen El Olivar Botella 200 mL",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 22.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 114.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:19:18.902Z"
+  },
+  {
+    "id": "tottus_deleiteaceitevegetal_mo8w21rq",
+    "nombre": "DELEITE Aceite Vegetal Premium Deleite Botella 5 L",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 39.11,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 7.82,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:19:18.902Z"
+  },
+  {
+    "id": "tottus_olivosdelsuraceitede_mo8w21rq",
+    "nombre": "OLIVOS DEL SUR Aceite de Oliva Puro Olivos del Sur Botella 500 mL",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 18.01,
+      "regular": 42.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 36.02,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 58,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:19:18.902Z"
+  },
+  {
+    "id": "tottus_palmerolaaceitepalme_mo8w21rq",
+    "nombre": "PALMEROLA Aceite Palmerola Galón 4.5 L",
+    "categoria": "aceite",
+    "super": "tottus",
+    "precios": {
+      "online": 28.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 4.5,
+      "unidad": "lt",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:19:18.902Z"
   }
 ]

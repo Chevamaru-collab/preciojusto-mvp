@@ -1,50 +1,6 @@
 [
   {
-    "id": "metro_huevosorpresaledsapi_mo7cmuoh",
-    "nombre": "Huevo Sorpresa LED Sapito 18g",
-    "categoria": "huevos",
-    "super": "metro",
-    "precios": {
-      "online": 1,
-      "regular": 13.7,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 55.56,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 18,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 93,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:27:50.993Z"
-  },
-  {
-    "id": "metro_huevosorpresaledarco_mo7cmuoh",
-    "nombre": "Huevo Sorpresa LED Arcor 26.4g",
-    "categoria": "huevos",
-    "super": "metro",
-    "precios": {
-      "online": 1,
-      "regular": 16.8,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 37.88,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 26.4,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 94,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:27:50.993Z"
-  },
-  {
-    "id": "metro_cabellodengelalhuevo_mo7cmuoh",
+    "id": "metro_cabellodengelalhuevo_mo8w81ly",
     "nombre": "Cabello de Ángel al Huevo La Montanara Bolsa 250 g",
     "categoria": "huevos",
     "super": "metro",
@@ -63,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:27:50.993Z"
+    "timestamp": "2026-04-21T17:23:58.630Z"
   },
   {
-    "id": "metro_huevospardosmetroban_mo7cmuoh",
+    "id": "metro_huevospardosmetroban_mo8w81ly",
     "nombre": "Huevos Pardos Metro Bandeja 8 Unid",
     "categoria": "huevos",
     "super": "metro",
@@ -85,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:27:50.993Z"
+    "timestamp": "2026-04-21T17:23:58.630Z"
   },
   {
-    "id": "metro_huevoexplosivololsur_mo7cmuoh",
+    "id": "metro_huevoexplosivololsur_mo8w81ly",
     "nombre": "Huevo Explosivo LOL Surprise Surtido",
     "categoria": "huevos",
     "super": "metro",
@@ -103,10 +59,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:27:50.993Z"
+    "timestamp": "2026-04-21T17:23:58.630Z"
   },
   {
-    "id": "metro_huevoexplosivopawpat_mo7cmuoh",
+    "id": "metro_huevoexplosivopawpat_mo8w81ly",
     "nombre": "Huevo Explosivo Paw Patrol Surtido",
     "categoria": "huevos",
     "super": "metro",
@@ -121,10 +77,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:27:50.993Z"
+    "timestamp": "2026-04-21T17:23:58.630Z"
   },
   {
-    "id": "metro_huevosdecodornizmetr_mo7cmuoh",
+    "id": "metro_huevosdecodornizmetr_mo8w81ly",
     "nombre": "Huevos de Codorniz Metro Paquete 18 Unid",
     "categoria": "huevos",
     "super": "metro",
@@ -143,10 +99,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:27:50.993Z"
+    "timestamp": "2026-04-21T17:23:58.630Z"
   },
   {
-    "id": "metro_huevosorpresakinderj_mo7cmuoh",
+    "id": "metro_huevosorpresakinderj_mo8w81ly",
     "nombre": "Huevo Sorpresa Kinder Joy 20g Sorpresa",
     "categoria": "huevos",
     "super": "metro",
@@ -165,6 +121,314 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:27:50.993Z"
+    "timestamp": "2026-04-21T17:23:58.630Z"
+  },
+  {
+    "id": "metro_huevospardosmetro15u_mo8w81lz",
+    "nombre": "Huevos Pardos Metro 15un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 10.99,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.73,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.630Z"
+  },
+  {
+    "id": "metro_huevosclsicosblancos_mo8w81lz",
+    "nombre": "Huevos Clásicos Blancos La Calera 15un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 11.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.77,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_fideofritoalhuevocho_mo8w81lz",
+    "nombre": "Fideo Frito al Huevo Choung Lee 250g",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 11.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 46,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 250,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevospardossuperjum_mo8w81lz",
+    "nombre": "Huevos Pardos Super Jumbo Metro Bandeja 10 Unid",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 11.75,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.18,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 10,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevosparaelandelaca_mo8w81lz",
+    "nombre": "Huevos para el Ande La Calera 15un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 11.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.79,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevospardosanfernan_mo8w81lz",
+    "nombre": "Huevos Pardo San Fernando 15un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 11.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.79,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevosdecorralmetro1_mo8w81lz",
+    "nombre": "Huevos de Corral Metro 12un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 13.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.14,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevodecorrallacaler_mo8w81lz",
+    "nombre": "Huevo de Corral La Calera 12un.",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 14.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.21,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevospardosmetro30u_mo8w81lz",
+    "nombre": "Huevos Pardos Metro 30un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 14.9,
+      "regular": 20.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 30,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 29,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevospardosartisan1_mo8w81lz",
+    "nombre": "Huevos Pardos Artisan 15un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 14.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 0.99,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 15,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevosgallinaslibres_mo8w81lz",
+    "nombre": "Huevos Gallinas Libres 12un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 14.9,
+      "regular": 15.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.24,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevospardosorgnicos_mo8w81lz",
+    "nombre": "Huevos Pardos Orgánicos Vida Orgánica 12un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 14.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.24,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevosorgnicospachac_mo8w81lz",
+    "nombre": "Huevos Org nicos Pachacamac 12un",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 17.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 1.46,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 12,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
+  },
+  {
+    "id": "metro_huevosorpresakinderj_mo8w81lz",
+    "nombre": "Huevo Sorpresa Kinder Joy 2un Rosado",
+    "categoria": "huevos",
+    "super": "metro",
+    "precios": {
+      "online": 18.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.25,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 2,
+      "unidad": "u",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:23:58.631Z"
   }
 ]

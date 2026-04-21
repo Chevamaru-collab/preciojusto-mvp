@@ -1,37 +1,15 @@
 [
   {
-    "id": "plazavea_lecheuhtgloriaentera_mo7ckbhz",
+    "id": "plazavea_lecheuhtgloriaentera_mo8w5jhf",
     "nombre": "Leche UHT GLORIA Entera Caja 946ml",
     "categoria": "leche-fresca",
     "super": "plazavea",
     "precios": {
-      "online": 5.9,
-      "regular": 6.1,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6.24,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 946,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 3,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:25:52.823Z"
-  },
-  {
-    "id": "plazavea_lecheuhtglorialightc_mo7ckbhz",
-    "nombre": "Leche UHT GLORIA Light Caja 946ml Paquete 3un",
-    "categoria": "leche-fresca",
-    "super": "plazavea",
-    "precios": {
-      "online": 16.5,
+      "online": 6.1,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 17.44,
+      "porUnidad": 6.45,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -41,19 +19,41 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:25:52.823Z"
+    "timestamp": "2026-04-21T17:22:01.827Z"
   },
   {
-    "id": "plazavea_lechefrescadanlacbot_mo7ckbhz",
+    "id": "plazavea_lecheuhtglorialightc_mo8w5jhf",
+    "nombre": "Leche UHT GLORIA Light Caja 946ml Paquete 3un",
+    "categoria": "leche-fresca",
+    "super": "plazavea",
+    "precios": {
+      "online": 15.5,
+      "regular": 16.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 16.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 946,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-21T17:22:01.827Z"
+  },
+  {
+    "id": "plazavea_lechefrescadanlacbot_mo8w5jhf",
     "nombre": "Leche Fresca DANLAC Botella 900ml",
     "categoria": "leche-fresca",
     "super": "plazavea",
     "precios": {
-      "online": 5.9,
-      "regular": 7.8,
+      "online": 7.8,
+      "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 6.56,
+      "porUnidad": 8.67,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -61,21 +61,21 @@
       "unidad": "ml",
       "pack": 1
     },
-    "descuento": 24,
+    "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:25:52.823Z"
+    "timestamp": "2026-04-21T17:22:01.827Z"
   },
   {
-    "id": "plazavea_lecheuhtglorianiospa_mo7ckbhz",
+    "id": "plazavea_lecheuhtglorianiospa_mo8w5jhf",
     "nombre": "Leche UHT GLORIA Niños Pack 3un x 1L",
     "categoria": "leche-fresca",
     "super": "plazavea",
     "precios": {
-      "online": 16.2,
-      "regular": null,
+      "online": 15.5,
+      "regular": 16.2,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 16.2,
+      "porUnidad": 15.5,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -83,12 +83,12 @@
       "unidad": "lt",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 4,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:25:52.823Z"
+    "timestamp": "2026-04-21T17:22:01.827Z"
   },
   {
-    "id": "plazavea_lechegloriauhtfresca_mo7ckbhz",
+    "id": "plazavea_lechegloriauhtfresca_mo8w5jhf",
     "nombre": "Leche GLORIA UHT Fresca Niños 1 a 5 años Caja 946ml",
     "categoria": "leche-fresca",
     "super": "plazavea",
@@ -107,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:25:52.823Z"
+    "timestamp": "2026-04-21T17:22:01.827Z"
   },
   {
-    "id": "plazavea_lechegloriauhtchocol_mo7ckbhz",
+    "id": "plazavea_lechegloriauhtchocol_mo8w5jhf",
     "nombre": "Leche GLORIA UHT Chocolatada Caja 946ml",
     "categoria": "leche-fresca",
     "super": "plazavea",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:25:52.823Z"
+    "timestamp": "2026-04-21T17:22:01.827Z"
   },
   {
-    "id": "plazavea_bebidadelecheuhtlapr_mo7ckbhz",
+    "id": "plazavea_bebidadelecheuhtlapr_mo8w5jhf",
     "nombre": "Bebida de Leche UHT LA PREFERIDA Regular Bolsa 800ml",
     "categoria": "leche-fresca",
     "super": "plazavea",
@@ -151,6 +151,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-20T15:25:52.823Z"
+    "timestamp": "2026-04-21T17:22:01.827Z"
   }
 ]
