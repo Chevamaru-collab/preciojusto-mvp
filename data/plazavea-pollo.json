@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_alitasdepolloahumaen_mo8w526n",
+    "id": "plazavea_alitasdepolloahumaen_moa6ohw7",
     "nombre": "Alitas de Pollo AHUMA en Salsa BBQ Bolsa 500g",
     "categoria": "pollo",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-21T17:21:39.407Z"
+    "timestamp": "2026-04-22T15:04:28.567Z"
   },
   {
-    "id": "plazavea_packpollorostizadopa_mo8w526n",
+    "id": "plazavea_packpollorostizadopa_moa6ohw8",
     "nombre": "Pack Pollo Rostizado + Papas Fritas + Lunch Arroz Chaufa de Pollo LA FLORENCIA 500g",
     "categoria": "pollo",
     "super": "plazavea",
@@ -41,10 +41,10 @@
     },
     "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-21T17:21:39.407Z"
+    "timestamp": "2026-04-22T15:04:28.568Z"
   },
   {
-    "id": "plazavea_filetedepechugadepol_mo8w526n",
+    "id": "plazavea_filetedepechugadepol_moa6ohw8",
     "nombre": "Filete de Pechuga de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -59,10 +59,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-21T17:21:39.407Z"
+    "timestamp": "2026-04-22T15:04:28.568Z"
   },
   {
-    "id": "plazavea_pechugaespecialdepol_mo8w526n",
+    "id": "plazavea_pechugaespecialdepol_moa6ohw8",
     "nombre": "Pechuga Especial de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -77,10 +77,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-21T17:21:39.407Z"
+    "timestamp": "2026-04-22T15:04:28.568Z"
   },
   {
-    "id": "plazavea_muslosdepolloxkg_mo8w526n",
+    "id": "plazavea_muslosdepolloxkg_moa6ohw8",
     "nombre": "Muslos de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -95,19 +95,19 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-21T17:21:39.407Z"
+    "timestamp": "2026-04-22T15:04:28.568Z"
   },
   {
-    "id": "plazavea_muslosdepollosadiabo_mo8w526n",
+    "id": "plazavea_muslosdepollosadiabo_moa6ohw8",
     "nombre": "Muslos de Pollo SADIA Bolsa 1kg",
     "categoria": "pollo",
     "super": "plazavea",
     "precios": {
-      "online": 12.9,
-      "regular": null,
+      "online": 11.6,
+      "regular": 12.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 12.9,
+      "porUnidad": 11.6,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -115,8 +115,8 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-21T17:21:39.407Z"
+    "timestamp": "2026-04-22T15:04:28.568Z"
   }
 ]

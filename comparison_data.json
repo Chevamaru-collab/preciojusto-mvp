@@ -18,12 +18,12 @@
         "price": 5.5
       },
       {
-        "store": "Plaza Vea",
-        "price": 5.7
-      },
-      {
         "store": "Wong",
         "price": 5.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 6.5
       }
     ],
     "best_price": 3.9,
@@ -41,40 +41,18 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 14.8
+        "price": 9.7
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 15.5
       },
       {
         "store": "Metro",
         "price": 15.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 17.8
       }
     ],
-    "best_price": 14.8,
-    "best_store": "Tottus"
-  },
-  {
-    "canonical_name": "Aceite Vegetal 5 LT",
-    "product_name": "Aceite Vegetal 5 LT",
-    "comparison_group": "Aceite Vegetal",
-    "category": "Aceite",
-    "presentation": 5,
-    "unit": "LT",
-    "price_unit": "liter",
-    "normalized_unit": "liter",
-    "stores": [
-      {
-        "store": "Tottus",
-        "price": 18.5
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 18.5
-      }
-    ],
-    "best_price": 18.5,
+    "best_price": 9.7,
     "best_store": "Tottus"
   },
   {
@@ -123,11 +101,11 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 9.9
+        "price": 9.4
       },
       {
         "store": "Wong",
-        "price": 18.2
+        "price": 9.4
       }
     ],
     "best_price": 9.2,
@@ -153,7 +131,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 6.5
+        "price": 4.89
       }
     ],
     "best_price": 4.7,
@@ -196,12 +174,12 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Metro",
-        "price": 21.9
-      },
-      {
         "store": "Plaza Vea",
         "price": 22.5
+      },
+      {
+        "store": "Metro",
+        "price": 22.8
       },
       {
         "store": "Wong",
@@ -212,8 +190,8 @@
         "price": 25.9
       }
     ],
-    "best_price": 21.9,
-    "best_store": "Metro"
+    "best_price": 22.5,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Azucar Rubia 1 KG",
@@ -399,7 +377,7 @@
       },
       {
         "store": "Metro",
-        "price": 10.99
+        "price": 9.99
       },
       {
         "store": "Wong",
@@ -424,12 +402,12 @@
         "price": 14.9
       },
       {
-        "store": "Metro",
-        "price": 14.9
-      },
-      {
         "store": "Tottus",
         "price": 15.5
+      },
+      {
+        "store": "Metro",
+        "price": 18.8
       },
       {
         "store": "Wong",
@@ -537,10 +515,6 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 6.89
-      },
-      {
-        "store": "Metro",
         "price": 6.9
       },
       {
@@ -549,10 +523,14 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 11.9
+        "price": 11.2
+      },
+      {
+        "store": "Metro",
+        "price": 15.4
       }
     ],
-    "best_price": 6.89,
+    "best_price": 6.9,
     "best_store": "Tottus"
   },
   {
@@ -606,10 +584,6 @@
       {
         "store": "Metro",
         "price": 16.9
-      },
-      {
-        "store": "Wong",
-        "price": 17.9
       }
     ],
     "best_price": 9.9,
@@ -630,16 +604,16 @@
         "price": 1.2
       },
       {
+        "store": "Tottus",
+        "price": 6.9
+      },
+      {
         "store": "Metro",
         "price": 9.5
       },
       {
         "store": "Wong",
         "price": 9.5
-      },
-      {
-        "store": "Tottus",
-        "price": 11.89
       }
     ],
     "best_price": 1.2,
@@ -657,11 +631,11 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 4.5
+        "price": 4.4
       },
       {
         "store": "Plaza Vea",
-        "price": 10
+        "price": 8.5
       },
       {
         "store": "Metro",
@@ -672,7 +646,7 @@
         "price": 11.9
       }
     ],
-    "best_price": 4.5,
+    "best_price": 4.4,
     "best_store": "Tottus"
   },
   {
