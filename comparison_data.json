@@ -71,7 +71,7 @@
       },
       {
         "store": "Tottus",
-        "price": 39.11
+        "price": 28.8
       }
     ],
     "best_price": 18.5,
@@ -96,12 +96,12 @@
         "price": 5.5
       },
       {
-        "store": "Wong",
-        "price": 5.7
-      },
-      {
         "store": "Tottus",
         "price": 6.6
+      },
+      {
+        "store": "Wong",
+        "price": 6.7
       }
     ],
     "best_price": 4.8,
@@ -118,20 +118,20 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 9.2
-      },
-      {
         "store": "Wong",
         "price": 9.3
       },
       {
         "store": "Plaza Vea",
         "price": 9.4
+      },
+      {
+        "store": "Tottus",
+        "price": 9.8
       }
     ],
-    "best_price": 9.2,
-    "best_store": "Tottus"
+    "best_price": 9.3,
+    "best_store": "Wong"
   },
   {
     "canonical_name": "Avena Instantanea 0.5 KG",
@@ -145,14 +145,18 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 4.7
+        "price": 4.2
       },
       {
         "store": "Metro",
         "price": 4.8
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 4.89
       }
     ],
-    "best_price": 4.7,
+    "best_price": 4.2,
     "best_store": "Tottus"
   },
   {
@@ -206,10 +210,6 @@
       {
         "store": "Wong",
         "price": 22.8
-      },
-      {
-        "store": "Tottus",
-        "price": 25.9
       }
     ],
     "best_price": 22.5,
@@ -316,10 +316,6 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 5.9
-      },
-      {
         "store": "Tottus",
         "price": 6.4
       },
@@ -332,8 +328,8 @@
         "price": 7.9
       }
     ],
-    "best_price": 5.9,
-    "best_store": "Plaza Vea"
+    "best_price": 6.4,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Fondant Blanco 1 KG",
@@ -394,16 +390,16 @@
         "price": 6.49
       },
       {
-        "store": "Metro",
-        "price": 9.99
-      },
-      {
         "store": "Plaza Vea",
         "price": 10.5
       },
       {
+        "store": "Metro",
+        "price": 10.5
+      },
+      {
         "store": "Wong",
-        "price": 11.5
+        "price": 10.5
       }
     ],
     "best_price": 6.49,
@@ -420,10 +416,6 @@
     "normalized_unit": "unit",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 14.9
-      },
-      {
         "store": "Tottus",
         "price": 15.5
       },
@@ -432,12 +424,16 @@
         "price": 18.8
       },
       {
+        "store": "Plaza Vea",
+        "price": 18.9
+      },
+      {
         "store": "Wong",
         "price": 19.9
       }
     ],
-    "best_price": 14.9,
-    "best_store": "Plaza Vea"
+    "best_price": 15.5,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Leche Evaporada 0.4 KG",
@@ -540,16 +536,16 @@
         "price": 6.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 6.9
-      },
-      {
         "store": "Wong",
         "price": 6.9
       },
       {
+        "store": "Plaza Vea",
+        "price": 9.9
+      },
+      {
         "store": "Metro",
-        "price": 15.4
+        "price": 10.8
       }
     ],
     "best_price": 6.9,
@@ -606,10 +602,6 @@
       {
         "store": "Metro",
         "price": 16.9
-      },
-      {
-        "store": "Wong",
-        "price": 17.9
       }
     ],
     "best_price": 9.9,
@@ -630,16 +622,16 @@
         "price": 1.2
       },
       {
+        "store": "Tottus",
+        "price": 6.9
+      },
+      {
         "store": "Metro",
         "price": 9.5
       },
       {
         "store": "Wong",
         "price": 9.5
-      },
-      {
-        "store": "Tottus",
-        "price": 11.89
       }
     ],
     "best_price": 1.2,
@@ -695,7 +687,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 5.8
+        "price": 6.6
       },
       {
         "store": "Metro",
@@ -716,24 +708,24 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 3.3
-      },
-      {
         "store": "Tottus",
         "price": 3.4
       },
       {
-        "store": "Metro",
-        "price": 4.5
+        "store": "Plaza Vea",
+        "price": 3.9
       },
       {
         "store": "Wong",
-        "price": 4.9
+        "price": 4.3
+      },
+      {
+        "store": "Metro",
+        "price": 4.5
       }
     ],
-    "best_price": 3.3,
-    "best_store": "Plaza Vea"
+    "best_price": 3.4,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Refresco Sin Preparar 1 KG",
