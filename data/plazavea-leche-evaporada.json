@@ -1,15 +1,15 @@
 [
   {
-    "id": "plazavea_lecheevaporadaentera_modgg8uq",
+    "id": "plazavea_lecheevaporadaentera_mof0v4wo",
     "nombre": "Leche Evaporada Entera GLORIA Lata 390g Paquete 6un",
     "categoria": "leche-evaporada",
     "super": "plazavea",
     "precios": {
-      "online": 20.9,
+      "online": 21.9,
       "regular": 23.3,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 53.59,
+      "porUnidad": 56.15,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -17,34 +17,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 10,
+    "descuento": 6,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:01:18.289Z"
+    "timestamp": "2026-04-26T00:20:31.512Z"
   },
   {
-    "id": "plazavea_lecheevaporadabellse_modgg8uq",
-    "nombre": "Leche Evaporada BELL'S Entera Lata 410g",
-    "categoria": "leche-evaporada",
-    "super": "plazavea",
-    "precios": {
-      "online": 4,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 9.76,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 410,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:01:18.290Z"
-  },
-  {
-    "id": "plazavea_lecheevaporadadanlac_modgg8uq",
+    "id": "plazavea_lecheevaporadadanlac_mof0v4wo",
     "nombre": "Leche Evaporada DANLAC con Proteína Toffee Botella 250ml",
     "categoria": "leche-evaporada",
     "super": "plazavea",
@@ -63,10 +41,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:01:18.290Z"
+    "timestamp": "2026-04-26T00:20:31.512Z"
   },
   {
-    "id": "plazavea_lecheevaporadabellsl_modgg8uq",
+    "id": "plazavea_lecheevaporadabellse_mof0v4wo",
+    "nombre": "Leche Evaporada BELL'S Entera Lata 410g",
+    "categoria": "leche-evaporada",
+    "super": "plazavea",
+    "precios": {
+      "online": 4,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.76,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 410,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:20:31.512Z"
+  },
+  {
+    "id": "plazavea_lecheevaporadabellsl_mof0v4wp",
     "nombre": "Leche Evaporada BELL'S Light Lata 410g",
     "categoria": "leche-evaporada",
     "super": "plazavea",
@@ -85,6 +85,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:01:18.290Z"
+    "timestamp": "2026-04-26T00:20:31.513Z"
   }
 ]

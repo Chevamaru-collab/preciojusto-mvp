@@ -1,512 +1,6 @@
 [
   {
-    "id": "tottus_quakeravenaquakertra_modgddo0",
-    "nombre": "QUAKER Avena Quaker Tradicional Bolsa 500 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 8.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 17,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.560Z"
-  },
-  {
-    "id": "tottus_3ositosavenaclsica3o_modgddo0",
-    "nombre": "3 OSITOS Avena Clásica 3 Ositos Precocida Bolsa 900 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 10.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.560Z"
-  },
-  {
-    "id": "tottus_3ositosquinuaavenaho_modgddo0",
-    "nombre": "3 OSITOS Quinua Avena Hojuela 3 Ositos Precocida 900 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 9.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10.89,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.560Z"
-  },
-  {
-    "id": "tottus_granodeoroavenahojue_modgddo0",
-    "nombre": "GRANO DE ORO Avena Hojuelas Precocidas Grano de Oro Bolsa 1 Kg",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 10.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.560Z"
-  },
-  {
-    "id": "tottus_quakeravenaquakercon_modgddo0",
-    "nombre": "QUAKER Avena Quaker con Quinua Bolsa 850 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 12.9,
-      "regular": 14.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 15.18,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 850,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 11,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.560Z"
-  },
-  {
-    "id": "tottus_lapuritaavenaenhojue_modgddo1",
-    "nombre": "LA PURITA Avena en Hojuelas La Purita Sin Gluten Empaque 800 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 10.8,
-      "regular": 18,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 13.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 800,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 40,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_granodeoroavenainteg_modgddo1",
-    "nombre": "GRANO DE ORO Avena Integral Grano de Oro Bolsa 1 Kg",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 10.1,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 10.1,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_santacatalinaavenapr_modgddo1",
-    "nombre": "SANTA CATALINA Avena Precocida Santa Catalina Pack 2 Bolsas 900 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 18.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 20.78,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_tottusavenatottusbol_modgddo1",
-    "nombre": "TOTTUS Avena Tottus Bolsa 500 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 4.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 9.4,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_amarusuperfoodsavena_modgddo1",
-    "nombre": "AMARU SUPERFOODS Avena Protéica Amaru Superfoods Vainilla Doypack 600 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 19.9,
-      "regular": 21.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 33.17,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 600,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_3ositosavenahojuelap_modgddo1",
-    "nombre": "3 OSITOS Avena Hojuela Precocida 3 Ositos Clásica Bolsa 500 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 6.6,
-      "regular": 7.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 13.2,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 12,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_quakeravenatradicion_modgddo1",
-    "nombre": "QUAKER Avena Tradicional Quaker Pack 2 Bolsas 750 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 19.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 26.53,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_3ositosavena3ositosc_modgddo1",
-    "nombre": "3 OSITOS Avena 3 Ositos con Cereales Andinos Bolsa 270 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 5.1,
-      "regular": 5.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 18.89,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 270,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_mitierraavenaintegra_modgddo1",
-    "nombre": "MI TIERRA Avena Integral Mi Tierra Bolsa 400 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 8.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 21.25,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 400,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_granodeoroavenaconch_modgddo1",
-    "nombre": "GRANO DE ORO Avena con Chía Grano de Oro Bolsa 370 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": 4.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.16,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 370,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 8,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_3ositosavenaconquinu_modgddo1",
-    "nombre": "3 OSITOS Avena con Quinua 3 Ositos Bolsa 270 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 5.1,
-      "regular": 5.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 18.89,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 270,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 9,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_quakeravenaquakercon_modgddo1",
-    "nombre": "QUAKER Avena Quaker con Maca Bolsa 330 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 8.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 25.76,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 330,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_3ositosavenahojuela3_modgddo1",
-    "nombre": "3 OSITOS Avena Hojuela 3 Ositos con Chocolate Bolsa 180 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 27.78,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_quakeravenaquakerins_modgddo1",
-    "nombre": "QUAKER Avena Quaker Instantánea Caja 350 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 9.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 27.14,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 350,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_molicuscohojuelasdek_modgddo1",
-    "nombre": "MOLICUSCO Hojuelas de Kiwicha Molicusco Bolsa 200 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 7.7,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 38.5,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_granodeoroavenaquinu_modgddo1",
-    "nombre": "GRANO DE ORO Avena Quinua Grano de Oro Bolsa 370 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": 4.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.16,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 370,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 8,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_3ositosavenaconmaca3_modgddo1",
-    "nombre": "3 OSITOS Avena con Maca 3 Ositos Bolsa 270 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 3.64,
-      "regular": 5.6,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 13.48,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 270,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 35,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_molicuscohojuelasdeq_modgddo1",
-    "nombre": "MOLICUSCO Hojuelas de Quinua Molicusco Bolsa 200 g",
-    "categoria": "avena",
-    "super": "tottus",
-    "precios": {
-      "online": 9.8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 49,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 200,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
-  },
-  {
-    "id": "tottus_quakeravenaquakertra_modgddo1",
+    "id": "tottus_quakeravenaquakertra_mof0sbds",
     "nombre": "QUAKER Avena Quaker Tradicional Chocolate Bolsa 290 g",
     "categoria": "avena",
     "super": "tottus",
@@ -525,10 +19,472 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.936Z"
   },
   {
-    "id": "tottus_huellaverdeavenamixh_modgddo1",
+    "id": "tottus_3ositosavenaclsica3o_mof0sbds",
+    "nombre": "3 OSITOS Avena Clásica 3 Ositos Precocida Bolsa 900 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 10.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.11,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_3ositosquinuaavenaho_mof0sbds",
+    "nombre": "3 OSITOS Quinua Avena Hojuela 3 Ositos Precocida 900 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 9.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_granodeoroavenahojue_mof0sbds",
+    "nombre": "GRANO DE ORO Avena Hojuelas Precocidas Grano de Oro Bolsa 1 Kg",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 10.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_quakeravenaquakercon_mof0sbds",
+    "nombre": "QUAKER Avena Quaker con Maca Bolsa 330 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 8.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 25.76,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 330,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_lapuritaavenaenhojue_mof0sbds",
+    "nombre": "LA PURITA Avena en Hojuelas La Purita Sin Gluten Empaque 800 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 10.8,
+      "regular": 18,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 800,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 40,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_granodeoroavenainteg_mof0sbds",
+    "nombre": "GRANO DE ORO Avena Integral Grano de Oro Bolsa 1 Kg",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 10.1,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.1,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_santacatalinaavenapr_mof0sbds",
+    "nombre": "SANTA CATALINA Avena Precocida Santa Catalina Pack 2 Bolsas 900 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 18.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_tottusavenatottusbol_mof0sbds",
+    "nombre": "TOTTUS Avena Tottus Bolsa 500 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 4.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 9.4,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_amarusuperfoodsavena_mof0sbds",
+    "nombre": "AMARU SUPERFOODS Avena Protéica Amaru Superfoods Chocolate Doypack 600 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 19.9,
+      "regular": 21.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 33.17,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_3ositosavenahojuelap_mof0sbds",
+    "nombre": "3 OSITOS Avena Hojuela Precocida 3 Ositos Clásica Bolsa 500 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 6.6,
+      "regular": 7.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 500,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 12,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_quakeravenatradicion_mof0sbds",
+    "nombre": "QUAKER Avena Tradicional Quaker Pack 2 Bolsas 750 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 19.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 26.53,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_3ositosavena3ositosc_mof0sbds",
+    "nombre": "3 OSITOS Avena 3 Ositos con Cereales Andinos Bolsa 270 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 5.1,
+      "regular": 5.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 18.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 270,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_mitierraavenaintegra_mof0sbds",
+    "nombre": "MI TIERRA Avena Integral Mi Tierra Bolsa 400 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 8.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 21.25,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 400,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_granodeoroavenaconch_mof0sbds",
+    "nombre": "GRANO DE ORO Avena con Chía Grano de Oro Bolsa 370 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 4.5,
+      "regular": 4.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.16,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 370,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 8,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_3ositosavenaconquinu_mof0sbds",
+    "nombre": "3 OSITOS Avena con Quinua 3 Ositos Bolsa 270 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 5.1,
+      "regular": 5.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 18.89,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 270,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_3ositosavenahojuela3_mof0sbds",
+    "nombre": "3 OSITOS Avena Hojuela 3 Ositos con Chocolate Bolsa 180 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 27.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 180,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_quakeravenaquakerins_mof0sbds",
+    "nombre": "QUAKER Avena Quaker Instantánea Caja 350 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 9.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 27.14,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 350,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_molicuscohojuelasdek_mof0sbds",
+    "nombre": "MOLICUSCO Hojuelas de Kiwicha Molicusco Bolsa 200 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 7.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 38.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_granodeoroavenaquinu_mof0sbds",
+    "nombre": "GRANO DE ORO Avena Quinua Grano de Oro Bolsa 370 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 4.5,
+      "regular": 4.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.16,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 370,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 8,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_3ositosavenaconmaca3_mof0sbds",
+    "nombre": "3 OSITOS Avena con Maca 3 Ositos Bolsa 270 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 3.64,
+      "regular": 5.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.48,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 270,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 35,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_molicuscohojuelasdeq_mof0sbds",
+    "nombre": "MOLICUSCO Hojuelas de Quinua Molicusco Bolsa 200 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 9.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 49,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 200,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_huellaverdeavenamixh_mof0sbds",
     "nombre": "HUELLA VERDE Avena Mix Huella Verde Superfood Empaque 600 g",
     "categoria": "avena",
     "super": "tottus",
@@ -547,10 +503,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.936Z"
   },
   {
-    "id": "tottus_tottusquinuaavenatot_modgddo1",
+    "id": "tottus_tottusquinuaavenatot_mof0sbds",
     "nombre": "TOTTUS Quinua Avena Tottus Bolsa 380 g",
     "categoria": "avena",
     "super": "tottus",
@@ -569,10 +525,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.936Z"
   },
   {
-    "id": "tottus_tottusavenachaenhoju_modgddo1",
+    "id": "tottus_tottusavenachaenhoju_mof0sbds",
     "nombre": "TOTTUS Avena Chía en Hojuelas Tottus Bolsa 380 g",
     "categoria": "avena",
     "super": "tottus",
@@ -591,10 +547,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.936Z"
   },
   {
-    "id": "tottus_granodeorohojuelasde_modgddo1",
+    "id": "tottus_granodeorohojuelasde_mof0sbds",
     "nombre": "GRANO DE ORO Hojuelas de Avena con Maca Grano de Oro Bolsa 370 g",
     "categoria": "avena",
     "super": "tottus",
@@ -613,10 +569,10 @@
     },
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.936Z"
   },
   {
-    "id": "tottus_granodeoroavenakiwic_modgddo1",
+    "id": "tottus_granodeoroavenakiwic_mof0sbds",
     "nombre": "GRANO DE ORO Avena Kiwicha Grano de Oro Bolsa 370 g",
     "categoria": "avena",
     "super": "tottus",
@@ -635,10 +591,10 @@
     },
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.936Z"
   },
   {
-    "id": "tottus_bobsredmillhojuelasd_modgddo1",
+    "id": "tottus_bobsredmillhojuelasd_mof0sbds",
     "nombre": "BOBS RED MILL Hojuelas de Avena Bobs Red Mill Orgánica Sin Gluten Empaque 907 g",
     "categoria": "avena",
     "super": "tottus",
@@ -657,10 +613,32 @@
     },
     "descuento": 58,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.936Z"
   },
   {
-    "id": "tottus_granodeoroavenagrano_modgddo1",
+    "id": "tottus_granodeoroavenagrano_mof0sbds",
+    "nombre": "GRANO DE ORO Avena Grano de Oro Bolsa 370 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 4.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 12.16,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 370,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.936Z"
+  },
+  {
+    "id": "tottus_granodeoroavenagrano_mof0sbdt",
     "nombre": "GRANO DE ORO Avena Grano De Oro Bolsa 500 g",
     "categoria": "avena",
     "super": "tottus",
@@ -679,10 +657,32 @@
     },
     "descuento": 21,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.936Z"
   },
   {
-    "id": "tottus_naturandesavena7semi_modgddo1",
+    "id": "tottus_amarusuperfoodsavena_mof0sbdt",
+    "nombre": "AMARU SUPERFOODS Avena Protéica Amaru Superfoods Vainilla Doypack 600 g",
+    "categoria": "avena",
+    "super": "tottus",
+    "precios": {
+      "online": 19.9,
+      "regular": 21.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 33.17,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 600,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:18:19.937Z"
+  },
+  {
+    "id": "tottus_naturandesavena7semi_mof0sbdt",
     "nombre": "NATURANDES Avena 7 Semillas Energía Naturandes Bolsa 240 g",
     "categoria": "avena",
     "super": "tottus",
@@ -701,6 +701,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T21:59:04.561Z"
+    "timestamp": "2026-04-26T00:18:19.937Z"
   }
 ]

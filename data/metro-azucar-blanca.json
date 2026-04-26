@@ -1,50 +1,50 @@
 [
   {
-    "id": "metro_azcarblancametrobols_modghnmh",
-    "nombre": "Azúcar Blanca Metro Bolsa 5 kg",
+    "id": "metro_azcarblancametrobols_mof0wks4",
+    "nombre": "Azúcar Blanca Metro Bolsa 1 kg",
     "categoria": "azucar-blanca",
     "super": "metro",
     "precios": {
-      "online": 22.8,
+      "online": 4.8,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.56,
+      "porUnidad": 4.8,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 5,
+      "valor": 1,
       "unidad": "kg",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:02:24.089Z"
+    "timestamp": "2026-04-26T00:21:38.740Z"
   },
   {
-    "id": "metro_azcarblancacuisineco_modghnmh",
-    "nombre": "Azúcar Blanca Cuisine & Co 5kg",
+    "id": "metro_azcarblancacuisineco_mof0wks4",
+    "nombre": "Azúcar Blanca Cuisine & Co 1kg",
     "categoria": "azucar-blanca",
     "super": "metro",
     "precios": {
-      "online": 23.9,
+      "online": 5.1,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.78,
+      "porUnidad": 5.1,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 5,
+      "valor": 1,
       "unidad": "kg",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:02:24.089Z"
+    "timestamp": "2026-04-26T00:21:38.740Z"
   },
   {
-    "id": "metro_azcarblancaparamonga_modghnmh",
+    "id": "metro_azcarblancaparamonga_mof0wks4",
     "nombre": "Azúcar Blanca Paramonga Bolsa 1 kg",
     "categoria": "azucar-blanca",
     "super": "metro",
@@ -63,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:02:24.089Z"
+    "timestamp": "2026-04-26T00:21:38.740Z"
   },
   {
-    "id": "metro_azcarblancadulfinabo_modghnmh",
+    "id": "metro_azcarblancadulfinabo_mof0wks4",
     "nombre": "Azúcar Blanca Dulfina Bolsa1 kg",
     "categoria": "azucar-blanca",
     "super": "metro",
@@ -85,10 +85,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:02:24.089Z"
+    "timestamp": "2026-04-26T00:21:38.740Z"
   },
   {
-    "id": "metro_azcarblancarefinadad_modghnmh",
+    "id": "metro_azcarblancametrobols_mof0wks5",
+    "nombre": "Azúcar Blanca Metro Bolsa 5 kg",
+    "categoria": "azucar-blanca",
+    "super": "metro",
+    "precios": {
+      "online": 22.8,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:21:38.741Z"
+  },
+  {
+    "id": "metro_azcarblancarefinadad_mof0wks5",
     "nombre": "Azúcar Blanca Refinada Dulfina Bolsa 2 kg",
     "categoria": "azucar-blanca",
     "super": "metro",
@@ -107,6 +129,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-24T22:02:24.089Z"
+    "timestamp": "2026-04-26T00:21:38.741Z"
+  },
+  {
+    "id": "metro_azcarblancacuisineco_mof0wks5",
+    "nombre": "Azúcar Blanca Cuisine & Co 5kg",
+    "categoria": "azucar-blanca",
+    "super": "metro",
+    "precios": {
+      "online": 23.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-26T00:21:38.741Z"
   }
 ]
