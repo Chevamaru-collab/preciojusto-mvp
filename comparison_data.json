@@ -71,7 +71,7 @@
       },
       {
         "store": "Tottus",
-        "price": 28.8
+        "price": 39.11
       }
     ],
     "best_price": 18.5,
@@ -123,7 +123,7 @@
       },
       {
         "store": "Tottus",
-        "price": 9.8
+        "price": 9.9
       },
       {
         "store": "Wong",
@@ -145,14 +145,14 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 4.2
+        "price": 4.5
       },
       {
         "store": "Metro",
         "price": 4.8
       }
     ],
-    "best_price": 4.2,
+    "best_price": 4.5,
     "best_store": "Tottus"
   },
   {
@@ -167,7 +167,7 @@
     "stores": [
       {
         "store": "Metro",
-        "price": 4.8
+        "price": 5.45
       },
       {
         "store": "Plaza Vea",
@@ -178,7 +178,7 @@
         "price": 5.5
       }
     ],
-    "best_price": 4.8,
+    "best_price": 5.45,
     "best_store": "Metro"
   },
   {
@@ -202,10 +202,6 @@
       {
         "store": "Wong",
         "price": 22.8
-      },
-      {
-        "store": "Tottus",
-        "price": 25.9
       }
     ],
     "best_price": 22.5,
@@ -312,12 +308,12 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Tottus",
+        "store": "Metro",
         "price": 6.4
       },
       {
-        "store": "Metro",
-        "price": 6.4
+        "store": "Tottus",
+        "price": 7.5
       },
       {
         "store": "Plaza Vea",
@@ -329,7 +325,7 @@
       }
     ],
     "best_price": 6.4,
-    "best_store": "Tottus"
+    "best_store": "Metro"
   },
   {
     "canonical_name": "Fondant Blanco 1 KG",
@@ -364,16 +360,16 @@
     "normalized_unit": "unit",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 5.99
-      },
-      {
         "store": "Plaza Vea",
         "price": 6.9
+      },
+      {
+        "store": "Tottus",
+        "price": 7.5
       }
     ],
-    "best_price": 5.99,
-    "best_store": "Tottus"
+    "best_price": 6.9,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Huevos Pardos 15 UND",
@@ -391,14 +387,10 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 10.5
+        "price": 9.9
       },
       {
         "store": "Metro",
-        "price": 10.5
-      },
-      {
-        "store": "Wong",
         "price": 10.5
       }
     ],
@@ -420,16 +412,12 @@
         "price": 15.5
       },
       {
-        "store": "Plaza Vea",
-        "price": 17.5
-      },
-      {
         "store": "Metro",
-        "price": 18.8
+        "price": 16.9
       },
       {
-        "store": "Wong",
-        "price": 19.9
+        "store": "Plaza Vea",
+        "price": 20.5
       }
     ],
     "best_price": 15.5,
@@ -447,7 +435,7 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 3.6
+        "price": 4
       },
       {
         "store": "Plaza Vea",
@@ -462,7 +450,7 @@
         "price": 4.2
       }
     ],
-    "best_price": 3.6,
+    "best_price": 4,
     "best_store": "Tottus"
   },
   {
@@ -536,16 +524,16 @@
         "price": 6.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 6.9
-      },
-      {
         "store": "Wong",
         "price": 6.9
       },
       {
         "store": "Metro",
-        "price": 15.4
+        "price": 9.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 11.2
       }
     ],
     "best_price": 6.9,
@@ -597,11 +585,11 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 15.8
+        "price": 17.9
       },
       {
         "store": "Metro",
-        "price": 16.9
+        "price": 17.9
       }
     ],
     "best_price": 9.9,
@@ -622,16 +610,16 @@
         "price": 1.2
       },
       {
-        "store": "Tottus",
-        "price": 6.9
-      },
-      {
         "store": "Metro",
         "price": 9.5
       },
       {
         "store": "Wong",
         "price": 9.5
+      },
+      {
+        "store": "Tottus",
+        "price": 9.9
       }
     ],
     "best_price": 1.2,
@@ -649,7 +637,7 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 4.5
+        "price": 4.4
       },
       {
         "store": "Plaza Vea",
@@ -664,7 +652,7 @@
         "price": 11.9
       }
     ],
-    "best_price": 4.5,
+    "best_price": 4.4,
     "best_store": "Tottus"
   },
   {
@@ -751,7 +739,7 @@
       },
       {
         "store": "Tottus",
-        "price": 4.8
+        "price": 4.9
       }
     ],
     "best_price": 4.5,

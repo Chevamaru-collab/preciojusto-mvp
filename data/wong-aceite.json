@@ -1,6 +1,28 @@
 [
   {
-    "id": "wong_tripackaceitevegetal_mof0zolq",
+    "id": "wong_twopackaceitevegetal_mogv5oem",
+    "nombre": "Twopack Aceite Vegetal Primor Premium 900ml",
+    "categoria": "aceite",
+    "super": "wong",
+    "precios": {
+      "online": 18.5,
+      "regular": 22,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 20.56,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "ml",
+      "pack": 1
+    },
+    "descuento": 16,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-27T07:16:17.998Z"
+  },
+  {
+    "id": "wong_tripackaceitevegetal_mogv5oem",
     "nombre": "Tripack Aceite Vegetal Primor Clásico Botella 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -19,32 +41,10 @@
     },
     "descuento": 19,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.662Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_twopackaceitevegetal_mof0zolq",
-    "nombre": "Twopack Aceite Vegetal Primor Clásico 900ml",
-    "categoria": "aceite",
-    "super": "wong",
-    "precios": {
-      "online": 16.5,
-      "regular": 20,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 18.33,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": 18,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.662Z"
-  },
-  {
-    "id": "wong_aceitevegetalprimorc_mof0zolq",
+    "id": "wong_aceitevegetalprimorc_mogv5oem",
     "nombre": "Aceite Vegetal Primor Clásico Botella 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -63,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.662Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_aceitevegetalprimorp_mof0zolq",
+    "id": "wong_aceitevegetalprimorp_mogv5oem",
     "nombre": "Aceite Vegetal Primor Premium Botella 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -85,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.662Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_aceitevegetalcuisine_mof0zolq",
+    "id": "wong_aceitevegetalcuisine_mogv5oem",
     "nombre": "Aceite Vegetal Cuisine & Co 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -107,10 +107,10 @@
     },
     "descuento": 31,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.662Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_aceiteoleicodecarman_mof0zolq",
+    "id": "wong_aceiteoleicodecarman_mogv5oem",
     "nombre": "Aceite Oleico de Carmano 380g",
     "categoria": "aceite",
     "super": "wong",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.662Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_aceitedecartamoolico_mof0zolq",
+    "id": "wong_aceitedecartamoolico_mogv5oem",
     "nombre": "Aceite De Cartamo Oléico Botella 710 ml",
     "categoria": "aceite",
     "super": "wong",
@@ -151,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.662Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_sardinasenaceitevege_mof0zolr",
+    "id": "wong_sardinasenaceitevege_mogv5oem",
     "nombre": "Sardinas en Aceite Vegetal Vigilante 120g",
     "categoria": "aceite",
     "super": "wong",
@@ -173,10 +173,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.663Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_sardinaspalaciodelor_mof0zolr",
+    "id": "wong_sardinaspalaciodelor_mogv5oem",
     "nombre": "Sardinas Palacio del Oriente Picantes en Aceite Vegetal Lata 125 g",
     "categoria": "aceite",
     "super": "wong",
@@ -195,10 +195,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.663Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_sardinasallimnenacei_mof0zolr",
+    "id": "wong_sardinasallimnenacei_mogv5oem",
     "nombre": "Sardinas al Limón en Aceite Vegetal Vigilante 120g",
     "categoria": "aceite",
     "super": "wong",
@@ -217,10 +217,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.663Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   },
   {
-    "id": "wong_packcuisinecoarrozex_mof0zolr",
+    "id": "wong_packcuisinecoarrozex_mogv5oem",
     "nombre": "Pack Cuisine & Co: Arroz Extra Añejo 5kg + Aceite Vegetal 900ml",
     "categoria": "aceite",
     "super": "wong",
@@ -239,6 +239,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:24:03.663Z"
+    "timestamp": "2026-04-27T07:16:17.998Z"
   }
 ]

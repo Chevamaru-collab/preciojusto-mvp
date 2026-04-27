@@ -1,6 +1,6 @@
 [
   {
-    "id": "plazavea_alitasdepolloahumaen_mof0uu0n",
+    "id": "plazavea_alitasdepolloahumaen_mogv1104",
     "nombre": "Alitas de Pollo AHUMA en Salsa BBQ Bolsa 500g",
     "categoria": "pollo",
     "super": "plazavea",
@@ -19,10 +19,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.398Z"
+    "timestamp": "2026-04-27T07:12:41.043Z"
   },
   {
-    "id": "plazavea_filetedepechugadepol_mof0uu0n",
+    "id": "plazavea_filetedepechugadepol_mogv1104",
     "nombre": "Filete de Pechuga de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -37,10 +37,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
+    "timestamp": "2026-04-27T07:12:41.044Z"
   },
   {
-    "id": "plazavea_pechugaespecialdepol_mof0uu0n",
+    "id": "plazavea_pechugaespecialdepol_mogv1104",
     "nombre": "Pechuga Especial de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -55,10 +55,10 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
+    "timestamp": "2026-04-27T07:12:41.044Z"
   },
   {
-    "id": "plazavea_muslosdepolloxkg_mof0uu0n",
+    "id": "plazavea_muslosdepolloxkg_mogv1104",
     "nombre": "Muslos de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -73,19 +73,19 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
+    "timestamp": "2026-04-27T07:12:41.044Z"
   },
   {
-    "id": "plazavea_muslosdepollosadiabo_mof0uu0n",
+    "id": "plazavea_muslosdepollosadiabo_mogv1104",
     "nombre": "Muslos de Pollo SADIA Bolsa 1kg",
     "categoria": "pollo",
     "super": "plazavea",
     "precios": {
-      "online": 12.9,
-      "regular": null,
+      "online": 11.6,
+      "regular": 12.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 12.9,
+      "porUnidad": 11.6,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -93,12 +93,30 @@
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
+    "timestamp": "2026-04-27T07:12:41.044Z"
   },
   {
-    "id": "plazavea_dedosdepolloavinka27_mof0uu0n",
+    "id": "plazavea_pollotrozadoen8pieza_mogv1104",
+    "nombre": "Pollo Trozado en 8 Piezas x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 10.2,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.2,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-27T07:12:41.044Z"
+  },
+  {
+    "id": "plazavea_dedosdepolloavinka27_mogv1104",
     "nombre": "Dedos de Pollo AVINKA 270g Bolsa 12un x 270g",
     "categoria": "pollo",
     "super": "plazavea",
@@ -117,32 +135,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
+    "timestamp": "2026-04-27T07:12:41.044Z"
   },
   {
-    "id": "plazavea_piernitasdepollosadi_mof0uu0n",
-    "nombre": "Piernitas de Pollo SADIA Bolsa 1kg",
-    "categoria": "pollo",
-    "super": "plazavea",
-    "precios": {
-      "online": 11.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 11.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 1,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
-  },
-  {
-    "id": "plazavea_piernaconencuentrode_mof0uu0n",
+    "id": "plazavea_piernaconencuentrode_mogv1104",
     "nombre": "Pierna con Encuentro de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -157,10 +153,10 @@
     "presentacion": null,
     "descuento": 3,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
+    "timestamp": "2026-04-27T07:12:41.044Z"
   },
   {
-    "id": "plazavea_filetedepiernadepoll_mof0uu0n",
+    "id": "plazavea_filetedepiernadepoll_mogv1104",
     "nombre": "Filete de Pierna de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -175,10 +171,10 @@
     "presentacion": null,
     "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
+    "timestamp": "2026-04-27T07:12:41.044Z"
   },
   {
-    "id": "plazavea_sasamidepolloxkg_mof0uu0n",
+    "id": "plazavea_sasamidepolloxkg_mogv1104",
     "nombre": "Sasami de Pollo x kg",
     "categoria": "pollo",
     "super": "plazavea",
@@ -193,6 +189,24 @@
     "presentacion": null,
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-26T00:20:17.399Z"
+    "timestamp": "2026-04-27T07:12:41.044Z"
+  },
+  {
+    "id": "plazavea_pechugaenteradepollo_mogv1104",
+    "nombre": "Pechuga Entera de Pollo x kg",
+    "categoria": "pollo",
+    "super": "plazavea",
+    "precios": {
+      "online": 13.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 13.5,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": null,
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-27T07:12:41.044Z"
   }
 ]
