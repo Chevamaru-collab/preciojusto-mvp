@@ -19,7 +19,7 @@
       },
       {
         "store": "Metro",
-        "price": 5.4
+        "price": 5.7
       },
       {
         "store": "Wong",
@@ -71,7 +71,7 @@
       },
       {
         "store": "Tottus",
-        "price": 39.11
+        "price": 28.8
       }
     ],
     "best_price": 18.5,
@@ -202,6 +202,10 @@
       {
         "store": "Wong",
         "price": 22.8
+      },
+      {
+        "store": "Tottus",
+        "price": 25.9
       }
     ],
     "best_price": 22.5,
@@ -253,7 +257,7 @@
       },
       {
         "store": "Metro",
-        "price": 15.2
+        "price": 15.9
       },
       {
         "store": "Wong",
@@ -308,10 +312,6 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Metro",
-        "price": 6.4
-      },
-      {
         "store": "Tottus",
         "price": 7.5
       },
@@ -320,12 +320,16 @@
         "price": 7.9
       },
       {
+        "store": "Metro",
+        "price": 7.9
+      },
+      {
         "store": "Wong",
         "price": 7.9
       }
     ],
-    "best_price": 6.4,
-    "best_store": "Metro"
+    "best_price": 7.5,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Fondant Blanco 1 KG",
@@ -391,7 +395,11 @@
       },
       {
         "store": "Metro",
-        "price": 10.5
+        "price": 10.99
+      },
+      {
+        "store": "Wong",
+        "price": 11.5
       }
     ],
     "best_price": 6.49,
@@ -414,6 +422,10 @@
       {
         "store": "Metro",
         "price": 16.9
+      },
+      {
+        "store": "Wong",
+        "price": 19.5
       },
       {
         "store": "Plaza Vea",
@@ -521,6 +533,10 @@
     "stores": [
       {
         "store": "Tottus",
+        "price": 6.89
+      },
+      {
+        "store": "Plaza Vea",
         "price": 6.9
       },
       {
@@ -529,14 +545,10 @@
       },
       {
         "store": "Metro",
-        "price": 9.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 11.2
+        "price": 11.6
       }
     ],
-    "best_price": 6.9,
+    "best_price": 6.89,
     "best_store": "Tottus"
   },
   {
@@ -590,6 +602,10 @@
       {
         "store": "Metro",
         "price": 17.9
+      },
+      {
+        "store": "Wong",
+        "price": 19.99
       }
     ],
     "best_price": 9.9,
@@ -610,16 +626,16 @@
         "price": 1.2
       },
       {
-        "store": "Metro",
-        "price": 9.5
+        "store": "Tottus",
+        "price": 9.9
       },
       {
         "store": "Wong",
-        "price": 9.5
+        "price": 9.9
       },
       {
-        "store": "Tottus",
-        "price": 9.9
+        "store": "Metro",
+        "price": 10.5
       }
     ],
     "best_price": 1.2,
