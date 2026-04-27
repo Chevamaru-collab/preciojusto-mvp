@@ -82,9 +82,9 @@ async function runAll() {
     utils.log(`  Catálogo: ${consolidado.stats.total} productos`, 'info');
     console.table(consolidado.stats.porSuper);
 
-    // Guardar para MVP en "master-data.json"
+    // Guardar para MVP en "master-data.json" (El Shield en utils.js creará el histórico automáticamente)
     utils.saveJSON('master-data.json', consolidado);
-    utils.log(`\n💾 Archivo consolidado guardado en /data/master-data.json`, 'ok');
+    utils.log(`\n💾 Archivo consolidado guardado en /data/master-data.json (Snapshot generado)`, 'ok');
 
     return consolidado;
 }

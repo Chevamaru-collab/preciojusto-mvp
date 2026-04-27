@@ -41,8 +41,26 @@ function log(message, level = 'info') {
 // ─── Guardar JSON ─────────────────────────────────────────────────────────────
 function saveJSON(filename, data) {
     const filepath = path.join(DATA_DIR, filename);
+
+    // [INDUSTRIAL-SHIELD] Si es el catálogo maestro, sacamos snapshot antes de chancar
+    if (filename === 'master-data.json' && fs.existsSync(filepath)) {
+        // Timestamp alta resolución (YYYY-MM-DD_HHmmss) para Lima GMT-5
+        const dateStr = new Date().toLocaleString('sv-SE', { timeZone: 'America/Lima' })
+            .replace(' ', '_')
+            .replace(/:/g, '')
+            .substring(0, 15);
+        
+        const histDir = path.join(DATA_DIR, '..', 'HistoricData');
+        if (!fs.existsSync(histDir)) fs.mkdirSync(histDir, { recursive: true });
+        
+        const backupPath = path.join(histDir, `${dateStr}_master-data.json`);
+        fs.copyFileSync(filepath, backupPath);
+        log(`[SHIELD] Snapshot histórico creado: ${dateStr}_master-data.json`, 'ok');
+    }
+
     fs.writeFileSync(filepath, JSON.stringify(data, null, 2), 'utf8');
-    log(`Guardado: ${filename} (${data.length} productos)`, 'ok');
+    const count = data.stats?.total || (Array.isArray(data) ? data.length : 0);
+    log(`Guardado: ${filename} (${count} items)`, 'ok');
 }
 
 // ─── Cargar JSON (si existe) ──────────────────────────────────────────────────
