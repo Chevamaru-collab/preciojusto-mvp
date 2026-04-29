@@ -1,28 +1,28 @@
 [
   {
-    "id": "plazavea_avenaquakertradicion_moim4loq",
-    "nombre": "Avena QUAKER Tradicional Bolsa 900g",
+    "id": "plazavea_avenaquakertradicion_mok5w65z",
+    "nombre": "Avena QUAKER Tradicional Bolsa 500g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 14.5,
+      "online": 8.2,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 16.11,
+      "porUnidad": 16.4,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 900,
+      "valor": 500,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.626Z"
+    "timestamp": "2026-04-29T14:40:08.759Z"
   },
   {
-    "id": "plazavea_avenabellsbolsa1kg_moim4lor",
+    "id": "plazavea_avenabellsbolsa1kg_mok5w65z",
     "nombre": "Avena BELL'S Bolsa 1Kg",
     "categoria": "avena",
     "super": "plazavea",
@@ -41,16 +41,38 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.759Z"
   },
   {
-    "id": "plazavea_avenaclsica3ositospr_moim4lor",
+    "id": "plazavea_avenaclsica3ositospr_mok5w65z",
     "nombre": "Avena Clásica 3 OSITOS Premium Bolsa 900g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 9.4,
+      "online": 9.3,
       "regular": 9.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 10.33,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 900,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-29T14:40:08.759Z"
+  },
+  {
+    "id": "plazavea_quinuaavena3ositosbo_mok5w65z",
+    "nombre": "Quinua Avena 3 OSITOS Bolsa 900g",
+    "categoria": "avena",
+    "super": "plazavea",
+    "precios": {
+      "online": 9.4,
+      "regular": 10.9,
       "tarjeta": null,
       "tarjetaDesc": null,
       "porUnidad": 10.44,
@@ -61,34 +83,12 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 5,
+    "descuento": 14,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.759Z"
   },
   {
-    "id": "plazavea_quinuaavena3ositosbo_moim4lor",
-    "nombre": "Quinua Avena 3 OSITOS Bolsa 900g",
-    "categoria": "avena",
-    "super": "plazavea",
-    "precios": {
-      "online": 10.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 12.11,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 900,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
-  },
-  {
-    "id": "plazavea_avenaintegralgranode_moim4lor",
+    "id": "plazavea_avenaintegralgranode_mok5w65z",
     "nombre": "Avena Integral GRANO DE ORO Bolsa 500g",
     "categoria": "avena",
     "super": "plazavea",
@@ -107,41 +107,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.759Z"
   },
   {
-    "id": "plazavea_avenaquakertradicion_moim4lor",
-    "nombre": "Avena QUAKER Tradicional Bolsa 500g",
-    "categoria": "avena",
-    "super": "plazavea",
-    "precios": {
-      "online": 8,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 16,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 500,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
-  },
-  {
-    "id": "plazavea_pandemoldeuninmultis_moim4lor",
+    "id": "plazavea_pandemoldeuninmultis_mok5w65z",
     "nombre": "Pan de Molde UNIÓN Multisemillas y Avena Bolsa 540g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 11,
-      "regular": 11.4,
+      "online": 10.39,
+      "regular": 11.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 20.37,
+      "porUnidad": 19.24,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -149,21 +127,21 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 4,
+    "descuento": 10,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.759Z"
   },
   {
-    "id": "plazavea_cerealangelcoposhech_moim4lor",
+    "id": "plazavea_cerealangelcoposhech_mok5w65z",
     "nombre": "Cereal ANGEL Copos Hechos con Avena Bolsa 380g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 9.7,
+      "online": 9.1,
       "regular": 10.8,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 25.53,
+      "porUnidad": 23.95,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -171,21 +149,21 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 10,
+    "descuento": 16,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.759Z"
   },
   {
-    "id": "plazavea_avenaquakerconmacabo_moim4lor",
+    "id": "plazavea_avenaquakerconmacabo_mok5w65z",
     "nombre": "Avena QUAKER Con Maca Bolsa 850g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 14.5,
-      "regular": null,
+      "online": 12.9,
+      "regular": 14.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 17.06,
+      "porUnidad": 15.18,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -193,21 +171,21 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 11,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.759Z"
   },
   {
-    "id": "plazavea_avenabellsbolsa500g_moim4lor",
+    "id": "plazavea_avenabellsbolsa500g_mok5w65z",
     "nombre": "Avena BELL'S Bolsa 500g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 4.1,
+      "online": 4.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 8.2,
+      "porUnidad": 9.8,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -217,19 +195,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.759Z"
   },
   {
-    "id": "plazavea_avenaconhojuelasingl_moim4lor",
+    "id": "plazavea_avenaconhojuelasingl_mok5w660",
     "nombre": "Avena con Hojuela sin Gluten LA PURITA Bolsa 800g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 18,
-      "regular": null,
+      "online": 17.9,
+      "regular": 18,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 22.5,
+      "porUnidad": 22.37,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -237,21 +215,21 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 1,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_avenaquakerconquinua_moim4lor",
+    "id": "plazavea_avenaquakerconquinua_mok5w660",
     "nombre": "Avena QUAKER Con Quinua Bolsa 850g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 14.5,
-      "regular": null,
+      "online": 12.9,
+      "regular": 14.5,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 17.06,
+      "porUnidad": 15.18,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -259,34 +237,34 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 11,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_avenaclsica3ositosbo_moim4lor",
-    "nombre": "Avena Clásica 3 OSITOS Bolsa 110g",
+    "id": "plazavea_avenaclsica3ositosbo_mok5w660",
+    "nombre": "Avena Clásica 3 OSITOS Bolsa 500g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 1.2,
+      "online": 6.5,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 10.91,
+      "porUnidad": 13,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 110,
+      "valor": 500,
       "unidad": "g",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_avenanaturalsantacat_moim4lor",
+    "id": "plazavea_avenanaturalsantacat_mok5w660",
     "nombre": "Avena Natural SANTA CATALINA Bolsa 900g",
     "categoria": "avena",
     "super": "plazavea",
@@ -305,10 +283,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_avenagranodeorobolsa_moim4lor",
+    "id": "plazavea_avenagranodeorobolsa_mok5w660",
     "nombre": "Avena GRANO DE ORO Bolsa 1Kg",
     "categoria": "avena",
     "super": "plazavea",
@@ -327,10 +305,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_avenaenhojuelasamaru_moim4lor",
+    "id": "plazavea_avenaenhojuelasamaru_mok5w660",
     "nombre": "Avena en Hojuelas AMARU Bolsa 900g",
     "categoria": "avena",
     "super": "plazavea",
@@ -349,32 +327,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_lecheactivavenaglori_moim4lor",
-    "nombre": "Leche Activavena GLORIA UHT Niños Caja 180ml Paquete 6un",
-    "categoria": "avena",
-    "super": "plazavea",
-    "precios": {
-      "online": 11.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 63.89,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 180,
-      "unidad": "ml",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
-  },
-  {
-    "id": "plazavea_packavenaquakertradi_moim4lor",
+    "id": "plazavea_packavenaquakertradi_mok5w660",
     "nombre": "Pack Avena QUAKER Tradicional Bolsa 900g x2un",
     "categoria": "avena",
     "super": "plazavea",
@@ -393,10 +349,10 @@
     },
     "descuento": 21,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_cerealenbarranaturav_moim4lor",
+    "id": "plazavea_cerealenbarranaturav_mok5w660",
     "nombre": "Cereal en Barra NATURA VALLEY Crunchy Miel y Avena Caja 253g",
     "categoria": "avena",
     "super": "plazavea",
@@ -415,10 +371,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_avenaquakerconchayal_moim4lor",
+    "id": "plazavea_avenaquakerconchayal_mok5w660",
     "nombre": "Avena QUAKER Con Chía y Algarrobo Bolsa 330g",
     "categoria": "avena",
     "super": "plazavea",
@@ -437,10 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_harinadeavenamitierr_moim4lor",
+    "id": "plazavea_harinadeavenamitierr_mok5w660",
     "nombre": "Harina de Avena MI TIERRA Sin Gluten Bolsa 400g",
     "categoria": "avena",
     "super": "plazavea",
@@ -459,41 +415,19 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
   },
   {
-    "id": "plazavea_harinadeavenaintegra_moim4lor",
-    "nombre": "Harina de Avena Integral LA CASA MARIMIEL Doypack 300g",
-    "categoria": "avena",
-    "super": "plazavea",
-    "precios": {
-      "online": 12.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 43,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 300,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
-  },
-  {
-    "id": "plazavea_avenaintegralmitierr_moim4lor",
+    "id": "plazavea_avenaintegralmitierr_mok5w660",
     "nombre": "Avena Integral MI TIERRA sin Gluten Bolsa 400g",
     "categoria": "avena",
     "super": "plazavea",
     "precios": {
-      "online": 10,
-      "regular": null,
+      "online": 8.5,
+      "regular": 10,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 25,
+      "porUnidad": 21.25,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -501,8 +435,74 @@
       "unidad": "g",
       "pack": 1
     },
+    "descuento": 15,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-29T14:40:08.760Z"
+  },
+  {
+    "id": "plazavea_avenaconchocolatesan_mok5w660",
+    "nombre": "Avena con Chocolate SANTA CATALINA Bolsa 150g",
+    "categoria": "avena",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 36.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-28T12:39:03.627Z"
+    "timestamp": "2026-04-29T14:40:08.760Z"
+  },
+  {
+    "id": "plazavea_avenaconmanzanasanta_mok5w660",
+    "nombre": "Avena con Manzana SANTA CATALINA Bolsa 150g",
+    "categoria": "avena",
+    "super": "plazavea",
+    "precios": {
+      "online": 5.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 36.67,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 150,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-29T14:40:08.760Z"
+  },
+  {
+    "id": "plazavea_avenaconcerealesandi_mok5w660",
+    "nombre": "Avena con Cereales Andinos Premium 3 OSITOS Bolsa 270g",
+    "categoria": "avena",
+    "super": "plazavea",
+    "precios": {
+      "online": 4.9,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 18.15,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 270,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-04-29T14:40:08.760Z"
   }
 ]
