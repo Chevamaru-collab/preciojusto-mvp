@@ -41,7 +41,7 @@
     "stores": [
       {
         "store": "Tottus",
-        "price": 13.5
+        "price": 9.7
       },
       {
         "store": "Plaza Vea",
@@ -52,7 +52,7 @@
         "price": 15.5
       }
     ],
-    "best_price": 13.5,
+    "best_price": 9.7,
     "best_store": "Tottus"
   },
   {
@@ -71,7 +71,7 @@
       },
       {
         "store": "Tottus",
-        "price": 28.8
+        "price": 39.11
       }
     ],
     "best_price": 18.5,
@@ -97,7 +97,7 @@
       },
       {
         "store": "Tottus",
-        "price": 6.6
+        "price": 6.4
       },
       {
         "store": "Wong",
@@ -118,20 +118,20 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 9.4
+        "store": "Tottus",
+        "price": 8.9
       },
       {
-        "store": "Tottus",
-        "price": 9.9
+        "store": "Plaza Vea",
+        "price": 9.4
       },
       {
         "store": "Wong",
         "price": 18.2
       }
     ],
-    "best_price": 9.4,
-    "best_store": "Plaza Vea"
+    "best_price": 8.9,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Avena Instantanea 0.5 KG",
@@ -166,8 +166,8 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 3.9
+        "store": "Wong",
+        "price": 4.8
       },
       {
         "store": "Metro",
@@ -176,14 +176,10 @@
       {
         "store": "Plaza Vea",
         "price": 5.5
-      },
-      {
-        "store": "Wong",
-        "price": 5.5
       }
     ],
-    "best_price": 3.9,
-    "best_store": "Tottus"
+    "best_price": 4.8,
+    "best_store": "Wong"
   },
   {
     "canonical_name": "Azucar Blanca 5 KG",
@@ -390,12 +386,12 @@
         "price": 6.49
       },
       {
-        "store": "Plaza Vea",
+        "store": "Metro",
         "price": 9.9
       },
       {
-        "store": "Metro",
-        "price": 9.9
+        "store": "Plaza Vea",
+        "price": 10.5
       },
       {
         "store": "Wong",
@@ -545,7 +541,7 @@
       },
       {
         "store": "Metro",
-        "price": 15.4
+        "price": 11.9
       }
     ],
     "best_price": 6.9,
@@ -738,10 +734,6 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 4.5
-      },
-      {
         "store": "Metro",
         "price": 4.5
       },
@@ -752,9 +744,13 @@
       {
         "store": "Tottus",
         "price": 4.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 5.2
       }
     ],
     "best_price": 4.5,
-    "best_store": "Plaza Vea"
+    "best_store": "Metro"
   }
 ]
