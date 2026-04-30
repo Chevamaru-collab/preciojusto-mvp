@@ -127,7 +127,7 @@
       },
       {
         "store": "Wong",
-        "price": 9.9
+        "price": 18.2
       }
     ],
     "best_price": 9.4,
@@ -150,10 +150,6 @@
       {
         "store": "Metro",
         "price": 4.8
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 6.5
       }
     ],
     "best_price": 4.5,
@@ -170,20 +166,24 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 4.6
+        "store": "Tottus",
+        "price": 3.9
       },
       {
         "store": "Metro",
-        "price": 5.45
+        "price": 5.1
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 5.5
       },
       {
         "store": "Wong",
         "price": 5.5
       }
     ],
-    "best_price": 4.6,
-    "best_store": "Plaza Vea"
+    "best_price": 3.9,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Azucar Blanca 5 KG",
@@ -545,7 +545,7 @@
       },
       {
         "store": "Metro",
-        "price": 13.99
+        "price": 15.4
       }
     ],
     "best_price": 6.9,
@@ -601,10 +601,6 @@
       },
       {
         "store": "Metro",
-        "price": 17.9
-      },
-      {
-        "store": "Wong",
         "price": 17.9
       }
     ],
