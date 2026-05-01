@@ -40,19 +40,41 @@
     "normalized_unit": "liter",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 9.7
-      },
-      {
         "store": "Plaza Vea",
         "price": 15.5
       },
       {
         "store": "Metro",
         "price": 15.5
+      },
+      {
+        "store": "Tottus",
+        "price": 17.2
       }
     ],
-    "best_price": 9.7,
+    "best_price": 15.5,
+    "best_store": "Plaza Vea"
+  },
+  {
+    "canonical_name": "Aceite Vegetal 5 LT",
+    "product_name": "Aceite Vegetal 5 LT",
+    "comparison_group": "Aceite Vegetal",
+    "category": "Aceite",
+    "presentation": 5,
+    "unit": "LT",
+    "price_unit": "liter",
+    "normalized_unit": "liter",
+    "stores": [
+      {
+        "store": "Tottus",
+        "price": 18.5
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 18.5
+      }
+    ],
+    "best_price": 18.5,
     "best_store": "Tottus"
   },
   {
@@ -66,11 +88,11 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Metro",
-        "price": 4.8
+        "store": "Plaza Vea",
+        "price": 5.5
       },
       {
-        "store": "Plaza Vea",
+        "store": "Metro",
         "price": 5.5
       },
       {
@@ -82,8 +104,8 @@
         "price": 6.7
       }
     ],
-    "best_price": 4.8,
-    "best_store": "Metro"
+    "best_price": 5.5,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Avena Hojuelas 1 KG",
@@ -127,7 +149,7 @@
       },
       {
         "store": "Metro",
-        "price": 4.8
+        "price": 5.6
       }
     ],
     "best_price": 4.5,
@@ -145,7 +167,11 @@
     "stores": [
       {
         "store": "Metro",
-        "price": 4.8
+        "price": 5.45
+      },
+      {
+        "store": "Tottus",
+        "price": 5.5
       },
       {
         "store": "Plaza Vea",
@@ -156,7 +182,7 @@
         "price": 5.5
       }
     ],
-    "best_price": 4.8,
+    "best_price": 5.45,
     "best_store": "Metro"
   },
   {
@@ -234,16 +260,16 @@
         "price": 14.9
       },
       {
+        "store": "Plaza Vea",
+        "price": 14.9
+      },
+      {
         "store": "Metro",
         "price": 15.2
       },
       {
         "store": "Wong",
         "price": 15.9
-      },
-      {
-        "store": "Plaza Vea",
-        "price": 22.7
       }
     ],
     "best_price": 14.9,
@@ -368,11 +394,11 @@
         "price": 6.49
       },
       {
-        "store": "Plaza Vea",
-        "price": 10.5
+        "store": "Metro",
+        "price": 10.2
       },
       {
-        "store": "Metro",
+        "store": "Plaza Vea",
         "price": 10.5
       },
       {
@@ -398,16 +424,12 @@
         "price": 15.5
       },
       {
-        "store": "Metro",
-        "price": 16.9
-      },
-      {
         "store": "Plaza Vea",
         "price": 17.5
       },
       {
         "store": "Wong",
-        "price": 19.5
+        "price": 20.9
       }
     ],
     "best_price": 15.5,
@@ -424,12 +446,12 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Tottus",
+        "store": "Plaza Vea",
         "price": 4
       },
       {
-        "store": "Plaza Vea",
-        "price": 4
+        "store": "Tottus",
+        "price": 4.2
       },
       {
         "store": "Metro",
@@ -441,7 +463,7 @@
       }
     ],
     "best_price": 4,
-    "best_store": "Tottus"
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Leche UHT 0.8 LT",
@@ -463,7 +485,7 @@
       },
       {
         "store": "Metro",
-        "price": 4.8
+        "price": 4.3
       },
       {
         "store": "Wong",
@@ -519,7 +541,7 @@
       },
       {
         "store": "Plaza Vea",
-        "price": 10.8
+        "price": 6.9
       },
       {
         "store": "Metro",
@@ -540,12 +562,12 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 11.9
+        "store": "Plaza Vea",
+        "price": 9.9
       },
       {
-        "store": "Plaza Vea",
-        "price": 13.4
+        "store": "Tottus",
+        "price": 11.9
       },
       {
         "store": "Wong",
@@ -556,8 +578,8 @@
         "price": 14.5
       }
     ],
-    "best_price": 11.9,
-    "best_store": "Tottus"
+    "best_price": 9.9,
+    "best_store": "Plaza Vea"
   },
   {
     "canonical_name": "Mantequilla Sal 0.4 KG",
@@ -580,10 +602,6 @@
       {
         "store": "Plaza Vea",
         "price": 16.5
-      },
-      {
-        "store": "Wong",
-        "price": 19.99
       }
     ],
     "best_price": 9.9,
@@ -605,15 +623,15 @@
       },
       {
         "store": "Tottus",
-        "price": 10.2
+        "price": 9.9
       },
       {
         "store": "Metro",
-        "price": 10.5
+        "price": 10.9
       },
       {
         "store": "Wong",
-        "price": 10.5
+        "price": 10.9
       }
     ],
     "best_price": 1.2,
