@@ -56,28 +56,6 @@
     "best_store": "Tottus"
   },
   {
-    "canonical_name": "Aceite Vegetal 5 LT",
-    "product_name": "Aceite Vegetal 5 LT",
-    "comparison_group": "Aceite Vegetal",
-    "category": "Aceite",
-    "presentation": 5,
-    "unit": "LT",
-    "price_unit": "liter",
-    "normalized_unit": "liter",
-    "stores": [
-      {
-        "store": "Plaza Vea",
-        "price": 18.5
-      },
-      {
-        "store": "Tottus",
-        "price": 39.11
-      }
-    ],
-    "best_price": 18.5,
-    "best_store": "Plaza Vea"
-  },
-  {
     "canonical_name": "Avena Hojuelas 0.5 KG",
     "product_name": "Avena Hojuelas 0.5 KG",
     "comparison_group": "Avena Hojuelas",
@@ -166,20 +144,20 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Wong",
-        "price": 4.8
-      },
-      {
         "store": "Metro",
-        "price": 5.1
+        "price": 4.8
       },
       {
         "store": "Plaza Vea",
         "price": 5.5
+      },
+      {
+        "store": "Wong",
+        "price": 5.5
       }
     ],
     "best_price": 4.8,
-    "best_store": "Wong"
+    "best_store": "Metro"
   },
   {
     "canonical_name": "Azucar Blanca 5 KG",
@@ -202,6 +180,10 @@
       {
         "store": "Wong",
         "price": 22.8
+      },
+      {
+        "store": "Tottus",
+        "price": 25.9
       }
     ],
     "best_price": 22.5,
@@ -386,16 +368,16 @@
         "price": 6.49
       },
       {
-        "store": "Metro",
-        "price": 9.9
-      },
-      {
         "store": "Plaza Vea",
         "price": 10.5
       },
       {
+        "store": "Metro",
+        "price": 10.5
+      },
+      {
         "store": "Wong",
-        "price": 11.5
+        "price": 10.5
       }
     ],
     "best_price": 6.49,
@@ -451,7 +433,7 @@
       },
       {
         "store": "Metro",
-        "price": 4.1
+        "price": 4.2
       },
       {
         "store": "Wong",
@@ -528,11 +510,11 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Tottus",
-        "price": 6.9
+        "store": "Wong",
+        "price": 6.5
       },
       {
-        "store": "Wong",
+        "store": "Tottus",
         "price": 6.9
       },
       {
@@ -541,11 +523,11 @@
       },
       {
         "store": "Metro",
-        "price": 11.9
+        "price": 15.4
       }
     ],
-    "best_price": 6.9,
-    "best_store": "Tottus"
+    "best_price": 6.5,
+    "best_store": "Wong"
   },
   {
     "canonical_name": "Mantequilla Sal 0.2 KG",
@@ -558,12 +540,12 @@
     "normalized_unit": "kilogram",
     "stores": [
       {
-        "store": "Plaza Vea",
-        "price": 9.9
-      },
-      {
         "store": "Tottus",
         "price": 11.9
+      },
+      {
+        "store": "Plaza Vea",
+        "price": 13.4
       },
       {
         "store": "Wong",
@@ -571,11 +553,11 @@
       },
       {
         "store": "Metro",
-        "price": 15.3
+        "price": 14.5
       }
     ],
-    "best_price": 9.9,
-    "best_store": "Plaza Vea"
+    "best_price": 11.9,
+    "best_store": "Tottus"
   },
   {
     "canonical_name": "Mantequilla Sal 0.4 KG",
@@ -592,12 +574,16 @@
         "price": 9.9
       },
       {
+        "store": "Metro",
+        "price": 15.9
+      },
+      {
         "store": "Plaza Vea",
         "price": 16.5
       },
       {
-        "store": "Metro",
-        "price": 17.9
+        "store": "Wong",
+        "price": 19.99
       }
     ],
     "best_price": 9.9,
@@ -619,7 +605,7 @@
       },
       {
         "store": "Tottus",
-        "price": 9.9
+        "price": 10.2
       },
       {
         "store": "Metro",

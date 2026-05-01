@@ -1,6 +1,6 @@
 [
   {
-    "id": "wong_azcarrubiawongbolsa5_molgk8rg",
+    "id": "wong_azcarrubiawongbolsa5_momcgmpc",
     "nombre": "Azúcar Rubia Wong Bolsa 5 kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -19,10 +19,10 @@
     },
     "descuento": 16,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-30T12:26:34.204Z"
+    "timestamp": "2026-05-01T03:19:33.360Z"
   },
   {
-    "id": "wong_azcarrubiaparamongab_molgk8rg",
+    "id": "wong_azcarrubiaparamongab_momcgmpc",
     "nombre": "Azúcar Rubia Paramonga Bolsa 5 kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -41,32 +41,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-30T12:26:34.204Z"
+    "timestamp": "2026-05-01T03:19:33.360Z"
   },
   {
-    "id": "wong_azcarrubiadulfinabol_molgk8rg",
-    "nombre": "Azúcar Rubia Dulfina Bolsa 1 kg",
+    "id": "wong_azcarrubiadulfinabol_momcgmpc",
+    "nombre": "Azúcar Rubia Dulfina Bolsa 5 kg",
     "categoria": "azucar-rubia",
     "super": "wong",
     "precios": {
-      "online": 4.8,
-      "regular": 4.8,
+      "online": 19.4,
+      "regular": 20.99,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.8,
+      "porUnidad": 3.88,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 1,
+      "valor": 5,
       "unidad": "kg",
       "pack": 1
     },
-    "descuento": null,
+    "descuento": 8,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-30T12:26:34.204Z"
+    "timestamp": "2026-05-01T03:19:33.360Z"
   },
   {
-    "id": "wong_azcarrubiacuisineco5_molgk8rg",
+    "id": "wong_azcarrubiacuisineco5_momcgmpc",
     "nombre": "Azúcar Rubia Cuisine & Co 5kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -85,10 +85,10 @@
     },
     "descuento": 15,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-30T12:26:34.204Z"
+    "timestamp": "2026-05-01T03:19:33.360Z"
   },
   {
-    "id": "wong_azcarrubiaparamonga1_molgk8rg",
+    "id": "wong_azcarrubiaparamonga1_momcgmpc",
     "nombre": "Azúcar Rubia Paramonga 1kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -107,10 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-30T12:26:34.204Z"
+    "timestamp": "2026-05-01T03:19:33.360Z"
   },
   {
-    "id": "wong_azcarrubiacuisineco1_molgk8rg",
+    "id": "wong_azcarrubiacuisineco1_momcgmpc",
     "nombre": "Azúcar Rubia Cuisine & Co 1kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -129,10 +129,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-30T12:26:34.204Z"
+    "timestamp": "2026-05-01T03:19:33.360Z"
   },
   {
-    "id": "wong_azcarrubiawong1kg_molgk8rg",
+    "id": "wong_azcarrubiawong1kg_momcgmpc",
     "nombre": "Azúcar Rubia Wong 1kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -151,10 +151,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-30T12:26:34.204Z"
+    "timestamp": "2026-05-01T03:19:33.360Z"
   },
   {
-    "id": "wong_azcarrubiawongbolsa2_molgk8rg",
+    "id": "wong_azcarrubiawongbolsa2_momcgmpc",
     "nombre": "Azúcar Rubia Wong Bolsa 2 kg",
     "categoria": "azucar-rubia",
     "super": "wong",
@@ -173,6 +173,28 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-04-30T12:26:34.204Z"
+    "timestamp": "2026-05-01T03:19:33.360Z"
+  },
+  {
+    "id": "wong_azcarrubiadulfinabol_momcgmpd",
+    "nombre": "Azúcar Rubia Dulfina Bolsa 1 kg",
+    "categoria": "azucar-rubia",
+    "super": "wong",
+    "precios": {
+      "online": 4.8,
+      "regular": 4.8,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.8,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 1,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-01T03:19:33.361Z"
   }
 ]
