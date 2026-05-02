@@ -1,270 +1,28 @@
 [
   {
-    "id": "tottus_faraonarrozfaranextr_mon3qijr",
-    "nombre": "FARAON Arroz Faraón Extra Añejo Premium Bolsa 10 Kg",
+    "id": "tottus_faraonarrozfaranextr_moo1uufj",
+    "nombre": "FARAON Arroz Faraón Extra Bolsa 5 Kg",
     "categoria": "arroz",
     "super": "tottus",
     "precios": {
-      "online": 49.5,
+      "online": 26.9,
       "regular": null,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 4.95,
+      "porUnidad": 5.38,
       "porUnidadTarjeta": null
     },
     "presentacion": {
-      "valor": 10,
+      "valor": 5,
       "unidad": "kg",
       "pack": 1
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
+    "timestamp": "2026-05-02T07:58:13.134Z"
   },
   {
-    "id": "tottus_tottusarrozextratott_mon3qijr",
-    "nombre": "TOTTUS Arroz Extra Tottus Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 18.9,
-      "regular": 19.9,
-      "tarjeta": 17.9,
-      "tarjetaDesc": "CMR",
-      "porUnidad": 3.78,
-      "porUnidadTarjeta": 3.58
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 5,
-    "descuentoTarjeta": 10,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_costenoarrozextracos_mon3qijr",
-    "nombre": "COSTENO Arroz Extra Costeño Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 23.4,
-      "regular": 28.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.68,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 18,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_costenoarrozcosteoex_mon3qijr",
-    "nombre": "COSTENO Arroz Costeño Extra Añejo Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 20.8,
-      "regular": 28.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.16,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 27,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_vallenortearrozextra_mon3qijr",
-    "nombre": "VALLENORTE Arroz Extra Valle Norte Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 22.9,
-      "regular": 26.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.58,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 15,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_granchalanarrozgranc_mon3qijr",
-    "nombre": "GRAN CHALAN Arroz Gran Chalán Extra Añejo Bolsa 10 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 41.5,
-      "regular": 44.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.15,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 10,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 7,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_paisanaarrozsuperior_mon3qijr",
-    "nombre": "PAISANA Arroz Superior Paisana Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 19.5,
-      "regular": 24.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.9,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 22,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_paisanaarrozextrapai_mon3qijr",
-    "nombre": "PAISANA Arroz Extra Paisana Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 21.2,
-      "regular": 25.9,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.24,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 18,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_granchalanarrozextra_mon3qijr",
-    "nombre": "GRAN CHALAN Arroz Extra Gran Chalán Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 21.1,
-      "regular": 23.4,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.22,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 10,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_tottusarrozsuperiort_mon3qijr",
-    "nombre": "TOTTUS Arroz Superior Tottus Bolsa 10 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 36.9,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 3.69,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 10,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_costenoarrozsuperior_mon3qijr",
-    "nombre": "COSTENO Arroz Superior Costeño Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 21.9,
-      "regular": 25.5,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.38,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": 14,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_faraonarrozextrafara_mon3qijs",
-    "nombre": "FARAON Arroz Extra Faraón Bolsa 750 g",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 4.4,
-      "regular": 4.49,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.87,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": 2,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.167Z"
-  },
-  {
-    "id": "tottus_tottusarrozextratott_mon3qijs",
+    "id": "tottus_tottusarrozextratott_moo1uufk",
     "nombre": "TOTTUS Arroz Extra Tottus Bolsa 10 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -283,10 +41,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.136Z"
   },
   {
-    "id": "tottus_costenoarrozextracos_mon3qijs",
+    "id": "tottus_costenoarrozextracos_moo1uufk",
     "nombre": "COSTENO Arroz Extra Costeño Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -305,10 +63,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.136Z"
   },
   {
-    "id": "tottus_costenoarrozcosteoex_mon3qijs",
+    "id": "tottus_costenoarrozcosteoex_moo1uufk",
     "nombre": "COSTENO Arroz Costeño Extra Añejo Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -327,10 +85,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.136Z"
   },
   {
-    "id": "tottus_vallenortearrozextra_mon3qijs",
+    "id": "tottus_vallenortearrozextra_moo1uufk",
     "nombre": "VALLENORTE Arroz Extra Valle Norte Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -349,98 +107,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.136Z"
   },
   {
-    "id": "tottus_tottuspremiumarrozex_mon3qijs",
-    "nombre": "TOTTUS PREMIUM Arroz Extra Añejo Tottus Premium Bolsa 750 g",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 4.1,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 5.47,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
-  },
-  {
-    "id": "tottus_tottusarrozintegralt_mon3qijs",
-    "nombre": "TOTTUS Arroz Integral Tottus Bolsa 5 Kg",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 23.6,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.72,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 5,
-      "unidad": "kg",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
-  },
-  {
-    "id": "tottus_tottusarrozsuperiort_mon3qijs",
-    "nombre": "TOTTUS Arroz Superior Tottus Bolsa 750 g",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 3.1,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 4.13,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
-  },
-  {
-    "id": "tottus_vallenortearrozsuper_mon3qijs",
-    "nombre": "VALLENORTE Arroz Superior Vallenorte Bolsa 750 g",
-    "categoria": "arroz",
-    "super": "tottus",
-    "precios": {
-      "online": 4.5,
-      "regular": null,
-      "tarjeta": null,
-      "tarjetaDesc": null,
-      "porUnidad": 6,
-      "porUnidadTarjeta": null
-    },
-    "presentacion": {
-      "valor": 750,
-      "unidad": "g",
-      "pack": 1
-    },
-    "descuento": null,
-    "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
-  },
-  {
-    "id": "tottus_granchalanarrozgranc_mon3qijs",
+    "id": "tottus_granchalanarrozgranc_moo1uufk",
     "nombre": "GRAN CHALAN Arroz Gran Chalán Extra Añejo Bolsa 5 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -459,19 +129,151 @@
     },
     "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.136Z"
   },
   {
-    "id": "tottus_granchalanarrozsuper_mon3qijs",
-    "nombre": "GRAN CHALAN Arroz Superior Gran Chalán Bolsa 750 g",
+    "id": "tottus_paisanaarrozsuperior_moo1uufk",
+    "nombre": "PAISANA Arroz Superior Paisana Bolsa 5 Kg",
     "categoria": "arroz",
     "super": "tottus",
     "precios": {
-      "online": 3.8,
-      "regular": 4,
+      "online": 19.5,
+      "regular": 24.9,
       "tarjeta": null,
       "tarjetaDesc": null,
-      "porUnidad": 5.07,
+      "porUnidad": 3.9,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 22,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_paisanaarrozextrapai_moo1uufk",
+    "nombre": "PAISANA Arroz Extra Paisana Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 21.2,
+      "regular": 25.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.24,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 18,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_faraonarrozfaranextr_moo1uufk",
+    "nombre": "FARAON Arroz Faraón Extra Añejo Premium Bolsa 10 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 49.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.95,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 10,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_granchalanarrozextra_moo1uufk",
+    "nombre": "GRAN CHALAN Arroz Extra Gran Chalán Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 21.1,
+      "regular": 23.4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.22,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 10,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_tottusarrozsuperiort_moo1uufk",
+    "nombre": "TOTTUS Arroz Superior Tottus Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 17.1,
+      "regular": 18.7,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.42,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 9,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_costenoarrozsuperior_moo1uufk",
+    "nombre": "COSTENO Arroz Superior Costeño Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 21.9,
+      "regular": 25.5,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.38,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_faraonarrozextrafara_moo1uufk",
+    "nombre": "FARAON Arroz Extra Faraón Bolsa 750 g",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 4.4,
+      "regular": 4.49,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.87,
       "porUnidadTarjeta": null
     },
     "presentacion": {
@@ -479,12 +281,100 @@
       "unidad": "g",
       "pack": 1
     },
-    "descuento": 5,
+    "descuento": 2,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.136Z"
   },
   {
-    "id": "tottus_faraonarrozfaransupe_mon3qijs",
+    "id": "tottus_tottuspremiumarrozex_moo1uufk",
+    "nombre": "TOTTUS PREMIUM Arroz Extra Añejo Tottus Premium Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 22.7,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.54,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_tottusarrozintegralt_moo1uufk",
+    "nombre": "TOTTUS Arroz Integral Tottus Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 23.6,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.72,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_vallenortearrozsuper_moo1uufk",
+    "nombre": "VALLENORTE Arroz Superior Vallenorte Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 18.9,
+      "regular": 21.9,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 3.78,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 14,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_granchalanarrozsuper_moo1uufk",
+    "nombre": "GRAN CHALAN Arroz Superior Gran Chalán Bolsa 5 Kg",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 20.4,
+      "regular": 21.6,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.08,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 5,
+      "unidad": "kg",
+      "pack": 1
+    },
+    "descuento": 6,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.136Z"
+  },
+  {
+    "id": "tottus_faraonarrozfaransupe_moo1uufl",
     "nombre": "FARAON Arroz Faraón Superior Bolsa 5 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -503,10 +393,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.136Z"
   },
   {
-    "id": "tottus_paisanaarrozintegral_mon3qijs",
+    "id": "tottus_paisanaarrozintegral_moo1uufl",
     "nombre": "PAISANA Arroz Integral Paisana Bolsa 1 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -525,10 +415,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_tottusarrozextrainte_mon3qijs",
+    "id": "tottus_tottusarrozextrainte_moo1uufl",
     "nombre": "TOTTUS Arroz Extra Integral Tottus Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -547,10 +437,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_paisanaarrozsuperior_mon3qijs",
+    "id": "tottus_paisanaarrozsuperior_moo1uufl",
     "nombre": "PAISANA Arroz Superior Paisana Bolsa 1 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -569,10 +459,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_paisanaarrozextrapai_mon3qijs",
+    "id": "tottus_paisanaarrozextrapai_moo1uufl",
     "nombre": "PAISANA Arroz Extra Paisana Bolsa 1 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -591,10 +481,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_pacasmayoarrozpacasm_mon3qijs",
+    "id": "tottus_pacasmayoarrozpacasm_moo1uufl",
     "nombre": "PACASMAYO Arroz Pacasmayo Etra Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -613,10 +503,32 @@
     },
     "descuento": 7,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_faraonarrozsuperiorf_mon3qijs",
+    "id": "tottus_tottusarrozsuperiort_moo1uufl",
+    "nombre": "TOTTUS Arroz Superior Tottus Bolsa 750 g",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 3.1,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 4.13,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.137Z"
+  },
+  {
+    "id": "tottus_faraonarrozsuperiorf_moo1uufl",
     "nombre": "FARAON Arroz Superior Faraón Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -635,10 +547,10 @@
     },
     "descuento": 2,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_costenoarrozparboliz_mon3qijs",
+    "id": "tottus_costenoarrozparboliz_moo1uufl",
     "nombre": "COSTENO Arroz Parbolizado Costeño Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -657,10 +569,32 @@
     },
     "descuento": 2,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_vallenortearrozaejos_mon3qijs",
+    "id": "tottus_vallenortearrozsuper_moo1uufl",
+    "nombre": "VALLENORTE Arroz Superior Vallenorte Bolsa 750 g",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 4.5,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 6,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.137Z"
+  },
+  {
+    "id": "tottus_vallenortearrozaejos_moo1uufl",
     "nombre": "VALLENORTE Arroz Añejo Superior Valle Norte Bolsa 5 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -679,10 +613,10 @@
     },
     "descuento": 13,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_delsurarrozsuperextr_mon3qijs",
+    "id": "tottus_delsurarrozsuperextr_moo1uufl",
     "nombre": "DEL SUR Arroz Super Extra Del Sur Bolsa 5 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -701,10 +635,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_costenoarrozarborioc_mon3qijs",
+    "id": "tottus_costenoarrozarborioc_moo1uufl",
     "nombre": "COSTENO Arroz Arborio Costeño Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -723,10 +657,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_vallenortearrozinteg_mon3qijs",
+    "id": "tottus_vallenortearrozinteg_moo1uufl",
     "nombre": "VALLENORTE Arroz Integral Valle Norte Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -745,10 +679,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_granchalanarrozextra_mon3qijs",
+    "id": "tottus_granchalanarrozextra_moo1uufl",
     "nombre": "GRAN CHALAN Arroz Extra Natural Gran Chalan Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -767,10 +701,32 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_faraonarrozblancoaej_mon3qijs",
+    "id": "tottus_tottuspremiumarrozex_moo1uufl",
+    "nombre": "TOTTUS PREMIUM Arroz Extra Añejo Tottus Premium Bolsa 750 g",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 4.1,
+      "regular": null,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.47,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": null,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.137Z"
+  },
+  {
+    "id": "tottus_faraonarrozblancoaej_moo1uufl",
     "nombre": "FARAON Arroz Blanco Añejo Faraon Verde Bolsa 5 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -789,10 +745,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_costenoarrozsuperior_mon3qijs",
+    "id": "tottus_costenoarrozsuperior_moo1uufl",
     "nombre": "COSTENO Arroz Superior Costeño Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -811,10 +767,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_granchalanarrozinteg_mon3qijs",
+    "id": "tottus_granchalanarrozinteg_moo1uufl",
     "nombre": "GRAN CHALAN Arroz Integral Gran Chalan Bolsa 750 g",
     "categoria": "arroz",
     "super": "tottus",
@@ -833,10 +789,32 @@
     },
     "descuento": 17,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_preciounoarrozprecio_mon3qijs",
+    "id": "tottus_granchalanarrozsuper_moo1uufl",
+    "nombre": "GRAN CHALAN Arroz Superior Gran Chalán Bolsa 750 g",
+    "categoria": "arroz",
+    "super": "tottus",
+    "precios": {
+      "online": 3.8,
+      "regular": 4,
+      "tarjeta": null,
+      "tarjetaDesc": null,
+      "porUnidad": 5.07,
+      "porUnidadTarjeta": null
+    },
+    "presentacion": {
+      "valor": 750,
+      "unidad": "g",
+      "pack": 1
+    },
+    "descuento": 5,
+    "descuentoTarjeta": null,
+    "timestamp": "2026-05-02T07:58:13.137Z"
+  },
+  {
+    "id": "tottus_preciounoarrozprecio_moo1uufl",
     "nombre": "PRECIO UNO Arroz Precio Uno Familiar Bolsa 10 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -855,10 +833,10 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   },
   {
-    "id": "tottus_paisanaarrozfortific_mon3qijs",
+    "id": "tottus_paisanaarrozfortific_moo1uufl",
     "nombre": "PAISANA Arroz Fortificado Paisana Superior Bolsa 1 Kg",
     "categoria": "arroz",
     "super": "tottus",
@@ -877,6 +855,6 @@
     },
     "descuento": null,
     "descuentoTarjeta": null,
-    "timestamp": "2026-05-01T16:03:04.168Z"
+    "timestamp": "2026-05-02T07:58:13.137Z"
   }
 ]
